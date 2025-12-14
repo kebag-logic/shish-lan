@@ -264,7 +264,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "buck_3V3.kicad_sch"
+		(property "Sheetfile" "buck_3v3.kicad_sch"
 			(at 208.28 80.5946 0)
 			(effects
 				(font
