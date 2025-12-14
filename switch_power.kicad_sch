@@ -1,0 +1,34 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "59f4f346-4706-4e96-896a-ef9ad8b1414a")
+	(paper "A4")
+	(title_block
+		(title "Power Switch")
+		(date "2025-12-14")
+		(rev "RevA")
+		(company "Kebag-Logic <contact@kebag-logic.com.")
+	)
+	(lib_symbols)
+	(text_box "Documentation found here:\nhttps://www.ti.com/product/TPS564257"
+		(exclude_from_sim no)
+		(at 24.13 16.51 0)
+		(size 43.18 11.43)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "88ca7ef0-6d17-4f52-b448-4594ebb800ce")
+	)
+)

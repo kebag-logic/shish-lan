@@ -1,0 +1,362 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "d4536448-b109-4159-96e2-3dc21baf2d6e")
+	(paper "A4")
+	(title_block
+		(title "TOP level overview")
+		(date "2025-12-14")
+		(rev "rev A")
+		(company "Kebag-logic <contact@kebag-logic.com>")
+	)
+	(lib_symbols)
+	(sheet
+		(at 208.28 87.63)
+		(size 27.94 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "01eb575a-1d59-4a69-bc96-556550821437")
+		(property "Sheetname" "buck_1V1"
+			(at 208.28 86.9184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "buck_1v1.kicad_sch"
+			(at 208.28 95.8346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "5-12V" input
+			(at 208.28 90.17 180)
+			(uuid "31099b4e-3420-4601-bb60-7e51e05fe907")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" input
+			(at 208.28 93.98 180)
+			(uuid "aa2f7c82-ac98-4360-acfd-f566f8a0f834")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1V1" output
+			(at 236.22 90.17 0)
+			(uuid "d67748bf-dfbb-4dd9-a8bf-61d9b5c6d8af")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "shish-lan"
+				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 208.28 55.88)
+		(size 26.67 8.89)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "26018afe-9a3f-470b-9f83-97ea73935575")
+		(property "Sheetname" "buck_2V5"
+			(at 208.28 55.1684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "buck_2v5.kicad_sch"
+			(at 208.28 65.3546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "2V5" output
+			(at 234.95 57.15 0)
+			(uuid "747c0ad9-fc7e-484e-90d0-3dc8da146c88")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "5-12V" input
+			(at 208.28 57.15 180)
+			(uuid "eb25ebea-fa38-4b85-b54a-a16146d389d5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" input
+			(at 208.28 60.96 180)
+			(uuid "9a15bc9a-e4fe-4067-b1db-34a093f2a97f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "shish-lan"
+				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 147.32 57.15)
+		(size 26.67 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2bafa2eb-055d-4703-a9ed-10d63563aad2")
+		(property "Sheetname" "switch_decoupling"
+			(at 147.32 56.4384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "switch_decoupling.kicad_sch"
+			(at 147.32 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "shish-lan"
+				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 148.59 121.92)
+		(size 26.67 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "474f93e8-43f3-4f37-bffd-50a4bf4cb844")
+		(property "Sheetname" "switch_gpios"
+			(at 148.59 121.2084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "switch_gpios.kicad_sch"
+			(at 148.59 145.3646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "shish-lan"
+				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 208.28 71.12)
+		(size 27.94 8.89)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "64d79736-056c-40f6-95c2-1d232a5e04be")
+		(property "Sheetname" "buck_3V3"
+			(at 208.28 70.4084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "buck_3V3.kicad_sch"
+			(at 208.28 80.5946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3V3" output
+			(at 236.22 73.66 0)
+			(uuid "2f66b838-b40d-4de1-9f43-eb46dd24dd4d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND" input
+			(at 208.28 77.47 180)
+			(uuid "f817a6b5-24cb-4a2a-badd-a716c638b936")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "5-12V" input
+			(at 208.28 73.66 180)
+			(uuid "ac8159e9-3835-40df-87a8-757afe14d1e7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "shish-lan"
+				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 147.32 90.17)
+		(size 27.94 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "772f6118-b016-45f6-9bbf-b78127c392d0")
+		(property "Sheetname" "switch_power"
+			(at 147.32 89.4584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "switch_power.kicad_sch"
+			(at 147.32 112.3446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "shish-lan"
+				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
