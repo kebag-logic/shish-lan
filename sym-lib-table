@@ -1,4 +1,6 @@
 (sym_lib_table
   (version 7)
   (lib (name "tps5642")(type "KiCad")(uri "${KIPRJMOD}/kicad-library/symbols/tps56425DRLR/tps56425drlr.kicad_sym")(options "")(descr ""))
+  (lib (name "lan9645xF")(type "KiCad")(uri "${KIPRJMOD}/kicad-library/symbols/lan9645xF/lan9645xF.kicad_sym")(options "")(descr ""))
+  (lib (name "ethernet-magjack")(type "KiCad")(uri "${KIPRJMOD}/kicad-library/symbols/bel_0826-1X4T-45-F/0826-1X4T-43-F.kicad_sym")(options "")(descr ""))
 )
