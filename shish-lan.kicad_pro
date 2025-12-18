@@ -507,8 +507,18 @@
       "/buck_3V3/GND": [
         "GND_BUCK"
       ],
+      "/switch_lan96455F/2V5": [
+        "2V5_BUCK"
+      ],
+      "/switch_lan96455F/3V3": [
+        "3V3_BUCK"
+      ],
       "/switch_lan96455F/5-12V_INPUT": [
         "5-12V_IN"
+      ],
+      "/switch_lan96455F/GND": [
+        "GND",
+        "GND_BUCK"
       ],
       "/switch_lan96455F/switch_buck_1v1/1V1": [
         "1V1_BUCK"
@@ -549,12 +559,6 @@
       ],
       "/switch_lan96455F/switch_decoupling/GND": [
         "GND"
-      ],
-      "/switch_lan96455F/switch_phys/3V3": [
-        "3V3_PHY"
-      ],
-      "/switch_lan96455F/switch_phys/GND": [
-        "GND_PHY"
       ],
       "Net-(C100-Pad2)": [
         "GND"
@@ -636,42 +640,6 @@
       ],
       "Net-(U6-VIN)": [
         "5-12V_IN"
-      ],
-      "unconnected-(C1-Pad1)": [
-        "GND_PHY"
-      ],
-      "unconnected-(C2-Pad2)": [
-        "GND_PHY"
-      ],
-      "unconnected-(C3-Pad1)": [
-        "GND_PHY"
-      ],
-      "unconnected-(C4-Pad1)": [
-        "GND_PHY"
-      ],
-      "unconnected-(J1-Pad14_1)": [
-        "3V3_PHY"
-      ],
-      "unconnected-(J1-Pad14_2)": [
-        "3V3_PHY"
-      ],
-      "unconnected-(J1-Pad14_3)": [
-        "3V3_PHY"
-      ],
-      "unconnected-(J1-Pad14_4)": [
-        "3V3_PHY"
-      ],
-      "unconnected-(J1-Pad16_1)": [
-        "3V3_PHY"
-      ],
-      "unconnected-(J1-Pad16_2)": [
-        "3V3_PHY"
-      ],
-      "unconnected-(J1-Pad16_3)": [
-        "3V3_PHY"
-      ],
-      "unconnected-(J1-Pad16_4)": [
-        "3V3_PHY"
       ],
       "unconnected-(R10-Pad2)": [
         "GND_BUCK"
