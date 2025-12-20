@@ -3019,6 +3019,12 @@
 		(uuid "24157008-0c3a-4d25-8c5b-f3be8f41799e")
 	)
 	(junction
+		(at 52.07 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b17e4e9-205d-4eb1-b518-b9982df8b409")
+	)
+	(junction
 		(at 259.08 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3885,7 +3891,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 115.57) (xy 58.42 115.57)
+			(xy 44.45 115.57) (xy 52.07 115.57)
 		)
 		(stroke
 			(width 0)
@@ -4042,6 +4048,16 @@
 			(type default)
 		)
 		(uuid "4b7614f5-93fc-43f0-a77b-2d7beb77316f")
+	)
+	(wire
+		(pts
+			(xy 45.72 107.95) (xy 52.07 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c1a2b25-9cee-4aaa-8fc8-53dea387a9d0")
 	)
 	(bus
 		(pts
@@ -4912,6 +4928,16 @@
 			(type default)
 		)
 		(uuid "b84757b6-83ee-4d19-95a6-89be73feb8b7")
+	)
+	(wire
+		(pts
+			(xy 52.07 115.57) (xy 58.42 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba450504-781e-490b-89d6-a9896743a940")
 	)
 	(wire
 		(pts
@@ -6533,6 +6559,16 @@
 		)
 		(uuid "d77ec21b-35e1-4e1a-ba27-24fdf1068e6a")
 	)
+	(label "VDDIO"
+		(at 45.72 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d815227f-1d27-4dea-92a6-8f57eed0f216")
+	)
 	(label "SPI_SLV.DI"
 		(at 104.14 135.89 180)
 		(effects
@@ -6764,7 +6800,7 @@
 		(uuid "feae3cd2-42f1-481f-9477-9f7b101a5119")
 	)
 	(hierarchical_label "PTP0"
-		(shape input)
+		(shape bidirectional)
 		(at 91.44 58.42 180)
 		(effects
 			(font
@@ -6775,7 +6811,7 @@
 		(uuid "1b0c6485-9dd0-4096-ba3d-cc7e1592edcb")
 	)
 	(hierarchical_label "PTP2"
-		(shape input)
+		(shape bidirectional)
 		(at 91.44 53.34 180)
 		(effects
 			(font
@@ -6786,7 +6822,7 @@
 		(uuid "26b7edca-1ef3-4e56-98e6-ac5207b97e64")
 	)
 	(hierarchical_label "PTP3"
-		(shape input)
+		(shape bidirectional)
 		(at 91.44 50.8 180)
 		(effects
 			(font
@@ -6797,7 +6833,7 @@
 		(uuid "36f44ee9-d3b2-408e-9a21-4f02823bc7c8")
 	)
 	(hierarchical_label "PHY2_LED0"
-		(shape input)
+		(shape output)
 		(at 116.84 39.37 180)
 		(effects
 			(font
@@ -6808,7 +6844,7 @@
 		(uuid "3dc06dfe-9ac3-4863-a678-2ea52434985a")
 	)
 	(hierarchical_label "PHY3_LED0"
-		(shape input)
+		(shape output)
 		(at 116.84 44.45 180)
 		(effects
 			(font
@@ -6819,7 +6855,7 @@
 		(uuid "46054816-783e-4cba-8eb2-2c7144f49ecf")
 	)
 	(hierarchical_label "PHY3_LED1"
-		(shape input)
+		(shape output)
 		(at 116.84 41.91 180)
 		(effects
 			(font
@@ -6830,7 +6866,7 @@
 		(uuid "4b93de16-13a4-413d-ae84-114d4bfc991e")
 	)
 	(hierarchical_label "PHY2_LED1"
-		(shape input)
+		(shape output)
 		(at 116.84 36.83 180)
 		(effects
 			(font
@@ -6841,7 +6877,7 @@
 		(uuid "75fcd81a-bff7-43b9-a432-765f2a3f8a90")
 	)
 	(hierarchical_label "PHY1_LED0"
-		(shape input)
+		(shape output)
 		(at 116.84 13.97 180)
 		(effects
 			(font
@@ -6874,7 +6910,7 @@
 		(uuid "96f0e0d6-466f-4bb9-85e6-01e4184ed676")
 	)
 	(hierarchical_label "PHY0_LED1"
-		(shape input)
+		(shape output)
 		(at 114.3 19.05 180)
 		(effects
 			(font
@@ -6885,7 +6921,7 @@
 		(uuid "9923aa00-cd12-418d-b684-08b12e109c4d")
 	)
 	(hierarchical_label "PHY1_LED1"
-		(shape input)
+		(shape output)
 		(at 116.84 16.51 180)
 		(effects
 			(font
@@ -6918,7 +6954,7 @@
 		(uuid "aaea585b-3900-407c-b51f-8a425aa1bca0")
 	)
 	(hierarchical_label "PHY0_LED0"
-		(shape input)
+		(shape output)
 		(at 114.3 21.59 180)
 		(effects
 			(font
@@ -6940,7 +6976,7 @@
 		(uuid "c4b43516-c0c4-4e19-bc7f-40458d5d988b")
 	)
 	(hierarchical_label "PTP1"
-		(shape input)
+		(shape bidirectional)
 		(at 91.44 55.88 180)
 		(effects
 			(font
@@ -6971,6 +7007,67 @@
 			(justify right)
 		)
 		(uuid "efa18b9d-06d4-4d13-a2bd-444b31907a09")
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 83.82 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "11c54034-b15c-47f4-bdb5-0af596f8bed0")
+		(property "Netclass" "RGMII"
+			(at 81.788 100.838 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -99.06 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 69.85 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2df7d479-817f-4a46-b14b-b1331b5e6c67")
+		(property "Netclass" "RGMII"
+			(at 70.5485 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -113.03 -15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -8377,6 +8474,82 @@
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09"
 					(reference "R43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 52.07 111.76 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4d02fb21-b486-474f-9aea-918de5570c0e")
+		(property "Reference" "R69"
+			(at 50.292 112.014 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7K"
+			(at 52.07 112.268 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.848 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 52.07 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" " RMCA0603FT4K70-HP"
+			(at 52.07 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7327ede7-124b-4179-a185-fda52e731cd2")
+		)
+		(pin "2"
+			(uuid "039256a2-20c6-4781-b125-f257273fd557")
+		)
+		(instances
+			(project "shish-lan"
+				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09"
+					(reference "R69")
 					(unit 1)
 				)
 			)
