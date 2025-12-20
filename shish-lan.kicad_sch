@@ -12,8 +12,8 @@
 	)
 	(lib_symbols)
 	(sheet
-		(at 191.77 45.72)
-		(size 91.44 41.91)
+		(at 182.88 44.45)
+		(size 91.44 92.71)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -28,7 +28,7 @@
 		)
 		(uuid "0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c")
 		(property "Sheetname" "switch_lan96455F"
-			(at 191.77 45.0084 0)
+			(at 182.88 43.7384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37,7 +37,7 @@
 			)
 		)
 		(property "Sheetfile" "switch.kicad_sch"
-			(at 191.77 88.2146 0)
+			(at 182.88 137.7446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46,7 +46,7 @@
 			)
 		)
 		(pin "5-12V_INPUT" input
-			(at 191.77 50.8 180)
+			(at 182.88 113.03 180)
 			(uuid "a26025ed-33bd-4dfb-a550-7a6e14488151")
 			(effects
 				(font
@@ -55,11 +55,99 @@
 				(justify left)
 			)
 		)
-		(pin "RGMII{TXD[0..3], TX_CLK, TX_CTLR, RXD[0..3], RX_CLK, RX_CTLR, MDIO, MDC},REF_CLK"
-			bidirectional
-			(at 191.77 55.88 180
+		(pin "RGMII{TXD[0..3], TX_CLK, TX_CTLR, RXD[0..3], RX_CLK, RX_CTLR}" bidirectional
+			(at 182.88 63.5 180)
+			(uuid "63fc911e-92d0-4713-9a50-3c0e71080ac6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
-			(uuid "4135fc20-8572-42ad-b3f3-aaa5d6c31492")
+		)
+		(pin "MIIM{MDIO,MDC}" bidirectional
+			(at 182.88 68.58 180)
+			(uuid "79063a79-97c0-43be-8cc1-20014ad8a1f2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GGND" input
+			(at 182.88 115.57 180)
+			(uuid "a0dbaba7-906a-4494-b13f-af28daa0df9f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "nRST_SWITCH" input
+			(at 182.88 92.71 180)
+			(uuid "1fdf64bb-5e9f-428e-a9ce-a3786f62d7f6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PTP[0..3]" input
+			(at 182.88 85.09 180)
+			(uuid "a70f7af2-e1ec-4ccc-a32f-48fd67f2772a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI_SLV{DI,DO,nCS,CLK}" bidirectional
+			(at 182.88 73.66 180)
+			(uuid "b6c7ac0e-28c6-4099-aa49-7effc0035edd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "25M_CLK_SWITCH" input
+			(at 182.88 55.88 180)
+			(uuid "845e959c-9175-42e8-a542-95b8f126a260")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2V5_EN" input
+			(at 182.88 101.6 180)
+			(uuid "962a53da-1c93-4066-97f6-09822e1c9310")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1V1_EN" input
+			(at 182.88 105.41 180)
+			(uuid "2c96d458-d405-49b7-8514-8a85330061f5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "3V3_EN" input
+			(at 182.88 97.79 180)
+			(uuid "32fca4ad-3cb2-499a-93cb-3460ec189b18")
 			(effects
 				(font
 					(size 1.27 1.27)
