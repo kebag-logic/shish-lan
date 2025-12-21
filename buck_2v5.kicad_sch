@@ -3061,7 +3061,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/tps564257"
+		(property "Datasheet" ""
 			(at 120.65 80.01 0)
 			(effects
 				(font
@@ -3770,7 +3770,7 @@
 		(fields_autoplaced yes)
 		(uuid "8fc8343e-32cb-4d33-98aa-6397db3a2097")
 		(property "Reference" "TP14"
-			(at 151.13 82.5499 90)
+			(at 151.13 83.8199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4152,7 +4152,7 @@
 		(fields_autoplaced yes)
 		(uuid "b5d93f91-93e2-4e97-8dba-19ef50593b5a")
 		(property "Reference" "U3"
-			(at 154.94 74.295 0)
+			(at 154.94 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4160,7 +4160,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 154.94 76.835 0)
+			(at 154.94 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
