@@ -507,6 +507,108 @@
       "/buck_3V3/GND": [
         "GND_BUCK"
       ],
+      "/switch/2V5": [
+        "PWR"
+      ],
+      "/switch/3V3": [
+        "PWR"
+      ],
+      "/switch/5-12V_INPUT": [
+        "PWR"
+      ],
+      "/switch/RGMII.RXD0": [
+        "RGMII"
+      ],
+      "/switch/RGMII.RXD1": [
+        "RGMII"
+      ],
+      "/switch/RGMII.RXD2": [
+        "RGMII"
+      ],
+      "/switch/RGMII.RXD3": [
+        "RGMII"
+      ],
+      "/switch/RGMII.RX_CLK": [
+        "RGMII"
+      ],
+      "/switch/RGMII.RX_CTLR": [
+        "RGMII"
+      ],
+      "/switch/RGMII.TXD0": [
+        "RGMII"
+      ],
+      "/switch/RGMII.TXD1": [
+        "RGMII"
+      ],
+      "/switch/RGMII.TXD2": [
+        "RGMII"
+      ],
+      "/switch/RGMII.TXD3": [
+        "RGMII"
+      ],
+      "/switch/RGMII.TX_CLK": [
+        "RGMII"
+      ],
+      "/switch/RGMII.TX_CTLR": [
+        "RGMII"
+      ],
+      "/switch/RGMII{TXD[0..3], TX_CLK, TX_CTLR, RXD[0..3], RX_CLK, RX_CTLR}": [
+        "RGMII"
+      ],
+      "/switch/switch_gpios/RGMII1.RXD0": [
+        "RGMII"
+      ],
+      "/switch/switch_gpios/RGMII1.RXD1": [
+        "RGMII"
+      ],
+      "/switch/switch_gpios/RGMII1.RXD2": [
+        "RGMII"
+      ],
+      "/switch/switch_gpios/RGMII1.RXD3": [
+        "RGMII"
+      ],
+      "/switch/switch_gpios/RGMII1.RX_CLK": [
+        "RGMII"
+      ],
+      "/switch/switch_gpios/RGMII1.RX_CTLR": [
+        "RGMII"
+      ],
+      "/switch/switch_gpios/RGMII1.TXD0": [
+        "RGMII"
+      ],
+      "/switch/switch_gpios/RGMII1.TXD1": [
+        "RGMII"
+      ],
+      "/switch/switch_gpios/RGMII1.TXD2": [
+        "RGMII"
+      ],
+      "/switch/switch_gpios/RGMII1.TXD3": [
+        "RGMII"
+      ],
+      "/switch/switch_gpios/RGMII1.TX_CLK": [
+        "RGMII"
+      ],
+      "/switch/switch_gpios/RGMII1.TX_CTLR": [
+        "RGMII"
+      ],
+      "/switch/switch_gpios/RGMII1{TXD[0..3], TX_CLK, TX_CTLR, RXD[0..3], RX_CLK, RX_CTLR}": [
+        "RGMII"
+      ],
+      "/switch/switch_power/VDDIO": [
+        "PWR"
+      ],
+      "/switch/switch_power/VDDIO_PHY_AH": [
+        "PWR"
+      ],
+      "/switch/switch_power/VDDIO_PHY_AHS": [
+        "PWR"
+      ],
+      "/switch/switch_power/VDD_PHYS": [
+        "PWR"
+      ],
+      "/switch/switch_power/VDD_SERDES": [
+        "PWR"
+      ],
       "/switch_lan96455F/1V1": [
         "1V1_BUCK",
         "PWR"
@@ -770,6 +872,9 @@
       "Net-(FB1-Pad2)": [
         "PWR"
       ],
+      "Net-(R89-Pad1)": [
+        "PWR"
+      ],
       "Net-(U1-VIN)": [
         "5-12V_IN"
       ],
@@ -973,7 +1078,7 @@
     ],
     [
       "0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c",
-      "switch_lan96455F"
+      "switch"
     ],
     [
       "42c65065-b6e5-43b0-ae2c-34333f058269",
@@ -986,10 +1091,6 @@
     [
       "606fcd84-feed-4290-bf9b-87889000b681",
       "switch_buck_3v3"
-    ],
-    [
-      "b37c87a9-8242-4933-967f-fd83d7910e58",
-      "switch_decoupling"
     ],
     [
       "7f5fd65f-f670-4db7-8f09-63d4fb2faa09",

@@ -4,6 +4,13 @@
 	(generator_version "9.0")
 	(uuid "e29a671d-d09d-4dc6-82ea-58a457fe1432")
 	(paper "A4")
+	(title_block
+		(title "Switch 1V15 Power Rail")
+		(date "2025-12-21")
+		(rev "Rev A")
+		(company "Kebag-Logic <contact@kebag-logic.com>")
+		(comment 1 "Confidential")
+	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
 			(pin_numbers
@@ -112,7 +119,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:C"
+		(symbol "KL_C:C_100nF_10V_X7R_0603_10"
 			(pin_numbers
 				(hide yes)
 			)
@@ -131,7 +138,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "C"
+			(property "Value" "100nF"
 				(at 0.635 -2.54 0)
 				(effects
 					(font
@@ -140,7 +147,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "KL:C_0603"
 				(at 0.9652 -3.81 0)
 				(effects
 					(font
@@ -167,6 +174,51 @@
 					(hide yes)
 				)
 			)
+			(property "Tolerance" "10"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Voltage" "50"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser" "603-CC603KRX7R6BB104"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Digikey" "311-4055-1-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C519438"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "cap capacitor"
 				(at 0 0 0)
 				(effects
@@ -185,7 +237,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "C_0_1"
+			(symbol "C_100nF_10V_X7R_0603_10_0_1"
 				(polyline
 					(pts
 						(xy -2.032 0.762) (xy 2.032 0.762)
@@ -211,7 +263,7 @@
 					)
 				)
 			)
-			(symbol "C_1_1"
+			(symbol "C_100nF_10V_X7R_0603_10_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
@@ -251,35 +303,36 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:L_Iron"
+		(symbol "KL_C:C_10nF_25V_X7R_0603_20"
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
-				(offset 1.016)
-				(hide yes)
+				(offset 0.254)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "L"
-				(at -1.27 0 90)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "L_Iron"
-				(at 2.794 0 90)
+			(property "Value" "10nF"
+				(at 0.635 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 0 0)
+			(property "Footprint" "KL:C_0603"
+				(at 0.9652 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -296,7 +349,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Inductor with iron core"
+			(property "Description" "Unpolarized capacitor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -305,7 +358,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "inductor choke coil reactor magnetic"
+			(property "Tolerance" "20"
 				(at 0 0 0)
 				(effects
 					(font
@@ -314,7 +367,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+			(property "Voltage" "25"
 				(at 0 0 0)
 				(effects
 					(font
@@ -323,49 +376,58 @@
 					(hide yes)
 				)
 			)
-			(symbol "L_Iron_0_1"
-				(arc
-					(start 0 2.54)
-					(mid 0.6323 1.905)
-					(end 0 1.27)
-					(stroke
-						(width 0)
-						(type default)
+			(property "Mouser" "603-AC603KRX7R8BB103"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(fill
-						(type none)
-					)
+					(hide yes)
 				)
-				(arc
-					(start 0 1.27)
-					(mid 0.6323 0.635)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
+			)
+			(property "Digikey" "311-3111-1-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(fill
-						(type none)
-					)
+					(hide yes)
 				)
-				(arc
-					(start 0 0)
-					(mid 0.6323 -0.635)
-					(end 0 -1.27)
-					(stroke
-						(width 0)
-						(type default)
+			)
+			(property "LCSC" "C726559"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(fill
-						(type none)
-					)
+					(hide yes)
 				)
-				(arc
-					(start 0 -1.27)
-					(mid 0.6323 -1.905)
-					(end 0 -2.54)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_10nF_25V_X7R_0603_20_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
 					(stroke
-						(width 0)
+						(width 0.508)
 						(type default)
 					)
 					(fill
@@ -374,22 +436,10 @@
 				)
 				(polyline
 					(pts
-						(xy 1.016 2.54) (xy 1.016 -2.54)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.524 -2.54) (xy 1.524 2.54)
-					)
-					(stroke
-						(width 0)
+						(width 0.508)
 						(type default)
 					)
 					(fill
@@ -397,11 +447,11 @@
 					)
 				)
 			)
-			(symbol "L_Iron_1_1"
+			(symbol "C_10nF_25V_X7R_0603_20_1_1"
 				(pin passive line
 					(at 0 3.81 270)
-					(length 1.27)
-					(name "1"
+					(length 2.794)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -418,8 +468,8 @@
 				)
 				(pin passive line
 					(at 0 -3.81 90)
-					(length 1.27)
-					(name "2"
+					(length 2.794)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -437,7 +487,806 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R"
+		(symbol "KL_C:C_10uF_25V_X5R_0603_20"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "10uF"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "KL:C_0603"
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Tolerance" "20"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Voltage" "25"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser" "187-CL10A106MA8NRNC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Digikey" "1276-1869-1-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C96446"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_10uF_25V_X5R_0603_20_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_10uF_25V_X5R_0603_20_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "KL_C:C_22uF_10V_X5R_0603_20"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "22uF"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "KL:C_0603"
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Tolerance" "20"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Voltage" "10V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser" "81-GRM188R61A226ME5D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Digikey" "490-10476-1-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C84419"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_22uF_10V_X5R_0603_20_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_22uF_10V_X5R_0603_20_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "KL_IC_Power:TI_TPS564357DRLR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 9.906 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "KL:SOT-563"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser" "595-TPS564257DRLR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Digikey" "296-TPS564257DRLRCT-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LSCS" "C19272233"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TI_TPS564357DRLR_0_1"
+				(polyline
+					(pts
+						(xy -12.7 7.62) (xy -12.7 -7.62)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -12.7 -7.62) (xy 12.7 -7.62)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 7.62) (xy -12.7 7.62)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -7.62) (xy 12.7 7.62)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at -20.32 2.54 0)
+					(length 7.62)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -20.32 -3.81 0)
+					(length 7.62)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 20.32 5.08 180)
+					(length 7.62)
+					(name "SW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 20.32 1.27 180)
+					(length 7.62)
+					(name "PG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 20.32 -2.54 180)
+					(length 7.62)
+					(name "FB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 20.32 -6.35 180)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "KL_L:L_1u5H_19A"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at 0.508 -0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1u5H"
+				(at -2.032 -0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "KL:L_1u5_SRP7050WA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Digikey" "118-SRP7050WA-1R5MCT-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser" "652-SRP7050WA-1R5M"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C2453564"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Current Max" "19A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "L_1u5H_19A_0_1"
+				(polyline
+					(pts
+						(xy -2.667 -2.413) (xy 1.397 -2.413)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.667 -3.175)
+					(mid -2.159 -2.6692)
+					(end -1.651 -3.175)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.651 -3.175)
+					(mid -1.143 -2.6692)
+					(end -0.635 -3.175)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.635 -3.175)
+					(mid -0.127 -2.6692)
+					(end 0.381 -3.175)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.381 -3.175)
+					(mid 0.889 -2.6692)
+					(end 1.397 -3.175)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.397 -2.159) (xy -2.667 -2.159)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "L_1u5H_19A_1_1"
+				(pin passive line
+					(at -3.175 -3.175 0)
+					(length 0.508)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.905 -3.175 180)
+					(length 0.508)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "KL_R:R_10K_100mW_5_0603"
 			(pin_numbers
 				(hide yes)
 			)
@@ -455,7 +1304,7 @@
 					)
 				)
 			)
-			(property "Value" "R"
+			(property "Value" "10K"
 				(at 0 0 90)
 				(effects
 					(font
@@ -463,7 +1312,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "KL:R_0603"
 				(at -1.778 0 90)
 				(effects
 					(font
@@ -490,6 +1339,69 @@
 					(hide yes)
 				)
 			)
+			(property "Power" "100mW"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Tolerance" "5%"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser" "71-CRCW060310K0JNEC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Digikey" "541-CRCW060310K0JNECCT-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C4195694"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Package (in)" "0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Farnell" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "R res resistor"
 				(at 0 0 0)
 				(effects
@@ -508,7 +1420,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "R_0_1"
+			(symbol "R_10K_100mW_5_0603_0_1"
 				(rectangle
 					(start -1.016 -2.54)
 					(end 1.016 2.54)
@@ -521,7 +1433,7 @@
 					)
 				)
 			)
-			(symbol "R_1_1"
+			(symbol "R_10K_100mW_5_0603_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -561,50 +1473,42 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "tps5642:XTPS564257DRLR"
+		(symbol "KL_R:R_11K_100mW_1_0603"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254)
+				(offset 0)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 20.32 10.16 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "XTPS564257DRLR"
-				(at 20.32 7.62 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "TPS564242DRLR_TEX"
-				(at 0 0 0)
+			(property "Reference" "R"
+				(at 2.032 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(italic yes)
+					)
+				)
+			)
+			(property "Value" "11K"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "KL:R_0603"
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.ti.com/lit/gpn/tps564257"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
+			(property "Datasheet" "~"
 				(at 0 0 0)
 				(effects
 					(font
@@ -613,15 +1517,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "XTPS564257DRLR"
+			(property "Description" "Resistor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -630,7 +1526,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "TPS564242DRLR_TEX TPS564242DRLR_TEX-M TPS564242DRLR_TEX-L"
+			(property "Power" "100mW"
 				(at 0 0 0)
 				(effects
 					(font
@@ -639,59 +1535,96 @@
 					(hide yes)
 				)
 			)
-			(symbol "XTPS564257DRLR_0_1"
-				(polyline
-					(pts
-						(xy 7.62 5.08) (xy 7.62 -10.16)
+			(property "Tolerance" "1%"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
+					(hide yes)
+				)
+			)
+			(property "Mouser" "603-RC0603FR-0711KL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Digikey" "311-11.0KHRCT-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C137801"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Farnell" "3495727"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Package (in)" "0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_11K_100mW_1_0603_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
 					(stroke
-						(width 0.127)
+						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 7.62 -10.16) (xy 33.02 -10.16)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 33.02 5.08) (xy 7.62 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 33.02 -10.16) (xy 33.02 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 0 0)
-					(length 7.62)
-					(name "VIN"
+			)
+			(symbol "R_11K_100mW_1_0603_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -706,28 +1639,10 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 0 -6.35 0)
-					(length 7.62)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 40.64 2.54 180)
-					(length 7.62)
-					(name "SW"
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -742,17 +1657,168 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 40.64 -1.27 180)
-					(length 7.62)
-					(name "PG"
+			)
+			(embedded_fonts no)
+		)
+		(symbol "KL_R:R_12K_100mW_1_0603"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "12K"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "KL:R_0603"
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Power" "100mW"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Tolerance" "1%"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser" "603-RT0603FRE0712KL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Digikey" "YAG3353CT-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C136933"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Farnell" "3974308"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Package (in)" "0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_12K_100mW_1_0603_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_12K_100mW_1_0603_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "4"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -760,35 +1826,17 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 40.64 -5.08 180)
-					(length 7.62)
-					(name "FB"
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 40.64 -8.89 180)
-					(length 7.62)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -840,6 +1888,26 @@
 		)
 		(uuid "74153b58-da73-410c-a828-9db5a5069792")
 	)
+	(text_box "Checklist\n* Pinouts [ AM OK - 2026-12-21 ]\n* Element correctness [ AM OK - 2026-12-21 ]\n* Connections  [ AM OK - 2026-12-21 ]"
+		(exclude_from_sim no)
+		(at 220.98 19.05 0)
+		(size 59.69 12.7)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "d2cdffb6-b6ec-4d51-86be-d361f3d00dcd")
+	)
 	(junction
 		(at 213.36 59.69)
 		(diameter 0)
@@ -847,10 +1915,10 @@
 		(uuid "0c225a3c-17cc-47c7-945b-1938328a67e8")
 	)
 	(junction
-		(at 196.85 59.69)
+		(at 179.07 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "22d4ac47-78e7-4778-92e2-32d4f45ad867")
+		(uuid "32e74bb2-1e14-4f57-804b-e203581cb629")
 	)
 	(junction
 		(at 59.69 62.23)
@@ -859,16 +1927,46 @@
 		(uuid "36a77c5c-5586-4685-85d7-b02972647eaf")
 	)
 	(junction
+		(at 173.99 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3f8465fb-dcb2-437a-a82e-27a32a84ace1")
+	)
+	(junction
+		(at 170.18 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4d70f02d-659c-4dda-97db-607358f3268e")
+	)
+	(junction
+		(at 49.53 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "517b5ea9-2482-45d0-8641-65013a11dbd1")
+	)
+	(junction
 		(at 207.01 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5583c764-fada-4088-a610-c605164983ae")
 	)
 	(junction
-		(at 173.99 59.69)
+		(at 170.18 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "79dfc5f3-c740-4783-861c-8ac14d97a8aa")
+		(uuid "606b18e5-098a-4aef-bd89-f7df919aa6f1")
+	)
+	(junction
+		(at 196.85 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "739159eb-715a-46e2-b35a-319114d2bcc5")
+	)
+	(junction
+		(at 97.79 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "777028f6-58b5-4ba7-ba87-1bc95c00cea0")
 	)
 	(junction
 		(at 207.01 59.69)
@@ -877,22 +1975,28 @@
 		(uuid "8f101a7b-ad65-4bef-9377-1a59ee976a67")
 	)
 	(junction
+		(at 189.23 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a0792969-1aed-455f-87f8-524c7d7cc836")
+	)
+	(junction
 		(at 77.47 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a09ccff4-a495-44d2-a28f-c7efc22b239f")
 	)
 	(junction
-		(at 49.53 73.66)
+		(at 97.79 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b20152ea-80a3-480f-b6be-1b3b31a869b9")
+		(uuid "aad02720-76a9-461e-b2ba-83dc6acff1fb")
 	)
 	(junction
-		(at 173.99 71.12)
+		(at 101.6 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c211354e-1095-4b3d-bb17-cec9d0d6677f")
+		(uuid "bf6568e2-3d4f-40c3-a635-a662490b10bd")
 	)
 	(junction
 		(at 49.53 62.23)
@@ -900,15 +2004,31 @@
 		(color 0 0 0 0)
 		(uuid "e3679bd4-fdd3-452c-aca5-39f19102ec32")
 	)
+	(junction
+		(at 196.85 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ff70d2d2-4fbf-4925-8ca1-7a990e3d17e2")
+	)
 	(wire
 		(pts
-			(xy 165.1 59.69) (xy 173.99 59.69)
+			(xy 97.79 68.58) (xy 90.17 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1d830283-6c11-4e71-b164-d1ad0a5ec666")
+		(uuid "056cee17-49e1-4059-a1ae-cfceb19ae841")
+	)
+	(wire
+		(pts
+			(xy 173.99 71.12) (xy 179.07 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0635c899-4b7d-44ee-a626-62c143a1087f")
 	)
 	(wire
 		(pts
@@ -932,7 +2052,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 71.12) (xy 173.99 71.12)
+			(xy 165.1 71.12) (xy 170.18 71.12)
 		)
 		(stroke
 			(width 0)
@@ -942,7 +2062,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 68.58) (xy 96.52 68.58)
+			(xy 105.41 68.58) (xy 101.6 68.58)
 		)
 		(stroke
 			(width 0)
@@ -962,13 +2082,23 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 67.31) (xy 196.85 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d29bf63-822f-4aa9-8cf9-952434655e3b")
+	)
+	(wire
+		(pts
 			(xy 196.85 59.69) (xy 207.01 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2acd7024-43b6-43de-a644-fa879408d3c7")
+		(uuid "34cd53b6-be54-492b-99eb-1e38836b3610")
 	)
 	(wire
 		(pts
@@ -982,6 +2112,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 69.85) (xy 207.01 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45a9b5ee-9bcb-4a07-9982-239f4733e280")
+	)
+	(wire
+		(pts
 			(xy 49.53 74.93) (xy 49.53 73.66)
 		)
 		(stroke
@@ -992,13 +2132,13 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 67.31) (xy 207.01 71.12)
+			(xy 207.01 69.85) (xy 207.01 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5464c571-1e3b-46ef-b190-821ddcb18441")
+		(uuid "4daed4f2-dde0-4ccf-b99e-7454844d2005")
 	)
 	(wire
 		(pts
@@ -1019,6 +2159,26 @@
 			(type default)
 		)
 		(uuid "56afa74a-4976-4493-811e-8bda24ae7edb")
+	)
+	(wire
+		(pts
+			(xy 179.07 59.69) (xy 189.23 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58c335e7-628d-44e7-ac1b-84678ffb4b65")
+	)
+	(wire
+		(pts
+			(xy 170.18 59.69) (xy 179.07 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6015e0ba-8fd8-43e8-9dfd-85195baa6a62")
 	)
 	(wire
 		(pts
@@ -1049,6 +2209,16 @@
 			(type default)
 		)
 		(uuid "6cc63472-3e3e-450d-9f21-5791bdd1709b")
+	)
+	(wire
+		(pts
+			(xy 97.79 76.2) (xy 101.6 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f2fc0d2-0073-433d-b95c-82d338fb57a5")
 	)
 	(wire
 		(pts
@@ -1092,13 +2262,13 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 59.69) (xy 196.85 59.69)
+			(xy 162.56 59.69) (xy 170.18 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a599007f-c891-4117-a88b-c359f0671d05")
+		(uuid "afec7b09-edec-4668-9039-2db385ffea1b")
 	)
 	(wire
 		(pts
@@ -1132,6 +2302,26 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 71.12) (xy 173.99 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9ff49a4-a8cf-4563-a683-59bb12382a1d")
+	)
+	(wire
+		(pts
+			(xy 179.07 71.12) (xy 179.07 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2647157-f93a-4ae4-bd81-8a954450719d")
+	)
+	(wire
+		(pts
 			(xy 213.36 59.69) (xy 217.17 59.69)
 		)
 		(stroke
@@ -1139,6 +2329,26 @@
 			(type default)
 		)
 		(uuid "d3994fc8-d2cf-416d-88b9-7082b9c23912")
+	)
+	(wire
+		(pts
+			(xy 101.6 68.58) (xy 97.79 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d40e1682-6a1d-4422-ba77-2c82228b6d72")
+	)
+	(wire
+		(pts
+			(xy 189.23 59.69) (xy 196.85 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4251e0c-07b1-4543-852f-0d09c690b8ec")
 	)
 	(wire
 		(pts
@@ -1162,7 +2372,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 59.69) (xy 173.99 63.5)
+			(xy 170.18 59.69) (xy 170.18 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1202,6 +2412,26 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 76.2) (xy 97.79 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebfb3ee6-eaa5-47c8-99e7-b07cd0a0da1d")
+	)
+	(wire
+		(pts
+			(xy 179.07 59.69) (xy 179.07 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f48839c1-1698-44d7-936d-ee3140da6eed")
+	)
+	(wire
+		(pts
 			(xy 173.99 83.82) (xy 173.99 82.55)
 		)
 		(stroke
@@ -1211,7 +2441,7 @@
 		(uuid "fae11cfd-1094-4ba4-a0a5-ed0b3374fb29")
 	)
 	(label "EN"
-		(at 96.52 68.58 0)
+		(at 90.17 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1219,6 +2449,16 @@
 			(justify left bottom)
 		)
 		(uuid "0aef377e-1e9e-4a09-b7e6-a71b9f1d9d4a")
+	)
+	(label "GND"
+		(at 201.93 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1a6d4bfc-8568-481a-add9-c27d515a924d")
 	)
 	(label "GND"
 		(at 168.91 83.82 0)
@@ -1259,6 +2499,16 @@
 			(justify left bottom)
 		)
 		(uuid "75ca2586-3a6c-4d3e-aec9-ba84e2535c6f")
+	)
+	(label "GND"
+		(at 90.17 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "77ae9b64-dabe-4a60-8975-4bbca2b2f917")
 	)
 	(label "GND"
 		(at 149.86 71.12 180)
@@ -1315,33 +2565,34 @@
 		(uuid "d8a4f794-bf22-4b1d-8289-2414f3883924")
 	)
 	(symbol
-		(lib_id "Device:L_Iron")
-		(at 161.29 59.69 90)
+		(lib_id "KL_C:C_10uF_25V_X5R_0603_20")
+		(at 49.53 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "2577b7d7-6c65-4be4-9967-9a649b68ce73")
-		(property "Reference" "L4"
-			(at 161.29 55.88 90)
+		(uuid "068fbc9a-05be-4564-b1c2-544d3eee870b")
+		(property "Reference" "C73"
+			(at 51.054 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "1.5uH"
-			(at 155.194 55.88 90)
-			(do_not_autoplace yes)
+		(property "Value" "10uF"
+			(at 50.546 71.882 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 161.29 59.69 0)
+		(property "Footprint" "KL:C_0603"
+			(at 50.4952 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1350,7 +2601,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 161.29 59.69 0)
+			(at 49.53 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1358,8 +2609,300 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor with iron core"
-			(at 161.29 59.69 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 49.53 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "20"
+			(at 49.53 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "25"
+			(at 49.53 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "187-CL10A106MA8NRNC"
+			(at 49.53 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "1276-1869-1-ND"
+			(at 49.53 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C96446"
+			(at 49.53 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b1221216-8d8d-4206-934c-2534ac5f3461")
+		)
+		(pin "2"
+			(uuid "b9e14230-7182-4532-b39b-de71952ebcf5")
+		)
+		(instances
+			(project "shish-lan"
+				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/42c65065-b6e5-43b0-ae2c-34333f058269"
+					(reference "C73")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KL_C:C_22uF_10V_X5R_0603_20")
+		(at 207.01 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "232c1794-ee7a-47cf-beda-82d25862e9c9")
+		(property "Reference" "C26"
+			(at 209.042 61.214 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 208.534 65.278 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "KL:C_0603"
+			(at 207.9752 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 207.01 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 207.01 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "20"
+			(at 207.01 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "10V"
+			(at 207.01 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "81-GRM188R61A226ME5D"
+			(at 207.01 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "490-10476-1-ND"
+			(at 207.01 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C84419"
+			(at 207.01 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "15e55c90-4f39-4c37-a864-4566218ddc32")
+		)
+		(pin "2"
+			(uuid "cc49b93c-81dc-4356-a4d5-7ce80f3a6cef")
+		)
+		(instances
+			(project ""
+				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/42c65065-b6e5-43b0-ae2c-34333f058269"
+					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KL_R:R_12K_100mW_1_0603")
+		(at 170.18 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2951e9fd-d9f1-4e01-b12a-00b60329a508")
+		(property "Reference" "R15"
+			(at 172.72 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "12K"
+			(at 172.72 68.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "KL:R_0603"
+			(at 168.402 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 170.18 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 170.18 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" "100mW"
+			(at 170.18 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 170.18 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "603-RT0603FRE0712KL"
+			(at 170.18 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "YAG3353CT-ND"
+			(at 170.18 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C136933"
+			(at 170.18 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Farnell" "3974308"
+			(at 170.18 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package (in)" "0603"
+			(at 170.18 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1368,31 +2911,32 @@
 			)
 		)
 		(pin "2"
-			(uuid "faaaf9b9-c389-415b-b7d2-4a5f707a3443")
+			(uuid "6c0b6b6b-d2b6-4eea-b56c-1537c6cca048")
 		)
 		(pin "1"
-			(uuid "841cf36e-df82-4c3b-abd4-b95807a379b8")
+			(uuid "8b4caf76-7fb6-487a-8470-77ff9fc923af")
 		)
 		(instances
-			(project "shish-lan"
+			(project ""
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/42c65065-b6e5-43b0-ae2c-34333f058269"
-					(reference "L4")
+					(reference "R15")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "KL_C:C_100nF_10V_X7R_0603_10")
 		(at 217.17 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "31d88918-9049-452c-b5c6-42d81fbb6fa4")
-		(property "Reference" "C78"
-			(at 219.71 62.23 0)
+		(fields_autoplaced yes)
+		(uuid "2a0b70b0-114d-440e-a83b-53d00316f7b0")
+		(property "Reference" "C72"
+			(at 220.98 62.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1401,7 +2945,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 219.71 64.77 0)
+			(at 220.98 64.7699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1409,7 +2953,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "KL:C_0603"
 			(at 218.1352 67.31 0)
 			(effects
 				(font
@@ -1418,7 +2962,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "MLCC X5R or X7R 10V"
+		(property "Datasheet" "~"
 			(at 217.17 63.5 0)
 			(effects
 				(font
@@ -1436,16 +2980,61 @@
 				(hide yes)
 			)
 		)
+		(property "Tolerance" "10"
+			(at 217.17 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50"
+			(at 217.17 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "603-CC603KRX7R6BB104"
+			(at 217.17 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "311-4055-1-ND"
+			(at 217.17 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C519438"
+			(at 217.17 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
-			(uuid "d3893e69-52c3-4d26-a572-99f088130d10")
+			(uuid "eda383d5-34eb-4729-90f7-465ba9d048e9")
 		)
 		(pin "1"
-			(uuid "5326ab49-7e6f-42f7-a324-fa6af6687a01")
+			(uuid "8e7663ba-21e1-4b46-8095-c097c96c231e")
 		)
 		(instances
-			(project "shish-lan"
+			(project ""
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/42c65065-b6e5-43b0-ae2c-34333f058269"
-					(reference "C78")
+					(reference "C72")
 					(unit 1)
 				)
 			)
@@ -1470,7 +3059,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12 or 5 v test"
+		(property "Value" "TestPoint"
 			(at 80.01 60.1979 0)
 			(effects
 				(font
@@ -1519,16 +3108,348 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "KL_L:L_1u5H_19A")
+		(at 160.655 56.515 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f64e449-68dd-421b-a0cb-1ae7569cf692")
+		(property "Reference" "U2"
+			(at 160.02 53.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1u5H"
+			(at 160.02 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "KL:L_1u5_SRP7050WA"
+			(at 160.655 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.655 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 160.655 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "118-SRP7050WA-1R5MCT-ND"
+			(at 160.655 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "652-SRP7050WA-1R5M"
+			(at 160.655 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2453564"
+			(at 160.655 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Current Max" "19A"
+			(at 160.655 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8c4b74f0-31f2-4ae2-b6f9-b651ee3b0487")
+		)
+		(pin "2"
+			(uuid "e461a2a5-d321-42d6-8555-67b05f728b3d")
+		)
+		(instances
+			(project ""
+				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/42c65065-b6e5-43b0-ae2c-34333f058269"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KL_C:C_10nF_25V_X7R_0603_20")
+		(at 97.79 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "51d98b54-1e37-49e1-9b6e-4ab1ac2259c2")
+		(property "Reference" "C86"
+			(at 89.916 70.612 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10nF"
+			(at 89.662 72.898 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "KL:C_0603"
+			(at 98.7552 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.79 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 97.79 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "20"
+			(at 97.79 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "25"
+			(at 97.79 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "603-AC603KRX7R8BB103"
+			(at 97.79 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "311-3111-1-ND"
+			(at 97.79 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C726559"
+			(at 97.79 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e8bcb131-2cb3-4a77-a261-648c9dd28397")
+		)
+		(pin "1"
+			(uuid "77023981-985f-4ec1-adba-44f7875258fe")
+		)
+		(instances
+			(project "shish-lan"
+				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/42c65065-b6e5-43b0-ae2c-34333f058269"
+					(reference "C86")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KL_C:C_22uF_10V_X5R_0603_20")
+		(at 179.07 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "6ca67331-531a-4c29-b006-74ecbdb111a3")
+		(property "Reference" "C92"
+			(at 181.102 63.754 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 180.594 67.818 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "KL:C_0603"
+			(at 180.0352 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 179.07 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "20"
+			(at 179.07 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "10V"
+			(at 179.07 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "81-GRM188R61A226ME5D"
+			(at 179.07 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "490-10476-1-ND"
+			(at 179.07 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C84419"
+			(at 179.07 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8e2939c4-0bcc-497f-ac27-c8fc63af0f7a")
+		)
+		(pin "2"
+			(uuid "709eb5cd-fadf-4d99-a0d0-c17f562d25a3")
+		)
+		(instances
+			(project "shish-lan"
+				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/42c65065-b6e5-43b0-ae2c-34333f058269"
+					(reference "C92")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KL_C:C_10uF_25V_X5R_0603_20")
 		(at 59.69 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "4f8ff6d9-aab9-4fc5-a154-1f967520d429")
-		(property "Reference" "C75"
-			(at 62.23 68.58 0)
+		(uuid "85acdb69-d4ab-4ba1-9954-9005d69bc6c3")
+		(property "Reference" "C70"
+			(at 62.23 67.564 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1537,7 +3458,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 62.23 71.12 0)
+			(at 60.96 72.898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1545,7 +3466,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "KL:C_0603"
 			(at 60.6552 73.66 0)
 			(effects
 				(font
@@ -1572,83 +3493,59 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "3029373f-cca7-41bf-b189-779bb1b76b5f")
+		(property "Tolerance" "20"
+			(at 59.69 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "25"
+			(at 59.69 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "187-CL10A106MA8NRNC"
+			(at 59.69 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "1276-1869-1-ND"
+			(at 59.69 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C96446"
+			(at 59.69 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "b005b7c0-4331-4332-afed-aebe6958fe54")
-		)
-		(instances
-			(project "shish-lan"
-				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/42c65065-b6e5-43b0-ae2c-34333f058269"
-					(reference "C75")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 49.53 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "61464184-0df1-476d-8a1a-4fbb864fbfd0")
-		(property "Reference" "C70"
-			(at 52.07 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 52.07 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 50.4952 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "MLCC X7R, 25 V"
-			(at 49.53 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 49.53 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+			(uuid "75ce3a97-3873-4e17-912a-a7ad4b37b065")
 		)
 		(pin "2"
-			(uuid "01121d5d-67e8-4f5c-bc73-5410197c727f")
-		)
-		(pin "1"
-			(uuid "133854cf-523c-467a-8176-8a2296917681")
+			(uuid "41fbd221-87aa-465e-ade6-07db82139f07")
 		)
 		(instances
-			(project "shish-lan"
+			(project ""
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/42c65065-b6e5-43b0-ae2c-34333f058269"
 					(reference "C70")
 					(unit 1)
@@ -1657,16 +3554,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "KL_C:C_22uF_10V_X5R_0603_20")
 		(at 196.85 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "6992f8b8-3ce7-45a7-b4e9-6feef2e3c014")
-		(property "Reference" "C76"
-			(at 199.39 62.23 0)
+		(uuid "add65179-1155-45ae-b0bb-803cca62a998")
+		(property "Reference" "C71"
+			(at 198.882 61.214 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1675,7 +3572,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 199.39 64.77 0)
+			(at 198.374 65.278 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1683,7 +3580,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "KL:C_0603"
 			(at 197.8152 67.31 0)
 			(effects
 				(font
@@ -1692,7 +3589,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "MLCC X5R or X7R 10V"
+		(property "Datasheet" "~"
 			(at 196.85 63.5 0)
 			(effects
 				(font
@@ -1710,31 +3607,190 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "4a89ab58-2fd4-481c-bfe2-4320bf6043f4")
+		(property "Tolerance" "20"
+			(at 196.85 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "10V"
+			(at 196.85 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "81-GRM188R61A226ME5D"
+			(at 196.85 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "490-10476-1-ND"
+			(at 196.85 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C84419"
+			(at 196.85 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "ade6307c-9e55-4600-b7ce-09abdc80dcd2")
+			(uuid "9bf58f68-0539-470d-8bd1-0270ef5d6a31")
+		)
+		(pin "2"
+			(uuid "1a58a599-a0be-4635-9ec5-9e940d1d794e")
 		)
 		(instances
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/42c65065-b6e5-43b0-ae2c-34333f058269"
-					(reference "C76")
+					(reference "C71")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "tps5642:XTPS564257DRLR")
-		(at 105.41 62.23 0)
+		(lib_id "KL_C:C_22uF_10V_X5R_0603_20")
+		(at 189.23 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "b6686ae3-620c-46fd-a6bd-e5c31a68a889")
+		(property "Reference" "C93"
+			(at 191.262 61.214 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 190.754 65.278 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "KL:C_0603"
+			(at 190.1952 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 189.23 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 189.23 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "20"
+			(at 189.23 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "10V"
+			(at 189.23 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "81-GRM188R61A226ME5D"
+			(at 189.23 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "490-10476-1-ND"
+			(at 189.23 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C84419"
+			(at 189.23 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a008f3d0-3c92-49fa-bf18-c6b0fc429302")
+		)
+		(pin "2"
+			(uuid "8fc9c4ff-04f8-4601-b1f2-c46660021bf0")
+		)
+		(instances
+			(project "shish-lan"
+				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/42c65065-b6e5-43b0-ae2c-34333f058269"
+					(reference "C93")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KL_IC_Power:TI_TPS564357DRLR")
+		(at 125.73 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a7a036ad-d73b-4ee5-a8af-15b5459b4d1d")
+		(uuid "c0f26796-f137-4636-93aa-afbcc34ae613")
 		(property "Reference" "U4"
 			(at 125.73 52.07 0)
 			(effects
@@ -1747,32 +3803,57 @@
 			(at 125.73 54.61 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "TPS564242DRLR_TEX"
-			(at 105.41 62.23 0)
+		(property "Footprint" "KL:SOT-563"
+			(at 125.73 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/gpn/tps564257"
-			(at 105.41 62.23 0)
+			(at 125.73 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 105.41 62.23 0)
+			(at 125.73 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "595-TPS564257DRLR"
+			(at 125.73 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "296-TPS564257DRLRCT-ND"
+			(at 125.73 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS" "C19272233"
+			(at 125.73 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1781,22 +3862,22 @@
 			)
 		)
 		(pin "4"
-			(uuid "25957136-c983-4efe-a7e7-7de5b92bffe6")
+			(uuid "2fa28035-d33f-4b27-a86e-8ee9134b7eea")
 		)
 		(pin "3"
-			(uuid "56006348-68ea-416a-957a-ddc1a28a997f")
+			(uuid "62394c89-43e0-4adf-8f95-70af6bd407a7")
 		)
 		(pin "6"
-			(uuid "a302c40e-2ff0-4641-8680-6bf769976fd1")
+			(uuid "05ee70bf-ed2d-41e4-be4a-fb9f3d7c3af1")
 		)
 		(pin "5"
-			(uuid "f89d15ab-ac76-4a84-b67c-d5fe2941f48e")
+			(uuid "7304cdfe-f34e-486f-9858-e9209d521d3c")
 		)
 		(pin "2"
-			(uuid "19542eae-9cae-4159-b39b-cfb13d6b56a2")
+			(uuid "065975f8-42e2-45a7-bd38-58c8ad35b564")
 		)
 		(pin "1"
-			(uuid "4c51ea62-5ec6-4dd3-b363-1f61a0f1e9e6")
+			(uuid "310bef8d-1286-4696-bb5e-f7eeb550bc2e")
 		)
 		(instances
 			(project "shish-lan"
@@ -1808,17 +3889,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 173.99 67.31 0)
+		(lib_id "KL_R:R_11K_100mW_1_0603")
+		(at 173.99 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ba2da07f-5a6a-482d-842e-053905ec3c87")
-		(property "Reference" "R15"
-			(at 176.53 66.0399 0)
+		(uuid "c3116faa-fa97-482c-aa00-e67f2f7aecc6")
+		(property "Reference" "R16"
+			(at 176.53 77.4699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1826,8 +3907,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12K +/- 1%"
-			(at 176.53 68.5799 0)
+		(property "Value" "11K"
+			(at 176.53 80.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1835,8 +3916,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 172.212 67.31 90)
+		(property "Footprint" "KL:R_0603"
+			(at 172.212 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1845,7 +3926,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 173.99 67.31 0)
+			(at 173.99 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1853,8 +3934,71 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor 1%"
-			(at 173.99 67.31 0)
+		(property "Description" "Resistor"
+			(at 173.99 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" "100mW"
+			(at 173.99 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 173.99 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "603-RC0603FR-0711KL"
+			(at 173.99 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "311-11.0KHRCT-ND"
+			(at 173.99 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C137801"
+			(at 173.99 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Farnell" "3495727"
+			(at 173.99 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package (in)" "0603"
+			(at 173.99 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1863,15 +4007,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "2cd8ab28-d6ce-4771-8317-4adb3a8a4fa6")
+			(uuid "f9ac23d5-9255-4a93-a6d8-3e9e885922fb")
 		)
 		(pin "2"
-			(uuid "09c5e01f-c280-417b-8c06-edf15dc66a32")
+			(uuid "59581cf3-43e7-4262-8ad2-e0d3fe35643c")
 		)
 		(instances
-			(project "shish-lan"
+			(project ""
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/42c65065-b6e5-43b0-ae2c-34333f058269"
-					(reference "R15")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -1896,7 +4040,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1V15 power test"
+		(property "Value" "TestPoint"
 			(at 215.9 57.6579 0)
 			(effects
 				(font
@@ -1945,17 +4089,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 173.99 78.74 0)
+		(lib_id "KL_R:R_10K_100mW_5_0603")
+		(at 101.6 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d0068a3b-112a-49d2-be95-cd51e3690692")
-		(property "Reference" "R16"
-			(at 176.53 77.4699 0)
+		(uuid "d71e4bfc-b59f-4b12-8a59-f8c205fe4787")
+		(property "Reference" "R84"
+			(at 104.14 71.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1963,8 +4107,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K +/- 1%"
-			(at 176.53 80.0099 0)
+		(property "Value" "10K"
+			(at 104.14 73.6599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1972,8 +4116,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 172.212 78.74 90)
+		(property "Footprint" "KL:R_0603"
+			(at 99.822 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1982,7 +4126,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 173.99 78.74 0)
+			(at 101.6 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1990,8 +4134,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor 1%"
-			(at 173.99 78.74 0)
+		(property "Description" "Resistor"
+			(at 101.6 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1999,32 +4143,96 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "fd138f4e-e690-4050-8da2-d6456c87bcef")
+		(property "Power" "100mW"
+			(at 101.6 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "5%"
+			(at 101.6 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "71-CRCW060310K0JNEC"
+			(at 101.6 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "541-CRCW060310K0JNECCT-ND"
+			(at 101.6 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C4195694"
+			(at 101.6 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package (in)" "0603"
+			(at 101.6 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Farnell" ""
+			(at 101.6 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "3daa2c9b-5ecd-4b3f-be48-1063ea414c04")
+			(uuid "96d56d4a-c632-4fa4-855e-ba96ef7dd921")
+		)
+		(pin "1"
+			(uuid "e694a25f-2cdf-4b21-8ff0-761c421bded7")
 		)
 		(instances
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/42c65065-b6e5-43b0-ae2c-34333f058269"
-					(reference "R16")
+					(reference "R84")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 207.01 63.5 0)
+		(lib_id "Connector:TestPoint")
+		(at 101.6 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d5ed97a6-3f65-4cab-af92-2315e07e4e77")
-		(property "Reference" "C77"
-			(at 209.55 62.23 0)
+		(fields_autoplaced yes)
+		(uuid "ec94b261-4f37-4ef4-b4f9-fcf0105bb546")
+		(property "Reference" "TP3"
+			(at 104.14 64.0079 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2032,8 +4240,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uF"
-			(at 209.55 64.77 0)
+		(property "Value" "TestPoint"
+			(at 104.14 66.5479 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2041,8 +4249,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 207.9752 67.31 0)
+		(property "Footprint" ""
+			(at 106.68 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2050,8 +4258,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "MLCC X5R or X7R 10V"
-			(at 207.01 63.5 0)
+		(property "Datasheet" "~"
+			(at 106.68 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2059,25 +4267,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 207.01 63.5 0)
+		(property "Description" "test point"
+			(at 101.6 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "857f3828-f153-4146-aa71-0b2ab42acd23")
 		)
 		(pin "1"
-			(uuid "9a41947c-8bb9-4e02-82f5-575153622bdd")
+			(uuid "ae3806f2-79b5-4c4f-90fb-8425728c8625")
 		)
 		(instances
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/42c65065-b6e5-43b0-ae2c-34333f058269"
-					(reference "C77")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -2102,7 +4307,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12v test"
+		(property "Value" "TestPoint"
 			(at 156.21 64.7699 90)
 			(effects
 				(font
