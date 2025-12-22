@@ -7654,8 +7654,50 @@
 		)
 	)
 	(sheet
-		(at 182.88 44.45)
-		(size 91.44 92.71)
+		(at 29.845 23.495)
+		(size 51.435 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "06488c82-a47f-4277-b0ee-3bd211d8922a")
+		(property "Sheetname" "controller"
+			(at 29.845 22.7834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "controller.kicad_sch"
+			(at 29.845 52.0196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "shish-lan"
+				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 208.28 55.88)
+		(size 26.67 8.89)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
