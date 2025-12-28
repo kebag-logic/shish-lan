@@ -480,6 +480,9 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "+1V1": [
+        "PWR"
+      ],
       "+2V5": [
         "PWR"
       ],
@@ -885,16 +888,16 @@
         "5-12V_IN"
       ],
       "Net-(U2-VIN)": [
-        "5-12V_IN"
+        "PWR"
       ],
       "Net-(U3-VIN)": [
-        "5-12V_IN"
+        "PWR"
       ],
       "Net-(U4-VIN)": [
         "5-12V_IN"
       ],
       "Net-(U5-VIN)": [
-        "PWR"
+        "5-12V_IN"
       ],
       "Net-(U6-VIN)": [
         "PWR"
