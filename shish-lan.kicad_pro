@@ -480,6 +480,12 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "+2V5": [
+        "PWR"
+      ],
+      "+3V3": [
+        "PWR"
+      ],
       "/buck_1V1/1V1": [
         "1V1_BUCK"
       ],
@@ -888,10 +894,10 @@
         "5-12V_IN"
       ],
       "Net-(U5-VIN)": [
-        "5-12V_IN"
+        "PWR"
       ],
       "Net-(U6-VIN)": [
-        "5-12V_IN"
+        "PWR"
       ],
       "unconnected-(R10-Pad2)": [
         "GND_BUCK"
