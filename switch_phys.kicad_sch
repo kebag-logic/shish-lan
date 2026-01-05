@@ -11246,7 +11246,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "479f93d1-33cf-4283-9faf-9cb67e874be4")
-		(property "Reference" "U?"
+		(property "Reference" "U1"
 			(at 52.07 179.07 0)
 			(effects
 				(font
@@ -11695,7 +11695,7 @@
 			)
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/cbb6064c-9387-4840-bb4d-7326af14ff9d"
-					(reference "U?")
+					(reference "U1")
 					(unit 3)
 				)
 			)
