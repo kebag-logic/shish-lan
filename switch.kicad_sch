@@ -32,7 +32,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "KL:02x01_2.54mm_Header"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4151,7 +4151,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "KL:02x01_2.54mm_Header"
 			(at 116.84 185.42 0)
 			(effects
 				(font
@@ -4227,7 +4227,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "KL:02x01_2.54mm_Header"
 			(at 137.16 185.42 0)
 			(effects
 				(font
