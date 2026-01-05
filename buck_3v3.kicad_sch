@@ -7,7 +7,7 @@
 	(title_block
 		(title "Switch 3V3 Power Rail")
 		(date "2025-12-21")
-		(rev "Rev A")
+		(rev "Rev. A")
 		(company "Kebag-Logic <contact@kebag-logic.com>")
 		(comment 1 "Confidential")
 	)
@@ -3765,6 +3765,12 @@
 			(uuid "30f5ab8c-53ca-487b-a2bd-b0f187cbfdd4")
 		)
 		(instances
+			(project "switch"
+				(path "/cd936d40-9035-4ec8-bcf8-38758f995fb0/606fcd84-feed-4290-bf9b-87889000b681"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/606fcd84-feed-4290-bf9b-87889000b681"
 					(reference "#PWR6")
@@ -3880,6 +3886,12 @@
 			(uuid "3228357b-0aa4-4a66-a0c1-ce9bd43e060b")
 		)
 		(instances
+			(project "switch"
+				(path "/cd936d40-9035-4ec8-bcf8-38758f995fb0/606fcd84-feed-4290-bf9b-87889000b681"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/606fcd84-feed-4290-bf9b-87889000b681"
 					(reference "C94")
@@ -3995,6 +4007,12 @@
 			(uuid "eb6e0221-e420-4ea3-b203-21b2919d91de")
 		)
 		(instances
+			(project "switch"
+				(path "/cd936d40-9035-4ec8-bcf8-38758f995fb0/606fcd84-feed-4290-bf9b-87889000b681"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/606fcd84-feed-4290-bf9b-87889000b681"
 					(reference "C88")
@@ -4110,6 +4128,12 @@
 			(uuid "0089603e-707c-4b70-8324-a2e070e8b561")
 		)
 		(instances
+			(project "switch"
+				(path "/cd936d40-9035-4ec8-bcf8-38758f995fb0/606fcd84-feed-4290-bf9b-87889000b681"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/606fcd84-feed-4290-bf9b-87889000b681"
 					(reference "C77")
@@ -4225,6 +4249,12 @@
 			(uuid "35881182-fe1c-4472-86fc-273591b00bd0")
 		)
 		(instances
+			(project "switch"
+				(path "/cd936d40-9035-4ec8-bcf8-38758f995fb0/606fcd84-feed-4290-bf9b-87889000b681"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/606fcd84-feed-4290-bf9b-87889000b681"
 					(reference "C89")
@@ -4340,6 +4370,12 @@
 			(uuid "e730eafa-4c7b-4fa9-bb2b-36a8b2c73bf1")
 		)
 		(instances
+			(project "switch"
+				(path "/cd936d40-9035-4ec8-bcf8-38758f995fb0/606fcd84-feed-4290-bf9b-87889000b681"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/606fcd84-feed-4290-bf9b-87889000b681"
 					(reference "C91")
@@ -4406,6 +4442,12 @@
 			(uuid "d25083ce-5fc9-46d6-8d91-f4bc9a5e3270")
 		)
 		(instances
+			(project "switch"
+				(path "/cd936d40-9035-4ec8-bcf8-38758f995fb0/606fcd84-feed-4290-bf9b-87889000b681"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/606fcd84-feed-4290-bf9b-87889000b681"
 					(reference "#PWR5")
@@ -4521,6 +4563,12 @@
 			(uuid "523146ed-36c6-4bef-bb43-48e1d1eca0cb")
 		)
 		(instances
+			(project "switch"
+				(path "/cd936d40-9035-4ec8-bcf8-38758f995fb0/606fcd84-feed-4290-bf9b-87889000b681"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/606fcd84-feed-4290-bf9b-87889000b681"
 					(reference "C78")
@@ -4588,6 +4636,12 @@
 			(uuid "fb2ffcc1-247f-46ab-aac4-41120b0d84de")
 		)
 		(instances
+			(project "switch"
+				(path "/cd936d40-9035-4ec8-bcf8-38758f995fb0/606fcd84-feed-4290-bf9b-87889000b681"
+					(reference "TP?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/606fcd84-feed-4290-bf9b-87889000b681"
 					(reference "TP17")
@@ -4655,6 +4709,12 @@
 			(uuid "915a4161-3774-452d-b71a-997c9fbc4005")
 		)
 		(instances
+			(project "switch"
+				(path "/cd936d40-9035-4ec8-bcf8-38758f995fb0/606fcd84-feed-4290-bf9b-87889000b681"
+					(reference "TP?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/606fcd84-feed-4290-bf9b-87889000b681"
 					(reference "TP2")
@@ -4788,6 +4848,12 @@
 			(uuid "5dccdd39-1d97-426d-b1ad-11e3a995932a")
 		)
 		(instances
+			(project "switch"
+				(path "/cd936d40-9035-4ec8-bcf8-38758f995fb0/606fcd84-feed-4290-bf9b-87889000b681"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/606fcd84-feed-4290-bf9b-87889000b681"
 					(reference "R83")
@@ -4919,6 +4985,12 @@
 			(uuid "5300d8b9-b77f-4a5e-b7af-5aadea11edc4")
 		)
 		(instances
+			(project "switch"
+				(path "/cd936d40-9035-4ec8-bcf8-38758f995fb0/606fcd84-feed-4290-bf9b-87889000b681"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/606fcd84-feed-4290-bf9b-87889000b681"
 					(reference "R94")
@@ -4986,6 +5058,12 @@
 			(uuid "2113c4e2-8c94-4647-bd08-feb69b77a0d4")
 		)
 		(instances
+			(project "switch"
+				(path "/cd936d40-9035-4ec8-bcf8-38758f995fb0/606fcd84-feed-4290-bf9b-87889000b681"
+					(reference "TP?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/606fcd84-feed-4290-bf9b-87889000b681"
 					(reference "TP18")
@@ -5052,6 +5130,12 @@
 			(uuid "0af59c71-80d1-4e02-89d5-5305f35eadd9")
 		)
 		(instances
+			(project "switch"
+				(path "/cd936d40-9035-4ec8-bcf8-38758f995fb0/606fcd84-feed-4290-bf9b-87889000b681"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/606fcd84-feed-4290-bf9b-87889000b681"
 					(reference "#PWR1")
@@ -5167,6 +5251,12 @@
 			(uuid "4c23c373-e460-4956-b4dc-057108682b0a")
 		)
 		(instances
+			(project "switch"
+				(path "/cd936d40-9035-4ec8-bcf8-38758f995fb0/606fcd84-feed-4290-bf9b-87889000b681"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/606fcd84-feed-4290-bf9b-87889000b681"
 					(reference "C74")
@@ -5273,6 +5363,12 @@
 			(uuid "cf45f113-95da-4a41-8e6a-e841a5feda0b")
 		)
 		(instances
+			(project "switch"
+				(path "/cd936d40-9035-4ec8-bcf8-38758f995fb0/606fcd84-feed-4290-bf9b-87889000b681"
+					(reference "L?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/606fcd84-feed-4290-bf9b-87889000b681"
 					(reference "L1")
@@ -5406,6 +5502,12 @@
 			(uuid "d33917d3-61c3-4873-8ca2-b458c17a3bdb")
 		)
 		(instances
+			(project "switch"
+				(path "/cd936d40-9035-4ec8-bcf8-38758f995fb0/606fcd84-feed-4290-bf9b-87889000b681"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/606fcd84-feed-4290-bf9b-87889000b681"
 					(reference "R23")
@@ -5473,6 +5575,12 @@
 			(uuid "77e3941a-1c4c-4a1b-8d80-50f8d9afcf4c")
 		)
 		(instances
+			(project "switch"
+				(path "/cd936d40-9035-4ec8-bcf8-38758f995fb0/606fcd84-feed-4290-bf9b-87889000b681"
+					(reference "TP?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/606fcd84-feed-4290-bf9b-87889000b681"
 					(reference "TP16")
@@ -5580,6 +5688,12 @@
 			(uuid "2d240670-4c55-4314-af57-249feaeb9e04")
 		)
 		(instances
+			(project "switch"
+				(path "/cd936d40-9035-4ec8-bcf8-38758f995fb0/606fcd84-feed-4290-bf9b-87889000b681"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/606fcd84-feed-4290-bf9b-87889000b681"
 					(reference "U6")
@@ -5646,6 +5760,12 @@
 			(uuid "e8900a31-9be3-4295-a960-e0da155bf80f")
 		)
 		(instances
+			(project "switch"
+				(path "/cd936d40-9035-4ec8-bcf8-38758f995fb0/606fcd84-feed-4290-bf9b-87889000b681"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/606fcd84-feed-4290-bf9b-87889000b681"
 					(reference "#PWR7")
@@ -5779,6 +5899,12 @@
 			(uuid "2de9f150-001f-472d-9631-411554e505bc")
 		)
 		(instances
+			(project "switch"
+				(path "/cd936d40-9035-4ec8-bcf8-38758f995fb0/606fcd84-feed-4290-bf9b-87889000b681"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/606fcd84-feed-4290-bf9b-87889000b681"
 					(reference "R20")
@@ -5845,6 +5971,12 @@
 			(uuid "d25083ce-5fc9-46d6-8d91-f4bc9a5e3271")
 		)
 		(instances
+			(project "switch"
+				(path "/cd936d40-9035-4ec8-bcf8-38758f995fb0/606fcd84-feed-4290-bf9b-87889000b681"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/606fcd84-feed-4290-bf9b-87889000b681"
 					(reference "#PWR4")
@@ -5975,6 +6107,12 @@
 			(uuid "72ec8f29-084a-4f56-a291-609aa519a796")
 		)
 		(instances
+			(project "switch"
+				(path "/cd936d40-9035-4ec8-bcf8-38758f995fb0/606fcd84-feed-4290-bf9b-87889000b681"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/606fcd84-feed-4290-bf9b-87889000b681"
 					(reference "R80")
@@ -6090,6 +6228,12 @@
 			(uuid "f1f088d1-f805-42c2-baec-5d849b406b16")
 		)
 		(instances
+			(project "switch"
+				(path "/cd936d40-9035-4ec8-bcf8-38758f995fb0/606fcd84-feed-4290-bf9b-87889000b681"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/606fcd84-feed-4290-bf9b-87889000b681"
 					(reference "C90")
@@ -6205,6 +6349,12 @@
 			(uuid "ade07346-cc92-4b5f-83f6-d14648d9eb4c")
 		)
 		(instances
+			(project "switch"
+				(path "/cd936d40-9035-4ec8-bcf8-38758f995fb0/606fcd84-feed-4290-bf9b-87889000b681"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/606fcd84-feed-4290-bf9b-87889000b681"
 					(reference "C87")
@@ -6271,6 +6421,12 @@
 			(uuid "ced555ed-9f6a-4f0c-96c3-b5ba4fba3bb0")
 		)
 		(instances
+			(project "switch"
+				(path "/cd936d40-9035-4ec8-bcf8-38758f995fb0/606fcd84-feed-4290-bf9b-87889000b681"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/606fcd84-feed-4290-bf9b-87889000b681"
 					(reference "#PWR2")
@@ -6337,6 +6493,12 @@
 			(uuid "5bc41abe-7461-4315-a5b7-c7296ee10eaa")
 		)
 		(instances
+			(project "switch"
+				(path "/cd936d40-9035-4ec8-bcf8-38758f995fb0/606fcd84-feed-4290-bf9b-87889000b681"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/606fcd84-feed-4290-bf9b-87889000b681"
 					(reference "#PWR8")
