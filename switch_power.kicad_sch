@@ -12,113 +12,6 @@
 		(comment 1 "Confidential")
 	)
 	(lib_symbols
-		(symbol "Connector:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "KL_C:C_100n_16V_X7R_0603_10"
 			(pin_numbers
 				(hide yes)
@@ -5074,6 +4967,115 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "KL_TP:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 5.715 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text_box "WARNING: \nMake sure that the LEDS in the PHY part are connected to the right pwoer"
 		(exclude_from_sim no)
@@ -9236,7 +9238,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
+		(lib_id "KL_TP:TestPoint")
 		(at 161.29 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9246,24 +9248,24 @@
 		(fields_autoplaced yes)
 		(uuid "165a747f-c916-4ca8-808f-9065dafb2557")
 		(property "Reference" "TP8"
-			(at 163.83 72.8979 0)
+			(at 161.29 71.755 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 163.83 75.4379 0)
+		(property "Value" ""
+			(at 161.29 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 166.37 77.47 0)
 			(effects
 				(font
@@ -11625,7 +11627,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
+		(lib_id "KL_TP:TestPoint")
 		(at 67.31 123.19 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11635,22 +11637,24 @@
 		(fields_autoplaced yes)
 		(uuid "4dbb9dc6-4219-44fa-902f-bd7d7c8c655b")
 		(property "Reference" "TP9"
-			(at 64.008 118.11 90)
+			(at 61.595 123.19 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 64.008 120.65 90)
+		(property "Value" ""
+			(at 62.23 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 67.31 118.11 0)
 			(effects
 				(font
@@ -12673,7 +12677,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
+		(lib_id "KL_TP:TestPoint")
 		(at 63.5 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12683,24 +12687,24 @@
 		(fields_autoplaced yes)
 		(uuid "74856f5e-b3c8-428a-9d59-6e7dffd7d052")
 		(property "Reference" "TP5"
-			(at 66.04 50.0379 0)
+			(at 63.5 48.895 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 66.04 52.5779 0)
+		(property "Value" ""
+			(at 63.5 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 68.58 54.61 0)
 			(effects
 				(font
@@ -14107,7 +14111,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
+		(lib_id "KL_TP:TestPoint")
 		(at 68.58 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14117,24 +14121,24 @@
 		(fields_autoplaced yes)
 		(uuid "9714c8f5-e506-455d-ac90-cf9f26163a06")
 		(property "Reference" "TP6"
-			(at 71.12 83.0579 0)
+			(at 68.58 81.915 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 71.12 85.5979 0)
+		(property "Value" ""
+			(at 68.58 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 73.66 87.63 0)
 			(effects
 				(font
@@ -14526,7 +14530,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
+		(lib_id "KL_TP:TestPoint")
 		(at 156.21 121.92 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14536,24 +14540,24 @@
 		(fields_autoplaced yes)
 		(uuid "a16562fd-d119-45ba-8dad-edce0873c6eb")
 		(property "Reference" "TP20"
-			(at 158.75 123.9519 0)
+			(at 156.21 127.635 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 158.75 126.4919 0)
+		(property "Value" ""
+			(at 156.21 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 151.13 121.92 0)
 			(effects
 				(font
@@ -15208,7 +15212,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
+		(lib_id "KL_TP:TestPoint")
 		(at 68.58 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15218,24 +15222,24 @@
 		(fields_autoplaced yes)
 		(uuid "b922ba23-0dcc-4d64-bf3b-84646ebfb2cc")
 		(property "Reference" "TP7"
-			(at 71.12 98.2979 0)
+			(at 68.58 97.155 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 71.12 100.8379 0)
+		(property "Value" ""
+			(at 68.58 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 73.66 102.87 0)
 			(effects
 				(font
@@ -16523,7 +16527,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
+		(lib_id "KL_TP:TestPoint")
 		(at 105.41 144.78 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16533,24 +16537,24 @@
 		(fields_autoplaced yes)
 		(uuid "d4f72011-c776-4afd-b29a-97ed46c50920")
 		(property "Reference" "TP19"
-			(at 110.49 143.5099 90)
+			(at 111.125 144.78 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 110.49 146.0499 90)
+		(property "Value" ""
+			(at 110.49 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 105.41 149.86 0)
 			(effects
 				(font
@@ -17487,7 +17491,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
+		(lib_id "KL_TP:TestPoint")
 		(at 64.77 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17497,24 +17501,24 @@
 		(fields_autoplaced yes)
 		(uuid "e9c63356-e0e3-464b-8cd1-cae8f8317c81")
 		(property "Reference" "TP4"
-			(at 67.31 66.5479 0)
+			(at 64.77 65.405 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 67.31 69.0879 0)
+		(property "Value" ""
+			(at 64.77 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 69.85 71.12 0)
 			(effects
 				(font
