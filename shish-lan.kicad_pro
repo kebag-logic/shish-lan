@@ -1218,6 +1218,10 @@
       "switch_power"
     ],
     [
+      "e503b9a1-dc40-4261-99ac-d1a8c04f6765",
+      "switch_gpio_config"
+    ],
+    [
       "cbb6064c-9387-4840-bb4d-7326af14ff9d",
       "switch_phys"
     ]
