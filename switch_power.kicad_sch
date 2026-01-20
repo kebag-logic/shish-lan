@@ -5497,7 +5497,7 @@
 	)
 	(text_box "Should an oscilator be used instead?"
 		(exclude_from_sim no)
-		(at 99.06 132.08 0)
+		(at 105.41 130.81 0)
 		(size 16.51 8.89)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
