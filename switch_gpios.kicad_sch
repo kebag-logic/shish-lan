@@ -6519,7 +6519,7 @@
 		)
 		(uuid "872c41a0-efd3-4201-8337-89e4264748f7")
 	)
-	(hierarchical_label "MIIM{MDIO,MDC}"
+	(hierarchical_label "MIIM{MDIO MDC}"
 		(shape bidirectional)
 		(at 46.99 111.76 180)
 		(effects

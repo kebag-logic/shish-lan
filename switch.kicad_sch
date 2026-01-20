@@ -5166,7 +5166,7 @@
 				(justify right)
 			)
 		)
-		(pin "MIIM{MDIO,MDC}" bidirectional
+		(pin "MIIM{MDIO MDC}" bidirectional
 			(at 88.9 92.71 90)
 			(uuid "4285c5f7-9842-44f3-b469-998f2eaaea82")
 			(effects
