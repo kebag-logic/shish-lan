@@ -573,552 +573,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "KL_FerritBead_33_3_2"
-			(pin_numbers
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "FB"
-				(at 0 4.064 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "33R"
-				(at -0.254 -4.064 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Current Max" "3A"
-				(at 3.81 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer #" "BLM18PG330SN1D"
-				(at -15.748 6.604 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mouser" " 81-BLM18PG330SN1D"
-				(at -17.78 2.286 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Digikey" "490-5220-2-ND;490-5220-1-ND;490-5220-6-ND"
-				(at -13.716 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Farnell" "1515742"
-				(at -19.812 10.668 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC" "C88984"
-				(at -21.082 4.318 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "KL_FerritBead_33_3_2_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -1.2954 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.4064 -2.7686) (xy -2.2606 -1.7018) (xy 0.3048 2.7686) (xy 2.159 1.6764) (xy -0.4064 -2.7686)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 1.2192 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "KL_FerritBead_33_3_2_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "KL_FerritBead_33_3_3"
-			(pin_numbers
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "FB"
-				(at 0 4.064 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "33R"
-				(at -0.254 -4.064 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Current Max" "3A"
-				(at 3.81 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer #" "BLM18PG330SN1D"
-				(at -15.748 6.604 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mouser" " 81-BLM18PG330SN1D"
-				(at -17.78 2.286 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Digikey" "490-5220-2-ND;490-5220-1-ND;490-5220-6-ND"
-				(at -13.716 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Farnell" "1515742"
-				(at -19.812 10.668 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC" "C88984"
-				(at -21.082 4.318 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "KL_FerritBead_33_3_3_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -1.2954 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.4064 -2.7686) (xy -2.2606 -1.7018) (xy 0.3048 2.7686) (xy 2.159 1.6764) (xy -0.4064 -2.7686)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 1.2192 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "KL_FerritBead_33_3_3_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "KL_FerritBead_33_3_4"
-			(pin_numbers
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "FB"
-				(at 0 4.064 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "33R"
-				(at -0.254 -4.064 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Current Max" "3A"
-				(at 3.81 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer #" "BLM18PG330SN1D"
-				(at -15.748 6.604 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mouser" " 81-BLM18PG330SN1D"
-				(at -17.78 2.286 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Digikey" "490-5220-2-ND;490-5220-1-ND;490-5220-6-ND"
-				(at -13.716 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Farnell" "1515742"
-				(at -19.812 10.668 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC" "C88984"
-				(at -21.082 4.318 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "KL_FerritBead_33_3_4_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -1.2954 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.4064 -2.7686) (xy -2.2606 -1.7018) (xy 0.3048 2.7686) (xy 2.159 1.6764) (xy -0.4064 -2.7686)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 1.2192 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "KL_FerritBead_33_3_4_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "KL_Ferrites:KL_FerritBead_33_3"
 			(pin_numbers
 				(hide yes)
@@ -1306,12 +760,11 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 15.24 21.59 0)
+				(at 27.432 -1.524 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" ""
@@ -1320,6 +773,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Footprint" "Package_QFP:TQFP-128_14x14mm_P0.4mm"
@@ -3793,7 +3247,7 @@
 				(pin input line
 					(at 30.48 -100.33 180)
 					(length 5.08)
-					(name "ISSET"
+					(name "ISET"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4175,7 +3629,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/VXM7-Website-April-2020.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -9672,7 +9126,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "cc9c65e5-4eab-45b1-9d06-fadb26eeae2d")
+			(uuid "cc9c65e5-4eab-45b1-9d06-fadb26eeae2e")
 		)
 		(instances
 			(project ""
@@ -10135,7 +9589,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "cc9c65e5-4eab-45b1-9d06-fadb26eeae2d")
+			(uuid "cc9c65e5-4eab-45b1-9d06-fadb26eeae2f")
 		)
 		(instances
 			(project ""
@@ -10340,7 +9794,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "bdba0e6e-4120-4b31-ba5e-55fd2ec62057")
+			(uuid "bdba0e6e-4120-4b31-ba5e-55fd2ec62058")
 		)
 		(instances
 			(project ""
@@ -10352,7 +9806,6 @@
 		)
 	)
 	(symbol
-		(lib_name "KL_FerritBead_33_3_3")
 		(lib_id "KL_Ferrites:KL_FerritBead_33_3")
 		(at 57.15 91.44 0)
 		(unit 1)
@@ -10861,7 +10314,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/VXM7-Website-April-2020.pdf"
 			(at 133.35 138.43 0)
 			(effects
 				(font
@@ -11605,7 +11058,6 @@
 		)
 	)
 	(symbol
-		(lib_name "KL_FerritBead_33_3_4")
 		(lib_id "KL_Ferrites:KL_FerritBead_33_3")
 		(at 57.15 120.65 0)
 		(unit 1)
@@ -12254,7 +11706,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "cc9c65e5-4eab-45b1-9d06-fadb26eeae2d")
+			(uuid "cc9c65e5-4eab-45b1-9d06-fadb26eeae30")
 		)
 		(instances
 			(project ""
@@ -12477,7 +11929,6 @@
 		)
 	)
 	(symbol
-		(lib_name "KL_FerritBead_33_3_2")
 		(lib_id "KL_Ferrites:KL_FerritBead_33_3")
 		(at 57.15 62.23 0)
 		(unit 1)

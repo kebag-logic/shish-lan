@@ -3677,7 +3677,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "d4b778e1-3c59-4b2c-953b-ac15e98780f8")
+			(uuid "d4b778e1-3c59-4b2c-953b-ac15e98780f9")
 		)
 		(instances
 			(project ""
@@ -4384,7 +4384,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "d4b778e1-3c59-4b2c-953b-ac15e98780f8")
+			(uuid "d4b778e1-3c59-4b2c-953b-ac15e98780fa")
 		)
 		(instances
 			(project ""
@@ -7046,7 +7046,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "d4b778e1-3c59-4b2c-953b-ac15e98780f8")
+			(uuid "d4b778e1-3c59-4b2c-953b-ac15e98780fb")
 		)
 		(instances
 			(project ""

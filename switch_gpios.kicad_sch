@@ -17,12 +17,11 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 15.24 21.59 0)
+				(at 27.432 -1.524 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" ""
@@ -31,6 +30,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Footprint" "Package_QFP:TQFP-128_14x14mm_P0.4mm"
@@ -151,7 +151,7 @@
 					)
 				)
 				(pin input line
-					(at -5.08 -82.55 0)
+					(at -5.08 -80.01 0)
 					(length 5.08)
 					(name "XO"
 						(effects
@@ -658,7 +658,7 @@
 					)
 				)
 				(pin input line
-					(at -5.08 -78.74 0)
+					(at 16.51 -92.71 90)
 					(length 5.08)
 					(name "GND_PAD"
 						(effects
@@ -2504,7 +2504,7 @@
 				(pin input line
 					(at 30.48 -100.33 180)
 					(length 5.08)
-					(name "ISSET"
+					(name "ISET"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3544,7 +3544,7 @@
 		(uuid "b021c5f5-47f9-4ac6-8db5-3d94255b6b41")
 	)
 	(junction
-		(at 143.51 50.8)
+		(at 135.89 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "beaa5628-c54f-495b-a05a-30b0ccc508ea")
@@ -3990,7 +3990,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 50.8) (xy 143.51 50.8)
+			(xy 132.08 50.8) (xy 135.89 50.8)
 		)
 		(stroke
 			(width 0)
@@ -4040,7 +4040,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 59.69) (xy 177.8 59.69)
+			(xy 124.46 59.69) (xy 177.8 59.69)
 		)
 		(stroke
 			(width 0)
@@ -4420,7 +4420,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 52.07) (xy 177.8 52.07)
+			(xy 135.89 52.07) (xy 177.8 52.07)
 		)
 		(stroke
 			(width 0)
@@ -4710,7 +4710,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 57.15) (xy 177.8 57.15)
+			(xy 124.46 57.15) (xy 177.8 57.15)
 		)
 		(stroke
 			(width 0)
@@ -5130,7 +5130,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 54.61) (xy 177.8 54.61)
+			(xy 124.46 54.61) (xy 177.8 54.61)
 		)
 		(stroke
 			(width 0)
@@ -5210,7 +5210,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 43.18) (xy 143.51 43.18)
+			(xy 132.08 39.37) (xy 135.89 39.37)
 		)
 		(stroke
 			(width 0)
@@ -5460,7 +5460,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 43.18) (xy 143.51 50.8)
+			(xy 135.89 39.37) (xy 135.89 50.8)
 		)
 		(stroke
 			(width 0)
@@ -5480,7 +5480,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 50.8) (xy 143.51 52.07)
+			(xy 135.89 50.8) (xy 135.89 52.07)
 		)
 		(stroke
 			(width 0)
@@ -6411,7 +6411,7 @@
 	)
 	(hierarchical_label "PTP0"
 		(shape bidirectional)
-		(at 132.08 59.69 180)
+		(at 124.46 59.69 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6422,7 +6422,7 @@
 	)
 	(hierarchical_label "PTP2"
 		(shape bidirectional)
-		(at 132.08 54.61 180)
+		(at 124.46 54.61 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6433,7 +6433,7 @@
 	)
 	(hierarchical_label "PTP3"
 		(shape bidirectional)
-		(at 132.08 50.8 180)
+		(at 124.46 50.8 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6477,7 +6477,7 @@
 	)
 	(hierarchical_label "IRQ0"
 		(shape bidirectional)
-		(at 132.08 43.18 180)
+		(at 124.46 39.37 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6609,7 +6609,7 @@
 	)
 	(hierarchical_label "PTP1"
 		(shape bidirectional)
-		(at 132.08 57.15 180)
+		(at 124.46 57.15 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6693,7 +6693,7 @@
 	)
 	(symbol
 		(lib_id "KL_R:R_0R_250mW_0.5_0603")
-		(at 135.89 43.18 90)
+		(at 128.27 39.37 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6702,7 +6702,7 @@
 		(fields_autoplaced yes)
 		(uuid "11f557dd-6d71-4709-9021-414ad14c34a5")
 		(property "Reference" "R92"
-			(at 135.89 36.83 90)
+			(at 128.27 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6710,7 +6710,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 135.89 39.37 90)
+			(at 128.27 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6718,7 +6718,7 @@
 			)
 		)
 		(property "Footprint" "KL_Footprints:C_0603"
-			(at 135.89 44.958 90)
+			(at 128.27 41.148 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6727,7 +6727,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 135.89 43.18 0)
+			(at 128.27 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6736,7 +6736,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 135.89 43.18 0)
+			(at 128.27 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6745,7 +6745,7 @@
 			)
 		)
 		(property "Power" "250mW"
-			(at 135.89 43.18 0)
+			(at 128.27 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6754,7 +6754,7 @@
 			)
 		)
 		(property "Tolerance" "0.5%"
-			(at 135.89 43.18 0)
+			(at 128.27 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6763,7 +6763,7 @@
 			)
 		)
 		(property "Mouser" "71-RCS06030000Z0EA"
-			(at 135.89 43.18 0)
+			(at 128.27 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6772,7 +6772,7 @@
 			)
 		)
 		(property "Digikey" "541-2779-1-ND"
-			(at 135.89 43.18 0)
+			(at 128.27 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6781,7 +6781,7 @@
 			)
 		)
 		(property "LCSC" "C2126552"
-			(at 135.89 43.18 0)
+			(at 128.27 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6790,7 +6790,7 @@
 			)
 		)
 		(property "Farnell" "3235077"
-			(at 135.89 43.18 0)
+			(at 128.27 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6799,7 +6799,7 @@
 			)
 		)
 		(property "Package (in)" "0603"
-			(at 135.89 43.18 0)
+			(at 128.27 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7526,7 +7526,7 @@
 	)
 	(symbol
 		(lib_id "KL_R:R_0R_250mW_0.5_0603")
-		(at 135.89 50.8 90)
+		(at 128.27 50.8 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7535,7 +7535,7 @@
 		(fields_autoplaced yes)
 		(uuid "54efb2a0-151e-4fdd-8396-254aca9fdd53")
 		(property "Reference" "R93"
-			(at 135.89 54.61 90)
+			(at 128.27 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7543,7 +7543,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 135.89 57.15 90)
+			(at 128.27 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7551,7 +7551,7 @@
 			)
 		)
 		(property "Footprint" "KL_Footprints:C_0603"
-			(at 135.89 52.578 90)
+			(at 128.27 52.578 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7560,7 +7560,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 135.89 50.8 0)
+			(at 128.27 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7569,7 +7569,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 135.89 50.8 0)
+			(at 128.27 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7578,7 +7578,7 @@
 			)
 		)
 		(property "Power" "250mW"
-			(at 135.89 50.8 0)
+			(at 128.27 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7587,7 +7587,7 @@
 			)
 		)
 		(property "Tolerance" "0.5%"
-			(at 135.89 50.8 0)
+			(at 128.27 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7596,7 +7596,7 @@
 			)
 		)
 		(property "Mouser" "71-RCS06030000Z0EA"
-			(at 135.89 50.8 0)
+			(at 128.27 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7605,7 +7605,7 @@
 			)
 		)
 		(property "Digikey" "541-2779-1-ND"
-			(at 135.89 50.8 0)
+			(at 128.27 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7614,7 +7614,7 @@
 			)
 		)
 		(property "LCSC" "C2126552"
-			(at 135.89 50.8 0)
+			(at 128.27 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7623,7 +7623,7 @@
 			)
 		)
 		(property "Farnell" "3235077"
-			(at 135.89 50.8 0)
+			(at 128.27 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7632,7 +7632,7 @@
 			)
 		)
 		(property "Package (in)" "0603"
-			(at 135.89 50.8 0)
+			(at 128.27 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
