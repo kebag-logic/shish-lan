@@ -3127,10 +3127,6 @@
 		(uuid "62f608ef-a5d6-4fc2-a1d2-c13b6619273b")
 	)
 	(no_connect
-		(at 106.68 166.37)
-		(uuid "9363ef7c-5ae3-4010-9808-e78175c847b6")
-	)
-	(no_connect
 		(at 133.35 29.21)
 		(uuid "940e03d6-bf7d-432c-a3d7-bcc5fde3e75b")
 	)
@@ -3188,7 +3184,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 139.7) (xy 113.03 139.7)
+			(xy 106.68 139.7) (xy 127 139.7)
 		)
 		(stroke
 			(width 0)
@@ -3296,16 +3292,6 @@
 		)
 		(uuid "2cfec906-3ce2-4719-a23e-9db86c2118e8")
 	)
-	(wire
-		(pts
-			(xy 106.68 142.24) (xy 113.03 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "311552be-a367-411d-b3bf-4431bf4585c5")
-	)
 	(bus
 		(pts
 			(xy 81.28 87.63) (xy 81.28 92.71)
@@ -3318,7 +3304,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 154.94) (xy 113.03 154.94)
+			(xy 106.68 154.94) (xy 127 154.94)
 		)
 		(stroke
 			(width 0)
@@ -3348,7 +3334,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 157.48) (xy 113.03 157.48)
+			(xy 106.68 157.48) (xy 127 157.48)
 		)
 		(stroke
 			(width 0)
@@ -3748,7 +3734,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 149.86) (xy 113.03 149.86)
+			(xy 106.68 149.86) (xy 127 149.86)
 		)
 		(stroke
 			(width 0)
@@ -3837,12 +3823,12 @@
 		(uuid "2e6626d1-0dc9-4c3d-9d8a-429de76bddce")
 	)
 	(label "SYNCE_0"
-		(at 109.22 154.94 0)
+		(at 127 154.94 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "2fcce0be-4297-4c46-9195-04466d3a5c81")
 	)
@@ -4047,7 +4033,7 @@
 		(uuid "c20ba665-ff05-4db8-a807-50737e541d44")
 	)
 	(label "IRQ0"
-		(at 113.03 149.86 180)
+		(at 127 149.86 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4057,7 +4043,7 @@
 		(uuid "d192aacc-e964-4b08-b411-39b5e5f389f8")
 	)
 	(label "3V3"
-		(at 113.03 139.7 180)
+		(at 127 139.7 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4067,12 +4053,12 @@
 		(uuid "e6533a89-19e7-44f3-b0c2-c5901e690c8c")
 	)
 	(label "SYNCE_1"
-		(at 109.22 157.48 0)
+		(at 127 157.48 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "e7ee207c-ed92-438d-9b7a-76b999a6383c")
 	)
@@ -4095,16 +4081,6 @@
 			(justify left bottom)
 		)
 		(uuid "ef73fe63-f7b4-46b6-898c-d21451a9ecea")
-	)
-	(label "GND"
-		(at 113.03 142.24 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "fecf851b-cc8c-45aa-9dc7-2c3b6298a4fa")
 	)
 	(hierarchical_label "2V5_EN"
 		(shape input)
@@ -5183,16 +5159,6 @@
 		(pin "RGMII1{TXD[0..3], TX_CLK, TX_CTLR, RXD[0..3], RX_CLK, RX_CTLR}" bidirectional
 			(at 81.28 92.71 90)
 			(uuid "cdab0648-acff-4a05-92ab-5a15ef29bccf")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "GND_SWITCH" input
-			(at 106.68 142.24 0)
-			(uuid "26b18f81-8257-495a-9461-0c3712e553f4")
 			(effects
 				(font
 					(size 1.27 1.27)
