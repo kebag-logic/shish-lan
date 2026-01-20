@@ -3279,16 +3279,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 45.72) (xy 48.26 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7e8b89d-c6e6-4bae-b7ed-10415f810175")
-	)
-	(wire
-		(pts
 			(xy 96.52 90.17) (xy 114.3 90.17)
 		)
 		(stroke
@@ -3326,16 +3316,6 @@
 			(type default)
 		)
 		(uuid "ce5baca7-a8e8-43c5-8648-095ba549b836")
-	)
-	(wire
-		(pts
-			(xy 40.64 45.72) (xy 48.26 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4ab3323-88ff-4f0e-984e-a2a59677363e")
 	)
 	(wire
 		(pts
@@ -3499,17 +3479,6 @@
 			(justify right)
 		)
 		(uuid "a57ee13c-43ee-4263-8bae-4d4369c30b20")
-	)
-	(hierarchical_label "GND"
-		(shape input)
-		(at 40.64 45.72 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d8a4f794-bf22-4b1d-8289-2414f3883924")
 	)
 	(netclass_flag ""
 		(length 2.54)
@@ -6184,78 +6153,6 @@
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/42c65065-b6e5-43b0-ae2c-34333f058269"
 					(reference "#PWR13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "KL_SYM_LOCAL:GND")
-		(at 48.26 46.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f8825acb-6a16-4606-b3ef-d3254980ea43")
-		(property "Reference" "#PWR23"
-			(at 48.26 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 48.26 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 48.26 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 48.26 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 48.26 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6b505a18-cbec-4736-90f1-b47b5c1938fb")
-		)
-		(instances
-			(project "switch"
-				(path "/cd936d40-9035-4ec8-bcf8-38758f995fb0/42c65065-b6e5-43b0-ae2c-34333f058269"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/42c65065-b6e5-43b0-ae2c-34333f058269"
-					(reference "#PWR23")
 					(unit 1)
 				)
 			)

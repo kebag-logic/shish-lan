@@ -3457,17 +3457,6 @@
 		)
 		(uuid "e9e7e37c-02fc-4629-85a7-f49568b7de3f")
 	)
-	(hierarchical_label "GND"
-		(shape input)
-		(at 26.67 50.8 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7b428af6-1186-41c5-98b2-5e07d373d529")
-	)
 	(hierarchical_label "EN"
 		(shape input)
 		(at 26.67 46.99 180)
