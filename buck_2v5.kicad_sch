@@ -2729,6 +2729,12 @@
 		(uuid "060d1e7f-d5a3-4c35-b5dd-0fa29733b506")
 	)
 	(junction
+		(at 158.75 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "06edc886-46a7-4aed-baa5-5af54e4d598a")
+	)
+	(junction
 		(at 212.09 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2763,12 +2769,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "48115d8f-9cae-40d8-adac-bacddfae5bd7")
-	)
-	(junction
-		(at 157.48 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5e4bdf33-325a-41ad-ab38-c8a4d9fcc671")
 	)
 	(junction
 		(at 87.63 92.71)
@@ -3230,7 +3230,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 69.85) (xy 157.48 69.85)
+			(xy 163.83 69.85) (xy 158.75 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3377,6 +3377,16 @@
 			(type default)
 		)
 		(uuid "d8a4b2c7-9c5c-4c59-9df5-fdc1ec9f3a91")
+	)
+	(wire
+		(pts
+			(xy 158.75 69.85) (xy 157.48 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e065641c-a6a3-4b6b-a3d1-7a23f8741c26")
 	)
 	(wire
 		(pts
@@ -4219,9 +4229,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "3504c6b2-ea7a-41da-bfa0-16335545875f")
 		(property "Reference" "R96"
-			(at 62.23 78.74 90)
+			(at 62.23 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4229,7 +4240,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 62.23 83.82 90)
+			(at 62.23 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4352,7 +4363,7 @@
 		(at 76.2 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -4687,9 +4698,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "67467a66-2144-47a9-98f6-7ff5e0d2b49e")
 		(property "Reference" "R95"
-			(at 167.64 67.564 90)
+			(at 167.64 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4697,7 +4709,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 167.64 72.136 90)
+			(at 167.64 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4837,7 +4849,7 @@
 			(at 132.08 73.66 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 			)
 		)
@@ -4880,15 +4892,6 @@
 			)
 		)
 		(property "Digikey" "296-TPS564257DRLRCT-ND"
-			(at 111.76 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS" "C19272233"
 			(at 111.76 81.28 0)
 			(effects
 				(font
@@ -5350,7 +5353,7 @@
 	)
 	(symbol
 		(lib_id "KL_TP:TestPoint")
-		(at 157.48 82.55 270)
+		(at 158.75 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5359,7 +5362,7 @@
 		(fields_autoplaced yes)
 		(uuid "80521736-945e-44c2-bfb4-9ec3ecdbd919")
 		(property "Reference" "TP30"
-			(at 164.084 82.55 90)
+			(at 158.75 64.135 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -5368,7 +5371,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 162.56 82.55 0)
+			(at 158.75 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5377,7 +5380,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 157.48 87.63 0)
+			(at 163.83 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5386,7 +5389,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 157.48 87.63 0)
+			(at 163.83 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5395,7 +5398,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 157.48 82.55 0)
+			(at 158.75 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5659,7 +5662,7 @@
 		(at 93.98 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -5798,7 +5801,7 @@
 		(at 200.66 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)

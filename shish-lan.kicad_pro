@@ -1224,6 +1224,10 @@
     [
       "cbb6064c-9387-4840-bb4d-7326af14ff9d",
       "switch_phys"
+    ],
+    [
+      "94caf985-1a6e-4f36-bb00-890fd96d201c",
+      "switch_power_buffer_caps"
     ]
   ],
   "text_variables": {}

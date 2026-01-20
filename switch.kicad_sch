@@ -4134,7 +4134,7 @@
 		(fields_autoplaced yes)
 		(uuid "12807e9f-d3b1-421b-982f-5bc9dd774079")
 		(property "Reference" "J2"
-			(at 120.65 184.1499 90)
+			(at 120.65 185.4199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4143,12 +4143,11 @@
 			)
 		)
 		(property "Value" "~"
-			(at 120.65 186.6899 90)
+			(at 116.84 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "KL:02x01_2.54mm_Header"
@@ -4210,7 +4209,7 @@
 		(fields_autoplaced yes)
 		(uuid "5a475a58-20e6-468f-a972-b27c93802e4b")
 		(property "Reference" "J3"
-			(at 140.97 184.1499 90)
+			(at 140.97 185.4199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4219,12 +4218,11 @@
 			)
 		)
 		(property "Value" "~"
-			(at 140.97 186.6899 90)
+			(at 137.16 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "KL:02x01_2.54mm_Header"
@@ -4295,12 +4293,11 @@
 			)
 		)
 		(property "Value" "~"
-			(at 168.91 27.9399 0)
+			(at 138.43 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Package_QFP:TQFP-128_14x14mm_P0.4mm"

@@ -2758,12 +2758,6 @@
 		(uuid "446b9210-a121-409b-ba48-c4de207a84de")
 	)
 	(junction
-		(at 160.02 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "468bd66e-8381-4507-a7a4-09cecac3b75d")
-	)
-	(junction
 		(at 214.63 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2774,6 +2768,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "56f8abef-9b57-4023-b597-0da6adc905fa")
+	)
+	(junction
+		(at 161.29 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "60edc3aa-ed58-4f8c-8588-f03c594d618f")
 	)
 	(junction
 		(at 187.96 63.5)
@@ -3339,6 +3339,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 54.61) (xy 160.02 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da064fa3-f591-4d29-9844-424325b0cf0d")
+	)
+	(wire
+		(pts
 			(xy 173.99 63.5) (xy 176.53 63.5)
 		)
 		(stroke
@@ -3359,7 +3369,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 54.61) (xy 160.02 54.61)
+			(xy 166.37 54.61) (xy 161.29 54.61)
 		)
 		(stroke
 			(width 0)
@@ -3909,9 +3919,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "2876e039-2779-41e8-8ab8-08d04d691381")
 		(property "Reference" "R15"
-			(at 170.18 52.324 90)
+			(at 170.18 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3919,7 +3930,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 170.18 56.896 90)
+			(at 170.18 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4039,7 +4050,7 @@
 	)
 	(symbol
 		(lib_id "KL_TP:TestPoint")
-		(at 160.02 67.31 270)
+		(at 161.29 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4048,7 +4059,7 @@
 		(fields_autoplaced yes)
 		(uuid "2b4eca34-a0cb-4834-a076-48bb377f54f7")
 		(property "Reference" "TP10"
-			(at 166.624 67.31 90)
+			(at 161.29 48.895 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -4057,7 +4068,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 165.1 67.31 0)
+			(at 161.29 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4066,7 +4077,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 160.02 72.39 0)
+			(at 166.37 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4075,7 +4086,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 160.02 72.39 0)
+			(at 166.37 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4084,7 +4095,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 160.02 67.31 0)
+			(at 161.29 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4357,7 +4368,7 @@
 		(at 176.53 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -4478,7 +4489,7 @@
 		(at 78.74 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -4711,7 +4722,7 @@
 		(at 96.52 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -5110,7 +5121,7 @@
 		(at 203.2 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -5355,9 +5366,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "8e9aaa33-7deb-4a16-96a1-5e2a4c7ef016")
 		(property "Reference" "R16"
-			(at 64.77 63.5 90)
+			(at 64.77 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5365,7 +5377,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 64.77 68.58 90)
+			(at 64.77 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6271,7 +6283,7 @@
 			(at 134.62 58.42 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 			)
 		)
@@ -6314,15 +6326,6 @@
 			)
 		)
 		(property "Digikey" "296-TPS564257DRLRCT-ND"
-			(at 114.3 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS" "C19272233"
 			(at 114.3 66.04 0)
 			(effects
 				(font
