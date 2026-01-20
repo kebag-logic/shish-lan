@@ -1228,6 +1228,22 @@
     [
       "94caf985-1a6e-4f36-bb00-890fd96d201c",
       "switch_power_buffer_caps"
+    ],
+    [
+      "b59163f1-c67b-420f-9b32-db087bf18206",
+      "RJ45_Connector_Port0"
+    ],
+    [
+      "63a23246-3e83-496b-b18c-ae8d25719ad6",
+      "RJ45_Connector_Port1"
+    ],
+    [
+      "c1ae1852-a19a-4dbd-815f-e5a475cf92f5",
+      "RJ45_Connector_Port2"
+    ],
+    [
+      "c25f8336-e610-4611-8f85-d1572f3f1a98",
+      "RJ45_Connector_Port3"
     ]
   ],
   "text_variables": {}
