@@ -6779,7 +6779,7 @@
 		)
 		(uuid "8744588a-f168-4965-89d9-e1a69097565c")
 	)
-	(label "nRST_SWITCH"
+	(label "nRST"
 		(at 261.62 128.27 180)
 		(effects
 			(font
@@ -6929,7 +6929,7 @@
 		)
 		(uuid "f3c3510f-3306-44cc-b072-a9de92c0f307")
 	)
-	(label "nRST_SWITCH"
+	(label "nRST"
 		(at 45.72 35.56 180)
 		(effects
 			(font

@@ -3374,7 +3374,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 129.54) (xy 214.63 129.54)
+			(xy 189.23 129.54) (xy 214.63 129.54)
 		)
 		(stroke
 			(width 0)
@@ -3504,7 +3504,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 134.62) (xy 214.63 134.62)
+			(xy 189.23 134.62) (xy 214.63 134.62)
 		)
 		(stroke
 			(width 0)
@@ -3812,7 +3812,7 @@
 		)
 		(uuid "28934c4b-e63c-486b-adaa-5c28769e519a")
 	)
-	(label "nRST_SWITCH"
+	(label "nRST_STM_TO_SWITCH"
 		(at 96.52 21.59 180)
 		(effects
 			(font
@@ -3893,7 +3893,7 @@
 		(uuid "56596943-a5ce-403a-a9cd-1748ec83818a")
 	)
 	(label "25M_CLK_SWITCH"
-		(at 196.85 134.62 0)
+		(at 189.23 134.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4022,8 +4022,8 @@
 		)
 		(uuid "b5d0faae-d530-4fac-9abe-546f43b13843")
 	)
-	(label "nRST_SWITCH"
-		(at 196.85 129.54 0)
+	(label "nRST_STM_TO_SWITCH"
+		(at 189.23 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4159,7 +4159,7 @@
 		)
 		(uuid "924f62b7-2d1c-4728-90db-06c158c007da")
 	)
-	(hierarchical_label "nRST_SWITCH"
+	(hierarchical_label "nRST_STM_TO_SWITCH"
 		(shape input)
 		(at 72.39 21.59 180)
 		(effects
