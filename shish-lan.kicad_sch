@@ -7757,7 +7757,7 @@
 				(justify left)
 			)
 		)
-		(pin "2V5_EN" input
+		(pin "EN-2V5_STM_TO_BUCK" input
 			(at 182.88 101.6 180)
 			(uuid "962a53da-1c93-4066-97f6-09822e1c9310")
 			(effects

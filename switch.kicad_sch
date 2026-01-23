@@ -3224,7 +3224,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 59.69) (xy 181.61 59.69)
+			(xy 195.58 59.69) (xy 172.72 59.69)
 		)
 		(stroke
 			(width 0)
@@ -3254,7 +3254,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 39.37) (xy 91.44 39.37)
+			(xy 72.39 39.37) (xy 95.25 39.37)
 		)
 		(stroke
 			(width 0)
@@ -3414,7 +3414,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 62.23) (xy 195.58 62.23)
+			(xy 172.72 63.5) (xy 195.58 63.5)
 		)
 		(stroke
 			(width 0)
@@ -3584,7 +3584,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 64.77) (xy 232.41 64.77)
+			(xy 228.6 64.77) (xy 245.11 64.77)
 		)
 		(stroke
 			(width 0)
@@ -3624,7 +3624,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 127) (xy 232.41 127)
+			(xy 223.52 127) (xy 240.03 127)
 		)
 		(stroke
 			(width 0)
@@ -3763,7 +3763,7 @@
 		(uuid "015e8173-eba7-4c0a-bca5-8ac3d94f6d99")
 	)
 	(label "5-12V_INPUT"
-		(at 181.61 59.69 0)
+		(at 172.72 59.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3872,8 +3872,8 @@
 		)
 		(uuid "511d231c-4c03-48e2-81b8-82b2e0e64839")
 	)
-	(label "2V5_EN"
-		(at 187.96 62.23 0)
+	(label "EN-2V5_STM_TO_BUCK"
+		(at 172.72 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3992,8 +3992,8 @@
 		)
 		(uuid "a065fa12-de83-4bb9-98d5-a9461972c504")
 	)
-	(label "2V5_EN"
-		(at 91.44 39.37 180)
+	(label "EN-2V5_STM_TO_BUCK"
+		(at 95.25 39.37 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4002,8 +4002,8 @@
 		)
 		(uuid "aa6ff009-a9f5-426b-9c79-3fc288f9c591")
 	)
-	(label "2V5"
-		(at 232.41 64.77 180)
+	(label "2V5_BUCK-OUT"
+		(at 245.11 64.77 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4062,8 +4062,8 @@
 		)
 		(uuid "e7ee207c-ed92-438d-9b7a-76b999a6383c")
 	)
-	(label "2V5"
-		(at 232.41 127 180)
+	(label "2V5_BUCK-OUT"
+		(at 240.03 127 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4082,7 +4082,7 @@
 		)
 		(uuid "ef73fe63-f7b4-46b6-898c-d21451a9ecea")
 	)
-	(hierarchical_label "2V5_EN"
+	(hierarchical_label "EN-2V5_STM_TO_BUCK"
 		(shape input)
 		(at 72.39 39.37 180)
 		(effects
@@ -5414,7 +5414,7 @@
 			)
 		)
 		(pin "EN" input
-			(at 195.58 62.23 180)
+			(at 195.58 63.5 180)
 			(uuid "c1a9daaf-3dbf-46c7-8a35-89429b8046d8")
 			(effects
 				(font
