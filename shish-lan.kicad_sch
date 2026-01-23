@@ -7747,7 +7747,7 @@
 				(justify left)
 			)
 		)
-		(pin "25M_CLK_SWITCH" input
+		(pin "CLK-25M_OSC" input
 			(at 182.88 55.88 180)
 			(uuid "845e959c-9175-42e8-a542-95b8f126a260")
 			(effects

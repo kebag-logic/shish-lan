@@ -3892,7 +3892,7 @@
 		)
 		(uuid "56596943-a5ce-403a-a9cd-1748ec83818a")
 	)
-	(label "25M_CLK_SWITCH"
+	(label "CLK-25M_OSC"
 		(at 189.23 134.62 0)
 		(effects
 			(font
@@ -3902,7 +3902,7 @@
 		)
 		(uuid "578c9af4-eabb-4276-8ab6-14d6b50817e1")
 	)
-	(label "25M_CLK_SWITCH"
+	(label "CLK-25M_OSC"
 		(at 96.52 26.67 180)
 		(effects
 			(font
@@ -4126,7 +4126,7 @@
 		)
 		(uuid "32fc5e49-87a3-4069-b5ae-d997900b2533")
 	)
-	(hierarchical_label "25M_CLK_SWITCH"
+	(hierarchical_label "CLK-25M_OSC"
 		(shape input)
 		(at 72.39 26.67 180)
 		(effects
