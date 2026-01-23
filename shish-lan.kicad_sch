@@ -7817,7 +7817,7 @@
 				(justify right)
 			)
 		)
-		(pin "1V15_EN" output
+		(pin "EN-1V15_STM_TO_BUCK" output
 			(at 95.25 50.8 0)
 			(uuid "2249d891-446d-44f6-83e9-1597c3a82044")
 			(effects
@@ -7827,7 +7827,7 @@
 				(justify right)
 			)
 		)
-		(pin "2V5_EN" output
+		(pin "EN-2V5_STM_TO_BUCK" output
 			(at 95.25 53.34 0)
 			(uuid "ca568a6f-53bc-4b25-a5e6-9e7e8987f9d4")
 			(effects
@@ -7837,7 +7837,7 @@
 				(justify right)
 			)
 		)
-		(pin "3V3_EN" output
+		(pin "EN-3V3_STM_TO_BUCK" output
 			(at 95.25 55.88 0)
 			(uuid "9664c0e4-2281-4c10-8ee3-72fb4a4c10f0")
 			(effects
@@ -7847,7 +7847,7 @@
 				(justify right)
 			)
 		)
-		(pin "nRST_SWITCH" output
+		(pin "nRST_STM_TO_SWITCH" output
 			(at 95.25 58.42 0)
 			(uuid "9c8e717d-4b86-4ac0-b93d-71c51f7bac19")
 			(effects
@@ -7857,7 +7857,7 @@
 				(justify right)
 			)
 		)
-		(pin "IRQ" input
+		(pin "IRQ0_SWITCH_TO_STM" input
 			(at 95.25 60.96 0)
 			(uuid "f91cfdd2-c1e5-49f9-bdf9-091ee6880656")
 			(effects

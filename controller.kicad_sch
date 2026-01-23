@@ -5590,7 +5590,7 @@
 		)
 		(uuid "5fedfb9d-97d6-4ae0-b82e-742277f5294f")
 	)
-	(hierarchical_label "1V15_EN"
+	(hierarchical_label "EN-1V15_STM_TO_BUCK"
 		(shape output)
 		(at 58.42 72.39 180)
 		(effects
@@ -5601,7 +5601,7 @@
 		)
 		(uuid "61d6c2f1-873e-4eff-b23f-105698b50c16")
 	)
-	(hierarchical_label "IRQ"
+	(hierarchical_label "IRQ0_SWITCH_TO_STM"
 		(shape input)
 		(at 58.42 82.55 180)
 		(effects
@@ -5612,7 +5612,7 @@
 		)
 		(uuid "65fdef57-80dc-4fbc-a60a-84c6fafcad86")
 	)
-	(hierarchical_label "3V3_EN"
+	(hierarchical_label "EN-3V3_STM_TO_BUCK"
 		(shape output)
 		(at 58.42 77.47 180)
 		(effects
@@ -5623,7 +5623,7 @@
 		)
 		(uuid "67e55941-32b5-4b0b-a4a2-16ec6ca4104f")
 	)
-	(hierarchical_label "nRST_SWITCH"
+	(hierarchical_label "nRST_STM_TO_SWITCH"
 		(shape output)
 		(at 58.42 80.01 180)
 		(effects
@@ -5645,7 +5645,7 @@
 		)
 		(uuid "ba0e4f9c-5cd0-44d5-b6a7-0a26d192d21f")
 	)
-	(hierarchical_label "2V5_EN"
+	(hierarchical_label "EN-2V5_STM_TO_BUCK"
 		(shape output)
 		(at 58.42 74.93 180)
 		(effects
