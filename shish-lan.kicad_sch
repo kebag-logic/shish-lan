@@ -7697,8 +7697,10 @@
 				(justify left)
 			)
 		)
-		(pin "RGMII{TXD[0..3], TX_CLK, TX_CTLR, RXD[0..3], RX_CLK, RX_CTLR}" bidirectional
-			(at 182.88 63.5 180)
+		(pin "RGMII_STM_SWITCH{TXD[0..3], TX_CLK, TX_CTLR, RXD[0..3], RX_CLK, RX_CTLR}"
+			bidirectional
+			(at 182.88 63.5 180
+			)
 			(uuid "63fc911e-92d0-4713-9a50-3c0e71080ac6")
 			(effects
 				(font
