@@ -3766,6 +3766,26 @@
 			(embedded_fonts no)
 		)
 	)
+	(text_box "TODO: Make this a component because it can be reused in the switch_power sheet."
+		(exclude_from_sim no)
+		(at 20.32 53.34 0)
+		(size 15.24 13.97)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left top)
+		)
+		(uuid "2aba6df6-2637-469d-a977-5095876e8b79")
+	)
 	(text_box "When bypassing the voltage regulator, the two 2.2 μF V CAP capacitors are not required and should be replaced by two 100 nF decoupling capacitors."
 		(exclude_from_sim no)
 		(at 23.495 132.715 0)
@@ -4546,6 +4566,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 62.23) (xy 78.74 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6290b29f-aa28-4fd9-abaa-caf1b5045496")
+	)
+	(wire
+		(pts
 			(xy 45.72 162.56) (xy 45.72 173.99)
 		)
 		(stroke
@@ -4633,6 +4663,16 @@
 			(type default)
 		)
 		(uuid "7e18982b-e6e3-455c-a155-e86e3824c42f")
+	)
+	(wire
+		(pts
+			(xy 58.42 59.69) (xy 78.74 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e1babc2-0c07-499a-86ba-17fac27f08ce")
 	)
 	(wire
 		(pts
@@ -8021,6 +8061,68 @@
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/06488c82-a47f-4277-b0ee-3bd211d8922a"
 					(reference "#PWR5")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 36.83 53.34)
+		(size 21.59 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "14851be8-da71-4848-89bd-314ca44f089b")
+		(property "Sheetname" "crystal"
+			(at 36.83 52.6284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "crystal.kicad_sch"
+			(at 36.83 67.8946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Pin1" output
+			(at 58.42 59.69 0)
+			(uuid "3660fe9f-fc0d-441f-9382-dd7ac949ed05")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Pin2" output
+			(at 58.42 62.23 0)
+			(uuid "395163b6-55a9-4ae2-a3e6-5fb996ab9f2c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "shish-lan"
+				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/06488c82-a47f-4277-b0ee-3bd211d8922a"
+					(page "6")
 				)
 			)
 		)

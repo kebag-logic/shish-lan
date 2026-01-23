@@ -748,11 +748,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "792c2350-d57e-415d-aea0-2d1581571f4b")
+			(uuid "ea270184-27ae-4601-a8b2-d7ec55a870fa")
 		)
 		(instances
 			(project "shish-lan"
-				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/06488c82-a47f-4277-b0ee-3bd211d8922a/2f245240-4d2b-41c8-b841-446fd2f2d0c3"
+				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/06488c82-a47f-4277-b0ee-3bd211d8922a/14851be8-da71-4848-89bd-314ca44f089b"
 					(reference "#PWR075")
 					(unit 1)
 				)
@@ -769,7 +769,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f364e11-94d9-4d9a-a18c-cf2949e3f5b5")
-		(property "Reference" "C86"
+		(property "Reference" "C92"
 			(at 138.43 107.95 90)
 			(effects
 				(font
@@ -858,15 +858,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "e94a03a9-bca9-4d3c-b236-74b20c06f972")
+			(uuid "d27ea42e-0985-4309-bc62-34214aebec66")
 		)
 		(pin "1"
-			(uuid "653543e5-4801-4465-b4e2-73aec039aff8")
+			(uuid "68497182-2c4b-47ea-9b05-77262001709a")
 		)
 		(instances
 			(project "shish-lan"
-				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/06488c82-a47f-4277-b0ee-3bd211d8922a/2f245240-4d2b-41c8-b841-446fd2f2d0c3"
-					(reference "C86")
+				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/06488c82-a47f-4277-b0ee-3bd211d8922a/14851be8-da71-4848-89bd-314ca44f089b"
+					(reference "C92")
 					(unit 1)
 				)
 			)
@@ -927,11 +927,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "7fb5afca-5064-4615-90f0-c5a8d9e81c7b")
+			(uuid "b1e75e9f-5415-44a8-bc5b-996a9f639b22")
 		)
 		(instances
 			(project "shish-lan"
-				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/06488c82-a47f-4277-b0ee-3bd211d8922a/2f245240-4d2b-41c8-b841-446fd2f2d0c3"
+				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/06488c82-a47f-4277-b0ee-3bd211d8922a/14851be8-da71-4848-89bd-314ca44f089b"
 					(reference "#PWR076")
 					(unit 1)
 				)
@@ -948,7 +948,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cdcdbcb5-d964-4357-a547-9c8d35005a3f")
-		(property "Reference" "C92"
+		(property "Reference" "C86"
 			(at 138.43 81.28 90)
 			(effects
 				(font
@@ -1037,15 +1037,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "69d27d06-2dbf-4833-9e45-97f7505f65b2")
+			(uuid "b269496d-79bc-4840-afe5-95b1473b40dc")
 		)
 		(pin "1"
-			(uuid "f1d40f1e-739b-4900-affe-53429fd3bc34")
+			(uuid "ceb63d6b-c9f3-429f-8866-be20fa799ddf")
 		)
 		(instances
 			(project "shish-lan"
-				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/06488c82-a47f-4277-b0ee-3bd211d8922a/2f245240-4d2b-41c8-b841-446fd2f2d0c3"
-					(reference "C92")
+				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/06488c82-a47f-4277-b0ee-3bd211d8922a/14851be8-da71-4848-89bd-314ca44f089b"
+					(reference "C86")
 					(unit 1)
 				)
 			)
@@ -1137,20 +1137,20 @@
 			)
 		)
 		(pin "4"
-			(uuid "4d3c8c1c-b015-4006-97a1-6212dba76cf3")
+			(uuid "116866fa-baba-4513-8bab-7f79dffcb27e")
 		)
 		(pin "3"
-			(uuid "62992d4e-7b7c-45df-9605-46ce7293feae")
+			(uuid "33429d80-452a-4502-afb1-a0df1b414562")
 		)
 		(pin "1"
-			(uuid "4a944b23-f1a6-42b4-875a-a0293b558167")
+			(uuid "ed0a7156-d461-4e53-84aa-7108d8a44575")
 		)
 		(pin "2"
-			(uuid "b2c59d56-baf0-4bf7-8cf8-13f56fe25461")
+			(uuid "839658a4-b400-4cc7-91d7-a35c79700526")
 		)
 		(instances
 			(project "shish-lan"
-				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/06488c82-a47f-4277-b0ee-3bd211d8922a/2f245240-4d2b-41c8-b841-446fd2f2d0c3"
+				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/06488c82-a47f-4277-b0ee-3bd211d8922a/14851be8-da71-4848-89bd-314ca44f089b"
 					(reference "X2")
 					(unit 1)
 				)
