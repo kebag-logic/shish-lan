@@ -4969,26 +4969,6 @@
 		)
 		(uuid "ca58a400-df26-4f38-88f7-a3f4139b00fc")
 	)
-	(text_box "VERIFY: Is that okay?\nThe STM32 might be floating when reseting it, to avoid 2 bootup, keep the reset down \nas long as it rebooting? or keep it high? "
-		(exclude_from_sim no)
-		(at 209.55 137.16 0)
-		(size 26.67 17.78)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "d306771e-c9ca-44fb-893f-cf76caff2cc3")
-	)
 	(text_box "VDD on the Domain D \nhas to be 3.3V"
 		(exclude_from_sim no)
 		(at 105.41 102.87 0)
