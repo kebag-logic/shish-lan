@@ -1117,20 +1117,18 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "KL_L:L_3u3_8A"
+		(symbol "KL_L:L_3u3_8A_20pct_7LX7W"
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
-				(offset 0)
 				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "L"
-				(at 3.81 1.778 0)
-				(do_not_autoplace)
+				(at 4.064 1.778 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1138,8 +1136,7 @@
 				)
 			)
 			(property "Value" "3u3"
-				(at 3.81 -1.27 0)
-				(do_not_autoplace)
+				(at 3.81 -1.016 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1147,7 +1144,7 @@
 				)
 			)
 			(property "Footprint" "KL:L_3u3_EXLA1V0603"
-				(at 0 2.54 0)
+				(at 0 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1156,7 +1153,7 @@
 				)
 			)
 			(property "Datasheet" "https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-exla1v06-automotive-high-current-molded-inductor-data-sheet-elx1221-en.pdf"
-				(at 0 2.54 0)
+				(at 0 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1165,16 +1162,7 @@
 				)
 			)
 			(property "Description" ""
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Digikey" "704-EXLA1V0603-3R3-R"
-				(at 0 2.54 0)
+				(at 0 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1183,7 +1171,16 @@
 				)
 			)
 			(property "Mouser" "283-EXLA1V0603-3R3-RCT-ND"
-				(at 0 2.54 0)
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Digikey" "704-EXLA1V0603-3R3-R"
+				(at 0 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1192,7 +1189,7 @@
 				)
 			)
 			(property "LCSC" "C7189866"
-				(at 0 2.54 0)
+				(at 0 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1200,8 +1197,8 @@
 					(hide yes)
 				)
 			)
-			(property "Max Current" "8"
-				(at 5.08 0 90)
+			(property "I_max_in_A" "8"
+				(at 0 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1209,7 +1206,25 @@
 					(hide yes)
 				)
 			)
-			(symbol "L_3u3_8A_0_1"
+			(property "Tolerance_in_pct" "20"
+				(at 6.604 5.334 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Package_in_mm" "L7XW7"
+				(at 0 5.588 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "L_3u3_8A_20pct_7LX7W_0_1"
 				(arc
 					(start 1.27 0)
 					(mid 1.905 0.6323)
@@ -1259,7 +1274,7 @@
 					)
 				)
 			)
-			(symbol "L_3u3_8A_1_1"
+			(symbol "L_3u3_8A_20pct_7LX7W_1_1"
 				(pin passive line
 					(at 0 0 0)
 					(length 1.27)
@@ -1486,7 +1501,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "KL_R:R_10K2_100mW_1_0603"
+		(symbol "KL_R:R_10K_100mW_1_0603"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1504,7 +1519,7 @@
 					)
 				)
 			)
-			(property "Value" "10K2"
+			(property "Value" "10K"
 				(at 0 0 90)
 				(effects
 					(font
@@ -1539,7 +1554,7 @@
 					(hide yes)
 				)
 			)
-			(property "Power" "100mW"
+			(property "Power" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1548,7 +1563,7 @@
 					(hide yes)
 				)
 			)
-			(property "Tolerance" "1%"
+			(property "Tolerance" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1557,7 +1572,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser" "652-CR0603FX-1022ELF"
+			(property "Mouser" "603-RC0603FR-0710KL"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1566,7 +1581,7 @@
 					(hide yes)
 				)
 			)
-			(property "Digikey" "CR0603-FX-1022ELFCT-ND"
+			(property "Digikey" "311-10.0KHRCT-ND"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1575,7 +1590,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC" "C203229"
+			(property "LCSC" "C98220"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1584,7 +1599,7 @@
 					(hide yes)
 				)
 			)
-			(property "Farnell" ""
+			(property "Farnell" "2421850"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1620,7 +1635,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "R_10K2_100mW_1_0603_0_1"
+			(symbol "R_10K_100mW_1_0603_0_1"
 				(rectangle
 					(start -1.016 -2.54)
 					(end 1.016 2.54)
@@ -1633,7 +1648,7 @@
 					)
 				)
 			)
-			(symbol "R_10K2_100mW_1_0603_1_1"
+			(symbol "R_10K_100mW_1_0603_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -2642,17 +2657,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Not sure if debounce is necessary.\nCurrent resistor assumes pull-up for EN?"
-		(exclude_from_sim no)
-		(at 70.866 125.476 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8835614e-99fb-492e-bf9c-2eb48a1633b0")
-	)
 	(text "Based on WEBENCH design: https://drive.google.com/file/d/1STtModBE37J_lW2Zfq6PtjpJq2d4hOYi/view?usp=drive_link"
 		(exclude_from_sim no)
 		(at 66.294 19.304 0)
@@ -2809,18 +2813,6 @@
 		(uuid "b2908a2b-a820-4c80-a14c-6e2dedd955f1")
 	)
 	(junction
-		(at 200.66 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b59a1cbe-3a25-454e-8cb5-5651ec42bf84")
-	)
-	(junction
-		(at 212.09 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b7a57852-612a-4537-aa82-6d4c22aff1e4")
-	)
-	(junction
 		(at 220.98 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2922,16 +2914,6 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 86.36) (xy 212.09 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2bb21101-af0a-4f41-b6f0-541342ecea55")
-	)
-	(wire
-		(pts
 			(xy 76.2 105.41) (xy 82.55 105.41)
 		)
 		(stroke
@@ -2949,16 +2931,6 @@
 			(type default)
 		)
 		(uuid "30443750-f7f4-4bf6-bb7a-e87152e371c7")
-	)
-	(wire
-		(pts
-			(xy 200.66 78.74) (xy 212.09 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3764fdc4-3c89-422a-a5f3-c97c28e360b0")
 	)
 	(wire
 		(pts
@@ -3192,7 +3164,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 78.74) (xy 200.66 78.74)
+			(xy 185.42 78.74) (xy 212.09 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3861,152 +3833,13 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_R:R_10K2_100mW_1_0603")
-		(at 185.42 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "25655101-a763-4e7e-bfc4-3870effcedf8")
-		(property "Reference" "R98"
-			(at 187.96 96.5199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10K2"
-			(at 187.96 99.0599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "KL_Footprints:C_0603"
-			(at 183.642 97.79 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 185.42 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 185.42 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" "100mW"
-			(at 185.42 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 185.42 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "652-CR0603FX-1022ELF"
-			(at 185.42 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "CR0603-FX-1022ELFCT-ND"
-			(at 185.42 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C203229"
-			(at 185.42 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Farnell" ""
-			(at 185.42 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package (in)" "0603"
-			(at 185.42 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6809004b-34a6-4846-8f86-eb5cceea3cda")
-		)
-		(pin "1"
-			(uuid "697e1662-65b6-47c4-a01a-93eb664e9c20")
-		)
-		(instances
-			(project "switch"
-				(path "/cd936d40-9035-4ec8-bcf8-38758f995fb0/c6e71b93-7134-487d-a04c-584c6081214b"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-			(project "shish-lan"
-				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/c6e71b93-7134-487d-a04c-584c6081214b"
-					(reference "R98")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "KL_C:C_22u_10V_X5R_0603_20")
 		(at 212.09 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "2a3a7ce4-cc57-4b6c-909b-9cfd3649aa68")
 		(property "Reference" "C96"
@@ -4330,11 +4163,144 @@
 		)
 	)
 	(symbol
+		(lib_id "KL_R:R_10K_100mW_1_0603")
+		(at 185.42 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ced3adc-e286-4199-ab23-28c001dae7e9")
+		(property "Reference" "R85"
+			(at 187.96 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 187.96 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "KL_Footprints:C_0603"
+			(at 183.642 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 185.42 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 185.42 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 185.42 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" ""
+			(at 185.42 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "603-RC0603FR-0710KL"
+			(at 185.42 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "311-10.0KHRCT-ND"
+			(at 185.42 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C98220"
+			(at 185.42 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Farnell" "2421850"
+			(at 185.42 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package (in)" "0603"
+			(at 185.42 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "35f64c8a-20df-438b-829e-7a0cebcd9443")
+		)
+		(pin "2"
+			(uuid "9c4c8dac-1a8c-4a2b-9782-59683b093c7f")
+		)
+		(instances
+			(project ""
+				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/c6e71b93-7134-487d-a04c-584c6081214b"
+					(reference "R85")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "KL_C:C_10u_25V_X5R_0603_20")
 		(at 76.2 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -4990,7 +4956,7 @@
 		(at 82.55 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -5445,7 +5411,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_L:L_3u3_8A")
+		(lib_id "KL_L:L_3u3_8A_20pct_7LX7W")
 		(at 163.83 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5455,8 +5421,7 @@
 		(fields_autoplaced yes)
 		(uuid "9998ca94-f7f9-48dd-92e9-6bba70d6cba6")
 		(property "Reference" "L3"
-			(at 167.64 76.962 0)
-			(do_not_autoplace yes)
+			(at 167.64 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5464,8 +5429,7 @@
 			)
 		)
 		(property "Value" "3u3"
-			(at 167.64 80.01 0)
-			(do_not_autoplace yes)
+			(at 167.64 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5473,7 +5437,7 @@
 			)
 		)
 		(property "Footprint" "KL:L_3u3_EXLA1V0603"
-			(at 163.83 76.2 0)
+			(at 163.83 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5482,7 +5446,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-exla1v06-automotive-high-current-molded-inductor-data-sheet-elx1221-en.pdf"
-			(at 163.83 76.2 0)
+			(at 163.83 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5491,7 +5455,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 163.83 76.2 0)
+			(at 163.83 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5500,7 +5464,7 @@
 			)
 		)
 		(property "Digikey" "704-EXLA1V0603-3R3-R"
-			(at 163.83 76.2 0)
+			(at 163.83 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5509,7 +5473,7 @@
 			)
 		)
 		(property "Mouser" "283-EXLA1V0603-3R3-RCT-ND"
-			(at 163.83 76.2 0)
+			(at 163.83 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5518,7 +5482,7 @@
 			)
 		)
 		(property "LCSC" "C7189866"
-			(at 163.83 76.2 0)
+			(at 163.83 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5526,8 +5490,26 @@
 				(hide yes)
 			)
 		)
-		(property "Max Current" "8"
-			(at 168.91 78.74 90)
+		(property "I_max_in_A" "8"
+			(at 163.83 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance_in_pct" "20"
+			(at 170.434 73.406 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package_in_mm" "L7XW7"
+			(at 163.83 73.152 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5561,7 +5543,7 @@
 		(at 93.98 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -5690,127 +5672,6 @@
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/c6e71b93-7134-487d-a04c-584c6081214b"
 					(reference "R99")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "KL_C:C_22u_10V_X5R_0603_20")
-		(at 200.66 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "b24fdf95-b2ba-4597-88b2-13b8df5915a0")
-		(property "Reference" "C95"
-			(at 204.47 81.2799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22u"
-			(at 204.47 83.8199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "KL:C_0603"
-			(at 201.6252 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 200.66 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 200.66 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "20"
-			(at 200.66 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "10V"
-			(at 200.66 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "81-GRM187R61A226ME5D"
-			(at 200.66 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "490-13243-1-ND"
-			(at 200.66 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C361061"
-			(at 200.66 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6efae2c1-d4ef-4a2e-8324-9c85ab62acb8")
-		)
-		(pin "1"
-			(uuid "399eb51c-9f22-4638-803d-e2f21a0f823a")
-		)
-		(instances
-			(project "switch"
-				(path "/cd936d40-9035-4ec8-bcf8-38758f995fb0/c6e71b93-7134-487d-a04c-584c6081214b"
-					(reference "C?")
-					(unit 1)
-				)
-			)
-			(project "shish-lan"
-				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/c6e71b93-7134-487d-a04c-584c6081214b"
-					(reference "C95")
 					(unit 1)
 				)
 			)
