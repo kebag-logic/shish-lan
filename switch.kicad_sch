@@ -3123,10 +3123,6 @@
 		(uuid "62f608ef-a5d6-4fc2-a1d2-c13b6619273b")
 	)
 	(no_connect
-		(at 142.24 71.12)
-		(uuid "7dc93356-9f1c-45b8-9df7-78334bfd4a96")
-	)
-	(no_connect
 		(at 133.35 29.21)
 		(uuid "940e03d6-bf7d-432c-a3d7-bcc5fde3e75b")
 	)
@@ -3498,7 +3494,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 76.2) (xy 134.62 76.2)
+			(xy 118.11 76.2) (xy 134.62 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3807,7 +3803,7 @@
 		(uuid "2e6626d1-0dc9-4c3d-9d8a-429de76bddce")
 	)
 	(label "3V3_BUCK-OUT"
-		(at 129.54 76.2 0)
+		(at 118.11 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4037,7 +4033,7 @@
 		)
 		(uuid "031b5649-b9ff-4a15-83d0-803473f8d0a2")
 	)
-	(hierarchical_label "SPI_SLV{DI,DO,nCS,CLK}"
+	(hierarchical_label "SPI_STM_SWITCH{DI,DO,nCS,CLK}"
 		(shape bidirectional)
 		(at 82.55 59.69 180)
 		(effects
@@ -4048,7 +4044,7 @@
 		)
 		(uuid "0cec9485-c0e3-4dd5-ad25-9dfd7bada812")
 	)
-	(hierarchical_label "MIIM{MDIO,MDC}"
+	(hierarchical_label "MIIM_STM_SWITCH{MDIO,MDC}"
 		(shape bidirectional)
 		(at 82.55 57.15 180)
 		(effects

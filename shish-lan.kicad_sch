@@ -7709,7 +7709,7 @@
 				(justify left)
 			)
 		)
-		(pin "MIIM{MDIO,MDC}" bidirectional
+		(pin "MIIM_STM_SWITCH{MDIO,MDC}" bidirectional
 			(at 182.88 68.58 180)
 			(uuid "79063a79-97c0-43be-8cc1-20014ad8a1f2")
 			(effects
@@ -7719,7 +7719,7 @@
 				(justify left)
 			)
 		)
-		(pin "nRST_SWITCH" input
+		(pin "nRST_STM_TO_SWITCH" input
 			(at 182.88 92.71 180)
 			(uuid "1fdf64bb-5e9f-428e-a9ce-a3786f62d7f6")
 			(effects
@@ -7739,7 +7739,7 @@
 				(justify left)
 			)
 		)
-		(pin "SPI_SLV{DI,DO,nCS,CLK}" bidirectional
+		(pin "SPI_STM_SWITCH{DI,DO,nCS,CLK}" bidirectional
 			(at 182.88 73.66 180)
 			(uuid "b6c7ac0e-28c6-4099-aa49-7effc0035edd")
 			(effects
