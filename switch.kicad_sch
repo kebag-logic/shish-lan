@@ -3344,7 +3344,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 129.54) (xy 214.63 129.54)
+			(xy 189.23 129.54) (xy 213.36 129.54)
 		)
 		(stroke
 			(width 0)
@@ -3484,7 +3484,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 134.62) (xy 214.63 134.62)
+			(xy 189.23 134.62) (xy 213.36 134.62)
 		)
 		(stroke
 			(width 0)
@@ -3742,6 +3742,16 @@
 		)
 		(uuid "015e8173-eba7-4c0a-bca5-8ac3d94f6d99")
 	)
+	(label "PTP2"
+		(at 113.03 128.27 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "04550ce3-1808-4e51-8779-f1b7aafd45f4")
+	)
 	(label "5-12V_INPUT"
 		(at 190.5 59.69 0)
 		(effects
@@ -3772,15 +3782,25 @@
 		)
 		(uuid "1589f268-96fc-418c-9cb3-2948ba8c06f0")
 	)
-	(label "PTP2"
-		(at 113.03 128.27 180)
+	(label "PTP0"
+		(at 113.03 123.19 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "26aa39a3-2493-4b1e-9e0d-c4a4953ced45")
+		(uuid "1b55f417-0628-4454-b046-e3aabb1506a6")
+	)
+	(label "PTP3"
+		(at 113.03 130.81 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "25d96ebd-50ed-421c-920a-b109d95b8842")
 	)
 	(label "1V15_BUCK-OUT"
 		(at 264.16 100.33 180)
@@ -3882,16 +3902,6 @@
 		)
 		(uuid "642a4088-68e4-41c5-a8b5-179a1d569290")
 	)
-	(label "PTP0"
-		(at 113.03 123.19 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6beabb07-ebf9-4307-a11d-5017b48945e1")
-	)
 	(label "5-12V_INPUT"
 		(at 96.52 31.75 180)
 		(effects
@@ -3901,26 +3911,6 @@
 			(justify right bottom)
 		)
 		(uuid "7493adb6-e064-411e-a616-4b3340ac37b8")
-	)
-	(label "PTP1"
-		(at 113.03 125.73 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "75c5f0cc-15ea-4ed8-bf5a-17cd1f2634d8")
-	)
-	(label "PTP3"
-		(at 113.03 130.81 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "792f7019-6add-438e-a08e-bba6115f6823")
 	)
 	(label "3V3_BUCK-OUT"
 		(at 262.89 82.55 180)
@@ -3981,6 +3971,16 @@
 			(justify left bottom)
 		)
 		(uuid "c20ba665-ff05-4db8-a807-50737e541d44")
+	)
+	(label "PTP1"
+		(at 113.03 125.73 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cf23d680-f943-409e-834c-e8f51a8e5590")
 	)
 	(label "IRQ0_SWITCH_TO_STM"
 		(at 129.54 149.86 180)
@@ -4880,7 +4880,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "2be65ca5-0c8c-4ce5-ab45-497145201aa5")
+			(uuid "2be65ca5-0c8c-4ce5-ab45-497145201aa6")
 		)
 		(instances
 			(project ""
@@ -5516,8 +5516,8 @@
 		)
 	)
 	(sheet
-		(at 214.63 118.11)
-		(size 31.75 34.29)
+		(at 213.36 118.11)
+		(size 33.02 34.29)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5532,7 +5532,7 @@
 		)
 		(uuid "d7edf10b-e7e7-437a-ab6c-966f29ad8f7f")
 		(property "Sheetname" "switch_power"
-			(at 214.63 117.3984 0)
+			(at 213.36 117.3984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5541,7 +5541,7 @@
 			)
 		)
 		(property "Sheetfile" "switch_power.kicad_sch"
-			(at 214.63 152.9846 0)
+			(at 213.36 152.9846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5570,7 +5570,7 @@
 			)
 		)
 		(pin "nRST" input
-			(at 214.63 129.54 180)
+			(at 213.36 129.54 180)
 			(uuid "9c90ac20-eb56-439c-90b1-69d64df85e98")
 			(effects
 				(font
@@ -5580,7 +5580,7 @@
 			)
 		)
 		(pin "25MHz" input
-			(at 214.63 134.62 180)
+			(at 213.36 134.62 180)
 			(uuid "89d8fb63-cc11-4802-81ce-96aed233aa2e")
 			(effects
 				(font
