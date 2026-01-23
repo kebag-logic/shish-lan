@@ -7777,7 +7777,7 @@
 				(justify left)
 			)
 		)
-		(pin "1V15_EN" input
+		(pin "EN-1V15_STM_TO_BUCK" input
 			(at 182.88 104.14 180)
 			(uuid "94df29b9-2780-473e-9a7c-a57fb7605a89")
 			(effects
