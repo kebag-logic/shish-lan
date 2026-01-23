@@ -7767,7 +7767,7 @@
 				(justify left)
 			)
 		)
-		(pin "3V3_EN" input
+		(pin "EN-3V3_STM_TO_BUCK" input
 			(at 182.88 97.79 180)
 			(uuid "32fca4ad-3cb2-499a-93cb-3460ec189b18")
 			(effects

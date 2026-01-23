@@ -3214,7 +3214,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 85.09) (xy 195.58 85.09)
+			(xy 172.72 85.09) (xy 195.58 85.09)
 		)
 		(stroke
 			(width 0)
@@ -3324,7 +3324,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 81.28) (xy 195.58 81.28)
+			(xy 172.72 81.28) (xy 195.58 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3354,7 +3354,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 35.56) (xy 91.44 35.56)
+			(xy 72.39 35.56) (xy 95.25 35.56)
 		)
 		(stroke
 			(width 0)
@@ -3434,7 +3434,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 130.81) (xy 232.41 130.81)
+			(xy 223.52 130.81) (xy 240.03 130.81)
 		)
 		(stroke
 			(width 0)
@@ -3544,7 +3544,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 82.55) (xy 233.68 82.55)
+			(xy 228.6 82.55) (xy 245.11 82.55)
 		)
 		(stroke
 			(width 0)
@@ -3782,8 +3782,8 @@
 		)
 		(uuid "11623199-0c5a-42ae-acda-14be3af6e439")
 	)
-	(label "3V3_EN"
-		(at 187.96 85.09 0)
+	(label "EN-3V3_STM_TO_BUCK"
+		(at 172.72 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3832,7 +3832,7 @@
 		)
 		(uuid "2fcce0be-4297-4c46-9195-04466d3a5c81")
 	)
-	(label "3V3"
+	(label "3V3_BUCK-OUT"
 		(at 129.54 76.2 0)
 		(effects
 			(font
@@ -3842,8 +3842,8 @@
 		)
 		(uuid "2fe3fdab-0347-444b-bc55-e77c13ba6f0e")
 	)
-	(label "3V3_EN"
-		(at 91.44 35.56 180)
+	(label "EN-3V3_STM_TO_BUCK"
+		(at 95.25 35.56 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3862,8 +3862,8 @@
 		)
 		(uuid "4f567554-67f1-4c80-af97-77fa40e6ec55")
 	)
-	(label "3V3"
-		(at 232.41 130.81 180)
+	(label "3V3_BUCK-OUT"
+		(at 240.03 130.81 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3962,8 +3962,8 @@
 		)
 		(uuid "792f7019-6add-438e-a08e-bba6115f6823")
 	)
-	(label "3V3"
-		(at 233.68 82.55 180)
+	(label "3V3_BUCK-OUT"
+		(at 245.11 82.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3973,7 +3973,7 @@
 		(uuid "7ef0a459-7f63-459a-94f9-4582f34fdc2d")
 	)
 	(label "5-12V_INPUT"
-		(at 181.61 81.28 0)
+		(at 172.72 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4042,7 +4042,7 @@
 		)
 		(uuid "d192aacc-e964-4b08-b411-39b5e5f389f8")
 	)
-	(label "3V3"
+	(label "3V3_BUCK-OUT"
 		(at 127 139.7 180)
 		(effects
 			(font
@@ -4170,7 +4170,7 @@
 		)
 		(uuid "94eb4cdb-a2ae-4399-8c9d-f5f884b77178")
 	)
-	(hierarchical_label "3V3_EN"
+	(hierarchical_label "EN-3V3_STM_TO_BUCK"
 		(shape input)
 		(at 72.39 35.56 180)
 		(effects
