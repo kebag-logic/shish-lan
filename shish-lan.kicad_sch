@@ -7787,7 +7787,7 @@
 				(justify left)
 			)
 		)
-		(pin "IRQ0" input
+		(pin "IRQ0_SWITCH_TO_STM" output
 			(at 182.88 82.55 180)
 			(uuid "e6f87d06-78fc-429f-b1ae-e0de94923aa4")
 			(effects

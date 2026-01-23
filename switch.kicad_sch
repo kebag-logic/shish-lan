@@ -3184,7 +3184,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 139.7) (xy 127 139.7)
+			(xy 106.68 139.7) (xy 129.54 139.7)
 		)
 		(stroke
 			(width 0)
@@ -3304,7 +3304,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 154.94) (xy 127 154.94)
+			(xy 106.68 154.94) (xy 129.54 154.94)
 		)
 		(stroke
 			(width 0)
@@ -3334,7 +3334,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 157.48) (xy 127 157.48)
+			(xy 106.68 157.48) (xy 129.54 157.48)
 		)
 		(stroke
 			(width 0)
@@ -3344,7 +3344,7 @@
 	)
 	(bus
 		(pts
-			(xy 116.84 134.62) (xy 125.73 134.62)
+			(xy 116.84 134.62) (xy 129.54 134.62)
 		)
 		(stroke
 			(width 0)
@@ -3734,7 +3734,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 149.86) (xy 127 149.86)
+			(xy 106.68 149.86) (xy 129.54 149.86)
 		)
 		(stroke
 			(width 0)
@@ -3793,12 +3793,12 @@
 		(uuid "1589f268-96fc-418c-9cb3-2948ba8c06f0")
 	)
 	(label "PTP2"
-		(at 111.76 128.27 0)
+		(at 113.03 128.27 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "26aa39a3-2493-4b1e-9e0d-c4a4953ced45")
 	)
@@ -3823,7 +3823,7 @@
 		(uuid "2e6626d1-0dc9-4c3d-9d8a-429de76bddce")
 	)
 	(label "SYNCE_0"
-		(at 127 154.94 180)
+		(at 129.54 154.94 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3852,7 +3852,7 @@
 		)
 		(uuid "387b45d4-5732-4700-8952-9fd106a1924b")
 	)
-	(label "IRQ0"
+	(label "IRQ0_SWITCH_TO_STM"
 		(at 96.52 48.26 180)
 		(effects
 			(font
@@ -3923,12 +3923,12 @@
 		(uuid "642a4088-68e4-41c5-a8b5-179a1d569290")
 	)
 	(label "PTP0"
-		(at 111.76 123.19 0)
+		(at 113.03 123.19 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "6beabb07-ebf9-4307-a11d-5017b48945e1")
 	)
@@ -3943,22 +3943,22 @@
 		(uuid "7493adb6-e064-411e-a616-4b3340ac37b8")
 	)
 	(label "PTP1"
-		(at 111.76 125.73 0)
+		(at 113.03 125.73 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "75c5f0cc-15ea-4ed8-bf5a-17cd1f2634d8")
 	)
 	(label "PTP3"
-		(at 111.76 130.81 0)
+		(at 113.03 130.81 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "792f7019-6add-438e-a08e-bba6115f6823")
 	)
@@ -4032,8 +4032,8 @@
 		)
 		(uuid "c20ba665-ff05-4db8-a807-50737e541d44")
 	)
-	(label "IRQ0"
-		(at 127 149.86 180)
+	(label "IRQ0_SWITCH_TO_STM"
+		(at 129.54 149.86 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4043,7 +4043,7 @@
 		(uuid "d192aacc-e964-4b08-b411-39b5e5f389f8")
 	)
 	(label "3V3_BUCK-OUT"
-		(at 127 139.7 180)
+		(at 129.54 139.7 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4053,7 +4053,7 @@
 		(uuid "e6533a89-19e7-44f3-b0c2-c5901e690c8c")
 	)
 	(label "SYNCE_1"
-		(at 127 157.48 180)
+		(at 129.54 157.48 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4073,12 +4073,12 @@
 		(uuid "e819fe46-55a8-4d35-b927-57a0abb01059")
 	)
 	(label "PTP[0..3]"
-		(at 119.38 134.62 0)
+		(at 129.54 134.62 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "ef73fe63-f7b4-46b6-898c-d21451a9ecea")
 	)
@@ -4148,8 +4148,8 @@
 		)
 		(uuid "6c44964c-753d-4725-bef1-2903a011e645")
 	)
-	(hierarchical_label "IRQ0"
-		(shape input)
+	(hierarchical_label "IRQ0_SWITCH_TO_STM"
+		(shape output)
 		(at 72.39 48.26 180)
 		(effects
 			(font
@@ -5316,7 +5316,7 @@
 				(justify right)
 			)
 		)
-		(pin "IRQ0" bidirectional
+		(pin "IRQ0" output
 			(at 106.68 149.86 0)
 			(uuid "a82f5a37-6ec0-4409-932d-c64baaf57049")
 			(effects

@@ -6476,7 +6476,7 @@
 		(uuid "4b93de16-13a4-413d-ae84-114d4bfc991e")
 	)
 	(hierarchical_label "IRQ0"
-		(shape bidirectional)
+		(shape output)
 		(at 124.46 39.37 180)
 		(effects
 			(font
