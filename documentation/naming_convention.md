@@ -23,7 +23,7 @@ For single driver, single receiver connections, use the following format:
 ```
 UART_TX_CPU_to_DEBUG
 RMII_TXD0_SWITCH_to_PHY
-CLK_25MHZ_OSC_to_PHY
+CLK_25M_OSC_to_PHY
 RESET_SUPERVISOR_to_SWITCH
 ```
 
@@ -97,9 +97,9 @@ Clock sources must always be explicitly named.
 ### Examples
 
 ```
-CLK_25MHZ_OSC_to_PHY
-CLK_125MHZ_SWITCH_to_PHY
-CLK_24MHZ_OSC_to_CPU
+CLK_25M_OSC_to_PHY
+CLK_125M_SWITCH_to_PHY
+CLK_24M_OSC_to_CPU
 ```
 
 
