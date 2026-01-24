@@ -4869,7 +4869,7 @@
 		)
 		(uuid c7eeb294-2d25-41a5-83e8-b2671d41a145)
 	)
-	(text_box "WARNING: \nMake sure that the LEDS in the PHY part are connected to the right pwoer"
+	(text_box "WARNING: \nMake sure that the LEDS in the PHY part are connected to the right power"
 		(exclude_from_sim no)
 		(at 222.25 91.44 0)
 		(size 35.56 11.43)

@@ -5,9 +5,11 @@
 	(uuid "e5c99444-8610-4e67-ac50-c38a152d0cc1")
 	(paper "A4")
 	(title_block
+		(title "Power rail decoupling")
 		(date "2025-12-14")
 		(rev "Rev. A")
 		(company "Kebag-Logic <contact@kebag-logic.com>")
+		(comment 1 "Confidential")
 	)
 	(lib_symbols
 		(symbol "KL_C:C_100n_16V_X7R_0603_10"
