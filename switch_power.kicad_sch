@@ -11702,9 +11702,10 @@
 		(at 161.29 143.51 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
+		(fields_autoplaced yes)
 		(uuid "e5463d1e-671c-4b63-8c90-fcafc2daccd9")
 		(property "Reference" "R74"
 			(at 158.75 144.7799 0)
