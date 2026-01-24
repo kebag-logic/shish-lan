@@ -1312,6 +1312,10 @@
     [
       "c25f8336-e610-4611-8f85-d1572f3f1a98",
       "RJ45_Connector_Port3"
+    ],
+    [
+      "54dd0313-e11b-4c5a-bb43-942dea0cd180",
+      "JTAG_Header_ARM"
     ]
   ],
   "text_variables": {}

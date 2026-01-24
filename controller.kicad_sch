@@ -6719,7 +6719,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "~"
 			(at 158.75 66.04 0)
 			(effects
 				(font
@@ -8685,6 +8685,118 @@
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/06488c82-a47f-4277-b0ee-3bd211d8922a"
 					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 184.15 128.27)
+		(size 30.48 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "54dd0313-e11b-4c5a-bb43-942dea0cd180")
+		(property "Sheetname" "JTAG_Header_ARM"
+			(at 184.15 127.5584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "jtag_header_arm.kicad_sch"
+			(at 184.15 159.3346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RESET" bidirectional
+			(at 184.15 130.81 180)
+			(uuid "32657f22-a062-4a9f-9c82-ce39a6eadd63")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RTCK" bidirectional
+			(at 184.15 133.35 180)
+			(uuid "86c08380-e3b5-46c1-bdb6-cba36344313c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TCLK" bidirectional
+			(at 184.15 135.89 180)
+			(uuid "fb8f768b-14cf-4ce1-94c0-695a586a8095")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TDI" bidirectional
+			(at 184.15 138.43 180)
+			(uuid "5077a1dc-51de-440f-bbe4-deb9ffc5dd7b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TDO" bidirectional
+			(at 184.15 140.97 180)
+			(uuid "e21575ee-201d-42d9-90f3-62334045b15a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TMS" bidirectional
+			(at 184.15 143.51 180)
+			(uuid "fc45a6a2-ab2e-4793-8a42-3c07521465c2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TRST" bidirectional
+			(at 184.15 146.05 180)
+			(uuid "403e0c1b-2d6a-4495-beae-238979e5bca7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "shish-lan"
+				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/06488c82-a47f-4277-b0ee-3bd211d8922a"
+					(page "17")
 				)
 			)
 		)
