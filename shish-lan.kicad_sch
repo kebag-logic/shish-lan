@@ -779,6 +779,16 @@
 	)
 	(bus
 		(pts
+			(xy 95.25 68.58) (xy 185.42 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b63de5ae-4cd4-4777-ab98-cb6722349249")
+	)
+	(bus
+		(pts
 			(xy 101.6 34.29) (xy 101.6 35.56)
 		)
 		(stroke
@@ -8761,8 +8771,8 @@
 				(justify right)
 			)
 		)
-		(pin "MIIM{MDIO,MDC}" bidirectional
-			(at 95.25 53.34 0)
+		(pin "MIIM_STM_SWITCH{MDIO,MDC}" bidirectional
+			(at 95.25 68.58 0)
 			(uuid "706c7a78-dd09-4afd-b749-4b0ce93036f4")
 			(effects
 				(font

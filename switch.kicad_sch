@@ -4110,6 +4110,17 @@
 		)
 		(uuid "c12378f3-b164-497a-8842-723e51ff2873")
 	)
+	(hierarchical_label "MIIM_STM_SWITCH{MDIO,MDC}"
+		(shape bidirectional)
+		(at 82.55 59.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c4a6ecd7-8be5-4c75-a67d-50ab9fd5ca21")
+	)
 	(hierarchical_label "5-12V_INPUT"
 		(shape input)
 		(at 72.39 31.75 180)
@@ -5086,7 +5097,7 @@
 				(justify right)
 			)
 		)
-		(pin "MIIM{MDIO,MDC}" bidirectional
+		(pin "MIIM_STM_SWITCH{MDIO,MDC}" bidirectional
 			(at 90.17 92.71 90)
 			(uuid "4285c5f7-9842-44f3-b469-998f2eaaea82")
 			(effects

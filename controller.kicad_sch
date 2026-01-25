@@ -4814,7 +4814,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 50.8) (xy 203.2 50.8)
+			(xy 180.34 50.8) (xy 203.2 50.8)
 		)
 		(stroke
 			(width 0)
@@ -5444,7 +5444,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 53.34) (xy 203.2 53.34)
+			(xy 180.34 53.34) (xy 203.2 53.34)
 		)
 		(stroke
 			(width 0)
@@ -6012,7 +6012,7 @@
 		)
 		(uuid "021b7951-8e3d-4743-bb74-240368797a8d")
 	)
-	(label "MIIM.MDC"
+	(label "MIIM_STM_SWITCH.MDC"
 		(at 144.78 133.35 180)
 		(effects
 			(font
@@ -6062,7 +6062,7 @@
 		)
 		(uuid "25e83541-9517-454c-8468-5fb316a65fcd")
 	)
-	(label "MIIM.MDIO"
+	(label "MIIM_STM_SWITCH.MDIO"
 		(at 146.05 49.53 180)
 		(effects
 			(font
@@ -6132,8 +6132,8 @@
 		)
 		(uuid "7a504a58-cdb1-4cb3-a654-80bfaa81fc12")
 	)
-	(label "MIIM.MDC"
-		(at 182.88 53.34 0)
+	(label "MIIM_STM_SWITCH.MDC"
+		(at 180.34 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6252,8 +6252,8 @@
 		)
 		(uuid "cdc9b1e9-9be3-4b20-98a3-0acc84cb8dd2")
 	)
-	(label "MIIM.MDIO"
-		(at 182.88 50.8 0)
+	(label "MIIM_STM_SWITCH.MDIO"
+		(at 180.34 50.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6364,7 +6364,7 @@
 		)
 		(uuid "2a0d1858-ef3c-4f97-9e2e-03d9afbb5454")
 	)
-	(hierarchical_label "MIIM{MDIO,MDC}"
+	(hierarchical_label "MIIM_STM_SWITCH{MDIO,MDC}"
 		(shape bidirectional)
 		(at 209.55 46.99 0)
 		(effects
