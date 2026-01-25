@@ -1400,6 +1400,10 @@
     [
       "54dd0313-e11b-4c5a-bb43-942dea0cd180",
       "JTAG_Header_ARM"
+    ],
+    [
+      "48840ae5-c8f2-47ca-9691-b0413813be50",
+      "crystal"
     ]
   ],
   "text_variables": {}

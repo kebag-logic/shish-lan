@@ -599,8 +599,8 @@
 	)
 	(text_box "The Application note, shows that using the TXC_CLK for RMII as a reference clock is good.\nLAN9645xF: Page DS00006273A-page 18\nSTM32H7: RM0477 Rev 9 403 Figure 64\n"
 		(exclude_from_sim no)
-		(at 64.77 132.08 90)
-		(size 12.7 58.42)
+		(at 187.96 97.79 0)
+		(size 58.42 12.7)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -858,7 +858,7 @@
 		(uuid "fe4d3ad9-37e5-4224-a703-21f623dcf30a")
 	)
 	(image
-		(at 114.3 176.53)
+		(at 224.79 133.35)
 		(scale 0.429341)
 		(uuid "1600dcd6-ec28-485c-b992-38e0af7f2bfc")
 		(data "iVBORw0KGgoAAAANSUhEUgAAB+wAAARbCAIAAAAiCs8eAAAAA3NCSVQICAjb4U/gAAAgAElEQVR4"
@@ -6035,7 +6035,7 @@
 		)
 	)
 	(image
-		(at 104.14 140.97)
+		(at 236.22 83.82)
 		(scale 0.456643)
 		(uuid "26e2f88a-95db-40b1-a5ba-0de4bc9a6bc7")
 		(data "iVBORw0KGgoAAAANSUhEUgAABX0AAAKgCAIAAABIiknoAAAAA3NCSVQICAjb4U/gAAAgAElEQVR4"
