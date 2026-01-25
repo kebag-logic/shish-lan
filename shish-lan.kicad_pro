@@ -540,6 +540,84 @@
       "/controller/RGMII.TXD1": [
         "RGMII"
       ],
+      "/controller/RGMII1_STM_SWITCH.RXD0": [
+        "RGMII"
+      ],
+      "/controller/RGMII1_STM_SWITCH.RXD1": [
+        "RGMII"
+      ],
+      "/controller/RGMII1_STM_SWITCH.RXD2": [
+        "RGMII"
+      ],
+      "/controller/RGMII1_STM_SWITCH.RXD3": [
+        "RGMII"
+      ],
+      "/controller/RGMII1_STM_SWITCH.RX_CLK": [
+        "RGMII"
+      ],
+      "/controller/RGMII1_STM_SWITCH.RX_CTLR": [
+        "RGMII"
+      ],
+      "/controller/RGMII1_STM_SWITCH.TXD0": [
+        "RGMII"
+      ],
+      "/controller/RGMII1_STM_SWITCH.TXD1": [
+        "RGMII"
+      ],
+      "/controller/RGMII1_STM_SWITCH.TXD2": [
+        "RGMII"
+      ],
+      "/controller/RGMII1_STM_SWITCH.TXD3": [
+        "RGMII"
+      ],
+      "/controller/RGMII1_STM_SWITCH.TX_CLK": [
+        "RGMII"
+      ],
+      "/controller/RGMII1_STM_SWITCH.TX_CTLR": [
+        "RGMII"
+      ],
+      "/controller/RGMII1_STM_SWITCH{TXD[0..3], TX_CLK, TX_CTLR, RXD[0..3], RX_CLK, RX_CTLR}": [
+        "RGMII"
+      ],
+      "/controller/RGMII1_SWITCH_STM.RXD0": [
+        "RGMII"
+      ],
+      "/controller/RGMII1_SWITCH_STM.RXD1": [
+        "RGMII"
+      ],
+      "/controller/RGMII1_SWITCH_STM.RXD2": [
+        "RGMII"
+      ],
+      "/controller/RGMII1_SWITCH_STM.RXD3": [
+        "RGMII"
+      ],
+      "/controller/RGMII1_SWITCH_STM.RX_CLK": [
+        "RGMII"
+      ],
+      "/controller/RGMII1_SWITCH_STM.RX_CTLR": [
+        "RGMII"
+      ],
+      "/controller/RGMII1_SWITCH_STM.TXD0": [
+        "RGMII"
+      ],
+      "/controller/RGMII1_SWITCH_STM.TXD1": [
+        "RGMII"
+      ],
+      "/controller/RGMII1_SWITCH_STM.TXD2": [
+        "RGMII"
+      ],
+      "/controller/RGMII1_SWITCH_STM.TXD3": [
+        "RGMII"
+      ],
+      "/controller/RGMII1_SWITCH_STM.TX_CLK": [
+        "RGMII"
+      ],
+      "/controller/RGMII1_SWITCH_STM.TX_CTLR": [
+        "RGMII"
+      ],
+      "/controller/RGMII1_SWITCH_STM{TXD[0..3], TX_CLK, TX_CTLR, RXD[0..3], RX_CLK, RX_CTLR}": [
+        "RGMII"
+      ],
       "/controller/RGMII{TXCLK RXCTL-CRS_DV TXCTL-TX_DV TXD[0..1] RXD[0..1]}": [
         "RGMII"
       ],

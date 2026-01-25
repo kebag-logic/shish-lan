@@ -557,26 +557,6 @@
 		)
 		(uuid "9ac2105e-0389-42e3-b5ea-310511a14dc6")
 	)
-	(text_box "RMII:\nThere should be some reflection resistor.\nIt is recommended to have 22 Ohm resistor for the REFCLK/TX_CLK/RX_CLK/RXD/TXD/TX_CTLR/RX_CTLR\n"
-		(exclude_from_sim no)
-		(at 124.46 114.3 0)
-		(size 58.42 12.7)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "13cc8af4-3ed6-4780-9d89-1df1a9cf4344")
-	)
 	(text_box "25MHz, in the case the clock is on the CPU part"
 		(exclude_from_sim no)
 		(at 185.42 27.94 0)
@@ -769,6 +749,16 @@
 	)
 	(bus
 		(pts
+			(xy 95.25 71.12) (xy 185.42 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84595251-aeb3-4a7a-aa27-c7d816b29dce")
+	)
+	(bus
+		(pts
 			(xy 95.25 34.29) (xy 101.6 34.29)
 		)
 		(stroke
@@ -779,16 +769,6 @@
 	)
 	(bus
 		(pts
-			(xy 95.25 68.58) (xy 185.42 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b63de5ae-4cd4-4777-ab98-cb6722349249")
-	)
-	(bus
-		(pts
 			(xy 101.6 34.29) (xy 101.6 35.56)
 		)
 		(stroke
@@ -796,6 +776,16 @@
 			(type default)
 		)
 		(uuid "ce30a81e-c2dd-493f-86f8-d0937d0804b8")
+	)
+	(bus
+		(pts
+			(xy 95.25 68.58) (xy 185.42 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0744e37-03a3-489e-8fdc-679f1da3484c")
 	)
 	(wire
 		(pts
@@ -8678,8 +8668,8 @@
 		)
 	)
 	(sheet
-		(at 30.48 24.13)
-		(size 64.77 55.88)
+		(at 17.78 24.13)
+		(size 77.47 55.88)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -8694,7 +8684,7 @@
 		)
 		(uuid "06488c82-a47f-4277-b0ee-3bd211d8922a")
 		(property "Sheetname" "controller"
-			(at 30.48 23.4184 0)
+			(at 17.78 23.4184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8703,7 +8693,7 @@
 			)
 		)
 		(property "Sheetfile" "controller.kicad_sch"
-			(at 30.48 80.5946 0)
+			(at 17.78 80.5946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8772,7 +8762,7 @@
 			)
 		)
 		(pin "MIIM_STM_SWITCH{MDIO,MDC}" bidirectional
-			(at 95.25 68.58 0)
+			(at 95.25 71.12 0)
 			(uuid "706c7a78-dd09-4afd-b749-4b0ce93036f4")
 			(effects
 				(font
@@ -8791,8 +8781,10 @@
 				(justify right)
 			)
 		)
-		(pin "RGMII{TXCLK RXCTL-CRS_DV TXCTL-TX_DV TXD[0..1] RXD[0..1]}" bidirectional
-			(at 95.25 58.42 0)
+		(pin "RGMII1_SWITCH_STM{TXD[0..3], TX_CLK, TX_CTLR, RXD[0..3], RX_CLK, RX_CTLR}"
+			bidirectional
+			(at 95.25 68.58 0
+			)
 			(uuid "6237fe09-fd7b-4ce8-be4e-e6640b315070")
 			(effects
 				(font
@@ -8821,7 +8813,7 @@
 	)
 	(sheet
 		(at 185.42 44.45)
-		(size 74.93 82.55)
+		(size 77.47 82.55)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -8863,9 +8855,9 @@
 				(justify left)
 			)
 		)
-		(pin "RGMII_STM_SWITCH{TXD[0..3], TX_CLK, TX_CTLR, RXD[0..3], RX_CLK, RX_CTLR}"
+		(pin "RGMII1_SWITCH_STM{TXD[0..3], TX_CLK, TX_CTLR, RXD[0..3], RX_CLK, RX_CTLR}"
 			bidirectional
-			(at 185.42 63.5 180
+			(at 185.42 68.58 180
 			)
 			(uuid "63fc911e-92d0-4713-9a50-3c0e71080ac6")
 			(effects
@@ -8876,7 +8868,7 @@
 			)
 		)
 		(pin "MIIM_STM_SWITCH{MDIO,MDC}" bidirectional
-			(at 185.42 68.58 180)
+			(at 185.42 71.12 180)
 			(uuid "79063a79-97c0-43be-8cc1-20014ad8a1f2")
 			(effects
 				(font
