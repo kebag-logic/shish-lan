@@ -1283,6 +1283,48 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "I_max_in_A",
+          "name": "I_max_in_A",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "manf#",
+          "name": "manf#",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Package_in_inch",
+          "name": "Package_in_inch",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Package_in_mm",
+          "name": "Package_in_mm",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Tolerance_in_pct",
+          "name": "Tolerance_in_pct",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Dielectric_type",
+          "name": "Dielectric_type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Dielectric",
+          "name": "Dielectric",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -1355,7 +1397,7 @@
     ],
     [
       "14851be8-da71-4848-89bd-314ca44f089b",
-      "crystal"
+      "xtal_stm"
     ],
     [
       "7f5fd65f-f670-4db7-8f09-63d4fb2faa09",
@@ -1398,12 +1440,12 @@
       "RJ45_Connector_Port3"
     ],
     [
-      "54dd0313-e11b-4c5a-bb43-942dea0cd180",
-      "JTAG_Header_ARM"
+      "7120ae3e-ef1d-4d3f-b6b0-0750b38e713a",
+      "xtal_switch"
     ],
     [
-      "48840ae5-c8f2-47ca-9691-b0413813be50",
-      "crystal"
+      "54dd0313-e11b-4c5a-bb43-942dea0cd180",
+      "JTAG_Header_ARM"
     ]
   ],
   "text_variables": {}

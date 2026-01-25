@@ -11031,7 +11031,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "14851be8-da71-4848-89bd-314ca44f089b")
-		(property "Sheetname" "crystal"
+		(property "Sheetname" "xtal_stm"
 			(at 36.83 52.6284 0)
 			(effects
 				(font
