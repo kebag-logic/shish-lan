@@ -5,9 +5,11 @@
 	(uuid "9d53d056-fc20-4909-a87d-6ff1fd35d78f")
 	(paper "A4")
 	(title_block
+		(title "RJ45 Connector Port 1")
 		(date "2025-12-21")
 		(rev "Rev. A")
 		(company "Kebag-Logic <contact@kebag-logic.com>")
+		(comment 1 "Confidential")
 	)
 	(lib_symbols
 		(symbol "KL_C:C_100n_50V_X7R_0603_10"
