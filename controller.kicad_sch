@@ -4551,15 +4551,6 @@
 		(uuid "fe875605-5c00-4fa1-962f-b10d9a51c8c1")
 	)
 	(bus_entry
-		(at 207.01 86.36)
-		(size -2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a95ca01-576c-4cda-8012-1b4b83d43bfb")
-	)
-	(bus_entry
 		(at 204.47 104.14)
 		(size 2.54 -2.54)
 		(stroke
@@ -4605,15 +4596,6 @@
 		(uuid "5eb9e5af-c965-4bc4-be53-92de1c258861")
 	)
 	(bus_entry
-		(at 207.01 88.9)
-		(size -2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f26b8e9-e475-4b3f-81c8-17e6bed7f3ed")
-	)
-	(bus_entry
 		(at 204.47 71.12)
 		(size 2.54 -2.54)
 		(stroke
@@ -4623,6 +4605,15 @@
 		(uuid "609ed68f-9fec-48f2-84f3-749201334bdf")
 	)
 	(bus_entry
+		(at 207.01 88.9)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68a0b284-1224-4501-9a4a-f0d4e9f8f660")
+	)
+	(bus_entry
 		(at 204.47 106.68)
 		(size 2.54 -2.54)
 		(stroke
@@ -4630,6 +4621,15 @@
 			(type default)
 		)
 		(uuid "6b7ec17c-eeb9-43cb-8535-844c79c90a4f")
+	)
+	(bus_entry
+		(at 207.01 86.36)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fcba339-e279-4b7d-88cf-3399ddc4ea89")
 	)
 	(bus_entry
 		(at 203.2 50.8)
@@ -4648,6 +4648,15 @@
 			(type default)
 		)
 		(uuid "92610b6c-fd00-4c1c-8f33-867d38a5e15f")
+	)
+	(bus_entry
+		(at 207.01 91.44)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92daab46-2d42-42c5-927d-ce563f10fae1")
 	)
 	(bus_entry
 		(at 285.75 16.51)
@@ -4692,16 +4701,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "d1145824-9f07-4963-8096-11b10aa22b0f")
-	)
-	(bus_entry
-		(at 207.01 91.44)
-		(size -2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d27b9c4c-3513-48fe-9295-8d9d1c58c7be")
+		(uuid "ebefaec3-c4b9-4790-ad36-5ad2873341ce")
 	)
 	(bus_entry
 		(at 204.47 63.5)
@@ -4854,6 +4854,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 93.98) (xy 204.47 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fa8f8b3-6535-4885-ae36-6fe6be3749af")
+	)
+	(wire
+		(pts
 			(xy 45.72 157.48) (xy 45.72 162.56)
 		)
 		(stroke
@@ -4944,6 +4954,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 88.9) (xy 204.47 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f7551d8-28a1-46fd-b885-b923a51b9310")
+	)
+	(wire
+		(pts
 			(xy 40.64 21.59) (xy 45.72 21.59)
 		)
 		(stroke
@@ -5022,6 +5042,16 @@
 		)
 		(uuid "3c8fcc34-eb75-4f8e-823c-5066028de4af")
 	)
+	(wire
+		(pts
+			(xy 182.88 91.44) (xy 204.47 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "449de52f-8d20-41f2-ab98-298901747046")
+	)
 	(bus
 		(pts
 			(xy 207.01 100.33) (xy 207.01 101.6)
@@ -5051,6 +5081,36 @@
 			(type default)
 		)
 		(uuid "47937263-8312-425c-95ab-5bb0d29fc142")
+	)
+	(bus
+		(pts
+			(xy 207.01 86.36) (xy 207.01 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4828f7a4-e7df-4791-9a60-c30ecd2d412b")
+	)
+	(bus
+		(pts
+			(xy 207.01 88.9) (xy 207.01 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48f57d1c-380e-4a2e-a241-90aba7c9416b")
+	)
+	(bus
+		(pts
+			(xy 207.01 91.44) (xy 207.01 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49e6db3f-7dae-4fc1-93d1-869f17354103")
 	)
 	(wire
 		(pts
@@ -5174,16 +5234,6 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 91.44) (xy 204.47 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ee0a252-a697-42be-8891-5b316948a153")
-	)
-	(wire
-		(pts
 			(xy 101.6 31.75) (xy 99.06 31.75)
 		)
 		(stroke
@@ -5261,16 +5311,6 @@
 			(type default)
 		)
 		(uuid "6909d320-a76c-460c-8a3c-dbf15bf631a3")
-	)
-	(bus
-		(pts
-			(xy 207.01 91.44) (xy 207.01 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ef4eb4e-f892-4ee5-8567-4c0329097c38")
 	)
 	(wire
 		(pts
@@ -5401,16 +5441,6 @@
 			(type default)
 		)
 		(uuid "85ab032b-dbc8-4c73-afd4-956f180afb5b")
-	)
-	(bus
-		(pts
-			(xy 207.01 86.36) (xy 207.01 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8773fdd3-9e27-4a1f-83d8-9f4161de16bc")
 	)
 	(wire
 		(pts
@@ -5712,16 +5742,6 @@
 		)
 		(uuid "c0af2969-23ce-4bc3-a61e-017dbc6100e3")
 	)
-	(bus
-		(pts
-			(xy 207.01 88.9) (xy 207.01 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1f76eb6-41e8-4e9e-97aa-44b55a163aeb")
-	)
 	(wire
 		(pts
 			(xy 93.98 181.61) (xy 96.52 181.61)
@@ -5794,16 +5814,6 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 96.52) (xy 182.88 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d47dba2f-5e55-4196-bf45-33c9d632ddf4")
-	)
-	(wire
-		(pts
 			(xy 58.42 77.47) (xy 78.74 77.47)
 		)
 		(stroke
@@ -5814,13 +5824,13 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 93.98) (xy 204.47 93.98)
+			(xy 182.88 96.52) (xy 204.47 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d98896a1-deb1-4058-9052-79eecc2311bd")
+		(uuid "d71d611c-27f1-42f4-b18e-531c29423c8e")
 	)
 	(wire
 		(pts
@@ -5914,16 +5924,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 82.55) (xy 144.78 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6b4c03d-1f6f-4c6d-a9ad-eee809e751f3")
-	)
-	(wire
-		(pts
 			(xy 182.88 68.58) (xy 204.47 68.58)
 		)
 		(stroke
@@ -6002,26 +6002,6 @@
 		)
 		(uuid "f8e750d2-2539-421a-a2fa-bcea9448494b")
 	)
-	(wire
-		(pts
-			(xy 182.88 88.9) (xy 204.47 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff9fc72c-9874-460f-b6bd-15e4ed6163e2")
-	)
-	(label "SPI_STM_SWITCH.SCK"
-		(at 182.88 91.44 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "01da94ec-2aaa-46aa-8cba-74a780efb38d")
-	)
 	(label "UART_STM_SWITCH.TX"
 		(at 146.05 67.31 180)
 		(effects
@@ -6063,16 +6043,6 @@
 		(uuid "0f1f7e3d-2e78-4356-9cd9-e5e976348810")
 	)
 	(label "SPI_STM_SWITCH.MOSI"
-		(at 182.88 96.52 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1584be1f-f434-4761-9f83-9aec56d49a45")
-	)
-	(label "SPI_STM_SWITCH.MISO"
 		(at 149.86 125.73 180)
 		(effects
 			(font
@@ -6082,7 +6052,7 @@
 		)
 		(uuid "214552a8-5773-4c23-9530-ceead24c063c")
 	)
-	(label "SPI_STM_SWITCH.SCK"
+	(label "SPI_STM_SWITCH.CLK"
 		(at 147.32 74.93 180)
 		(effects
 			(font
@@ -6122,15 +6092,15 @@
 		)
 		(uuid "5a1e3dcd-4030-401e-8133-09934dd90cea")
 	)
-	(label "SPI_STM_SWITCH.MISO"
-		(at 182.88 93.98 0)
+	(label "SPI_STM_SWITCH.CLK"
+		(at 182.88 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "62e5dc70-b448-4ae1-82dc-b59449ca9e8e")
+		(uuid "5ee35ab1-a903-4664-a8a4-bfa893bd974a")
 	)
 	(label "RGMII.RXCTL-CRS_DV"
 		(at 146.05 62.23 180)
@@ -6141,16 +6111,6 @@
 			(justify right bottom)
 		)
 		(uuid "63286b3e-c45a-4feb-90d5-35eec8828848")
-	)
-	(label "SPI_STM_SWITCH.nCS"
-		(at 182.88 88.9 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "73742589-0d2d-4a12-83a4-90f88af3345c")
 	)
 	(label "I2C.SCL"
 		(at 182.88 104.14 0)
@@ -6272,6 +6232,16 @@
 		)
 		(uuid "a5ff1e14-d2e2-4fc2-9a68-149d15265abc")
 	)
+	(label "SPI_STM_SWITCH.MOSI"
+		(at 182.88 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c22338a8-6760-412f-b92d-82d5aae39656")
+	)
 	(label "UART_STM_SWITCH.RX"
 		(at 182.88 116.84 0)
 		(effects
@@ -6302,6 +6272,16 @@
 		)
 		(uuid "d31f35a1-0f8e-4a80-8ab0-0ac3e959990e")
 	)
+	(label "SPI_STM_SWITCH.nCS"
+		(at 182.88 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d6899213-f023-42e9-b107-78c16bdb7f6c")
+	)
 	(label "RGMII.TX_CLK"
 		(at 182.88 63.5 0)
 		(effects
@@ -6312,15 +6292,15 @@
 		)
 		(uuid "e375111f-05bd-4018-913f-191b4e2e07dc")
 	)
-	(label "SPI.NSS"
-		(at 144.78 82.55 180)
+	(label "SPI_STM_SWITCH.MISO"
+		(at 182.88 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "e484aba5-8f64-496e-8620-1f414f01f6fb")
+		(uuid "e82ed3f8-a342-4996-9cf5-547707224b4b")
 	)
 	(label "RGMII.TXCTL-TX_DV"
 		(at 144.78 115.57 180)
@@ -6342,7 +6322,7 @@
 		)
 		(uuid "f08bc318-a0a8-48fb-919a-4421253e8eab")
 	)
-	(label "SPI_STM_SWITCH.MOSI"
+	(label "SPI_STM_SWITCH.MISO"
 		(at 149.86 123.19 180)
 		(effects
 			(font
@@ -6373,7 +6353,7 @@
 		)
 		(uuid "0319dfc8-48d7-487f-94a4-345ba349b7db")
 	)
-	(hierarchical_label "SPI_STM_SWITCH{nCS SCK MISO MOSI}"
+	(hierarchical_label "SPI_STM_SWITCH{MOSI,MISO,nCS,CLK}"
 		(shape bidirectional)
 		(at 209.55 85.09 0)
 		(effects

@@ -3718,15 +3718,6 @@
 		(uuid "4abe95cf-f2df-4e11-ae8f-39927bb06a66")
 	)
 	(bus_entry
-		(at 60.96 137.16)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5415b621-4875-4031-a935-00b63c7d0968")
-	)
-	(bus_entry
 		(at 132.08 31.75)
 		(size 2.54 2.54)
 		(stroke
@@ -3734,6 +3725,24 @@
 			(type default)
 		)
 		(uuid "632f82e6-3c94-4788-9dae-7480424069f2")
+	)
+	(bus_entry
+		(at 60.96 137.16)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b3665a0-7389-4942-9934-b5c9b9404352")
+	)
+	(bus_entry
+		(at 60.96 129.54)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6deffdbd-f73b-44d9-b73d-8b2fe3f50c22")
 	)
 	(bus_entry
 		(at 129.54 118.11)
@@ -3772,22 +3781,13 @@
 		(uuid "899e2d98-1302-42c4-9caf-2996dfb1cb03")
 	)
 	(bus_entry
-		(at 60.96 129.54)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e8523c7-4120-4348-926e-de455ff14d82")
-	)
-	(bus_entry
 		(at 60.96 144.78)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9e7fa4af-9b7f-40e5-8423-0fe12c014055")
+		(uuid "8f9f3bf9-8bb3-49c1-b952-10be9f55a371")
 	)
 	(bus_entry
 		(at 113.03 77.47)
@@ -3817,6 +3817,15 @@
 		(uuid "ac298d3b-6804-4b35-83ec-8c3b161a59d8")
 	)
 	(bus_entry
+		(at 60.96 152.4)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af22cb47-2384-4b55-b642-65c3b06f3342")
+	)
+	(bus_entry
 		(at 129.54 115.57)
 		(size 2.54 -2.54)
 		(stroke
@@ -3833,15 +3842,6 @@
 			(type default)
 		)
 		(uuid "b59b25a3-0a8f-4102-9f74-fe5ca3e576ae")
-	)
-	(bus_entry
-		(at 60.96 152.4)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd64e9ce-0a96-454c-8040-b546406deafe")
 	)
 	(bus_entry
 		(at 129.54 110.49)
@@ -3980,7 +3980,7 @@
 	)
 	(bus
 		(pts
-			(xy 60.96 137.16) (xy 60.96 144.78)
+			(xy 60.96 129.54) (xy 60.96 137.16)
 		)
 		(stroke
 			(width 0)
@@ -4050,16 +4050,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 154.94) (xy 96.52 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22417e17-6a35-4a0c-832e-8488d450336a")
-	)
-	(wire
-		(pts
 			(xy 161.29 38.1) (xy 161.29 36.83)
 		)
 		(stroke
@@ -4107,6 +4097,16 @@
 			(type default)
 		)
 		(uuid "28a6c266-3e67-4059-9670-a4861e937869")
+	)
+	(bus
+		(pts
+			(xy 60.96 144.78) (xy 60.96 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29e817d7-fad5-45ee-b6a1-17a7ed2d1237")
 	)
 	(wire
 		(pts
@@ -4177,16 +4177,6 @@
 			(type default)
 		)
 		(uuid "32de05ed-f2cc-4c11-bb44-a7245180be60")
-	)
-	(wire
-		(pts
-			(xy 63.5 147.32) (xy 96.52 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34f680c7-06c1-4dd8-9ba2-9d6b0cfd7af5")
 	)
 	(bus
 		(pts
@@ -4268,6 +4258,16 @@
 		)
 		(uuid "3f2e0ecc-43f6-456c-b31c-9d27a8bf7ffb")
 	)
+	(bus
+		(pts
+			(xy 60.96 137.16) (xy 60.96 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45cdd948-4f09-40e4-bb0d-21d3d16aa0c3")
+	)
 	(wire
 		(pts
 			(xy 83.82 179.07) (xy 100.33 179.07)
@@ -4330,16 +4330,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 139.7) (xy 96.52 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4fc390e7-1edf-4042-b433-ec59e28af58b")
-	)
-	(wire
-		(pts
 			(xy 161.29 36.83) (xy 177.8 36.83)
 		)
 		(stroke
@@ -4357,16 +4347,6 @@
 			(type default)
 		)
 		(uuid "55ccdc60-6693-489d-b825-0b4e0d603472")
-	)
-	(wire
-		(pts
-			(xy 63.5 132.08) (xy 96.52 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "563c56e1-362f-4f67-8d33-3e77940a33dd")
 	)
 	(bus
 		(pts
@@ -4470,6 +4450,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 139.7) (xy 96.52 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65c499fe-86cb-42fc-8d1b-92a3ad85931a")
+	)
+	(wire
+		(pts
 			(xy 163.83 147.32) (xy 157.48 147.32)
 		)
 		(stroke
@@ -4487,16 +4477,6 @@
 			(type default)
 		)
 		(uuid "676f4d98-c1f9-4cda-821a-263dd438e43f")
-	)
-	(bus
-		(pts
-			(xy 60.96 144.78) (xy 60.96 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "689d000c-d24f-4bf6-b371-e23c7eda195d")
 	)
 	(wire
 		(pts
@@ -4768,15 +4748,15 @@
 		)
 		(uuid "88e8dec1-fa6a-428d-864e-731cf189f47e")
 	)
-	(bus
+	(wire
 		(pts
-			(xy 60.96 129.54) (xy 60.96 137.16)
+			(xy 63.5 154.94) (xy 96.52 154.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8afaf734-e942-4a01-a223-4b0a0f0004c8")
+		(uuid "8960d9d5-b957-4f58-999c-2d4c9e31385d")
 	)
 	(wire
 		(pts
@@ -4940,6 +4920,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 147.32) (xy 96.52 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ca31e36-37c1-425b-a773-f86626aaa074")
+	)
+	(wire
+		(pts
 			(xy 83.82 184.15) (xy 100.33 184.15)
 		)
 		(stroke
@@ -5047,16 +5037,6 @@
 			(type default)
 		)
 		(uuid "acb34e98-5de2-48f0-b423-c15575f9b7f6")
-	)
-	(bus
-		(pts
-			(xy 60.96 152.4) (xy 60.96 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ade49147-f536-4a2f-ba3d-a881c0a6897a")
 	)
 	(wire
 		(pts
@@ -5237,6 +5217,16 @@
 			(type default)
 		)
 		(uuid "ce523f87-2437-4670-b728-2e0d91d0f885")
+	)
+	(wire
+		(pts
+			(xy 63.5 132.08) (xy 96.52 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d30a9e50-c02b-4639-95f8-885a0f9e279b")
 	)
 	(wire
 		(pts
@@ -5658,6 +5648,16 @@
 		)
 		(uuid "2726cd14-a128-4d67-9cef-181ec0f579eb")
 	)
+	(label "SPI_STM_SWITCH.MOSI"
+		(at 64.77 154.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2860cda4-3a8e-4f76-b01b-d1532b177be2")
+	)
 	(label "GPIO_MODE0"
 		(at 83.82 186.69 0)
 		(effects
@@ -5687,6 +5687,16 @@
 			(justify left bottom)
 		)
 		(uuid "2aa235b6-0330-4499-bfc1-f42c29526168")
+	)
+	(label "SPI_STM_SWITCH.MISO"
+		(at 64.77 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "327bf669-a59b-4ef2-a1eb-1f6cc68b0041")
 	)
 	(label "SGPIO_EN"
 		(at 160.02 186.69 180)
@@ -5767,6 +5777,16 @@
 			(justify left bottom)
 		)
 		(uuid "51aaa84d-adcb-43a3-bde1-961ca43a13f1")
+	)
+	(label "SPI_STM_SWITCH.nCS"
+		(at 64.77 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "57c1bf76-3eaf-4425-86f3-731482c1e011")
 	)
 	(label "RGMII1.TXD2"
 		(at 139.7 100.33 0)
@@ -5978,16 +5998,6 @@
 		)
 		(uuid "9cb49556-0e8c-4c6d-ab6f-f8943924af60")
 	)
-	(label "SPI_SLV.CLK"
-		(at 64.77 132.08 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a025b7cc-fa2f-4962-b352-087fda8277fc")
-	)
 	(label "EEPROM_SIZE"
 		(at 83.82 181.61 0)
 		(effects
@@ -6168,6 +6178,16 @@
 		)
 		(uuid "d011d95e-cf44-4c8d-b14e-47d23cd88824")
 	)
+	(label "SPI_STM_SWITCH.CLK"
+		(at 64.77 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d3d71279-93af-41c0-b3a2-8d620a2f7941")
+	)
 	(label "GPIO_MODE1"
 		(at 83.82 189.23 0)
 		(effects
@@ -6197,16 +6217,6 @@
 			(justify left bottom)
 		)
 		(uuid "d815227f-1d27-4dea-92a6-8f57eed0f216")
-	)
-	(label "SPI_SLV.DI"
-		(at 64.77 154.94 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "dbae2cd5-8745-4c22-a3ab-3ca4b54940e2")
 	)
 	(label "XMII_MODE0"
 		(at 160.02 189.23 180)
@@ -6298,16 +6308,6 @@
 		)
 		(uuid "e67ad15c-307d-4dff-bfbf-a1a5da4983c1")
 	)
-	(label "SPI_SLV.nCS"
-		(at 64.77 139.7 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e934fd34-4ee2-475e-aa78-497d6adc1ab7")
-	)
 	(label "BOOT_MODE2"
 		(at 163.83 69.85 0)
 		(effects
@@ -6317,16 +6317,6 @@
 			(justify left bottom)
 		)
 		(uuid "ed934c2c-016f-4928-9378-83ebeacc1ec4")
-	)
-	(label "SPI_SLV.DO"
-		(at 64.77 147.32 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "edce7718-e71a-4066-84ec-adaf01c7a568")
 	)
 	(label "RGMII1.TXD3"
 		(at 139.7 97.79 0)
@@ -6574,7 +6564,7 @@
 		)
 		(uuid "a18366c0-4337-4cf0-88f6-4d50241a4e75")
 	)
-	(hierarchical_label "SPI_SLV{DI,DO,nCS,CLK}"
+	(hierarchical_label "SPI_STM_SWITCH{MOSI,MISO,nCS,CLK}"
 		(shape bidirectional)
 		(at 54.61 129.54 180)
 		(effects

@@ -4033,18 +4033,7 @@
 		)
 		(uuid "031b5649-b9ff-4a15-83d0-803473f8d0a2")
 	)
-	(hierarchical_label "SPI_STM_SWITCH{DI,DO,nCS,CLK}"
-		(shape bidirectional)
-		(at 82.55 59.69 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0cec9485-c0e3-4dd5-ad25-9dfd7bada812")
-	)
-	(hierarchical_label "MIIM_STM_SWITCH{MDIO,MDC}"
+	(hierarchical_label "SPI_STM_SWITCH{MOSI,MISO,nCS,CLK}"
 		(shape bidirectional)
 		(at 82.55 57.15 180)
 		(effects
@@ -4053,7 +4042,7 @@
 			)
 			(justify right)
 		)
-		(uuid "2cd81781-d340-4858-82c1-05db8c5e35bf")
+		(uuid "15406626-2dea-41c6-a493-0fa9adb9242e")
 	)
 	(hierarchical_label "PTP[0..3]"
 		(shape input)
@@ -4120,17 +4109,6 @@
 			(justify right)
 		)
 		(uuid "c12378f3-b164-497a-8842-723e51ff2873")
-	)
-	(hierarchical_label "RGMII_STM_SWITCH{TXD[0..3], TX_CLK, TX_CTLR, RXD[0..3], RX_CLK, RX_CTLR}"
-		(shape bidirectional)
-		(at 82.55 62.23 180)
-		(effects
-			(font
-				(size 1.143 1.143)
-			)
-			(justify right)
-		)
-		(uuid "cc0f9e62-704f-40b6-96b8-52b3f87e4616")
 	)
 	(hierarchical_label "5-12V_INPUT"
 		(shape input)
@@ -5128,7 +5106,7 @@
 				(justify right)
 			)
 		)
-		(pin "SPI_SLV{DI,DO,nCS,CLK}" bidirectional
+		(pin "SPI_STM_SWITCH{MOSI,MISO,nCS,CLK}" bidirectional
 			(at 92.71 92.71 90)
 			(uuid "ef8d76d0-bf3a-4695-808f-e4949d601db1")
 			(effects
