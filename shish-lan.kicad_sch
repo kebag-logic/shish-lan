@@ -12,6 +12,159 @@
 		(comment 1 "Confidential")
 	)
 	(lib_symbols
+		(symbol "KL_Headers:03x01_2.54mm_Header"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -0.254 4.826 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "KL:03x01_2.54mm_Header"
+				(at 0.762 8.382 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "03x01_2.54mm_Header_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "KL_R:R_10K_100mW_5_0603"
 			(pin_numbers
 				(hide yes)
@@ -621,7 +774,7 @@
 		(at 134.62 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2279040b-34e1-4cce-ae26-1b51a0a5cde0")
+		(uuid "0e00d108-b4a0-45e4-9f94-662d840bd2ef")
 	)
 	(junction
 		(at 116.84 38.1)
@@ -656,6 +809,16 @@
 			(type default)
 		)
 		(uuid "15c4dfac-c4b9-43bf-854c-492a265fdfda")
+	)
+	(wire
+		(pts
+			(xy 143.51 40.64) (xy 134.62 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c4e5890-3761-4f85-9df2-0039be14904c")
 	)
 	(wire
 		(pts
@@ -747,16 +910,6 @@
 		)
 		(uuid "5eb5d473-25e7-44e4-8ae6-e63dc59623d2")
 	)
-	(wire
-		(pts
-			(xy 134.62 40.64) (xy 146.05 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84290ce7-f1cb-4728-a602-45c15447f17b")
-	)
 	(bus
 		(pts
 			(xy 95.25 53.34) (xy 185.42 53.34)
@@ -787,6 +940,16 @@
 		)
 		(uuid "9881e7cf-e22a-44d5-824d-1d14a3f2781a")
 	)
+	(wire
+		(pts
+			(xy 143.51 20.32) (xy 143.51 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd850073-9ed6-420d-8413-5f046fd85b0d")
+	)
 	(bus
 		(pts
 			(xy 101.6 34.29) (xy 101.6 35.56)
@@ -796,6 +959,16 @@
 			(type default)
 		)
 		(uuid "ce30a81e-c2dd-493f-86f8-d0937d0804b8")
+	)
+	(wire
+		(pts
+			(xy 130.81 20.32) (xy 143.51 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf71c55c-3930-429d-82a1-d368b36d93be")
 	)
 	(bus
 		(pts
@@ -816,6 +989,16 @@
 			(type default)
 		)
 		(uuid "e0397548-a5f0-4f56-b52e-970ab805ee52")
+	)
+	(wire
+		(pts
+			(xy 128.27 20.32) (xy 128.27 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb5ba019-a4e3-4641-8628-00c20a913660")
 	)
 	(wire
 		(pts
@@ -7613,7 +7796,7 @@
 			"PlRqAAAAAElFTkSuQmCC"
 		)
 	)
-	(label "I2C.SCL"
+	(label "I2C1.SCL"
 		(at 114.3 38.1 180)
 		(effects
 			(font
@@ -7623,7 +7806,7 @@
 		)
 		(uuid "950b1915-91fc-4fdc-9e8e-e8f700243ba0")
 	)
-	(label "I2C.SDA"
+	(label "I2C1.SDA"
 		(at 114.3 40.64 180)
 		(effects
 			(font
@@ -7966,26 +8149,26 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_TP:TestPoint")
-		(at 128.27 38.1 0)
+		(lib_id "KL_Headers:03x01_2.54mm_Header")
+		(at 128.27 15.24 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "42bc9bfc-cc71-4540-ba5e-72c4f997fa1b")
-		(property "Reference" "TP23"
-			(at 128.27 32.385 0)
-			(do_not_autoplace yes)
+		(uuid "2376ba4e-e2c2-492e-9f9e-852eb9aac5c0")
+		(property "Reference" "J7"
+			(at 133.35 15.2399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "~"
-			(at 128.27 33.02 0)
+			(at 127 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7993,8 +8176,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 133.35 38.1 0)
+		(property "Footprint" "KL:03x01_2.54mm_Header"
+			(at 119.888 14.478 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8002,8 +8185,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 133.35 38.1 0)
+		(property "Datasheet" ""
+			(at 127 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8011,8 +8194,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 128.27 38.1 0)
+		(property "Description" ""
+			(at 127 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8021,12 +8204,18 @@
 			)
 		)
 		(pin "1"
-			(uuid "87822b32-653e-4bdb-bf2b-62f1a720c61f")
+			(uuid "7baaaa01-a50d-449a-87bd-59810fd2e7f6")
+		)
+		(pin "3"
+			(uuid "11b41f1f-620f-41d1-badb-c2fe61ed096a")
+		)
+		(pin "2"
+			(uuid "c8ae06a7-c87a-4e50-8c19-d5095d1505df")
 		)
 		(instances
-			(project ""
+			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e"
-					(reference "TP23")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -8160,73 +8349,6 @@
 			(project ""
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e"
 					(reference "R100")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "KL_TP:TestPoint")
-		(at 146.05 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "55586de8-7239-4a9f-a96c-0dd41e60fa42")
-		(property "Reference" "TP32"
-			(at 146.05 34.925 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 146.05 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 151.13 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 151.13 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 146.05 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "87822b32-653e-4bdb-bf2b-62f1a720c620")
-		)
-		(instances
-			(project ""
-				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e"
-					(reference "TP32")
 					(unit 1)
 				)
 			)
@@ -8763,6 +8885,72 @@
 			)
 		)
 	)
+	(symbol
+		(lib_id "KL_SYM_LOCAL:GND")
+		(at 125.73 20.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e194c0a9-b83b-4471-9af9-66c61caa987d")
+		(property "Reference" "#PWR087"
+			(at 125.73 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 125.73 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 125.73 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b37c41dd-58ca-42cb-8cda-008a199dfe8e")
+		)
+		(instances
+			(project ""
+				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e"
+					(reference "#PWR087")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet
 		(at 17.78 24.13)
 		(size 77.47 101.6)
@@ -8797,7 +8985,7 @@
 				(justify left top)
 			)
 		)
-		(pin "I2C{SCL SDA}" bidirectional
+		(pin "I2C1{SCL SDA}" bidirectional
 			(at 95.25 34.29 0)
 			(uuid "1139bad6-c568-444f-97c7-acb11e375930")
 			(effects

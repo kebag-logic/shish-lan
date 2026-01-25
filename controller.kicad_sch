@@ -5322,16 +5322,6 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 69.85) (xy 186.69 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3411a8f2-af5b-4385-85f4-047242a44470")
-	)
-	(wire
-		(pts
 			(xy 252.73 24.13) (xy 264.16 24.13)
 		)
 		(stroke
@@ -5682,16 +5672,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 64.77) (xy 186.69 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b504992-d812-4ba0-b151-82f6b65a707c")
-	)
-	(wire
-		(pts
 			(xy 101.6 31.75) (xy 99.06 31.75)
 		)
 		(stroke
@@ -5812,6 +5792,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 69.85) (xy 186.69 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dcb34ea-6fa4-41ea-b7f6-e553ab781781")
+	)
+	(wire
+		(pts
 			(xy 259.08 104.14) (xy 280.67 104.14)
 		)
 		(stroke
@@ -5889,6 +5879,16 @@
 			(type default)
 		)
 		(uuid "79541213-49e6-48ab-ad82-b000f2f8883d")
+	)
+	(wire
+		(pts
+			(xy 124.46 64.77) (xy 186.69 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b67eae6-83e4-4018-92ca-2333d84c4820")
 	)
 	(wire
 		(pts
@@ -6830,7 +6830,7 @@
 		)
 		(uuid "0df1e24c-a3f1-405c-a8ce-464ffbd13e12")
 	)
-	(label "I2C.SDA"
+	(label "I2C1.SDA"
 		(at 179.07 105.41 180)
 		(effects
 			(font
@@ -6980,7 +6980,7 @@
 		)
 		(uuid "6d166ae7-dbe6-4d22-b66c-ec8193df7d75")
 	)
-	(label "I2C.SCL"
+	(label "I2C1.SCL"
 		(at 259.08 104.14 0)
 		(effects
 			(font
@@ -7050,7 +7050,7 @@
 		)
 		(uuid "8e0b03f7-9cfa-4de9-8e89-2fd79f2c5f8a")
 	)
-	(label "I2C.SDA"
+	(label "I2C1.SDA"
 		(at 259.08 106.68 0)
 		(effects
 			(font
@@ -7230,7 +7230,7 @@
 		)
 		(uuid "ebf55ecf-8ec7-40e2-892f-33303a8595b1")
 	)
-	(label "I2C.SCL"
+	(label "I2C1.SCL"
 		(at 179.07 102.87 180)
 		(effects
 			(font
@@ -7314,7 +7314,7 @@
 		)
 		(uuid "3a602494-0ba8-4146-b474-fec4587c9b85")
 	)
-	(hierarchical_label "I2C{SCL SDA}"
+	(hierarchical_label "I2C1{SCL SDA}"
 		(shape bidirectional)
 		(at 207.01 99.06 0)
 		(effects
@@ -8127,24 +8127,23 @@
 	(symbol
 		(lib_id "KL_Headers:03x01_2.54mm_Header")
 		(at 191.77 67.31 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "304c31c1-1f9b-4d77-b3e4-06d4960fca81")
 		(property "Reference" "J4"
-			(at 194.31 67.3099 0)
+			(at 191.77 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "~"
-			(at 191.77 66.04 0)
+			(at 191.77 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8153,7 +8152,7 @@
 			)
 		)
 		(property "Footprint" "KL:03x01_2.54mm_Header"
-			(at 192.532 58.928 0)
+			(at 192.532 75.692 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8162,7 +8161,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 191.77 66.04 0)
+			(at 191.77 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8171,7 +8170,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 191.77 66.04 0)
+			(at 191.77 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
