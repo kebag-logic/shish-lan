@@ -4543,7 +4543,7 @@
 		)
 		(uuid "4b2e8852-8b06-41c4-a50c-9f578edd8908")
 	)
-	(text_box "Second TX/RX pair is not used.\nTODO: Check if floating is ok."
+	(text_box "Second TX/RX pair is not used.\nSwitch GPIOs are 70k pull-up."
 		(exclude_from_sim no)
 		(at 224.79 53.34 0)
 		(size 19.05 10.16)
