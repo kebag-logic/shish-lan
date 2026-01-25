@@ -5132,7 +5132,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 67.31) (xy 186.69 67.31)
+			(xy 124.46 67.31) (xy 185.42 67.31)
 		)
 		(stroke
 			(width 0)
@@ -5379,6 +5379,16 @@
 			(type default)
 		)
 		(uuid "38f579c2-33aa-4b25-b1fa-1c0bbb50164e")
+	)
+	(wire
+		(pts
+			(xy 124.46 69.85) (xy 185.42 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39072126-2d58-4b49-834d-51d6a78503ad")
 	)
 	(bus
 		(pts
@@ -5652,7 +5662,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 118.11) (xy 280.67 118.11)
+			(xy 256.54 118.11) (xy 280.67 118.11)
 		)
 		(stroke
 			(width 0)
@@ -5792,7 +5802,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 69.85) (xy 186.69 71.12)
+			(xy 185.42 72.39) (xy 185.42 73.66)
 		)
 		(stroke
 			(width 0)
@@ -5879,16 +5889,6 @@
 			(type default)
 		)
 		(uuid "79541213-49e6-48ab-ad82-b000f2f8883d")
-	)
-	(wire
-		(pts
-			(xy 124.46 64.77) (xy 186.69 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b67eae6-83e4-4018-92ca-2333d84c4820")
 	)
 	(wire
 		(pts
@@ -6412,7 +6412,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 120.65) (xy 280.67 120.65)
+			(xy 256.54 120.65) (xy 280.67 120.65)
 		)
 		(stroke
 			(width 0)
@@ -6780,8 +6780,8 @@
 		)
 		(uuid "01cca325-886e-48ad-8dfe-3b97a652559e")
 	)
-	(label "UART_STM_SWITCH.TX"
-		(at 179.07 67.31 180)
+	(label "USART1_STM_SWITCH.TX"
+		(at 180.34 67.31 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6910,8 +6910,18 @@
 		)
 		(uuid "4004d824-f8bf-4680-8393-bc8f480590ca")
 	)
-	(label "UART_STM_SWITCH.TX"
-		(at 259.08 120.65 0)
+	(label "USART1_STM_SWITCH.RX"
+		(at 180.34 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4d168867-bfe2-4cee-be80-dcd9533984db")
+	)
+	(label "USART1_STM_SWITCH.TX"
+		(at 256.54 120.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7060,16 +7070,6 @@
 		)
 		(uuid "8f9af923-7895-4489-b7d2-85721af2b4cb")
 	)
-	(label "UART_STM_SWITCH.RX"
-		(at 179.07 64.77 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "90508e83-d247-4b2d-bdc8-db757f8703da")
-	)
 	(label "RGMII1_SWITCH_STM.TXD0"
 		(at 179.07 140.97 180)
 		(effects
@@ -7130,8 +7130,8 @@
 		)
 		(uuid "c22338a8-6760-412f-b92d-82d5aae39656")
 	)
-	(label "UART_STM_SWITCH.RX"
-		(at 259.08 118.11 0)
+	(label "USART1_STM_SWITCH.RX"
+		(at 256.54 118.11 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7380,7 +7380,7 @@
 		)
 		(uuid "b04bdc8e-b7d6-4e2b-b352-b24e9685b496")
 	)
-	(hierarchical_label "UART_STM_SWITCH{RX, TX}"
+	(hierarchical_label "USART1_STM_SWITCH{RX, TX}"
 		(shape bidirectional)
 		(at 207.01 113.03 0)
 		(effects
@@ -7548,7 +7548,7 @@
 	)
 	(symbol
 		(lib_id "KL_SYM_LOCAL:GND")
-		(at 186.69 71.12 0)
+		(at 185.42 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7557,7 +7557,7 @@
 		(fields_autoplaced yes)
 		(uuid "162b0749-61f8-443a-85cd-cdb5fcf57a51")
 		(property "Reference" "#PWR077"
-			(at 186.69 77.47 0)
+			(at 185.42 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7566,7 +7566,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 186.69 76.2 0)
+			(at 185.42 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7574,7 +7574,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 186.69 71.12 0)
+			(at 185.42 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7583,7 +7583,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 71.12 0)
+			(at 185.42 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7592,7 +7592,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 186.69 71.12 0)
+			(at 185.42 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8126,7 +8126,7 @@
 	)
 	(symbol
 		(lib_id "KL_Headers:03x01_2.54mm_Header")
-		(at 191.77 67.31 0)
+		(at 190.5 69.85 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8135,7 +8135,7 @@
 		(dnp no)
 		(uuid "304c31c1-1f9b-4d77-b3e4-06d4960fca81")
 		(property "Reference" "J4"
-			(at 191.77 60.96 0)
+			(at 190.5 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8143,7 +8143,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 191.77 68.58 0)
+			(at 190.5 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8152,7 +8152,7 @@
 			)
 		)
 		(property "Footprint" "KL:03x01_2.54mm_Header"
-			(at 192.532 75.692 0)
+			(at 191.262 78.232 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8161,7 +8161,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 191.77 68.58 0)
+			(at 190.5 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8170,7 +8170,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 191.77 68.58 0)
+			(at 190.5 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
