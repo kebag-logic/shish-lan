@@ -5510,6 +5510,16 @@
 		)
 		(uuid "47937263-8312-425c-95ab-5bb0d29fc142")
 	)
+	(wire
+		(pts
+			(xy 222.25 140.97) (xy 248.92 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47c65057-b935-44b2-9847-369b48538fa6")
+	)
 	(bus
 		(pts
 			(xy 283.21 88.9) (xy 283.21 91.44)
@@ -5589,6 +5599,16 @@
 			(type default)
 		)
 		(uuid "4e19daf6-859c-4021-b11b-684d082a5aff")
+	)
+	(wire
+		(pts
+			(xy 124.46 82.55) (xy 180.34 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fe9095c-1a09-49a0-bc90-decd4073de31")
 	)
 	(wire
 		(pts
@@ -5800,6 +5820,16 @@
 		)
 		(uuid "705af428-cce7-48d9-9189-7daef05cceaf")
 	)
+	(wire
+		(pts
+			(xy 124.46 80.01) (xy 180.34 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7082c904-3d3c-4f23-85af-45cadea9d1da")
+	)
 	(bus
 		(pts
 			(xy 283.21 57.15) (xy 283.21 59.69)
@@ -5849,6 +5879,16 @@
 			(type default)
 		)
 		(uuid "7868465c-8bdf-4d13-97e7-0effc155998c")
+	)
+	(wire
+		(pts
+			(xy 124.46 97.79) (xy 179.07 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79541213-49e6-48ab-ad82-b000f2f8883d")
 	)
 	(wire
 		(pts
@@ -5949,6 +5989,16 @@
 			(type default)
 		)
 		(uuid "85d9eb73-e7a2-4f82-99eb-3bef50fe754a")
+	)
+	(wire
+		(pts
+			(xy 222.25 133.35) (xy 248.92 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8687c3f8-bbd3-4681-a729-7ab703f6d4a8")
 	)
 	(bus
 		(pts
@@ -6052,6 +6102,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 138.43) (xy 248.92 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f424d89-0322-4680-9aea-ff1fe9e2b510")
+	)
+	(wire
+		(pts
 			(xy 177.8 16.51) (xy 190.5 16.51)
 		)
 		(stroke
@@ -6099,6 +6159,16 @@
 			(type default)
 		)
 		(uuid "95aa8c5b-1843-487a-aaa8-5c5076311fc1")
+	)
+	(wire
+		(pts
+			(xy 222.25 130.81) (xy 248.92 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b6017d9-2395-49cc-bba9-81e61906e41c")
 	)
 	(wire
 		(pts
@@ -6179,6 +6249,16 @@
 			(type default)
 		)
 		(uuid "ac3ee5a3-7342-479e-a048-33bf1842f60d")
+	)
+	(wire
+		(pts
+			(xy 124.46 95.25) (xy 179.07 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af18a56c-5bcb-45b3-ba0f-3fce7bbe9fb3")
 	)
 	(wire
 		(pts
@@ -6340,6 +6420,16 @@
 		)
 		(uuid "c9283519-601f-4429-a0af-10fe4b54ae71")
 	)
+	(wire
+		(pts
+			(xy 222.25 135.89) (xy 248.92 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbf882b2-9f42-4393-9d2b-2c86032f2ee2")
+	)
 	(bus
 		(pts
 			(xy 205.74 114.3) (xy 283.21 114.3)
@@ -6379,6 +6469,16 @@
 			(type default)
 		)
 		(uuid "ceccc86d-7366-4c5e-8d6a-a537b8b51676")
+	)
+	(wire
+		(pts
+			(xy 124.46 77.47) (xy 180.34 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3e0636c-e9b7-464e-9632-48c87d563a1b")
 	)
 	(wire
 		(pts
@@ -6459,6 +6559,16 @@
 			(type default)
 		)
 		(uuid "df66e0e7-b404-416d-ba6c-56edaaa4ab6a")
+	)
+	(wire
+		(pts
+			(xy 222.25 143.51) (xy 248.92 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfd6d507-93a6-4378-a2a7-9a433c46ec23")
 	)
 	(wire
 		(pts
@@ -6660,6 +6770,16 @@
 		)
 		(uuid "ffc4da1a-779c-49bd-8893-48146d00f55a")
 	)
+	(label "RESET_STM_JTAG"
+		(at 222.25 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "01cca325-886e-48ad-8dfe-3b97a652559e")
+	)
 	(label "UART_STM_SWITCH.TX"
 		(at 179.07 67.31 180)
 		(effects
@@ -6689,6 +6809,26 @@
 			(justify right bottom)
 		)
 		(uuid "05292590-082b-463e-85fe-0c37a88af7f5")
+	)
+	(label "SWDIO_STM_JTAG"
+		(at 180.34 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "06bd589e-37c5-47cd-bf5a-38b5cf8f659c")
+	)
+	(label "TDI_STM_JTAG"
+		(at 180.34 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0df1e24c-a3f1-405c-a8ce-464ffbd13e12")
 	)
 	(label "I2C.SDA"
 		(at 179.07 105.41 180)
@@ -6750,6 +6890,16 @@
 		)
 		(uuid "2cee105b-318a-47fb-9a23-feab26b6e926")
 	)
+	(label "RESET_STM_JTAG"
+		(at 179.07 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2e5e83a9-cc6a-4675-8307-8fc337a79689")
+	)
 	(label "RGMII1_SWITCH_STM.RXD3"
 		(at 251.46 76.2 0)
 		(effects
@@ -6789,6 +6939,16 @@
 			(justify left bottom)
 		)
 		(uuid "5ee35ab1-a903-4664-a8a4-bfa893bd974a")
+	)
+	(label "TDI_STM_JTAG"
+		(at 222.25 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "61631838-38f9-4621-8476-e60b101adf30")
 	)
 	(label "RGMII1_SWITCH_STM.TX_CTLR"
 		(at 179.07 59.69 180)
@@ -6870,6 +7030,16 @@
 		)
 		(uuid "885bbf35-0720-4a0b-a746-176d24e51035")
 	)
+	(label "TRST_STM_JTAG"
+		(at 222.25 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8c019706-bf63-4a6b-a449-759cc40bd209")
+	)
 	(label "RGMII1_SWITCH_STM.RXD2"
 		(at 251.46 73.66 0)
 		(effects
@@ -6910,6 +7080,16 @@
 		)
 		(uuid "a5ff1e14-d2e2-4fc2-9a68-149d15265abc")
 	)
+	(label "SWCLK_STM_JTAG"
+		(at 222.25 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ab1b3f21-3355-47dd-96bc-c7984c4927d6")
+	)
 	(label "RGMII1_SWITCH_STM.TXD2"
 		(at 251.46 57.15 0)
 		(effects
@@ -6929,6 +7109,16 @@
 			(justify left bottom)
 		)
 		(uuid "b19372a4-bc9b-41c4-97d0-97bb0d3873c3")
+	)
+	(label "SWDIO_STM_JTAG"
+		(at 222.25 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b1d6ae4e-7bd5-4e25-aad4-0188ad69a88f")
 	)
 	(label "SPI_STM_SWITCH.MOSI"
 		(at 259.08 96.52 0)
@@ -6950,6 +7140,16 @@
 		)
 		(uuid "cdc9b1e9-9be3-4b20-98a3-0acc84cb8dd2")
 	)
+	(label "SWCLK_STM_JTAG"
+		(at 180.34 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ce111ea9-b464-4629-9662-91422a4be9e0")
+	)
 	(label "RGMII1_SWITCH_STM.TXD1"
 		(at 251.46 54.61 0)
 		(effects
@@ -6959,6 +7159,16 @@
 			(justify left bottom)
 		)
 		(uuid "ce3d2c9b-a84a-4d4f-af96-52367b55f68f")
+	)
+	(label "TDO_STM_JTAG"
+		(at 222.25 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d1bdd8ad-06f1-4540-b30f-f8c28e67c766")
 	)
 	(label "MIIM_STM_SWITCH.MDIO"
 		(at 257.81 41.91 0)
@@ -6979,6 +7189,16 @@
 			(justify right bottom)
 		)
 		(uuid "d31f35a1-0f8e-4a80-8ab0-0ac3e959990e")
+	)
+	(label "TDO_STM_JTAG"
+		(at 179.07 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d681de7d-3b6e-40ba-9005-cc50031496ac")
 	)
 	(label "SPI_STM_SWITCH.nCS"
 		(at 259.08 93.98 0)
@@ -11078,7 +11298,7 @@
 		)
 	)
 	(sheet
-		(at 137.16 162.56)
+		(at 248.92 128.27)
 		(size 30.48 30.48)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11094,7 +11314,7 @@
 		)
 		(uuid "54dd0313-e11b-4c5a-bb43-942dea0cd180")
 		(property "Sheetname" "JTAG_Header_ARM"
-			(at 137.16 161.8484 0)
+			(at 248.92 127.5584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11103,7 +11323,7 @@
 			)
 		)
 		(property "Sheetfile" "jtag_header_arm.kicad_sch"
-			(at 137.16 193.6246 0)
+			(at 248.92 159.3346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11112,7 +11332,7 @@
 			)
 		)
 		(pin "RESET" bidirectional
-			(at 137.16 165.1 180)
+			(at 248.92 130.81 180)
 			(uuid "32657f22-a062-4a9f-9c82-ce39a6eadd63")
 			(effects
 				(font
@@ -11121,18 +11341,8 @@
 				(justify left)
 			)
 		)
-		(pin "RTCK" bidirectional
-			(at 137.16 167.64 180)
-			(uuid "86c08380-e3b5-46c1-bdb6-cba36344313c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "TCLK" bidirectional
-			(at 137.16 170.18 180)
+		(pin "SWCLK{slash}TCLK" bidirectional
+			(at 248.92 133.35 180)
 			(uuid "fb8f768b-14cf-4ce1-94c0-695a586a8095")
 			(effects
 				(font
@@ -11142,7 +11352,7 @@
 			)
 		)
 		(pin "TDI" bidirectional
-			(at 137.16 172.72 180)
+			(at 248.92 135.89 180)
 			(uuid "5077a1dc-51de-440f-bbe4-deb9ffc5dd7b")
 			(effects
 				(font
@@ -11151,8 +11361,8 @@
 				(justify left)
 			)
 		)
-		(pin "TDO" bidirectional
-			(at 137.16 175.26 180)
+		(pin "SWO{slash}TDO" bidirectional
+			(at 248.92 138.43 180)
 			(uuid "e21575ee-201d-42d9-90f3-62334045b15a")
 			(effects
 				(font
@@ -11161,8 +11371,8 @@
 				(justify left)
 			)
 		)
-		(pin "TMS" bidirectional
-			(at 137.16 177.8 180)
+		(pin "SWDIO{slash}TMS" bidirectional
+			(at 248.92 140.97 180)
 			(uuid "fc45a6a2-ab2e-4793-8a42-3c07521465c2")
 			(effects
 				(font
@@ -11172,7 +11382,7 @@
 			)
 		)
 		(pin "TRST" bidirectional
-			(at 137.16 180.34 180)
+			(at 248.92 143.51 180)
 			(uuid "403e0c1b-2d6a-4495-beae-238979e5bca7")
 			(effects
 				(font
