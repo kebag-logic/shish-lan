@@ -589,130 +589,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "KL_Headers:02x01_2.54mm_Header"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at -0.254 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "KL:02x01_2.54mm_Header"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "02x01_2.54mm_Header_1_1"
-				(rectangle
-					(start -1.27 2.54)
-					(end 1.27 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 1.397)
-					(end 0 1.143)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -1.143)
-					(end 0 -1.397)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 1.27 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -1.27 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "KL_Headers:03x01_2.54mm_Header"
 			(pin_names
 				(hide yes)
@@ -4676,12 +4552,6 @@
 		(uuid "46363c4c-db16-4ff1-8fff-fe89fafb8a39")
 	)
 	(junction
-		(at 40.64 21.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "46c7b8dd-b461-4039-868c-2d375667a058")
-	)
-	(junction
 		(at 76.2 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5790,16 +5660,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 21.59) (xy 45.72 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32eab90b-bb9e-4a7d-80a0-9898aee215ff")
-	)
-	(wire
-		(pts
 			(xy 76.2 100.33) (xy 76.2 102.87)
 		)
 		(stroke
@@ -5997,16 +5857,6 @@
 			(type default)
 		)
 		(uuid "4668468d-e59e-42b8-81a5-c6d16a926b8b")
-	)
-	(wire
-		(pts
-			(xy 40.64 19.05) (xy 40.64 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "478eb8c1-b593-434f-91ec-ab5889d6dad9")
 	)
 	(wire
 		(pts
@@ -6230,16 +6080,6 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 24.13) (xy 24.13 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51818239-3f5a-4f22-87d3-029347625e22")
-	)
-	(wire
-		(pts
 			(xy 53.34 39.37) (xy 53.34 40.64)
 		)
 		(stroke
@@ -6370,7 +6210,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 62.23) (xy 78.74 62.23)
+			(xy 38.1 62.23) (xy 78.74 62.23)
 		)
 		(stroke
 			(width 0)
@@ -6750,7 +6590,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 59.69) (xy 78.74 59.69)
+			(xy 38.1 59.69) (xy 78.74 59.69)
 		)
 		(stroke
 			(width 0)
@@ -6807,16 +6647,6 @@
 			(type default)
 		)
 		(uuid "842737c1-e063-4248-868f-d7be327196e1")
-	)
-	(wire
-		(pts
-			(xy 38.1 21.59) (xy 40.64 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84fd2486-e128-41f5-ba5a-542815ba38fe")
 	)
 	(wire
 		(pts
@@ -7077,6 +6907,16 @@
 			(type default)
 		)
 		(uuid "91485132-98b7-4dd6-bf60-ad7f81fb0f2b")
+	)
+	(wire
+		(pts
+			(xy 64.77 54.61) (xy 78.74 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91488531-1708-48ab-937f-23273f50b8b8")
 	)
 	(wire
 		(pts
@@ -7540,7 +7380,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 54.61) (xy 78.74 54.61)
+			(xy 49.53 54.61) (xy 57.15 54.61)
 		)
 		(stroke
 			(width 0)
@@ -7907,16 +7747,6 @@
 			(type default)
 		)
 		(uuid "e7fcb981-9837-40f8-812f-dda6a0f1a431")
-	)
-	(wire
-		(pts
-			(xy 24.13 21.59) (xy 30.48 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9d0c42f-815d-41be-a7b6-a30593671225")
 	)
 	(wire
 		(pts
@@ -8769,17 +8599,6 @@
 		)
 		(uuid "ba0dd3fc-9061-497d-8c15-710d1f023f3e")
 	)
-	(hierarchical_label "VDD"
-		(shape input)
-		(at 45.72 21.59 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ba0e4f9c-5cd0-44d5-b6a7-0a26d192d21f")
-	)
 	(hierarchical_label "EN-2V5_STM_TO_BUCK"
 		(shape output)
 		(at 58.42 74.93 180)
@@ -8793,7 +8612,7 @@
 	)
 	(hierarchical_label "VDD"
 		(shape input)
-		(at 73.66 54.61 180)
+		(at 49.53 54.61 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9231,75 +9050,6 @@
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/06488c82-a47f-4277-b0ee-3bd211d8922a"
 					(reference "C84")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "KL_Headers:02x01_2.54mm_Header")
-		(at 19.05 22.86 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "27ad24ab-40bc-47b4-aa53-e6d19e98d4dc")
-		(property "Reference" "J1"
-			(at 19.05 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 19.05 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "KL:02x01_2.54mm_Header"
-			(at 19.05 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 19.05 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 19.05 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6da2122d-4dbd-4144-80b3-5405e16a6953")
-		)
-		(pin "2"
-			(uuid "5ca95644-ac6f-4927-a42c-1054acb77d7d")
-		)
-		(instances
-			(project ""
-				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/06488c82-a47f-4277-b0ee-3bd211d8922a"
-					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -9829,72 +9579,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 24.13 25.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "569e359b-69bb-4b18-99d8-0382d18581d7")
-		(property "Reference" "#PWR3"
-			(at 24.13 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 24.13 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 24.13 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 24.13 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 24.13 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "801af632-433d-461f-b6ab-6ba8b19a240b")
-		)
-		(instances
-			(project ""
-				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/06488c82-a47f-4277-b0ee-3bd211d8922a"
-					(reference "#PWR3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "KL_C:C_4u7_10V_10_X5R_0603")
 		(at 264.16 20.32 0)
 		(unit 1)
@@ -10086,16 +9770,15 @@
 	)
 	(symbol
 		(lib_id "KL_R:R_0R_2W_5_2512")
-		(at 34.29 21.59 90)
+		(at 60.96 54.61 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6c2234a4-7898-4d3e-9a3b-aea5ebe5ec79")
 		(property "Reference" "R13"
-			(at 34.29 15.24 90)
+			(at 60.96 52.578 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10103,7 +9786,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 34.29 17.78 90)
+			(at 60.96 56.896 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10111,7 +9794,7 @@
 			)
 		)
 		(property "Footprint" "KL_Footprints:R_2512"
-			(at 34.29 23.368 90)
+			(at 60.96 56.388 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10120,7 +9803,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 34.29 21.59 0)
+			(at 60.96 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10129,7 +9812,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 34.29 21.59 0)
+			(at 60.96 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10138,7 +9821,7 @@
 			)
 		)
 		(property "Power" "2"
-			(at 34.29 21.59 0)
+			(at 60.96 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10147,7 +9830,7 @@
 			)
 		)
 		(property "Tolerance" "5"
-			(at 34.29 21.59 0)
+			(at 60.96 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10156,7 +9839,7 @@
 			)
 		)
 		(property "Mouser" "652-CRF2512-J-000ELF "
-			(at 34.29 21.59 0)
+			(at 60.96 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10165,7 +9848,7 @@
 			)
 		)
 		(property "Digikey" "118-CRF2512-J/-000ELFCT-ND"
-			(at 34.29 21.59 0)
+			(at 60.96 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10174,7 +9857,7 @@
 			)
 		)
 		(property "LCSC" "C2778666"
-			(at 34.29 21.59 0)
+			(at 60.96 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12103,72 +11786,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 40.64 19.05 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e32ec1bb-d99e-486f-8cb6-6aa4f691369d")
-		(property "Reference" "#PWR4"
-			(at 40.64 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 40.64 13.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 40.64 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 40.64 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 40.64 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d3f6c7da-19bf-481b-a538-80bfd0920d8a")
-		)
-		(instances
-			(project ""
-				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/06488c82-a47f-4277-b0ee-3bd211d8922a"
-					(reference "#PWR4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "KL_C:C_100n_10V_10_X7R_0603")
 		(at 203.2 20.32 0)
 		(unit 1)
@@ -12613,7 +12230,7 @@
 		)
 	)
 	(sheet
-		(at 36.83 53.34)
+		(at 16.51 53.34)
 		(size 21.59 13.97)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12629,7 +12246,7 @@
 		)
 		(uuid "14851be8-da71-4848-89bd-314ca44f089b")
 		(property "Sheetname" "xtal_stm"
-			(at 36.83 52.6284 0)
+			(at 16.51 52.6284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12638,7 +12255,7 @@
 			)
 		)
 		(property "Sheetfile" "crystal.kicad_sch"
-			(at 36.83 67.8946 0)
+			(at 16.51 67.8946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12647,7 +12264,7 @@
 			)
 		)
 		(pin "Pin1" output
-			(at 58.42 59.69 0)
+			(at 38.1 59.69 0)
 			(uuid "3660fe9f-fc0d-441f-9382-dd7ac949ed05")
 			(effects
 				(font
@@ -12657,7 +12274,7 @@
 			)
 		)
 		(pin "Pin2" output
-			(at 58.42 62.23 0)
+			(at 38.1 62.23 0)
 			(uuid "395163b6-55a9-4ae2-a3e6-5fb996ab9f2c")
 			(effects
 				(font

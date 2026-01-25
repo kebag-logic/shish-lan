@@ -1041,7 +1041,7 @@
         "5-12V_IN"
       ],
       "Net-(U5-VIN)": [
-        "5-12V_IN"
+        "PWR"
       ],
       "Net-(U6-VIN)": [
         "PWR"
@@ -1392,8 +1392,8 @@
       "switch_buck_2v5"
     ],
     [
-      "606fcd84-feed-4290-bf9b-87889000b681",
-      "switch_buck_3v3"
+      "b46af5b7-dd4e-4356-ae8f-8ea1d81113b6",
+      "BUCK_3V3"
     ],
     [
       "14851be8-da71-4848-89bd-314ca44f089b",
