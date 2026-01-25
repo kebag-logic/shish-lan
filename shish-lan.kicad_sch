@@ -579,7 +579,7 @@
 	)
 	(text_box "PTP3 is shared with IRQ0, but not at the same time. A 0R is taking care of it."
 		(exclude_from_sim no)
-		(at 124.46 101.6 0)
+		(at 124.46 113.03 0)
 		(size 58.42 12.7)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -649,7 +649,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 29.21) (xy 116.84 30.48)
+			(xy 116.84 26.67) (xy 116.84 30.48)
 		)
 		(stroke
 			(width 0)
@@ -757,6 +757,16 @@
 		)
 		(uuid "84595251-aeb3-4a7a-aa27-c7d816b29dce")
 	)
+	(wire
+		(pts
+			(xy 95.25 92.71) (xy 185.42 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f1cebf6-4072-4e55-ae49-9e69de2c233c")
+	)
 	(bus
 		(pts
 			(xy 95.25 34.29) (xy 101.6 34.29)
@@ -809,13 +819,23 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 29.21) (xy 134.62 30.48)
+			(xy 134.62 26.67) (xy 134.62 30.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f9ddf392-9206-427c-ae21-cb4a3eb6ea8e")
+	)
+	(wire
+		(pts
+			(xy 95.25 26.67) (xy 97.79 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "faaab031-c425-4f61-92fc-a7a6f7f83d5a")
 	)
 	(bus
 		(pts
@@ -8204,7 +8224,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 134.62 29.21 0)
+		(at 134.62 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8213,7 +8233,7 @@
 		(fields_autoplaced yes)
 		(uuid "5793efce-2d84-496b-9222-c944804f39f2")
 		(property "Reference" "#PWR083"
-			(at 134.62 33.02 0)
+			(at 134.62 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8222,7 +8242,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 134.62 24.13 0)
+			(at 134.62 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8230,7 +8250,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 134.62 29.21 0)
+			(at 134.62 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8239,7 +8259,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 29.21 0)
+			(at 134.62 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8248,7 +8268,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 134.62 29.21 0)
+			(at 134.62 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8270,7 +8290,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 116.84 29.21 0)
+		(at 116.84 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8279,7 +8299,7 @@
 		(fields_autoplaced yes)
 		(uuid "6497814f-5976-4f8d-9de6-4cb79e78e997")
 		(property "Reference" "#PWR081"
-			(at 116.84 33.02 0)
+			(at 116.84 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8288,7 +8308,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 116.84 24.13 0)
+			(at 116.84 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8296,7 +8316,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 29.21 0)
+			(at 116.84 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8305,7 +8325,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 29.21 0)
+			(at 116.84 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8314,7 +8334,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 116.84 29.21 0)
+			(at 116.84 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8396,6 +8416,72 @@
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e"
 					(reference "TP12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 97.79 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b68d69b-41b4-4d5a-b9ac-e7006d6f08d7")
+		(property "Reference" "#PWR085"
+			(at 97.79 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 97.79 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 97.79 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5ffb5575-fd57-4319-93fa-2ba9880e91b7")
+		)
+		(instances
+			(project "shish-lan"
+				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e"
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -8669,7 +8755,7 @@
 	)
 	(sheet
 		(at 17.78 24.13)
-		(size 77.47 55.88)
+		(size 77.47 101.6)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -8693,7 +8779,7 @@
 			)
 		)
 		(property "Sheetfile" "controller.kicad_sch"
-			(at 17.78 80.5946 0)
+			(at 17.78 126.3146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8772,7 +8858,7 @@
 			)
 		)
 		(pin "nRST_STM_TO_SWITCH" output
-			(at 95.25 55.88 0)
+			(at 95.25 92.71 0)
 			(uuid "27e7f008-2d1a-449f-bc49-00638b3f5468")
 			(effects
 				(font
