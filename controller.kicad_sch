@@ -5230,16 +5230,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 45.72) (xy 133.35 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d5ca35b-6b4f-4d37-9fdb-2c4ae1ff6c0b")
-	)
-	(wire
-		(pts
 			(xy 127 153.67) (xy 124.46 153.67)
 		)
 		(stroke
@@ -5387,16 +5377,6 @@
 			(type default)
 		)
 		(uuid "1b0e8abf-6053-45b6-84e7-368fd7d929ee")
-	)
-	(wire
-		(pts
-			(xy 132.08 59.69) (xy 132.08 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1bfa0833-eb9e-4879-8b9e-a737e4e08b34")
 	)
 	(wire
 		(pts
@@ -5600,16 +5580,6 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 45.72) (xy 179.07 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e9f1c8a-9be1-4d85-8d89-83bee8310900")
-	)
-	(wire
-		(pts
 			(xy 127 161.29) (xy 127 158.75)
 		)
 		(stroke
@@ -5807,16 +5777,6 @@
 			(type default)
 		)
 		(uuid "3bc531c5-1266-43d2-9223-491885c41215")
-	)
-	(wire
-		(pts
-			(xy 132.08 59.69) (xy 133.35 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c8fcc34-eb75-4f8e-823c-5066028de4af")
 	)
 	(wire
 		(pts
@@ -6710,7 +6670,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 49.53) (xy 179.07 49.53)
+			(xy 124.46 49.53) (xy 180.34 49.53)
 		)
 		(stroke
 			(width 0)
@@ -6777,16 +6737,6 @@
 			(type default)
 		)
 		(uuid "8be9b0ca-a454-4b5d-99cd-5ab83f2f3db8")
-	)
-	(wire
-		(pts
-			(xy 132.08 45.72) (xy 132.08 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c4db251-5965-4bc6-b13c-c2536d6b230d")
 	)
 	(wire
 		(pts
@@ -7810,16 +7760,6 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 59.69) (xy 179.07 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1e3e0e5-5971-4320-b724-8f6d8d28b57e")
-	)
-	(wire
-		(pts
 			(xy 245.11 76.2) (xy 280.67 76.2)
 		)
 		(stroke
@@ -7940,7 +7880,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 62.23) (xy 124.46 62.23)
+			(xy 124.46 62.23) (xy 180.34 62.23)
 		)
 		(stroke
 			(width 0)
@@ -7950,7 +7890,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 46.99) (xy 124.46 46.99)
+			(xy 124.46 46.99) (xy 180.34 46.99)
 		)
 		(stroke
 			(width 0)
@@ -8089,7 +8029,7 @@
 		(uuid "27ece461-51df-460a-b48c-b4161eb75ec0")
 	)
 	(label "MIIM_STM_SWITCH.MDIO"
-		(at 179.07 49.53 180)
+		(at 180.34 49.53 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8169,7 +8109,7 @@
 		(uuid "61631838-38f9-4621-8476-e60b101adf30")
 	)
 	(label "RGMII1_SWITCH_STM.TX_CTLR"
-		(at 179.07 59.69 180)
+		(at 180.34 62.23 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8389,7 +8329,7 @@
 		(uuid "d2952211-c738-4e91-8b06-1a57d2e68257")
 	)
 	(label "RGMII1_SWITCH_STM.TX_CLK"
-		(at 179.07 45.72 180)
+		(at 180.34 46.99 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9050,136 +8990,6 @@
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/06488c82-a47f-4277-b0ee-3bd211d8922a"
 					(reference "C84")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "KL_R:R_22_100mW_1pct_0603")
-		(at 137.16 59.69 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "28f1f004-003e-4d84-b480-122f7dffcafc")
-		(property "Reference" "R109"
-			(at 137.16 57.658 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22"
-			(at 137.16 61.976 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "KL_Footprints:R_0603"
-			(at 137.16 61.468 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-1022RL?lang=en"
-			(at 137.16 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 137.16 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" "0.1"
-			(at 137.16 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1"
-			(at 137.16 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "603-RC0603FR-1022RL"
-			(at 137.16 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "13-RC0603FR-1022RLCT-ND"
-			(at 137.16 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C4168692"
-			(at 137.16 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Farnell" ""
-			(at 137.16 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package (in)" "0603"
-			(at 137.16 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "86cf5c6b-372b-48b8-a0b3-4f72f589634c")
-		)
-		(pin "2"
-			(uuid "ff46f83f-17aa-4d3b-93c9-f758b2f0c107")
-		)
-		(instances
-			(project "shish-lan"
-				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/06488c82-a47f-4277-b0ee-3bd211d8922a"
-					(reference "R109")
 					(unit 1)
 				)
 			)
@@ -11528,136 +11338,6 @@
 			(project ""
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/06488c82-a47f-4277-b0ee-3bd211d8922a"
 					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "KL_R:R_22_100mW_1pct_0603")
-		(at 137.16 45.72 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cbc4c88d-15f5-4a1e-b4ca-b9c0a9d49391")
-		(property "Reference" "R108"
-			(at 137.16 43.688 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22"
-			(at 137.16 48.006 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "KL_Footprints:R_0603"
-			(at 137.16 47.498 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-1022RL?lang=en"
-			(at 137.16 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 137.16 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" "0.1"
-			(at 137.16 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1"
-			(at 137.16 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "603-RC0603FR-1022RL"
-			(at 137.16 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "13-RC0603FR-1022RLCT-ND"
-			(at 137.16 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C4168692"
-			(at 137.16 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Farnell" ""
-			(at 137.16 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package (in)" "0603"
-			(at 137.16 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c495b3df-00e9-4efa-844f-d8c152d91f61")
-		)
-		(pin "2"
-			(uuid "137f6a18-a744-4abe-afe2-965c8c501398")
-		)
-		(instances
-			(project "shish-lan"
-				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/06488c82-a47f-4277-b0ee-3bd211d8922a"
-					(reference "R108")
 					(unit 1)
 				)
 			)

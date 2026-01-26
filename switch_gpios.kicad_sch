@@ -7282,7 +7282,7 @@
 		)
 		(uuid "ce09481a-1c3c-46ff-92b9-0a8148affcc5")
 	)
-	(label "RGMII1_SWITCH_STM.TX_CTLR"
+	(label "RGMII1_SWITCH_STM.TX_CLK"
 		(at 19.05 116.84 0)
 		(effects
 			(font
