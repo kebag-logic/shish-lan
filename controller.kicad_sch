@@ -4444,6 +4444,12 @@
 		(uuid "084eeb88-7d16-46a3-b038-52de4e15a6da")
 	)
 	(junction
+		(at 252.73 16.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a78f0f7-00aa-4a8a-9cd2-d0b9d38ba226")
+	)
+	(junction
 		(at 99.06 181.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4474,16 +4480,16 @@
 		(uuid "18eb94ac-78d4-4998-a97d-6e7eb350d44f")
 	)
 	(junction
-		(at 252.73 16.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1a846655-ddb9-4f3e-bfff-6bfa948676a5")
-	)
-	(junction
 		(at 127 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1e6ac3fc-33a6-438f-8483-088481fb171e")
+	)
+	(junction
+		(at 190.5 24.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "224079ef-ca40-45bc-83fb-83c5b2ee9f41")
 	)
 	(junction
 		(at 96.52 181.61)
@@ -4532,12 +4538,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "443833a3-08ce-4968-8163-4ab42073a914")
-	)
-	(junction
-		(at 203.2 16.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "45150866-11ee-444a-9d79-e8a05befb2d2")
 	)
 	(junction
 		(at 203.2 24.13)
@@ -4642,22 +4642,10 @@
 		(uuid "684c90a5-e529-4246-a198-2a69c15a2fc3")
 	)
 	(junction
-		(at 241.3 16.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "69cf9984-d61f-415b-a199-63c1da100a17")
-	)
-	(junction
 		(at 76.2 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6d78519e-a137-430d-8aa0-0533fffc47ac")
-	)
-	(junction
-		(at 190.5 16.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6e7c56ee-6000-4fd4-ac23-6788a8d97f76")
 	)
 	(junction
 		(at 127 135.89)
@@ -4696,10 +4684,22 @@
 		(uuid "8070e063-cd88-42af-ace4-a175dc6ea343")
 	)
 	(junction
+		(at 241.3 16.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "868e2069-aa6e-4179-b7b1-7324d88a345d")
+	)
+	(junction
 		(at 76.2 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "86bb55fb-efd6-4204-ad5b-a69484ebad88")
+	)
+	(junction
+		(at 177.8 16.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b281426-baac-47ad-af6b-d7f62f2d04e4")
 	)
 	(junction
 		(at 127 151.13)
@@ -4756,10 +4756,10 @@
 		(uuid "988edb60-2a41-43ba-952f-4fe1d73ea35c")
 	)
 	(junction
-		(at 190.5 24.13)
+		(at 241.3 24.13)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9b0a07a2-e76c-4926-8f98-960924699348")
+		(uuid "99c67833-0b7e-445a-819d-5f6272c7281c")
 	)
 	(junction
 		(at 93.98 31.75)
@@ -4780,12 +4780,6 @@
 		(uuid "b1da08ab-f36b-4af6-83da-8d533404b5c9")
 	)
 	(junction
-		(at 241.3 24.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b7ec6df6-7525-4ae2-ae77-9325cc53edfc")
-	)
-	(junction
 		(at 76.2 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4804,10 +4798,16 @@
 		(uuid "c5ee8a09-311a-4559-95aa-566ad83fef30")
 	)
 	(junction
+		(at 203.2 16.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca30233a-fde8-4385-be35-cd70d1ebc306")
+	)
+	(junction
 		(at 252.73 24.13)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c735255e-517f-4c49-bcc9-4297977aeec9")
+		(uuid "cb62efaf-6c3d-4a69-a317-e82a38edc5f4")
 	)
 	(junction
 		(at 76.2 100.33)
@@ -4852,12 +4852,6 @@
 		(uuid "eb3f7be7-2ec0-496c-8c06-9feb4a7a9865")
 	)
 	(junction
-		(at 177.8 16.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "effc0e6b-32bb-498f-8825-3e6e5e0c68af")
-	)
-	(junction
 		(at 76.2 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4898,6 +4892,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fa2d5d38-a124-4222-b67f-ceae7409d2ca")
+	)
+	(junction
+		(at 190.5 16.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fbe83e97-8f08-46e2-967e-ac1ebb518f26")
 	)
 	(junction
 		(at 127 54.61)
@@ -5146,16 +5146,6 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 24.13) (xy 252.73 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "067bafb9-369c-4a46-ab85-2a20cc196bac")
-	)
-	(wire
-		(pts
 			(xy 215.9 24.13) (xy 228.6 24.13)
 		)
 		(stroke
@@ -5276,16 +5266,6 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 16.51) (xy 241.3 16.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12f354af-3ce3-4083-a201-eab7b96dfeaf")
-	)
-	(wire
-		(pts
 			(xy 257.81 41.91) (xy 280.67 41.91)
 		)
 		(stroke
@@ -5356,7 +5336,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 24.13) (xy 203.2 24.13)
+			(xy 177.8 24.13) (xy 190.5 24.13)
 		)
 		(stroke
 			(width 0)
@@ -5654,16 +5634,6 @@
 		)
 		(uuid "35aede5c-2ae8-4a2c-99f3-a3620be27158")
 	)
-	(wire
-		(pts
-			(xy 252.73 24.13) (xy 264.16 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35b0968e-a062-44be-9a3a-a686a0012be7")
-	)
 	(bus
 		(pts
 			(xy 283.21 49.53) (xy 283.21 52.07)
@@ -5786,6 +5756,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 16.51) (xy 215.9 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c87a62b-8d4a-4730-a6a9-e4dfbf996d5d")
+	)
+	(wire
+		(pts
 			(xy 138.43 113.03) (xy 179.07 113.03)
 		)
 		(stroke
@@ -5793,6 +5773,16 @@
 			(type default)
 		)
 		(uuid "3d55943d-c9b7-435d-b49f-082c4a53ba58")
+	)
+	(wire
+		(pts
+			(xy 252.73 16.51) (xy 264.16 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "417dc5ab-033f-4d4e-82ea-6e118a8bb202")
 	)
 	(wire
 		(pts
@@ -6746,7 +6736,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 16.51) (xy 215.9 16.51)
+			(xy 190.5 16.51) (xy 203.2 16.51)
 		)
 		(stroke
 			(width 0)
@@ -6766,7 +6756,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 16.51) (xy 264.16 16.51)
+			(xy 241.3 16.51) (xy 252.73 16.51)
 		)
 		(stroke
 			(width 0)
@@ -6836,7 +6826,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 16.51) (xy 190.5 16.51)
+			(xy 172.72 16.51) (xy 177.8 16.51)
 		)
 		(stroke
 			(width 0)
@@ -7034,6 +7024,16 @@
 		)
 		(uuid "9dd07c73-2dda-4566-ad70-f0e42d2de5ad")
 	)
+	(wire
+		(pts
+			(xy 252.73 24.13) (xy 264.16 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ec7c8b5-2223-4bb6-8ba3-dd9a298c2857")
+	)
 	(bus
 		(pts
 			(xy 205.74 36.83) (xy 205.74 38.1)
@@ -7096,7 +7096,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 16.51) (xy 203.2 16.51)
+			(xy 177.8 16.51) (xy 190.5 16.51)
 		)
 		(stroke
 			(width 0)
@@ -7293,16 +7293,6 @@
 			(type default)
 		)
 		(uuid "b7c21eb9-eb20-49aa-b479-4c636dfb9b8a")
-	)
-	(wire
-		(pts
-			(xy 241.3 16.51) (xy 252.73 16.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7e1e90f-b252-4dd6-ac8a-e0b59abb3721")
 	)
 	(wire
 		(pts
@@ -7536,6 +7526,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 24.13) (xy 241.3 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf9a691e-5545-41ce-b658-ca068636b8a2")
+	)
+	(wire
+		(pts
 			(xy 127 90.17) (xy 127 87.63)
 		)
 		(stroke
@@ -7706,6 +7706,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 24.13) (xy 252.73 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e70b3d33-51ed-4692-9f60-f5c92f9225e2")
+	)
+	(wire
+		(pts
 			(xy 236.22 76.2) (xy 237.49 76.2)
 		)
 		(stroke
@@ -7713,6 +7723,16 @@
 			(type default)
 		)
 		(uuid "e7fcb981-9837-40f8-812f-dda6a0f1a431")
+	)
+	(wire
+		(pts
+			(xy 190.5 24.13) (xy 203.2 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9518617-a53e-454c-9a26-1d0a180de4a4")
 	)
 	(wire
 		(pts
@@ -7746,16 +7766,6 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 24.13) (xy 190.5 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eebc01d7-07ad-4eec-939b-920e9729a2b4")
-	)
-	(wire
-		(pts
 			(xy 124.46 140.97) (xy 179.07 140.97)
 		)
 		(stroke
@@ -7763,16 +7773,6 @@
 			(type default)
 		)
 		(uuid "f0a77963-0b88-4a45-b451-1bf2e3eb60ec")
-	)
-	(wire
-		(pts
-			(xy 228.6 24.13) (xy 241.3 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1459821-659c-45f1-92b7-4c34a9e0cecf")
 	)
 	(wire
 		(pts
@@ -7836,16 +7836,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 16.51) (xy 177.8 16.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7f7db4a-c581-469c-b76c-57d18e1d8643")
-	)
-	(wire
-		(pts
 			(xy 127 153.67) (xy 127 156.21)
 		)
 		(stroke
@@ -7893,6 +7883,16 @@
 			(type default)
 		)
 		(uuid "fc9f06ea-164d-4189-a052-7e4dbfcd3913")
+	)
+	(wire
+		(pts
+			(xy 228.6 16.51) (xy 241.3 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcaeb116-07e2-4f71-8327-a9f3dcd90c69")
 	)
 	(wire
 		(pts
@@ -9140,130 +9140,6 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_C:C_100n_10V_10_X7R_0603")
-		(at 177.8 20.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "415f9beb-2642-4a32-ae07-883763c2288e")
-		(property "Reference" "C75"
-			(at 181.61 19.0499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 181.61 21.5899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "KL_Footprints:C_0603"
-			(at 178.7652 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 177.8 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 177.8 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "10"
-			(at 177.8 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "10"
-			(at 177.8 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" " 603-CC603KRX7R6BB102 "
-			(at 177.8 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "311-4053-1-ND"
-			(at 177.8 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C36911391"
-			(at 177.8 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" "X7R"
-			(at 177.8 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "96a2b08b-02b6-4d66-b4fb-20667c16099c")
-		)
-		(pin "2"
-			(uuid "8162673b-d5bf-4b38-913b-c25a89a2ccd1")
-		)
-		(instances
-			(project ""
-				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/06488c82-a47f-4277-b0ee-3bd211d8922a"
-					(reference "C75")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "KL_R:R_22_100mW_1pct_0603")
 		(at 241.3 69.85 90)
 		(unit 1)
@@ -9394,130 +9270,6 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_C:C_4u7_10V_10_X5R_0603")
-		(at 264.16 20.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5791755b-0af3-4216-8f4c-f02443df0205")
-		(property "Reference" "C79"
-			(at 267.97 19.0499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4u7"
-			(at 267.97 21.5899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "KL_Footprints:C_0603"
-			(at 265.1252 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 264.16 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 264.16 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "10"
-			(at 264.16 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "10"
-			(at 264.16 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" " 80-C0603C475K8PAC "
-			(at 264.16 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "399-C0603C475K8PACTUCT-ND"
-			(at 264.16 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C5177163"
-			(at 264.16 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" "X5R"
-			(at 264.16 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6eb66858-bc6b-4378-8d4c-84c2b1831ed3")
-		)
-		(pin "2"
-			(uuid "5a845330-d3df-41c2-b5d4-4aa5e3c451c1")
-		)
-		(instances
-			(project ""
-				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/06488c82-a47f-4277-b0ee-3bd211d8922a"
-					(reference "C79")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "KL_SYM_LOCAL:GND")
 		(at 53.34 46.99 0)
 		(unit 1)
@@ -9578,6 +9330,130 @@
 			(project ""
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/06488c82-a47f-4277-b0ee-3bd211d8922a"
 					(reference "#PWR082")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KL_C:C_100n_10V_10_X7R_0603")
+		(at 177.8 20.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6724e03c-e484-443d-8112-c05f502e5c84")
+		(property "Reference" "C93"
+			(at 181.61 19.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 181.61 21.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "KL_Footprints:C_0603"
+			(at 178.7652 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 177.8 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 177.8 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10"
+			(at 177.8 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "10"
+			(at 177.8 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" " 603-CC603KRX7R6BB102 "
+			(at 177.8 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "311-4053-1-ND"
+			(at 177.8 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C36911391"
+			(at 177.8 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric_type" "X7R"
+			(at 177.8 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6ca0f314-2eb8-4fbe-a5fd-26fa153061df")
+		)
+		(pin "2"
+			(uuid "046531ae-86ee-4ab0-8062-fefcae681107")
+		)
+		(instances
+			(project "shish-lan"
+				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/06488c82-a47f-4277-b0ee-3bd211d8922a"
+					(reference "C93")
 					(unit 1)
 				)
 			)
@@ -9826,130 +9702,6 @@
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/06488c82-a47f-4277-b0ee-3bd211d8922a"
 					(reference "C77")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "KL_C:C_100n_10V_10_X7R_0603")
-		(at 190.5 20.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "85ff0439-e7c8-49b0-acb9-c6c7f5beb55c")
-		(property "Reference" "C70"
-			(at 194.31 19.0499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 194.31 21.5899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "KL_Footprints:C_0603"
-			(at 191.4652 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 190.5 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 190.5 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "10"
-			(at 190.5 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "10"
-			(at 190.5 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" " 603-CC603KRX7R6BB102 "
-			(at 190.5 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "311-4053-1-ND"
-			(at 190.5 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C36911391"
-			(at 190.5 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" "X7R"
-			(at 190.5 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3963605d-c395-461b-9408-efcd60257ab2")
-		)
-		(pin "2"
-			(uuid "7d7907cf-23ae-4174-973b-7ac255079426")
-		)
-		(instances
-			(project "shish-lan"
-				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/06488c82-a47f-4277-b0ee-3bd211d8922a"
-					(reference "C70")
 					(unit 1)
 				)
 			)
@@ -10346,6 +10098,254 @@
 		)
 	)
 	(symbol
+		(lib_id "KL_C:C_100n_10V_10_X7R_0603")
+		(at 190.5 20.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e94b753-48ac-4e06-a47a-5d887a6fb04d")
+		(property "Reference" "C94"
+			(at 194.31 19.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 194.31 21.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "KL_Footprints:C_0603"
+			(at 191.4652 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 190.5 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10"
+			(at 190.5 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "10"
+			(at 190.5 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" " 603-CC603KRX7R6BB102 "
+			(at 190.5 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "311-4053-1-ND"
+			(at 190.5 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C36911391"
+			(at 190.5 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric_type" "X7R"
+			(at 190.5 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "15c0833f-7226-4df4-b73e-8870d6037812")
+		)
+		(pin "2"
+			(uuid "0951e7af-ce35-430d-a7f1-39962c6b9956")
+		)
+		(instances
+			(project "shish-lan"
+				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/06488c82-a47f-4277-b0ee-3bd211d8922a"
+					(reference "C94")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KL_C:C_4u7_10V_10_X5R_0603")
+		(at 264.16 20.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ef712a3-aa8d-4f0b-88b5-9f0d2dce69aa")
+		(property "Reference" "C105"
+			(at 267.97 19.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4u7"
+			(at 267.97 21.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "KL_Footprints:C_0603"
+			(at 265.1252 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 264.16 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 264.16 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10"
+			(at 264.16 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "10"
+			(at 264.16 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" " 80-C0603C475K8PAC "
+			(at 264.16 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "399-C0603C475K8PACTUCT-ND"
+			(at 264.16 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5177163"
+			(at 264.16 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric_type" "X5R"
+			(at 264.16 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e04adf65-4179-408c-8dee-7eb1116ff956")
+		)
+		(pin "2"
+			(uuid "be549eb4-0c99-4671-8b01-9075299ffe93")
+		)
+		(instances
+			(project "shish-lan"
+				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/06488c82-a47f-4277-b0ee-3bd211d8922a"
+					(reference "C105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "KL_R:R_0R_2W_5_2512")
 		(at 60.96 54.61 90)
 		(unit 1)
@@ -10729,8 +10729,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b8933eed-6243-44cf-82d5-9fe6594416b3")
-		(property "Reference" "C80"
+		(uuid "b9bd68a0-6c31-4961-933b-01f5bc24dd3b")
+		(property "Reference" "C104"
 			(at 245.11 19.0499 0)
 			(effects
 				(font
@@ -10830,15 +10830,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "6b788ce1-ea98-436b-9d73-5d76f88401ef")
+			(uuid "84e02e71-f365-41ba-8756-58ef13cf16a6")
 		)
 		(pin "2"
-			(uuid "de445419-144f-4978-aec4-447c3b9ff857")
+			(uuid "0aeb5e54-4367-4457-96f6-9bfcf2e52f90")
 		)
 		(instances
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/06488c82-a47f-4277-b0ee-3bd211d8922a"
-					(reference "C80")
+					(reference "C104")
 					(unit 1)
 				)
 			)
@@ -11349,6 +11349,130 @@
 		)
 	)
 	(symbol
+		(lib_id "KL_C:C_100n_10V_10_X7R_0603")
+		(at 203.2 20.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d4383f1b-29ff-47ae-a098-ba93cbd76ca5")
+		(property "Reference" "C95"
+			(at 207.01 19.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 207.01 21.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "KL_Footprints:C_0603"
+			(at 204.1652 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 203.2 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10"
+			(at 203.2 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "10"
+			(at 203.2 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" " 603-CC603KRX7R6BB102 "
+			(at 203.2 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "311-4053-1-ND"
+			(at 203.2 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C36911391"
+			(at 203.2 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric_type" "X7R"
+			(at 203.2 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3a3ade3c-34fa-410c-b60d-fecefdf1a59b")
+		)
+		(pin "2"
+			(uuid "26dc5eab-25b9-488f-bdd8-ebce6e0f87a0")
+		)
+		(instances
+			(project "shish-lan"
+				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/06488c82-a47f-4277-b0ee-3bd211d8922a"
+					(reference "C95")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "KL_C:C_2u2_10V_20_Y5V_0603")
 		(at 49.53 139.7 90)
 		(unit 1)
@@ -11465,130 +11589,6 @@
 			(project ""
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/06488c82-a47f-4277-b0ee-3bd211d8922a"
 					(reference "C81")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "KL_C:C_100n_10V_10_X7R_0603")
-		(at 203.2 20.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eb38d686-cd54-48ab-9009-8d4bd546ac77")
-		(property "Reference" "C76"
-			(at 207.01 19.0499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 207.01 21.5899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "KL_Footprints:C_0603"
-			(at 204.1652 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 203.2 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 203.2 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "10"
-			(at 203.2 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "10"
-			(at 203.2 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" " 603-CC603KRX7R6BB102 "
-			(at 203.2 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "311-4053-1-ND"
-			(at 203.2 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C36911391"
-			(at 203.2 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" "X7R"
-			(at 203.2 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d295dc08-21dd-464a-9d3d-7cf512d57fec")
-		)
-		(pin "2"
-			(uuid "f022fd3a-55a9-4338-92af-61f37853a67d")
-		)
-		(instances
-			(project "shish-lan"
-				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/06488c82-a47f-4277-b0ee-3bd211d8922a"
-					(reference "C76")
 					(unit 1)
 				)
 			)
