@@ -4549,12 +4549,6 @@
 		(uuid "0f54f4c2-611e-4bb5-a8c6-7301402675be")
 	)
 	(junction
-		(at 232.41 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "19b43b7b-e247-4471-9950-869e600eb7d5")
-	)
-	(junction
 		(at 240.03 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4685,6 +4679,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e019a648-407c-45fb-babc-28aec1898e66")
+	)
+	(junction
+		(at 232.41 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e0d6008f-2e5e-40e6-8b0c-3aa90d2453af")
 	)
 	(junction
 		(at 142.24 99.06)
@@ -5009,6 +5009,16 @@
 			(type default)
 		)
 		(uuid "2e397607-5843-41bd-9eaa-548489c5442a")
+	)
+	(wire
+		(pts
+			(xy 232.41 128.27) (xy 241.3 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ec7ef01-9869-4076-a3d4-50d7fc725a4e")
 	)
 	(wire
 		(pts
@@ -5352,7 +5362,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 128.27) (xy 241.3 128.27)
+			(xy 205.74 128.27) (xy 232.41 128.27)
 		)
 		(stroke
 			(width 0)
@@ -5489,16 +5499,6 @@
 			(type default)
 		)
 		(uuid "899f12a2-844e-4413-8d87-f4e53d909bd2")
-	)
-	(wire
-		(pts
-			(xy 205.74 128.27) (xy 232.41 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8cc5dfbc-7cd9-4635-82ce-4158075e4e04")
 	)
 	(wire
 		(pts
@@ -8164,8 +8164,8 @@
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
-		(uuid "45769ee8-e960-4b01-90a7-441693c2acef")
-		(property "Reference" "C83"
+		(uuid "46bd71ef-4864-40d0-90f9-070168f2bbb0")
+		(property "Reference" "C106"
 			(at 236.22 130.8099 0)
 			(effects
 				(font
@@ -8256,21 +8256,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "815c7fab-1936-43f8-9233-1bea3f46c640")
+			(uuid "3b1bf769-bc08-4e68-b519-8b017a9442f8")
 		)
 		(pin "1"
-			(uuid "30042e1f-425e-4f18-b8b9-bd761b4a11dd")
+			(uuid "043d9b6b-8da0-4755-88dd-c845c25d4fbd")
 		)
 		(instances
-			(project "switch"
-				(path "/cd936d40-9035-4ec8-bcf8-38758f995fb0/d7edf10b-e7e7-437a-ab6c-966f29ad8f7f"
-					(reference "C?")
-					(unit 1)
-				)
-			)
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/d7edf10b-e7e7-437a-ab6c-966f29ad8f7f"
-					(reference "C83")
+					(reference "C106")
 					(unit 1)
 				)
 			)
@@ -10436,6 +10430,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "e1505569-cfab-4c69-81dd-0238502ce5ec")
 		(property "Reference" "C20"
 			(at 47.498 68.58 0)
