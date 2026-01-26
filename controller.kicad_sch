@@ -4786,6 +4786,12 @@
 		(uuid "b7ec6df6-7525-4ae2-ae77-9325cc53edfc")
 	)
 	(junction
+		(at 76.2 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b9343496-26e7-422e-8f55-3ddf1c67cd34")
+	)
+	(junction
 		(at 91.44 181.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5970,7 +5976,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 69.85) (xy 76.2 85.09)
+			(xy 76.2 69.85) (xy 76.2 77.47)
 		)
 		(stroke
 			(width 0)
@@ -7060,6 +7066,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 77.47) (xy 76.2 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a136d846-975f-434e-b39c-39f39531cc5c")
+	)
+	(wire
+		(pts
 			(xy 124.46 113.03) (xy 127 113.03)
 		)
 		(stroke
@@ -7450,6 +7466,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 77.47) (xy 78.74 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "caa0839a-4c99-46b0-a2d1-ac36b08aab8c")
+	)
+	(wire
+		(pts
 			(xy 127 168.91) (xy 124.46 168.91)
 		)
 		(stroke
@@ -7537,16 +7563,6 @@
 			(type default)
 		)
 		(uuid "d3e0636c-e9b7-464e-9632-48c87d563a1b")
-	)
-	(wire
-		(pts
-			(xy 58.42 77.47) (xy 78.74 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4933ea8-3238-4ec9-9d83-b3fda1db1118")
 	)
 	(bus
 		(pts
@@ -8505,17 +8521,6 @@
 			(justify right)
 		)
 		(uuid "65fdef57-80dc-4fbc-a60a-84c6fafcad86")
-	)
-	(hierarchical_label "EN-3V3_STM_TO_BUCK"
-		(shape output)
-		(at 58.42 77.47 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "67e55941-32b5-4b0b-a4a2-16ec6ca4104f")
 	)
 	(hierarchical_label "nRST_STM_TO_SWITCH"
 		(shape output)
