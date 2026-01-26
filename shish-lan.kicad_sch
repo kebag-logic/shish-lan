@@ -956,7 +956,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 167.64) (xy 147.32 167.64)
+			(xy 132.08 127) (xy 135.89 127)
 		)
 		(stroke
 			(width 0)
@@ -996,7 +996,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 171.45) (xy 93.98 170.18)
+			(xy 82.55 130.81) (xy 82.55 129.54)
 		)
 		(stroke
 			(width 0)
@@ -1056,7 +1056,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 167.64) (xy 110.49 167.64)
+			(xy 82.55 127) (xy 99.06 127)
 		)
 		(stroke
 			(width 0)
@@ -1096,7 +1096,17 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 165.1) (xy 147.32 167.64)
+			(xy 95.25 73.66) (xy 185.42 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5ffd093-9e9a-42a6-9c84-35f83c6ce585")
+	)
+	(wire
+		(pts
+			(xy 135.89 124.46) (xy 135.89 127)
 		)
 		(stroke
 			(width 0)
@@ -1163,6 +1173,16 @@
 			(type default)
 		)
 		(uuid "e0397548-a5f0-4f56-b52e-970ab805ee52")
+	)
+	(wire
+		(pts
+			(xy 95.25 71.12) (xy 185.42 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5b723a8-df25-4372-9ea8-45a7f51bce1d")
 	)
 	(wire
 		(pts
@@ -7971,7 +7991,7 @@
 		)
 	)
 	(label "5-12V_INPUT"
-		(at 95.25 167.64 0)
+		(at 83.82 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8078,7 +8098,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 147.32 165.1 0)
+		(at 135.89 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8087,7 +8107,7 @@
 		(fields_autoplaced yes)
 		(uuid "0b6f746a-3439-4220-a280-5a4b08488675")
 		(property "Reference" "#PWR01"
-			(at 147.32 168.91 0)
+			(at 135.89 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8096,7 +8116,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 147.32 160.02 0)
+			(at 135.89 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8104,7 +8124,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 165.1 0)
+			(at 135.89 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8113,7 +8133,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 165.1 0)
+			(at 135.89 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8122,7 +8142,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 147.32 165.1 0)
+			(at 135.89 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8483,7 +8503,7 @@
 	)
 	(symbol
 		(lib_id "KL_Headers:02x01_2.54mm_Header")
-		(at 88.9 168.91 180)
+		(at 77.47 128.27 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8492,7 +8512,7 @@
 		(fields_autoplaced yes)
 		(uuid "3bdc7e5c-ca4a-4dbe-b660-982c8700a07c")
 		(property "Reference" "J8"
-			(at 88.9 163.83 0)
+			(at 77.47 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8500,7 +8520,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 88.9 168.91 0)
+			(at 77.47 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8509,7 +8529,7 @@
 			)
 		)
 		(property "Footprint" "KL:02x01_2.54mm_Header"
-			(at 88.9 168.91 0)
+			(at 77.47 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8518,7 +8538,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 168.91 0)
+			(at 77.47 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8527,7 +8547,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 88.9 168.91 0)
+			(at 77.47 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9282,7 +9302,7 @@
 	)
 	(symbol
 		(lib_id "KL_SYM_LOCAL:GND")
-		(at 93.98 171.45 0)
+		(at 82.55 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9291,7 +9311,7 @@
 		(fields_autoplaced yes)
 		(uuid "e3202e0e-02a0-4271-b60b-bd8a5c54c1e0")
 		(property "Reference" "#PWR02"
-			(at 93.98 177.8 0)
+			(at 82.55 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9300,7 +9320,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 93.98 176.53 0)
+			(at 82.55 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9308,7 +9328,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 171.45 0)
+			(at 82.55 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9317,7 +9337,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 171.45 0)
+			(at 82.55 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9326,7 +9346,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 93.98 171.45 0)
+			(at 82.55 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9586,6 +9606,26 @@
 				(justify left)
 			)
 		)
+		(pin "EN-1V15_STM_TO_BUCK" input
+			(at 185.42 71.12 180)
+			(uuid "b98ae88b-61ae-40f0-a8e5-09afd72634ae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EN-2V5_STM_TO_BUCK" input
+			(at 185.42 73.66 180)
+			(uuid "70df141f-4d6a-4add-890a-84916290b208")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e"
@@ -9595,7 +9635,7 @@
 		)
 	)
 	(sheet
-		(at 110.49 165.1)
+		(at 99.06 124.46)
 		(size 33.02 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9611,7 +9651,7 @@
 		)
 		(uuid "b46af5b7-dd4e-4356-ae8f-8ea1d81113b6")
 		(property "Sheetname" "BUCK_3V3"
-			(at 110.49 164.3884 0)
+			(at 99.06 123.7484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9620,7 +9660,7 @@
 			)
 		)
 		(property "Sheetfile" "buck_3v3.kicad_sch"
-			(at 110.49 178.3846 0)
+			(at 99.06 137.7446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9629,7 +9669,7 @@
 			)
 		)
 		(pin "3V3" output
-			(at 143.51 167.64 0)
+			(at 132.08 127 0)
 			(uuid "68ba9efc-79a9-47d1-8444-ba3106d4008e")
 			(effects
 				(font
@@ -9639,7 +9679,7 @@
 			)
 		)
 		(pin "5-12V" input
-			(at 110.49 167.64 180)
+			(at 99.06 127 180)
 			(uuid "cbfc0407-0723-4aa3-be9b-d079d9e57c0a")
 			(effects
 				(font

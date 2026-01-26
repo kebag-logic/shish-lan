@@ -3449,16 +3449,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 35.56) (xy 96.52 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ec70a6d-1279-4000-81b4-0f2afb034261")
-	)
-	(wire
-		(pts
 			(xy 189.23 129.54) (xy 213.36 129.54)
 		)
 		(stroke
@@ -3937,16 +3927,6 @@
 		)
 		(uuid "2e6626d1-0dc9-4c3d-9d8a-429de76bddce")
 	)
-	(label "EN-3V3_STM_TO_BUCK"
-		(at 96.52 35.56 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "387b45d4-5732-4700-8952-9fd106a1924b")
-	)
 	(label "IRQ0_SWITCH_TO_STM"
 		(at 96.52 48.26 180)
 		(effects
@@ -4174,17 +4154,6 @@
 			(justify right)
 		)
 		(uuid "9e9880e7-e4eb-4296-b3d1-9ae90ec9f072")
-	)
-	(hierarchical_label "EN-3V3_STM_TO_BUCK"
-		(shape input)
-		(at 72.39 35.56 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c12378f3-b164-497a-8842-723e51ff2873")
 	)
 	(hierarchical_label "MIIM_STM_SWITCH{MDIO,MDC}"
 		(shape bidirectional)
