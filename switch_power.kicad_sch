@@ -6330,7 +6330,7 @@
 		)
 		(uuid "fc9db617-311e-49ad-9b7d-ce8c6c9f8f28")
 	)
-	(hierarchical_label "25MHz"
+	(hierarchical_label "25M_CLKIN"
 		(shape input)
 		(at 27.94 40.64 180)
 		(effects
@@ -6341,7 +6341,7 @@
 		)
 		(uuid "24948d01-d724-4cea-9dc7-8f4765d71f26")
 	)
-	(hierarchical_label "2V5"
+	(hierarchical_label "2V5_PWR"
 		(shape input)
 		(at 27.94 25.4 180)
 		(effects
@@ -6363,7 +6363,7 @@
 		)
 		(uuid "4ada9c08-a1f5-455a-a514-c5a804092d86")
 	)
-	(hierarchical_label "1V15"
+	(hierarchical_label "1V15_PWR"
 		(shape input)
 		(at 27.94 30.48 180)
 		(effects
@@ -6374,7 +6374,7 @@
 		)
 		(uuid "5299c0c3-b8df-4f91-bebf-03beb8106e80")
 	)
-	(hierarchical_label "3V3"
+	(hierarchical_label "3V3_PWR"
 		(shape input)
 		(at 27.94 20.32 180)
 		(effects
@@ -10174,7 +10174,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 118.11 46.99 90)
+			(at 118.11 49.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)

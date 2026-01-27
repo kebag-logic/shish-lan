@@ -5282,7 +5282,7 @@
 				(justify left)
 			)
 		)
-		(pin "3V3" input
+		(pin "3V3_PHY" input
 			(at 134.62 76.2 180)
 			(uuid "a574ace0-f71c-4d93-b1c8-e1915778dbbc")
 			(effects
@@ -5409,7 +5409,7 @@
 				(justify left top)
 			)
 		)
-		(pin "3V3" input
+		(pin "3V3_PWR" input
 			(at 246.38 130.81 0)
 			(uuid "05dbc738-e492-469f-8455-eab90d159d48")
 			(effects
@@ -5419,7 +5419,7 @@
 				(justify right)
 			)
 		)
-		(pin "2V5" input
+		(pin "2V5_PWR" input
 			(at 246.38 127 0)
 			(uuid "c1d534e3-bd58-4a08-8fb5-1d154286e104")
 			(effects
@@ -5439,7 +5439,7 @@
 				(justify left)
 			)
 		)
-		(pin "25MHz" input
+		(pin "25M_CLKIN" input
 			(at 213.36 134.62 180)
 			(uuid "89d8fb63-cc11-4802-81ce-96aed233aa2e")
 			(effects
@@ -5449,7 +5449,7 @@
 				(justify left)
 			)
 		)
-		(pin "1V15" input
+		(pin "1V15_PWR" input
 			(at 246.38 134.62 0)
 			(uuid "bc8013af-1f84-4ec7-9ebf-9541d95eb0d1")
 			(effects

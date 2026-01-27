@@ -4185,7 +4185,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 16.51) (xy 29.21 16.51)
+			(xy 22.86 16.51) (xy 33.02 16.51)
 		)
 		(stroke
 			(width 0)
@@ -4354,7 +4354,7 @@
 		(uuid "ad409b8e-b48f-4719-8692-0bf887ee54fa")
 	)
 	(label "3V3_PHY"
-		(at 29.21 16.51 180)
+		(at 33.02 16.51 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4405,9 +4405,9 @@
 		)
 		(uuid "58cfac1b-485f-4498-82fc-a4c03dc562d5")
 	)
-	(hierarchical_label "3V3"
+	(hierarchical_label "3V3_PHY"
 		(shape input)
-		(at 19.05 16.51 180)
+		(at 22.86 16.51 180)
 		(effects
 			(font
 				(size 1.27 1.27)
