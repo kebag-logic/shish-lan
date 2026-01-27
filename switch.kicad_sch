@@ -36,7 +36,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "KL:02x01_2.54mm_Header"
+			(property "Footprint" "KL_Footprints:02x01_2.54mm_Header"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4188,12 +4188,11 @@
 		(dnp no)
 		(uuid "12807e9f-d3b1-421b-982f-5bc9dd774079")
 		(property "Reference" "J2"
-			(at 160.02 156.2101 0)
+			(at 157.226 159.766 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "~"
@@ -4205,7 +4204,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "KL:02x01_2.54mm_Header"
+		(property "Footprint" "KL_Footprints:02x01_2.54mm_Header"
 			(at 157.48 156.21 0)
 			(effects
 				(font
@@ -4264,12 +4263,11 @@
 		(dnp no)
 		(uuid "5a475a58-20e6-468f-a972-b27c93802e4b")
 		(property "Reference" "J3"
-			(at 147.32 158.7501 0)
+			(at 144.526 162.306 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "~"
@@ -4281,7 +4279,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "KL:02x01_2.54mm_Header"
+		(property "Footprint" "KL_Footprints:02x01_2.54mm_Header"
 			(at 144.78 158.75 0)
 			(effects
 				(font

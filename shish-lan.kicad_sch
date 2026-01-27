@@ -137,7 +137,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "KL:02x01_2.54mm_Header"
+			(property "Footprint" "KL_Footprints:02x01_2.54mm_Header"
 				(at 0 0 0)
 				(effects
 					(font
@@ -261,7 +261,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "KL:03x01_2.54mm_Header"
+			(property "Footprint" "KL_Footprints:03x01_2.54mm_Header"
 				(at 0.762 8.382 0)
 				(effects
 					(font
@@ -8599,7 +8599,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "KL:03x01_2.54mm_Header"
+		(property "Footprint" "KL_Footprints:03x01_2.54mm_Header"
 			(at 119.888 14.478 0)
 			(effects
 				(font
