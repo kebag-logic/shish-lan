@@ -4686,10 +4686,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8e9aaa33-7deb-4a16-96a1-5e2a4c7ef016")
 		(property "Reference" "R16"
-			(at 64.77 59.69 90)
+			(at 64.77 63.754 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4697,7 +4696,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 64.77 62.23 90)
+			(at 64.77 68.326 90)
 			(effects
 				(font
 					(size 1.27 1.27)

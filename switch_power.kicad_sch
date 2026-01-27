@@ -3411,7 +3411,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "KL_R:R_0R_250mW_0.5_0603"
+		(symbol "KL_R:R_0R_100mW_5_0603"
 			(pin_numbers
 				(hide yes)
 			)
@@ -3446,7 +3446,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" "https://yageogroup.com/component-documentation/download/specsheet/RC0603JR-070RP"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3464,7 +3464,7 @@
 					(hide yes)
 				)
 			)
-			(property "Power" "250mW"
+			(property "Power" "0.1"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3473,7 +3473,7 @@
 					(hide yes)
 				)
 			)
-			(property "Tolerance" "0.5%"
+			(property "Tolerance" "5"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3482,7 +3482,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser" "71-RCS06030000Z0EA"
+			(property "Mouser" "603-RC0603JR-070RP"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3491,7 +3491,7 @@
 					(hide yes)
 				)
 			)
-			(property "Digikey" "541-2779-1-ND"
+			(property "Digikey" "YAG1307CT-ND"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3500,7 +3500,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC" "C2126552"
+			(property "LCSC" "C3017805"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3509,7 +3509,7 @@
 					(hide yes)
 				)
 			)
-			(property "Farnell" "3235077"
+			(property "Farnell" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -3545,7 +3545,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "R_0R_250mW_0.5_0603_0_1"
+			(symbol "R_0R_100mW_5_0603_0_1"
 				(rectangle
 					(start -1.016 -2.54)
 					(end 1.016 2.54)
@@ -3558,7 +3558,7 @@
 					)
 				)
 			)
-			(symbol "R_0R_250mW_0.5_0603_1_1"
+			(symbol "R_0R_100mW_5_0603_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -6610,10 +6610,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
-		(fields_autoplaced yes)
 		(uuid "09376ed6-73ff-4499-a60a-8fc362a5f2cd")
 		(property "Reference" "R90"
-			(at 31.75 138.43 90)
+			(at 31.75 142.494 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6621,7 +6620,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 31.75 140.97 90)
+			(at 31.75 147.066 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6749,7 +6748,7 @@
 		(dnp no)
 		(uuid "0ec0e28c-372b-46f7-b282-8230bda27283")
 		(property "Reference" "R71"
-			(at 140.97 44.958 90)
+			(at 140.97 44.704 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6757,7 +6756,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 140.97 46.99 90)
+			(at 140.97 49.276 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6883,9 +6882,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "0f2a8d3f-f3b5-49e4-be87-480d2c4deb1b")
 		(property "Reference" "FB5"
-			(at 57.15 145.796 0)
+			(at 57.0992 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6893,7 +6893,7 @@
 			)
 		)
 		(property "Value" "33R"
-			(at 56.896 153.924 0)
+			(at 57.0992 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7010,10 +7010,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
-		(fields_autoplaced yes)
 		(uuid "1523fde2-9cde-4c51-a2b9-92b4277a81d1")
 		(property "Reference" "R91"
-			(at 33.02 80.01 90)
+			(at 33.02 84.074 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7021,7 +7020,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 33.02 82.55 90)
+			(at 33.02 88.646 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7883,7 +7882,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_R:R_0R_250mW_0.5_0603")
+		(lib_id "KL_R:R_0R_100mW_5_0603")
 		(at 154.94 129.54 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7900,7 +7899,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 154.94 129.54 90)
+			(at 154.94 131.826 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7916,7 +7915,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://yageogroup.com/component-documentation/download/specsheet/RC0603JR-070RP"
 			(at 154.94 129.54 0)
 			(effects
 				(font
@@ -7934,7 +7933,7 @@
 				(hide yes)
 			)
 		)
-		(property "Power" "250mW"
+		(property "Power" "0.1"
 			(at 154.94 129.54 0)
 			(effects
 				(font
@@ -7943,7 +7942,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" "0.5%"
+		(property "Tolerance" "5"
 			(at 154.94 129.54 0)
 			(effects
 				(font
@@ -7952,7 +7951,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "71-RCS06030000Z0EA"
+		(property "Mouser" "603-RC0603JR-070RP"
 			(at 154.94 129.54 0)
 			(effects
 				(font
@@ -7961,7 +7960,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "541-2779-1-ND"
+		(property "Digikey" "YAG1307CT-ND"
 			(at 154.94 129.54 0)
 			(effects
 				(font
@@ -7970,7 +7969,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2126552"
+		(property "LCSC" "C3017805"
 			(at 154.94 129.54 0)
 			(effects
 				(font
@@ -7979,7 +7978,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell" "3235077"
+		(property "Farnell" ""
 			(at 154.94 129.54 0)
 			(effects
 				(font
@@ -8483,10 +8482,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
-		(fields_autoplaced yes)
 		(uuid "6caa34a9-ae35-4143-aa89-82e801e67ec8")
 		(property "Reference" "R24"
-			(at 33.02 50.8 90)
+			(at 33.02 54.864 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8494,7 +8492,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 33.02 53.34 90)
+			(at 33.02 59.436 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8825,9 +8823,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "7ccb92b9-476e-41a9-8b53-99c4463aeefa")
 		(property "Reference" "FB3"
-			(at 57.15 87.376 0)
+			(at 57.0992 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8835,7 +8834,7 @@
 			)
 		)
 		(property "Value" "33R"
-			(at 56.896 95.504 0)
+			(at 57.0992 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8962,7 +8961,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 229.87 83.82 90)
+			(at 229.87 86.106 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9081,7 +9080,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_R:R_0R_250mW_0.5_0603")
+		(lib_id "KL_R:R_0R_100mW_5_0603")
 		(at 154.94 138.43 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9098,7 +9097,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 154.94 138.43 90)
+			(at 154.94 140.716 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9114,7 +9113,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://yageogroup.com/component-documentation/download/specsheet/RC0603JR-070RP"
 			(at 154.94 138.43 0)
 			(effects
 				(font
@@ -9132,7 +9131,7 @@
 				(hide yes)
 			)
 		)
-		(property "Power" "250mW"
+		(property "Power" "0.1"
 			(at 154.94 138.43 0)
 			(effects
 				(font
@@ -9141,7 +9140,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" "0.5%"
+		(property "Tolerance" "5"
 			(at 154.94 138.43 0)
 			(effects
 				(font
@@ -9150,7 +9149,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "71-RCS06030000Z0EA"
+		(property "Mouser" "603-RC0603JR-070RP"
 			(at 154.94 138.43 0)
 			(effects
 				(font
@@ -9159,7 +9158,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "541-2779-1-ND"
+		(property "Digikey" "YAG1307CT-ND"
 			(at 154.94 138.43 0)
 			(effects
 				(font
@@ -9168,7 +9167,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2126552"
+		(property "LCSC" "C3017805"
 			(at 154.94 138.43 0)
 			(effects
 				(font
@@ -9177,7 +9176,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell" "3235077"
+		(property "Farnell" ""
 			(at 154.94 138.43 0)
 			(effects
 				(font
@@ -9828,10 +9827,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
-		(fields_autoplaced yes)
 		(uuid "c655f8a8-2e1b-4389-9c68-034724c13a32")
 		(property "Reference" "R86"
-			(at 31.75 109.22 90)
+			(at 31.75 113.538 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9839,7 +9837,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 31.75 111.76 90)
+			(at 31.75 117.856 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9965,9 +9963,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "d2a0ea10-c98c-4c4f-aaec-834c37dbe827")
 		(property "Reference" "FB4"
-			(at 57.15 116.586 0)
+			(at 57.0992 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9975,7 +9974,7 @@
 			)
 		)
 		(property "Value" "33R"
-			(at 56.896 124.714 0)
+			(at 57.0992 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10619,7 +10618,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_R:R_0R_250mW_0.5_0603")
+		(lib_id "KL_R:R_0R_100mW_5_0603")
 		(at 161.29 143.51 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10655,7 +10654,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://yageogroup.com/component-documentation/download/specsheet/RC0603JR-070RP"
 			(at 161.29 143.51 0)
 			(effects
 				(font
@@ -10673,7 +10672,7 @@
 				(hide yes)
 			)
 		)
-		(property "Power" "250mW"
+		(property "Power" "0.1"
 			(at 161.29 143.51 0)
 			(effects
 				(font
@@ -10682,7 +10681,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" "0.5%"
+		(property "Tolerance" "5"
 			(at 161.29 143.51 0)
 			(effects
 				(font
@@ -10691,7 +10690,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "71-RCS06030000Z0EA"
+		(property "Mouser" "603-RC0603JR-070RP"
 			(at 161.29 143.51 0)
 			(effects
 				(font
@@ -10700,7 +10699,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "541-2779-1-ND"
+		(property "Digikey" "YAG1307CT-ND"
 			(at 161.29 143.51 0)
 			(effects
 				(font
@@ -10709,7 +10708,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2126552"
+		(property "LCSC" "C3017805"
 			(at 161.29 143.51 0)
 			(effects
 				(font
@@ -10718,7 +10717,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell" "3235077"
+		(property "Farnell" ""
 			(at 161.29 143.51 0)
 			(effects
 				(font
@@ -10838,9 +10837,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "f290370d-1956-4373-989c-f0075fc11ce4")
 		(property "Reference" "FB2"
-			(at 57.15 58.166 0)
+			(at 57.0992 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10848,7 +10848,7 @@
 			)
 		)
 		(property "Value" "33R"
-			(at 56.896 66.294 0)
+			(at 57.0992 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)

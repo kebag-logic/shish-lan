@@ -5264,10 +5264,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "40c0ad81-0318-4991-8af3-af1a56bd498d")
 		(property "Reference" "R6"
-			(at 119.38 73.66 90)
+			(at 119.38 77.978 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5275,7 +5274,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 119.38 76.2 90)
+			(at 119.38 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)

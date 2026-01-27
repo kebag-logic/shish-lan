@@ -5578,7 +5578,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 119.38 80.01 90)
+			(at 119.38 82.296 90)
 			(effects
 				(font
 					(size 1.27 1.27)

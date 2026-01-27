@@ -5951,10 +5951,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c547d368-7530-409e-a650-9d9cc1bc19b2")
 		(property "Reference" "R23"
-			(at 39.37 68.58 90)
+			(at 39.37 72.898 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5962,7 +5961,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 39.37 71.12 90)
+			(at 39.37 77.216 90)
 			(effects
 				(font
 					(size 1.27 1.27)
