@@ -7527,7 +7527,7 @@
 		(at 152.4 29.21 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
 		(uuid "012287b6-c486-445f-bb89-28bfab0d2f2f")
@@ -7540,7 +7540,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 152.4 31.496 90)
+			(at 152.4 29.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7670,7 +7670,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 138.43 17.526 90)
+			(at 138.43 15.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7800,7 +7800,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 27.94 22.606 90)
+			(at 27.94 20.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7996,7 +7996,7 @@
 		(at 68.58 68.58 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
 		(uuid "1d08c826-ae2b-407d-ae54-f3af759cece5")
@@ -8009,7 +8009,7 @@
 			)
 		)
 		(property "Value" "22"
-			(at 68.58 70.866 90)
+			(at 68.58 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8126,7 +8126,7 @@
 		(at 139.7 64.77 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
 		(uuid "1d822042-388f-4475-bcbb-41ce40713ff7")
@@ -8139,7 +8139,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 139.7 67.056 90)
+			(at 139.7 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8342,7 +8342,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 77.47 164.846 90)
+			(at 77.47 162.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8551,7 +8551,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 101.6 134.366 90)
+			(at 101.6 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8687,7 +8687,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 77.47 181.356 90)
+			(at 77.47 179.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8810,7 +8810,7 @@
 		(at 130.81 36.83 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
 		(uuid "3d65090f-cf71-4097-8494-97e56eb3e3ba")
@@ -8823,7 +8823,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 130.81 39.116 90)
+			(at 130.81 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9019,7 +9019,7 @@
 			)
 		)
 		(property "Value" "22"
-			(at 49.53 100.076 90)
+			(at 49.53 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9149,7 +9149,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 27.94 30.226 90)
+			(at 27.94 27.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9272,7 +9272,7 @@
 		(at 146.05 31.75 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
 		(uuid "5ac3f88c-65cb-402c-a4f0-d3ebadc7095e")
@@ -9285,7 +9285,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 146.05 34.036 90)
+			(at 146.05 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9402,7 +9402,7 @@
 		(at 45.72 57.15 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
 		(uuid "66c0272f-26cc-40bb-9b4b-24d79dec1653")
@@ -9415,7 +9415,7 @@
 			)
 		)
 		(property "Value" "22"
-			(at 45.72 59.436 90)
+			(at 45.72 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9545,7 +9545,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 130.81 20.066 90)
+			(at 130.81 17.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9662,7 +9662,7 @@
 		(at 38.1 53.34 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
 		(uuid "69a5d702-c665-4a72-a741-e338a5557eac")
@@ -9672,11 +9672,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "22"
-			(at 38.1 55.626 90)
+			(at 38.1 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9806,7 +9805,7 @@
 			)
 		)
 		(property "Value" "22"
-			(at 73.66 115.316 90)
+			(at 73.66 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10135,7 +10134,7 @@
 		(at 132.08 26.67 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
 		(uuid "92c952c0-7f76-493e-b91b-042d4019e82d")
@@ -10148,7 +10147,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 132.08 28.956 90)
+			(at 132.08 26.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10338,7 +10337,7 @@
 		(at 138.43 34.29 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
 		(uuid "9c976825-2580-4060-b1af-c5b9a5989c9a")
@@ -10351,7 +10350,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 138.43 36.576 90)
+			(at 138.43 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10468,7 +10467,7 @@
 		(at 62.23 64.77 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
 		(uuid "a21dffec-d6b7-48cc-900a-af54de116624")
@@ -10481,7 +10480,7 @@
 			)
 		)
 		(property "Value" "22"
-			(at 62.23 67.056 90)
+			(at 62.23 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10684,7 +10683,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 101.6 149.86 90)
+			(at 101.6 147.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10820,7 +10819,7 @@
 			)
 		)
 		(property "Value" "22"
-			(at 62.23 107.696 90)
+			(at 62.23 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10942,12 +10941,11 @@
 		(dnp no)
 		(uuid "b719bba6-0791-4660-8b43-387f806bd3dc")
 		(property "Reference" "U1"
-			(at 182.88 17.526 0)
+			(at 210.312 37.084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "~"
@@ -11415,7 +11413,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 134.62 48.006 90)
+			(at 134.62 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11545,7 +11543,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 101.6 157.48 90)
+			(at 101.6 154.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11668,7 +11666,7 @@
 		(at 76.2 72.39 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
 		(uuid "c4e92a22-375f-428a-b187-70a4d786a6f2")
@@ -11681,7 +11679,7 @@
 			)
 		)
 		(property "Value" "22"
-			(at 76.2 74.676 90)
+			(at 76.2 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11811,7 +11809,7 @@
 			)
 		)
 		(property "Value" "22"
-			(at 80.01 119.126 90)
+			(at 80.01 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11941,7 +11939,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 127 50.546 90)
+			(at 127 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12204,7 +12202,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 142.24 45.466 90)
+			(at 142.24 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12321,7 +12319,7 @@
 		(at 53.34 60.96 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
 		(uuid "f109ec13-4d15-44c2-b8c5-716d3c5d2913")
@@ -12334,7 +12332,7 @@
 			)
 		)
 		(property "Value" "22"
-			(at 53.34 63.246 90)
+			(at 53.34 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12464,7 +12462,7 @@
 			)
 		)
 		(property "Value" "22"
-			(at 55.88 103.886 90)
+			(at 55.88 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12594,7 +12592,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 149.86 42.926 90)
+			(at 149.86 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12724,7 +12722,7 @@
 			)
 		)
 		(property "Value" "22"
-			(at 68.58 111.506 90)
+			(at 68.58 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
