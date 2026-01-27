@@ -473,6 +473,18 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "name": "PWR",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "RGMII",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
       }
     ],
     "meta": {
@@ -621,7 +633,13 @@
       "/controller/RGMII{TXCLK RXCTL-CRS_DV TXCTL-TX_DV TXD[0..1] RXD[0..1]}": [
         "RGMII"
       ],
+      "/switch/1V15_BUCK-OUT": [
+        "PWR"
+      ],
       "/switch/2V5": [
+        "PWR"
+      ],
+      "/switch/2V5_BUCK-OUT": [
         "PWR"
       ],
       "/switch/3V3": [

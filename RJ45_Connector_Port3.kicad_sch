@@ -40,7 +40,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(property "Footprint" "KL_Footprints:C_0603"
 				(at 0.9652 -3.81 0)
 				(effects
 					(font
@@ -4511,22 +4511,24 @@
 		(dnp no)
 		(uuid "3ee87209-569f-4ddf-b2fa-81d2c9232f16")
 		(property "Reference" "C16"
-			(at 80.01 58.928 90)
+			(at 77.47 61.595 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "100n"
-			(at 80.01 65.786 90)
+			(at 82.55 61.595 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "KL_Footprints:C_0603"
 			(at 83.82 61.2648 0)
 			(effects
 				(font
@@ -4598,42 +4600,6 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance_in_pct" "10"
-			(at 80.01 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" "X7R"
-			(at 80.01 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package_in_inch" "0603"
-			(at 80.01 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Farnell" "4539043"
-			(at 80.01 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "61b91178-0e6c-464f-8122-530253eacf56")
 		)
@@ -4659,22 +4625,24 @@
 		(dnp no)
 		(uuid "4d9ac238-2028-48fd-bf4f-0d5cdc8ed731")
 		(property "Reference" "C15"
-			(at 80.01 48.514 90)
+			(at 77.47 51.435 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "100n"
-			(at 80.01 55.626 90)
+			(at 82.55 51.435 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "KL_Footprints:C_0603"
 			(at 83.82 51.1048 0)
 			(effects
 				(font
@@ -4738,42 +4706,6 @@
 			)
 		)
 		(property "LCSC" "C1591"
-			(at 80.01 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance_in_pct" "10"
-			(at 80.01 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" "X7R"
-			(at 80.01 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package_in_inch" "0603"
-			(at 80.01 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Farnell" "4539043"
 			(at 80.01 52.07 0)
 			(effects
 				(font
@@ -4940,22 +4872,24 @@
 		(dnp no)
 		(uuid "5505e102-7e9c-4a06-b8cf-04a0368c3465")
 		(property "Reference" "C17"
-			(at 80.01 68.834 90)
+			(at 77.47 71.755 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "100n"
-			(at 80.01 75.946 90)
+			(at 82.55 71.755 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "KL_Footprints:C_0603"
 			(at 83.82 71.4248 0)
 			(effects
 				(font
@@ -5019,42 +4953,6 @@
 			)
 		)
 		(property "LCSC" "C1591"
-			(at 80.01 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance_in_pct" "10"
-			(at 80.01 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" "X7R"
-			(at 80.01 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package_in_inch" "0603"
-			(at 80.01 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Farnell" "4539043"
 			(at 80.01 72.39 0)
 			(effects
 				(font
@@ -5691,22 +5589,24 @@
 		(dnp no)
 		(uuid "d9a6dd5a-08a8-4ce7-84f0-690725e95c2d")
 		(property "Reference" "C2"
-			(at 80.01 38.608 90)
+			(at 77.47 41.275 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "100n"
-			(at 80.01 45.212 90)
+			(at 82.55 41.275 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "KL_Footprints:C_0603"
 			(at 83.82 40.9448 0)
 			(effects
 				(font
@@ -5770,42 +5670,6 @@
 			)
 		)
 		(property "LCSC" "C1591"
-			(at 80.01 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance_in_pct" "10"
-			(at 80.01 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" "X7R"
-			(at 80.01 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package_in_inch" "0603"
-			(at 80.01 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Farnell" "4539043"
 			(at 80.01 41.91 0)
 			(effects
 				(font

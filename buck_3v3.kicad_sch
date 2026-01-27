@@ -40,7 +40,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(property "Footprint" "KL_Footprints:C_0603"
 				(at 0.9652 -3.81 0)
 				(effects
 					(font
@@ -224,7 +224,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(property "Footprint" "KL_Footprints:C_0603"
 				(at 0.9652 -3.81 0)
 				(effects
 					(font
@@ -408,7 +408,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(property "Footprint" "KL_Footprints:C_0603"
 				(at 0.9652 -3.81 0)
 				(effects
 					(font
@@ -592,7 +592,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(property "Footprint" "KL_Footprints:C_0603"
 				(at 0.9652 -3.81 0)
 				(effects
 					(font
@@ -776,7 +776,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(property "Footprint" "KL_Footprints:C_0603"
 				(at 0.9652 -3.81 0)
 				(effects
 					(font
@@ -960,7 +960,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "KL:C_0603"
+			(property "Footprint" "KL_Footprints:C_0603"
 				(at 0.9652 -3.81 0)
 				(effects
 					(font
@@ -1116,6 +1116,107 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "KL_Flags:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "KL_L:L_3u3_8A_20pct_7LX7W"
 			(pin_numbers
 				(hide yes)
@@ -1142,7 +1243,7 @@
 					)
 				)
 			)
-			(property "Footprint" "KL:L_3u3_EXLA1V0603"
+			(property "Footprint" "KL_Footprints:EXLA1V0603"
 				(at 0 7.62 0)
 				(effects
 					(font
@@ -1526,7 +1627,7 @@
 					)
 				)
 			)
-			(property "Footprint" "KL_Footprints:C_0603"
+			(property "Footprint" "KL_Footprints:R_0603"
 				(at -1.778 0 90)
 				(effects
 					(font
@@ -1713,7 +1814,7 @@
 					)
 				)
 			)
-			(property "Footprint" "KL_Footprints:C_0603"
+			(property "Footprint" "KL_Footprints:R_0603"
 				(at -1.778 0 90)
 				(effects
 					(font
@@ -2087,7 +2188,7 @@
 					)
 				)
 			)
-			(property "Footprint" "KL_Footprints:C_0603"
+			(property "Footprint" "KL_Footprints:R_0603"
 				(at -1.778 0 90)
 				(effects
 					(font
@@ -2809,7 +2910,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 40.64 -1.27 180)
 					(length 7.62)
 					(name "PG"
@@ -2827,7 +2928,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 40.64 -5.08 180)
 					(length 7.62)
 					(name "FB"
@@ -2847,7 +2948,7 @@
 				)
 			)
 			(symbol "TPS564257DRLR_1_1"
-				(pin power_in line
+				(pin passive line
 					(at 0 -6.35 0)
 					(length 7.62)
 					(name "EN"
@@ -3025,6 +3126,12 @@
 		(uuid "68f8a0d3-cb7d-49c4-a0de-a73515a5080e")
 	)
 	(junction
+		(at 68.58 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "692173fa-6138-4aae-97f8-e5efd57696b0")
+	)
+	(junction
 		(at 96.52 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3174,7 +3281,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 74.93) (xy 64.77 74.93)
+			(xy 76.2 74.93) (xy 68.58 74.93)
 		)
 		(stroke
 			(width 0)
@@ -3201,6 +3308,16 @@
 			(type default)
 		)
 		(uuid "3202529b-be23-4ae7-820b-3958b0d74291")
+	)
+	(wire
+		(pts
+			(xy 26.67 39.37) (xy 39.37 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39188284-1b07-4663-b241-c880276f2aa2")
 	)
 	(wire
 		(pts
@@ -3314,6 +3431,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 74.93) (xy 64.77 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54f8f459-fb6d-4e3f-a2e9-84eff6aa4366")
+	)
+	(wire
+		(pts
 			(xy 168.91 83.82) (xy 180.34 83.82)
 		)
 		(stroke
@@ -3394,16 +3521,6 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 39.37) (xy 36.83 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "831e9d0c-e06b-43db-b33d-8d16afe2a1d1")
-	)
-	(wire
-		(pts
 			(xy 53.34 78.74) (xy 53.34 74.93)
 		)
 		(stroke
@@ -3464,6 +3581,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 48.26) (xy 39.37 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "907070dc-7ce3-46fc-a36d-5a2a0bc61f53")
+	)
+	(wire
+		(pts
 			(xy 212.09 80.01) (xy 218.44 80.01)
 		)
 		(stroke
@@ -3471,16 +3598,6 @@
 			(type default)
 		)
 		(uuid "9a74263f-60a9-4d5a-b2af-fd137ffbc562")
-	)
-	(wire
-		(pts
-			(xy 64.77 74.93) (xy 53.34 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9dd39359-1d67-4472-8991-aa848bdd90fe")
 	)
 	(wire
 		(pts
@@ -3511,6 +3628,16 @@
 			(type default)
 		)
 		(uuid "b00e4109-71c8-4221-bbf1-749a6f1607e9")
+	)
+	(wire
+		(pts
+			(xy 53.34 74.93) (xy 64.77 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba0c3104-0f36-4416-97f7-7b9ee1d054f6")
 	)
 	(wire
 		(pts
@@ -3642,18 +3769,8 @@
 		)
 		(uuid "f3101318-5be6-4a08-9a53-30e09d76b58d")
 	)
-	(wire
-		(pts
-			(xy 26.67 43.18) (xy 36.83 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4162214-1905-45e8-930b-4c596ada998c")
-	)
 	(label "+3V3_OUT"
-		(at 36.83 39.37 180)
+		(at 39.37 39.37 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3683,7 +3800,7 @@
 		(uuid "73af5757-f067-4091-aaa8-d3a84152a148")
 	)
 	(label "5-12V"
-		(at 36.83 43.18 180)
+		(at 39.37 48.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3694,7 +3811,7 @@
 	)
 	(hierarchical_label "5-12V"
 		(shape input)
-		(at 26.67 43.18 180)
+		(at 26.67 48.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3703,7 +3820,7 @@
 		)
 		(uuid "7bdcd3f9-1add-48f0-820e-864e2ee2a84e")
 	)
-	(hierarchical_label "3V3"
+	(hierarchical_label "+3V3_OUT"
 		(shape output)
 		(at 26.67 39.37 180)
 		(effects
@@ -3804,7 +3921,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "KL_Footprints:C_0603"
 			(at 65.7352 86.36 0)
 			(effects
 				(font
@@ -3892,6 +4009,72 @@
 		)
 	)
 	(symbol
+		(lib_id "KL_Flags:PWR_FLAG")
+		(at 68.58 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1181b642-bf02-47f5-bdc8-573b7bd4c138")
+		(property "Reference" "#FLG3"
+			(at 68.58 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 68.58 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 68.58 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c25de62c-6c62-4b24-b1fc-72cda2fe2fca")
+		)
+		(instances
+			(project "shish-lan"
+				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/b46af5b7-dd4e-4356-ae8f-8ea1d81113b6"
+					(reference "#FLG3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "KL_C:C_10p_25V_C0G_0603_5")
 		(at 168.91 77.47 0)
 		(unit 1)
@@ -3919,7 +4102,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "KL_Footprints:C_0603"
 			(at 169.8752 81.28 0)
 			(effects
 				(font
@@ -4011,7 +4194,7 @@
 		(at 53.34 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -4034,7 +4217,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "KL_Footprints:C_0603"
 			(at 54.3052 86.36 0)
 			(effects
 				(font
@@ -4149,7 +4332,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "KL_Footprints:C_0603"
 			(at 230.8352 80.01 0)
 			(effects
 				(font
@@ -4330,7 +4513,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "KL_Footprints:C_0603"
 			(at 77.1652 86.36 0)
 			(effects
 				(font
@@ -4579,7 +4762,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "KL_Footprints:C_0603"
+		(property "Footprint" "KL_Footprints:R_0603"
 			(at 178.562 91.44 90)
 			(effects
 				(font
@@ -4710,7 +4893,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KL_Footprints:C_0603"
+		(property "Footprint" "KL_Footprints:R_0603"
 			(at 162.56 65.278 90)
 			(effects
 				(font
@@ -4976,7 +5159,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "KL_Footprints:C_0603"
 			(at 107.6452 102.87 0)
 			(effects
 				(font
@@ -5156,7 +5339,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KL:L_3u3_EXLA1V0603"
+		(property "Footprint" "KL_Footprints:EXLA1V0603"
 			(at 158.75 64.77 0)
 			(effects
 				(font
@@ -5655,7 +5838,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "KL_Footprints:C_0603"
+		(property "Footprint" "KL_Footprints:R_0603"
 			(at 178.562 77.47 90)
 			(effects
 				(font
@@ -5919,7 +6102,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "KL:C_0603"
+		(property "Footprint" "KL_Footprints:C_0603"
 			(at 219.4052 80.01 0)
 			(effects
 				(font
@@ -6011,7 +6194,7 @@
 		(at 207.01 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -6034,7 +6217,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "KL:C_0603"
+		(property "Footprint" "KL_Footprints:C_0603"
 			(at 207.9752 80.01 0)
 			(effects
 				(font

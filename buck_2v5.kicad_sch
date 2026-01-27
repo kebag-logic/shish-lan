@@ -41,7 +41,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(property "Footprint" "KL_Footprints:C_0603"
 				(at 0.9652 -3.81 0)
 				(effects
 					(font
@@ -225,7 +225,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(property "Footprint" "KL_Footprints:C_0603"
 				(at 0.9652 -3.81 0)
 				(effects
 					(font
@@ -593,7 +593,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(property "Footprint" "KL_Footprints:C_0603"
 				(at 0.9652 -3.81 0)
 				(effects
 					(font
@@ -777,7 +777,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(property "Footprint" "KL_Footprints:C_0603"
 				(at 0.9652 -3.81 0)
 				(effects
 					(font
@@ -961,7 +961,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "KL:C_0603"
+			(property "Footprint" "KL_Footprints:C_0603"
 				(at 0.9652 -3.81 0)
 				(effects
 					(font
@@ -1117,6 +1117,107 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "KL_Flags:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "KL_L:L_3u3_8A_20pct_7LX7W"
 			(pin_numbers
 				(hide yes)
@@ -1143,7 +1244,7 @@
 					)
 				)
 			)
-			(property "Footprint" "KL:L_3u3_EXLA1V0603"
+			(property "Footprint" "KL_Footprints:EXLA1V0603"
 				(at 0 7.62 0)
 				(effects
 					(font
@@ -1527,7 +1628,7 @@
 					)
 				)
 			)
-			(property "Footprint" "KL_Footprints:C_0603"
+			(property "Footprint" "KL_Footprints:R_0603"
 				(at -1.778 0 90)
 				(effects
 					(font
@@ -1714,7 +1815,7 @@
 					)
 				)
 			)
-			(property "Footprint" "KL_Footprints:C_0603"
+			(property "Footprint" "KL_Footprints:R_0603"
 				(at -1.778 0 90)
 				(effects
 					(font
@@ -1901,7 +2002,7 @@
 					)
 				)
 			)
-			(property "Footprint" "KL_Footprints:C_0603"
+			(property "Footprint" "KL_Footprints:R_0603"
 				(at -1.778 0 90)
 				(effects
 					(font
@@ -2052,131 +2153,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "KL_SYM_LOCAL:+2V5"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+2V5"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+2V5\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+2V5_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+2V5_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2561,7 +2537,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 40.64 -1.27 180)
 					(length 7.62)
 					(name "PG"
@@ -2579,7 +2555,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 40.64 -5.08 180)
 					(length 7.62)
 					(name "FB"
@@ -2599,7 +2575,7 @@
 				)
 			)
 			(symbol "TPS564257DRLR_1_1"
-				(pin power_in line
+				(pin passive line
 					(at 0 -6.35 0)
 					(length 7.62)
 					(name "EN"
@@ -2807,6 +2783,12 @@
 		(uuid "abdfee39-46fb-43c1-ac15-ae112a2a7e6d")
 	)
 	(junction
+		(at 93.98 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b22d7280-6abb-400a-8e94-113049de9d1b")
+	)
+	(junction
 		(at 229.87 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2924,7 +2906,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 38.1) (xy 48.26 38.1)
+			(xy 40.64 38.1) (xy 52.07 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2961,16 +2943,6 @@
 			(type default)
 		)
 		(uuid "41ae4641-fc67-4f7a-b91a-d122d403c327")
-	)
-	(wire
-		(pts
-			(xy 212.09 76.2) (xy 212.09 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "433e9777-6031-4eac-af79-be8d3b7b045b")
 	)
 	(wire
 		(pts
@@ -3064,6 +3036,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 81.28) (xy 87.63 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64d11afd-f9b0-4ade-9801-aaecee5a78a4")
+	)
+	(wire
+		(pts
 			(xy 171.45 69.85) (xy 173.99 69.85)
 		)
 		(stroke
@@ -3084,7 +3066,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 41.91) (xy 48.26 41.91)
+			(xy 40.64 41.91) (xy 52.07 41.91)
 		)
 		(stroke
 			(width 0)
@@ -3124,7 +3106,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 45.72) (xy 48.26 45.72)
+			(xy 40.64 45.72) (xy 52.07 45.72)
 		)
 		(stroke
 			(width 0)
@@ -3144,7 +3126,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 81.28) (xy 87.63 81.28)
+			(xy 99.06 81.28) (xy 93.98 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3383,7 +3365,7 @@
 		(uuid "f324ebfe-def4-482c-8ea5-c0995e990da3")
 	)
 	(label "5-12V"
-		(at 48.26 41.91 180)
+		(at 52.07 41.91 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3413,7 +3395,7 @@
 		(uuid "631fd5fb-7cc9-44db-8463-10fc69a83119")
 	)
 	(label "EN"
-		(at 48.26 45.72 180)
+		(at 52.07 45.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3422,7 +3404,27 @@
 		)
 		(uuid "975efc7c-1ca4-4793-9d34-da0dab86c030")
 	)
-	(hierarchical_label "2V5"
+	(label "+2V5_OUT"
+		(at 193.04 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b460fbc7-103c-41fe-935d-0f234c69f152")
+	)
+	(label "+2V5_OUT"
+		(at 52.07 38.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e039c409-faa6-4b06-962d-42e11329cc3d")
+	)
+	(hierarchical_label "+2V5_OUT"
 		(shape output)
 		(at 40.64 38.1 180)
 		(effects
@@ -3513,6 +3515,72 @@
 				(font
 					(size 1.27 1.27)
 					(italic yes)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KL_Flags:PWR_FLAG")
+		(at 93.98 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "036bddf3-f8c1-4e5e-b739-c6a94cc7d593")
+		(property "Reference" "#FLG05"
+			(at 93.98 79.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 93.98 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 93.98 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f26d55b6-98e1-43a5-82c2-501fdd06ecc7")
+		)
+		(instances
+			(project ""
+				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/c6e71b93-7134-487d-a04c-584c6081214b"
+					(reference "#FLG05")
+					(unit 1)
 				)
 			)
 		)
@@ -3618,7 +3686,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "KL_Footprints:C_0603"
 			(at 100.0252 92.71 0)
 			(effects
 				(font
@@ -3739,7 +3807,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "KL_Footprints:C_0603"
 			(at 235.9152 86.36 0)
 			(effects
 				(font
@@ -3837,7 +3905,7 @@
 		(at 212.09 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -3860,7 +3928,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "KL:C_0603"
+		(property "Footprint" "KL_Footprints:C_0603"
 			(at 213.0552 86.36 0)
 			(effects
 				(font
@@ -4190,7 +4258,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "KL_Footprints:C_0603"
+		(property "Footprint" "KL_Footprints:R_0603"
 			(at 183.642 97.79 90)
 			(effects
 				(font
@@ -4300,7 +4368,7 @@
 		(at 76.2 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -4323,7 +4391,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "KL_Footprints:C_0603"
 			(at 77.1652 92.71 0)
 			(effects
 				(font
@@ -4444,7 +4512,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "KL_Footprints:C_0603"
+		(property "Footprint" "KL_Footprints:R_0603"
 			(at 183.642 83.82 90)
 			(effects
 				(font
@@ -4653,7 +4721,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KL_Footprints:C_0603"
+		(property "Footprint" "KL_Footprints:R_0603"
 			(at 167.64 71.628 90)
 			(effects
 				(font
@@ -5317,7 +5385,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "KL:C_0603"
+		(property "Footprint" "KL_Footprints:C_0603"
 			(at 224.4852 86.36 0)
 			(effects
 				(font
@@ -5436,7 +5504,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KL:L_3u3_EXLA1V0603"
+		(property "Footprint" "KL_Footprints:EXLA1V0603"
 			(at 163.83 71.12 0)
 			(effects
 				(font
@@ -5543,7 +5611,7 @@
 		(at 93.98 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -5566,7 +5634,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "KL_Footprints:C_0603"
+		(property "Footprint" "KL_Footprints:R_0603"
 			(at 92.202 109.22 90)
 			(effects
 				(font
@@ -5705,7 +5773,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "KL_Footprints:C_0603"
 			(at 174.9552 87.63 0)
 			(effects
 				(font
@@ -5826,7 +5894,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "KL_Footprints:C_0603"
 			(at 88.5952 92.71 0)
 			(effects
 				(font
@@ -5914,150 +5982,6 @@
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/c6e71b93-7134-487d-a04c-584c6081214b"
 					(reference "C101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "KL_SYM_LOCAL:+2V5")
-		(at 212.09 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e0408d64-ffbc-4c30-b161-50dd0b155e0e")
-		(property "Reference" "#PWR3"
-			(at 212.09 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+2V5"
-			(at 212.09 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 212.09 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 212.09 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+2V5\""
-			(at 212.09 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "da215a28-03ba-4ade-898c-60de78bb2380")
-		)
-		(instances
-			(project "switch"
-				(path "/cd936d40-9035-4ec8-bcf8-38758f995fb0/c6e71b93-7134-487d-a04c-584c6081214b"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-			(project "shish-lan"
-				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/c6e71b93-7134-487d-a04c-584c6081214b"
-					(reference "#PWR3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "KL_SYM_LOCAL:+2V5")
-		(at 48.26 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e7e8d95e-8b15-4b42-acc4-fc054b8a4817")
-		(property "Reference" "#PWR9"
-			(at 48.26 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+2V5"
-			(at 48.26 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 48.26 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 48.26 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+2V5\""
-			(at 48.26 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3de81023-f238-473b-8e06-f6b9c22e2e9e")
-		)
-		(instances
-			(project "switch"
-				(path "/cd936d40-9035-4ec8-bcf8-38758f995fb0/c6e71b93-7134-487d-a04c-584c6081214b"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/c6e71b93-7134-487d-a04c-584c6081214b"
-					(reference "#PWR9")
 					(unit 1)
 				)
 			)

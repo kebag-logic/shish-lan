@@ -11,4 +11,5 @@
   (lib (name "KL_TP")(type "KiCad")(uri "${KIPRJMOD}/kebag_logic_kicad_library/symbols/KL_TP.kicad_sym")(options "")(descr ""))
   (lib (name "KL_Headers")(type "KiCad")(uri "${KIPRJMOD}/kebag_logic_kicad_library/symbols/KL_Headers.kicad_sym")(options "")(descr ""))
   (lib (name "KL_SYM_LOCAL")(type "KiCad")(uri "${KIPRJMOD}/kebag_logic_kicad_library/symbols/KL_SYM_LOCAL.kicad_sym")(options "")(descr ""))
+  (lib (name "KL_Flags")(type "KiCad")(uri "${KIPRJMOD}/kebag_logic_kicad_library/symbols/KL_Flags.kicad_sym")(options "")(descr ""))
 )
