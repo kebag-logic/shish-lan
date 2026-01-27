@@ -40,7 +40,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(property "Footprint" "KL_Footprints:C_0603"
 				(at 0.9652 -3.81 0)
 				(effects
 					(font
@@ -233,7 +233,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(property "Footprint" "KL_Footprints:C_0603"
 				(at 0.9652 -3.81 0)
 				(effects
 					(font
@@ -592,7 +592,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "Package_QFP:TQFP-128_14x14mm_P0.4mm"
+			(property "Footprint" "KL_Footprints:TQFP-128_14x14mm_P0.4mm"
 				(at 16.002 23.622 0)
 				(effects
 					(font
@@ -3437,7 +3437,7 @@
 					)
 				)
 			)
-			(property "Footprint" "KL_Footprints:C_0603"
+			(property "Footprint" "KL_Footprints:R_0603"
 				(at -1.778 0 90)
 				(effects
 					(font
@@ -3998,7 +3998,7 @@
 					)
 				)
 			)
-			(property "Footprint" "KL_Footprints:C_0603"
+			(property "Footprint" "KL_Footprints:R_0603"
 				(at -1.778 0 90)
 				(effects
 					(font
@@ -6749,7 +6749,7 @@
 		(dnp no)
 		(uuid "0ec0e28c-372b-46f7-b282-8230bda27283")
 		(property "Reference" "R71"
-			(at 140.97 44.704 90)
+			(at 140.97 44.958 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6757,14 +6757,14 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 140.97 49.784 90)
+			(at 140.97 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "KL_Footprints:C_0603"
+		(property "Footprint" "KL_Footprints:R_0603"
 			(at 140.97 48.768 90)
 			(effects
 				(font
@@ -7428,12 +7428,11 @@
 		(fields_autoplaced yes)
 		(uuid "391c33e0-2e02-4085-a34a-702d62406bd9")
 		(property "Reference" "U1"
-			(at 185.42 27.94 0)
+			(at 185.42 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "~"
@@ -7442,9 +7441,10 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "Package_QFP:TQFP-128_14x14mm_P0.4mm"
+		(property "Footprint" "KL_Footprints:TQFP-128_14x14mm_P0.4mm"
 			(at 186.182 25.908 0)
 			(effects
 				(font
@@ -7900,14 +7900,14 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 154.94 131.826 90)
+			(at 154.94 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "KL_Footprints:C_0603"
+		(property "Footprint" "KL_Footprints:R_0603"
 			(at 154.94 131.318 90)
 			(effects
 				(font
@@ -8160,7 +8160,7 @@
 		(at 232.41 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -8183,7 +8183,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "KL_Footprints:C_0603"
 			(at 233.3752 135.89 0)
 			(effects
 				(font
@@ -8954,7 +8954,7 @@
 		(dnp yes)
 		(uuid "86099297-7cda-4b08-aac6-1899c69728a6")
 		(property "Reference" "R89"
-			(at 229.87 81.28 90)
+			(at 229.87 81.788 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8962,7 +8962,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 229.87 86.614 90)
+			(at 229.87 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9098,14 +9098,14 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 154.94 140.716 90)
+			(at 154.94 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "KL_Footprints:C_0603"
+		(property "Footprint" "KL_Footprints:R_0603"
 			(at 154.94 140.208 90)
 			(effects
 				(font
@@ -9372,24 +9372,24 @@
 		(dnp no)
 		(uuid "ab4968c5-a3b7-467c-bc28-e4921d1d5c36")
 		(property "Reference" "C18"
-			(at 46.736 127 0)
+			(at 51.435 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "100n"
-			(at 46.736 124.46 0)
+			(at 51.435 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "KL_Footprints:C_0603"
 			(at 51.7652 129.54 0)
 			(effects
 				(font
@@ -9574,24 +9574,24 @@
 		(dnp no)
 		(uuid "b9cb1193-2160-4bd0-ad71-d8edff7057e5")
 		(property "Reference" "C19"
-			(at 47.244 97.79 0)
+			(at 51.435 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "100n"
-			(at 47.244 95.25 0)
+			(at 51.435 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "KL_Footprints:C_0603"
 			(at 51.7652 100.33 0)
 			(effects
 				(font
@@ -10167,7 +10167,7 @@
 		(dnp yes)
 		(uuid "df1026f4-cd53-41bf-b1d7-5d7bb46d9488")
 		(property "Reference" "R87"
-			(at 118.11 44.704 90)
+			(at 118.11 44.958 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10175,7 +10175,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 118.11 49.53 90)
+			(at 118.11 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10303,24 +10303,24 @@
 		(dnp no)
 		(uuid "dfbeeb73-c1f8-4348-b734-d3b947ed0710")
 		(property "Reference" "C1"
-			(at 46.99 156.21 0)
+			(at 51.435 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "100n"
-			(at 46.99 153.67 0)
+			(at 51.435 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "KL_Footprints:C_0603"
 			(at 51.7652 158.75 0)
 			(effects
 				(font
@@ -10433,24 +10433,24 @@
 		(fields_autoplaced yes)
 		(uuid "e1505569-cfab-4c69-81dd-0238502ce5ec")
 		(property "Reference" "C20"
-			(at 47.498 68.58 0)
+			(at 54.61 66.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "100n"
-			(at 47.498 66.04 0)
+			(at 54.61 68.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "KL_Footprints:C_0603"
 			(at 51.7652 71.12 0)
 			(effects
 				(font
@@ -10623,30 +10623,30 @@
 		(at 161.29 143.51 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "e5463d1e-671c-4b63-8c90-fcafc2daccd9")
 		(property "Reference" "R74"
-			(at 158.75 144.7799 0)
+			(at 163.83 142.2399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "0R"
-			(at 158.75 147.3199 0)
+			(at 163.83 144.7799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "KL_Footprints:C_0603"
+		(property "Footprint" "KL_Footprints:R_0603"
 			(at 163.068 143.51 90)
 			(effects
 				(font
@@ -10985,7 +10985,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "KL_Footprints:C_0603"
 			(at 150.8252 55.88 0)
 			(effects
 				(font

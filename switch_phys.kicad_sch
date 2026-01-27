@@ -33,7 +33,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "Package_QFP:TQFP-128_14x14mm_P0.4mm"
+			(property "Footprint" "KL_Footprints:TQFP-128_14x14mm_P0.4mm"
 				(at 16.002 23.622 0)
 				(effects
 					(font
@@ -2878,7 +2878,7 @@
 					)
 				)
 			)
-			(property "Footprint" "KL_Footprints:C_0603"
+			(property "Footprint" "KL_Footprints:R_0603"
 				(at -1.778 0 90)
 				(effects
 					(font
@@ -4510,7 +4510,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "KL_Footprints:C_0603"
+		(property "Footprint" "KL_Footprints:R_0603"
 			(at 16.002 67.31 90)
 			(effects
 				(font
@@ -4632,7 +4632,7 @@
 		(fields_autoplaced yes)
 		(uuid "479f93d1-33cf-4283-9faf-9cb67e874be4")
 		(property "Reference" "U1"
-			(at 43.18 162.56 0)
+			(at 43.18 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4648,7 +4648,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Package_QFP:TQFP-128_14x14mm_P0.4mm"
+		(property "Footprint" "KL_Footprints:TQFP-128_14x14mm_P0.4mm"
 			(at 39.878 183.642 0)
 			(effects
 				(font

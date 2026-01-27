@@ -157,7 +157,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "Package_QFP:TQFP-128_14x14mm_P0.4mm"
+			(property "Footprint" "KL_Footprints:TQFP-128_14x14mm_P0.4mm"
 				(at 16.002 23.622 0)
 				(effects
 					(font
@@ -4601,12 +4601,11 @@
 		(dnp no)
 		(uuid "f02de64e-78e1-4dc7-93b5-38758564d73e")
 		(property "Reference" "U1"
-			(at 153.67 0 0)
+			(at 165.862 23.114 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "~"
@@ -4615,9 +4614,10 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "Package_QFP:TQFP-128_14x14mm_P0.4mm"
+		(property "Footprint" "KL_Footprints:TQFP-128_14x14mm_P0.4mm"
 			(at 154.432 -2.032 0)
 			(effects
 				(font

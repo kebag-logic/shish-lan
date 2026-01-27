@@ -222,7 +222,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "0826-1X4T-43-F:BEL_0826-1X4T-43-F"
+			(property "Footprint" "KL_Footprints:BEL_0826-1X4T-43-F"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3793,7 +3793,7 @@
 					)
 				)
 			)
-			(property "Footprint" "KL_Footprints:C_0603"
+			(property "Footprint" "KL_Footprints:R_0603"
 				(at -1.778 0 90)
 				(effects
 					(font
@@ -3980,7 +3980,7 @@
 					)
 				)
 			)
-			(property "Footprint" "KL_Footprints:C_0603"
+			(property "Footprint" "KL_Footprints:R_0603"
 				(at -1.778 0 90)
 				(effects
 					(font
@@ -5267,7 +5267,7 @@
 		(fields_autoplaced yes)
 		(uuid "40c0ad81-0318-4991-8af3-af1a56bd498d")
 		(property "Reference" "R6"
-			(at 119.38 77.724 90)
+			(at 119.38 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5275,14 +5275,14 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 119.38 82.55 90)
+			(at 119.38 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "KL_Footprints:C_0603"
+		(property "Footprint" "KL_Footprints:R_0603"
 			(at 119.38 81.788 90)
 			(effects
 				(font
@@ -5530,7 +5530,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "KL_Footprints:C_0603"
+		(property "Footprint" "KL_Footprints:R_0603"
 			(at 114.808 114.3 90)
 			(effects
 				(font
@@ -5777,7 +5777,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "KL_Footprints:C_0603"
+		(property "Footprint" "KL_Footprints:R_0603"
 			(at 97.028 114.3 90)
 			(effects
 				(font
@@ -5911,7 +5911,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "KL_Footprints:C_0603"
+		(property "Footprint" "KL_Footprints:R_0603"
 			(at 79.502 114.3 90)
 			(effects
 				(font
@@ -6044,7 +6044,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "KL_Footprints:C_0603"
+		(property "Footprint" "KL_Footprints:R_0603"
 			(at 123.698 114.3 90)
 			(effects
 				(font
@@ -6244,7 +6244,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "KL_Footprints:C_0603"
+		(property "Footprint" "KL_Footprints:R_0603"
 			(at 105.918 114.3 90)
 			(effects
 				(font
@@ -6379,7 +6379,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "0826-1X4T-43-F:BEL_0826-1X4T-43-F"
+		(property "Footprint" "KL_Footprints:BEL_0826-1X4T-43-F"
 			(at 139.7 69.85 0)
 			(effects
 				(font
@@ -6829,7 +6829,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "KL_Footprints:C_0603"
+		(property "Footprint" "KL_Footprints:R_0603"
 			(at 79.502 100.33 90)
 			(effects
 				(font

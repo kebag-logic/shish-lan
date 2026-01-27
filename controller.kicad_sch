@@ -10,7 +10,7 @@
 		(company "Kebag-logic <contact@kebag-logic.com>")
 	)
 	(lib_symbols
-		(symbol "KL_C:C_100n_10V_10_X7R_0603"
+		(symbol "KL_C:C_100n_10V_X7R_0603_10"
 			(pin_numbers
 				(hide yes)
 			)
@@ -74,7 +74,7 @@
 					(hide yes)
 				)
 			)
-			(property "Voltage" "10"
+			(property "Voltage" "50"
 				(at 0 0 0)
 				(effects
 					(font
@@ -83,7 +83,7 @@
 					(hide yes)
 				)
 			)
-			(property "Dielectric_type" "X7R"
+			(property "Mouser" "603-CC603KRX7R6BB104"
 				(at 0 0 0)
 				(effects
 					(font
@@ -92,7 +92,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser" " 603-CC603KRX7R6BB102 "
+			(property "Digikey" "311-4055-1-ND"
 				(at 0 0 0)
 				(effects
 					(font
@@ -101,16 +101,7 @@
 					(hide yes)
 				)
 			)
-			(property "Digikey" "311-4053-1-ND"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC" "C36911391"
+			(property "LCSC" "C519438"
 				(at 0 0 0)
 				(effects
 					(font
@@ -137,7 +128,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "C_100n_10V_10_X7R_0603_0_1"
+			(symbol "C_100n_10V_X7R_0603_10_0_1"
 				(polyline
 					(pts
 						(xy -2.032 0.762) (xy 2.032 0.762)
@@ -163,7 +154,7 @@
 					)
 				)
 			)
-			(symbol "C_100n_10V_10_X7R_0603_1_1"
+			(symbol "C_100n_10V_X7R_0603_10_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
@@ -203,7 +194,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "KL_C:C_2u2_10V_20_Y5V_0603"
+		(symbol "KL_C:C_2u2_10V_Y5V_0603_20"
 			(pin_numbers
 				(hide yes)
 			)
@@ -258,7 +249,7 @@
 					(hide yes)
 				)
 			)
-			(property "Tolerance" "20"
+			(property "Tolerance" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -267,7 +258,7 @@
 					(hide yes)
 				)
 			)
-			(property "Voltage" "10"
+			(property "Voltage" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -276,7 +267,7 @@
 					(hide yes)
 				)
 			)
-			(property "Dielectric_type" "Y5V"
+			(property "Mouser" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -285,7 +276,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser" " 603-CC603MRY5V6BB225"
+			(property "Digikey" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -294,16 +285,7 @@
 					(hide yes)
 				)
 			)
-			(property "Digikey" "311-3413-1-ND"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC" "C3888308"
+			(property "LCSC" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -330,7 +312,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "C_2u2_10V_20_Y5V_0603_0_1"
+			(symbol "C_2u2_10V_Y5V_0603_20_0_1"
 				(polyline
 					(pts
 						(xy -2.032 0.762) (xy 2.032 0.762)
@@ -356,7 +338,7 @@
 					)
 				)
 			)
-			(symbol "C_2u2_10V_20_Y5V_0603_1_1"
+			(symbol "C_2u2_10V_Y5V_0603_20_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
@@ -396,7 +378,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "KL_C:C_4u7_10V_10_X5R_0603"
+		(symbol "KL_C:C_4u7_10V_X5R_0603_10"
 			(pin_numbers
 				(hide yes)
 			)
@@ -469,15 +451,6 @@
 					(hide yes)
 				)
 			)
-			(property "Dielectric_type" "X5R"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
 			(property "Mouser" " 80-C0603C475K8PAC "
 				(at 0 0 0)
 				(effects
@@ -523,7 +496,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "C_4u7_10V_10_X5R_0603_0_1"
+			(symbol "C_4u7_10V_X5R_0603_10_0_1"
 				(polyline
 					(pts
 						(xy -2.032 0.762) (xy 2.032 0.762)
@@ -549,7 +522,7 @@
 					)
 				)
 			)
-			(symbol "C_4u7_10V_10_X5R_0603_1_1"
+			(symbol "C_4u7_10V_X5R_0603_10_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
@@ -764,7 +737,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "KL_Footprints:LQFP-100_14x14mm_P0.5mm"
+			(property "Footprint" "Package_QFP:LQFP-100_14x14mm_P0.5mm"
 				(at -17.78 -66.04 0)
 				(effects
 					(font
@@ -3497,6 +3470,24 @@
 					(hide yes)
 				)
 			)
+			(property "Farnell" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Package (in)" "2512"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "R res resistor"
 				(at 0 0 0)
 				(effects
@@ -5072,15 +5063,6 @@
 		(uuid "92daab46-2d42-42c5-927d-ce563f10fae1")
 	)
 	(bus_entry
-		(at 285.75 16.51)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "947c3c13-668d-4cc8-b688-d925f809b3f2")
-	)
-	(bus_entry
 		(at 283.21 57.15)
 		(size -2.54 2.54)
 		(stroke
@@ -6126,6 +6108,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 181.61) (xy 91.44 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60b5be6c-f606-4254-9c55-d0fe7d745764")
+	)
+	(wire
+		(pts
 			(xy 76.2 143.51) (xy 76.2 146.05)
 		)
 		(stroke
@@ -6453,16 +6445,6 @@
 			(type default)
 		)
 		(uuid "79541213-49e6-48ab-ad82-b000f2f8883d")
-	)
-	(wire
-		(pts
-			(xy 76.2 181.61) (xy 91.44 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79f66a1d-f8a4-4ddf-8e75-92676549b06b")
 	)
 	(wire
 		(pts
@@ -8567,7 +8549,7 @@
 		(uuid "fa8ab046-4377-436c-8771-e3cbc15922a9")
 	)
 	(symbol
-		(lib_id "KL_C:C_2u2_10V_20_Y5V_0603")
+		(lib_id "KL_C:C_2u2_10V_Y5V_0603_20")
 		(at 49.53 173.99 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8619,7 +8601,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" "20"
+		(property "Tolerance" ""
 			(at 49.53 173.99 0)
 			(effects
 				(font
@@ -8628,7 +8610,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage" "10"
+		(property "Voltage" ""
 			(at 49.53 173.99 0)
 			(effects
 				(font
@@ -8637,7 +8619,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric_type" "Y5V"
+		(property "Mouser" ""
 			(at 49.53 173.99 0)
 			(effects
 				(font
@@ -8646,7 +8628,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" " 603-CC603MRY5V6BB225"
+		(property "Digikey" ""
 			(at 49.53 173.99 0)
 			(effects
 				(font
@@ -8655,16 +8637,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "311-3413-1-ND"
-			(at 49.53 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C3888308"
+		(property "LCSC" ""
 			(at 49.53 173.99 0)
 			(effects
 				(font
@@ -8755,7 +8728,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_C:C_100n_10V_10_X7R_0603")
+		(lib_id "KL_C:C_100n_10V_X7R_0603_10")
 		(at 228.6 20.32 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8818,7 +8791,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage" "10"
+		(property "Voltage" "50"
 			(at 228.6 20.32 0)
 			(effects
 				(font
@@ -8827,7 +8800,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" " 603-CC603KRX7R6BB102 "
+		(property "Mouser" "603-CC603KRX7R6BB104"
 			(at 228.6 20.32 0)
 			(effects
 				(font
@@ -8836,7 +8809,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "311-4053-1-ND"
+		(property "Digikey" "311-4055-1-ND"
 			(at 228.6 20.32 0)
 			(effects
 				(font
@@ -8845,16 +8818,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C36911391"
-			(at 228.6 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" "X7R"
+		(property "LCSC" "C519438"
 			(at 228.6 20.32 0)
 			(effects
 				(font
@@ -8879,7 +8843,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_C:C_2u2_10V_20_Y5V_0603")
+		(lib_id "KL_C:C_2u2_10V_Y5V_0603_20")
 		(at 49.53 162.56 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8931,7 +8895,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" "20"
+		(property "Tolerance" ""
 			(at 49.53 162.56 0)
 			(effects
 				(font
@@ -8940,7 +8904,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage" "10"
+		(property "Voltage" ""
 			(at 49.53 162.56 0)
 			(effects
 				(font
@@ -8949,7 +8913,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric_type" "Y5V"
+		(property "Mouser" ""
 			(at 49.53 162.56 0)
 			(effects
 				(font
@@ -8958,7 +8922,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" " 603-CC603MRY5V6BB225"
+		(property "Digikey" ""
 			(at 49.53 162.56 0)
 			(effects
 				(font
@@ -8967,16 +8931,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "311-3413-1-ND"
-			(at 49.53 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C3888308"
+		(property "LCSC" ""
 			(at 49.53 162.56 0)
 			(effects
 				(font
@@ -9020,12 +8975,11 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 40.64 157.4799 90)
+			(at 43.18 161.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -9336,7 +9290,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_C:C_100n_10V_10_X7R_0603")
+		(lib_id "KL_C:C_100n_10V_X7R_0603_10")
 		(at 177.8 20.32 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9399,7 +9353,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage" "10"
+		(property "Voltage" "50"
 			(at 177.8 20.32 0)
 			(effects
 				(font
@@ -9408,7 +9362,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" " 603-CC603KRX7R6BB102 "
+		(property "Mouser" "603-CC603KRX7R6BB104"
 			(at 177.8 20.32 0)
 			(effects
 				(font
@@ -9417,7 +9371,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "311-4053-1-ND"
+		(property "Digikey" "311-4055-1-ND"
 			(at 177.8 20.32 0)
 			(effects
 				(font
@@ -9426,16 +9380,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C36911391"
-			(at 177.8 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" "X7R"
+		(property "LCSC" "C519438"
 			(at 177.8 20.32 0)
 			(effects
 				(font
@@ -9460,7 +9405,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_C:C_100n_10V_10_X7R_0603")
+		(lib_id "KL_C:C_100n_10V_X7R_0603_10")
 		(at 252.73 20.32 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9523,7 +9468,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage" "10"
+		(property "Voltage" "50"
 			(at 252.73 20.32 0)
 			(effects
 				(font
@@ -9532,7 +9477,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" " 603-CC603KRX7R6BB102 "
+		(property "Mouser" "603-CC603KRX7R6BB104"
 			(at 252.73 20.32 0)
 			(effects
 				(font
@@ -9541,7 +9486,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "311-4053-1-ND"
+		(property "Digikey" "311-4055-1-ND"
 			(at 252.73 20.32 0)
 			(effects
 				(font
@@ -9550,16 +9495,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C36911391"
-			(at 252.73 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" "X7R"
+		(property "LCSC" "C519438"
 			(at 252.73 20.32 0)
 			(effects
 				(font
@@ -9584,7 +9520,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_C:C_100n_10V_10_X7R_0603")
+		(lib_id "KL_C:C_100n_10V_X7R_0603_10")
 		(at 215.9 20.32 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9647,7 +9583,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage" "10"
+		(property "Voltage" "50"
 			(at 215.9 20.32 0)
 			(effects
 				(font
@@ -9656,7 +9592,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" " 603-CC603KRX7R6BB102 "
+		(property "Mouser" "603-CC603KRX7R6BB104"
 			(at 215.9 20.32 0)
 			(effects
 				(font
@@ -9665,7 +9601,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "311-4053-1-ND"
+		(property "Digikey" "311-4055-1-ND"
 			(at 215.9 20.32 0)
 			(effects
 				(font
@@ -9674,16 +9610,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C36911391"
-			(at 215.9 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" "X7R"
+		(property "LCSC" "C519438"
 			(at 215.9 20.32 0)
 			(effects
 				(font
@@ -10098,7 +10025,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_C:C_100n_10V_10_X7R_0603")
+		(lib_id "KL_C:C_100n_10V_X7R_0603_10")
 		(at 190.5 20.32 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10161,7 +10088,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage" "10"
+		(property "Voltage" "50"
 			(at 190.5 20.32 0)
 			(effects
 				(font
@@ -10170,7 +10097,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" " 603-CC603KRX7R6BB102 "
+		(property "Mouser" "603-CC603KRX7R6BB104"
 			(at 190.5 20.32 0)
 			(effects
 				(font
@@ -10179,7 +10106,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "311-4053-1-ND"
+		(property "Digikey" "311-4055-1-ND"
 			(at 190.5 20.32 0)
 			(effects
 				(font
@@ -10188,16 +10115,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C36911391"
-			(at 190.5 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" "X7R"
+		(property "LCSC" "C519438"
 			(at 190.5 20.32 0)
 			(effects
 				(font
@@ -10222,7 +10140,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_C:C_4u7_10V_10_X5R_0603")
+		(lib_id "KL_C:C_4u7_10V_X5R_0603_10")
 		(at 264.16 20.32 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10321,15 +10239,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric_type" "X5R"
-			(at 264.16 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "e04adf65-4179-408c-8dee-7eb1116ff956")
 		)
@@ -10353,6 +10262,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "a3924d81-0675-4d12-b0ee-62513a48b656")
 		(property "Reference" "R108"
 			(at 60.96 52.578 90)
@@ -10363,7 +10273,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 60.96 56.896 90)
+			(at 60.96 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10434,6 +10344,24 @@
 			)
 		)
 		(property "LCSC" "C2778666"
+			(at 60.96 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Farnell" ""
+			(at 60.96 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package (in)" "2512"
 			(at 60.96 54.61 0)
 			(effects
 				(font
@@ -10721,7 +10649,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_C:C_100n_10V_10_X7R_0603")
+		(lib_id "KL_C:C_100n_10V_X7R_0603_10")
 		(at 241.3 20.32 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10784,7 +10712,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage" "10"
+		(property "Voltage" "50"
 			(at 241.3 20.32 0)
 			(effects
 				(font
@@ -10793,7 +10721,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" " 603-CC603KRX7R6BB102 "
+		(property "Mouser" "603-CC603KRX7R6BB104"
 			(at 241.3 20.32 0)
 			(effects
 				(font
@@ -10802,7 +10730,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "311-4053-1-ND"
+		(property "Digikey" "311-4055-1-ND"
 			(at 241.3 20.32 0)
 			(effects
 				(font
@@ -10811,16 +10739,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C36911391"
-			(at 241.3 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" "X7R"
+		(property "LCSC" "C519438"
 			(at 241.3 20.32 0)
 			(effects
 				(font
@@ -10939,7 +10858,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "KL_Footprints:LQFP-100_14x14mm_P0.5mm"
+		(property "Footprint" "Package_QFP:LQFP-100_14x14mm_P0.5mm"
 			(at 83.82 173.99 0)
 			(effects
 				(font
@@ -11349,7 +11268,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_C:C_100n_10V_10_X7R_0603")
+		(lib_id "KL_C:C_100n_10V_X7R_0603_10")
 		(at 203.2 20.32 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11412,7 +11331,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage" "10"
+		(property "Voltage" "50"
 			(at 203.2 20.32 0)
 			(effects
 				(font
@@ -11421,7 +11340,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" " 603-CC603KRX7R6BB102 "
+		(property "Mouser" "603-CC603KRX7R6BB104"
 			(at 203.2 20.32 0)
 			(effects
 				(font
@@ -11430,7 +11349,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "311-4053-1-ND"
+		(property "Digikey" "311-4055-1-ND"
 			(at 203.2 20.32 0)
 			(effects
 				(font
@@ -11439,16 +11358,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C36911391"
-			(at 203.2 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" "X7R"
+		(property "LCSC" "C519438"
 			(at 203.2 20.32 0)
 			(effects
 				(font
@@ -11473,7 +11383,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_C:C_2u2_10V_20_Y5V_0603")
+		(lib_id "KL_C:C_2u2_10V_Y5V_0603_20")
 		(at 49.53 139.7 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11525,7 +11435,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" "20"
+		(property "Tolerance" ""
 			(at 49.53 139.7 0)
 			(effects
 				(font
@@ -11534,7 +11444,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage" "10"
+		(property "Voltage" ""
 			(at 49.53 139.7 0)
 			(effects
 				(font
@@ -11543,7 +11453,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric_type" "Y5V"
+		(property "Mouser" ""
 			(at 49.53 139.7 0)
 			(effects
 				(font
@@ -11552,7 +11462,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" " 603-CC603MRY5V6BB225"
+		(property "Digikey" ""
 			(at 49.53 139.7 0)
 			(effects
 				(font
@@ -11561,16 +11471,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "311-3413-1-ND"
-			(at 49.53 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C3888308"
+		(property "LCSC" ""
 			(at 49.53 139.7 0)
 			(effects
 				(font
@@ -11661,7 +11562,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_C:C_2u2_10V_20_Y5V_0603")
+		(lib_id "KL_C:C_2u2_10V_Y5V_0603_20")
 		(at 49.53 151.13 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11713,7 +11614,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" "20"
+		(property "Tolerance" ""
 			(at 49.53 151.13 0)
 			(effects
 				(font
@@ -11722,7 +11623,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage" "10"
+		(property "Voltage" ""
 			(at 49.53 151.13 0)
 			(effects
 				(font
@@ -11731,7 +11632,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric_type" "Y5V"
+		(property "Mouser" ""
 			(at 49.53 151.13 0)
 			(effects
 				(font
@@ -11740,7 +11641,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" " 603-CC603MRY5V6BB225"
+		(property "Digikey" ""
 			(at 49.53 151.13 0)
 			(effects
 				(font
@@ -11749,16 +11650,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "311-3413-1-ND"
-			(at 49.53 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C3888308"
+		(property "LCSC" ""
 			(at 49.53 151.13 0)
 			(effects
 				(font

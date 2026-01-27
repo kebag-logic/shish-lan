@@ -33,7 +33,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "Package_QFP:TQFP-128_14x14mm_P0.4mm"
+			(property "Footprint" "KL_Footprints:TQFP-128_14x14mm_P0.4mm"
 				(at 16.002 23.622 0)
 				(effects
 					(font
@@ -2878,7 +2878,7 @@
 					)
 				)
 			)
-			(property "Footprint" "KL_Footprints:C_0603"
+			(property "Footprint" "KL_Footprints:R_0603"
 				(at -1.778 0 90)
 				(effects
 					(font
@@ -3613,193 +3613,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "R_0R_250mW_0.5_0603_1"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "0R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "KL_Footprints:R_0603"
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Power" "250mW"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Tolerance" "0.5%"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mouser" "71-RCS06030000Z0EA"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Digikey" "541-2779-1-ND"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC" "C2126552"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Farnell" "3235077"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Package (in)" "0603"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0R_250mW_0.5_0603_1_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_0R_250mW_0.5_0603_1_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7783,14 +7596,14 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 135.89 45.212 90)
+			(at 135.89 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "KL_Footprints:C_0603"
+		(property "Footprint" "KL_Footprints:R_0603"
 			(at 135.89 44.958 90)
 			(effects
 				(font
@@ -8105,7 +7918,6 @@
 		)
 	)
 	(symbol
-		(lib_name "R_0R_250mW_0.5_0603_1")
 		(lib_id "KL_R:R_0R_250mW_0.5_0603")
 		(at 142.24 64.77 90)
 		(unit 1)
@@ -8123,7 +7935,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 142.24 66.802 90)
+			(at 142.24 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8326,14 +8138,14 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 77.47 164.846 90)
+			(at 77.47 162.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "KL_Footprints:C_0603"
+		(property "Footprint" "KL_Footprints:R_0603"
 			(at 77.47 164.338 90)
 			(effects
 				(font
@@ -8522,12 +8334,12 @@
 		(at 101.6 132.08 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
 		(uuid "2caf96ec-7735-4463-a1f0-b8ae089ff1e0")
 		(property "Reference" "R18"
-			(at 101.6 129.794 90)
+			(at 101.6 130.048 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8535,14 +8347,14 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 101.6 134.366 90)
+			(at 101.6 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "KL_Footprints:C_0603"
+		(property "Footprint" "KL_Footprints:R_0603"
 			(at 101.6 133.858 90)
 			(effects
 				(font
@@ -8663,7 +8475,7 @@
 		(dnp no)
 		(uuid "3d5dbe6b-9a90-41b5-96c7-ed62aebf348e")
 		(property "Reference" "R25"
-			(at 77.47 176.784 90)
+			(at 77.47 177.038 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8671,14 +8483,14 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 77.47 181.356 90)
+			(at 77.47 179.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "KL_Footprints:C_0603"
+		(property "Footprint" "KL_Footprints:R_0603"
 			(at 77.47 180.848 90)
 			(effects
 				(font
@@ -8990,7 +8802,7 @@
 		(at 135.89 50.8 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
 		(uuid "54efb2a0-151e-4fdd-8396-254aca9fdd53")
@@ -9003,14 +8815,14 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 135.89 52.832 90)
+			(at 135.89 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "KL_Footprints:C_0603"
+		(property "Footprint" "KL_Footprints:R_0603"
 			(at 135.89 52.578 90)
 			(effects
 				(font
@@ -10004,7 +9816,7 @@
 		(at 101.6 147.32 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
 		(uuid "a52124ee-5e80-4207-8367-7c1e2190ea44")
@@ -10017,14 +9829,14 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 101.6 149.606 90)
+			(at 101.6 147.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "KL_Footprints:C_0603"
+		(property "Footprint" "KL_Footprints:R_0603"
 			(at 101.6 149.098 90)
 			(effects
 				(font
@@ -10276,12 +10088,12 @@
 		(fields_autoplaced yes)
 		(uuid "b719bba6-0791-4660-8b43-387f806bd3dc")
 		(property "Reference" "U1"
-			(at 198.12 13.97 0)
+			(at 284.48 78.7399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
 		(property "Value" "~"
@@ -10290,9 +10102,10 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "Package_QFP:TQFP-128_14x14mm_P0.4mm"
+		(property "Footprint" "KL_Footprints:TQFP-128_14x14mm_P0.4mm"
 			(at 198.882 11.938 0)
 			(effects
 				(font
@@ -10735,7 +10548,7 @@
 		(at 101.6 154.94 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
 		(uuid "c2291a25-13e0-4a26-bb3f-9db892c95802")
@@ -10748,14 +10561,14 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 101.6 157.226 90)
+			(at 101.6 154.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "KL_Footprints:C_0603"
+		(property "Footprint" "KL_Footprints:R_0603"
 			(at 101.6 156.718 90)
 			(effects
 				(font
