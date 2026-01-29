@@ -5478,7 +5478,7 @@
 	)
 	(bus
 		(pts
-			(xy 49.53 129.54) (xy 55.88 129.54)
+			(xy 53.34 129.54) (xy 55.88 129.54)
 		)
 		(stroke
 			(width 0)
@@ -7458,9 +7458,9 @@
 		)
 		(uuid "9d17bcae-8c65-4174-9dbf-beda45791fc1")
 	)
-	(hierarchical_label "SPI_STM_SWITCH{MOSI,MISO,nCS,CLK}"
+	(hierarchical_label "SPI2_STM_SWITCH{MOSI,MISO,nCS,CLK}"
 		(shape bidirectional)
-		(at 49.53 129.54 180)
+		(at 53.34 129.54 180)
 		(effects
 			(font
 				(size 1.27 1.27)

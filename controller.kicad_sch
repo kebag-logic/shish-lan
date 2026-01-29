@@ -6790,7 +6790,7 @@
 		)
 		(uuid "1add7f22-f146-4cf5-92fc-f08d4b63f9a3")
 	)
-	(label "SPI_STM_SWITCH.MOSI"
+	(label "SPI2_STM_SWITCH.MOSI"
 		(at 179.07 129.54 180)
 		(effects
 			(font
@@ -6800,7 +6800,7 @@
 		)
 		(uuid "214552a8-5773-4c23-9530-ceead24c063c")
 	)
-	(label "SPI_STM_SWITCH.CLK"
+	(label "SPI2_STM_SWITCH.CLK"
 		(at 180.34 74.93 180)
 		(effects
 			(font
@@ -6870,7 +6870,7 @@
 		)
 		(uuid "5de0716d-4930-4e96-9cd9-617ecd28142e")
 	)
-	(label "SPI_STM_SWITCH.CLK"
+	(label "SPI2_STM_SWITCH.CLK"
 		(at 259.08 91.44 0)
 		(effects
 			(font
@@ -7050,7 +7050,7 @@
 		)
 		(uuid "b1d6ae4e-7bd5-4e25-aad4-0188ad69a88f")
 	)
-	(label "SPI_STM_SWITCH.MOSI"
+	(label "SPI2_STM_SWITCH.MOSI"
 		(at 259.08 96.52 0)
 		(effects
 			(font
@@ -7120,7 +7120,7 @@
 		)
 		(uuid "d681de7d-3b6e-40ba-9005-cc50031496ac")
 	)
-	(label "SPI_STM_SWITCH.nCS"
+	(label "SPI2_STM_SWITCH.nCS"
 		(at 259.08 93.98 0)
 		(effects
 			(font
@@ -7130,7 +7130,7 @@
 		)
 		(uuid "d6899213-f023-42e9-b107-78c16bdb7f6c")
 	)
-	(label "SPI_STM_SWITCH.MISO"
+	(label "SPI2_STM_SWITCH.MISO"
 		(at 259.08 99.06 0)
 		(effects
 			(font
@@ -7160,7 +7160,7 @@
 		)
 		(uuid "f08bc318-a0a8-48fb-919a-4421253e8eab")
 	)
-	(label "SPI_STM_SWITCH.MISO"
+	(label "SPI2_STM_SWITCH.MISO"
 		(at 179.07 127 180)
 		(effects
 			(font
@@ -7190,7 +7190,7 @@
 		)
 		(uuid "f907f20d-5f68-4d4b-88da-28547c23bab7")
 	)
-	(label "SPI_STM_SWITCH.nCS"
+	(label "SPI2_STM_SWITCH.nCS"
 		(at 180.34 72.39 180)
 		(effects
 			(font
@@ -7211,7 +7211,7 @@
 		)
 		(uuid "0319dfc8-48d7-487f-94a4-345ba349b7db")
 	)
-	(hierarchical_label "SPI_STM_SWITCH{MOSI,MISO,nCS,CLK}"
+	(hierarchical_label "SPI2_STM_SWITCH{MOSI,MISO,nCS,CLK}"
 		(shape bidirectional)
 		(at 207.01 85.09 0)
 		(effects

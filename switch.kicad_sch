@@ -5028,7 +5028,7 @@
 				(justify right)
 			)
 		)
-		(pin "SPI_STM_SWITCH{MOSI,MISO,nCS,CLK}" bidirectional
+		(pin "SPI2_STM_SWITCH{MOSI,MISO,nCS,CLK}" bidirectional
 			(at 102.87 92.71 90)
 			(uuid "ef8d76d0-bf3a-4695-808f-e4949d601db1")
 			(effects
