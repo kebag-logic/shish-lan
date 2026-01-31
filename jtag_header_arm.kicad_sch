@@ -3073,7 +3073,7 @@
 			"KKKKACiiigAooooAKKKKAP/Z"
 		)
 	)
-	(hierarchical_label "SWO{slash}TDO"
+	(hierarchical_label "SWO_TDO"
 		(shape bidirectional)
 		(at 124.46 78.74 180)
 		(effects
@@ -3084,7 +3084,7 @@
 		)
 		(uuid "3d5bc9c1-609a-4c81-ad9a-f60c87ee2e7c")
 	)
-	(hierarchical_label "SWCLK{slash}TCLK"
+	(hierarchical_label "SWCLK_TCLK"
 		(shape bidirectional)
 		(at 124.46 73.66 180)
 		(effects
@@ -3117,7 +3117,7 @@
 		)
 		(uuid "5de202d3-a4e8-4e39-8d5e-8540002dc4dc")
 	)
-	(hierarchical_label "SWDIO{slash}TMS"
+	(hierarchical_label "SWDIO_TMS"
 		(shape bidirectional)
 		(at 124.46 71.12 180)
 		(effects

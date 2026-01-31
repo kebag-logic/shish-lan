@@ -6700,7 +6700,7 @@
 		)
 		(uuid "02861d68-1455-40c0-a8ea-be69da16ed9a")
 	)
-	(label "SWDIO_STM_JTAG"
+	(label "SWDIO_TMS_JTM_JTAG"
 		(at 180.34 77.47 180)
 		(effects
 			(font
@@ -7000,7 +7000,7 @@
 		)
 		(uuid "a1be4006-8c53-407f-a5fb-0a2171c065d2")
 	)
-	(label "SWCLK_STM_JTAG"
+	(label "SWCLK_TCLK_STM_JTAG"
 		(at 222.25 133.35 0)
 		(effects
 			(font
@@ -7030,7 +7030,7 @@
 		)
 		(uuid "b19372a4-bc9b-41c4-97d0-97bb0d3873c3")
 	)
-	(label "SWDIO_STM_JTAG"
+	(label "SWDIO_TMS_JTM_JTAG"
 		(at 222.25 140.97 0)
 		(effects
 			(font
@@ -7060,7 +7060,7 @@
 		)
 		(uuid "c22338a8-6760-412f-b92d-82d5aae39656")
 	)
-	(label "SWCLK_STM_JTAG"
+	(label "SWCLK_TCLK_STM_JTAG"
 		(at 180.34 80.01 180)
 		(effects
 			(font
@@ -7080,7 +7080,7 @@
 		)
 		(uuid "ce3d2c9b-a84a-4d4f-af96-52367b55f68f")
 	)
-	(label "TDO_STM_JTAG"
+	(label "SWO_TDO_STM_JTAG"
 		(at 222.25 138.43 0)
 		(effects
 			(font
@@ -7100,7 +7100,7 @@
 		)
 		(uuid "d2952211-c738-4e91-8b06-1a57d2e68257")
 	)
-	(label "TDO_STM_JTAG"
+	(label "SWO_TDO_STM_JTAG"
 		(at 179.07 95.25 180)
 		(effects
 			(font
@@ -10435,7 +10435,7 @@
 				(justify left)
 			)
 		)
-		(pin "SWCLK{slash}TCLK" bidirectional
+		(pin "SWCLK_TCLK" bidirectional
 			(at 248.92 133.35 180)
 			(uuid "fb8f768b-14cf-4ce1-94c0-695a586a8095")
 			(effects
@@ -10455,7 +10455,7 @@
 				(justify left)
 			)
 		)
-		(pin "SWO{slash}TDO" bidirectional
+		(pin "SWO_TDO" bidirectional
 			(at 248.92 138.43 180)
 			(uuid "e21575ee-201d-42d9-90f3-62334045b15a")
 			(effects
@@ -10465,7 +10465,7 @@
 				(justify left)
 			)
 		)
-		(pin "SWDIO{slash}TMS" bidirectional
+		(pin "SWDIO_TMS" bidirectional
 			(at 248.92 140.97 180)
 			(uuid "fc45a6a2-ab2e-4793-8a42-3c07521465c2")
 			(effects
