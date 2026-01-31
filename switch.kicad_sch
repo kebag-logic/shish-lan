@@ -3465,16 +3465,6 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 134.62) (xy 213.36 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99810c37-5836-4e8a-9fd2-133fe161c422")
-	)
-	(wire
-		(pts
 			(xy 189.23 104.14) (xy 213.36 104.14)
 		)
 		(stroke
@@ -3482,16 +3472,6 @@
 			(type default)
 		)
 		(uuid "a4cc92ce-36cf-4abc-b7a7-a3997f7c85dd")
-	)
-	(wire
-		(pts
-			(xy 72.39 26.67) (xy 96.52 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af53273c-ce0e-40c8-a847-763ba61ab12c")
 	)
 	(wire
 		(pts
@@ -3743,26 +3723,6 @@
 		)
 		(uuid "5379f5e5-cb13-4edd-a9eb-cfc04290a5e9")
 	)
-	(label "CLK-25M_OSC"
-		(at 189.23 134.62 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "578c9af4-eabb-4276-8ab6-14d6b50817e1")
-	)
-	(label "CLK-25M_OSC"
-		(at 96.52 26.67 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5c587258-ed53-44d4-b7b5-356704cd7a22")
-	)
 	(label "EN-1V15_STM_TO_BUCK"
 		(at 189.23 104.14 0)
 		(effects
@@ -3864,17 +3824,6 @@
 			(justify right)
 		)
 		(uuid "15406626-2dea-41c6-a493-0fa9adb9242e")
-	)
-	(hierarchical_label "CLK-25M_OSC"
-		(shape input)
-		(at 72.39 26.67 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "627d7460-b834-4a77-9ac2-43649977b539")
 	)
 	(hierarchical_label "EN-1V15_STM_TO_BUCK"
 		(shape input)
@@ -5432,16 +5381,6 @@
 		(pin "nRST" input
 			(at 213.36 129.54 180)
 			(uuid "9c90ac20-eb56-439c-90b1-69d64df85e98")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "25M_CLKIN" input
-			(at 213.36 134.62 180)
-			(uuid "89d8fb63-cc11-4802-81ce-96aed233aa2e")
 			(effects
 				(font
 					(size 1.27 1.27)

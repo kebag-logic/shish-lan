@@ -9851,16 +9851,6 @@
 				(justify left)
 			)
 		)
-		(pin "CLK-25M_OSC" input
-			(at 185.42 49.53 180)
-			(uuid "845e959c-9175-42e8-a542-95b8f126a260")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "IRQ0_SWITCH_TO_STM" output
 			(at 185.42 63.5 180)
 			(uuid "e6f87d06-78fc-429f-b1ae-e0de94923aa4")
