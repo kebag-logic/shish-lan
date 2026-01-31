@@ -591,6 +591,9 @@
       "/controller/RGMII1_STM_SWITCH{TXD[0..3], TX_CLK, TX_CTLR, RXD[0..3], RX_CLK, RX_CTLR}": [
         "RGMII"
       ],
+      "/controller/RGMII1_SWITCH_STM.RXCTL-CRS_DV": [
+        "RGMII"
+      ],
       "/controller/RGMII1_SWITCH_STM.RXD0": [
         "RGMII"
       ],
@@ -609,6 +612,12 @@
       "/controller/RGMII1_SWITCH_STM.RX_CTLR": [
         "RGMII"
       ],
+      "/controller/RGMII1_SWITCH_STM.TXC-REFCLK": [
+        "RGMII"
+      ],
+      "/controller/RGMII1_SWITCH_STM.TXCTL-DX_DV": [
+        "RGMII"
+      ],
       "/controller/RGMII1_SWITCH_STM.TXD0": [
         "RGMII"
       ],
@@ -625,6 +634,9 @@
         "RGMII"
       ],
       "/controller/RGMII1_SWITCH_STM.TX_CTLR": [
+        "RGMII"
+      ],
+      "/controller/RGMII1_SWITCH_STM{TXD[0..3], TXC-REFCLK, TXCTL-DX_DV, RXD[0..3], RX_CLK, RXCTL-CRS_DV}": [
         "RGMII"
       ],
       "/controller/RGMII1_SWITCH_STM{TXD[0..3], TX_CLK, TX_CTLR, RXD[0..3], RX_CLK, RX_CTLR}": [
