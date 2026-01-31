@@ -3854,7 +3854,7 @@
 		)
 		(uuid "031b5649-b9ff-4a15-83d0-803473f8d0a2")
 	)
-	(hierarchical_label "SPI_STM_SWITCH{MOSI,MISO,nCS,CLK}"
+	(hierarchical_label "SPI2_STM_SWITCH{MOSI,MISO,nCS,CLK}"
 		(shape bidirectional)
 		(at 92.71 57.15 180)
 		(effects

@@ -6616,7 +6616,7 @@
 		)
 		(uuid "2726cd14-a128-4d67-9cef-181ec0f579eb")
 	)
-	(label "SPI_STM_SWITCH.MOSI"
+	(label "SPI2_STM_SWITCH.MOSI"
 		(at 59.69 154.94 0)
 		(effects
 			(font
@@ -6676,7 +6676,7 @@
 		)
 		(uuid "2f2aa201-8a66-4132-a08a-a9136281a6b9")
 	)
-	(label "SPI_STM_SWITCH.MISO"
+	(label "SPI2_STM_SWITCH.MISO"
 		(at 59.69 147.32 0)
 		(effects
 			(font
@@ -6776,7 +6776,7 @@
 		)
 		(uuid "5214cf52-b75e-4b09-a150-a533e118e5cf")
 	)
-	(label "SPI_STM_SWITCH.nCS"
+	(label "SPI2_STM_SWITCH.nCS"
 		(at 59.69 139.7 0)
 		(effects
 			(font
@@ -7146,7 +7146,7 @@
 		)
 		(uuid "d011d95e-cf44-4c8d-b14e-47d23cd88824")
 	)
-	(label "SPI_STM_SWITCH.CLK"
+	(label "SPI2_STM_SWITCH.CLK"
 		(at 59.69 132.08 0)
 		(effects
 			(font
