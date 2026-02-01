@@ -412,8 +412,8 @@
 					)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 3.81 0)
+			(property "Footprint" "KL_Footprints:BLM18P"
+				(at 6.858 16.002 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -421,8 +421,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 3.81 0)
+			(property "Datasheet" "https://pim.murata.com/asset/pim4/ferriteBeadInductortypefilter/ENFA0003_PDF_FERRITEBEADINDUCTORTYPEFILTER?lastModifiedDatetime=20250707190934"
+				(at 0.762 20.574 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -457,7 +457,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser" " 81-BLM18PG330SN1D"
+			(property "Mouser" "81-BLM18PG330SN1D"
 				(at -17.78 2.286 0)
 				(effects
 					(font
@@ -466,7 +466,7 @@
 					(hide yes)
 				)
 			)
-			(property "Digikey" "490-5220-2-ND;490-5220-1-ND;490-5220-6-ND"
+			(property "Digikey" "490-5220-1-ND"
 				(at -13.716 8.89 0)
 				(effects
 					(font
@@ -6843,8 +6843,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 57.15 146.05 0)
+		(property "Footprint" "KL_Footprints:BLM18P"
+			(at 64.008 133.858 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6852,8 +6852,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 57.15 146.05 0)
+		(property "Datasheet" "https://pim.murata.com/asset/pim4/ferriteBeadInductortypefilter/ENFA0003_PDF_FERRITEBEADINDUCTORTYPEFILTER?lastModifiedDatetime=20250707190934"
+			(at 57.912 129.286 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6888,7 +6888,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" " 81-BLM18PG330SN1D"
+		(property "Mouser" "81-BLM18PG330SN1D"
 			(at 39.37 147.574 0)
 			(effects
 				(font
@@ -6897,7 +6897,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "490-5220-2-ND;490-5220-1-ND;490-5220-6-ND"
+		(property "Digikey" "490-5220-1-ND"
 			(at 43.434 140.97 0)
 			(effects
 				(font
@@ -8788,8 +8788,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 57.15 87.63 0)
+		(property "Footprint" "KL_Footprints:BLM18P"
+			(at 64.008 75.438 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8797,8 +8797,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 57.15 87.63 0)
+		(property "Datasheet" "https://pim.murata.com/asset/pim4/ferriteBeadInductortypefilter/ENFA0003_PDF_FERRITEBEADINDUCTORTYPEFILTER?lastModifiedDatetime=20250707190934"
+			(at 57.912 70.866 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8833,7 +8833,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" " 81-BLM18PG330SN1D"
+		(property "Mouser" "81-BLM18PG330SN1D"
 			(at 39.37 89.154 0)
 			(effects
 				(font
@@ -8842,7 +8842,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "490-5220-2-ND;490-5220-1-ND;490-5220-6-ND"
+		(property "Digikey" "490-5220-1-ND"
 			(at 43.434 82.55 0)
 			(effects
 				(font
@@ -9664,8 +9664,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 127 43.18 0)
+		(property "Footprint" "KL_Footprints:BLM18P"
+			(at 133.858 30.988 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9673,8 +9673,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 127 43.18 0)
+		(property "Datasheet" "https://pim.murata.com/asset/pim4/ferriteBeadInductortypefilter/ENFA0003_PDF_FERRITEBEADINDUCTORTYPEFILTER?lastModifiedDatetime=20250707190934"
+			(at 127.762 26.416 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9709,7 +9709,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" " 81-BLM18PG330SN1D"
+		(property "Mouser" "81-BLM18PG330SN1D"
 			(at 109.22 44.704 0)
 			(effects
 				(font
@@ -9718,7 +9718,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "490-5220-2-ND;490-5220-1-ND;490-5220-6-ND"
+		(property "Digikey" "490-5220-1-ND"
 			(at 113.284 38.1 0)
 			(effects
 				(font
@@ -9995,8 +9995,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 57.15 116.84 0)
+		(property "Footprint" "KL_Footprints:BLM18P"
+			(at 64.008 104.648 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10004,8 +10004,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 57.15 116.84 0)
+		(property "Datasheet" "https://pim.murata.com/asset/pim4/ferriteBeadInductortypefilter/ENFA0003_PDF_FERRITEBEADINDUCTORTYPEFILTER?lastModifiedDatetime=20250707190934"
+			(at 57.912 100.076 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10040,7 +10040,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" " 81-BLM18PG330SN1D"
+		(property "Mouser" "81-BLM18PG330SN1D"
 			(at 39.37 118.364 0)
 			(effects
 				(font
@@ -10049,7 +10049,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "490-5220-2-ND;490-5220-1-ND;490-5220-6-ND"
+		(property "Digikey" "490-5220-1-ND"
 			(at 43.434 111.76 0)
 			(effects
 				(font
@@ -10657,8 +10657,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 57.15 58.42 0)
+		(property "Footprint" "KL_Footprints:BLM18P"
+			(at 64.008 46.228 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10666,8 +10666,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 57.15 58.42 0)
+		(property "Datasheet" "https://pim.murata.com/asset/pim4/ferriteBeadInductortypefilter/ENFA0003_PDF_FERRITEBEADINDUCTORTYPEFILTER?lastModifiedDatetime=20250707190934"
+			(at 57.912 41.656 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10702,7 +10702,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" " 81-BLM18PG330SN1D"
+		(property "Mouser" "81-BLM18PG330SN1D"
 			(at 39.37 59.944 0)
 			(effects
 				(font
@@ -10711,7 +10711,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "490-5220-2-ND;490-5220-1-ND;490-5220-6-ND"
+		(property "Digikey" "490-5220-1-ND"
 			(at 43.434 53.34 0)
 			(effects
 				(font
