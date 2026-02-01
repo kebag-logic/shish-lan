@@ -27,7 +27,7 @@
 					)
 				)
 			)
-			(property "Value" ""
+			(property "Value" "02x01_2.54mm_Header"
 				(at 0 0 0)
 				(effects
 					(font
@@ -55,6 +55,33 @@
 				)
 			)
 			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser" "571-872242"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Digikey" "A26543-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C5383111"
 				(at 0 0 0)
 				(effects
 					(font
@@ -148,7 +175,7 @@
 					)
 				)
 			)
-			(property "Value" ""
+			(property "Value" "LAN96455F-I/8MW"
 				(at 0 -16.51 0)
 				(effects
 					(font
@@ -184,8 +211,26 @@
 					(hide yes)
 				)
 			)
-			(property "manf#" "LAN96455F-I/8MW"
-				(at 15.24 9.398 0)
+			(property "Mouser" "579-LAN96455FI8MW"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Digikey" "150-LAN96455F-I/8MW-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" ""
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3909,7 +3954,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "02x01_2.54mm_Header"
 			(at 172.72 156.21 0)
 			(effects
 				(font
@@ -3937,6 +3982,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 172.72 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "571-872242"
+			(at 172.72 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "A26543-ND"
+			(at 172.72 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5383111"
 			(at 172.72 156.21 0)
 			(effects
 				(font
@@ -3984,7 +4056,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "02x01_2.54mm_Header"
 			(at 160.02 158.75 0)
 			(effects
 				(font
@@ -4012,6 +4084,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 160.02 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "571-872242"
+			(at 160.02 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "A26543-ND"
+			(at 160.02 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5383111"
 			(at 160.02 158.75 0)
 			(effects
 				(font
@@ -4322,7 +4421,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "LAN96455F-I/8MW"
 			(at 138.43 38.1 0)
 			(effects
 				(font
@@ -4358,8 +4457,26 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "LAN96455F-I/8MW"
-			(at 153.67 12.192 0)
+		(property "Mouser" "579-LAN96455FI8MW"
+			(at 138.43 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "150-LAN96455F-I/8MW-ND"
+			(at 138.43 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 138.43 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -24,7 +24,7 @@
 					)
 				)
 			)
-			(property "Value" ""
+			(property "Value" "LAN96455F-I/8MW"
 				(at 0 -16.51 0)
 				(effects
 					(font
@@ -60,8 +60,26 @@
 					(hide yes)
 				)
 			)
-			(property "manf#" "LAN96455F-I/8MW"
-				(at 15.24 9.398 0)
+			(property "Mouser" "579-LAN96455FI8MW"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Digikey" "150-LAN96455F-I/8MW-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" ""
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4600,6 +4618,42 @@
 				(hide yes)
 			)
 		)
+		(property "Dielectric" ""
+			(at 17.78 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric_type" ""
+			(at 17.78 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS" ""
+			(at 17.78 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Max Current" ""
+			(at 17.78 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "80306a0e-95da-4088-8443-85fb953f6f89")
 		)
@@ -4639,7 +4693,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "LAN96455F-I/8MW"
 			(at 55.88 143.51 0)
 			(effects
 				(font
@@ -4675,8 +4729,26 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "LAN96455F-I/8MW"
-			(at 40.64 169.418 0)
+		(property "Mouser" "579-LAN96455FI8MW"
+			(at 55.88 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "150-LAN96455F-I/8MW-ND"
+			(at 55.88 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 55.88 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)

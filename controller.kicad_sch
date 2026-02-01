@@ -249,7 +249,7 @@
 					(hide yes)
 				)
 			)
-			(property "Tolerance" ""
+			(property "Tolerance" "10"
 				(at 0 0 0)
 				(effects
 					(font
@@ -258,7 +258,7 @@
 					(hide yes)
 				)
 			)
-			(property "Voltage" ""
+			(property "Voltage" "16"
 				(at 0 0 0)
 				(effects
 					(font
@@ -267,7 +267,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser" ""
+			(property "Mouser" "963-EMK107BJ225KA-T"
 				(at 0 0 0)
 				(effects
 					(font
@@ -276,7 +276,7 @@
 					(hide yes)
 				)
 			)
-			(property "Digikey" ""
+			(property "Digikey" "587-1430-1-ND"
 				(at 0 0 0)
 				(effects
 					(font
@@ -285,7 +285,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC" ""
+			(property "LCSC" "C76612"
 				(at 0 0 0)
 				(effects
 					(font
@@ -451,7 +451,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser" " 80-C0603C475K8PAC "
+			(property "Mouser" "80-C0603C475K8PACLR"
 				(at 0 0 0)
 				(effects
 					(font
@@ -577,7 +577,7 @@
 					)
 				)
 			)
-			(property "Value" ""
+			(property "Value" "03x01_2.54mm_Header"
 				(at 0 1.27 0)
 				(effects
 					(font
@@ -606,6 +606,33 @@
 			)
 			(property "Description" ""
 				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser" "571-872243"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Digikey" "A26545-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C429954"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -730,7 +757,7 @@
 					)
 				)
 			)
-			(property "Value" ""
+			(property "Value" "07x01_2.54mm_Header"
 				(at 0 1.27 0)
 				(effects
 					(font
@@ -759,6 +786,33 @@
 			)
 			(property "Description" ""
 				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser" "200-TLW10706GS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Digikey" "SAM1100-07-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C25503132"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -997,7 +1051,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "STM32H742VGTx"
+			(property "Value" "STM32H742VGT6"
 				(at 4.6833 -71.12 0)
 				(effects
 					(font
@@ -1026,6 +1080,33 @@
 				)
 			)
 			(property "Description" "STMicroelectronics Arm Cortex-M7 MCU, 1024KB flash, 692KB RAM, 480 MHz, 1.71-3.6V, 82 GPIO, LQFP100"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser" "511-STM32H742VGT6"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Digikey" "497-STM32H742VGT6-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C730175"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4312,7 +4393,7 @@
 				(hide yes)
 			)
 			(exclude_from_sim no)
-			(in_bom yes)
+			(in_bom no)
 			(on_board yes)
 			(property "Reference" "TP"
 				(at 0 5.715 0)
@@ -8212,7 +8293,7 @@
 		(at 41.91 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -8327,7 +8408,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" ""
+		(property "Tolerance" "10"
 			(at 49.53 173.99 0)
 			(effects
 				(font
@@ -8336,7 +8417,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage" ""
+		(property "Voltage" "16"
 			(at 49.53 173.99 0)
 			(effects
 				(font
@@ -8345,7 +8426,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" ""
+		(property "Mouser" "963-EMK107BJ225KA-T"
 			(at 49.53 173.99 0)
 			(effects
 				(font
@@ -8354,7 +8435,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" ""
+		(property "Digikey" "587-1430-1-ND"
 			(at 49.53 173.99 0)
 			(effects
 				(font
@@ -8363,7 +8444,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C76612"
 			(at 49.53 173.99 0)
 			(effects
 				(font
@@ -8553,6 +8634,42 @@
 				(hide yes)
 			)
 		)
+		(property "Dielectric" ""
+			(at 228.6 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric_type" ""
+			(at 228.6 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS" ""
+			(at 228.6 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Max Current" ""
+			(at 228.6 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3b2ca3c7-c2a2-4ded-86e2-3965c936577d")
 		)
@@ -8688,7 +8805,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" ""
+		(property "Tolerance" "10"
 			(at 49.53 162.56 0)
 			(effects
 				(font
@@ -8697,7 +8814,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage" ""
+		(property "Voltage" "16"
 			(at 49.53 162.56 0)
 			(effects
 				(font
@@ -8706,7 +8823,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" ""
+		(property "Mouser" "963-EMK107BJ225KA-T"
 			(at 49.53 162.56 0)
 			(effects
 				(font
@@ -8715,7 +8832,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" ""
+		(property "Digikey" "587-1430-1-ND"
 			(at 49.53 162.56 0)
 			(effects
 				(font
@@ -8724,7 +8841,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C76612"
 			(at 49.53 162.56 0)
 			(effects
 				(font
@@ -8833,7 +8950,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "03x01_2.54mm_Header"
 			(at 190.5 71.12 0)
 			(effects
 				(font
@@ -8862,6 +8979,33 @@
 		)
 		(property "Description" ""
 			(at 190.5 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "571-872243"
+			(at 190.5 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "A26545-ND"
+			(at 190.5 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C429954"
+			(at 190.5 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8995,6 +9139,42 @@
 		)
 		(property "Package (in)" "0603"
 			(at 139.7 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" ""
+			(at 139.7 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric_type" ""
+			(at 139.7 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS" ""
+			(at 139.7 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Max Current" ""
+			(at 139.7 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9183,6 +9363,42 @@
 				(hide yes)
 			)
 		)
+		(property "Dielectric" ""
+			(at 177.8 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric_type" ""
+			(at 177.8 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS" ""
+			(at 177.8 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Max Current" ""
+			(at 177.8 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6ca0f314-2eb8-4fbe-a5fd-26fa153061df")
 		)
@@ -9206,9 +9422,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "672f6f9e-f3c9-4fc9-a326-ced84da575bc")
 		(property "Reference" "J10"
-			(at 212.09 77.7876 0)
+			(at 212.09 77.7874 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9216,7 +9433,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "07x01_2.54mm_Header"
 			(at 215.9 86.36 0)
 			(effects
 				(font
@@ -9245,6 +9462,33 @@
 		)
 		(property "Description" ""
 			(at 215.9 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "200-TLW10706GS"
+			(at 215.9 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "SAM1100-07-ND"
+			(at 215.9 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25503132"
+			(at 215.9 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9382,6 +9626,42 @@
 				(hide yes)
 			)
 		)
+		(property "Dielectric" ""
+			(at 252.73 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric_type" ""
+			(at 252.73 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS" ""
+			(at 252.73 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Max Current" ""
+			(at 252.73 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a8cf0296-2444-460e-88a6-f298a9865819")
 		)
@@ -9497,6 +9777,42 @@
 				(hide yes)
 			)
 		)
+		(property "Dielectric" ""
+			(at 215.9 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric_type" ""
+			(at 215.9 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS" ""
+			(at 215.9 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Max Current" ""
+			(at 215.9 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9e498dab-2cf6-47ce-8084-49ebecc21086")
 		)
@@ -9517,7 +9833,7 @@
 		(at 41.91 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -9694,6 +10010,42 @@
 				(hide yes)
 			)
 		)
+		(property "Dielectric" ""
+			(at 133.35 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric_type" ""
+			(at 133.35 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS" ""
+			(at 133.35 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Max Current" ""
+			(at 133.35 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2cf95705-84d2-4f7c-ab0d-dbd0a616a3b3")
 		)
@@ -9809,6 +10161,42 @@
 				(hide yes)
 			)
 		)
+		(property "Dielectric" ""
+			(at 190.5 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric_type" ""
+			(at 190.5 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS" ""
+			(at 190.5 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Max Current" ""
+			(at 190.5 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "15c0833f-7226-4df4-b73e-8870d6037812")
 		)
@@ -9897,7 +10285,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" " 80-C0603C475K8PAC "
+		(property "Mouser" "80-C0603C475K8PACLR"
 			(at 264.16 20.32 0)
 			(effects
 				(font
@@ -10054,6 +10442,42 @@
 				(hide yes)
 			)
 		)
+		(property "Dielectric" ""
+			(at 55.88 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric_type" ""
+			(at 55.88 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS" ""
+			(at 55.88 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Max Current" ""
+			(at 55.88 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ca2e75b7-7407-49f5-ba29-da959e9885fe")
 		)
@@ -10177,6 +10601,42 @@
 		)
 		(property "Package (in)" "0603"
 			(at 147.32 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" ""
+			(at 147.32 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric_type" ""
+			(at 147.32 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS" ""
+			(at 147.32 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Max Current" ""
+			(at 147.32 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10317,6 +10777,42 @@
 				(hide yes)
 			)
 		)
+		(property "Dielectric" ""
+			(at 48.26 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric_type" ""
+			(at 48.26 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS" ""
+			(at 48.26 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Max Current" ""
+			(at 48.26 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "22f66eaf-f4f7-4e1a-9bb4-86a5c6d994d0")
 		)
@@ -10432,6 +10928,42 @@
 				(hide yes)
 			)
 		)
+		(property "Dielectric" ""
+			(at 241.3 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric_type" ""
+			(at 241.3 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS" ""
+			(at 241.3 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Max Current" ""
+			(at 241.3 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "84e02e71-f365-41ba-8756-58ef13cf16a6")
 		)
@@ -10452,7 +10984,7 @@
 		(at 77.47 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -10533,7 +11065,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "STM32H742VGTx"
+		(property "Value" "STM32H742VGT6"
 			(at 106.2833 179.07 0)
 			(effects
 				(font
@@ -10562,6 +11094,33 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M7 MCU, 1024KB flash, 692KB RAM, 480 MHz, 1.71-3.6V, 82 GPIO, LQFP100"
+			(at 101.6 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "511-STM32H742VGT6"
+			(at 101.6 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "497-STM32H742VGT6-ND"
+			(at 101.6 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C730175"
 			(at 101.6 107.95 0)
 			(effects
 				(font
@@ -10897,7 +11456,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "03x01_2.54mm_Header"
 			(at 43.18 44.45 0)
 			(effects
 				(font
@@ -10933,6 +11492,33 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" "571-872243"
+			(at 43.18 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "A26545-ND"
+			(at 43.18 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C429954"
+			(at 43.18 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "a0a257fd-70d3-40b0-a854-3e4848ec5a49")
 		)
@@ -10956,7 +11542,7 @@
 		(at 41.91 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -11037,7 +11623,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "07x01_2.54mm_Header"
 			(at 215.9 67.31 0)
 			(effects
 				(font
@@ -11066,6 +11652,33 @@
 		)
 		(property "Description" ""
 			(at 215.9 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "200-TLW10706GS"
+			(at 215.9 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "SAM1100-07-ND"
+			(at 215.9 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25503132"
+			(at 215.9 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11203,6 +11816,42 @@
 				(hide yes)
 			)
 		)
+		(property "Dielectric" ""
+			(at 203.2 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric_type" ""
+			(at 203.2 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS" ""
+			(at 203.2 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Max Current" ""
+			(at 203.2 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3a3ade3c-34fa-410c-b60d-fecefdf1a59b")
 		)
@@ -11271,7 +11920,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" ""
+		(property "Tolerance" "10"
 			(at 49.53 139.7 0)
 			(effects
 				(font
@@ -11280,7 +11929,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage" ""
+		(property "Voltage" "16"
 			(at 49.53 139.7 0)
 			(effects
 				(font
@@ -11289,7 +11938,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" ""
+		(property "Mouser" "963-EMK107BJ225KA-T"
 			(at 49.53 139.7 0)
 			(effects
 				(font
@@ -11298,7 +11947,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" ""
+		(property "Digikey" "587-1430-1-ND"
 			(at 49.53 139.7 0)
 			(effects
 				(font
@@ -11307,7 +11956,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C76612"
 			(at 49.53 139.7 0)
 			(effects
 				(font
@@ -11450,7 +12099,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" ""
+		(property "Tolerance" "10"
 			(at 49.53 151.13 0)
 			(effects
 				(font
@@ -11459,7 +12108,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage" ""
+		(property "Voltage" "16"
 			(at 49.53 151.13 0)
 			(effects
 				(font
@@ -11468,7 +12117,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" ""
+		(property "Mouser" "963-EMK107BJ225KA-T"
 			(at 49.53 151.13 0)
 			(effects
 				(font
@@ -11477,7 +12126,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" ""
+		(property "Digikey" "587-1430-1-ND"
 			(at 49.53 151.13 0)
 			(effects
 				(font
@@ -11486,7 +12135,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C76612"
 			(at 49.53 151.13 0)
 			(effects
 				(font
@@ -11647,7 +12296,7 @@
 		(at 41.91 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
