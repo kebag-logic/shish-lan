@@ -1428,7 +1428,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 78.74) (xy 127 78.74)
+			(xy 109.22 78.74) (xy 127 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1468,7 +1468,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 66.04) (xy 119.38 66.04)
+			(xy 109.22 62.23) (xy 111.76 62.23)
 		)
 		(stroke
 			(width 0)
@@ -1498,7 +1498,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 68.58) (xy 127 68.58)
+			(xy 109.22 68.58) (xy 127 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1528,6 +1528,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 62.23) (xy 120.65 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f28e11e-58ab-4da4-af98-0950d1b55080")
+	)
+	(wire
+		(pts
 			(xy 139.7 68.58) (xy 139.7 71.12)
 		)
 		(stroke
@@ -1548,7 +1558,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 73.66) (xy 127 73.66)
+			(xy 109.22 73.66) (xy 127 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1578,13 +1588,23 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 81.28) (xy 127 81.28)
+			(xy 109.22 81.28) (xy 127 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "be9cbefa-b170-4375-8e1a-2fabe4f41f9f")
+	)
+	(wire
+		(pts
+			(xy 120.65 66.04) (xy 127 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c202d35b-9e97-484f-9de7-ba66b24647a1")
 	)
 	(wire
 		(pts
@@ -1638,7 +1658,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 71.12) (xy 127 71.12)
+			(xy 109.22 71.12) (xy 127 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1685,6 +1705,16 @@
 			(type default)
 		)
 		(uuid "e3bdded7-45a9-469b-9c49-0a0d1b387c49")
+	)
+	(wire
+		(pts
+			(xy 120.65 62.23) (xy 120.65 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3ff183a-0908-42e4-ab1a-806ac8e0cb42")
 	)
 	(wire
 		(pts
@@ -3298,7 +3328,7 @@
 	)
 	(hierarchical_label "SWO_TDO"
 		(shape bidirectional)
-		(at 124.46 78.74 180)
+		(at 109.22 78.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3309,7 +3339,7 @@
 	)
 	(hierarchical_label "SWCLK_TCLK"
 		(shape bidirectional)
-		(at 114.3 73.66 180)
+		(at 109.22 73.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3320,7 +3350,7 @@
 	)
 	(hierarchical_label "TDI"
 		(shape bidirectional)
-		(at 114.3 68.58 180)
+		(at 109.22 68.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3331,7 +3361,7 @@
 	)
 	(hierarchical_label "RESET"
 		(shape bidirectional)
-		(at 124.46 81.28 180)
+		(at 109.22 81.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3342,7 +3372,7 @@
 	)
 	(hierarchical_label "SWDIO_TMS"
 		(shape bidirectional)
-		(at 114.3 71.12 180)
+		(at 109.22 71.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3353,7 +3383,7 @@
 	)
 	(hierarchical_label "TRST"
 		(shape bidirectional)
-		(at 114.3 66.04 180)
+		(at 109.22 62.23 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3364,7 +3394,7 @@
 	)
 	(symbol
 		(lib_id "KL_R:R_0R_2W_5_2512")
-		(at 123.19 66.04 90)
+		(at 115.57 62.23 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3372,7 +3402,7 @@
 		(dnp no)
 		(uuid "141dae8a-170a-4632-96bf-e20eff6ab32c")
 		(property "Reference" "R112"
-			(at 123.19 64.008 90)
+			(at 115.57 60.198 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3380,7 +3410,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 123.19 67.564 90)
+			(at 115.57 64.516 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3388,7 +3418,7 @@
 			)
 		)
 		(property "Footprint" "KL_Footprints:R_2512"
-			(at 123.19 67.818 90)
+			(at 115.57 64.008 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3397,7 +3427,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 123.19 66.04 0)
+			(at 115.57 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3406,7 +3436,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 123.19 66.04 0)
+			(at 115.57 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3415,7 +3445,7 @@
 			)
 		)
 		(property "Power" "2"
-			(at 123.19 66.04 0)
+			(at 115.57 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3424,7 +3454,7 @@
 			)
 		)
 		(property "Tolerance" "5"
-			(at 123.19 66.04 0)
+			(at 115.57 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3433,7 +3463,7 @@
 			)
 		)
 		(property "Mouser" "652-CRF2512-J-000ELF "
-			(at 123.19 66.04 0)
+			(at 115.57 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3442,7 +3472,7 @@
 			)
 		)
 		(property "Digikey" "118-CRF2512-J/-000ELFCT-ND"
-			(at 123.19 66.04 0)
+			(at 115.57 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3451,7 +3481,7 @@
 			)
 		)
 		(property "LCSC" "C2778666"
-			(at 123.19 66.04 0)
+			(at 115.57 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3460,7 +3490,7 @@
 			)
 		)
 		(property "Farnell" ""
-			(at 123.19 66.04 0)
+			(at 115.57 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3469,7 +3499,7 @@
 			)
 		)
 		(property "Package (in)" "2512"
-			(at 123.19 66.04 0)
+			(at 115.57 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3478,7 +3508,7 @@
 			)
 		)
 		(property "Dielectric" ""
-			(at 123.19 66.04 90)
+			(at 115.57 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3487,7 +3517,7 @@
 			)
 		)
 		(property "Dielectric_type" ""
-			(at 123.19 66.04 90)
+			(at 115.57 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3496,7 +3526,7 @@
 			)
 		)
 		(property "LSCS" ""
-			(at 123.19 66.04 90)
+			(at 115.57 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3505,7 +3535,7 @@
 			)
 		)
 		(property "Max Current" ""
-			(at 123.19 66.04 90)
+			(at 115.57 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)

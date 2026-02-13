@@ -989,46 +989,6 @@
 		)
 		(uuid "9ac2105e-0389-42e3-b5ea-310511a14dc6")
 	)
-	(text_box "25MHz, in the case the clock is on the CPU part"
-		(exclude_from_sim no)
-		(at 185.42 27.94 0)
-		(size 30.48 12.7)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "b2d92238-fef0-4c2d-862f-2ba1a0c3a23d")
-	)
-	(text_box "PTP3 is shared with IRQ0, but not at the same time. A 0R is taking care of it."
-		(exclude_from_sim no)
-		(at 217.17 27.94 0)
-		(size 45.72 12.7)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "cdc2eb65-833c-48c2-8062-6a671f4c457a")
-	)
 	(text_box "The Application note, shows that using the TXC_CLK for RMII as a reference clock is good.\nLAN9645xF: Page DS00006273A-page 18\nSTM32H7: RM0477 Rev 9 403 Figure 64\n"
 		(exclude_from_sim no)
 		(at 187.96 109.22 0)
