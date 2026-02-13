@@ -4864,16 +4864,6 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 83.82) (xy 261.62 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "164b0a96-7daa-434b-89d4-08637f8582c8")
-	)
-	(wire
-		(pts
 			(xy 50.8 149.86) (xy 53.34 149.86)
 		)
 		(stroke
@@ -5154,7 +5144,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 46.99) (xy 114.3 46.99)
+			(xy 102.87 46.99) (xy 123.19 46.99)
 		)
 		(stroke
 			(width 0)
@@ -5494,7 +5484,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 83.82) (xy 226.06 83.82)
+			(xy 222.25 83.82) (xy 261.62 83.82)
 		)
 		(stroke
 			(width 0)
@@ -5521,16 +5511,6 @@
 			(type default)
 		)
 		(uuid "8da30b3a-f167-4374-959e-cb11131b34e9")
-	)
-	(wire
-		(pts
-			(xy 121.92 46.99) (xy 123.19 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "906fbcce-3e18-4551-b233-19f17baeb12f")
 	)
 	(wire
 		(pts
@@ -9638,178 +9618,6 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_R:R_0R_2W_5_2512")
-		(at 229.87 83.82 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "86099297-7cda-4b08-aac6-1899c69728a6")
-		(property "Reference" "R89"
-			(at 229.87 81.788 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 229.87 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "KL_Footprints:R_2512"
-			(at 229.87 85.598 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 229.87 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 229.87 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" "2"
-			(at 229.87 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "5"
-			(at 229.87 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "652-CRF2512-J-000ELF "
-			(at 229.87 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "118-CRF2512-J/-000ELFCT-ND"
-			(at 229.87 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2778666"
-			(at 229.87 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Farnell" ""
-			(at 229.87 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package (in)" "2512"
-			(at 229.87 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" ""
-			(at 229.87 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" ""
-			(at 229.87 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS" ""
-			(at 229.87 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max Current" ""
-			(at 229.87 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9996c1da-b000-4b72-873f-0c5379846c2b")
-		)
-		(pin "2"
-			(uuid "9f7aa545-daea-426c-99f3-cdc760e4ffd0")
-		)
-		(instances
-			(project "switch"
-				(path "/cd936d40-9035-4ec8-bcf8-38758f995fb0/d7edf10b-e7e7-437a-ab6c-966f29ad8f7f"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-			(project "shish-lan"
-				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/d7edf10b-e7e7-437a-ab6c-966f29ad8f7f"
-					(reference "R89")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "KL_R:R_0R_100mW_5_0603")
 		(at 154.94 137.16 90)
 		(unit 1)
@@ -11091,178 +10899,6 @@
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/d7edf10b-e7e7-437a-ab6c-966f29ad8f7f"
 					(reference "FB4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "KL_R:R_0R_2W_5_2512")
-		(at 118.11 46.99 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "df1026f4-cd53-41bf-b1d7-5d7bb46d9488")
-		(property "Reference" "R87"
-			(at 118.11 44.958 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 118.11 46.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "KL_Footprints:R_2512"
-			(at 118.11 48.768 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 118.11 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 118.11 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" "2"
-			(at 118.11 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "5"
-			(at 118.11 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "652-CRF2512-J-000ELF "
-			(at 118.11 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "118-CRF2512-J/-000ELFCT-ND"
-			(at 118.11 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2778666"
-			(at 118.11 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Farnell" ""
-			(at 118.11 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package (in)" "2512"
-			(at 118.11 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" ""
-			(at 118.11 46.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" ""
-			(at 118.11 46.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS" ""
-			(at 118.11 46.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max Current" ""
-			(at 118.11 46.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4ecc3fd1-e9a2-4943-b229-3dd873c18c25")
-		)
-		(pin "2"
-			(uuid "677dbb2a-8e29-4f62-9dc0-c985f8b78d81")
-		)
-		(instances
-			(project "switch"
-				(path "/cd936d40-9035-4ec8-bcf8-38758f995fb0/d7edf10b-e7e7-437a-ab6c-966f29ad8f7f"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-			(project "shish-lan"
-				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/d7edf10b-e7e7-437a-ab6c-966f29ad8f7f"
-					(reference "R87")
 					(unit 1)
 				)
 			)
