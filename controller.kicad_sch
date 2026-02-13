@@ -5822,7 +5822,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 31.75) (xy 93.98 31.75)
+			(xy 72.39 31.75) (xy 76.2 31.75)
 		)
 		(stroke
 			(width 0)
@@ -6742,6 +6742,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 31.75) (xy 93.98 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96eb2ae2-72d7-4dac-8464-119d0aa0104d")
+	)
+	(wire
+		(pts
 			(xy 219.71 66.04) (xy 220.98 66.04)
 		)
 		(stroke
@@ -6999,16 +7009,6 @@
 			(type default)
 		)
 		(uuid "bfbd9476-b54e-417e-996f-ddd3007e22e0")
-	)
-	(wire
-		(pts
-			(xy 44.45 54.61) (xy 52.07 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bfc7ba71-84be-4d2d-a03a-37b43c03bb76")
 	)
 	(wire
 		(pts
@@ -8157,7 +8157,7 @@
 	)
 	(hierarchical_label "VDD"
 		(shape input)
-		(at 90.17 31.75 180)
+		(at 72.39 31.75 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8212,7 +8212,7 @@
 	)
 	(hierarchical_label "VDD"
 		(shape input)
-		(at 44.45 54.61 180)
+		(at 59.69 54.61 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10329,7 +10329,7 @@
 	)
 	(symbol
 		(lib_id "KL_R:R_0R_2W_5_2512")
-		(at 55.88 54.61 90)
+		(at 80.01 31.75 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10337,7 +10337,7 @@
 		(dnp no)
 		(uuid "a3924d81-0675-4d12-b0ee-62513a48b656")
 		(property "Reference" "R108"
-			(at 55.88 52.578 90)
+			(at 80.01 29.718 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10345,7 +10345,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 55.88 56.896 90)
+			(at 80.01 34.036 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10353,7 +10353,7 @@
 			)
 		)
 		(property "Footprint" "KL_Footprints:R_2512"
-			(at 55.88 56.388 90)
+			(at 80.01 33.528 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10362,7 +10362,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 55.88 54.61 0)
+			(at 80.01 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10371,7 +10371,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 55.88 54.61 0)
+			(at 80.01 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10380,7 +10380,7 @@
 			)
 		)
 		(property "Power" "2"
-			(at 55.88 54.61 0)
+			(at 80.01 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10389,7 +10389,7 @@
 			)
 		)
 		(property "Tolerance" "5"
-			(at 55.88 54.61 0)
+			(at 80.01 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10398,7 +10398,7 @@
 			)
 		)
 		(property "Mouser" "652-CRF2512-J-000ELF "
-			(at 55.88 54.61 0)
+			(at 80.01 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10407,7 +10407,7 @@
 			)
 		)
 		(property "Digikey" "118-CRF2512-J/-000ELFCT-ND"
-			(at 55.88 54.61 0)
+			(at 80.01 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10416,7 +10416,7 @@
 			)
 		)
 		(property "LCSC" "C2778666"
-			(at 55.88 54.61 0)
+			(at 80.01 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10425,7 +10425,7 @@
 			)
 		)
 		(property "Farnell" ""
-			(at 55.88 54.61 0)
+			(at 80.01 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10434,7 +10434,7 @@
 			)
 		)
 		(property "Package (in)" "2512"
-			(at 55.88 54.61 0)
+			(at 80.01 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10443,7 +10443,7 @@
 			)
 		)
 		(property "Dielectric" ""
-			(at 55.88 54.61 90)
+			(at 80.01 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10452,7 +10452,7 @@
 			)
 		)
 		(property "Dielectric_type" ""
-			(at 55.88 54.61 90)
+			(at 80.01 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10461,7 +10461,7 @@
 			)
 		)
 		(property "LSCS" ""
-			(at 55.88 54.61 90)
+			(at 80.01 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10470,7 +10470,7 @@
 			)
 		)
 		(property "Max Current" ""
-			(at 55.88 54.61 90)
+			(at 80.01 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
