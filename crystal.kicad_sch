@@ -5,9 +5,11 @@
 	(uuid "e53b0377-01fb-4c11-993f-7cf9d93e9aad")
 	(paper "A4")
 	(title_block
+		(title "Oscillator 25MHz")
 		(date "2025-12-14")
 		(rev "rev A")
 		(company "Kebag-logic <contact@kebag-logic.com>")
+		(comment 1 "Confidential")
 	)
 	(lib_symbols
 		(symbol "KL_C:C_10p_25V_C0G_0603_5"
