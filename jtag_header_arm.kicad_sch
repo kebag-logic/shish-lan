@@ -5,9 +5,11 @@
 	(uuid "22939bfd-1f28-4fae-8003-d9adb70cee78")
 	(paper "A4")
 	(title_block
+		(title "STM32 JTAG Header")
 		(date "2025-12-14")
 		(rev "rev A")
 		(company "Kebag-logic <contact@kebag-logic.com>")
+		(comment 1 "Condidential")
 	)
 	(lib_symbols
 		(symbol "KL_Headers:02x10_2.54mm_Header_Odd_Even"
