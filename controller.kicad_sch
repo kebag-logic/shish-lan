@@ -5,9 +5,11 @@
 	(uuid "29b990f6-583e-4811-9a16-02e4c37108b8")
 	(paper "A4")
 	(title_block
+		(title "Controller")
 		(date "2025-12-14")
 		(rev "rev A")
 		(company "Kebag-logic <contact@kebag-logic.com>")
+		(comment 1 "Confidential")
 	)
 	(lib_symbols
 		(symbol "KL_C:C_100n_10V_X7R_0603_10"
