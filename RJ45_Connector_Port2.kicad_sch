@@ -40,7 +40,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(property "Footprint" "KL_Footprints:C_0603"
 				(at 0.9652 -3.81 0)
 				(effects
 					(font
@@ -222,7 +222,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "0826-1X4T-43-F:BEL_0826-1X4T-43-F"
+			(property "Footprint" "KL_Footprints:BEL_0826-1X4T-43-F"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3793,7 +3793,7 @@
 					)
 				)
 			)
-			(property "Footprint" "KL_Footprints:C_0603"
+			(property "Footprint" "KL_Footprints:R_0603"
 				(at -1.778 0 90)
 				(effects
 					(font
@@ -4509,24 +4509,27 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "5fc75894-ea5a-4335-9c0f-83eebded41b3")
 		(property "Reference" "C13"
-			(at 80.01 58.674 90)
+			(at 77.47 61.595 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "100n"
-			(at 80.01 65.532 90)
+			(at 82.55 61.595 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "KL_Footprints:C_0603"
 			(at 83.82 61.2648 0)
 			(effects
 				(font
@@ -4598,7 +4601,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance_in_pct" "10"
+		(property "Dielectric" ""
 			(at 80.01 62.23 0)
 			(effects
 				(font
@@ -4607,7 +4610,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" "X7R"
+		(property "Dielectric_type" ""
 			(at 80.01 62.23 0)
 			(effects
 				(font
@@ -4616,7 +4619,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package_in_inch" "0603"
+		(property "LSCS" ""
 			(at 80.01 62.23 0)
 			(effects
 				(font
@@ -4625,7 +4628,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell" "4539043"
+		(property "Max Current" ""
 			(at 80.01 62.23 0)
 			(effects
 				(font
@@ -4659,7 +4662,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "68a2edd2-7a32-4294-9d23-330dcba478dd")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR67"
 			(at 68.58 72.39 0)
 			(effects
 				(font
@@ -4710,7 +4713,7 @@
 		(instances
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/cbb6064c-9387-4840-bb4d-7326af14ff9d/c1ae1852-a19a-4dbd-815f-e5a475cf92f5"
-					(reference "#PWR067")
+					(reference "#PWR67")
 					(unit 1)
 				)
 			)
@@ -4724,24 +4727,27 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "92e255a3-2c70-4e8f-9fe6-00e69693c944")
 		(property "Reference" "C11"
-			(at 80.01 38.354 90)
+			(at 77.724 37.338 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "100n"
-			(at 80.01 45.212 90)
+			(at 82.804 36.322 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "KL_Footprints:C_0603"
 			(at 76.2 42.8752 0)
 			(effects
 				(font
@@ -4813,7 +4819,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance_in_pct" "10"
+		(property "Dielectric" ""
 			(at 80.01 41.91 0)
 			(effects
 				(font
@@ -4822,7 +4828,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" "X7R"
+		(property "Dielectric_type" ""
 			(at 80.01 41.91 0)
 			(effects
 				(font
@@ -4831,7 +4837,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package_in_inch" "0603"
+		(property "LSCS" ""
 			(at 80.01 41.91 0)
 			(effects
 				(font
@@ -4840,7 +4846,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell" "4539043"
+		(property "Max Current" ""
 			(at 80.01 41.91 0)
 			(effects
 				(font
@@ -4874,7 +4880,7 @@
 		(dnp no)
 		(uuid "94e6a16b-6bef-4cc0-9cb7-ee95407f5b05")
 		(property "Reference" "R3"
-			(at 119.38 77.724 90)
+			(at 119.38 77.978 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4882,14 +4888,14 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 119.38 82.296 90)
+			(at 119.38 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "KL_Footprints:C_0603"
+		(property "Footprint" "KL_Footprints:R_0603"
 			(at 119.38 81.788 90)
 			(effects
 				(font
@@ -4979,6 +4985,42 @@
 				(hide yes)
 			)
 		)
+		(property "Dielectric" ""
+			(at 119.38 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric_type" ""
+			(at 119.38 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS" ""
+			(at 119.38 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Max Current" ""
+			(at 119.38 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e0f9c628-7448-470e-9216-364588aa5774")
 		)
@@ -5022,7 +5064,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "KL_Footprints:C_0603"
+		(property "Footprint" "KL_Footprints:R_0603"
 			(at 121.158 97.79 90)
 			(effects
 				(font
@@ -5112,6 +5154,42 @@
 				(hide yes)
 			)
 		)
+		(property "Dielectric" ""
+			(at 119.38 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric_type" ""
+			(at 119.38 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS" ""
+			(at 119.38 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Max Current" ""
+			(at 119.38 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9309cd6e-329e-4b84-b000-ef4d0bf4ed09")
 		)
@@ -5137,7 +5215,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aaed023e-b6f8-4e29-a180-72f2657b46de")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR66"
 			(at 119.38 119.38 0)
 			(effects
 				(font
@@ -5187,7 +5265,7 @@
 		(instances
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/cbb6064c-9387-4840-bb4d-7326af14ff9d/c1ae1852-a19a-4dbd-815f-e5a475cf92f5"
-					(reference "#PWR066")
+					(reference "#PWR66")
 					(unit 1)
 				)
 			)
@@ -5201,24 +5279,27 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "b87db87c-f6fc-4771-869c-e068df1d4795")
 		(property "Reference" "C12"
-			(at 80.01 48.768 90)
+			(at 77.47 51.435 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "100n"
-			(at 80.01 55.372 90)
+			(at 82.55 51.435 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "KL_Footprints:C_0603"
 			(at 83.82 51.1048 0)
 			(effects
 				(font
@@ -5290,7 +5371,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance_in_pct" "10"
+		(property "Dielectric" ""
 			(at 80.01 52.07 0)
 			(effects
 				(font
@@ -5299,7 +5380,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" "X7R"
+		(property "Dielectric_type" ""
 			(at 80.01 52.07 0)
 			(effects
 				(font
@@ -5308,7 +5389,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package_in_inch" "0603"
+		(property "LSCS" ""
 			(at 80.01 52.07 0)
 			(effects
 				(font
@@ -5317,7 +5398,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell" "4539043"
+		(property "Max Current" ""
 			(at 80.01 52.07 0)
 			(effects
 				(font
@@ -5370,7 +5451,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "0826-1X4T-43-F:BEL_0826-1X4T-43-F"
+		(property "Footprint" "KL_Footprints:BEL_0826-1X4T-43-F"
 			(at 139.7 69.85 0)
 			(effects
 				(font
@@ -5457,6 +5538,42 @@
 			)
 		)
 		(property "LCSC" "C6776265"
+			(at 139.7 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" ""
+			(at 139.7 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric_type" ""
+			(at 139.7 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS" ""
+			(at 139.7 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Max Current" ""
 			(at 139.7 69.85 0)
 			(effects
 				(font
@@ -5706,7 +5823,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "KL_Footprints:C_0603"
+		(property "Footprint" "KL_Footprints:R_0603"
 			(at 121.158 107.95 90)
 			(effects
 				(font
@@ -5796,6 +5913,42 @@
 				(hide yes)
 			)
 		)
+		(property "Dielectric" ""
+			(at 119.38 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric_type" ""
+			(at 119.38 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS" ""
+			(at 119.38 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Max Current" ""
+			(at 119.38 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bd4ba113-eac8-4b50-ac3e-7011d6884e42")
 		)
@@ -5819,24 +5972,27 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "e5ffbc15-8ec3-41cc-a97d-9176ea210e6d")
 		(property "Reference" "C14"
-			(at 80.01 68.834 90)
+			(at 77.47 71.755 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "100n"
-			(at 80.01 75.946 90)
+			(at 82.55 71.755 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "KL_Footprints:C_0603"
 			(at 83.82 71.4248 0)
 			(effects
 				(font
@@ -5908,7 +6064,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance_in_pct" "10"
+		(property "Dielectric" ""
 			(at 80.01 72.39 0)
 			(effects
 				(font
@@ -5917,7 +6073,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" "X7R"
+		(property "Dielectric_type" ""
 			(at 80.01 72.39 0)
 			(effects
 				(font
@@ -5926,7 +6082,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package_in_inch" "0603"
+		(property "LSCS" ""
 			(at 80.01 72.39 0)
 			(effects
 				(font
@@ -5935,7 +6091,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell" "4539043"
+		(property "Max Current" ""
 			(at 80.01 72.39 0)
 			(effects
 				(font

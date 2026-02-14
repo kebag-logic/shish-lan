@@ -473,6 +473,18 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "name": "PWR",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "RGMII",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
       }
     ],
     "meta": {
@@ -519,7 +531,127 @@
       "/buck_3V3/GND": [
         "GND_BUCK"
       ],
+      "/controller/RGMII.RXCTL-CRS_DV": [
+        "RGMII"
+      ],
+      "/controller/RGMII.RXD0": [
+        "RGMII"
+      ],
+      "/controller/RGMII.RXD1": [
+        "RGMII"
+      ],
+      "/controller/RGMII.TXCLK": [
+        "RGMII"
+      ],
+      "/controller/RGMII.TXCTL-TX_DV": [
+        "RGMII"
+      ],
+      "/controller/RGMII.TXD0": [
+        "RGMII"
+      ],
+      "/controller/RGMII.TXD1": [
+        "RGMII"
+      ],
+      "/controller/RGMII1_STM_SWITCH.RXD0": [
+        "RGMII"
+      ],
+      "/controller/RGMII1_STM_SWITCH.RXD1": [
+        "RGMII"
+      ],
+      "/controller/RGMII1_STM_SWITCH.RXD2": [
+        "RGMII"
+      ],
+      "/controller/RGMII1_STM_SWITCH.RXD3": [
+        "RGMII"
+      ],
+      "/controller/RGMII1_STM_SWITCH.RX_CLK": [
+        "RGMII"
+      ],
+      "/controller/RGMII1_STM_SWITCH.RX_CTLR": [
+        "RGMII"
+      ],
+      "/controller/RGMII1_STM_SWITCH.TXD0": [
+        "RGMII"
+      ],
+      "/controller/RGMII1_STM_SWITCH.TXD1": [
+        "RGMII"
+      ],
+      "/controller/RGMII1_STM_SWITCH.TXD2": [
+        "RGMII"
+      ],
+      "/controller/RGMII1_STM_SWITCH.TXD3": [
+        "RGMII"
+      ],
+      "/controller/RGMII1_STM_SWITCH.TX_CLK": [
+        "RGMII"
+      ],
+      "/controller/RGMII1_STM_SWITCH.TX_CTLR": [
+        "RGMII"
+      ],
+      "/controller/RGMII1_STM_SWITCH{TXD[0..3], TX_CLK, TX_CTLR, RXD[0..3], RX_CLK, RX_CTLR}": [
+        "RGMII"
+      ],
+      "/controller/RGMII1_SWITCH_STM.RXCTL-CRS_DV": [
+        "RGMII"
+      ],
+      "/controller/RGMII1_SWITCH_STM.RXD0": [
+        "RGMII"
+      ],
+      "/controller/RGMII1_SWITCH_STM.RXD1": [
+        "RGMII"
+      ],
+      "/controller/RGMII1_SWITCH_STM.RXD2": [
+        "RGMII"
+      ],
+      "/controller/RGMII1_SWITCH_STM.RXD3": [
+        "RGMII"
+      ],
+      "/controller/RGMII1_SWITCH_STM.RX_CLK": [
+        "RGMII"
+      ],
+      "/controller/RGMII1_SWITCH_STM.RX_CTLR": [
+        "RGMII"
+      ],
+      "/controller/RGMII1_SWITCH_STM.TXC-REFCLK": [
+        "RGMII"
+      ],
+      "/controller/RGMII1_SWITCH_STM.TXCTL-DX_DV": [
+        "RGMII"
+      ],
+      "/controller/RGMII1_SWITCH_STM.TXD0": [
+        "RGMII"
+      ],
+      "/controller/RGMII1_SWITCH_STM.TXD1": [
+        "RGMII"
+      ],
+      "/controller/RGMII1_SWITCH_STM.TXD2": [
+        "RGMII"
+      ],
+      "/controller/RGMII1_SWITCH_STM.TXD3": [
+        "RGMII"
+      ],
+      "/controller/RGMII1_SWITCH_STM.TX_CLK": [
+        "RGMII"
+      ],
+      "/controller/RGMII1_SWITCH_STM.TX_CTLR": [
+        "RGMII"
+      ],
+      "/controller/RGMII1_SWITCH_STM{TXD[0..3], TXC-REFCLK, TXCTL-DX_DV, RXD[0..3], RX_CLK, RXCTL-CRS_DV}": [
+        "RGMII"
+      ],
+      "/controller/RGMII1_SWITCH_STM{TXD[0..3], TX_CLK, TX_CTLR, RXD[0..3], RX_CLK, RX_CTLR}": [
+        "RGMII"
+      ],
+      "/controller/RGMII{TXCLK RXCTL-CRS_DV TXCTL-TX_DV TXD[0..1] RXD[0..1]}": [
+        "RGMII"
+      ],
+      "/switch/1V15_BUCK-OUT": [
+        "PWR"
+      ],
       "/switch/2V5": [
+        "PWR"
+      ],
+      "/switch/2V5_BUCK-OUT": [
         "PWR"
       ],
       "/switch/3V3": [
@@ -564,46 +696,46 @@
       "/switch/RGMII.TX_CTLR": [
         "RGMII"
       ],
-      "/switch/RGMII_STM_SWITCH.RXD0": [
-        "RGMII"
-      ],
-      "/switch/RGMII_STM_SWITCH.RXD1": [
-        "RGMII"
-      ],
-      "/switch/RGMII_STM_SWITCH.RXD2": [
-        "RGMII"
-      ],
-      "/switch/RGMII_STM_SWITCH.RXD3": [
-        "RGMII"
-      ],
-      "/switch/RGMII_STM_SWITCH.RX_CLK": [
-        "RGMII"
-      ],
-      "/switch/RGMII_STM_SWITCH.RX_CTLR": [
-        "RGMII"
-      ],
-      "/switch/RGMII_STM_SWITCH.TXD0": [
-        "RGMII"
-      ],
-      "/switch/RGMII_STM_SWITCH.TXD1": [
-        "RGMII"
-      ],
-      "/switch/RGMII_STM_SWITCH.TXD2": [
-        "RGMII"
-      ],
-      "/switch/RGMII_STM_SWITCH.TXD3": [
-        "RGMII"
-      ],
-      "/switch/RGMII_STM_SWITCH.TX_CLK": [
-        "RGMII"
-      ],
-      "/switch/RGMII_STM_SWITCH.TX_CTLR": [
-        "RGMII"
-      ],
-      "/switch/RGMII_STM_SWITCH{TXD[0..3], TX_CLK, TX_CTLR, RXD[0..3], RX_CLK, RX_CTLR}": [
-        "RGMII"
-      ],
       "/switch/RGMII{TXD[0..3], TX_CLK, TX_CTLR, RXD[0..3], RX_CLK, RX_CTLR}": [
+        "RGMII"
+      ],
+      "/switch/switch_gpios/RGMII0.RXD0": [
+        "RGMII"
+      ],
+      "/switch/switch_gpios/RGMII0.RXD1": [
+        "RGMII"
+      ],
+      "/switch/switch_gpios/RGMII0.RXD2": [
+        "RGMII"
+      ],
+      "/switch/switch_gpios/RGMII0.RXD3": [
+        "RGMII"
+      ],
+      "/switch/switch_gpios/RGMII0.RX_CLK": [
+        "RGMII"
+      ],
+      "/switch/switch_gpios/RGMII0.RX_CTLR": [
+        "RGMII"
+      ],
+      "/switch/switch_gpios/RGMII0.TXD0": [
+        "RGMII"
+      ],
+      "/switch/switch_gpios/RGMII0.TXD1": [
+        "RGMII"
+      ],
+      "/switch/switch_gpios/RGMII0.TXD2": [
+        "RGMII"
+      ],
+      "/switch/switch_gpios/RGMII0.TXD3": [
+        "RGMII"
+      ],
+      "/switch/switch_gpios/RGMII0.TX_CLK": [
+        "RGMII"
+      ],
+      "/switch/switch_gpios/RGMII0.TX_CTLR": [
+        "RGMII"
+      ],
+      "/switch/switch_gpios/RGMII0{TXD[0..3], TX_CLK, TX_CTLR, RXD[0..3], RX_CLK, RX_CTLR}": [
         "RGMII"
       ],
       "/switch/switch_gpios/RGMII1.RXD0": [
@@ -939,7 +1071,7 @@
         "5-12V_IN"
       ],
       "Net-(U5-VIN)": [
-        "5-12V_IN"
+        "PWR"
       ],
       "Net-(U6-VIN)": [
         "PWR"
@@ -1024,22 +1156,22 @@
     },
     "bom_presets": [],
     "bom_settings": {
-      "exclude_dnp": false,
+      "exclude_dnp": true,
       "fields_ordered": [
         {
           "group_by": false,
           "label": "Reference",
           "name": "Reference",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Qty",
           "name": "${QUANTITY}",
-          "show": false
+          "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Value",
           "name": "Value",
           "show": true
@@ -1048,22 +1180,22 @@
           "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
-          "show": true
+          "show": false
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Footprint",
           "name": "Footprint",
           "show": false
@@ -1084,7 +1216,7 @@
           "group_by": false,
           "label": "Farnell",
           "name": "Farnell",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -1123,7 +1255,7 @@
           "show": false
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Mouser",
           "name": "Mouser",
           "show": true
@@ -1181,11 +1313,59 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "I_max_in_A",
+          "name": "I_max_in_A",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "manf#",
+          "name": "manf#",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Package_in_inch",
+          "name": "Package_in_inch",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Package_in_mm",
+          "name": "Package_in_mm",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Tolerance_in_pct",
+          "name": "Tolerance_in_pct",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Dielectric_type",
+          "name": "Dielectric_type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Dielectric",
+          "name": "Dielectric",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_No",
+          "name": "Manufacturer_No",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "include_excluded_from_bom": true,
+      "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
@@ -1219,7 +1399,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "schematics/",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -1248,12 +1428,20 @@
       "switch_buck_2v5"
     ],
     [
-      "606fcd84-feed-4290-bf9b-87889000b681",
-      "switch_buck_3v3"
+      "b46af5b7-dd4e-4356-ae8f-8ea1d81113b6",
+      "BUCK_3V3"
+    ],
+    [
+      "14851be8-da71-4848-89bd-314ca44f089b",
+      "xtal_stm"
     ],
     [
       "7f5fd65f-f670-4db7-8f09-63d4fb2faa09",
       "switch_gpios"
+    ],
+    [
+      "06488c82-a47f-4277-b0ee-3bd211d8922a",
+      "controller"
     ],
     [
       "d7edf10b-e7e7-437a-ab6c-966f29ad8f7f",
@@ -1286,6 +1474,18 @@
     [
       "c25f8336-e610-4611-8f85-d1572f3f1a98",
       "RJ45_Connector_Port3"
+    ],
+    [
+      "7120ae3e-ef1d-4d3f-b6b0-0750b38e713a",
+      "xtal_switch"
+    ],
+    [
+      "54dd0313-e11b-4c5a-bb43-942dea0cd180",
+      "JTAG_Header_ARM"
+    ],
+    [
+      "c9240671-53f4-4f6c-ba95-751c1f7b3ef5",
+      "debug_header"
     ]
   ],
   "text_variables": {}
