@@ -1051,7 +1051,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "72d6d8bc-bcb8-40ce-8ba7-cec541050ef9")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR9"
 			(at 118.11 105.41 0)
 			(effects
 				(font
@@ -1101,7 +1101,7 @@
 		(instances
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/06488c82-a47f-4277-b0ee-3bd211d8922a/c9240671-53f4-4f6c-ba95-751c1f7b3ef5"
-					(reference "#PWR09")
+					(reference "#PWR9")
 					(unit 1)
 				)
 			)
@@ -1117,7 +1117,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "82a3d2ed-063f-4955-8188-0d4934b79f28")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR10"
 			(at 130.81 105.41 0)
 			(effects
 				(font
@@ -1167,7 +1167,7 @@
 		(instances
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/06488c82-a47f-4277-b0ee-3bd211d8922a/c9240671-53f4-4f6c-ba95-751c1f7b3ef5"
-					(reference "#PWR010")
+					(reference "#PWR10")
 					(unit 1)
 				)
 			)

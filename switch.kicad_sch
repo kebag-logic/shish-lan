@@ -319,7 +319,7 @@
 				)
 			)
 			(symbol "lan9645xF_128_TQFP_1_0"
-				(pin power_in line
+				(pin input line
 					(at -5.08 -1.27 0)
 					(length 5.08)
 					(name "RTN_PLL"
@@ -391,7 +391,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin output line
 					(at -5.08 -80.01 0)
 					(length 5.08)
 					(name "XO"
@@ -409,7 +409,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin input line
 					(at -5.08 -86.36 0)
 					(length 5.08)
 					(name "XI"
@@ -1186,7 +1186,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin input line
 					(at 35.56 -78.74 180)
 					(length 5.08)
 					(name "nRST"
@@ -5024,6 +5024,10 @@
 			)
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c"
+					(reference "U1")
+					(unit 4)
+				)
+				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/d7edf10b-e7e7-437a-ab6c-966f29ad8f7f"
 					(reference "U1")
 					(unit 4)
 				)
