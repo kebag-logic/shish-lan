@@ -1414,6 +1414,235 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "KL_LED:LED_green_2V1_0.03A"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED_{color}_{U_F}_{I_F}"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "KL_Footprints:LED_0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.mouser.com/catalog/specsheets/Lite-On-LTST-C190GKT.pdf"
+				(at 0 -10.668 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "U_F_in_V" "2.1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "I_F_in_A" "0.03"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "lambda_d_in_nm" "569"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser" "859-LTST-C190GKT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Digikey" "160-LTST-C190GKTCT-ND"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "LTST-C190GKT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_green_2V1_0.03A_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_green_2V1_0.03A_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "KL_R:R_0R_2W_5_2512"
 			(pin_numbers
 				(hide yes)
@@ -1788,7 +2017,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "KL_R:R_10K_100mW_5_0603"
+		(symbol "KL_R:R_120_100mW_5_0603"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1806,7 +2035,7 @@
 					)
 				)
 			)
-			(property "Value" "10K"
+			(property "Value" "120"
 				(at 0 0 90)
 				(effects
 					(font
@@ -1823,7 +2052,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" "https://yageogroup.com/component-documentation/download/specsheet/RC0603JR-07120RL"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1841,7 +2070,7 @@
 					(hide yes)
 				)
 			)
-			(property "Power" "100mW"
+			(property "Power" "0.1"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1850,7 +2079,7 @@
 					(hide yes)
 				)
 			)
-			(property "Tolerance" "5%"
+			(property "Tolerance" "5"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1859,7 +2088,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser" "71-CRCW060310K0JNEC"
+			(property "Mouser" "603-RC0603JR-07120RL"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1868,7 +2097,7 @@
 					(hide yes)
 				)
 			)
-			(property "Digikey" "541-CRCW060310K0JNECCT-ND"
+			(property "Digikey" "311-120GRCT-ND"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1877,16 +2106,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC" "C4195694"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Package (in)" "0603"
+			(property "LCSC" "C49656648"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1896,6 +2116,15 @@
 				)
 			)
 			(property "Farnell" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Package (in)" "0603"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1922,7 +2151,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "R_10K_100mW_5_0603_0_1"
+			(symbol "R_120_100mW_5_0603_0_1"
 				(rectangle
 					(start -1.016 -2.54)
 					(end 1.016 2.54)
@@ -1935,7 +2164,7 @@
 					)
 				)
 			)
-			(symbol "R_10K_100mW_5_0603_1_1"
+			(symbol "R_120_100mW_5_0603_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -3017,6 +3246,26 @@
 		)
 		(uuid "f2bd1e3b-65bb-4e03-aa0e-7ee2f0eca5f4")
 	)
+	(text_box "R20 = (3V3-1V2)/(10mA)\n= 120Ohms"
+		(exclude_from_sim no)
+		(at 182.88 53.34 0)
+		(size 20.32 10.16)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "6eee6762-3176-4212-b707-8646e36d8481")
+	)
 	(text_box "https://www.ti.com/product/TPS564257"
 		(exclude_from_sim yes)
 		(at 17.78 16.51 0)
@@ -3371,6 +3620,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 72.39) (xy 168.91 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "485e5014-0c26-4cd9-9f55-ebd87d27c148")
+	)
+	(wire
+		(pts
 			(xy 96.52 104.14) (xy 106.68 104.14)
 		)
 		(stroke
@@ -3471,7 +3730,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 63.5) (xy 168.91 63.5)
+			(xy 177.8 63.5) (xy 180.34 63.5)
 		)
 		(stroke
 			(width 0)
@@ -3501,7 +3760,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 63.5) (xy 153.67 63.5)
+			(xy 170.18 63.5) (xy 166.37 63.5)
 		)
 		(stroke
 			(width 0)
@@ -3511,7 +3770,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 63.5) (xy 168.91 72.39)
+			(xy 180.34 63.5) (xy 180.34 72.39)
 		)
 		(stroke
 			(width 0)
@@ -3561,13 +3820,13 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 72.39) (xy 180.34 72.39)
+			(xy 158.75 63.5) (xy 153.67 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8d2500bc-f44c-48f5-a958-2cc57bd930f1")
+		(uuid "88e2f139-2d25-4eaa-89e4-777693e029d3")
 	)
 	(wire
 		(pts
@@ -4848,6 +5107,129 @@
 		)
 	)
 	(symbol
+		(lib_id "KL_LED:LED_green_2V1_0.03A")
+		(at 162.56 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4c146e03-0039-4ce2-a468-47398bf014f3")
+		(property "Reference" "D1"
+			(at 160.9725 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_{color}_{U_F}_{I_F}"
+			(at 162.56 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "KL_Footprints:LED_0603"
+			(at 162.56 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/Lite-On-LTST-C190GKT.pdf"
+			(at 162.56 74.168 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 162.56 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "U_F_in_V" "2.1"
+			(at 162.56 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I_F_in_A" "0.03"
+			(at 162.56 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lambda_d_in_nm" "569"
+			(at 162.56 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "859-LTST-C190GKT"
+			(at 162.56 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "160-LTST-C190GKTCT-ND"
+			(at 162.56 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "LTST-C190GKT"
+			(at 162.56 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d392a69a-f3e7-4653-9a53-b85f78f01174")
+		)
+		(pin "1"
+			(uuid "5f8399ae-1ce1-4237-9ebe-c7b185166ec7")
+		)
+		(instances
+			(project ""
+				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/b46af5b7-dd4e-4356-ae8f-8ea1d81113b6"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "KL_TP:TestPoint")
 		(at 90.17 95.25 0)
 		(unit 1)
@@ -5084,8 +5466,8 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_R:R_10K_100mW_5_0603")
-		(at 162.56 63.5 90)
+		(lib_id "KL_R:R_120_100mW_5_0603")
+		(at 173.99 63.5 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5094,15 +5476,15 @@
 		(fields_autoplaced yes)
 		(uuid "77340baa-6ed4-48d1-af30-0c7549b513d4")
 		(property "Reference" "R20"
-			(at 162.56 57.15 90)
+			(at 173.99 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "10K"
-			(at 162.56 59.69 90)
+		(property "Value" "120"
+			(at 173.99 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5110,7 +5492,7 @@
 			)
 		)
 		(property "Footprint" "KL_Footprints:R_0603"
-			(at 162.56 65.278 90)
+			(at 173.99 65.278 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5118,8 +5500,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 162.56 63.5 0)
+		(property "Datasheet" "https://yageogroup.com/component-documentation/download/specsheet/RC0603JR-07120RL"
+			(at 173.99 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5128,7 +5510,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 162.56 63.5 0)
+			(at 173.99 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5136,8 +5518,8 @@
 				(hide yes)
 			)
 		)
-		(property "Power" "100mW"
-			(at 162.56 63.5 0)
+		(property "Power" "0.1"
+			(at 173.99 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5145,8 +5527,8 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" "5%"
-			(at 162.56 63.5 0)
+		(property "Tolerance" "5"
+			(at 173.99 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5154,8 +5536,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "71-CRCW060310K0JNEC"
-			(at 162.56 63.5 0)
+		(property "Mouser" "603-RC0603JR-07120RL"
+			(at 173.99 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5163,8 +5545,8 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "541-CRCW060310K0JNECCT-ND"
-			(at 162.56 63.5 0)
+		(property "Digikey" "311-120GRCT-ND"
+			(at 173.99 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5172,8 +5554,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C4195694"
-			(at 162.56 63.5 0)
+		(property "LCSC" "C49656648"
+			(at 173.99 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5182,7 +5564,7 @@
 			)
 		)
 		(property "Package (in)" "0603"
-			(at 162.56 63.5 0)
+			(at 173.99 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5191,7 +5573,7 @@
 			)
 		)
 		(property "Farnell" ""
-			(at 162.56 63.5 0)
+			(at 173.99 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5200,7 +5582,7 @@
 			)
 		)
 		(property "Dielectric" ""
-			(at 162.56 63.5 90)
+			(at 173.99 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5209,7 +5591,7 @@
 			)
 		)
 		(property "Dielectric_type" ""
-			(at 162.56 63.5 90)
+			(at 173.99 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5218,7 +5600,7 @@
 			)
 		)
 		(property "LSCS" ""
-			(at 162.56 63.5 90)
+			(at 173.99 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5227,7 +5609,7 @@
 			)
 		)
 		(property "Max Current" ""
-			(at 162.56 63.5 90)
+			(at 173.99 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
