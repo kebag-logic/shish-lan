@@ -1414,7 +1414,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "KL_R:R_0R_2W_5_2512"
+		(symbol "KL_R:R_0R_3W_5_2512"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1449,7 +1449,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=9-1773463-7&DocType=Data%20Sheet&DocLang=English&PartCntxt=2176230-1&DocFormat=pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1467,7 +1467,7 @@
 					(hide yes)
 				)
 			)
-			(property "Power" "2"
+			(property "Power" "3"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1485,7 +1485,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser" "652-CRF2512-J-000ELF "
+			(property "Mouser" "279-3522ZR"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1494,7 +1494,7 @@
 					(hide yes)
 				)
 			)
-			(property "Digikey" "118-CRF2512-J/-000ELFCT-ND"
+			(property "Digikey" "A121322CT-ND"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1503,7 +1503,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC" "C2778666"
+			(property "LCSC" "C52016025"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1548,7 +1548,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "R_0R_2W_5_2512_0_1"
+			(symbol "R_0R_3W_5_2512_0_1"
 				(rectangle
 					(start -1.016 -2.54)
 					(end 1.016 2.54)
@@ -1561,7 +1561,7 @@
 					)
 				)
 			)
-			(symbol "R_0R_2W_5_2512_1_1"
+			(symbol "R_0R_3W_5_2512_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -6340,7 +6340,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_R:R_0R_2W_5_2512")
+		(lib_id "KL_R:R_0R_3W_5_2512")
 		(at 39.37 74.93 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6373,7 +6373,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=9-1773463-7&DocType=Data%20Sheet&DocLang=English&PartCntxt=2176230-1&DocFormat=pdf"
 			(at 39.37 74.93 0)
 			(effects
 				(font
@@ -6391,7 +6391,7 @@
 				(hide yes)
 			)
 		)
-		(property "Power" "2"
+		(property "Power" "3"
 			(at 39.37 74.93 0)
 			(effects
 				(font
@@ -6409,7 +6409,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "652-CRF2512-J-000ELF "
+		(property "Mouser" "279-3522ZR"
 			(at 39.37 74.93 0)
 			(effects
 				(font
@@ -6418,7 +6418,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "118-CRF2512-J/-000ELFCT-ND"
+		(property "Digikey" "A121322CT-ND"
 			(at 39.37 74.93 0)
 			(effects
 				(font
@@ -6427,7 +6427,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2778666"
+		(property "LCSC" "C52016025"
 			(at 39.37 74.93 0)
 			(effects
 				(font
@@ -6447,42 +6447,6 @@
 		)
 		(property "Package (in)" "2512"
 			(at 39.37 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" ""
-			(at 39.37 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" ""
-			(at 39.37 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS" ""
-			(at 39.37 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max Current" ""
-			(at 39.37 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
