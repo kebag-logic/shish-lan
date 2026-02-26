@@ -3368,6 +3368,16 @@
 		)
 		(uuid "1b7bfaf0-fa59-4673-a3e7-3b30b9b21dba")
 	)
+	(bus
+		(pts
+			(xy 107.95 66.04) (xy 109.22 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cb7bbc3-6b7a-44ea-b61c-6c941dabdbe1")
+	)
 	(wire
 		(pts
 			(xy 132.08 110.49) (xy 149.86 110.49)
@@ -3557,6 +3567,16 @@
 			(type default)
 		)
 		(uuid "bcb7c9fc-6500-4fd3-a3e4-0000a7ab40c3")
+	)
+	(bus
+		(pts
+			(xy 109.22 92.71) (xy 109.22 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be39f1e6-5721-404d-af01-978a4f5b4c1d")
 	)
 	(wire
 		(pts
@@ -3869,6 +3889,17 @@
 			(justify right)
 		)
 		(uuid "15406626-2dea-41c6-a493-0fa9adb9242e")
+	)
+	(hierarchical_label "RGMII0_SWITCH_STM{TXD[0..3], TXC-REFCLK, TXCTL-DX_DV, RXD[0..3], RX_CLK, RXCTL-CRS_DV}"
+		(shape bidirectional)
+		(at 107.95 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3a2dee12-54d8-432f-92b7-67731fae88e9")
 	)
 	(hierarchical_label "EN-1V15_STM_TO_BUCK"
 		(shape input)
@@ -5036,7 +5067,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -5046,7 +5076,7 @@
 		)
 		(uuid "7f5fd65f-f670-4db7-8f09-63d4fb2faa09")
 		(property "Sheetname" "switch_gpios"
-			(at 99.06 91.9984 0)
+			(at 95.25 91.694 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5208,6 +5238,18 @@
 		(pin "SYNCE_1" bidirectional
 			(at 132.08 157.48 0)
 			(uuid "f302651a-b0ea-4e25-9d2a-13d9f0343e13")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RGMII0_SWITCH_STM{TXD[0..3], TXC-REFCLK, TXCTL-DX_DV, RXD[0..3], RX_CLK, RXCTL-CRS_DV}"
+			bidirectional
+			(at 109.22 92.71 90
+			)
+			(uuid "51dbaa26-1cbb-4ab0-9937-5b093d66fea6")
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -696,6 +696,45 @@
       "/switch/RGMII.TX_CTLR": [
         "RGMII"
       ],
+      "/switch/RGMII1_SWITCH_STM.RXCTL-CRS_DV": [
+        "RGMII"
+      ],
+      "/switch/RGMII1_SWITCH_STM.RXD0": [
+        "RGMII"
+      ],
+      "/switch/RGMII1_SWITCH_STM.RXD1": [
+        "RGMII"
+      ],
+      "/switch/RGMII1_SWITCH_STM.RXD2": [
+        "RGMII"
+      ],
+      "/switch/RGMII1_SWITCH_STM.RXD3": [
+        "RGMII"
+      ],
+      "/switch/RGMII1_SWITCH_STM.RX_CLK": [
+        "RGMII"
+      ],
+      "/switch/RGMII1_SWITCH_STM.TXC-REFCLK": [
+        "RGMII"
+      ],
+      "/switch/RGMII1_SWITCH_STM.TXCTL-DX_DV": [
+        "RGMII"
+      ],
+      "/switch/RGMII1_SWITCH_STM.TXD0": [
+        "RGMII"
+      ],
+      "/switch/RGMII1_SWITCH_STM.TXD1": [
+        "RGMII"
+      ],
+      "/switch/RGMII1_SWITCH_STM.TXD2": [
+        "RGMII"
+      ],
+      "/switch/RGMII1_SWITCH_STM.TXD3": [
+        "RGMII"
+      ],
+      "/switch/RGMII1_SWITCH_STM{TXD[0..3], TXC-REFCLK, TXCTL-DX_DV, RXD[0..3], RX_CLK, RXCTL-CRS_DV}": [
+        "RGMII"
+      ],
       "/switch/RGMII{TXD[0..3], TX_CLK, TX_CTLR, RXD[0..3], RX_CLK, RX_CTLR}": [
         "RGMII"
       ],

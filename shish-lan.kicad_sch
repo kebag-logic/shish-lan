@@ -1033,6 +1033,10 @@
 		(color 0 0 0 0)
 		(uuid "f81bb5e0-48bd-4874-a8bb-25a58663059c")
 	)
+	(no_connect
+		(at 177.8 49.53)
+		(uuid "ae4c809b-4e66-4861-96e2-c44b65f29760")
+	)
 	(bus_entry
 		(at 115.57 35.56)
 		(size 2.54 2.54)
@@ -1110,6 +1114,16 @@
 			(type default)
 		)
 		(uuid "2dd2f119-349d-4797-8ed7-de7b834365b4")
+	)
+	(bus
+		(pts
+			(xy 177.8 49.53) (xy 185.42 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f7ac2f9-bb16-4949-9c1e-268424bbae40")
 	)
 	(wire
 		(pts
@@ -1241,6 +1255,16 @@
 		)
 		(uuid "a5ffd093-9e9a-42a6-9c84-35f83c6ce585")
 	)
+	(bus
+		(pts
+			(xy 109.22 53.34) (xy 185.42 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5bcfcba-3345-49be-9e22-85a0b8367d42")
+	)
 	(wire
 		(pts
 			(xy 137.16 127) (xy 146.05 127)
@@ -1290,16 +1314,6 @@
 			(type default)
 		)
 		(uuid "cf71c55c-3930-429d-82a1-d368b36d93be")
-	)
-	(bus
-		(pts
-			(xy 109.22 53.34) (xy 185.42 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0744e37-03a3-489e-8fdc-679f1da3484c")
 	)
 	(wire
 		(pts
@@ -9951,7 +9965,7 @@
 		)
 		(pin "RGMII1_SWITCH_STM{TXD[0..3], TXC-REFCLK, TXCTL-DX_DV, RXD[0..3], RX_CLK, RXCTL-CRS_DV}"
 			bidirectional
-			(at 185.42 53.34 180
+			(at 185.42 49.53 180
 			)
 			(uuid "63fc911e-92d0-4713-9a50-3c0e71080ac6")
 			(effects
@@ -10024,6 +10038,18 @@
 		(pin "EN-2V5_STM_TO_BUCK" input
 			(at 185.42 73.66 180)
 			(uuid "70df141f-4d6a-4add-890a-84916290b208")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RGMII0_SWITCH_STM{TXD[0..3], TXC-REFCLK, TXCTL-DX_DV, RXD[0..3], RX_CLK, RXCTL-CRS_DV}"
+			bidirectional
+			(at 185.42 53.34 180
+			)
+			(uuid "d3fddf46-dd87-460e-b803-574260ac67d5")
 			(effects
 				(font
 					(size 1.27 1.27)

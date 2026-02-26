@@ -3662,9 +3662,9 @@
 		)
 		(uuid "011d606a-5595-4064-bb70-7fd666de6900")
 	)
-	(text_box "RGMII0 is currently unused.\n"
+	(text_box "RGMII1 is currently unused.\n"
 		(exclude_from_sim no)
-		(at 19.05 73.66 0)
+		(at 22.86 121.92 0)
 		(size 31.75 3.81)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -3799,20 +3799,8 @@
 		(uuid "ff95ae37-2462-49ab-9daf-944bd49b0257")
 	)
 	(no_connect
-		(at 85.09 74.93)
-		(uuid "2d7413fe-8bf4-4637-9ade-efcbe2317674")
-	)
-	(no_connect
-		(at 85.09 82.55)
-		(uuid "42eff409-6dd4-4aaf-bbe9-59b2e0586fef")
-	)
-	(no_connect
 		(at 16.51 38.1)
 		(uuid "47880b8c-f073-4c84-977b-151c0a891004")
-	)
-	(no_connect
-		(at 17.78 57.15)
-		(uuid "52e44dd3-a927-4228-9e8b-d7d0644e90c8")
 	)
 	(no_connect
 		(at 109.22 36.83)
@@ -3823,36 +3811,12 @@
 		(uuid "55418ef8-2154-4562-8225-bafc9d96713d")
 	)
 	(no_connect
-		(at 17.78 68.58)
-		(uuid "56eeac3d-55af-4ef5-92aa-8b1753e61387")
-	)
-	(no_connect
-		(at 85.09 77.47)
-		(uuid "5a4a08d0-d0f7-4d82-999b-e690b996a39b")
-	)
-	(no_connect
 		(at 16.51 35.56)
 		(uuid "60869343-b7de-4a44-97f7-f49f6185d69e")
 	)
 	(no_connect
-		(at 85.09 72.39)
-		(uuid "71453d51-f554-4a05-beb3-84cd96d2dcb7")
-	)
-	(no_connect
 		(at 16.51 27.94)
 		(uuid "8050a4fc-83f1-4f3a-ba06-eb770c25dc13")
-	)
-	(no_connect
-		(at 17.78 64.77)
-		(uuid "81ea8439-057a-46d5-ad36-21f5a5abce0c")
-	)
-	(no_connect
-		(at 85.09 69.85)
-		(uuid "b2051750-92bf-4e00-8b51-c95147452a74")
-	)
-	(no_connect
-		(at 17.78 60.96)
-		(uuid "c22ee55b-1bc8-4ed2-a5af-b0a60b6d1e36")
 	)
 	(no_connect
 		(at 109.22 29.21)
@@ -3863,24 +3827,30 @@
 		(uuid "d3c75e82-a46c-45c0-96c8-952bd7999c19")
 	)
 	(no_connect
-		(at 17.78 72.39)
-		(uuid "e123b63b-ab94-4240-bee1-f3bed5566553")
-	)
-	(no_connect
 		(at 109.22 26.67)
 		(uuid "e5dec33b-3907-4402-8d4b-0568666065c4")
-	)
-	(no_connect
-		(at 85.09 80.01)
-		(uuid "f0b42944-7238-4a92-89b0-30a263ece9e2")
 	)
 	(no_connect
 		(at 109.22 34.29)
 		(uuid "f4d9c393-3491-4dff-9523-928f6036fb7a")
 	)
-	(no_connect
-		(at 17.78 53.34)
-		(uuid "f5d7b8e2-2e39-4cec-b3ff-86d1df1e8ef4")
+	(bus_entry
+		(at 102.87 82.55)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0333fa37-5edd-43a0-b2ba-8e99cd911473")
+	)
+	(bus_entry
+		(at 102.87 87.63)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "093f882a-2fb8-43d1-8d41-39800dac223e")
 	)
 	(bus_entry
 		(at 15.24 102.87)
@@ -3890,6 +3860,15 @@
 			(type default)
 		)
 		(uuid "1182e926-e788-4ca8-9702-68c4ab104c3e")
+	)
+	(bus_entry
+		(at 15.24 66.04)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11f57774-41d7-4014-9c63-2d3f4c5624df")
 	)
 	(bus_entry
 		(at 135.89 120.65)
@@ -3910,6 +3889,24 @@
 		(uuid "27f0e393-dd9a-4dc1-b434-4068d635e480")
 	)
 	(bus_entry
+		(at 15.24 50.8)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "337661d1-7f04-4455-b560-395c4b278785")
+	)
+	(bus_entry
+		(at 15.24 69.85)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c57a4d5-466c-4d5e-bc06-726dca87ecbb")
+	)
+	(bus_entry
 		(at 135.89 123.19)
 		(size 2.54 -2.54)
 		(stroke
@@ -3926,6 +3923,15 @@
 			(type default)
 		)
 		(uuid "6156687a-e9b8-4de7-87a7-97d719997c95")
+	)
+	(bus_entry
+		(at 102.87 92.71)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6419ca8b-b21b-4a92-ab1a-69a04c524ede")
 	)
 	(bus_entry
 		(at 135.89 128.27)
@@ -3964,6 +3970,15 @@
 		(uuid "7de3cd5b-b51f-45c8-bf6a-8cc534c82e72")
 	)
 	(bus_entry
+		(at 15.24 58.42)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "803d2e1a-e730-4fc7-9cab-350661878d82")
+	)
+	(bus_entry
 		(at 55.88 144.78)
 		(size 2.54 2.54)
 		(stroke
@@ -3980,6 +3995,15 @@
 			(type default)
 		)
 		(uuid "93e678c2-862f-4dcf-82d8-aa93dd83709b")
+	)
+	(bus_entry
+		(at 15.24 54.61)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "952cdac3-82e3-496c-9e03-1b87b0d8254a")
 	)
 	(bus_entry
 		(at 15.24 110.49)
@@ -4018,6 +4042,33 @@
 		(uuid "afc26c87-1532-4c22-9393-74d48175269d")
 	)
 	(bus_entry
+		(at 102.87 80.01)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b414b603-4692-4b58-959d-ad987889dfe5")
+	)
+	(bus_entry
+		(at 102.87 90.17)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4d0bb3b-0b26-4a2c-8e16-3cdf6070ab75")
+	)
+	(bus_entry
+		(at 102.87 85.09)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c916e97f-4f35-4b94-8e84-336a7d02ad90")
+	)
+	(bus_entry
 		(at 46.99 160.02)
 		(size 2.54 2.54)
 		(stroke
@@ -4044,15 +4095,14 @@
 		)
 		(uuid "f6cec0b7-cdfb-4884-b0c7-b98f35b89f4d")
 	)
-	(wire
-		(pts
-			(xy 105.41 69.85) (xy 105.41 82.55)
-		)
+	(bus_entry
+		(at 15.24 62.23)
+		(size 2.54 2.54)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0036c539-c8a2-4e6d-9f40-61271ec1ff37")
+		(uuid "f80c3d9a-1b85-4549-97a0-cca96c4d8386")
 	)
 	(wire
 		(pts
@@ -4073,6 +4123,16 @@
 			(type default)
 		)
 		(uuid "03550003-67eb-4ef9-9a05-c36954c405e8")
+	)
+	(bus
+		(pts
+			(xy 102.87 76.2) (xy 102.87 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03961358-7bfc-4014-94a6-fc2a9af3a999")
 	)
 	(wire
 		(pts
@@ -4096,7 +4156,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 69.85) (xy 105.41 69.85)
+			(xy 105.41 82.55) (xy 177.8 82.55)
 		)
 		(stroke
 			(width 0)
@@ -4133,16 +4193,6 @@
 			(type default)
 		)
 		(uuid "0e9a19c7-fdf7-4857-b43b-58530873ec24")
-	)
-	(wire
-		(pts
-			(xy 101.6 77.47) (xy 101.6 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "113cf66a-ec88-471a-8b73-907615237652")
 	)
 	(bus
 		(pts
@@ -4193,6 +4243,16 @@
 			(type default)
 		)
 		(uuid "16440b7d-be2e-4093-bc83-d3fd3c0a1f15")
+	)
+	(bus
+		(pts
+			(xy 15.24 50.8) (xy 15.24 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17211c5d-0dac-4fc0-8365-65ebe246f67b")
 	)
 	(wire
 		(pts
@@ -4256,7 +4316,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 80.01) (xy 100.33 80.01)
+			(xy 105.41 92.71) (xy 177.8 92.71)
 		)
 		(stroke
 			(width 0)
@@ -4286,16 +4346,6 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 82.55) (xy 177.8 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "205e6037-9697-4cf5-8a7f-49839664ed41")
-	)
-	(wire
-		(pts
 			(xy 106.68 66.04) (xy 106.68 80.01)
 		)
 		(stroke
@@ -4303,6 +4353,16 @@
 			(type default)
 		)
 		(uuid "21539592-af78-4eb1-adcf-9b46072d5c36")
+	)
+	(bus
+		(pts
+			(xy 15.24 62.23) (xy 15.24 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22880c98-5293-453e-a857-7f6690c3f495")
 	)
 	(wire
 		(pts
@@ -4314,6 +4374,16 @@
 		)
 		(uuid "24634031-362b-43e6-947a-ecc80d742350")
 	)
+	(bus
+		(pts
+			(xy 102.87 87.63) (xy 102.87 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "246bc0dc-7c9c-47dc-8d0a-87be806e92d5")
+	)
 	(wire
 		(pts
 			(xy 99.06 184.15) (xy 115.57 184.15)
@@ -4323,16 +4393,6 @@
 			(type default)
 		)
 		(uuid "256692dc-2fea-4e2a-8ac1-cd3e84f866c5")
-	)
-	(wire
-		(pts
-			(xy 99.06 82.55) (xy 99.06 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "257f4600-e118-4fea-9c31-3f7d07374f5a")
 	)
 	(wire
 		(pts
@@ -4436,7 +4496,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 53.34) (xy 81.28 53.34)
+			(xy 66.04 53.34) (xy 81.28 53.34)
 		)
 		(stroke
 			(width 0)
@@ -4536,6 +4596,16 @@
 	)
 	(bus
 		(pts
+			(xy 102.87 80.01) (xy 102.87 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43462765-cfd0-4459-9a84-e07318f51817")
+	)
+	(bus
+		(pts
 			(xy 55.88 137.16) (xy 55.88 144.78)
 		)
 		(stroke
@@ -4566,7 +4636,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 57.15) (xy 80.01 57.15)
+			(xy 66.04 57.15) (xy 80.01 57.15)
 		)
 		(stroke
 			(width 0)
@@ -4816,16 +4886,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 85.09) (xy 177.8 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "697c87e9-5ffe-4a08-89e4-fd3c2c13372b")
-	)
-	(wire
-		(pts
 			(xy 160.02 43.18) (xy 160.02 39.37)
 		)
 		(stroke
@@ -4856,7 +4916,7 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 60.96) (xy 49.53 60.96)
+			(xy 17.78 60.96) (xy 58.42 60.96)
 		)
 		(stroke
 			(width 0)
@@ -5016,7 +5076,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 74.93) (xy 102.87 74.93)
+			(xy 105.41 87.63) (xy 177.8 87.63)
 		)
 		(stroke
 			(width 0)
@@ -5053,16 +5113,6 @@
 			(type default)
 		)
 		(uuid "82544d3c-c998-42c3-a207-59d27e7ce5bd")
-	)
-	(bus
-		(pts
-			(xy 17.78 92.71) (xy 15.24 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83d87b13-6aa2-4188-be99-afa6172cb88d")
 	)
 	(wire
 		(pts
@@ -5216,16 +5266,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 92.71) (xy 177.8 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e375664-40cf-4869-8a04-da1dd798b7e6")
-	)
-	(wire
-		(pts
 			(xy 78.74 60.96) (xy 78.74 62.23)
 		)
 		(stroke
@@ -5243,6 +5283,16 @@
 			(type default)
 		)
 		(uuid "905ce713-9feb-41fa-84ed-3ca5bbbee846")
+	)
+	(bus
+		(pts
+			(xy 15.24 76.2) (xy 102.87 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "906eb5b3-22b7-4fac-b859-7e33bba891f1")
 	)
 	(wire
 		(pts
@@ -5294,6 +5344,16 @@
 		)
 		(uuid "94e4c22e-ed1c-4eb7-9018-5b76343a1ef0")
 	)
+	(bus
+		(pts
+			(xy 15.24 69.85) (xy 15.24 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94f9393d-8c50-4fbb-a683-2647739a5bfc")
+	)
 	(wire
 		(pts
 			(xy 82.55 179.07) (xy 91.44 179.07)
@@ -5336,7 +5396,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 72.39) (xy 104.14 72.39)
+			(xy 105.41 85.09) (xy 177.8 85.09)
 		)
 		(stroke
 			(width 0)
@@ -5346,17 +5406,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 95.25) (xy 177.8 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96c832cc-cc9b-48fe-9f12-03207d84101e")
-	)
-	(wire
-		(pts
-			(xy 17.78 72.39) (xy 72.39 72.39)
+			(xy 17.78 72.39) (xy 58.42 72.39)
 		)
 		(stroke
 			(width 0)
@@ -5374,19 +5424,19 @@
 		)
 		(uuid "9a1dab6d-199a-4d1c-9e12-7ab3b197673b")
 	)
-	(wire
+	(bus
 		(pts
-			(xy 102.87 87.63) (xy 177.8 87.63)
+			(xy 15.24 54.61) (xy 15.24 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9ad91e23-7f25-4227-8902-435870ae41cc")
+		(uuid "9aa9dbe8-7ee3-485f-83f1-4bd622b2939d")
 	)
 	(wire
 		(pts
-			(xy 17.78 53.34) (xy 34.29 53.34)
+			(xy 17.78 53.34) (xy 58.42 53.34)
 		)
 		(stroke
 			(width 0)
@@ -5413,6 +5463,16 @@
 			(type default)
 		)
 		(uuid "9c314190-b656-4b5f-98d9-e9c1499c08f1")
+	)
+	(bus
+		(pts
+			(xy 15.24 66.04) (xy 15.24 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c792ec3-47da-418b-98ff-78b3ade2c9f2")
 	)
 	(wire
 		(pts
@@ -5463,6 +5523,16 @@
 			(type default)
 		)
 		(uuid "9f0ef572-e740-42fa-ac95-11759a162bb3")
+	)
+	(wire
+		(pts
+			(xy 53.34 97.79) (xy 177.8 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a02b6284-c583-49a4-b91f-04fd7879a822")
 	)
 	(wire
 		(pts
@@ -5526,6 +5596,16 @@
 	)
 	(bus
 		(pts
+			(xy 15.24 58.42) (xy 15.24 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a688a3f4-c960-48dc-b125-d400914fc02c")
+	)
+	(bus
+		(pts
 			(xy 135.89 114.3) (xy 135.89 115.57)
 		)
 		(stroke
@@ -5543,16 +5623,6 @@
 			(type default)
 		)
 		(uuid "a7f2103a-98b9-4c71-9421-476d387c7cd0")
-	)
-	(wire
-		(pts
-			(xy 101.6 90.17) (xy 177.8 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a83dfaef-5aaa-4e19-8e13-dcec7cae361f")
 	)
 	(wire
 		(pts
@@ -5603,16 +5673,6 @@
 			(type default)
 		)
 		(uuid "b01af4bc-a54c-46e0-a076-5bd7de5ec11f")
-	)
-	(wire
-		(pts
-			(xy 104.14 72.39) (xy 104.14 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b06a9519-5000-4569-aa71-faeb34b31a4b")
 	)
 	(wire
 		(pts
@@ -5693,16 +5753,6 @@
 			(type default)
 		)
 		(uuid "b468a725-0409-4a76-a61e-455e0d6b7916")
-	)
-	(wire
-		(pts
-			(xy 102.87 74.93) (xy 102.87 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b46b71e4-3b4f-4833-a95d-5ffc24d138fa")
 	)
 	(wire
 		(pts
@@ -5796,7 +5846,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 68.58) (xy 80.01 68.58)
+			(xy 66.04 68.58) (xy 80.01 68.58)
 		)
 		(stroke
 			(width 0)
@@ -5833,16 +5883,6 @@
 			(type default)
 		)
 		(uuid "bdc770ad-c06c-470e-8197-4bd2fca99734")
-	)
-	(wire
-		(pts
-			(xy 100.33 80.01) (xy 100.33 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be6a0905-8eb1-49c3-a5a6-27b4eb698f37")
 	)
 	(wire
 		(pts
@@ -5886,7 +5926,7 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 57.15) (xy 41.91 57.15)
+			(xy 17.78 57.15) (xy 58.42 57.15)
 		)
 		(stroke
 			(width 0)
@@ -6026,7 +6066,7 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 68.58) (xy 64.77 68.58)
+			(xy 17.78 68.58) (xy 58.42 68.58)
 		)
 		(stroke
 			(width 0)
@@ -6156,7 +6196,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 82.55) (xy 99.06 82.55)
+			(xy 105.41 95.25) (xy 177.8 95.25)
 		)
 		(stroke
 			(width 0)
@@ -6183,6 +6223,16 @@
 			(type default)
 		)
 		(uuid "e0ae0e19-220f-4c8d-8c0d-0b3a73daeaeb")
+	)
+	(bus
+		(pts
+			(xy 102.87 90.17) (xy 102.87 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1cc4357-1b18-485c-8ebd-fe6d35bf0b2c")
 	)
 	(wire
 		(pts
@@ -6216,7 +6266,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 60.96) (xy 78.74 60.96)
+			(xy 66.04 60.96) (xy 78.74 60.96)
 		)
 		(stroke
 			(width 0)
@@ -6286,16 +6336,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 97.79) (xy 177.8 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ebe21e8d-55a5-4d4a-b065-bb17c5d64843")
-	)
-	(wire
-		(pts
 			(xy 156.21 29.21) (xy 157.48 29.21)
 		)
 		(stroke
@@ -6316,7 +6356,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 72.39) (xy 80.01 72.39)
+			(xy 81.28 72.39) (xy 66.04 72.39)
 		)
 		(stroke
 			(width 0)
@@ -6336,13 +6376,23 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 77.47) (xy 101.6 77.47)
+			(xy 105.41 90.17) (xy 177.8 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "edf5ff0a-0dde-45d3-b48e-7f6afe1250fa")
+	)
+	(bus
+		(pts
+			(xy 102.87 82.55) (xy 102.87 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee4987ee-22fa-4010-8960-91189262c420")
 	)
 	(wire
 		(pts
@@ -6484,6 +6534,16 @@
 		)
 		(uuid "faeb5078-eece-42ff-8418-44fc931fedf6")
 	)
+	(bus
+		(pts
+			(xy 102.87 85.09) (xy 102.87 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb1437cc-2d3a-45cb-abd3-43a869412144")
+	)
 	(wire
 		(pts
 			(xy 160.02 17.78) (xy 160.02 31.75)
@@ -6534,7 +6594,7 @@
 		)
 		(uuid "0911e244-573a-498e-9ddb-4ce1ea113451")
 	)
-	(label "RGMII0.TX_CLK"
+	(label "RGMII0_SWITCH_STM.TXC-REFCLK"
 		(at 19.05 72.39 0)
 		(effects
 			(font
@@ -6694,8 +6754,8 @@
 		)
 		(uuid "29d80530-67df-4162-971a-64844574e598")
 	)
-	(label "RGMII0.RXD0"
-		(at 86.36 82.55 0)
+	(label "RGMII0_SWITCH_STM.RXD0"
+		(at 139.7 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6774,7 +6834,7 @@
 		)
 		(uuid "3e410a61-da51-407e-9c2a-1b5dcc835d00")
 	)
-	(label "RGMII0.TXD3"
+	(label "RGMII0_SWITCH_STM.TXD3"
 		(at 19.05 53.34 0)
 		(effects
 			(font
@@ -6784,8 +6844,8 @@
 		)
 		(uuid "409fd42c-44d1-4106-baea-fd8212497ae9")
 	)
-	(label "RGMII0.RX_CLK"
-		(at 86.36 72.39 0)
+	(label "RGMII0_SWITCH_STM.RX_CLK"
+		(at 139.7 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6944,8 +7004,8 @@
 		)
 		(uuid "9459139c-aed6-414b-a319-75b4816f355f")
 	)
-	(label "RGMII0.RX_CTLR"
-		(at 86.36 69.85 0)
+	(label "RGMII0_SWITCH_STM.RXCTL-CRS_DV"
+		(at 139.7 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7015,7 +7075,7 @@
 		(uuid "aa75a824-c132-4bd5-838b-a0c5b4339631")
 	)
 	(label "SFP_EN"
-		(at 120.65 97.79 0)
+		(at 138.43 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7034,7 +7094,7 @@
 		)
 		(uuid "abf048c0-7e60-430f-b614-9304202dde41")
 	)
-	(label "RGMII0.TX_CTLR"
+	(label "RGMII0_SWITCH_STM.TXCTL-DX_DV"
 		(at 19.05 68.58 0)
 		(effects
 			(font
@@ -7054,7 +7114,7 @@
 		)
 		(uuid "ae0018bb-5117-4a60-9a16-8ff4a7452a21")
 	)
-	(label "RGMII0.TXD0"
+	(label "RGMII0_SWITCH_STM.TXD0"
 		(at 19.05 64.77 0)
 		(effects
 			(font
@@ -7124,8 +7184,8 @@
 		)
 		(uuid "bf4e7e2e-6ac2-43e1-b61d-fe6f3f8aa7bb")
 	)
-	(label "RGMII0.RXD3"
-		(at 86.36 74.93 0)
+	(label "RGMII0_SWITCH_STM.RXD3"
+		(at 139.7 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7154,8 +7214,8 @@
 		)
 		(uuid "c904ace6-7780-49f1-98bd-1bb4ca28231d")
 	)
-	(label "RGMII0.RXD2"
-		(at 86.36 77.47 0)
+	(label "RGMII0_SWITCH_STM.RXD2"
+		(at 139.7 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7214,8 +7274,8 @@
 		)
 		(uuid "dd07efc8-808f-4fe1-896c-c15fb47c96f6")
 	)
-	(label "RGMII0.RXD1"
-		(at 86.36 80.01 0)
+	(label "RGMII0_SWITCH_STM.RXD1"
+		(at 139.7 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7244,7 +7304,7 @@
 		)
 		(uuid "de642d8f-23f4-4760-b1a0-162ac3d30642")
 	)
-	(label "RGMII0.TXD2"
+	(label "RGMII0_SWITCH_STM.TXD2"
 		(at 19.05 57.15 0)
 		(effects
 			(font
@@ -7334,7 +7394,7 @@
 		)
 		(uuid "fa24dbed-283f-44dc-8fe8-bd2d5ae2f113")
 	)
-	(label "RGMII0.TXD1"
+	(label "RGMII0_SWITCH_STM.TXD1"
 		(at 19.05 60.96 0)
 		(effects
 			(font
@@ -7465,14 +7525,25 @@
 	)
 	(hierarchical_label "RGMII1_SWITCH_STM{TXD[0..3], TXC-REFCLK, TXCTL-DX_DV, RXD[0..3], RX_CLK, RXCTL-CRS_DV}"
 		(shape bidirectional)
-		(at 17.78 92.71 0)
+		(at 15.24 92.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "96f0e0d6-466f-4bb9-85e6-01e4184ed676")
+	)
+	(hierarchical_label "RGMII0_SWITCH_STM{TXD[0..3], TXC-REFCLK, TXCTL-DX_DV, RXD[0..3], RX_CLK, RXCTL-CRS_DV}"
+		(shape bidirectional)
+		(at 15.24 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "99007f04-5945-4027-a6f1-08678cbd92cd")
 	)
 	(hierarchical_label "PHY0_LED1"
 		(shape output)
@@ -7532,7 +7603,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 16.51 92.71 0)
+		(at 15.24 92.71 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7542,7 +7613,7 @@
 		)
 		(uuid "11c54034-b15c-47f4-bdb5-0af596f8bed0")
 		(property "Netclass" "RGMII"
-			(at 17.2085 90.17 0)
+			(at 15.9385 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7551,7 +7622,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at 199.39 162.56 0)
+			(at 198.12 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8139,15 +8210,15 @@
 	)
 	(symbol
 		(lib_id "KL_R:R_22_100mW_1pct_0603")
-		(at 68.58 68.58 90)
+		(at 62.23 68.58 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "1d08c826-ae2b-407d-ae54-f3af759cece5")
 		(property "Reference" "R117"
-			(at 68.58 66.548 90)
+			(at 62.23 66.548 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8155,7 +8226,7 @@
 			)
 		)
 		(property "Value" "22"
-			(at 68.58 68.58 90)
+			(at 62.23 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8163,7 +8234,7 @@
 			)
 		)
 		(property "Footprint" "KL_Footprints:R_0603"
-			(at 68.58 70.358 90)
+			(at 62.23 70.358 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8172,7 +8243,7 @@
 			)
 		)
 		(property "Datasheet" "https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-1022RL?lang=en"
-			(at 68.58 68.58 0)
+			(at 62.23 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8181,7 +8252,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 68.58 68.58 0)
+			(at 62.23 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8190,7 +8261,7 @@
 			)
 		)
 		(property "Power" "0.1"
-			(at 68.58 68.58 0)
+			(at 62.23 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8199,7 +8270,7 @@
 			)
 		)
 		(property "Tolerance" "1"
-			(at 68.58 68.58 0)
+			(at 62.23 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8208,7 +8279,7 @@
 			)
 		)
 		(property "Mouser" "603-RC0603FR-1022RL"
-			(at 68.58 68.58 0)
+			(at 62.23 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8217,7 +8288,7 @@
 			)
 		)
 		(property "Digikey" "13-RC0603FR-1022RLCT-ND"
-			(at 68.58 68.58 0)
+			(at 62.23 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8226,7 +8297,7 @@
 			)
 		)
 		(property "LCSC" "C4168692"
-			(at 68.58 68.58 0)
+			(at 62.23 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8235,7 +8306,7 @@
 			)
 		)
 		(property "Farnell" ""
-			(at 68.58 68.58 0)
+			(at 62.23 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8244,7 +8315,7 @@
 			)
 		)
 		(property "Package (in)" "0603"
-			(at 68.58 68.58 0)
+			(at 62.23 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8253,7 +8324,7 @@
 			)
 		)
 		(property "Dielectric" ""
-			(at 68.58 68.58 90)
+			(at 62.23 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8262,7 +8333,7 @@
 			)
 		)
 		(property "Dielectric_type" ""
-			(at 68.58 68.58 90)
+			(at 62.23 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8271,7 +8342,7 @@
 			)
 		)
 		(property "LSCS" ""
-			(at 68.58 68.58 90)
+			(at 62.23 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8280,7 +8351,7 @@
 			)
 		)
 		(property "Max Current" ""
-			(at 68.58 68.58 90)
+			(at 62.23 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9370,7 +9441,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "4ba30f59-8d04-4949-8da2-5e76644a3270")
 		(property "Reference" "R106"
 			(at 49.53 95.758 90)
@@ -10345,15 +10416,15 @@
 	)
 	(symbol
 		(lib_id "KL_R:R_22_100mW_1pct_0603")
-		(at 45.72 57.15 90)
+		(at 62.23 57.15 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "66c0272f-26cc-40bb-9b4b-24d79dec1653")
 		(property "Reference" "R114"
-			(at 45.72 55.118 90)
+			(at 62.23 55.118 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10361,7 +10432,7 @@
 			)
 		)
 		(property "Value" "22"
-			(at 45.72 57.15 90)
+			(at 62.23 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10369,7 +10440,7 @@
 			)
 		)
 		(property "Footprint" "KL_Footprints:R_0603"
-			(at 45.72 58.928 90)
+			(at 62.23 58.928 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10378,7 +10449,7 @@
 			)
 		)
 		(property "Datasheet" "https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-1022RL?lang=en"
-			(at 45.72 57.15 0)
+			(at 62.23 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10387,7 +10458,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 45.72 57.15 0)
+			(at 62.23 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10396,7 +10467,7 @@
 			)
 		)
 		(property "Power" "0.1"
-			(at 45.72 57.15 0)
+			(at 62.23 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10405,7 +10476,7 @@
 			)
 		)
 		(property "Tolerance" "1"
-			(at 45.72 57.15 0)
+			(at 62.23 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10414,7 +10485,7 @@
 			)
 		)
 		(property "Mouser" "603-RC0603FR-1022RL"
-			(at 45.72 57.15 0)
+			(at 62.23 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10423,7 +10494,7 @@
 			)
 		)
 		(property "Digikey" "13-RC0603FR-1022RLCT-ND"
-			(at 45.72 57.15 0)
+			(at 62.23 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10432,7 +10503,7 @@
 			)
 		)
 		(property "LCSC" "C4168692"
-			(at 45.72 57.15 0)
+			(at 62.23 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10441,7 +10512,7 @@
 			)
 		)
 		(property "Farnell" ""
-			(at 45.72 57.15 0)
+			(at 62.23 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10450,7 +10521,7 @@
 			)
 		)
 		(property "Package (in)" "0603"
-			(at 45.72 57.15 0)
+			(at 62.23 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10459,7 +10530,7 @@
 			)
 		)
 		(property "Dielectric" ""
-			(at 45.72 57.15 90)
+			(at 62.23 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10468,7 +10539,7 @@
 			)
 		)
 		(property "Dielectric_type" ""
-			(at 45.72 57.15 90)
+			(at 62.23 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10477,7 +10548,7 @@
 			)
 		)
 		(property "LSCS" ""
-			(at 45.72 57.15 90)
+			(at 62.23 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10486,7 +10557,7 @@
 			)
 		)
 		(property "Max Current" ""
-			(at 45.72 57.15 90)
+			(at 62.23 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10677,15 +10748,15 @@
 	)
 	(symbol
 		(lib_id "KL_R:R_22_100mW_1pct_0603")
-		(at 38.1 53.34 90)
+		(at 62.23 53.34 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "69a5d702-c665-4a72-a741-e338a5557eac")
 		(property "Reference" "R113"
-			(at 38.1 51.308 90)
+			(at 62.23 51.308 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10693,7 +10764,7 @@
 			)
 		)
 		(property "Value" "22"
-			(at 38.1 53.34 90)
+			(at 62.23 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10701,7 +10772,7 @@
 			)
 		)
 		(property "Footprint" "KL_Footprints:R_0603"
-			(at 38.1 55.118 90)
+			(at 62.23 55.118 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10710,7 +10781,7 @@
 			)
 		)
 		(property "Datasheet" "https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-1022RL?lang=en"
-			(at 38.1 53.34 0)
+			(at 62.23 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10719,7 +10790,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 38.1 53.34 0)
+			(at 62.23 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10728,7 +10799,7 @@
 			)
 		)
 		(property "Power" "0.1"
-			(at 38.1 53.34 0)
+			(at 62.23 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10737,7 +10808,7 @@
 			)
 		)
 		(property "Tolerance" "1"
-			(at 38.1 53.34 0)
+			(at 62.23 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10746,7 +10817,7 @@
 			)
 		)
 		(property "Mouser" "603-RC0603FR-1022RL"
-			(at 38.1 53.34 0)
+			(at 62.23 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10755,7 +10826,7 @@
 			)
 		)
 		(property "Digikey" "13-RC0603FR-1022RLCT-ND"
-			(at 38.1 53.34 0)
+			(at 62.23 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10764,7 +10835,7 @@
 			)
 		)
 		(property "LCSC" "C4168692"
-			(at 38.1 53.34 0)
+			(at 62.23 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10773,7 +10844,7 @@
 			)
 		)
 		(property "Farnell" ""
-			(at 38.1 53.34 0)
+			(at 62.23 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10782,7 +10853,7 @@
 			)
 		)
 		(property "Package (in)" "0603"
-			(at 38.1 53.34 0)
+			(at 62.23 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10791,7 +10862,7 @@
 			)
 		)
 		(property "Dielectric" ""
-			(at 38.1 53.34 90)
+			(at 62.23 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10800,7 +10871,7 @@
 			)
 		)
 		(property "Dielectric_type" ""
-			(at 38.1 53.34 90)
+			(at 62.23 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10809,7 +10880,7 @@
 			)
 		)
 		(property "LSCS" ""
-			(at 38.1 53.34 90)
+			(at 62.23 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10818,7 +10889,7 @@
 			)
 		)
 		(property "Max Current" ""
-			(at 38.1 53.34 90)
+			(at 62.23 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10848,7 +10919,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "70de9170-7e7e-4d00-acdb-bd926480bc18")
 		(property "Reference" "R98"
 			(at 73.66 110.998 90)
@@ -11667,7 +11738,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "a21dffec-d6b7-48cc-900a-af54de116624")
 		(property "Reference" "R116"
 			(at 62.23 62.738 90)
@@ -12078,7 +12149,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "b19f956e-155f-4896-bf7c-9a61f15096c4")
 		(property "Reference" "R104"
 			(at 62.23 103.378 90)
@@ -12577,15 +12648,15 @@
 	)
 	(symbol
 		(lib_id "KL_R:R_22_100mW_1pct_0603")
-		(at 76.2 72.39 90)
+		(at 62.23 72.39 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "c4e92a22-375f-428a-b187-70a4d786a6f2")
 		(property "Reference" "R118"
-			(at 76.2 70.358 90)
+			(at 62.23 70.358 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12593,7 +12664,7 @@
 			)
 		)
 		(property "Value" "22"
-			(at 76.2 72.39 90)
+			(at 62.23 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12601,7 +12672,7 @@
 			)
 		)
 		(property "Footprint" "KL_Footprints:R_0603"
-			(at 76.2 74.168 90)
+			(at 62.23 74.168 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12610,7 +12681,7 @@
 			)
 		)
 		(property "Datasheet" "https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-1022RL?lang=en"
-			(at 76.2 72.39 0)
+			(at 62.23 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12619,7 +12690,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 76.2 72.39 0)
+			(at 62.23 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12628,7 +12699,7 @@
 			)
 		)
 		(property "Power" "0.1"
-			(at 76.2 72.39 0)
+			(at 62.23 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12637,7 +12708,7 @@
 			)
 		)
 		(property "Tolerance" "1"
-			(at 76.2 72.39 0)
+			(at 62.23 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12646,7 +12717,7 @@
 			)
 		)
 		(property "Mouser" "603-RC0603FR-1022RL"
-			(at 76.2 72.39 0)
+			(at 62.23 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12655,7 +12726,7 @@
 			)
 		)
 		(property "Digikey" "13-RC0603FR-1022RLCT-ND"
-			(at 76.2 72.39 0)
+			(at 62.23 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12664,7 +12735,7 @@
 			)
 		)
 		(property "LCSC" "C4168692"
-			(at 76.2 72.39 0)
+			(at 62.23 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12673,7 +12744,7 @@
 			)
 		)
 		(property "Farnell" ""
-			(at 76.2 72.39 0)
+			(at 62.23 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12682,7 +12753,7 @@
 			)
 		)
 		(property "Package (in)" "0603"
-			(at 76.2 72.39 0)
+			(at 62.23 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12691,7 +12762,7 @@
 			)
 		)
 		(property "Dielectric" ""
-			(at 76.2 72.39 90)
+			(at 62.23 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12700,7 +12771,7 @@
 			)
 		)
 		(property "Dielectric_type" ""
-			(at 76.2 72.39 90)
+			(at 62.23 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12709,7 +12780,7 @@
 			)
 		)
 		(property "LSCS" ""
-			(at 76.2 72.39 90)
+			(at 62.23 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12718,7 +12789,7 @@
 			)
 		)
 		(property "Max Current" ""
-			(at 76.2 72.39 90)
+			(at 62.23 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12748,7 +12819,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "c543ea96-c4b8-4e35-a4c2-3d77357197e3")
 		(property "Reference" "R107"
 			(at 80.01 114.808 90)
@@ -13410,15 +13481,15 @@
 	)
 	(symbol
 		(lib_id "KL_R:R_22_100mW_1pct_0603")
-		(at 53.34 60.96 90)
+		(at 62.23 60.96 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "f109ec13-4d15-44c2-b8c5-716d3c5d2913")
 		(property "Reference" "R115"
-			(at 53.34 58.928 90)
+			(at 62.23 58.928 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13426,7 +13497,7 @@
 			)
 		)
 		(property "Value" "22"
-			(at 53.34 60.96 90)
+			(at 62.23 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13434,7 +13505,7 @@
 			)
 		)
 		(property "Footprint" "KL_Footprints:R_0603"
-			(at 53.34 62.738 90)
+			(at 62.23 62.738 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13443,7 +13514,7 @@
 			)
 		)
 		(property "Datasheet" "https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-1022RL?lang=en"
-			(at 53.34 60.96 0)
+			(at 62.23 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13452,7 +13523,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 53.34 60.96 0)
+			(at 62.23 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13461,7 +13532,7 @@
 			)
 		)
 		(property "Power" "0.1"
-			(at 53.34 60.96 0)
+			(at 62.23 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13470,7 +13541,7 @@
 			)
 		)
 		(property "Tolerance" "1"
-			(at 53.34 60.96 0)
+			(at 62.23 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13479,7 +13550,7 @@
 			)
 		)
 		(property "Mouser" "603-RC0603FR-1022RL"
-			(at 53.34 60.96 0)
+			(at 62.23 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13488,7 +13559,7 @@
 			)
 		)
 		(property "Digikey" "13-RC0603FR-1022RLCT-ND"
-			(at 53.34 60.96 0)
+			(at 62.23 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13497,7 +13568,7 @@
 			)
 		)
 		(property "LCSC" "C4168692"
-			(at 53.34 60.96 0)
+			(at 62.23 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13506,7 +13577,7 @@
 			)
 		)
 		(property "Farnell" ""
-			(at 53.34 60.96 0)
+			(at 62.23 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13515,7 +13586,7 @@
 			)
 		)
 		(property "Package (in)" "0603"
-			(at 53.34 60.96 0)
+			(at 62.23 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13524,7 +13595,7 @@
 			)
 		)
 		(property "Dielectric" ""
-			(at 53.34 60.96 90)
+			(at 62.23 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13533,7 +13604,7 @@
 			)
 		)
 		(property "Dielectric_type" ""
-			(at 53.34 60.96 90)
+			(at 62.23 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13542,7 +13613,7 @@
 			)
 		)
 		(property "LSCS" ""
-			(at 53.34 60.96 90)
+			(at 62.23 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13551,7 +13622,7 @@
 			)
 		)
 		(property "Max Current" ""
-			(at 53.34 60.96 90)
+			(at 62.23 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13581,7 +13652,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "fbe1963c-7c4f-4ba7-b6c0-ec0a58c1c0f4")
 		(property "Reference" "R105"
 			(at 55.88 99.568 90)
@@ -13913,7 +13984,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "fca55899-3547-413b-b167-9f632ef759c3")
 		(property "Reference" "R103"
 			(at 68.58 107.188 90)
