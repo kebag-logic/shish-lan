@@ -1415,7 +1415,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "KL_LED:LED_green_2V1_0.03A"
+		(symbol "KL_LED:LED_red_2V_0.03A"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1432,10 +1432,11 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Value" "LED_{color}_{U_F}_{I_F}"
-				(at 0 -2.54 0)
+				(at 4.826 8.128 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1444,7 +1445,7 @@
 				)
 			)
 			(property "Footprint" "KL_Footprints:LED_0603"
-				(at 0 0 0)
+				(at 1.778 6.604 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1452,8 +1453,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.mouser.com/catalog/specsheets/Lite-On-LTST-C190GKT.pdf"
-				(at 0 -10.668 0)
+			(property "Datasheet" "https://www.mouser.de/datasheet/3/281/1/LTST_C194KRKT.pdf"
+				(at 5.08 3.556 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1462,7 +1463,7 @@
 				)
 			)
 			(property "Description" "Light emitting diode"
-				(at 0 0 0)
+				(at 2.286 4.318 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1470,8 +1471,8 @@
 					(hide yes)
 				)
 			)
-			(property "U_F_in_V" "2.1"
-				(at 0 0 0)
+			(property "U_F_in_V" "2"
+				(at 6.604 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1480,7 +1481,7 @@
 				)
 			)
 			(property "I_F_in_A" "0.03"
-				(at 0 0 0)
+				(at 2.032 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1488,8 +1489,8 @@
 					(hide yes)
 				)
 			)
-			(property "lambda_d_in_nm" "569"
-				(at 0 0 0)
+			(property "lambda_d_in_nm" "639"
+				(at 15.748 1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1497,8 +1498,8 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser" "859-LTST-C190GKT"
-				(at 0 0 0)
+			(property "Mouser" "859-LTST-C194KRKT"
+				(at 5.842 5.334 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1506,8 +1507,8 @@
 					(hide yes)
 				)
 			)
-			(property "Digikey" "160-LTST-C190GKTCT-ND"
-				(at 0 -8.89 0)
+			(property "Digikey" "160-1835-1-ND"
+				(at 1.27 8.636 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1515,13 +1516,32 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC" "LTST-C190GKT"
-				(at 0 0 0)
+			(property "LCSC" "C913101"
+				(at 9.652 1.778 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(hide yes)
+				)
+			)
+			(property "Color" "Red"
+				(at 0.254 -2.794 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LABEL" "${REFERENCE}:${COLOR}"
+				(at 0.254 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 0 100 100 1)
+					)
 				)
 			)
 			(property "ki_keywords" "LED diode"
@@ -1542,7 +1562,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "LED_green_2V1_0.03A_0_1"
+			(symbol "LED_red_2V_0.03A_0_1"
 				(polyline
 					(pts
 						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
@@ -1604,7 +1624,7 @@
 					)
 				)
 			)
-			(symbol "LED_green_2V1_0.03A_1_1"
+			(symbol "LED_red_2V_0.03A_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -2205,7 +2225,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "KL_R:R_120_100mW_5_0603"
+		(symbol "KL_R:R_1K5_100mW_5_0603"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2223,7 +2243,7 @@
 					)
 				)
 			)
-			(property "Value" "120"
+			(property "Value" "1K5"
 				(at 0 0 90)
 				(effects
 					(font
@@ -2240,7 +2260,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://yageogroup.com/component-documentation/download/specsheet/RC0603JR-07120RL"
+			(property "Datasheet" "https://yageogroup.com/content/Resource%20Library/Datasheet/PYU-AC_51_ROHS_L.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2276,7 +2296,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser" "603-RC0603JR-07120RL"
+			(property "Mouser" "603-AC0603JR-071K5L"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2285,7 +2305,7 @@
 					(hide yes)
 				)
 			)
-			(property "Digikey" "311-120GRCT-ND"
+			(property "Digikey" "YAG3645CT-ND"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2294,7 +2314,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC" "C49656648"
+			(property "LCSC" "C49652951"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2339,7 +2359,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "R_120_100mW_5_0603_0_1"
+			(symbol "R_1K5_100mW_5_0603_0_1"
 				(rectangle
 					(start -1.016 -2.54)
 					(end 1.016 2.54)
@@ -2352,7 +2372,7 @@
 					)
 				)
 			)
-			(symbol "R_120_100mW_5_0603_1_1"
+			(symbol "R_1K5_100mW_5_0603_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -4925,129 +4945,6 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_LED:LED_green_2V1_0.03A")
-		(at 167.64 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3ca52dae-6a5b-49ab-897d-4d925f14a588")
-		(property "Reference" "D2"
-			(at 166.0525 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED_{color}_{U_F}_{I_F}"
-			(at 167.64 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "KL_Footprints:LED_0603"
-			(at 167.64 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/Lite-On-LTST-C190GKT.pdf"
-			(at 167.64 80.518 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 167.64 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "U_F_in_V" "2.1"
-			(at 167.64 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "I_F_in_A" "0.03"
-			(at 167.64 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "lambda_d_in_nm" "569"
-			(at 167.64 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "859-LTST-C190GKT"
-			(at 167.64 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "160-LTST-C190GKTCT-ND"
-			(at 167.64 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "LTST-C190GKT"
-			(at 167.64 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7d85b46a-eea2-4c06-bc27-2d0138a41ed3")
-		)
-		(pin "1"
-			(uuid "e08a95a8-8d7d-4356-80fb-c811966a5d74")
-		)
-		(instances
-			(project "shish-lan"
-				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/c6e71b93-7134-487d-a04c-584c6081214b"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "KL_R:R_10K_100mW_1_0603")
 		(at 185.42 97.79 0)
 		(unit 1)
@@ -5374,6 +5271,137 @@
 		)
 	)
 	(symbol
+		(lib_id "KL_R:R_1K5_100mW_5_0603")
+		(at 179.07 69.85 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45c362c9-1dab-42ac-9e0c-8cd8a3181a0d")
+		(property "Reference" "R95"
+			(at 179.07 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K5"
+			(at 179.07 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "KL_Footprints:R_0603"
+			(at 179.07 68.072 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/Resource%20Library/Datasheet/PYU-AC_51_ROHS_L.pdf"
+			(at 179.07 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 179.07 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" "0.1"
+			(at 179.07 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "5"
+			(at 179.07 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "603-AC0603JR-071K5L"
+			(at 179.07 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "YAG3645CT-ND"
+			(at 179.07 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C49652951"
+			(at 179.07 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Farnell" ""
+			(at 179.07 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package (in)" "0603"
+			(at 179.07 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "147bb3b2-50ee-468c-876e-1f767af26ce9")
+		)
+		(pin "2"
+			(uuid "7e785f8f-7e21-4250-9444-336594bf4278")
+		)
+		(instances
+			(project "shish-lan"
+				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/c6e71b93-7134-487d-a04c-584c6081214b"
+					(reference "R95")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "KL_R:R_31K6_125mW_1_0603")
 		(at 185.42 83.82 0)
 		(unit 1)
@@ -5615,179 +5643,6 @@
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/c6e71b93-7134-487d-a04c-584c6081214b"
 					(reference "#PWR17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "KL_R:R_120_100mW_5_0603")
-		(at 179.07 69.85 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "67467a66-2144-47a9-98f6-7ff5e0d2b49e")
-		(property "Reference" "R95"
-			(at 179.07 63.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "120"
-			(at 179.07 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "KL_Footprints:R_0603"
-			(at 179.07 71.628 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://yageogroup.com/component-documentation/download/specsheet/RC0603JR-07120RL"
-			(at 179.07 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 179.07 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" "0.1"
-			(at 179.07 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "5"
-			(at 179.07 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "603-RC0603JR-07120RL"
-			(at 179.07 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "311-120GRCT-ND"
-			(at 179.07 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C49656648"
-			(at 179.07 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package (in)" "0603"
-			(at 179.07 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Farnell" ""
-			(at 179.07 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" ""
-			(at 179.07 69.85 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" ""
-			(at 179.07 69.85 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS" ""
-			(at 179.07 69.85 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max Current" ""
-			(at 179.07 69.85 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b308af35-f18b-4e58-a09e-50ac8bba8899")
-		)
-		(pin "1"
-			(uuid "c13940d1-8f65-4c8d-92c5-a065bce6e003")
-		)
-		(instances
-			(project "switch"
-				(path "/cd936d40-9035-4ec8-bcf8-38758f995fb0/c6e71b93-7134-487d-a04c-584c6081214b"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-			(project "shish-lan"
-				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/c6e71b93-7134-487d-a04c-584c6081214b"
-					(reference "R95")
 					(unit 1)
 				)
 			)
@@ -6966,6 +6821,149 @@
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/c6e71b93-7134-487d-a04c-584c6081214b"
 					(reference "C99")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KL_LED:LED_red_2V_0.03A")
+		(at 167.64 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c57df213-c165-4b2f-9129-42bc81c455fb")
+		(property "Reference" "D2"
+			(at 167.64 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "LED_{color}_{U_F}_{I_F}"
+			(at 172.466 61.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "KL_Footprints:LED_0603"
+			(at 169.418 63.246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.de/datasheet/3/281/1/LTST_C194KRKT.pdf"
+			(at 172.72 66.294 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 169.926 65.532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "U_F_in_V" "2"
+			(at 174.244 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I_F_in_A" "0.03"
+			(at 169.672 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lambda_d_in_nm" "639"
+			(at 183.388 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "859-LTST-C194KRKT"
+			(at 173.482 64.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "160-1835-1-ND"
+			(at 168.91 61.214 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C913101"
+			(at 177.292 68.072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Color" "Red"
+			(at 167.894 72.644 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LABEL" "${REFERENCE}:${COLOR}"
+			(at 166.0525 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "374f0fad-b87c-4f6c-a382-56e35169272d")
+		)
+		(pin "1"
+			(uuid "bece7cd2-ff43-47a8-8153-b6a3874bbb83")
+		)
+		(instances
+			(project ""
+				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/c6e71b93-7134-487d-a04c-584c6081214b"
+					(reference "D2")
 					(unit 1)
 				)
 			)

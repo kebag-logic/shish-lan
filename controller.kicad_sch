@@ -1158,10 +1158,11 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Value" "LED_{color}_{U_F}_{I_F}"
-				(at 0 -2.54 0)
+				(at -5.588 4.064 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1170,7 +1171,7 @@
 				)
 			)
 			(property "Footprint" "KL_Footprints:LED_0603"
-				(at 0 0 0)
+				(at -14.986 -3.556 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1188,7 +1189,7 @@
 				)
 			)
 			(property "Description" "Light emitting diode"
-				(at 0 0 0)
+				(at -12.446 8.382 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1197,7 +1198,7 @@
 				)
 			)
 			(property "U_F_in_V" "2.1"
-				(at 0 0 0)
+				(at 9.144 4.064 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1206,7 +1207,7 @@
 				)
 			)
 			(property "I_F_in_A" "0.03"
-				(at 0 0 0)
+				(at 6.35 4.826 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1215,7 +1216,7 @@
 				)
 			)
 			(property "lambda_d_in_nm" "569"
-				(at 0 0 0)
+				(at 11.176 2.794 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1224,7 +1225,7 @@
 				)
 			)
 			(property "Mouser" "859-LTST-C190GKT"
-				(at 0 0 0)
+				(at 6.604 6.858 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1242,12 +1243,31 @@
 				)
 			)
 			(property "LCSC" "LTST-C190GKT"
-				(at 0 0 0)
+				(at -21.336 4.064 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(hide yes)
+				)
+			)
+			(property "Color" "Green"
+				(at 0 -3.556 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LABEL" "${REFERENCE}:${COLOR}"
+				(at 0.254 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 0 100 100 1)
+					)
 				)
 			)
 			(property "ki_keywords" "LED diode"
@@ -1387,6 +1407,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Value" "LED_{color}_{U_F}_{I_F}"
@@ -1477,6 +1498,25 @@
 						(size 1.27 1.27)
 					)
 					(hide yes)
+				)
+			)
+			(property "Color" "Orange"
+				(at 0 -3.556 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LABEL" "${REFERENCE}:${COLOR}"
+				(at 0.254 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 0 100 100 1)
+					)
 				)
 			)
 			(property "ki_keywords" "LED diode"
@@ -1616,10 +1656,11 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Value" "LED_{color}_{U_F}_{I_F}"
-				(at 0 -2.54 0)
+				(at 4.826 8.128 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1628,7 +1669,7 @@
 				)
 			)
 			(property "Footprint" "KL_Footprints:LED_0603"
-				(at 0 0 0)
+				(at 1.778 6.604 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1637,7 +1678,7 @@
 				)
 			)
 			(property "Datasheet" "https://www.mouser.de/datasheet/3/281/1/LTST_C194KRKT.pdf"
-				(at 0 0 0)
+				(at 5.08 3.556 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1646,7 +1687,7 @@
 				)
 			)
 			(property "Description" "Light emitting diode"
-				(at 0 0 0)
+				(at 2.286 4.318 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1655,7 +1696,7 @@
 				)
 			)
 			(property "U_F_in_V" "2"
-				(at 0 0 0)
+				(at 6.604 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1664,7 +1705,7 @@
 				)
 			)
 			(property "I_F_in_A" "0.03"
-				(at 0 0 0)
+				(at 2.032 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1673,7 +1714,7 @@
 				)
 			)
 			(property "lambda_d_in_nm" "639"
-				(at 0 0 0)
+				(at 15.748 1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1682,7 +1723,7 @@
 				)
 			)
 			(property "Mouser" "859-LTST-C194KRKT"
-				(at 0 0 0)
+				(at 5.842 5.334 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1691,7 +1732,7 @@
 				)
 			)
 			(property "Digikey" "160-1835-1-ND"
-				(at 0 0 0)
+				(at 1.27 8.636 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1700,12 +1741,31 @@
 				)
 			)
 			(property "LCSC" "C913101"
-				(at 0 0 0)
+				(at 9.652 1.778 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(hide yes)
+				)
+			)
+			(property "Color" "Red"
+				(at 0.254 -2.794 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LABEL" "${REFERENCE}:${COLOR}"
+				(at 0.254 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 0 100 100 1)
+					)
 				)
 			)
 			(property "ki_keywords" "LED diode"
@@ -4895,7 +4955,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "KL_R:R_120_100mW_5_0603"
+		(symbol "KL_R:R_1K5_100mW_5_0603"
 			(pin_numbers
 				(hide yes)
 			)
@@ -4913,7 +4973,7 @@
 					)
 				)
 			)
-			(property "Value" "120"
+			(property "Value" "1K5"
 				(at 0 0 90)
 				(effects
 					(font
@@ -4930,7 +4990,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://yageogroup.com/component-documentation/download/specsheet/RC0603JR-07120RL"
+			(property "Datasheet" "https://yageogroup.com/content/Resource%20Library/Datasheet/PYU-AC_51_ROHS_L.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4966,7 +5026,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser" "603-RC0603JR-07120RL"
+			(property "Mouser" "603-AC0603JR-071K5L"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4975,7 +5035,7 @@
 					(hide yes)
 				)
 			)
-			(property "Digikey" "311-120GRCT-ND"
+			(property "Digikey" "YAG3645CT-ND"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4984,7 +5044,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC" "C49656648"
+			(property "LCSC" "C49652951"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5029,7 +5089,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "R_120_100mW_5_0603_0_1"
+			(symbol "R_1K5_100mW_5_0603_0_1"
 				(rectangle
 					(start -1.016 -2.54)
 					(end 1.016 2.54)
@@ -5042,7 +5102,7 @@
 					)
 				)
 			)
-			(symbol "R_120_100mW_5_0603_1_1"
+			(symbol "R_1K5_100mW_5_0603_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -10390,7 +10450,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_R:R_120_100mW_5_0603")
+		(lib_id "KL_R:R_1K5_100mW_5_0603")
 		(at 69.85 133.35 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10399,15 +10459,15 @@
 		(dnp no)
 		(uuid "5758e4f8-9076-4dc4-96a7-23b3721d3c11")
 		(property "Reference" "R137"
-			(at 69.85 131.064 90)
+			(at 69.85 131.318 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "120"
-			(at 69.85 135.89 90)
+		(property "Value" "1K5"
+			(at 69.85 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10423,7 +10483,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/component-documentation/download/specsheet/RC0603JR-07120RL"
+		(property "Datasheet" "https://yageogroup.com/content/Resource%20Library/Datasheet/PYU-AC_51_ROHS_L.pdf"
 			(at 69.85 133.35 0)
 			(effects
 				(font
@@ -10459,7 +10519,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-RC0603JR-07120RL"
+		(property "Mouser" "603-AC0603JR-071K5L"
 			(at 69.85 133.35 0)
 			(effects
 				(font
@@ -10468,7 +10528,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "311-120GRCT-ND"
+		(property "Digikey" "YAG3645CT-ND"
 			(at 69.85 133.35 0)
 			(effects
 				(font
@@ -10477,7 +10537,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C49656648"
+		(property "LCSC" "C49652951"
 			(at 69.85 133.35 0)
 			(effects
 				(font
@@ -10885,7 +10945,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_R:R_120_100mW_5_0603")
+		(lib_id "KL_R:R_1K5_100mW_5_0603")
 		(at 69.85 148.59 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10894,15 +10954,15 @@
 		(dnp no)
 		(uuid "6cc6b31b-0f5f-42f2-a5ac-2f29a6c84246")
 		(property "Reference" "R87"
-			(at 69.85 146.304 90)
+			(at 69.85 146.558 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "120"
-			(at 69.85 151.13 90)
+		(property "Value" "1K5"
+			(at 69.85 148.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10918,7 +10978,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/component-documentation/download/specsheet/RC0603JR-07120RL"
+		(property "Datasheet" "https://yageogroup.com/content/Resource%20Library/Datasheet/PYU-AC_51_ROHS_L.pdf"
 			(at 69.85 148.59 0)
 			(effects
 				(font
@@ -10954,7 +11014,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-RC0603JR-07120RL"
+		(property "Mouser" "603-AC0603JR-071K5L"
 			(at 69.85 148.59 0)
 			(effects
 				(font
@@ -10963,7 +11023,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "311-120GRCT-ND"
+		(property "Digikey" "YAG3645CT-ND"
 			(at 69.85 148.59 0)
 			(effects
 				(font
@@ -10972,7 +11032,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C49656648"
+		(property "LCSC" "C49652951"
 			(at 69.85 148.59 0)
 			(effects
 				(font
@@ -12193,15 +12253,16 @@
 		(dnp no)
 		(uuid "b5831265-6bab-46d6-a576-46db70d42887")
 		(property "Reference" "D6"
-			(at 59.69 130.556 0)
+			(at 58.42 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Value" "LED_{color}_{U_F}_{I_F}"
-			(at 58.42 130.81 0)
+			(at 53.594 141.478 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12210,7 +12271,7 @@
 			)
 		)
 		(property "Footprint" "KL_Footprints:LED_0603"
-			(at 58.42 133.35 0)
+			(at 56.642 139.954 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12219,7 +12280,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.de/datasheet/3/281/1/LTST_C194KRKT.pdf"
-			(at 58.42 133.35 0)
+			(at 53.34 136.906 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12228,7 +12289,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 58.42 133.35 0)
+			(at 56.134 137.668 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12237,7 +12298,7 @@
 			)
 		)
 		(property "U_F_in_V" "2"
-			(at 58.42 133.35 0)
+			(at 51.816 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12246,7 +12307,7 @@
 			)
 		)
 		(property "I_F_in_A" "0.03"
-			(at 58.42 133.35 0)
+			(at 56.388 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12255,7 +12316,7 @@
 			)
 		)
 		(property "lambda_d_in_nm" "639"
-			(at 58.42 133.35 0)
+			(at 42.672 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12264,7 +12325,7 @@
 			)
 		)
 		(property "Mouser" "859-LTST-C194KRKT"
-			(at 58.42 133.35 0)
+			(at 52.578 138.684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12273,7 +12334,7 @@
 			)
 		)
 		(property "Digikey" "160-1835-1-ND"
-			(at 58.42 133.35 0)
+			(at 57.15 141.986 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12282,12 +12343,31 @@
 			)
 		)
 		(property "LCSC" "C913101"
-			(at 58.42 133.35 0)
+			(at 48.768 135.128 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Color" "Red"
+			(at 58.166 130.556 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LABEL" "${REFERENCE}:${COLOR}"
+			(at 58.42 129.794 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
 			)
 		)
 		(pin "2"
@@ -12702,15 +12782,16 @@
 		(dnp no)
 		(uuid "c084d012-a7de-45ef-9506-607833686122")
 		(property "Reference" "D4"
-			(at 59.69 145.796 0)
+			(at 58.42 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Value" "LED_{color}_{U_F}_{I_F}"
-			(at 58.42 146.05 0)
+			(at 64.008 152.654 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12719,7 +12800,7 @@
 			)
 		)
 		(property "Footprint" "KL_Footprints:LED_0603"
-			(at 58.42 148.59 0)
+			(at 73.406 145.034 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12737,7 +12818,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 58.42 148.59 0)
+			(at 70.866 156.972 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12746,7 +12827,7 @@
 			)
 		)
 		(property "U_F_in_V" "2.1"
-			(at 58.42 148.59 0)
+			(at 49.276 152.654 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12755,7 +12836,7 @@
 			)
 		)
 		(property "I_F_in_A" "0.03"
-			(at 58.42 148.59 0)
+			(at 52.07 153.416 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12764,7 +12845,7 @@
 			)
 		)
 		(property "lambda_d_in_nm" "569"
-			(at 58.42 148.59 0)
+			(at 47.244 151.384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12773,7 +12854,7 @@
 			)
 		)
 		(property "Mouser" "859-LTST-C190GKT"
-			(at 58.42 148.59 0)
+			(at 51.816 155.448 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12791,12 +12872,31 @@
 			)
 		)
 		(property "LCSC" "LTST-C190GKT"
-			(at 58.42 148.59 0)
+			(at 79.756 152.654 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Color" "Green"
+			(at 58.42 145.034 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LABEL" "${REFERENCE}:${COLOR}"
+			(at 58.42 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
 			)
 		)
 		(pin "2"
@@ -13833,11 +13933,12 @@
 		(dnp no)
 		(uuid "ed2a82b1-32fe-45ba-9f85-79f629e49ddf")
 		(property "Reference" "D5"
-			(at 59.69 138.176 0)
+			(at 58.42 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Value" "LED_{color}_{U_F}_{I_F}"
@@ -13928,6 +14029,25 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Color" "Orange"
+			(at 58.42 137.414 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LABEL" "${REFERENCE}:${COLOR}"
+			(at 58.42 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
 			)
 		)
 		(pin "1"
@@ -14125,7 +14245,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_R:R_120_100mW_5_0603")
+		(lib_id "KL_R:R_1K5_100mW_5_0603")
 		(at 69.85 140.97 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14134,15 +14254,15 @@
 		(dnp no)
 		(uuid "f27a5fa8-5333-4fd6-b36d-9a31d69ba50b")
 		(property "Reference" "R89"
-			(at 69.85 138.684 90)
+			(at 69.85 138.938 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "120"
-			(at 69.85 143.51 90)
+		(property "Value" "1K5"
+			(at 69.85 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14158,7 +14278,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/component-documentation/download/specsheet/RC0603JR-07120RL"
+		(property "Datasheet" "https://yageogroup.com/content/Resource%20Library/Datasheet/PYU-AC_51_ROHS_L.pdf"
 			(at 69.85 140.97 0)
 			(effects
 				(font
@@ -14194,7 +14314,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-RC0603JR-07120RL"
+		(property "Mouser" "603-AC0603JR-071K5L"
 			(at 69.85 140.97 0)
 			(effects
 				(font
@@ -14203,7 +14323,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "311-120GRCT-ND"
+		(property "Digikey" "YAG3645CT-ND"
 			(at 69.85 140.97 0)
 			(effects
 				(font
@@ -14212,7 +14332,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C49656648"
+		(property "LCSC" "C49652951"
 			(at 69.85 140.97 0)
 			(effects
 				(font
