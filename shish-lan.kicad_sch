@@ -1033,10 +1033,6 @@
 		(color 0 0 0 0)
 		(uuid "f81bb5e0-48bd-4874-a8bb-25a58663059c")
 	)
-	(no_connect
-		(at 177.8 49.53)
-		(uuid "ae4c809b-4e66-4861-96e2-c44b65f29760")
-	)
 	(bus_entry
 		(at 115.57 35.56)
 		(size 2.54 2.54)
@@ -1114,16 +1110,6 @@
 			(type default)
 		)
 		(uuid "2dd2f119-349d-4797-8ed7-de7b834365b4")
-	)
-	(bus
-		(pts
-			(xy 177.8 49.53) (xy 185.42 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f7ac2f9-bb16-4949-9c1e-268424bbae40")
 	)
 	(wire
 		(pts
@@ -9899,7 +9885,7 @@
 				(justify right)
 			)
 		)
-		(pin "RGMII1_SWITCH_STM{TXD[0..3], TXC-REFCLK, TXCTL-DX_DV, RXD[0..3], RX_CLK, RXCTL-CRS_DV}"
+		(pin "RGMII0_SWITCH_STM{TXD[0..3], TXC-REFCLK, TXCTL-DX_DV, RXD[0..3], RX_CLK, RXCTL-CRS_DV}"
 			bidirectional
 			(at 109.22 53.34 0
 			)
@@ -9961,18 +9947,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(pin "RGMII1_SWITCH_STM{TXD[0..3], TXC-REFCLK, TXCTL-DX_DV, RXD[0..3], RX_CLK, RXCTL-CRS_DV}"
-			bidirectional
-			(at 185.42 49.53 180
-			)
-			(uuid "63fc911e-92d0-4713-9a50-3c0e71080ac6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(pin "MIIM0_STM_SWITCH{SLV_MDIO,SLV_MDC}" bidirectional
