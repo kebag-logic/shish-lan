@@ -1415,6 +1415,255 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "KL_LED:LED_red_2V_0.03A"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "LED_{color}_{U_F}_{I_F}"
+				(at 4.826 8.128 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "KL_Footprints:LED_0603"
+				(at 1.778 6.604 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.mouser.de/datasheet/3/281/1/LTST_C194KRKT.pdf"
+				(at 5.08 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 2.286 4.318 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "U_F_in_V" "2"
+				(at 6.604 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "I_F_in_A" "0.03"
+				(at 2.032 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "lambda_d_in_nm" "639"
+				(at 15.748 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser" "859-LTST-C194KRKT"
+				(at 5.842 5.334 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Digikey" "160-1835-1-ND"
+				(at 1.27 8.636 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C913101"
+				(at 9.652 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Color" "Red"
+				(at 0.254 -2.794 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LABEL" "${REFERENCE}:${COLOR}"
+				(at 0.254 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 0 100 100 1)
+					)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_red_2V_0.03A_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_red_2V_0.03A_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "KL_R:R_0R_2W_5_2512"
 			(pin_numbers
 				(hide yes)
@@ -1937,6 +2186,193 @@
 				)
 			)
 			(symbol "R_10K_100mW_5_0603_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "KL_R:R_1K5_100mW_5_0603"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1K5"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "KL_Footprints:R_0603"
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://yageogroup.com/content/Resource%20Library/Datasheet/PYU-AC_51_ROHS_L.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Power" "0.1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Tolerance" "5"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser" "603-AC0603JR-071K5L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Digikey" "YAG3645CT-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C49652951"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Farnell" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Package (in)" "0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_1K5_100mW_5_0603_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1K5_100mW_5_0603_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -2632,6 +3068,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+3V3"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "Based on WEBENCH design: https://drive.google.com/file/d/1STtModBE37J_lW2Zfq6PtjpJq2d4hOYi/view?usp=drive_link"
 		(exclude_from_sim no)
@@ -2823,16 +3384,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ef6f3d73-0ab6-48e3-9f42-12f5fa5ba6dc")
-	)
-	(wire
-		(pts
-			(xy 173.99 69.85) (xy 173.99 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07ebed16-b31e-4334-b680-a8509d71a974")
 	)
 	(wire
 		(pts
@@ -3046,7 +3597,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 69.85) (xy 173.99 69.85)
+			(xy 182.88 69.85) (xy 185.42 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3083,6 +3634,16 @@
 			(type default)
 		)
 		(uuid "7894a196-b3db-4aea-b696-a1202a88e907")
+	)
+	(wire
+		(pts
+			(xy 185.42 78.74) (xy 173.99 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c030c25-2351-4a31-a41d-6c7d0ccc69c9")
 	)
 	(wire
 		(pts
@@ -3176,7 +3737,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 69.85) (xy 158.75 69.85)
+			(xy 175.26 69.85) (xy 171.45 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3266,13 +3827,13 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 78.74) (xy 185.42 78.74)
+			(xy 163.83 69.85) (xy 158.75 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b2f08181-6979-4ad0-9523-8ba4b58c8cf0")
+		(uuid "b68b3f7f-c0d4-4204-8e3c-2f765a82a3d0")
 	)
 	(wire
 		(pts
@@ -3363,6 +3924,16 @@
 			(type default)
 		)
 		(uuid "f324ebfe-def4-482c-8ea5-c0995e990da3")
+	)
+	(wire
+		(pts
+			(xy 185.42 67.31) (xy 185.42 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f624aecb-3fd8-4b64-a905-986e24b12363")
 	)
 	(label "5-12V"
 		(at 52.07 41.91 180)
@@ -4700,6 +5271,137 @@
 		)
 	)
 	(symbol
+		(lib_id "KL_R:R_1K5_100mW_5_0603")
+		(at 179.07 69.85 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45c362c9-1dab-42ac-9e0c-8cd8a3181a0d")
+		(property "Reference" "R95"
+			(at 179.07 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K5"
+			(at 179.07 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "KL_Footprints:R_0603"
+			(at 179.07 68.072 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/Resource%20Library/Datasheet/PYU-AC_51_ROHS_L.pdf"
+			(at 179.07 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 179.07 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" "0.1"
+			(at 179.07 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "5"
+			(at 179.07 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "603-AC0603JR-071K5L"
+			(at 179.07 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "YAG3645CT-ND"
+			(at 179.07 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C49652951"
+			(at 179.07 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Farnell" ""
+			(at 179.07 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package (in)" "0603"
+			(at 179.07 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "147bb3b2-50ee-468c-876e-1f767af26ce9")
+		)
+		(pin "2"
+			(uuid "7e785f8f-7e21-4250-9444-336594bf4278")
+		)
+		(instances
+			(project "shish-lan"
+				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/c6e71b93-7134-487d-a04c-584c6081214b"
+					(reference "R95")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "KL_R:R_31K6_125mW_1_0603")
 		(at 185.42 83.82 0)
 		(unit 1)
@@ -4941,179 +5643,6 @@
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/c6e71b93-7134-487d-a04c-584c6081214b"
 					(reference "#PWR17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "KL_R:R_10K_100mW_5_0603")
-		(at 167.64 69.85 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "67467a66-2144-47a9-98f6-7ff5e0d2b49e")
-		(property "Reference" "R95"
-			(at 167.64 63.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10K"
-			(at 167.64 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "KL_Footprints:R_0603"
-			(at 167.64 71.628 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 167.64 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 167.64 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" "100mW"
-			(at 167.64 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "5%"
-			(at 167.64 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "71-CRCW060310K0JNEC"
-			(at 167.64 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "541-CRCW060310K0JNECCT-ND"
-			(at 167.64 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C4195694"
-			(at 167.64 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package (in)" "0603"
-			(at 167.64 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Farnell" ""
-			(at 167.64 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" ""
-			(at 167.64 69.85 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" ""
-			(at 167.64 69.85 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS" ""
-			(at 167.64 69.85 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max Current" ""
-			(at 167.64 69.85 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b308af35-f18b-4e58-a09e-50ac8bba8899")
-		)
-		(pin "1"
-			(uuid "c13940d1-8f65-4c8d-92c5-a065bce6e003")
-		)
-		(instances
-			(project "switch"
-				(path "/cd936d40-9035-4ec8-bcf8-38758f995fb0/c6e71b93-7134-487d-a04c-584c6081214b"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-			(project "shish-lan"
-				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/c6e71b93-7134-487d-a04c-584c6081214b"
-					(reference "R95")
 					(unit 1)
 				)
 			)
@@ -6298,6 +6827,149 @@
 		)
 	)
 	(symbol
+		(lib_id "KL_LED:LED_red_2V_0.03A")
+		(at 167.64 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c57df213-c165-4b2f-9129-42bc81c455fb")
+		(property "Reference" "D2"
+			(at 167.64 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "LED_{color}_{U_F}_{I_F}"
+			(at 172.466 61.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "KL_Footprints:LED_0603"
+			(at 169.418 63.246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.de/datasheet/3/281/1/LTST_C194KRKT.pdf"
+			(at 172.72 66.294 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 169.926 65.532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "U_F_in_V" "2"
+			(at 174.244 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I_F_in_A" "0.03"
+			(at 169.672 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lambda_d_in_nm" "639"
+			(at 183.388 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "859-LTST-C194KRKT"
+			(at 173.482 64.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "160-1835-1-ND"
+			(at 168.91 61.214 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C913101"
+			(at 177.292 68.072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Color" "Red"
+			(at 167.894 72.644 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LABEL" "${REFERENCE}:${COLOR}"
+			(at 166.0525 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "374f0fad-b87c-4f6c-a382-56e35169272d")
+		)
+		(pin "1"
+			(uuid "bece7cd2-ff43-47a8-8153-b6a3874bbb83")
+		)
+		(instances
+			(project ""
+				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/c6e71b93-7134-487d-a04c-584c6081214b"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "KL_C:C_10u_25V_X5R_0603_20")
 		(at 87.63 88.9 0)
 		(unit 1)
@@ -6449,6 +7121,72 @@
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/c6e71b93-7134-487d-a04c-584c6081214b"
 					(reference "C101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 185.42 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d48f5b79-b286-423a-9863-c13160be0e5c")
+		(property "Reference" "#PWR022"
+			(at 185.42 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 185.42 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 185.42 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c81014f0-7df5-4f35-a049-e89fcdb6293b")
+		)
+		(instances
+			(project ""
+				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/c6e71b93-7134-487d-a04c-584c6081214b"
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
