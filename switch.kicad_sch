@@ -3936,6 +3936,68 @@
 		)
 		(uuid "dab47663-ebce-4033-80bc-662c6e2dc120")
 	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 143.51 157.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ef483de9-2ed2-4f1d-8a56-3dafd5f578c0")
+		(property "Netclass" "SYNCE"
+			(at 144.2085 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -82.55 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 153.67 154.94 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f6741b59-6b1b-4d3f-9c66-9ba8080e6591")
+		(property "Netclass" "SYNCE"
+			(at 154.3685 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -72.39 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "KL_Headers:02x01_2.54mm_Header")
 		(at 172.72 156.21 0)

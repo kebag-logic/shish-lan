@@ -7341,7 +7341,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 113.03) (xy 129.54 113.03)
+			(xy 127 113.03) (xy 132.08 113.03)
 		)
 		(stroke
 			(width 0)
@@ -7371,7 +7371,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 113.03) (xy 179.07 113.03)
+			(xy 139.7 113.03) (xy 179.07 113.03)
 		)
 		(stroke
 			(width 0)
@@ -8339,6 +8339,99 @@
 			(justify right)
 		)
 		(uuid "fa8ab046-4377-436c-8771-e3cbc15922a9")
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 133.35 116.84 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "44997ac2-3b4e-42ae-a526-33c1bea3cfc5")
+		(property "Netclass" "RGMII"
+			(at 134.0485 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 316.23 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 128.27 113.03 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b1fbf056-f108-48e0-813f-c3c98e6eb7c1")
+		(property "Netclass" "RGMII"
+			(at 128.9685 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 311.15 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 137.16 120.65 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f3741ee4-1182-4539-9406-3cc90c054561")
+		(property "Netclass" "RGMII"
+			(at 137.8585 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 320.04 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -10082,7 +10175,7 @@
 	)
 	(symbol
 		(lib_id "KL_R:R_22_100mW_1pct_0603")
-		(at 133.35 113.03 90)
+		(at 135.89 113.03 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10090,7 +10183,7 @@
 		(dnp no)
 		(uuid "8d250b2b-23be-4d90-a18c-616bb004d146")
 		(property "Reference" "R111"
-			(at 133.35 110.998 90)
+			(at 135.89 110.998 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10098,7 +10191,7 @@
 			)
 		)
 		(property "Value" "22"
-			(at 133.35 113.03 90)
+			(at 135.89 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10106,7 +10199,7 @@
 			)
 		)
 		(property "Footprint" "KL_Footprints:R_0603"
-			(at 133.35 114.808 90)
+			(at 135.89 114.808 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10115,7 +10208,7 @@
 			)
 		)
 		(property "Datasheet" "https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-1022RL?lang=en"
-			(at 133.35 113.03 0)
+			(at 135.89 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10124,7 +10217,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 133.35 113.03 0)
+			(at 135.89 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10133,7 +10226,7 @@
 			)
 		)
 		(property "Power" "0.1"
-			(at 133.35 113.03 0)
+			(at 135.89 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10142,7 +10235,7 @@
 			)
 		)
 		(property "Tolerance" "1"
-			(at 133.35 113.03 0)
+			(at 135.89 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10151,7 +10244,7 @@
 			)
 		)
 		(property "Mouser" "603-RC0603FR-1022RL"
-			(at 133.35 113.03 0)
+			(at 135.89 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10160,7 +10253,7 @@
 			)
 		)
 		(property "Digikey" "13-RC0603FR-1022RLCT-ND"
-			(at 133.35 113.03 0)
+			(at 135.89 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10169,7 +10262,7 @@
 			)
 		)
 		(property "LCSC" "C4168692"
-			(at 133.35 113.03 0)
+			(at 135.89 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10178,7 +10271,7 @@
 			)
 		)
 		(property "Farnell" ""
-			(at 133.35 113.03 0)
+			(at 135.89 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10187,7 +10280,7 @@
 			)
 		)
 		(property "Package (in)" "0603"
-			(at 133.35 113.03 0)
+			(at 135.89 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10196,7 +10289,7 @@
 			)
 		)
 		(property "Dielectric" ""
-			(at 133.35 113.03 90)
+			(at 135.89 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10205,7 +10298,7 @@
 			)
 		)
 		(property "Dielectric_type" ""
-			(at 133.35 113.03 90)
+			(at 135.89 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10214,7 +10307,7 @@
 			)
 		)
 		(property "LSCS" ""
-			(at 133.35 113.03 90)
+			(at 135.89 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10223,7 +10316,7 @@
 			)
 		)
 		(property "Max Current" ""
-			(at 133.35 113.03 90)
+			(at 135.89 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -8187,6 +8187,37 @@
 		)
 		(uuid "cd5f9e28-d32e-4dd1-83c2-4f3733b722fc")
 	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 87.63 127 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8ce70da2-7093-4679-b72b-98c8c0969389")
+		(property "Netclass" "PWR"
+			(at 88.3285 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -87.63 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "KL_SYM_LOCAL:GND")
 		(at 35.56 189.23 0)
