@@ -1579,6 +1579,16 @@
 		)
 		(uuid "a5ffd093-9e9a-42a6-9c84-35f83c6ce585")
 	)
+	(bus
+		(pts
+			(xy 109.22 53.34) (xy 185.42 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5bcfcba-3345-49be-9e22-85a0b8367d42")
+	)
 	(wire
 		(pts
 			(xy 137.16 127) (xy 146.05 127)
@@ -1628,16 +1638,6 @@
 			(type default)
 		)
 		(uuid "cf71c55c-3930-429d-82a1-d368b36d93be")
-	)
-	(bus
-		(pts
-			(xy 109.22 53.34) (xy 185.42 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0744e37-03a3-489e-8fdc-679f1da3484c")
 	)
 	(wire
 		(pts
@@ -8851,42 +8851,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" ""
-			(at 148.59 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" ""
-			(at 148.59 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS" ""
-			(at 148.59 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max Current" ""
-			(at 148.59 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "3c6ced13-81d7-46f6-86a8-fab6724424d2")
 		)
@@ -9275,42 +9239,6 @@
 			)
 		)
 		(property "Farnell" ""
-			(at 130.81 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" ""
-			(at 130.81 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" ""
-			(at 130.81 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS" ""
-			(at 130.81 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max Current" ""
 			(at 130.81 34.29 0)
 			(effects
 				(font
@@ -10434,7 +10362,7 @@
 				(justify right)
 			)
 		)
-		(pin "RGMII1_SWITCH_STM{TXD[0..3], TXC-REFCLK, TXCTL-DX_DV, RXD[0..3], RX_CLK, RXCTL-CRS_DV}"
+		(pin "RGMII0_SWITCH_STM{TXD[0..3], TXC-REFCLK, TXCTL-DX_DV, RXD[0..3], RX_CLK, RXCTL-CRS_DV}"
 			bidirectional
 			(at 109.22 53.34 0
 			)
@@ -10496,18 +10424,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(pin "RGMII1_SWITCH_STM{TXD[0..3], TXC-REFCLK, TXCTL-DX_DV, RXD[0..3], RX_CLK, RXCTL-CRS_DV}"
-			bidirectional
-			(at 185.42 53.34 180
-			)
-			(uuid "63fc911e-92d0-4713-9a50-3c0e71080ac6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(pin "MIIM0_STM_SWITCH{SLV_MDIO,SLV_MDC}" bidirectional
@@ -10573,6 +10489,18 @@
 		(pin "EN-2V5_STM_TO_BUCK" input
 			(at 185.42 73.66 180)
 			(uuid "70df141f-4d6a-4add-890a-84916290b208")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RGMII0_SWITCH_STM{TXD[0..3], TXC-REFCLK, TXCTL-DX_DV, RXD[0..3], RX_CLK, RXCTL-CRS_DV}"
+			bidirectional
+			(at 185.42 53.34 180
+			)
+			(uuid "d3fddf46-dd87-460e-b803-574260ac67d5")
 			(effects
 				(font
 					(size 1.27 1.27)
