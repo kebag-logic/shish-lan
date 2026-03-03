@@ -15,4 +15,5 @@
   (lib (name "KL_MCU")(type "KiCad")(uri "${KIPRJMOD}/kebag_logic_kicad_library/symbols/KL_MCU.kicad_sym")(options "")(descr ""))
   (lib (name "KL_Connector")(type "KiCad")(uri "${KIPRJMOD}/kebag_logic_kicad_library/symbols/KL_Connector.kicad_sym")(options "")(descr ""))
   (lib (name "KL_LED")(type "KiCad")(uri "${KIPRJMOD}/kebag_logic_kicad_library/symbols/KL_LED.kicad_sym")(options "")(descr ""))
+  (lib (name "KL_Mechanical")(type "KiCad")(uri "${KIPRJMOD}/kebag_logic_kicad_library/symbols/KL_Mechanical.kicad_sym")(options "")(descr ""))
 )
