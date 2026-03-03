@@ -17,7 +17,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 0.508 1.778 0)
+				(at 0.762 21.59 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -87,6 +87,78 @@
 					(hide yes)
 				)
 			)
+			(property "I_DD_1V15_max_A" "0.935"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "I_DD_AL_1V15_max_A" "0.400"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "I_DD_ALSx_1V15_max_A" "0.025"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "I_DD_AH25_2V5_max_A" "0.475"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "I_DD_AH33_3V3_max_A" "0.505"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "I_DD_IO25_2V5_max_A" "0.045"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "I_DD_IO33_3V3_max_A" "0.075"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "I_DD_IOD" "0.005"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_locked" ""
 				(at 0 0 0)
 				(effects
@@ -114,7 +186,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at -5.08 -22.86 0)
 					(length 5.08)
 					(name "VDD_AH"
@@ -132,7 +204,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at -5.08 -26.67 0)
 					(length 5.08)
 					(name "VDD_AH"
@@ -150,7 +222,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at -5.08 -30.48 0)
 					(length 5.08)
 					(name "VDD_AH"
@@ -168,7 +240,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin output line
 					(at -5.08 -80.01 0)
 					(length 5.08)
 					(name "XO"
@@ -204,7 +276,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at 35.56 0 180)
 					(length 5.08)
 					(name "VDD_AL"
@@ -222,7 +294,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at 35.56 -3.81 180)
 					(length 5.08)
 					(name "VDD_AL"
@@ -513,7 +585,7 @@
 						(justify right)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at -5.08 2.54 0)
 					(length 5.08)
 					(name "VDD_PLL"
@@ -531,7 +603,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at -5.08 -11.43 0)
 					(length 5.08)
 					(name "VDD_AH"
@@ -549,7 +621,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at -5.08 -15.24 0)
 					(length 5.08)
 					(name "VDD_AH"
@@ -567,7 +639,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at -5.08 -19.05 0)
 					(length 5.08)
 					(name "VDD_AH"
@@ -585,7 +657,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at -5.08 -40.64 0)
 					(length 5.08)
 					(name "VDD_ALS0"
@@ -603,7 +675,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at -5.08 -49.53 0)
 					(length 5.08)
 					(name "VDD_IO_A"
@@ -621,7 +693,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at -5.08 -59.69 0)
 					(length 5.08)
 					(name "VDD_IO_B"
@@ -639,7 +711,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at -5.08 -63.5 0)
 					(length 5.08)
 					(name "VDD_IO_B"
@@ -657,7 +729,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at -5.08 -73.66 0)
 					(length 5.08)
 					(name "VDD_IO_D"
@@ -693,7 +765,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at 35.56 11.43 180)
 					(length 5.08)
 					(name "VDD_AL"
@@ -711,7 +783,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at 35.56 7.62 180)
 					(length 5.08)
 					(name "VDD_AL"
@@ -729,7 +801,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at 35.56 3.81 180)
 					(length 5.08)
 					(name "VDD_AL"
@@ -747,7 +819,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at 35.56 -12.7 180)
 					(length 5.08)
 					(name "VDD_ALS1"
@@ -765,7 +837,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at 35.56 -24.13 180)
 					(length 5.08)
 					(name "VDD_AHS"
@@ -783,7 +855,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at 35.56 -27.94 180)
 					(length 5.08)
 					(name "VDD_AHS"
@@ -801,7 +873,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at 35.56 -34.29 180)
 					(length 5.08)
 					(name "VDD"
@@ -819,7 +891,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at 35.56 -38.1 180)
 					(length 5.08)
 					(name "VDD"
@@ -837,7 +909,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at 35.56 -41.91 180)
 					(length 5.08)
 					(name "VDD"
@@ -855,7 +927,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at 35.56 -45.72 180)
 					(length 5.08)
 					(name "VDD"
@@ -873,7 +945,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at 35.56 -49.53 180)
 					(length 5.08)
 					(name "VDD"
@@ -891,7 +963,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at 35.56 -58.42 180)
 					(length 5.08)
 					(name "VDD_IO_C"
@@ -909,7 +981,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at 35.56 -62.23 180)
 					(length 5.08)
 					(name "VDD_IO_C"
@@ -927,7 +999,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at 35.56 -71.12 180)
 					(length 5.08)
 					(name "VDD_IO_E"
@@ -945,7 +1017,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at 35.56 -74.93 180)
 					(length 5.08)
 					(name "VDD_IO_E"
@@ -4618,42 +4690,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" ""
-			(at 17.78 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" ""
-			(at 17.78 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS" ""
-			(at 17.78 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max Current" ""
-			(at 17.78 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "80306a0e-95da-4088-8443-85fb953f6f89")
 		)
@@ -4748,6 +4784,78 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 55.88 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I_DD_1V15_max_A" "0.935"
+			(at 55.88 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I_DD_AL_1V15_max_A" "0.400"
+			(at 55.88 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I_DD_ALSx_1V15_max_A" "0.025"
+			(at 55.88 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I_DD_AH25_2V5_max_A" "0.475"
+			(at 55.88 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I_DD_AH33_3V3_max_A" "0.505"
+			(at 55.88 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I_DD_IO25_2V5_max_A" "0.045"
+			(at 55.88 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I_DD_IO33_3V3_max_A" "0.075"
+			(at 55.88 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I_DD_IOD" "0.005"
 			(at 55.88 160.02 0)
 			(effects
 				(font
@@ -5156,6 +5264,10 @@
 					(unit 3)
 				)
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/cbb6064c-9387-4840-bb4d-7326af14ff9d"
+					(reference "U1")
+					(unit 3)
+				)
+				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/d7edf10b-e7e7-437a-ab6c-966f29ad8f7f"
 					(reference "U1")
 					(unit 3)
 				)

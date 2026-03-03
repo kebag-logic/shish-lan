@@ -571,12 +571,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "KL_Flags:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "KL_IC_LAN9645xF:lan9645xF_128_TQFP"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 0.508 1.778 0)
+				(at 0.762 21.59 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -646,6 +747,78 @@
 					(hide yes)
 				)
 			)
+			(property "I_DD_1V15_max_A" "0.935"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "I_DD_AL_1V15_max_A" "0.400"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "I_DD_ALSx_1V15_max_A" "0.025"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "I_DD_AH25_2V5_max_A" "0.475"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "I_DD_AH33_3V3_max_A" "0.505"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "I_DD_IO25_2V5_max_A" "0.045"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "I_DD_IO33_3V3_max_A" "0.075"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "I_DD_IOD" "0.005"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_locked" ""
 				(at 0 0 0)
 				(effects
@@ -673,7 +846,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at -5.08 -22.86 0)
 					(length 5.08)
 					(name "VDD_AH"
@@ -691,7 +864,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at -5.08 -26.67 0)
 					(length 5.08)
 					(name "VDD_AH"
@@ -709,7 +882,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at -5.08 -30.48 0)
 					(length 5.08)
 					(name "VDD_AH"
@@ -727,7 +900,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin output line
 					(at -5.08 -80.01 0)
 					(length 5.08)
 					(name "XO"
@@ -763,7 +936,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at 35.56 0 180)
 					(length 5.08)
 					(name "VDD_AL"
@@ -781,7 +954,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at 35.56 -3.81 180)
 					(length 5.08)
 					(name "VDD_AL"
@@ -1072,7 +1245,7 @@
 						(justify right)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at -5.08 2.54 0)
 					(length 5.08)
 					(name "VDD_PLL"
@@ -1090,7 +1263,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at -5.08 -11.43 0)
 					(length 5.08)
 					(name "VDD_AH"
@@ -1108,7 +1281,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at -5.08 -15.24 0)
 					(length 5.08)
 					(name "VDD_AH"
@@ -1126,7 +1299,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at -5.08 -19.05 0)
 					(length 5.08)
 					(name "VDD_AH"
@@ -1144,7 +1317,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at -5.08 -40.64 0)
 					(length 5.08)
 					(name "VDD_ALS0"
@@ -1162,7 +1335,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at -5.08 -49.53 0)
 					(length 5.08)
 					(name "VDD_IO_A"
@@ -1180,7 +1353,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at -5.08 -59.69 0)
 					(length 5.08)
 					(name "VDD_IO_B"
@@ -1198,7 +1371,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at -5.08 -63.5 0)
 					(length 5.08)
 					(name "VDD_IO_B"
@@ -1216,7 +1389,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at -5.08 -73.66 0)
 					(length 5.08)
 					(name "VDD_IO_D"
@@ -1252,7 +1425,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at 35.56 11.43 180)
 					(length 5.08)
 					(name "VDD_AL"
@@ -1270,7 +1443,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at 35.56 7.62 180)
 					(length 5.08)
 					(name "VDD_AL"
@@ -1288,7 +1461,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at 35.56 3.81 180)
 					(length 5.08)
 					(name "VDD_AL"
@@ -1306,7 +1479,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at 35.56 -12.7 180)
 					(length 5.08)
 					(name "VDD_ALS1"
@@ -1324,7 +1497,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at 35.56 -24.13 180)
 					(length 5.08)
 					(name "VDD_AHS"
@@ -1342,7 +1515,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at 35.56 -27.94 180)
 					(length 5.08)
 					(name "VDD_AHS"
@@ -1360,7 +1533,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at 35.56 -34.29 180)
 					(length 5.08)
 					(name "VDD"
@@ -1378,7 +1551,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at 35.56 -38.1 180)
 					(length 5.08)
 					(name "VDD"
@@ -1396,7 +1569,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at 35.56 -41.91 180)
 					(length 5.08)
 					(name "VDD"
@@ -1414,7 +1587,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at 35.56 -45.72 180)
 					(length 5.08)
 					(name "VDD"
@@ -1432,7 +1605,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at 35.56 -49.53 180)
 					(length 5.08)
 					(name "VDD"
@@ -1450,7 +1623,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at 35.56 -58.42 180)
 					(length 5.08)
 					(name "VDD_IO_C"
@@ -1468,7 +1641,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at 35.56 -62.23 180)
 					(length 5.08)
 					(name "VDD_IO_C"
@@ -1486,7 +1659,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at 35.56 -71.12 180)
 					(length 5.08)
 					(name "VDD_IO_E"
@@ -1504,7 +1677,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at 35.56 -74.93 180)
 					(length 5.08)
 					(name "VDD_IO_E"
@@ -4008,7 +4181,7 @@
 					)
 				)
 			)
-			(property "Value" "10K"
+			(property "Value" "10"
 				(at 0 0 90)
 				(effects
 					(font
@@ -4390,7 +4563,7 @@
 	)
 	(rectangle
 		(start 17.78 49.53)
-		(end 86.36 78.74)
+		(end 90 78.74)
 		(stroke
 			(width 0)
 			(type default)
@@ -4402,7 +4575,7 @@
 	)
 	(rectangle
 		(start 17.78 78.74)
-		(end 86.36 107.95)
+		(end 90 107.95)
 		(stroke
 			(width 0)
 			(type default)
@@ -4414,7 +4587,7 @@
 	)
 	(rectangle
 		(start 17.78 137.16)
-		(end 86.36 166.37)
+		(end 90 166.37)
 		(stroke
 			(width 0)
 			(type default)
@@ -4426,7 +4599,7 @@
 	)
 	(rectangle
 		(start 17.78 107.95)
-		(end 86.36 137.16)
+		(end 90 137.16)
 		(stroke
 			(width 0)
 			(type default)
@@ -4561,10 +4734,10 @@
 		(uuid "0f0e4ba8-82f8-4d9d-9bca-f207e25a61e1")
 	)
 	(junction
-		(at 68.58 120.65)
+		(at 68.58 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0f54f4c2-611e-4bb5-a8c6-7301402675be")
+		(uuid "1179a0d0-5e33-45cb-b05c-f19b095c1935")
 	)
 	(junction
 		(at 240.03 135.89)
@@ -4591,16 +4764,28 @@
 		(uuid "2e453b81-9ce7-4fea-9b45-f0f5e4bfeca9")
 	)
 	(junction
+		(at 74.93 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "34ca5b8c-70b2-4326-8a79-ec7f8e489497")
+	)
+	(junction
 		(at 246.38 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "401700de-1f93-4e6a-9a32-3320dbf4fe94")
 	)
 	(junction
-		(at 50.8 62.23)
+		(at 45.72 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "423f333a-257e-43a8-8cd3-cef9717029ea")
+	)
+	(junction
+		(at 68.58 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "47500ca9-9955-40d6-a666-56827c8cfe18")
 	)
 	(junction
 		(at 142.24 60.96)
@@ -4609,10 +4794,28 @@
 		(uuid "48648c95-cc46-4721-9c1c-0d846e1b7d72")
 	)
 	(junction
-		(at 50.8 91.44)
+		(at 68.58 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6e3650e1-b7c9-444c-8a1c-d7cd3509c3c3")
+	)
+	(junction
+		(at 45.72 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7cb8ccfb-f6b7-4923-b46c-427540c105a6")
+	)
+	(junction
+		(at 68.58 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7ea69b08-857b-4f69-8593-2bd25de171bf")
+	)
+	(junction
+		(at 60.96 20.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "81ff70fd-3ff6-4da9-b8fa-bd875af36bdd")
 	)
 	(junction
 		(at 222.25 49.53)
@@ -4639,13 +4842,7 @@
 		(uuid "a21efa0c-4d22-455a-8b9f-b9c8502cddcd")
 	)
 	(junction
-		(at 68.58 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ae7f5dce-941e-4a86-90af-d9a3942d93fd")
-	)
-	(junction
-		(at 50.8 149.86)
+		(at 45.72 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b0108c62-6d5e-4fc2-bf7d-1eb1c0173be8")
@@ -4657,10 +4854,22 @@
 		(uuid "b034bbe2-e07c-4ddf-b79f-04a4ca20ff03")
 	)
 	(junction
+		(at 73.66 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b1e7edc4-22ab-4ccc-9576-3b6960e0fbe8")
+	)
+	(junction
 		(at 222.25 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b5becc81-fc4c-4a4d-9174-a59a1f136252")
+	)
+	(junction
+		(at 76.2 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b8eb915f-ccf3-4354-96f6-75521818b853")
 	)
 	(junction
 		(at 144.78 60.96)
@@ -4673,6 +4882,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c8d8651d-af32-41b6-bf06-8cf7be5e9edb")
+	)
+	(junction
+		(at 60.96 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c9a304d7-619d-4e7f-bf45-24f83f004bb2")
+	)
+	(junction
+		(at 78.74 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d334ceb4-cccc-4c3b-a7ba-4c812333497d")
 	)
 	(junction
 		(at 142.24 109.22)
@@ -4717,19 +4938,13 @@
 		(uuid "e41a6eda-a11d-4826-a573-91174871993c")
 	)
 	(junction
-		(at 68.58 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e6105ab6-0519-4881-a47e-4381ff735633")
-	)
-	(junction
 		(at 232.41 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eac47478-a31d-4435-8162-14c6424677bd")
 	)
 	(junction
-		(at 50.8 120.65)
+		(at 45.72 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ed96b91f-35f0-408b-8b9f-d8db1c98a9bf")
@@ -4739,12 +4954,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "efe55a34-d063-48a0-a558-e085287e710c")
-	)
-	(junction
-		(at 68.58 149.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fb0a23af-a476-439b-ab2b-c1f814734408")
 	)
 	(junction
 		(at 139.7 60.96)
@@ -4784,7 +4993,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 144.78) (xy 50.8 149.86)
+			(xy 45.72 144.78) (xy 45.72 149.86)
 		)
 		(stroke
 			(width 0)
@@ -4814,16 +5023,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 62.23) (xy 85.09 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ffa562b-0722-4c7c-b581-e75cd65d4253")
-	)
-	(wire
-		(pts
 			(xy 165.1 72.39) (xy 144.78 72.39)
 		)
 		(stroke
@@ -4844,7 +5043,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 120.65) (xy 53.34 120.65)
+			(xy 45.72 120.65) (xy 53.34 120.65)
 		)
 		(stroke
 			(width 0)
@@ -4864,7 +5063,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 149.86) (xy 53.34 149.86)
+			(xy 45.72 149.86) (xy 53.34 149.86)
 		)
 		(stroke
 			(width 0)
@@ -4894,7 +5093,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 63.5) (xy 50.8 62.23)
+			(xy 45.72 63.5) (xy 45.72 62.23)
 		)
 		(stroke
 			(width 0)
@@ -4934,7 +5133,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 92.71) (xy 50.8 91.44)
+			(xy 45.72 92.71) (xy 45.72 91.44)
 		)
 		(stroke
 			(width 0)
@@ -4964,7 +5163,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 151.13) (xy 50.8 149.86)
+			(xy 45.72 151.13) (xy 45.72 149.86)
 		)
 		(stroke
 			(width 0)
@@ -4984,7 +5183,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 130.81) (xy 50.8 129.54)
+			(xy 45.72 130.81) (xy 45.72 129.54)
 		)
 		(stroke
 			(width 0)
@@ -5024,7 +5223,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 101.6) (xy 50.8 100.33)
+			(xy 45.72 101.6) (xy 45.72 100.33)
 		)
 		(stroke
 			(width 0)
@@ -5044,7 +5243,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 160.02) (xy 50.8 158.75)
+			(xy 45.72 160.02) (xy 45.72 158.75)
 		)
 		(stroke
 			(width 0)
@@ -5071,6 +5270,16 @@
 			(type default)
 		)
 		(uuid "38cff38a-7a52-485c-9cdd-104eb74e5841")
+	)
+	(wire
+		(pts
+			(xy 60.96 20.32) (xy 76.2 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c443519-3e9f-4022-8a3c-4aac138a88be")
 	)
 	(wire
 		(pts
@@ -5114,7 +5323,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 30.48) (xy 67.31 30.48)
+			(xy 54.61 30.48) (xy 60.96 30.48)
 		)
 		(stroke
 			(width 0)
@@ -5154,7 +5363,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 86.36) (xy 50.8 86.36)
+			(xy 36.83 86.36) (xy 45.72 86.36)
 		)
 		(stroke
 			(width 0)
@@ -5184,7 +5393,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 86.36) (xy 50.8 91.44)
+			(xy 45.72 86.36) (xy 45.72 91.44)
 		)
 		(stroke
 			(width 0)
@@ -5274,16 +5483,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 120.65) (xy 85.09 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61d28a35-c65f-4e04-b4db-8b4a310e1219")
-	)
-	(wire
-		(pts
 			(xy 149.86 46.99) (xy 165.1 46.99)
 		)
 		(stroke
@@ -5311,16 +5510,6 @@
 			(type default)
 		)
 		(uuid "64d91310-8f24-4b1f-9949-b907dde2f07f")
-	)
-	(wire
-		(pts
-			(xy 68.58 91.44) (xy 85.09 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "688f168e-9828-4a49-ae17-065f93d341f9")
 	)
 	(wire
 		(pts
@@ -5404,7 +5593,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 35.56) (xy 67.31 35.56)
+			(xy 27.94 35.56) (xy 76.2 35.56)
 		)
 		(stroke
 			(width 0)
@@ -5454,6 +5643,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 120.65) (xy 88.9 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8521c5a2-d73e-45cf-9fbb-6c714e7836eb")
+	)
+	(wire
+		(pts
 			(xy 27.94 25.4) (xy 38.1 25.4)
 		)
 		(stroke
@@ -5474,7 +5673,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 20.32) (xy 67.31 20.32)
+			(xy 39.37 20.32) (xy 60.96 20.32)
 		)
 		(stroke
 			(width 0)
@@ -5534,16 +5733,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 149.86) (xy 85.09 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "966dac7e-326f-4feb-9c58-10cdaa8ccaa0")
-	)
-	(wire
-		(pts
 			(xy 19.05 115.57) (xy 27.94 115.57)
 		)
 		(stroke
@@ -5554,7 +5743,17 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 25.4) (xy 67.31 25.4)
+			(xy 68.58 120.65) (xy 74.93 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97a71b19-e64e-4a18-afc6-f56b071fffc6")
+	)
+	(wire
+		(pts
+			(xy 45.72 25.4) (xy 76.2 25.4)
 		)
 		(stroke
 			(width 0)
@@ -5564,7 +5763,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 62.23) (xy 53.34 62.23)
+			(xy 45.72 62.23) (xy 53.34 62.23)
 		)
 		(stroke
 			(width 0)
@@ -5584,7 +5783,17 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 72.39) (xy 50.8 71.12)
+			(xy 68.58 62.23) (xy 76.2 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ebf928e-5298-49f6-a3d6-e67d08ea4793")
+	)
+	(wire
+		(pts
+			(xy 45.72 72.39) (xy 45.72 71.12)
 		)
 		(stroke
 			(width 0)
@@ -5624,7 +5833,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 121.92) (xy 50.8 120.65)
+			(xy 45.72 121.92) (xy 45.72 120.65)
 		)
 		(stroke
 			(width 0)
@@ -5651,6 +5860,16 @@
 			(type default)
 		)
 		(uuid "a35048e6-6133-4fc6-8edc-47a9a62c0476")
+	)
+	(wire
+		(pts
+			(xy 60.96 30.48) (xy 76.2 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a62b819c-1c43-4e84-a5bc-2f1cb5ff042a")
 	)
 	(wire
 		(pts
@@ -5691,6 +5910,16 @@
 			(type default)
 		)
 		(uuid "ad6a9ecb-e41d-4a3c-ad93-18faf98e63ca")
+	)
+	(wire
+		(pts
+			(xy 68.58 149.86) (xy 73.66 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad97a1b6-2054-4910-87d8-9f7ebcb36019")
 	)
 	(wire
 		(pts
@@ -5764,6 +5993,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 149.86) (xy 88.9 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca7fcf34-6902-46e3-a97d-586d367d3baf")
+	)
+	(wire
+		(pts
 			(xy 60.96 62.23) (xy 68.58 62.23)
 		)
 		(stroke
@@ -5771,6 +6010,16 @@
 			(type default)
 		)
 		(uuid "cb18b0b0-1c96-4119-bb48-19c4efc897a9")
+	)
+	(wire
+		(pts
+			(xy 76.2 62.23) (xy 88.9 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbe8a9ae-e5ff-417b-a362-bdfc7aa83b82")
 	)
 	(wire
 		(pts
@@ -5804,7 +6053,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 115.57) (xy 50.8 115.57)
+			(xy 35.56 115.57) (xy 45.72 115.57)
 		)
 		(stroke
 			(width 0)
@@ -5814,7 +6063,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 57.15) (xy 50.8 57.15)
+			(xy 36.83 57.15) (xy 45.72 57.15)
 		)
 		(stroke
 			(width 0)
@@ -5854,7 +6103,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 115.57) (xy 50.8 120.65)
+			(xy 45.72 115.57) (xy 45.72 120.65)
 		)
 		(stroke
 			(width 0)
@@ -5874,7 +6123,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 91.44) (xy 53.34 91.44)
+			(xy 45.72 91.44) (xy 53.34 91.44)
 		)
 		(stroke
 			(width 0)
@@ -5914,13 +6163,23 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 57.15) (xy 50.8 62.23)
+			(xy 45.72 57.15) (xy 45.72 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e6bed48d-afad-4332-a88d-c825d08f96f7")
+	)
+	(wire
+		(pts
+			(xy 78.74 91.44) (xy 88.9 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e744890a-0764-4c04-a2a6-26eea1214622")
 	)
 	(wire
 		(pts
@@ -5974,6 +6233,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 91.44) (xy 78.74 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f90ffd22-7d0e-44c7-9813-b40b6cef137b")
+	)
+	(wire
+		(pts
 			(xy 88.9 184.15) (xy 104.14 184.15)
 		)
 		(stroke
@@ -5994,7 +6263,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 144.78) (xy 50.8 144.78)
+			(xy 35.56 144.78) (xy 45.72 144.78)
 		)
 		(stroke
 			(width 0)
@@ -6023,7 +6292,7 @@
 		(uuid "ff6b2cf6-e300-4009-aa80-e918e1b05216")
 	)
 	(label "VDDIO_PHY_AHS"
-		(at 85.09 149.86 180)
+		(at 88.9 149.86 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6073,7 +6342,7 @@
 		(uuid "3dbae574-c3f3-433d-ab04-27c90077364c")
 	)
 	(label "VDD_SERDES"
-		(at 85.09 62.23 180)
+		(at 88.9 62.23 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6103,7 +6372,7 @@
 		(uuid "4e528a55-ce0c-4867-a387-b9dd682ba76b")
 	)
 	(label "1V15_PWR"
-		(at 67.31 30.48 180)
+		(at 76.2 30.48 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6183,7 +6452,7 @@
 		(uuid "a0f97542-b9eb-4fdb-a584-783f6a7ebf32")
 	)
 	(label "2V5_PWR"
-		(at 67.31 25.4 180)
+		(at 76.2 25.4 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6233,7 +6502,7 @@
 		(uuid "bc5fcba0-4750-4bf5-ac86-cab3b38317bc")
 	)
 	(label "VDDIO"
-		(at 67.31 20.32 180)
+		(at 76.2 20.32 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6243,7 +6512,7 @@
 		(uuid "c6262fac-d97f-43e9-99cf-4a5617984a4d")
 	)
 	(label "VDDIO_PHY_AH"
-		(at 85.09 120.65 180)
+		(at 88.9 120.65 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6253,7 +6522,7 @@
 		(uuid "d202b848-7fd3-4429-8aa6-6b8a37ea9720")
 	)
 	(label "VDD_PHYS"
-		(at 85.09 91.44 180)
+		(at 88.9 91.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6293,7 +6562,7 @@
 		(uuid "f3c3510f-3306-44cc-b072-a9de92c0f307")
 	)
 	(label "nRST"
-		(at 67.31 35.56 180)
+		(at 76.2 35.56 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6678,42 +6947,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" ""
-			(at 31.75 144.78 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" ""
-			(at 31.75 144.78 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS" ""
-			(at 31.75 144.78 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max Current" ""
-			(at 31.75 144.78 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "372aa226-a15a-4147-a569-354f2a57bb9b")
 		)
@@ -6752,7 +6985,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10"
 			(at 140.97 46.99 90)
 			(effects
 				(font
@@ -6843,42 +7076,6 @@
 		)
 		(property "Package (in)" "0603"
 			(at 140.97 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" ""
-			(at 140.97 46.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" ""
-			(at 140.97 46.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS" ""
-			(at 140.97 46.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max Current" ""
-			(at 140.97 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7007,42 +7204,6 @@
 		)
 		(property "LCSC" "C88984"
 			(at 36.068 145.542 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" ""
-			(at 57.15 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" ""
-			(at 57.15 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS" ""
-			(at 57.15 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max Current" ""
-			(at 57.15 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7186,42 +7347,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" ""
-			(at 33.02 86.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" ""
-			(at 33.02 86.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS" ""
-			(at 33.02 86.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max Current" ""
-			(at 33.02 86.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "9611e234-4da6-42b2-ade9-451c425f1d86")
 		)
@@ -7318,7 +7443,7 @@
 	)
 	(symbol
 		(lib_id "KL_SYM_LOCAL:GND")
-		(at 50.8 130.81 0)
+		(at 45.72 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7327,7 +7452,7 @@
 		(fields_autoplaced yes)
 		(uuid "23b2aea3-6603-419a-aca6-9bd0911911a6")
 		(property "Reference" "#PWR51"
-			(at 50.8 137.16 0)
+			(at 45.72 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7336,7 +7461,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 50.8 135.89 0)
+			(at 45.72 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7344,7 +7469,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 130.81 0)
+			(at 45.72 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7353,7 +7478,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 130.81 0)
+			(at 45.72 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7362,7 +7487,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 50.8 130.81 0)
+			(at 45.72 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7500,42 +7625,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" ""
-			(at 246.38 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" ""
-			(at 246.38 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS" ""
-			(at 246.38 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max Current" ""
-			(at 246.38 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "c2fe54fc-4c93-47d4-903f-99946e1452f7")
 		)
@@ -7630,6 +7719,78 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 170.18 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I_DD_1V15_max_A" "0.935"
+			(at 170.18 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I_DD_AL_1V15_max_A" "0.400"
+			(at 170.18 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I_DD_ALSx_1V15_max_A" "0.025"
+			(at 170.18 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I_DD_AH25_2V5_max_A" "0.475"
+			(at 170.18 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I_DD_AH33_3V3_max_A" "0.505"
+			(at 170.18 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I_DD_IO25_2V5_max_A" "0.045"
+			(at 170.18 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I_DD_IO33_3V3_max_A" "0.075"
+			(at 170.18 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I_DD_IOD" "0.005"
 			(at 170.18 49.53 0)
 			(effects
 				(font
@@ -8159,42 +8320,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" ""
-			(at 154.94 128.27 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" ""
-			(at 154.94 128.27 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS" ""
-			(at 154.94 128.27 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max Current" ""
-			(at 154.94 128.27 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "22861797-9203-45d3-b0e7-83cde3395e36")
 		)
@@ -8226,7 +8351,7 @@
 		(dnp yes)
 		(uuid "3d247c2c-c22d-4504-b559-91d4cf8b2abe")
 		(property "Reference" "R88"
-			(at 35.56 17.78 90)
+			(at 35.56 18.288 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8234,7 +8359,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 35.56 22.86 90)
+			(at 35.56 20.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8324,42 +8449,6 @@
 		)
 		(property "Package (in)" "2512"
 			(at 35.56 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" ""
-			(at 35.56 20.32 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" ""
-			(at 35.56 20.32 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS" ""
-			(at 35.56 20.32 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max Current" ""
-			(at 35.56 20.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8488,42 +8577,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" ""
-			(at 232.41 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" ""
-			(at 232.41 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS" ""
-			(at 232.41 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max Current" ""
-			(at 232.41 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "3b1bf769-bc08-4e68-b519-8b017a9442f8")
 		)
@@ -8541,7 +8594,7 @@
 	)
 	(symbol
 		(lib_id "KL_SYM_LOCAL:GND")
-		(at 50.8 72.39 0)
+		(at 45.72 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8550,7 +8603,7 @@
 		(fields_autoplaced yes)
 		(uuid "47d4de67-d73b-4c67-b98d-ff27dda25ac3")
 		(property "Reference" "#PWR53"
-			(at 50.8 78.74 0)
+			(at 45.72 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8559,7 +8612,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 50.8 77.47 0)
+			(at 45.72 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8567,7 +8620,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 72.39 0)
+			(at 45.72 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8576,7 +8629,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 72.39 0)
+			(at 45.72 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8585,7 +8638,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 50.8 72.39 0)
+			(at 45.72 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8600,6 +8653,72 @@
 			(project ""
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/d7edf10b-e7e7-437a-ab6c-966f29ad8f7f"
 					(reference "#PWR53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KL_Flags:PWR_FLAG")
+		(at 68.58 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4c5cc929-2352-4501-8878-273a0f83fa56")
+		(property "Reference" "#FLG07"
+			(at 68.58 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 68.58 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 68.58 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "284b4409-05c1-46b0-b27c-ba8f65455bda")
+		)
+		(instances
+			(project ""
+				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/d7edf10b-e7e7-437a-ab6c-966f29ad8f7f"
+					(reference "#FLG07")
 					(unit 1)
 				)
 			)
@@ -8859,42 +8978,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" ""
-			(at 33.02 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" ""
-			(at 33.02 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS" ""
-			(at 33.02 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max Current" ""
-			(at 33.02 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "0ba77209-1307-446e-9c5b-f235781ed5fb")
 		)
@@ -8918,7 +9001,7 @@
 	)
 	(symbol
 		(lib_id "KL_SYM_LOCAL:GND")
-		(at 50.8 160.02 0)
+		(at 45.72 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8927,7 +9010,7 @@
 		(fields_autoplaced yes)
 		(uuid "6da5ec98-cc15-4cde-861c-48d198423a6d")
 		(property "Reference" "#PWR50"
-			(at 50.8 166.37 0)
+			(at 45.72 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8936,7 +9019,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 50.8 165.1 0)
+			(at 45.72 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8944,7 +9027,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 160.02 0)
+			(at 45.72 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8953,7 +9036,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 160.02 0)
+			(at 45.72 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8962,7 +9045,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 50.8 160.02 0)
+			(at 45.72 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8984,7 +9067,7 @@
 	)
 	(symbol
 		(lib_id "KL_TP:TestPoint")
-		(at 68.58 62.23 0)
+		(at 76.2 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -8993,7 +9076,7 @@
 		(fields_autoplaced yes)
 		(uuid "74856f5e-b3c8-428a-9d59-6e7dffd7d052")
 		(property "Reference" "TP5"
-			(at 68.58 56.515 0)
+			(at 76.2 56.515 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -9002,7 +9085,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 68.58 57.15 0)
+			(at 76.2 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9011,7 +9094,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 73.66 62.23 0)
+			(at 81.28 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9020,7 +9103,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 73.66 62.23 0)
+			(at 81.28 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9029,7 +9112,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 68.58 62.23 0)
+			(at 76.2 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9228,42 +9311,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" ""
-			(at 57.15 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" ""
-			(at 57.15 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS" ""
-			(at 57.15 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max Current" ""
-			(at 57.15 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "2d6da6ef-9b9f-4a8f-abfa-340d330b6c4f")
 		)
@@ -9295,7 +9342,7 @@
 		(dnp yes)
 		(uuid "82218bf7-1053-4a5e-b82b-5ae761bda7c2")
 		(property "Reference" "R120"
-			(at 41.91 23.114 90)
+			(at 41.91 23.368 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9303,7 +9350,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 41.91 27.686 90)
+			(at 41.91 25.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9400,42 +9447,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" ""
-			(at 41.91 25.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" ""
-			(at 41.91 25.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS" ""
-			(at 41.91 25.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max Current" ""
-			(at 41.91 25.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "c3f12b9f-89e6-4072-ad0b-59d131233de3")
 		)
@@ -9461,7 +9472,7 @@
 		(dnp yes)
 		(uuid "83a67588-3315-4430-97f7-69e07d08321c")
 		(property "Reference" "R121"
-			(at 50.8 28.194 90)
+			(at 50.8 28.448 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9469,7 +9480,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 50.8 32.766 90)
+			(at 50.8 30.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9566,42 +9577,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" ""
-			(at 50.8 30.48 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" ""
-			(at 50.8 30.48 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS" ""
-			(at 50.8 30.48 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max Current" ""
-			(at 50.8 30.48 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "98692426-b759-4741-bad2-f065536a31c3")
 		)
@@ -9612,6 +9587,138 @@
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/d7edf10b-e7e7-437a-ab6c-966f29ad8f7f"
 					(reference "R121")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KL_Flags:PWR_FLAG")
+		(at 60.96 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "85b528f5-6c40-459d-8063-c57713be1cef")
+		(property "Reference" "#FLG011"
+			(at 60.96 28.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 60.96 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 60.96 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ba82873c-40ce-4ea3-b612-211eff42cb50")
+		)
+		(instances
+			(project "shish-lan"
+				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/d7edf10b-e7e7-437a-ab6c-966f29ad8f7f"
+					(reference "#FLG011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KL_Flags:PWR_FLAG")
+		(at 60.96 20.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8e861694-94ea-422c-865c-1a7a0f91b669")
+		(property "Reference" "#FLG012"
+			(at 60.96 18.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 60.96 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 60.96 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5be62fa0-e82c-40b6-b874-fb233f03cddb")
+		)
+		(instances
+			(project "shish-lan"
+				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/d7edf10b-e7e7-437a-ab6c-966f29ad8f7f"
+					(reference "#FLG012")
 					(unit 1)
 				)
 			)
@@ -9732,42 +9839,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" ""
-			(at 154.94 137.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" ""
-			(at 154.94 137.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS" ""
-			(at 154.94 137.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max Current" ""
-			(at 154.94 137.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "29976e93-9d2f-4d70-a17e-a9ff08049ea4")
 		)
@@ -9791,7 +9862,7 @@
 	)
 	(symbol
 		(lib_id "KL_TP:TestPoint")
-		(at 68.58 120.65 0)
+		(at 74.93 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -9800,7 +9871,7 @@
 		(fields_autoplaced yes)
 		(uuid "9714c8f5-e506-455d-ac90-cf9f26163a06")
 		(property "Reference" "TP6"
-			(at 68.58 114.935 0)
+			(at 74.93 114.935 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -9809,7 +9880,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 68.58 115.57 0)
+			(at 74.93 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9818,7 +9889,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 73.66 120.65 0)
+			(at 80.01 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9827,7 +9898,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 73.66 120.65 0)
+			(at 80.01 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9836,7 +9907,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 68.58 120.65 0)
+			(at 74.93 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9937,7 +10008,7 @@
 	)
 	(symbol
 		(lib_id "KL_C:C_100n_35V_X7R_402_10")
-		(at 50.8 125.73 0)
+		(at 45.72 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9945,7 +10016,7 @@
 		(dnp no)
 		(uuid "ab4968c5-a3b7-467c-bc28-e4921d1d5c36")
 		(property "Reference" "C18"
-			(at 51.435 123.19 0)
+			(at 46.355 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9954,7 +10025,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 51.435 128.27 0)
+			(at 46.355 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9963,7 +10034,7 @@
 			)
 		)
 		(property "Footprint" "KL_Footprints:C_0603"
-			(at 51.7652 129.54 0)
+			(at 46.6852 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9972,7 +10043,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 50.8 125.73 0)
+			(at 45.72 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9981,7 +10052,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 50.8 125.73 0)
+			(at 45.72 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9990,7 +10061,7 @@
 			)
 		)
 		(property "Tolerance" "10"
-			(at 50.8 125.73 0)
+			(at 45.72 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9999,7 +10070,7 @@
 			)
 		)
 		(property "Voltage" "35"
-			(at 50.8 125.73 0)
+			(at 45.72 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10008,7 +10079,7 @@
 			)
 		)
 		(property "Mouser" "810-CGA2B3X7R1V104K"
-			(at 50.8 125.73 0)
+			(at 45.72 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10017,7 +10088,7 @@
 			)
 		)
 		(property "Digikey" "445-6901-1-ND"
-			(at 50.8 125.73 0)
+			(at 45.72 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10026,7 +10097,7 @@
 			)
 		)
 		(property "LCSC" "C2181802"
-			(at 50.8 125.73 0)
+			(at 45.72 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10035,43 +10106,7 @@
 			)
 		)
 		(property "Farnell" "2210830"
-			(at 50.8 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" ""
-			(at 50.8 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" ""
-			(at 50.8 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS" ""
-			(at 50.8 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max Current" ""
-			(at 50.8 125.73 0)
+			(at 45.72 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10101,26 +10136,17 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_TP:TestPoint")
+		(lib_id "KL_Flags:PWR_FLAG")
 		(at 68.58 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b922ba23-0dcc-4d64-bf3b-84646ebfb2cc")
-		(property "Reference" "TP7"
-			(at 68.58 144.145 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 68.58 144.78 0)
+		(uuid "b3056408-cce4-49c6-8523-14a5d484b909")
+		(property "Reference" "#FLG010"
+			(at 68.58 147.955 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10128,8 +10154,16 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 73.66 149.86 0)
+		(property "Value" "PWR_FLAG"
+			(at 68.58 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10138,7 +10172,74 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 73.66 149.86 0)
+			(at 68.58 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 68.58 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d8f5ae7f-a5f1-4587-a270-caa550fbf3bc")
+		)
+		(instances
+			(project "shish-lan"
+				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/d7edf10b-e7e7-437a-ab6c-966f29ad8f7f"
+					(reference "#FLG010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KL_TP:TestPoint")
+		(at 73.66 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b922ba23-0dcc-4d64-bf3b-84646ebfb2cc")
+		(property "Reference" "TP7"
+			(at 73.66 144.145 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 73.66 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 78.74 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10147,7 +10248,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 68.58 149.86 0)
+			(at 73.66 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10175,7 +10276,7 @@
 	)
 	(symbol
 		(lib_id "KL_C:C_100n_35V_X7R_402_10")
-		(at 50.8 96.52 0)
+		(at 45.72 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10183,7 +10284,7 @@
 		(dnp no)
 		(uuid "b9cb1193-2160-4bd0-ad71-d8edff7057e5")
 		(property "Reference" "C19"
-			(at 51.435 93.98 0)
+			(at 46.355 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10192,7 +10293,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 51.435 99.06 0)
+			(at 46.355 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10201,7 +10302,7 @@
 			)
 		)
 		(property "Footprint" "KL_Footprints:C_0603"
-			(at 51.7652 100.33 0)
+			(at 46.6852 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10210,7 +10311,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 50.8 96.52 0)
+			(at 45.72 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10219,7 +10320,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 50.8 96.52 0)
+			(at 45.72 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10228,7 +10329,7 @@
 			)
 		)
 		(property "Tolerance" "10"
-			(at 50.8 96.52 0)
+			(at 45.72 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10237,7 +10338,7 @@
 			)
 		)
 		(property "Voltage" "35"
-			(at 50.8 96.52 0)
+			(at 45.72 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10246,7 +10347,7 @@
 			)
 		)
 		(property "Mouser" "810-CGA2B3X7R1V104K"
-			(at 50.8 96.52 0)
+			(at 45.72 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10255,7 +10356,7 @@
 			)
 		)
 		(property "Digikey" "445-6901-1-ND"
-			(at 50.8 96.52 0)
+			(at 45.72 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10264,7 +10365,7 @@
 			)
 		)
 		(property "LCSC" "C2181802"
-			(at 50.8 96.52 0)
+			(at 45.72 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10273,43 +10374,7 @@
 			)
 		)
 		(property "Farnell" "2210830"
-			(at 50.8 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" ""
-			(at 50.8 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" ""
-			(at 50.8 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS" ""
-			(at 50.8 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max Current" ""
-			(at 50.8 96.52 0)
+			(at 45.72 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10444,42 +10509,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" ""
-			(at 127 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" ""
-			(at 127 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS" ""
-			(at 127 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max Current" ""
-			(at 127 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "e3686459-edc9-42f8-b10a-19820e0461cd")
 		)
@@ -10563,6 +10592,138 @@
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/d7edf10b-e7e7-437a-ab6c-966f29ad8f7f"
 					(reference "TP19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KL_Flags:PWR_FLAG")
+		(at 68.58 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c253501a-240d-4a3a-8045-a6caa7b65967")
+		(property "Reference" "#FLG08"
+			(at 68.58 89.535 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 68.58 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 68.58 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e373809b-74da-49be-ab62-e7aef0601714")
+		)
+		(instances
+			(project "shish-lan"
+				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/d7edf10b-e7e7-437a-ab6c-966f29ad8f7f"
+					(reference "#FLG08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KL_Flags:PWR_FLAG")
+		(at 68.58 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c32d0f3a-c056-4f75-8d14-2d6d50914347")
+		(property "Reference" "#FLG09"
+			(at 68.58 118.745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 68.58 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 68.58 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "462693f4-cc9e-4fb0-879a-7c2f978fdcd1")
+		)
+		(instances
+			(project "shish-lan"
+				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/d7edf10b-e7e7-437a-ab6c-966f29ad8f7f"
+					(reference "#FLG09")
 					(unit 1)
 				)
 			)
@@ -10683,42 +10844,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" ""
-			(at 31.75 115.57 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" ""
-			(at 31.75 115.57 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS" ""
-			(at 31.75 115.57 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max Current" ""
-			(at 31.75 115.57 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "1f490404-8bac-4663-accc-9ddcfb6c6c6e")
 		)
@@ -10735,6 +10860,72 @@
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/d7edf10b-e7e7-437a-ab6c-966f29ad8f7f"
 					(reference "R86")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KL_Flags:PWR_FLAG")
+		(at 149.86 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cbdd2ad8-5ff1-477e-93d8-37d9fe0270c0")
+		(property "Reference" "#FLG013"
+			(at 149.86 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 149.86 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 149.86 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "de4146e4-3457-403a-ab70-1cc529b842ca")
+		)
+		(instances
+			(project "shish-lan"
+				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/d7edf10b-e7e7-437a-ab6c-966f29ad8f7f"
+					(reference "#FLG013")
 					(unit 1)
 				)
 			)
@@ -10847,42 +11038,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" ""
-			(at 57.15 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" ""
-			(at 57.15 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS" ""
-			(at 57.15 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max Current" ""
-			(at 57.15 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "21afe14a-ce7d-467a-a7e9-b8ba92968ee3")
 		)
@@ -10906,7 +11061,7 @@
 	)
 	(symbol
 		(lib_id "KL_C:C_100n_35V_X7R_402_10")
-		(at 50.8 154.94 0)
+		(at 45.72 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10914,7 +11069,7 @@
 		(dnp no)
 		(uuid "dfbeeb73-c1f8-4348-b734-d3b947ed0710")
 		(property "Reference" "C1"
-			(at 51.435 152.4 0)
+			(at 46.355 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10923,7 +11078,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 51.435 157.48 0)
+			(at 46.355 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10932,7 +11087,7 @@
 			)
 		)
 		(property "Footprint" "KL_Footprints:C_0603"
-			(at 51.7652 158.75 0)
+			(at 46.6852 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10941,7 +11096,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 50.8 154.94 0)
+			(at 45.72 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10950,7 +11105,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 50.8 154.94 0)
+			(at 45.72 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10959,7 +11114,7 @@
 			)
 		)
 		(property "Tolerance" "10"
-			(at 50.8 154.94 0)
+			(at 45.72 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10968,7 +11123,7 @@
 			)
 		)
 		(property "Voltage" "35"
-			(at 50.8 154.94 0)
+			(at 45.72 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10977,7 +11132,7 @@
 			)
 		)
 		(property "Mouser" "810-CGA2B3X7R1V104K"
-			(at 50.8 154.94 0)
+			(at 45.72 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10986,7 +11141,7 @@
 			)
 		)
 		(property "Digikey" "445-6901-1-ND"
-			(at 50.8 154.94 0)
+			(at 45.72 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10995,7 +11150,7 @@
 			)
 		)
 		(property "LCSC" "C2181802"
-			(at 50.8 154.94 0)
+			(at 45.72 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11004,43 +11159,7 @@
 			)
 		)
 		(property "Farnell" "2210830"
-			(at 50.8 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" ""
-			(at 50.8 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" ""
-			(at 50.8 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS" ""
-			(at 50.8 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max Current" ""
-			(at 50.8 154.94 0)
+			(at 45.72 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11071,7 +11190,7 @@
 	)
 	(symbol
 		(lib_id "KL_C:C_100n_35V_X7R_402_10")
-		(at 50.8 67.31 0)
+		(at 45.72 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11080,7 +11199,7 @@
 		(fields_autoplaced yes)
 		(uuid "e1505569-cfab-4c69-81dd-0238502ce5ec")
 		(property "Reference" "C20"
-			(at 54.61 66.0399 0)
+			(at 49.53 66.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11089,7 +11208,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 54.61 68.5799 0)
+			(at 49.53 68.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11098,7 +11217,7 @@
 			)
 		)
 		(property "Footprint" "KL_Footprints:C_0603"
-			(at 51.7652 71.12 0)
+			(at 46.6852 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11107,7 +11226,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 50.8 67.31 0)
+			(at 45.72 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11116,7 +11235,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 50.8 67.31 0)
+			(at 45.72 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11125,7 +11244,7 @@
 			)
 		)
 		(property "Tolerance" "10"
-			(at 50.8 67.31 0)
+			(at 45.72 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11134,7 +11253,7 @@
 			)
 		)
 		(property "Voltage" "35"
-			(at 50.8 67.31 0)
+			(at 45.72 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11143,7 +11262,7 @@
 			)
 		)
 		(property "Mouser" "810-CGA2B3X7R1V104K"
-			(at 50.8 67.31 0)
+			(at 45.72 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11152,7 +11271,7 @@
 			)
 		)
 		(property "Digikey" "445-6901-1-ND"
-			(at 50.8 67.31 0)
+			(at 45.72 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11161,7 +11280,7 @@
 			)
 		)
 		(property "LCSC" "C2181802"
-			(at 50.8 67.31 0)
+			(at 45.72 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11170,43 +11289,7 @@
 			)
 		)
 		(property "Farnell" "2210830"
-			(at 50.8 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" ""
-			(at 50.8 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" ""
-			(at 50.8 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS" ""
-			(at 50.8 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max Current" ""
-			(at 50.8 67.31 0)
+			(at 45.72 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11237,7 +11320,7 @@
 	)
 	(symbol
 		(lib_id "KL_SYM_LOCAL:GND")
-		(at 50.8 101.6 0)
+		(at 45.72 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11246,7 +11329,7 @@
 		(fields_autoplaced yes)
 		(uuid "e31d8ef4-a74d-4d4c-aaa6-190f29566504")
 		(property "Reference" "#PWR52"
-			(at 50.8 107.95 0)
+			(at 45.72 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11255,7 +11338,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 50.8 106.68 0)
+			(at 45.72 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11263,7 +11346,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 101.6 0)
+			(at 45.72 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11272,7 +11355,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 101.6 0)
+			(at 45.72 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11281,7 +11364,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 50.8 101.6 0)
+			(at 45.72 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11303,7 +11386,7 @@
 	)
 	(symbol
 		(lib_id "KL_TP:TestPoint")
-		(at 68.58 91.44 0)
+		(at 78.74 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -11312,7 +11395,7 @@
 		(fields_autoplaced yes)
 		(uuid "e9c63356-e0e3-464b-8cd1-cae8f8317c81")
 		(property "Reference" "TP4"
-			(at 68.58 85.725 0)
+			(at 78.74 85.725 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -11321,7 +11404,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 68.58 86.36 0)
+			(at 78.74 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11330,7 +11413,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 73.66 91.44 0)
+			(at 83.82 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11339,7 +11422,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 73.66 91.44 0)
+			(at 83.82 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11348,7 +11431,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 68.58 91.44 0)
+			(at 78.74 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11481,42 +11564,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" ""
-			(at 57.15 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" ""
-			(at 57.15 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS" ""
-			(at 57.15 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max Current" ""
-			(at 57.15 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "69b439a8-1bee-49c6-b9df-5e9b3dab9e8b")
 		)
@@ -11639,42 +11686,6 @@
 			)
 		)
 		(property "Farnell" "2210830"
-			(at 149.86 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" ""
-			(at 149.86 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" ""
-			(at 149.86 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS" ""
-			(at 149.86 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max Current" ""
 			(at 149.86 52.07 0)
 			(effects
 				(font

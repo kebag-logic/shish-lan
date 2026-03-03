@@ -2723,42 +2723,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" ""
-			(at 187.96 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" ""
-			(at 187.96 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS" ""
-			(at 187.96 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max Current" ""
-			(at 187.96 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "8b5e331f-9f81-4e14-816a-7b8451857f04")
 		)
@@ -2769,6 +2733,12 @@
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
 					(reference "R66")
+					(unit 1)
+				)
+			)
+			(project "switch_gpios"
+				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -2838,6 +2808,12 @@
 					(unit 1)
 				)
 			)
+			(project "switch_gpios"
+				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2901,6 +2877,12 @@
 			(project ""
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
 					(reference "#PWR24")
+					(unit 1)
+				)
+			)
+			(project "switch_gpios"
+				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -3024,42 +3006,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" ""
-			(at 53.34 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" ""
-			(at 53.34 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS" ""
-			(at 53.34 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max Current" ""
-			(at 53.34 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "17b61a2f-4f7d-48f5-95cf-1922e2dc0c20")
 		)
@@ -3070,6 +3016,12 @@
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
 					(reference "R14")
+					(unit 1)
+				)
+			)
+			(project "switch_gpios"
+				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -3193,42 +3145,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" ""
-			(at 152.4 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" ""
-			(at 152.4 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS" ""
-			(at 152.4 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max Current" ""
-			(at 152.4 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "d22714fc-e1be-45b7-9b8b-89b3cc1b05a7")
 		)
@@ -3239,6 +3155,12 @@
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
 					(reference "R42")
+					(unit 1)
+				)
+			)
+			(project "switch_gpios"
+				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -3362,42 +3284,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" ""
-			(at 210.82 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" ""
-			(at 210.82 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS" ""
-			(at 210.82 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max Current" ""
-			(at 210.82 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "d3cc3852-b48f-410d-ace5-71ae2a91d131")
 		)
@@ -3408,6 +3294,12 @@
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
 					(reference "R27")
+					(unit 1)
+				)
+			)
+			(project "switch_gpios"
+				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -3531,42 +3423,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" ""
-			(at 187.96 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" ""
-			(at 187.96 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS" ""
-			(at 187.96 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max Current" ""
-			(at 187.96 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "9f4734a2-3975-4ab3-ac96-97a8600c32f2")
 		)
@@ -3577,6 +3433,12 @@
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
 					(reference "R26")
+					(unit 1)
+				)
+			)
+			(project "switch_gpios"
+				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -3700,42 +3562,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" ""
-			(at 187.96 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" ""
-			(at 187.96 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS" ""
-			(at 187.96 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max Current" ""
-			(at 187.96 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "bf452d39-72d2-4e43-9313-1dbc9f83c2c9")
 		)
@@ -3746,6 +3572,12 @@
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
 					(reference "R38")
+					(unit 1)
+				)
+			)
+			(project "switch_gpios"
+				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -3812,6 +3644,12 @@
 			(project ""
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
 					(reference "#PWR44")
+					(unit 1)
+				)
+			)
+			(project "switch_gpios"
+				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -3935,42 +3773,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" ""
-			(at 29.21 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" ""
-			(at 29.21 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS" ""
-			(at 29.21 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max Current" ""
-			(at 29.21 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "92a0cc12-08c9-435d-b285-75d96e62fa71")
 		)
@@ -3981,6 +3783,12 @@
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
 					(reference "R52")
+					(unit 1)
+				)
+			)
+			(project "switch_gpios"
+				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -4047,6 +3855,12 @@
 			(project ""
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
 					(reference "#PWR41")
+					(unit 1)
+				)
+			)
+			(project "switch_gpios"
+				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -4170,42 +3984,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" ""
-			(at 53.34 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" ""
-			(at 53.34 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS" ""
-			(at 53.34 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max Current" ""
-			(at 53.34 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "4f604cd8-4ecd-4564-a77c-79e823aaed8d")
 		)
@@ -4216,6 +3994,12 @@
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
 					(reference "R54")
+					(unit 1)
+				)
+			)
+			(project "switch_gpios"
+				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -4339,42 +4123,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" ""
-			(at 210.82 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" ""
-			(at 210.82 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS" ""
-			(at 210.82 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max Current" ""
-			(at 210.82 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "9de58418-876c-4968-95c6-7d729f4c8da6")
 		)
@@ -4385,6 +4133,12 @@
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
 					(reference "R32")
+					(unit 1)
+				)
+			)
+			(project "switch_gpios"
+				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -4508,42 +4262,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" ""
-			(at 187.96 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" ""
-			(at 187.96 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS" ""
-			(at 187.96 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max Current" ""
-			(at 187.96 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "5fb9de1e-a402-4c4b-9bf9-da14f1742215")
 		)
@@ -4554,6 +4272,12 @@
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
 					(reference "R59")
+					(unit 1)
+				)
+			)
+			(project "switch_gpios"
+				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -4620,6 +4344,12 @@
 			(project ""
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
 					(reference "#PWR40")
+					(unit 1)
+				)
+			)
+			(project "switch_gpios"
+				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -4743,42 +4473,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" ""
-			(at 25.4 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" ""
-			(at 25.4 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS" ""
-			(at 25.4 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max Current" ""
-			(at 25.4 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "53956dfb-e43a-4458-b2fe-1d50b98c4094")
 		)
@@ -4789,6 +4483,12 @@
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
 					(reference "R53")
+					(unit 1)
+				)
+			)
+			(project "switch_gpios"
+				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -4858,6 +4558,12 @@
 					(unit 1)
 				)
 			)
+			(project "switch_gpios"
+				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4921,6 +4627,12 @@
 			(project ""
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
 					(reference "#PWR26")
+					(unit 1)
+				)
+			)
+			(project "switch_gpios"
+				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -5044,42 +4756,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" ""
-			(at 186.69 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" ""
-			(at 186.69 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS" ""
-			(at 186.69 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max Current" ""
-			(at 186.69 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "7a42d6b0-403b-4898-adc9-9974d1569733")
 		)
@@ -5090,6 +4766,12 @@
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
 					(reference "R29")
+					(unit 1)
+				)
+			)
+			(project "switch_gpios"
+				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -5213,42 +4895,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" ""
-			(at 97.79 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" ""
-			(at 97.79 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS" ""
-			(at 97.79 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max Current" ""
-			(at 97.79 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "0b82e5a7-f439-459d-96dc-22bed35d2207")
 		)
@@ -5259,6 +4905,12 @@
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
 					(reference "R49")
+					(unit 1)
+				)
+			)
+			(project "switch_gpios"
+				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -5382,42 +5034,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" ""
-			(at 207.01 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" ""
-			(at 207.01 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS" ""
-			(at 207.01 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max Current" ""
-			(at 207.01 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "0969a556-b5d3-4d8e-a949-e37baee1863b")
 		)
@@ -5428,6 +5044,12 @@
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
 					(reference "R39")
+					(unit 1)
+				)
+			)
+			(project "switch_gpios"
+				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -5551,42 +5173,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" ""
-			(at 152.4 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" ""
-			(at 152.4 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS" ""
-			(at 152.4 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max Current" ""
-			(at 152.4 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "d9dca06b-6ab2-4b65-ae73-e493977ced90")
 		)
@@ -5597,6 +5183,12 @@
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
 					(reference "R40")
+					(unit 1)
+				)
+			)
+			(project "switch_gpios"
+				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -5720,42 +5312,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" ""
-			(at 72.39 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" ""
-			(at 72.39 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS" ""
-			(at 72.39 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max Current" ""
-			(at 72.39 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "00aaebb4-c184-4156-a09f-f6fa0a3fba78")
 		)
@@ -5766,6 +5322,12 @@
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
 					(reference "R65")
+					(unit 1)
+				)
+			)
+			(project "switch_gpios"
+				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -5832,6 +5394,12 @@
 			(project ""
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
 					(reference "#PWR35")
+					(unit 1)
+				)
+			)
+			(project "switch_gpios"
+				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -5955,42 +5523,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" ""
-			(at 99.06 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" ""
-			(at 99.06 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS" ""
-			(at 99.06 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max Current" ""
-			(at 99.06 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "36659fed-e1a3-4cba-93bd-e89126c5adc7")
 		)
@@ -6001,6 +5533,12 @@
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
 					(reference "R45")
+					(unit 1)
+				)
+			)
+			(project "switch_gpios"
+				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -6124,42 +5662,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" ""
-			(at 49.53 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" ""
-			(at 49.53 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS" ""
-			(at 49.53 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max Current" ""
-			(at 49.53 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "c4077346-4287-423b-a726-cddfc4af9f22")
 		)
@@ -6170,6 +5672,12 @@
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
 					(reference "R34")
+					(unit 1)
+				)
+			)
+			(project "switch_gpios"
+				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -6293,42 +5801,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" ""
-			(at 72.39 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" ""
-			(at 72.39 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS" ""
-			(at 72.39 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max Current" ""
-			(at 72.39 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "2a21e939-805e-4146-9b46-044b42a73a26")
 		)
@@ -6339,6 +5811,12 @@
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
 					(reference "R35")
+					(unit 1)
+				)
+			)
+			(project "switch_gpios"
+				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -6405,6 +5883,12 @@
 			(project ""
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
 					(reference "#PWR31")
+					(unit 1)
+				)
+			)
+			(project "switch_gpios"
+				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -6528,42 +6012,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" ""
-			(at 152.4 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" ""
-			(at 152.4 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS" ""
-			(at 152.4 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max Current" ""
-			(at 152.4 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "d8e63f6b-60ce-4c6f-bf2f-6a09346bb308")
 		)
@@ -6574,6 +6022,12 @@
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
 					(reference "R63")
+					(unit 1)
+				)
+			)
+			(project "switch_gpios"
+				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -6697,42 +6151,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" ""
-			(at 99.06 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" ""
-			(at 99.06 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS" ""
-			(at 99.06 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max Current" ""
-			(at 99.06 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "dff63d3f-66d8-4066-950c-53b172e68ac2")
 		)
@@ -6743,6 +6161,12 @@
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
 					(reference "R48")
+					(unit 1)
+				)
+			)
+			(project "switch_gpios"
+				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -6866,42 +6290,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" ""
-			(at 49.53 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" ""
-			(at 49.53 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS" ""
-			(at 49.53 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max Current" ""
-			(at 49.53 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "3c9a0812-9192-42f0-b12f-fe74614f1be4")
 		)
@@ -6912,6 +6300,12 @@
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
 					(reference "R68")
+					(unit 1)
+				)
+			)
+			(project "switch_gpios"
+				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -6978,6 +6372,12 @@
 			(project ""
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
 					(reference "#PWR28")
+					(unit 1)
+				)
+			)
+			(project "switch_gpios"
+				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -7101,42 +6501,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" ""
-			(at 29.21 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" ""
-			(at 29.21 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS" ""
-			(at 29.21 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max Current" ""
-			(at 29.21 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "0752731a-fda9-4bf2-bdd1-5dbc1ed2976e")
 		)
@@ -7147,6 +6511,12 @@
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
 					(reference "R30")
+					(unit 1)
+				)
+			)
+			(project "switch_gpios"
+				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -7213,6 +6583,12 @@
 			(project ""
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
 					(reference "#PWR43")
+					(unit 1)
+				)
+			)
+			(project "switch_gpios"
+				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -7336,42 +6712,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" ""
-			(at 99.06 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" ""
-			(at 99.06 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS" ""
-			(at 99.06 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max Current" ""
-			(at 99.06 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "38806395-1588-4230-92a2-7428280c1866")
 		)
@@ -7382,6 +6722,12 @@
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
 					(reference "R64")
+					(unit 1)
+				)
+			)
+			(project "switch_gpios"
+				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -7451,6 +6797,12 @@
 					(unit 1)
 				)
 			)
+			(project "switch_gpios"
+				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7514,6 +6866,12 @@
 			(project ""
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
 					(reference "#PWR27")
+					(unit 1)
+				)
+			)
+			(project "switch_gpios"
+				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -7637,42 +6995,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" ""
-			(at 99.06 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" ""
-			(at 99.06 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS" ""
-			(at 99.06 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max Current" ""
-			(at 99.06 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "fbe037af-ffbc-4858-ae6a-cb17de9d9971")
 		)
@@ -7683,6 +7005,12 @@
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
 					(reference "R50")
+					(unit 1)
+				)
+			)
+			(project "switch_gpios"
+				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -7806,42 +7134,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" ""
-			(at 26.67 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" ""
-			(at 26.67 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS" ""
-			(at 26.67 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max Current" ""
-			(at 26.67 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "10ca0bab-3852-4d53-8b9f-d1e6ac73a933")
 		)
@@ -7852,6 +7144,12 @@
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
 					(reference "R37")
+					(unit 1)
+				)
+			)
+			(project "switch_gpios"
+				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -7918,6 +7216,12 @@
 			(project ""
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
 					(reference "#PWR37")
+					(unit 1)
+				)
+			)
+			(project "switch_gpios"
+				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -8041,42 +7345,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" ""
-			(at 97.79 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" ""
-			(at 97.79 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS" ""
-			(at 97.79 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max Current" ""
-			(at 97.79 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "7da99c9d-2aba-477b-8bb4-67c29c510fe3")
 		)
@@ -8087,6 +7355,12 @@
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
 					(reference "R58")
+					(unit 1)
+				)
+			)
+			(project "switch_gpios"
+				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -8153,6 +7427,12 @@
 			(project ""
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
 					(reference "#PWR25")
+					(unit 1)
+				)
+			)
+			(project "switch_gpios"
+				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -8276,42 +7556,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" ""
-			(at 30.48 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" ""
-			(at 30.48 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS" ""
-			(at 30.48 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max Current" ""
-			(at 30.48 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "437591c6-3d87-4c7d-833c-96ed60a63824")
 		)
@@ -8322,6 +7566,12 @@
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
 					(reference "R56")
+					(unit 1)
+				)
+			)
+			(project "switch_gpios"
+				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -8445,42 +7695,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" ""
-			(at 207.01 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" ""
-			(at 207.01 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS" ""
-			(at 207.01 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max Current" ""
-			(at 207.01 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "76e4546d-4cd2-4bc1-a956-5a50fd608c8a")
 		)
@@ -8491,6 +7705,12 @@
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
 					(reference "R57")
+					(unit 1)
+				)
+			)
+			(project "switch_gpios"
+				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -8614,42 +7834,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" ""
-			(at 152.4 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" ""
-			(at 152.4 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS" ""
-			(at 152.4 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max Current" ""
-			(at 152.4 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "e914f93b-22b3-4975-a2d0-85abd2281be9")
 		)
@@ -8660,6 +7844,12 @@
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
 					(reference "R60")
+					(unit 1)
+				)
+			)
+			(project "switch_gpios"
+				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -8783,42 +7973,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" ""
-			(at 104.14 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" ""
-			(at 104.14 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS" ""
-			(at 104.14 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max Current" ""
-			(at 104.14 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "4ef92a3a-7d01-4243-9598-09f8e1eaccbe")
 		)
@@ -8829,6 +7983,12 @@
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
 					(reference "R51")
+					(unit 1)
+				)
+			)
+			(project "switch_gpios"
+				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -8952,42 +8112,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" ""
-			(at 30.48 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" ""
-			(at 30.48 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS" ""
-			(at 30.48 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max Current" ""
-			(at 30.48 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "6627f939-67e0-4a02-8861-a8719cdab911")
 		)
@@ -8998,6 +8122,12 @@
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
 					(reference "R55")
+					(unit 1)
+				)
+			)
+			(project "switch_gpios"
+				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -9067,6 +8197,12 @@
 					(unit 1)
 				)
 			)
+			(project "switch_gpios"
+				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9130,6 +8266,12 @@
 			(project ""
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
 					(reference "#PWR38")
+					(unit 1)
+				)
+			)
+			(project "switch_gpios"
+				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -9253,42 +8395,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" ""
-			(at 186.69 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" ""
-			(at 186.69 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS" ""
-			(at 186.69 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max Current" ""
-			(at 186.69 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "f1c7e7b6-36bf-4edf-aad4-d21101752023")
 		)
@@ -9299,6 +8405,12 @@
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
 					(reference "R31")
+					(unit 1)
+				)
+			)
+			(project "switch_gpios"
+				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -9365,6 +8477,12 @@
 			(project ""
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
 					(reference "#PWR45")
+					(unit 1)
+				)
+			)
+			(project "switch_gpios"
+				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -9488,42 +8606,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" ""
-			(at 203.2 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" ""
-			(at 203.2 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS" ""
-			(at 203.2 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max Current" ""
-			(at 203.2 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "7d599b4e-7e80-4136-9763-aa5ac22b5c37")
 		)
@@ -9534,6 +8616,12 @@
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
 					(reference "R36")
+					(unit 1)
+				)
+			)
+			(project "switch_gpios"
+				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -9657,42 +8745,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" ""
-			(at 104.14 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" ""
-			(at 104.14 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS" ""
-			(at 104.14 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max Current" ""
-			(at 104.14 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "d6ae64fb-4f75-4e79-923a-9f193df51971")
 		)
@@ -9703,6 +8755,12 @@
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
 					(reference "R47")
+					(unit 1)
+				)
+			)
+			(project "switch_gpios"
+				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -9826,42 +8884,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" ""
-			(at 25.4 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" ""
-			(at 25.4 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS" ""
-			(at 25.4 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max Current" ""
-			(at 25.4 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "65d9c062-a6c7-43d3-9edb-07f15cc9a9b6")
 		)
@@ -9872,6 +8894,12 @@
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
 					(reference "R41")
+					(unit 1)
+				)
+			)
+			(project "switch_gpios"
+				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -9995,42 +9023,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" ""
-			(at 99.06 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" ""
-			(at 99.06 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS" ""
-			(at 99.06 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max Current" ""
-			(at 99.06 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "f7574282-7b0d-4675-8bba-95adf152ab46")
 		)
@@ -10041,6 +9033,12 @@
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
 					(reference "R28")
+					(unit 1)
+				)
+			)
+			(project "switch_gpios"
+				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -10164,42 +9162,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" ""
-			(at 147.32 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" ""
-			(at 147.32 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS" ""
-			(at 147.32 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max Current" ""
-			(at 147.32 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "f1917b3d-98e9-4425-90a8-6edf2d041acc")
 		)
@@ -10210,6 +9172,12 @@
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
 					(reference "R46")
+					(unit 1)
+				)
+			)
+			(project "switch_gpios"
+				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -10276,6 +9244,12 @@
 			(project ""
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
 					(reference "#PWR32")
+					(unit 1)
+				)
+			)
+			(project "switch_gpios"
+				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -10399,42 +9373,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" ""
-			(at 26.67 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" ""
-			(at 26.67 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS" ""
-			(at 26.67 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max Current" ""
-			(at 26.67 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "21d8e570-c538-484e-b06f-901a118d5a0e")
 		)
@@ -10445,6 +9383,12 @@
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
 					(reference "R67")
+					(unit 1)
+				)
+			)
+			(project "switch_gpios"
+				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -10568,42 +9512,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" ""
-			(at 147.32 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" ""
-			(at 147.32 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS" ""
-			(at 147.32 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max Current" ""
-			(at 147.32 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "dec3599c-74e5-42aa-a1c6-cae4fa4d91b4")
 		)
@@ -10614,6 +9522,12 @@
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
 					(reference "R61")
+					(unit 1)
+				)
+			)
+			(project "switch_gpios"
+				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -10680,6 +9594,12 @@
 			(project ""
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
 					(reference "#PWR42")
+					(unit 1)
+				)
+			)
+			(project "switch_gpios"
+				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -10803,42 +9723,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" ""
-			(at 151.13 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" ""
-			(at 151.13 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS" ""
-			(at 151.13 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max Current" ""
-			(at 151.13 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "cd649655-be0e-4037-88b4-97b68bdaae3b")
 		)
@@ -10849,6 +9733,12 @@
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
 					(reference "R62")
+					(unit 1)
+				)
+			)
+			(project "switch_gpios"
+				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -10972,42 +9862,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" ""
-			(at 203.2 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" ""
-			(at 203.2 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS" ""
-			(at 203.2 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max Current" ""
-			(at 203.2 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "97340a73-d9ba-48c6-ac25-20132ceb98a2")
 		)
@@ -11018,6 +9872,12 @@
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
 					(reference "R33")
+					(unit 1)
+				)
+			)
+			(project "switch_gpios"
+				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -11141,42 +10001,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" ""
-			(at 151.13 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" ""
-			(at 151.13 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS" ""
-			(at 151.13 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max Current" ""
-			(at 151.13 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "ad38bbde-fd0f-4aaa-9de1-219c056ccabd")
 		)
@@ -11187,6 +10011,12 @@
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
 					(reference "R44")
+					(unit 1)
+				)
+			)
+			(project "switch_gpios"
+				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -11310,42 +10140,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" ""
-			(at 99.06 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" ""
-			(at 99.06 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS" ""
-			(at 99.06 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max Current" ""
-			(at 99.06 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "619872e0-7d63-4f76-a756-7afe64c97a0d")
 		)
@@ -11356,6 +10150,12 @@
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
 					(reference "R43")
+					(unit 1)
+				)
+			)
+			(project "switch_gpios"
+				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -11425,6 +10225,12 @@
 					(unit 1)
 				)
 			)
+			(project "switch_gpios"
+				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -11488,6 +10294,12 @@
 			(project ""
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
 					(reference "#PWR30")
+					(unit 1)
+				)
+			)
+			(project "switch_gpios"
+				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
