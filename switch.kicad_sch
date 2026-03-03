@@ -3340,7 +3340,7 @@
 	)
 	(bus
 		(pts
-			(xy 107.95 59.69) (xy 115.57 59.69)
+			(xy 107.95 63.5) (xy 115.57 63.5)
 		)
 		(stroke
 			(width 0)
@@ -3368,6 +3368,16 @@
 		)
 		(uuid "1b7bfaf0-fa59-4673-a3e7-3b30b9b21dba")
 	)
+	(bus
+		(pts
+			(xy 107.95 66.04) (xy 113.03 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cb7bbc3-6b7a-44ea-b61c-6c941dabdbe1")
+	)
 	(wire
 		(pts
 			(xy 132.08 110.49) (xy 149.86 110.49)
@@ -3380,7 +3390,7 @@
 	)
 	(bus
 		(pts
-			(xy 115.57 92.71) (xy 115.57 59.69)
+			(xy 115.57 92.71) (xy 115.57 63.5)
 		)
 		(stroke
 			(width 0)
@@ -3450,7 +3460,7 @@
 	)
 	(bus
 		(pts
-			(xy 118.11 57.15) (xy 118.11 92.71)
+			(xy 118.11 60.96) (xy 118.11 92.71)
 		)
 		(stroke
 			(width 0)
@@ -3558,6 +3568,16 @@
 		)
 		(uuid "bcb7c9fc-6500-4fd3-a3e4-0000a7ab40c3")
 	)
+	(bus
+		(pts
+			(xy 113.03 92.71) (xy 113.03 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be39f1e6-5721-404d-af01-978a4f5b4c1d")
+	)
 	(wire
 		(pts
 			(xy 256.54 127) (xy 274.32 127)
@@ -3608,16 +3628,6 @@
 		)
 		(uuid "c9feabde-2387-4c4d-be01-56beb435faac")
 	)
-	(bus
-		(pts
-			(xy 113.03 62.23) (xy 113.03 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ccd6dc54-c0e9-4152-a82e-33cabe4645ca")
-	)
 	(wire
 		(pts
 			(xy 132.08 104.14) (xy 149.86 104.14)
@@ -3640,7 +3650,7 @@
 	)
 	(bus
 		(pts
-			(xy 107.95 57.15) (xy 118.11 57.15)
+			(xy 107.95 60.96) (xy 118.11 60.96)
 		)
 		(stroke
 			(width 0)
@@ -3687,16 +3697,6 @@
 			(type default)
 		)
 		(uuid "fc680ee0-3e35-43fc-85c7-262ef7b231d2")
-	)
-	(bus
-		(pts
-			(xy 107.95 62.23) (xy 113.03 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fcd1a338-5fab-434c-ba02-4abe3aa87593")
 	)
 	(label "EN-1V15_STM_TO_BUCK"
 		(at 96.52 43.18 180)
@@ -3861,7 +3861,7 @@
 	)
 	(hierarchical_label "SPI2_STM_SWITCH{MOSI,MISO,nCS,CLK}"
 		(shape bidirectional)
-		(at 107.95 57.15 180)
+		(at 107.95 60.96 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3869,6 +3869,17 @@
 			(justify right)
 		)
 		(uuid "15406626-2dea-41c6-a493-0fa9adb9242e")
+	)
+	(hierarchical_label "RGMII0_SWITCH_STM{TXD[0..3], TXC-REFCLK, TXCTL-DX_DV, RXD[0..3], RX_CLK, RXCTL-CRS_DV}"
+		(shape bidirectional)
+		(at 107.95 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3a2dee12-54d8-432f-92b7-67731fae88e9")
 	)
 	(hierarchical_label "EN-1V15_STM_TO_BUCK"
 		(shape input)
@@ -3903,20 +3914,9 @@
 		)
 		(uuid "94eb4cdb-a2ae-4399-8c9d-f5f884b77178")
 	)
-	(hierarchical_label "RGMII1_SWITCH_STM{TXD[0..3], TXC-REFCLK, TXCTL-DX_DV, RXD[0..3], RX_CLK, RXCTL-CRS_DV}"
-		(shape bidirectional)
-		(at 107.95 62.23 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9e9880e7-e4eb-4296-b3d1-9ae90ec9f072")
-	)
 	(hierarchical_label "MIIM0_STM_SWITCH{SLV_MDIO,SLV_MDC}"
 		(shape bidirectional)
-		(at 107.95 59.69 180)
+		(at 107.95 63.5 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5036,7 +5036,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -5046,7 +5045,7 @@
 		)
 		(uuid "7f5fd65f-f670-4db7-8f09-63d4fb2faa09")
 		(property "Sheetname" "switch_gpios"
-			(at 99.06 91.9984 0)
+			(at 99.314 91.694 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5061,18 +5060,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(pin "RGMII1_SWITCH_STM{TXD[0..3], TXC-REFCLK, TXCTL-DX_DV, RXD[0..3], RX_CLK, RXCTL-CRS_DV}"
-			bidirectional
-			(at 113.03 92.71 90
-			)
-			(uuid "c5f36330-531d-41d1-b06b-2f32813e3533")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(pin "VDDIO_SWITCH" input
@@ -5208,6 +5195,18 @@
 		(pin "SYNCE_1" bidirectional
 			(at 132.08 157.48 0)
 			(uuid "f302651a-b0ea-4e25-9d2a-13d9f0343e13")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RGMII0_SWITCH_STM{TXD[0..3], TXC-REFCLK, TXCTL-DX_DV, RXD[0..3], RX_CLK, RXCTL-CRS_DV}"
+			bidirectional
+			(at 113.03 92.71 90
+			)
+			(uuid "51dbaa26-1cbb-4ab0-9937-5b093d66fea6")
 			(effects
 				(font
 					(size 1.27 1.27)

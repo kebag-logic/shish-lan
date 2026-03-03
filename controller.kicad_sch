@@ -5768,7 +5768,7 @@
 	)
 	(text_box "Second TX/RX pair is not used.\nSwitch GPIOs are 70k pull-up."
 		(exclude_from_sim no)
-		(at 190.5 52.07 0)
+		(at 189.23 52.07 0)
 		(size 19.05 10.16)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -8806,7 +8806,7 @@
 		)
 		(uuid "0f1f7e3d-2e78-4356-9cd9-e5e976348810")
 	)
-	(label "RGMII1_SWITCH_STM.RXCTL-CRS_DV"
+	(label "RGMII0_SWITCH_STM.RXCTL-CRS_DV"
 		(at 231.14 81.28 0)
 		(effects
 			(font
@@ -8856,7 +8856,7 @@
 		)
 		(uuid "25e83541-9517-454c-8468-5fb316a65fcd")
 	)
-	(label "RGMII1_SWITCH_STM.RX_CLK"
+	(label "RGMII0_SWITCH_STM.RX_CLK"
 		(at 231.14 78.74 0)
 		(effects
 			(font
@@ -8886,7 +8886,7 @@
 		)
 		(uuid "2e5e83a9-cc6a-4675-8307-8fc337a79689")
 	)
-	(label "RGMII1_SWITCH_STM.TXD1"
+	(label "RGMII0_SWITCH_STM.TXD1"
 		(at 179.07 143.51 180)
 		(effects
 			(font
@@ -8896,7 +8896,7 @@
 		)
 		(uuid "3d619085-91fb-48ab-b068-09799c073164")
 	)
-	(label "RGMII1_SWITCH_STM.RXD3"
+	(label "RGMII0_SWITCH_STM.RXD3"
 		(at 231.14 76.2 0)
 		(effects
 			(font
@@ -8916,7 +8916,7 @@
 		)
 		(uuid "4d168867-bfe2-4cee-be80-dcd9533984db")
 	)
-	(label "RGMII1_SWITCH_STM.TXCTL-DX_DV"
+	(label "RGMII0_SWITCH_STM.TXCTL-DX_DV"
 		(at 179.07 113.03 180)
 		(effects
 			(font
@@ -8926,7 +8926,7 @@
 		)
 		(uuid "5da59ab9-3dd6-4a85-bdcf-e5b2cd11c77a")
 	)
-	(label "RGMII1_SWITCH_STM.TXCTL-DX_DV"
+	(label "RGMII0_SWITCH_STM.TXCTL-DX_DV"
 		(at 231.14 64.77 0)
 		(effects
 			(font
@@ -8956,7 +8956,7 @@
 		)
 		(uuid "61631838-38f9-4621-8476-e60b101adf30")
 	)
-	(label "RGMII1_SWITCH_STM.TXC-REFCLK"
+	(label "RGMII0_SWITCH_STM.TXC-REFCLK"
 		(at 179.07 46.99 180)
 		(effects
 			(font
@@ -8966,7 +8966,7 @@
 		)
 		(uuid "6bcc04fb-ea7d-48d0-a0e9-41b3b5153222")
 	)
-	(label "RGMII1_SWITCH_STM.RXD1"
+	(label "RGMII0_SWITCH_STM.RXD1"
 		(at 231.14 71.12 0)
 		(effects
 			(font
@@ -8976,8 +8976,8 @@
 		)
 		(uuid "6c45635f-cc90-4923-9fc7-ced4bd8d601b")
 	)
-	(label "RGMII1_SWITCH_STM.TXD3"
-		(at 232.41 59.69 0)
+	(label "RGMII0_SWITCH_STM.TXD3"
+		(at 231.14 59.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8986,7 +8986,7 @@
 		)
 		(uuid "6d166ae7-dbe6-4d22-b66c-ec8193df7d75")
 	)
-	(label "RGMII1_SWITCH_STM.RXCTL-CRS_DV"
+	(label "RGMII0_SWITCH_STM.RXCTL-CRS_DV"
 		(at 179.07 62.23 180)
 		(effects
 			(font
@@ -9016,7 +9016,7 @@
 		)
 		(uuid "7c418cf3-d3ea-45d6-820d-5b3e10026767")
 	)
-	(label "RGMII1_SWITCH_STM.TXC-REFCLK"
+	(label "RGMII0_SWITCH_STM.TXC-REFCLK"
 		(at 231.14 62.23 0)
 		(effects
 			(font
@@ -9036,7 +9036,7 @@
 		)
 		(uuid "8c019706-bf63-4a6b-a449-759cc40bd209")
 	)
-	(label "RGMII1_SWITCH_STM.RXD2"
+	(label "RGMII0_SWITCH_STM.RXD2"
 		(at 231.14 73.66 0)
 		(effects
 			(font
@@ -9086,8 +9086,8 @@
 		)
 		(uuid "ab1b3f21-3355-47dd-96bc-c7984c4927d6")
 	)
-	(label "RGMII1_SWITCH_STM.TXD2"
-		(at 233.68 57.15 0)
+	(label "RGMII0_SWITCH_STM.TXD2"
+		(at 231.14 57.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9096,7 +9096,7 @@
 		)
 		(uuid "aed26c06-a5b2-4fe6-bd0a-a171ad2c0408")
 	)
-	(label "RGMII1_SWITCH_STM.RXD0"
+	(label "RGMII0_SWITCH_STM.RXD0"
 		(at 231.14 68.58 0)
 		(effects
 			(font
@@ -9116,7 +9116,7 @@
 		)
 		(uuid "b1d6ae4e-7bd5-4e25-aad4-0188ad69a88f")
 	)
-	(label "RGMII1_SWITCH_STM.RXD0"
+	(label "RGMII0_SWITCH_STM.RXD0"
 		(at 179.07 116.84 180)
 		(effects
 			(font
@@ -9146,8 +9146,8 @@
 		)
 		(uuid "ce111ea9-b464-4629-9662-91422a4be9e0")
 	)
-	(label "RGMII1_SWITCH_STM.TXD1"
-		(at 234.95 54.61 0)
+	(label "RGMII0_SWITCH_STM.TXD1"
+		(at 231.14 54.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9216,7 +9216,7 @@
 		)
 		(uuid "f08bc318-a0a8-48fb-919a-4421253e8eab")
 	)
-	(label "RGMII1_SWITCH_STM.RXD1"
+	(label "RGMII0_SWITCH_STM.RXD1"
 		(at 179.07 120.65 180)
 		(effects
 			(font
@@ -9246,8 +9246,8 @@
 		)
 		(uuid "f449e531-e87b-4876-b2fb-3a248982701c")
 	)
-	(label "RGMII1_SWITCH_STM.TXD0"
-		(at 236.22 52.07 0)
+	(label "RGMII0_SWITCH_STM.TXD0"
+		(at 231.14 52.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9276,7 +9276,7 @@
 		)
 		(uuid "fc7249d7-7da6-472f-b66f-614619803f75")
 	)
-	(label "RGMII1_SWITCH_STM.TXD0"
+	(label "RGMII0_SWITCH_STM.TXD0"
 		(at 179.07 140.97 180)
 		(effects
 			(font
@@ -9319,7 +9319,7 @@
 		)
 		(uuid "2bbaf160-2120-4954-83ab-61293e093dfe")
 	)
-	(hierarchical_label "RGMII1_SWITCH_STM{TXD[0..3], TXC-REFCLK, TXCTL-DX_DV, RXD[0..3], RX_CLK, RXCTL-CRS_DV}"
+	(hierarchical_label "RGMII0_SWITCH_STM{TXD[0..3], TXC-REFCLK, TXCTL-DX_DV, RXD[0..3], RX_CLK, RXCTL-CRS_DV}"
 		(shape bidirectional)
 		(at 189.23 46.99 0)
 		(effects
