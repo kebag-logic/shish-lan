@@ -713,7 +713,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "KL_R:R_0R_2W_5_2512"
+		(symbol "KL_R:R_0R_100mW_5_0603"
 			(pin_numbers
 				(hide yes)
 			)
@@ -739,7 +739,7 @@
 					)
 				)
 			)
-			(property "Footprint" "KL_Footprints:R_2512"
+			(property "Footprint" "KL_Footprints:R_0603"
 				(at -1.778 0 90)
 				(effects
 					(font
@@ -748,7 +748,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" "https://yageogroup.com/component-documentation/download/specsheet/RC0603JR-070RP"
 				(at 0 0 0)
 				(effects
 					(font
@@ -766,7 +766,7 @@
 					(hide yes)
 				)
 			)
-			(property "Power" "2"
+			(property "Power" "0.1"
 				(at 0 0 0)
 				(effects
 					(font
@@ -784,7 +784,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser" "652-CRF2512-J-000ELF "
+			(property "Mouser" "603-RC0603JR-070RP"
 				(at 0 0 0)
 				(effects
 					(font
@@ -793,7 +793,7 @@
 					(hide yes)
 				)
 			)
-			(property "Digikey" "118-CRF2512-J/-000ELFCT-ND"
+			(property "Digikey" "YAG1307CT-ND"
 				(at 0 0 0)
 				(effects
 					(font
@@ -802,7 +802,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC" "C2778666"
+			(property "LCSC" "C3017805"
 				(at 0 0 0)
 				(effects
 					(font
@@ -820,7 +820,7 @@
 					(hide yes)
 				)
 			)
-			(property "Package (in)" "2512"
+			(property "Package (in)" "0603"
 				(at 0 0 0)
 				(effects
 					(font
@@ -847,7 +847,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "R_0R_2W_5_2512_0_1"
+			(symbol "R_0R_100mW_5_0603_0_1"
 				(rectangle
 					(start -1.016 -2.54)
 					(end 1.016 2.54)
@@ -860,7 +860,7 @@
 					)
 				)
 			)
-			(symbol "R_0R_2W_5_2512_1_1"
+			(symbol "R_0R_100mW_5_0603_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -3395,7 +3395,7 @@
 		(uuid "b7caa63c-ec51-4296-b506-f697a035e410")
 	)
 	(symbol
-		(lib_id "KL_R:R_0R_2W_5_2512")
+		(lib_id "KL_R:R_0R_100mW_5_0603")
 		(at 115.57 62.23 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3419,7 +3419,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KL_Footprints:R_2512"
+		(property "Footprint" "KL_Footprints:R_0603"
 			(at 115.57 64.008 90)
 			(effects
 				(font
@@ -3428,7 +3428,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://yageogroup.com/component-documentation/download/specsheet/RC0603JR-070RP"
 			(at 115.57 62.23 0)
 			(effects
 				(font
@@ -3446,7 +3446,7 @@
 				(hide yes)
 			)
 		)
-		(property "Power" "2"
+		(property "Power" "0.1"
 			(at 115.57 62.23 0)
 			(effects
 				(font
@@ -3464,7 +3464,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "652-CRF2512-J-000ELF "
+		(property "Mouser" "603-RC0603JR-070RP"
 			(at 115.57 62.23 0)
 			(effects
 				(font
@@ -3473,7 +3473,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "118-CRF2512-J/-000ELFCT-ND"
+		(property "Digikey" "YAG1307CT-ND"
 			(at 115.57 62.23 0)
 			(effects
 				(font
@@ -3482,7 +3482,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2778666"
+		(property "LCSC" "C3017805"
 			(at 115.57 62.23 0)
 			(effects
 				(font
@@ -3500,7 +3500,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package (in)" "2512"
+		(property "Package (in)" "0603"
 			(at 115.57 62.23 0)
 			(effects
 				(font
