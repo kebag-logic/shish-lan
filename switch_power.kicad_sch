@@ -5103,7 +5103,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 144.78) (xy 27.94 144.78)
+			(xy 19.05 144.78) (xy 45.72 144.78)
 		)
 		(stroke
 			(width 0)
@@ -5363,16 +5363,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 86.36) (xy 45.72 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54cf7773-7640-4f02-bec5-b84853d1565c")
-	)
-	(wire
-		(pts
 			(xy 142.24 99.06) (xy 165.1 99.06)
 		)
 		(stroke
@@ -5433,7 +5423,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 86.36) (xy 29.21 86.36)
+			(xy 19.05 86.36) (xy 45.72 86.36)
 		)
 		(stroke
 			(width 0)
@@ -5733,7 +5723,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 115.57) (xy 27.94 115.57)
+			(xy 19.05 115.57) (xy 45.72 115.57)
 		)
 		(stroke
 			(width 0)
@@ -6043,33 +6033,13 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 57.15) (xy 29.21 57.15)
+			(xy 19.05 57.15) (xy 45.72 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "cf19ef51-fb65-4abb-b4c7-5933066d7b81")
-	)
-	(wire
-		(pts
-			(xy 35.56 115.57) (xy 45.72 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cfd76db6-56c2-48ef-86bf-2d14818016ff")
-	)
-	(wire
-		(pts
-			(xy 36.83 57.15) (xy 45.72 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d730f234-85b6-4443-8c61-035d7946044c")
 	)
 	(wire
 		(pts
@@ -6260,16 +6230,6 @@
 			(type default)
 		)
 		(uuid "f96c66a1-5486-499a-9fc4-3bff6e13864a")
-	)
-	(wire
-		(pts
-			(xy 35.56 144.78) (xy 45.72 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc07fbeb-8ccb-49fe-ba27-cf98ce1346f0")
 	)
 	(wire
 		(pts
@@ -6833,142 +6793,6 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_R:R_0R_2W_5_2512")
-		(at 31.75 144.78 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "09376ed6-73ff-4499-a60a-8fc362a5f2cd")
-		(property "Reference" "R90"
-			(at 31.75 142.748 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 31.75 144.78 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "KL_Footprints:R_2512"
-			(at 31.75 146.558 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 31.75 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 31.75 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" "2"
-			(at 31.75 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "5"
-			(at 31.75 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "652-CRF2512-J-000ELF "
-			(at 31.75 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "118-CRF2512-J/-000ELFCT-ND"
-			(at 31.75 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2778666"
-			(at 31.75 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Farnell" ""
-			(at 31.75 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package (in)" "2512"
-			(at 31.75 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "372aa226-a15a-4147-a569-354f2a57bb9b")
-		)
-		(pin "2"
-			(uuid "7e1e0954-9cf6-44f6-b305-c83691f79921")
-		)
-		(instances
-			(project "switch"
-				(path "/cd936d40-9035-4ec8-bcf8-38758f995fb0/d7edf10b-e7e7-437a-ab6c-966f29ad8f7f"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-			(project "shish-lan"
-				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/d7edf10b-e7e7-437a-ab6c-966f29ad8f7f"
-					(reference "R90")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "KL_R:R_10_100mW_0-1_0603")
 		(at 140.97 46.99 90)
 		(unit 1)
@@ -7227,142 +7051,6 @@
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/d7edf10b-e7e7-437a-ab6c-966f29ad8f7f"
 					(reference "FB5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "KL_R:R_0R_2W_5_2512")
-		(at 33.02 86.36 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "1523fde2-9cde-4c51-a2b9-92b4277a81d1")
-		(property "Reference" "R91"
-			(at 33.02 84.328 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 33.02 86.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "KL_Footprints:R_2512"
-			(at 33.02 88.138 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 33.02 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 33.02 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" "2"
-			(at 33.02 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "5"
-			(at 33.02 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "652-CRF2512-J-000ELF "
-			(at 33.02 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "118-CRF2512-J/-000ELFCT-ND"
-			(at 33.02 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2778666"
-			(at 33.02 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Farnell" ""
-			(at 33.02 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package (in)" "2512"
-			(at 33.02 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9611e234-4da6-42b2-ade9-451c425f1d86")
-		)
-		(pin "2"
-			(uuid "bbbcc4f0-f328-4bf9-87a5-6b53fddeeef9")
-		)
-		(instances
-			(project "switch"
-				(path "/cd936d40-9035-4ec8-bcf8-38758f995fb0/d7edf10b-e7e7-437a-ab6c-966f29ad8f7f"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-			(project "shish-lan"
-				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/d7edf10b-e7e7-437a-ab6c-966f29ad8f7f"
-					(reference "R91")
 					(unit 1)
 				)
 			)
@@ -8668,7 +8356,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c5cc929-2352-4501-8878-273a0f83fa56")
-		(property "Reference" "#FLG07"
+		(property "Reference" "#FLG7"
 			(at 68.58 60.325 0)
 			(effects
 				(font
@@ -8718,7 +8406,7 @@
 		(instances
 			(project ""
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/d7edf10b-e7e7-437a-ab6c-966f29ad8f7f"
-					(reference "#FLG07")
+					(reference "#FLG7")
 					(unit 1)
 				)
 			)
@@ -8858,142 +8546,6 @@
 			(project ""
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/d7edf10b-e7e7-437a-ab6c-966f29ad8f7f"
 					(reference "#PWR47")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "KL_R:R_0R_2W_5_2512")
-		(at 33.02 57.15 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "6caa34a9-ae35-4143-aa89-82e801e67ec8")
-		(property "Reference" "R24"
-			(at 33.02 55.118 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 33.02 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "KL_Footprints:R_2512"
-			(at 33.02 58.928 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 33.02 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 33.02 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" "2"
-			(at 33.02 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "5"
-			(at 33.02 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "652-CRF2512-J-000ELF "
-			(at 33.02 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "118-CRF2512-J/-000ELFCT-ND"
-			(at 33.02 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2778666"
-			(at 33.02 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Farnell" ""
-			(at 33.02 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package (in)" "2512"
-			(at 33.02 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0ba77209-1307-446e-9c5b-f235781ed5fb")
-		)
-		(pin "2"
-			(uuid "98b4310b-f384-4fc8-a27e-4c923f3997cb")
-		)
-		(instances
-			(project "switch"
-				(path "/cd936d40-9035-4ec8-bcf8-38758f995fb0/d7edf10b-e7e7-437a-ab6c-966f29ad8f7f"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/d7edf10b-e7e7-437a-ab6c-966f29ad8f7f"
-					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -9602,7 +9154,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "85b528f5-6c40-459d-8063-c57713be1cef")
-		(property "Reference" "#FLG011"
+		(property "Reference" "#FLG11"
 			(at 60.96 28.575 0)
 			(effects
 				(font
@@ -9652,7 +9204,7 @@
 		(instances
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/d7edf10b-e7e7-437a-ab6c-966f29ad8f7f"
-					(reference "#FLG011")
+					(reference "#FLG11")
 					(unit 1)
 				)
 			)
@@ -9668,7 +9220,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e861694-94ea-422c-865c-1a7a0f91b669")
-		(property "Reference" "#FLG012"
+		(property "Reference" "#FLG12"
 			(at 60.96 18.415 0)
 			(effects
 				(font
@@ -9718,7 +9270,7 @@
 		(instances
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/d7edf10b-e7e7-437a-ab6c-966f29ad8f7f"
-					(reference "#FLG012")
+					(reference "#FLG12")
 					(unit 1)
 				)
 			)
@@ -10145,7 +9697,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3056408-cce4-49c6-8523-14a5d484b909")
-		(property "Reference" "#FLG010"
+		(property "Reference" "#FLG10"
 			(at 68.58 147.955 0)
 			(effects
 				(font
@@ -10195,7 +9747,7 @@
 		(instances
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/d7edf10b-e7e7-437a-ab6c-966f29ad8f7f"
-					(reference "#FLG010")
+					(reference "#FLG10")
 					(unit 1)
 				)
 			)
@@ -10607,7 +10159,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c253501a-240d-4a3a-8045-a6caa7b65967")
-		(property "Reference" "#FLG08"
+		(property "Reference" "#FLG8"
 			(at 68.58 89.535 0)
 			(effects
 				(font
@@ -10657,7 +10209,7 @@
 		(instances
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/d7edf10b-e7e7-437a-ab6c-966f29ad8f7f"
-					(reference "#FLG08")
+					(reference "#FLG8")
 					(unit 1)
 				)
 			)
@@ -10673,7 +10225,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c32d0f3a-c056-4f75-8d14-2d6d50914347")
-		(property "Reference" "#FLG09"
+		(property "Reference" "#FLG9"
 			(at 68.58 118.745 0)
 			(effects
 				(font
@@ -10723,143 +10275,7 @@
 		(instances
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/d7edf10b-e7e7-437a-ab6c-966f29ad8f7f"
-					(reference "#FLG09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "KL_R:R_0R_2W_5_2512")
-		(at 31.75 115.57 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "c655f8a8-2e1b-4389-9c68-034724c13a32")
-		(property "Reference" "R86"
-			(at 31.75 113.538 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 31.75 115.57 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "KL_Footprints:R_2512"
-			(at 31.75 117.348 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 31.75 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 31.75 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" "2"
-			(at 31.75 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "5"
-			(at 31.75 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "652-CRF2512-J-000ELF "
-			(at 31.75 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "118-CRF2512-J/-000ELFCT-ND"
-			(at 31.75 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2778666"
-			(at 31.75 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Farnell" ""
-			(at 31.75 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package (in)" "2512"
-			(at 31.75 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1f490404-8bac-4663-accc-9ddcfb6c6c6e")
-		)
-		(pin "2"
-			(uuid "4cdc0c8b-513b-47d5-a318-72d824c1b3aa")
-		)
-		(instances
-			(project "switch"
-				(path "/cd936d40-9035-4ec8-bcf8-38758f995fb0/d7edf10b-e7e7-437a-ab6c-966f29ad8f7f"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-			(project "shish-lan"
-				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/d7edf10b-e7e7-437a-ab6c-966f29ad8f7f"
-					(reference "R86")
+					(reference "#FLG9")
 					(unit 1)
 				)
 			)
@@ -10875,7 +10291,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cbdd2ad8-5ff1-477e-93d8-37d9fe0270c0")
-		(property "Reference" "#FLG013"
+		(property "Reference" "#FLG13"
 			(at 149.86 45.085 0)
 			(effects
 				(font
@@ -10925,7 +10341,7 @@
 		(instances
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/d7edf10b-e7e7-437a-ab6c-966f29ad8f7f"
-					(reference "#FLG013")
+					(reference "#FLG13")
 					(unit 1)
 				)
 			)
