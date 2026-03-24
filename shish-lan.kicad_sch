@@ -9537,7 +9537,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8052f749-e749-45e3-934c-644cb218ce53")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR22"
 			(at 67.31 118.11 0)
 			(effects
 				(font
@@ -9587,7 +9587,7 @@
 		(instances
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e"
-					(reference "#PWR022")
+					(reference "#PWR22")
 					(unit 1)
 				)
 			)
