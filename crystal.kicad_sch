@@ -776,7 +776,7 @@
 		(fields_autoplaced yes)
 		(uuid "4f364e11-94d9-4d9a-a18c-cf2949e3f5b5")
 		(property "Reference" "C92"
-			(at 138.43 95.25 90)
+			(at 138.43 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -784,7 +784,7 @@
 			)
 		)
 		(property "Value" "10p"
-			(at 138.43 97.79 90)
+			(at 138.43 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)

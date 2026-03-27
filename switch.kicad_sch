@@ -4484,9 +4484,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "f02de64e-78e1-4dc7-93b5-38758564d73e")
 		(property "Reference" "U1"
-			(at 139.192 0 0)
+			(at 153.035 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
