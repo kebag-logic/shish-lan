@@ -232,7 +232,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.belfuse.com/media/drawings/products/magjack%20ICMs/dr-mag-0826-1x4t-43-f.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -319,8 +319,8 @@
 			)
 			(symbol "0826-1X4T-43-F_1_0"
 				(rectangle
-					(start -7.62 -43.18)
-					(end 7.62 33.02)
+					(start -7.62 33.02)
+					(end 7.62 -43.18)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -4512,21 +4512,19 @@
 		(fields_autoplaced yes)
 		(uuid "5fc75894-ea5a-4335-9c0f-83eebded41b3")
 		(property "Reference" "C13"
-			(at 77.47 61.595 0)
+			(at 80.01 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "100n"
-			(at 82.55 61.595 0)
+			(at 80.01 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "KL_Footprints:C_0603"
@@ -4593,42 +4591,6 @@
 			)
 		)
 		(property "LCSC" "C1591"
-			(at 80.01 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" ""
-			(at 80.01 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" ""
-			(at 80.01 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS" ""
-			(at 80.01 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max Current" ""
 			(at 80.01 62.23 0)
 			(effects
 				(font
@@ -4730,21 +4692,19 @@
 		(fields_autoplaced yes)
 		(uuid "92e255a3-2c70-4e8f-9fe6-00e69693c944")
 		(property "Reference" "C11"
-			(at 77.724 37.338 0)
+			(at 80.01 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "100n"
-			(at 82.804 36.322 0)
+			(at 80.01 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "KL_Footprints:C_0603"
@@ -4811,42 +4771,6 @@
 			)
 		)
 		(property "LCSC" "C1591"
-			(at 80.01 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" ""
-			(at 80.01 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" ""
-			(at 80.01 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS" ""
-			(at 80.01 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max Current" ""
 			(at 80.01 41.91 0)
 			(effects
 				(font
@@ -4978,42 +4902,6 @@
 		)
 		(property "Package (in)" "0603"
 			(at 119.38 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" ""
-			(at 119.38 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" ""
-			(at 119.38 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS" ""
-			(at 119.38 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max Current" ""
-			(at 119.38 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5154,42 +5042,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" ""
-			(at 119.38 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" ""
-			(at 119.38 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS" ""
-			(at 119.38 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max Current" ""
-			(at 119.38 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "9309cd6e-329e-4b84-b000-ef4d0bf4ed09")
 		)
@@ -5282,21 +5134,19 @@
 		(fields_autoplaced yes)
 		(uuid "b87db87c-f6fc-4771-869c-e068df1d4795")
 		(property "Reference" "C12"
-			(at 77.47 51.435 0)
+			(at 80.01 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "100n"
-			(at 82.55 51.435 0)
+			(at 80.01 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "KL_Footprints:C_0603"
@@ -5371,42 +5221,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" ""
-			(at 80.01 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" ""
-			(at 80.01 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS" ""
-			(at 80.01 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max Current" ""
-			(at 80.01 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "785978ab-613f-4347-b8db-261669ed9742")
 		)
@@ -5461,7 +5275,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.belfuse.com/media/drawings/products/magjack%20ICMs/dr-mag-0826-1x4t-43-f.pdf"
 			(at 139.7 69.85 0)
 			(effects
 				(font
@@ -5538,42 +5352,6 @@
 			)
 		)
 		(property "LCSC" "C6776265"
-			(at 139.7 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" ""
-			(at 139.7 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" ""
-			(at 139.7 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS" ""
-			(at 139.7 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max Current" ""
 			(at 139.7 69.85 0)
 			(effects
 				(font
@@ -5913,42 +5691,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" ""
-			(at 119.38 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" ""
-			(at 119.38 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS" ""
-			(at 119.38 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max Current" ""
-			(at 119.38 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "bd4ba113-eac8-4b50-ac3e-7011d6884e42")
 		)
@@ -5975,21 +5717,19 @@
 		(fields_autoplaced yes)
 		(uuid "e5ffbc15-8ec3-41cc-a97d-9176ea210e6d")
 		(property "Reference" "C14"
-			(at 77.47 71.755 0)
+			(at 80.01 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "100n"
-			(at 82.55 71.755 0)
+			(at 80.01 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "KL_Footprints:C_0603"
@@ -6056,42 +5796,6 @@
 			)
 		)
 		(property "LCSC" "C1591"
-			(at 80.01 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" ""
-			(at 80.01 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" ""
-			(at 80.01 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS" ""
-			(at 80.01 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max Current" ""
 			(at 80.01 72.39 0)
 			(effects
 				(font

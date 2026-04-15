@@ -1910,7 +1910,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_QFP:LQFP-100_14x14mm_P0.5mm"
+			(property "Footprint" "KL_Footprints:LQFP-100_14x14mm_P0.5mm"
 				(at -17.78 -66.04 0)
 				(effects
 					(font
@@ -9417,7 +9417,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04cd7fcb-2c36-4433-8bb7-fcedee6d3ba5")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR3"
 			(at 227.33 66.04 0)
 			(effects
 				(font
@@ -9468,7 +9468,7 @@
 		(instances
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/06488c82-a47f-4277-b0ee-3bd211d8922a"
-					(reference "#PWR03")
+					(reference "#PWR3")
 					(unit 1)
 				)
 			)
@@ -9484,7 +9484,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0da51de1-1d06-4012-8d48-6aca23ddea03")
-		(property "Reference" "#FLG06"
+		(property "Reference" "#FLG6"
 			(at 88.9 29.845 0)
 			(effects
 				(font
@@ -9534,7 +9534,7 @@
 		(instances
 			(project ""
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/06488c82-a47f-4277-b0ee-3bd211d8922a"
-					(reference "#FLG06")
+					(reference "#FLG6")
 					(unit 1)
 				)
 			)
@@ -9886,42 +9886,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" ""
-			(at 228.6 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" ""
-			(at 228.6 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS" ""
-			(at 228.6 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max Current" ""
-			(at 228.6 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "3b2ca3c7-c2a2-4ded-86e2-3965c936577d")
 		)
@@ -9947,7 +9911,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2203b117-c421-4436-a48f-87eff740587b")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR4"
 			(at 227.33 85.09 0)
 			(effects
 				(font
@@ -9998,7 +9962,7 @@
 		(instances
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/06488c82-a47f-4277-b0ee-3bd211d8922a"
-					(reference "#PWR04")
+					(reference "#PWR4")
 					(unit 1)
 				)
 			)
@@ -10193,9 +10157,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "304c31c1-1f9b-4d77-b3e4-06d4960fca81")
 		(property "Reference" "J4"
-			(at 190.246 74.676 0)
+			(at 190.5 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10398,42 +10363,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" ""
-			(at 139.7 116.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" ""
-			(at 139.7 116.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS" ""
-			(at 139.7 116.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max Current" ""
-			(at 139.7 116.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "3e7421b4-9578-4cf6-b6a6-773aac20b11e")
 		)
@@ -10557,42 +10486,6 @@
 		)
 		(property "Farnell" ""
 			(at 69.85 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" ""
-			(at 69.85 133.35 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" ""
-			(at 69.85 133.35 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS" ""
-			(at 69.85 133.35 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max Current" ""
-			(at 69.85 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10773,42 +10666,6 @@
 			)
 		)
 		(property "LCSC" "C519438"
-			(at 177.8 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" ""
-			(at 177.8 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" ""
-			(at 177.8 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS" ""
-			(at 177.8 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max Current" ""
 			(at 177.8 20.32 0)
 			(effects
 				(font
@@ -11059,42 +10916,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" ""
-			(at 69.85 148.59 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" ""
-			(at 69.85 148.59 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS" ""
-			(at 69.85 148.59 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max Current" ""
-			(at 69.85 148.59 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "16e57b7f-6c26-4fa5-91f4-045c21d20f52")
 		)
@@ -11210,42 +11031,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" ""
-			(at 252.73 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" ""
-			(at 252.73 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS" ""
-			(at 252.73 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max Current" ""
-			(at 252.73 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "a8cf0296-2444-460e-88a6-f298a9865819")
 		)
@@ -11353,42 +11138,6 @@
 			)
 		)
 		(property "LCSC" "C519438"
-			(at 215.9 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" ""
-			(at 215.9 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" ""
-			(at 215.9 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS" ""
-			(at 215.9 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max Current" ""
 			(at 215.9 20.32 0)
 			(effects
 				(font
@@ -11594,42 +11343,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" ""
-			(at 133.35 113.03 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" ""
-			(at 133.35 113.03 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS" ""
-			(at 133.35 113.03 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max Current" ""
-			(at 133.35 113.03 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "2cf95705-84d2-4f7c-ab0d-dbd0a616a3b3")
 		)
@@ -11737,42 +11450,6 @@
 			)
 		)
 		(property "LCSC" "C519438"
-			(at 190.5 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" ""
-			(at 190.5 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" ""
-			(at 190.5 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS" ""
-			(at 190.5 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max Current" ""
 			(at 190.5 20.32 0)
 			(effects
 				(font
@@ -11929,7 +11606,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 80.01 34.036 90)
+			(at 80.01 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12019,42 +11696,6 @@
 		)
 		(property "Package (in)" "2512"
 			(at 80.01 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" ""
-			(at 80.01 31.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" ""
-			(at 80.01 31.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS" ""
-			(at 80.01 31.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max Current" ""
-			(at 80.01 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12185,42 +11826,6 @@
 		)
 		(property "Package (in)" "0603"
 			(at 147.32 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" ""
-			(at 147.32 120.65 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" ""
-			(at 147.32 120.65 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS" ""
-			(at 147.32 120.65 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max Current" ""
-			(at 147.32 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12362,7 +11967,7 @@
 			)
 		)
 		(property "LABEL" "${REFERENCE}:${COLOR}"
-			(at 58.42 129.794 0)
+			(at 58.166 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12503,42 +12108,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" ""
-			(at 48.26 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" ""
-			(at 48.26 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS" ""
-			(at 48.26 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max Current" ""
-			(at 48.26 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "22f66eaf-f4f7-4e1a-9bb4-86a5c6d994d0")
 		)
@@ -12646,42 +12215,6 @@
 			)
 		)
 		(property "LCSC" "C519438"
-			(at 241.3 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" ""
-			(at 241.3 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" ""
-			(at 241.3 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS" ""
-			(at 241.3 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max Current" ""
 			(at 241.3 20.32 0)
 			(effects
 				(font
@@ -12891,7 +12424,7 @@
 			)
 		)
 		(property "LABEL" "${REFERENCE}:${COLOR}"
-			(at 58.42 144.78 0)
+			(at 58.166 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12942,7 +12475,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_QFP:LQFP-100_14x14mm_P0.5mm"
+		(property "Footprint" "KL_Footprints:LQFP-100_14x14mm_P0.5mm"
 			(at 83.82 173.99 0)
 			(effects
 				(font
@@ -13693,42 +13226,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" ""
-			(at 203.2 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" ""
-			(at 203.2 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS" ""
-			(at 203.2 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max Current" ""
-			(at 203.2 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "3a3ade3c-34fa-410c-b60d-fecefdf1a59b")
 		)
@@ -13867,7 +13364,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e8d0c7cf-318d-4893-a1af-7a4d37ea934e")
-		(property "Reference" "#PWR095"
+		(property "Reference" "#PWR95"
 			(at 45.72 144.78 0)
 			(effects
 				(font
@@ -13917,7 +13414,7 @@
 		(instances
 			(project ""
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/06488c82-a47f-4277-b0ee-3bd211d8922a"
-					(reference "#PWR095")
+					(reference "#PWR95")
 					(unit 1)
 				)
 			)
@@ -14042,7 +13539,7 @@
 			)
 		)
 		(property "LABEL" "${REFERENCE}:${COLOR}"
-			(at 58.42 137.16 0)
+			(at 58.166 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14352,42 +13849,6 @@
 		)
 		(property "Farnell" ""
 			(at 69.85 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" ""
-			(at 69.85 140.97 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_type" ""
-			(at 69.85 140.97 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS" ""
-			(at 69.85 140.97 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max Current" ""
-			(at 69.85 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
