@@ -12,7 +12,7 @@
 		(comment 1 "Confidential")
 	)
 	(lib_symbols
-		(symbol "KL_C:C_100n_16V_X7R_0603_10"
+		(symbol "KL_C:C_100n_16V_10pct_X7R_0603"
 			(pin_numbers
 				(hide yes)
 			)
@@ -57,7 +57,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://yageogroup.com/download/specsheet/CC0603KPX7R7BB104"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -79,7 +79,7 @@
 					)
 				)
 			)
-			(property "Tolerance" "10"
+			(property "Voltage_in_V" "16"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -90,7 +90,40 @@
 					)
 				)
 			)
-			(property "Voltage" "16V"
+			(property "Tolerance_in_pct" "10"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Dielectric" "X7R"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Package_in_inch" "0603"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "CC0603KPX7R7BB104"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -156,7 +189,7 @@
 					)
 				)
 			)
-			(symbol "C_100n_16V_X7R_0603_10_0_1"
+			(symbol "C_100n_16V_10pct_X7R_0603_0_1"
 				(polyline
 					(pts
 						(xy -2.032 0.762) (xy 2.032 0.762)
@@ -182,7 +215,7 @@
 					)
 				)
 			)
-			(symbol "C_100n_16V_X7R_0603_10_1_1"
+			(symbol "C_100n_16V_10pct_X7R_0603_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
@@ -222,7 +255,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "KL_C:C_4u7_10V_X5R_0603_10"
+		(symbol "KL_C:C_4u7_10V_10pct_X5R_0603"
 			(pin_numbers
 				(hide yes)
 			)
@@ -267,7 +300,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1006_X5R_SMD"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -289,7 +322,7 @@
 					)
 				)
 			)
-			(property "Tolerance" "10"
+			(property "Voltage_in_V" "10"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -300,7 +333,40 @@
 					)
 				)
 			)
-			(property "Voltage" "10"
+			(property "Tolerance_in_pct" "10"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Dielectric" "X5R"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Package_in_inch" "0603"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "C0603C475K8PAC7411"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -366,7 +432,7 @@
 					)
 				)
 			)
-			(symbol "C_4u7_10V_X5R_0603_10_0_1"
+			(symbol "C_4u7_10V_10pct_X5R_0603_0_1"
 				(polyline
 					(pts
 						(xy -2.032 0.762) (xy 2.032 0.762)
@@ -392,7 +458,7 @@
 					)
 				)
 			)
-			(symbol "C_4u7_10V_X5R_0603_10_1_1"
+			(symbol "C_4u7_10V_10pct_X5R_0603_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
@@ -432,7 +498,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "KL_SYM_LOCAL:GND"
+		(symbol "power:GND"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -2114,7 +2180,7 @@
 		(uuid "d7c4f8fc-4fcd-4453-8f4c-1842ba1ee4ad")
 	)
 	(symbol
-		(lib_id "KL_C:C_100n_16V_X7R_0603_10")
+		(lib_id "KL_C:C_100n_16V_10pct_X7R_0603")
 		(at 49.53 130.81 0)
 		(unit 1)
 		(body_style 1)
@@ -2158,7 +2224,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/download/specsheet/CC0603KPX7R7BB104"
 			(at 49.53 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -2170,28 +2236,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 49.53 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "10"
-			(at 49.53 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "16V"
 			(at 49.53 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -2235,6 +2279,61 @@
 				)
 			)
 		)
+		(property "Voltage_in_V" "16"
+			(at 49.53 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance_in_pct" "10"
+			(at 49.53 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 49.53 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
+			(at 49.53 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CC0603KPX7R7BB104"
+			(at 49.53 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "b34dfd81-8895-46cb-9f71-1fa37edc6a72")
 		)
@@ -2251,7 +2350,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_C:C_100n_16V_X7R_0603_10")
+		(lib_id "KL_C:C_100n_16V_10pct_X7R_0603")
 		(at 252.73 130.81 0)
 		(unit 1)
 		(body_style 1)
@@ -2295,7 +2394,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/download/specsheet/CC0603KPX7R7BB104"
 			(at 252.73 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -2307,28 +2406,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 252.73 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "10"
-			(at 252.73 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "16V"
 			(at 252.73 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -2372,6 +2449,61 @@
 				)
 			)
 		)
+		(property "Voltage_in_V" "16"
+			(at 252.73 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance_in_pct" "10"
+			(at 252.73 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 252.73 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
+			(at 252.73 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CC0603KPX7R7BB104"
+			(at 252.73 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "fd78cf20-d8ef-449c-98d6-811739d0ccff")
 		)
@@ -2388,7 +2520,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_SYM_LOCAL:GND")
+		(lib_id "power:GND")
 		(at 106.68 97.79 0)
 		(unit 1)
 		(body_style 1)
@@ -2466,7 +2598,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_C:C_100n_16V_X7R_0603_10")
+		(lib_id "KL_C:C_100n_16V_10pct_X7R_0603")
 		(at 151.13 130.81 0)
 		(unit 1)
 		(body_style 1)
@@ -2510,7 +2642,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/download/specsheet/CC0603KPX7R7BB104"
 			(at 151.13 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -2522,28 +2654,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 151.13 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "10"
-			(at 151.13 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "16V"
 			(at 151.13 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -2587,6 +2697,61 @@
 				)
 			)
 		)
+		(property "Voltage_in_V" "16"
+			(at 151.13 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance_in_pct" "10"
+			(at 151.13 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 151.13 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
+			(at 151.13 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CC0603KPX7R7BB104"
+			(at 151.13 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "50fc104f-b3a9-4774-9ea5-4c8c2526fabc")
 		)
@@ -2603,7 +2768,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_C:C_100n_16V_X7R_0603_10")
+		(lib_id "KL_C:C_100n_16V_10pct_X7R_0603")
 		(at 87.63 92.71 0)
 		(unit 1)
 		(body_style 1)
@@ -2647,7 +2812,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/download/specsheet/CC0603KPX7R7BB104"
 			(at 87.63 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -2659,28 +2824,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 87.63 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "10"
-			(at 87.63 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "16V"
 			(at 87.63 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -2724,6 +2867,61 @@
 				)
 			)
 		)
+		(property "Voltage_in_V" "16"
+			(at 87.63 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance_in_pct" "10"
+			(at 87.63 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 87.63 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
+			(at 87.63 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CC0603KPX7R7BB104"
+			(at 87.63 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ef1720ac-93d9-4876-b9d5-2cccf669ccad")
 		)
@@ -2740,7 +2938,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_C:C_100n_16V_X7R_0603_10")
+		(lib_id "KL_C:C_100n_16V_10pct_X7R_0603")
 		(at 49.53 54.61 0)
 		(unit 1)
 		(body_style 1)
@@ -2784,7 +2982,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/download/specsheet/CC0603KPX7R7BB104"
 			(at 49.53 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -2796,28 +2994,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 49.53 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "10"
-			(at 49.53 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "16V"
 			(at 49.53 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -2861,6 +3037,61 @@
 				)
 			)
 		)
+		(property "Voltage_in_V" "16"
+			(at 49.53 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance_in_pct" "10"
+			(at 49.53 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 49.53 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
+			(at 49.53 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CC0603KPX7R7BB104"
+			(at 49.53 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "237144bc-0279-4ccc-9aec-159210cdb401")
 		)
@@ -2877,7 +3108,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_C:C_100n_16V_X7R_0603_10")
+		(lib_id "KL_C:C_100n_16V_10pct_X7R_0603")
 		(at 214.63 130.81 0)
 		(unit 1)
 		(body_style 1)
@@ -2921,7 +3152,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/download/specsheet/CC0603KPX7R7BB104"
 			(at 214.63 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -2933,28 +3164,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 214.63 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "10"
-			(at 214.63 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "16V"
 			(at 214.63 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -2998,6 +3207,61 @@
 				)
 			)
 		)
+		(property "Voltage_in_V" "16"
+			(at 214.63 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance_in_pct" "10"
+			(at 214.63 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 214.63 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
+			(at 214.63 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CC0603KPX7R7BB104"
+			(at 214.63 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ef1d248b-4f60-470a-85c6-90b988e20e1a")
 		)
@@ -3014,7 +3278,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_C:C_100n_16V_X7R_0603_10")
+		(lib_id "KL_C:C_100n_16V_10pct_X7R_0603")
 		(at 100.33 130.81 0)
 		(unit 1)
 		(body_style 1)
@@ -3058,7 +3322,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/download/specsheet/CC0603KPX7R7BB104"
 			(at 100.33 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -3070,28 +3334,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 100.33 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "10"
-			(at 100.33 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "16V"
 			(at 100.33 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -3135,6 +3377,61 @@
 				)
 			)
 		)
+		(property "Voltage_in_V" "16"
+			(at 100.33 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance_in_pct" "10"
+			(at 100.33 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 100.33 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
+			(at 100.33 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CC0603KPX7R7BB104"
+			(at 100.33 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "4b2f709b-e67d-4b18-80da-9e2fbe4fc38a")
 		)
@@ -3151,7 +3448,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_C:C_100n_16V_X7R_0603_10")
+		(lib_id "KL_C:C_100n_16V_10pct_X7R_0603")
 		(at 176.53 130.81 0)
 		(unit 1)
 		(body_style 1)
@@ -3195,7 +3492,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/download/specsheet/CC0603KPX7R7BB104"
 			(at 176.53 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -3207,28 +3504,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 176.53 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "10"
-			(at 176.53 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "16V"
 			(at 176.53 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -3272,6 +3547,61 @@
 				)
 			)
 		)
+		(property "Voltage_in_V" "16"
+			(at 176.53 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance_in_pct" "10"
+			(at 176.53 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 176.53 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
+			(at 176.53 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CC0603KPX7R7BB104"
+			(at 176.53 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "32950d3f-f923-4d4d-8274-1897f64b1a01")
 		)
@@ -3288,7 +3618,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_C:C_100n_16V_X7R_0603_10")
+		(lib_id "KL_C:C_100n_16V_10pct_X7R_0603")
 		(at 113.03 130.81 0)
 		(unit 1)
 		(body_style 1)
@@ -3332,7 +3662,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/download/specsheet/CC0603KPX7R7BB104"
 			(at 113.03 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -3344,28 +3674,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 113.03 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "10"
-			(at 113.03 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "16V"
 			(at 113.03 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -3409,6 +3717,61 @@
 				)
 			)
 		)
+		(property "Voltage_in_V" "16"
+			(at 113.03 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance_in_pct" "10"
+			(at 113.03 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 113.03 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
+			(at 113.03 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CC0603KPX7R7BB104"
+			(at 113.03 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "cba54489-3852-4471-828c-e780d1f72d5b")
 		)
@@ -3425,7 +3788,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_C:C_100n_16V_X7R_0603_10")
+		(lib_id "KL_C:C_100n_16V_10pct_X7R_0603")
 		(at 113.03 111.76 0)
 		(unit 1)
 		(body_style 1)
@@ -3469,7 +3832,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/download/specsheet/CC0603KPX7R7BB104"
 			(at 113.03 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -3481,28 +3844,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 113.03 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "10"
-			(at 113.03 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "16V"
 			(at 113.03 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -3546,6 +3887,61 @@
 				)
 			)
 		)
+		(property "Voltage_in_V" "16"
+			(at 113.03 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance_in_pct" "10"
+			(at 113.03 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 113.03 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
+			(at 113.03 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CC0603KPX7R7BB104"
+			(at 113.03 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "2aa757fb-cdc7-476e-9448-6edda61ef0a8")
 		)
@@ -3562,7 +3958,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_C:C_100n_16V_X7R_0603_10")
+		(lib_id "KL_C:C_100n_16V_10pct_X7R_0603")
 		(at 74.93 130.81 0)
 		(unit 1)
 		(body_style 1)
@@ -3606,7 +4002,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/download/specsheet/CC0603KPX7R7BB104"
 			(at 74.93 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -3618,28 +4014,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 74.93 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "10"
-			(at 74.93 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "16V"
 			(at 74.93 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -3683,6 +4057,61 @@
 				)
 			)
 		)
+		(property "Voltage_in_V" "16"
+			(at 74.93 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance_in_pct" "10"
+			(at 74.93 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 74.93 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
+			(at 74.93 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CC0603KPX7R7BB104"
+			(at 74.93 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "b691a9f1-cc1b-421b-bda6-22b5ebe88878")
 		)
@@ -3699,7 +4128,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_C:C_100n_16V_X7R_0603_10")
+		(lib_id "KL_C:C_100n_16V_10pct_X7R_0603")
 		(at 74.93 111.76 0)
 		(unit 1)
 		(body_style 1)
@@ -3743,7 +4172,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/download/specsheet/CC0603KPX7R7BB104"
 			(at 74.93 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -3755,28 +4184,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 74.93 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "10"
-			(at 74.93 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "16V"
 			(at 74.93 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -3820,6 +4227,61 @@
 				)
 			)
 		)
+		(property "Voltage_in_V" "16"
+			(at 74.93 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance_in_pct" "10"
+			(at 74.93 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 74.93 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
+			(at 74.93 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CC0603KPX7R7BB104"
+			(at 74.93 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "b99b300a-318c-4179-aac8-41382b8d9f82")
 		)
@@ -3836,7 +4298,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_C:C_100n_16V_X7R_0603_10")
+		(lib_id "KL_C:C_100n_16V_10pct_X7R_0603")
 		(at 49.53 92.71 0)
 		(unit 1)
 		(body_style 1)
@@ -3880,7 +4342,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/download/specsheet/CC0603KPX7R7BB104"
 			(at 49.53 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -3892,28 +4354,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 49.53 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "10"
-			(at 49.53 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "16V"
 			(at 49.53 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -3957,6 +4397,61 @@
 				)
 			)
 		)
+		(property "Voltage_in_V" "16"
+			(at 49.53 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance_in_pct" "10"
+			(at 49.53 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 49.53 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
+			(at 49.53 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CC0603KPX7R7BB104"
+			(at 49.53 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "b06821e4-beec-4d9a-913c-5b0ac6025387")
 		)
@@ -3973,7 +4468,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_SYM_LOCAL:GND")
+		(lib_id "power:GND")
 		(at 43.18 78.74 0)
 		(unit 1)
 		(body_style 1)
@@ -4051,7 +4546,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_SYM_LOCAL:GND")
+		(lib_id "power:GND")
 		(at 43.18 59.69 0)
 		(unit 1)
 		(body_style 1)
@@ -4129,7 +4624,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_C:C_100n_16V_X7R_0603_10")
+		(lib_id "KL_C:C_100n_16V_10pct_X7R_0603")
 		(at 36.83 73.66 0)
 		(unit 1)
 		(body_style 1)
@@ -4173,7 +4668,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/download/specsheet/CC0603KPX7R7BB104"
 			(at 36.83 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -4185,28 +4680,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 36.83 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "10"
-			(at 36.83 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "16V"
 			(at 36.83 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -4250,6 +4723,61 @@
 				)
 			)
 		)
+		(property "Voltage_in_V" "16"
+			(at 36.83 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance_in_pct" "10"
+			(at 36.83 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 36.83 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
+			(at 36.83 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CC0603KPX7R7BB104"
+			(at 36.83 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "91a54394-72b6-4940-ac10-2b6459dc60e0")
 		)
@@ -4266,7 +4794,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_C:C_100n_16V_X7R_0603_10")
+		(lib_id "KL_C:C_100n_16V_10pct_X7R_0603")
 		(at 49.53 73.66 0)
 		(unit 1)
 		(body_style 1)
@@ -4310,7 +4838,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/download/specsheet/CC0603KPX7R7BB104"
 			(at 49.53 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -4322,28 +4850,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 49.53 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "10"
-			(at 49.53 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "16V"
 			(at 49.53 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -4387,6 +4893,61 @@
 				)
 			)
 		)
+		(property "Voltage_in_V" "16"
+			(at 49.53 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance_in_pct" "10"
+			(at 49.53 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 49.53 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
+			(at 49.53 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CC0603KPX7R7BB104"
+			(at 49.53 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "22a04f84-3830-4021-940c-511133a0cf52")
 		)
@@ -4403,7 +4964,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_C:C_100n_16V_X7R_0603_10")
+		(lib_id "KL_C:C_100n_16V_10pct_X7R_0603")
 		(at 74.93 92.71 0)
 		(unit 1)
 		(body_style 1)
@@ -4447,7 +5008,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/download/specsheet/CC0603KPX7R7BB104"
 			(at 74.93 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -4459,28 +5020,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 74.93 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "10"
-			(at 74.93 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "16V"
 			(at 74.93 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -4524,6 +5063,61 @@
 				)
 			)
 		)
+		(property "Voltage_in_V" "16"
+			(at 74.93 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance_in_pct" "10"
+			(at 74.93 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 74.93 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
+			(at 74.93 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CC0603KPX7R7BB104"
+			(at 74.93 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "735607cc-c7c9-4799-a050-79c806443b2e")
 		)
@@ -4540,7 +5134,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_C:C_100n_16V_X7R_0603_10")
+		(lib_id "KL_C:C_100n_16V_10pct_X7R_0603")
 		(at 201.93 130.81 0)
 		(unit 1)
 		(body_style 1)
@@ -4584,7 +5178,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/download/specsheet/CC0603KPX7R7BB104"
 			(at 201.93 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -4596,28 +5190,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 201.93 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "10"
-			(at 201.93 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "16V"
 			(at 201.93 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -4661,6 +5233,61 @@
 				)
 			)
 		)
+		(property "Voltage_in_V" "16"
+			(at 201.93 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance_in_pct" "10"
+			(at 201.93 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 201.93 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
+			(at 201.93 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CC0603KPX7R7BB104"
+			(at 201.93 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "49d6133c-94a9-4299-824f-9a43f8c4217f")
 		)
@@ -4677,7 +5304,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_C:C_100n_16V_X7R_0603_10")
+		(lib_id "KL_C:C_100n_16V_10pct_X7R_0603")
 		(at 227.33 130.81 0)
 		(unit 1)
 		(body_style 1)
@@ -4721,7 +5348,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/download/specsheet/CC0603KPX7R7BB104"
 			(at 227.33 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -4733,28 +5360,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 227.33 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "10"
-			(at 227.33 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "16V"
 			(at 227.33 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -4798,6 +5403,61 @@
 				)
 			)
 		)
+		(property "Voltage_in_V" "16"
+			(at 227.33 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance_in_pct" "10"
+			(at 227.33 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 227.33 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
+			(at 227.33 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CC0603KPX7R7BB104"
+			(at 227.33 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "5eab908c-a01e-4368-b1bf-bc46fbf7d72f")
 		)
@@ -4814,7 +5474,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_SYM_LOCAL:GND")
+		(lib_id "power:GND")
 		(at 246.38 135.89 0)
 		(unit 1)
 		(body_style 1)
@@ -4892,7 +5552,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_C:C_100n_16V_X7R_0603_10")
+		(lib_id "KL_C:C_100n_16V_10pct_X7R_0603")
 		(at 87.63 130.81 0)
 		(unit 1)
 		(body_style 1)
@@ -4936,7 +5596,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/download/specsheet/CC0603KPX7R7BB104"
 			(at 87.63 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -4948,28 +5608,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 87.63 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "10"
-			(at 87.63 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "16V"
 			(at 87.63 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -5013,6 +5651,61 @@
 				)
 			)
 		)
+		(property "Voltage_in_V" "16"
+			(at 87.63 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance_in_pct" "10"
+			(at 87.63 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 87.63 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
+			(at 87.63 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CC0603KPX7R7BB104"
+			(at 87.63 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "12909bab-619c-480f-adc3-c3ec2b10f0a4")
 		)
@@ -5029,7 +5722,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_C:C_4u7_10V_X5R_0603_10")
+		(lib_id "KL_C:C_4u7_10V_10pct_X5R_0603")
 		(at 36.83 92.71 0)
 		(unit 1)
 		(body_style 1)
@@ -5073,7 +5766,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1006_X5R_SMD"
 			(at 36.83 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -5085,28 +5778,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 36.83 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "10"
-			(at 36.83 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "10"
 			(at 36.83 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -5150,6 +5821,61 @@
 				)
 			)
 		)
+		(property "Voltage_in_V" "10"
+			(at 36.83 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance_in_pct" "10"
+			(at 36.83 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 36.83 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
+			(at 36.83 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "C0603C475K8PAC7411"
+			(at 36.83 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7cc2d23d-1145-4163-b499-6b2b8a6ccdd8")
 		)
@@ -5166,7 +5892,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_C:C_100n_16V_X7R_0603_10")
+		(lib_id "KL_C:C_100n_16V_10pct_X7R_0603")
 		(at 151.13 111.76 0)
 		(unit 1)
 		(body_style 1)
@@ -5210,7 +5936,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/download/specsheet/CC0603KPX7R7BB104"
 			(at 151.13 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -5222,28 +5948,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 151.13 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "10"
-			(at 151.13 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "16V"
 			(at 151.13 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -5287,6 +5991,61 @@
 				)
 			)
 		)
+		(property "Voltage_in_V" "16"
+			(at 151.13 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance_in_pct" "10"
+			(at 151.13 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 151.13 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
+			(at 151.13 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CC0603KPX7R7BB104"
+			(at 151.13 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c96df518-b960-41d4-b79e-e9fc214f4269")
 		)
@@ -5303,7 +6062,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_C:C_100n_16V_X7R_0603_10")
+		(lib_id "KL_C:C_100n_16V_10pct_X7R_0603")
 		(at 125.73 130.81 0)
 		(unit 1)
 		(body_style 1)
@@ -5347,7 +6106,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/download/specsheet/CC0603KPX7R7BB104"
 			(at 125.73 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -5359,28 +6118,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 125.73 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "10"
-			(at 125.73 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "16V"
 			(at 125.73 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -5424,6 +6161,61 @@
 				)
 			)
 		)
+		(property "Voltage_in_V" "16"
+			(at 125.73 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance_in_pct" "10"
+			(at 125.73 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 125.73 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
+			(at 125.73 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CC0603KPX7R7BB104"
+			(at 125.73 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "5aa1e3d1-dc61-4220-b971-e8b9584cd7de")
 		)
@@ -5440,7 +6232,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_C:C_100n_16V_X7R_0603_10")
+		(lib_id "KL_C:C_100n_16V_10pct_X7R_0603")
 		(at 87.63 111.76 0)
 		(unit 1)
 		(body_style 1)
@@ -5484,7 +6276,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/download/specsheet/CC0603KPX7R7BB104"
 			(at 87.63 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -5496,28 +6288,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 87.63 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "10"
-			(at 87.63 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "16V"
 			(at 87.63 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -5561,6 +6331,61 @@
 				)
 			)
 		)
+		(property "Voltage_in_V" "16"
+			(at 87.63 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance_in_pct" "10"
+			(at 87.63 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 87.63 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
+			(at 87.63 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CC0603KPX7R7BB104"
+			(at 87.63 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "84e2a8ec-6010-4ae8-87e3-6fee6c53c4cb")
 		)
@@ -5577,7 +6402,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_C:C_100n_16V_X7R_0603_10")
+		(lib_id "KL_C:C_100n_16V_10pct_X7R_0603")
 		(at 62.23 92.71 0)
 		(unit 1)
 		(body_style 1)
@@ -5621,7 +6446,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/download/specsheet/CC0603KPX7R7BB104"
 			(at 62.23 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -5633,28 +6458,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 62.23 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "10"
-			(at 62.23 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "16V"
 			(at 62.23 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -5698,6 +6501,61 @@
 				)
 			)
 		)
+		(property "Voltage_in_V" "16"
+			(at 62.23 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance_in_pct" "10"
+			(at 62.23 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 62.23 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
+			(at 62.23 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CC0603KPX7R7BB104"
+			(at 62.23 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "521c0d7c-db80-4458-b791-8a7d4b8733af")
 		)
@@ -5714,7 +6572,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_C:C_100n_16V_X7R_0603_10")
+		(lib_id "KL_C:C_100n_16V_10pct_X7R_0603")
 		(at 100.33 111.76 0)
 		(unit 1)
 		(body_style 1)
@@ -5758,7 +6616,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/download/specsheet/CC0603KPX7R7BB104"
 			(at 100.33 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -5770,28 +6628,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 100.33 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "10"
-			(at 100.33 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "16V"
 			(at 100.33 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -5835,6 +6671,61 @@
 				)
 			)
 		)
+		(property "Voltage_in_V" "16"
+			(at 100.33 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance_in_pct" "10"
+			(at 100.33 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 100.33 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
+			(at 100.33 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CC0603KPX7R7BB104"
+			(at 100.33 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c54b278f-3cd8-48be-92c0-a87e1a270863")
 		)
@@ -5851,7 +6742,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_C:C_4u7_10V_X5R_0603_10")
+		(lib_id "KL_C:C_4u7_10V_10pct_X5R_0603")
 		(at 36.83 130.81 0)
 		(unit 1)
 		(body_style 1)
@@ -5895,7 +6786,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1006_X5R_SMD"
 			(at 36.83 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -5907,28 +6798,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 36.83 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "10"
-			(at 36.83 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "10"
 			(at 36.83 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -5972,6 +6841,61 @@
 				)
 			)
 		)
+		(property "Voltage_in_V" "10"
+			(at 36.83 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance_in_pct" "10"
+			(at 36.83 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 36.83 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
+			(at 36.83 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "C0603C475K8PAC7411"
+			(at 36.83 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "dd9c3985-8571-47ab-a81d-9bacc671386b")
 		)
@@ -5988,7 +6912,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_C:C_100n_16V_X7R_0603_10")
+		(lib_id "KL_C:C_100n_16V_10pct_X7R_0603")
 		(at 240.03 130.81 0)
 		(unit 1)
 		(body_style 1)
@@ -6032,7 +6956,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/download/specsheet/CC0603KPX7R7BB104"
 			(at 240.03 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -6044,28 +6968,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 240.03 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "10"
-			(at 240.03 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "16V"
 			(at 240.03 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -6109,6 +7011,61 @@
 				)
 			)
 		)
+		(property "Voltage_in_V" "16"
+			(at 240.03 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance_in_pct" "10"
+			(at 240.03 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 240.03 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
+			(at 240.03 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CC0603KPX7R7BB104"
+			(at 240.03 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "bc935a3e-55c2-41be-ad0c-579d2f885473")
 		)
@@ -6125,7 +7082,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_C:C_100n_16V_X7R_0603_10")
+		(lib_id "KL_C:C_100n_16V_10pct_X7R_0603")
 		(at 36.83 35.56 0)
 		(unit 1)
 		(body_style 1)
@@ -6169,7 +7126,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/download/specsheet/CC0603KPX7R7BB104"
 			(at 36.83 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -6181,28 +7138,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 36.83 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "10"
-			(at 36.83 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "16V"
 			(at 36.83 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -6246,6 +7181,61 @@
 				)
 			)
 		)
+		(property "Voltage_in_V" "16"
+			(at 36.83 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance_in_pct" "10"
+			(at 36.83 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 36.83 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
+			(at 36.83 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CC0603KPX7R7BB104"
+			(at 36.83 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "4c3b34c1-2e63-45f2-8899-4892fc4cd620")
 		)
@@ -6262,7 +7252,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_C:C_100n_16V_X7R_0603_10")
+		(lib_id "KL_C:C_100n_16V_10pct_X7R_0603")
 		(at 176.53 111.76 0)
 		(unit 1)
 		(body_style 1)
@@ -6306,7 +7296,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/download/specsheet/CC0603KPX7R7BB104"
 			(at 176.53 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -6318,28 +7308,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 176.53 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "10"
-			(at 176.53 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "16V"
 			(at 176.53 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -6383,6 +7351,61 @@
 				)
 			)
 		)
+		(property "Voltage_in_V" "16"
+			(at 176.53 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance_in_pct" "10"
+			(at 176.53 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 176.53 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
+			(at 176.53 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CC0603KPX7R7BB104"
+			(at 176.53 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7bc7b0f3-ece3-412f-8d32-6e18d6d974f0")
 		)
@@ -6399,7 +7422,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_SYM_LOCAL:GND")
+		(lib_id "power:GND")
 		(at 43.18 40.64 0)
 		(unit 1)
 		(body_style 1)
@@ -6477,7 +7500,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_C:C_100n_16V_X7R_0603_10")
+		(lib_id "KL_C:C_100n_16V_10pct_X7R_0603")
 		(at 49.53 35.56 0)
 		(unit 1)
 		(body_style 1)
@@ -6521,7 +7544,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/download/specsheet/CC0603KPX7R7BB104"
 			(at 49.53 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -6533,28 +7556,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 49.53 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "10"
-			(at 49.53 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "16V"
 			(at 49.53 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -6598,6 +7599,61 @@
 				)
 			)
 		)
+		(property "Voltage_in_V" "16"
+			(at 49.53 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance_in_pct" "10"
+			(at 49.53 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 49.53 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
+			(at 49.53 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CC0603KPX7R7BB104"
+			(at 49.53 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "cbc21710-ee01-4591-a65a-dae3d6f64ed3")
 		)
@@ -6614,7 +7670,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_C:C_100n_16V_X7R_0603_10")
+		(lib_id "KL_C:C_100n_16V_10pct_X7R_0603")
 		(at 163.83 111.76 0)
 		(unit 1)
 		(body_style 1)
@@ -6658,7 +7714,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/download/specsheet/CC0603KPX7R7BB104"
 			(at 163.83 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -6670,28 +7726,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 163.83 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "10"
-			(at 163.83 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "16V"
 			(at 163.83 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -6735,6 +7769,61 @@
 				)
 			)
 		)
+		(property "Voltage_in_V" "16"
+			(at 163.83 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance_in_pct" "10"
+			(at 163.83 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 163.83 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
+			(at 163.83 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CC0603KPX7R7BB104"
+			(at 163.83 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "9fbf2cfc-7bb1-48d9-bf20-dc789771287c")
 		)
@@ -6751,7 +7840,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_C:C_100n_16V_X7R_0603_10")
+		(lib_id "KL_C:C_100n_16V_10pct_X7R_0603")
 		(at 62.23 130.81 0)
 		(unit 1)
 		(body_style 1)
@@ -6795,7 +7884,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/download/specsheet/CC0603KPX7R7BB104"
 			(at 62.23 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -6807,28 +7896,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 62.23 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "10"
-			(at 62.23 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "16V"
 			(at 62.23 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -6872,6 +7939,61 @@
 				)
 			)
 		)
+		(property "Voltage_in_V" "16"
+			(at 62.23 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance_in_pct" "10"
+			(at 62.23 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 62.23 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
+			(at 62.23 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CC0603KPX7R7BB104"
+			(at 62.23 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "49969fc9-1f24-4809-abcb-dc94beb6ad09")
 		)
@@ -6888,7 +8010,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_C:C_100n_16V_X7R_0603_10")
+		(lib_id "KL_C:C_100n_16V_10pct_X7R_0603")
 		(at 125.73 111.76 0)
 		(unit 1)
 		(body_style 1)
@@ -6932,7 +8054,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/download/specsheet/CC0603KPX7R7BB104"
 			(at 125.73 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -6944,28 +8066,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 125.73 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "10"
-			(at 125.73 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "16V"
 			(at 125.73 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -7009,6 +8109,61 @@
 				)
 			)
 		)
+		(property "Voltage_in_V" "16"
+			(at 125.73 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance_in_pct" "10"
+			(at 125.73 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 125.73 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
+			(at 125.73 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CC0603KPX7R7BB104"
+			(at 125.73 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "4cb60447-a6aa-448f-a891-de283a4f8421")
 		)
@@ -7025,7 +8180,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_C:C_100n_16V_X7R_0603_10")
+		(lib_id "KL_C:C_100n_16V_10pct_X7R_0603")
 		(at 49.53 111.76 0)
 		(unit 1)
 		(body_style 1)
@@ -7069,7 +8224,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/download/specsheet/CC0603KPX7R7BB104"
 			(at 49.53 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -7081,28 +8236,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 49.53 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "10"
-			(at 49.53 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "16V"
 			(at 49.53 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -7146,6 +8279,61 @@
 				)
 			)
 		)
+		(property "Voltage_in_V" "16"
+			(at 49.53 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance_in_pct" "10"
+			(at 49.53 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 49.53 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
+			(at 49.53 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CC0603KPX7R7BB104"
+			(at 49.53 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "b3ae8ad4-cdff-4ef5-ab42-2149a4a95b61")
 		)
@@ -7162,7 +8350,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_C:C_100n_16V_X7R_0603_10")
+		(lib_id "KL_C:C_100n_16V_10pct_X7R_0603")
 		(at 113.03 92.71 0)
 		(unit 1)
 		(body_style 1)
@@ -7206,7 +8394,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/download/specsheet/CC0603KPX7R7BB104"
 			(at 113.03 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -7218,28 +8406,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 113.03 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "10"
-			(at 113.03 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "16V"
 			(at 113.03 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -7283,6 +8449,61 @@
 				)
 			)
 		)
+		(property "Voltage_in_V" "16"
+			(at 113.03 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance_in_pct" "10"
+			(at 113.03 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 113.03 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
+			(at 113.03 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CC0603KPX7R7BB104"
+			(at 113.03 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "1cc9488b-26c6-47fb-ba0e-eec55655abe7")
 		)
@@ -7299,7 +8520,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_C:C_100n_16V_X7R_0603_10")
+		(lib_id "KL_C:C_100n_16V_10pct_X7R_0603")
 		(at 36.83 54.61 0)
 		(unit 1)
 		(body_style 1)
@@ -7343,7 +8564,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/download/specsheet/CC0603KPX7R7BB104"
 			(at 36.83 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -7355,28 +8576,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 36.83 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "10"
-			(at 36.83 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "16V"
 			(at 36.83 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -7420,6 +8619,61 @@
 				)
 			)
 		)
+		(property "Voltage_in_V" "16"
+			(at 36.83 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance_in_pct" "10"
+			(at 36.83 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 36.83 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
+			(at 36.83 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CC0603KPX7R7BB104"
+			(at 36.83 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "2a456737-d9f3-4b10-8410-e68799ce09fb")
 		)
@@ -7436,7 +8690,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_C:C_100n_16V_X7R_0603_10")
+		(lib_id "KL_C:C_100n_16V_10pct_X7R_0603")
 		(at 100.33 92.71 0)
 		(unit 1)
 		(body_style 1)
@@ -7480,7 +8734,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/download/specsheet/CC0603KPX7R7BB104"
 			(at 100.33 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -7492,28 +8746,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 100.33 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "10"
-			(at 100.33 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "16V"
 			(at 100.33 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -7557,6 +8789,61 @@
 				)
 			)
 		)
+		(property "Voltage_in_V" "16"
+			(at 100.33 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance_in_pct" "10"
+			(at 100.33 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 100.33 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
+			(at 100.33 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CC0603KPX7R7BB104"
+			(at 100.33 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "cc16947c-0b54-4414-9e5d-04cddd0517ee")
 		)
@@ -7573,7 +8860,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_C:C_100n_16V_X7R_0603_10")
+		(lib_id "KL_C:C_100n_16V_10pct_X7R_0603")
 		(at 138.43 130.81 0)
 		(unit 1)
 		(body_style 1)
@@ -7617,7 +8904,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/download/specsheet/CC0603KPX7R7BB104"
 			(at 138.43 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -7629,28 +8916,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 138.43 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "10"
-			(at 138.43 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "16V"
 			(at 138.43 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -7694,6 +8959,61 @@
 				)
 			)
 		)
+		(property "Voltage_in_V" "16"
+			(at 138.43 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance_in_pct" "10"
+			(at 138.43 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 138.43 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
+			(at 138.43 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CC0603KPX7R7BB104"
+			(at 138.43 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "00eada73-b2d3-4157-8ad1-90602c88f8df")
 		)
@@ -7710,7 +9030,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_C:C_100n_16V_X7R_0603_10")
+		(lib_id "KL_C:C_100n_16V_10pct_X7R_0603")
 		(at 163.83 130.81 0)
 		(unit 1)
 		(body_style 1)
@@ -7754,7 +9074,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/download/specsheet/CC0603KPX7R7BB104"
 			(at 163.83 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -7766,28 +9086,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 163.83 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "10"
-			(at 163.83 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "16V"
 			(at 163.83 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -7831,6 +9129,61 @@
 				)
 			)
 		)
+		(property "Voltage_in_V" "16"
+			(at 163.83 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance_in_pct" "10"
+			(at 163.83 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 163.83 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
+			(at 163.83 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CC0603KPX7R7BB104"
+			(at 163.83 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f01b1e6d-eeef-4a8a-be3f-5c9a06f6c621")
 		)
@@ -7847,7 +9200,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_C:C_100n_16V_X7R_0603_10")
+		(lib_id "KL_C:C_100n_16V_10pct_X7R_0603")
 		(at 62.23 111.76 0)
 		(unit 1)
 		(body_style 1)
@@ -7891,7 +9244,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/download/specsheet/CC0603KPX7R7BB104"
 			(at 62.23 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -7903,28 +9256,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 62.23 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "10"
-			(at 62.23 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "16V"
 			(at 62.23 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -7968,6 +9299,61 @@
 				)
 			)
 		)
+		(property "Voltage_in_V" "16"
+			(at 62.23 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance_in_pct" "10"
+			(at 62.23 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 62.23 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
+			(at 62.23 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CC0603KPX7R7BB104"
+			(at 62.23 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d3909177-dd0f-478c-9f0d-ea1c477b41bd")
 		)
@@ -7984,7 +9370,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_SYM_LOCAL:GND")
+		(lib_id "power:GND")
 		(at 182.88 116.84 0)
 		(unit 1)
 		(body_style 1)
@@ -8062,7 +9448,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_C:C_100n_16V_X7R_0603_10")
+		(lib_id "KL_C:C_100n_16V_10pct_X7R_0603")
 		(at 138.43 111.76 0)
 		(unit 1)
 		(body_style 1)
@@ -8106,7 +9492,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/download/specsheet/CC0603KPX7R7BB104"
 			(at 138.43 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -8118,28 +9504,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 138.43 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "10"
-			(at 138.43 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "16V"
 			(at 138.43 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -8183,6 +9547,61 @@
 				)
 			)
 		)
+		(property "Voltage_in_V" "16"
+			(at 138.43 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance_in_pct" "10"
+			(at 138.43 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 138.43 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
+			(at 138.43 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CC0603KPX7R7BB104"
+			(at 138.43 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "9081325b-2c54-4437-a634-1e30c6475290")
 		)
@@ -8199,7 +9618,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_C:C_4u7_10V_X5R_0603_10")
+		(lib_id "KL_C:C_4u7_10V_10pct_X5R_0603")
 		(at 36.83 111.76 0)
 		(unit 1)
 		(body_style 1)
@@ -8243,7 +9662,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1006_X5R_SMD"
 			(at 36.83 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -8255,28 +9674,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 36.83 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "10"
-			(at 36.83 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "10"
 			(at 36.83 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -8320,6 +9717,61 @@
 				)
 			)
 		)
+		(property "Voltage_in_V" "10"
+			(at 36.83 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance_in_pct" "10"
+			(at 36.83 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 36.83 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
+			(at 36.83 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "C0603C475K8PAC7411"
+			(at 36.83 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "2c8ccef3-5406-45a6-833f-5a8cee7c2e15")
 		)
@@ -8336,7 +9788,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_C:C_100n_16V_X7R_0603_10")
+		(lib_id "KL_C:C_100n_16V_10pct_X7R_0603")
 		(at 189.23 111.76 0)
 		(unit 1)
 		(body_style 1)
@@ -8380,7 +9832,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/download/specsheet/CC0603KPX7R7BB104"
 			(at 189.23 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -8392,28 +9844,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 189.23 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "10"
-			(at 189.23 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "16V"
 			(at 189.23 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -8457,6 +9887,61 @@
 				)
 			)
 		)
+		(property "Voltage_in_V" "16"
+			(at 189.23 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance_in_pct" "10"
+			(at 189.23 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 189.23 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
+			(at 189.23 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CC0603KPX7R7BB104"
+			(at 189.23 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ba157945-36b5-4fd1-8afc-3afae98630d4")
 		)
@@ -8473,7 +9958,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_C:C_100n_16V_X7R_0603_10")
+		(lib_id "KL_C:C_100n_16V_10pct_X7R_0603")
 		(at 189.23 130.81 0)
 		(unit 1)
 		(body_style 1)
@@ -8517,7 +10002,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/download/specsheet/CC0603KPX7R7BB104"
 			(at 189.23 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -8529,28 +10014,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 189.23 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "10"
-			(at 189.23 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "16V"
 			(at 189.23 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -8584,6 +10047,61 @@
 			)
 		)
 		(property "LCSC" "C2649559"
+			(at 189.23 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage_in_V" "16"
+			(at 189.23 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance_in_pct" "10"
+			(at 189.23 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 189.23 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
+			(at 189.23 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CC0603KPX7R7BB104"
 			(at 189.23 130.81 0)
 			(hide yes)
 			(show_name no)
