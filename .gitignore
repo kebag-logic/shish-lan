@@ -1,6 +1,9 @@
 # For PCBs designed using KiCad: https://www.kicad.org/
 # Format documentation: https://kicad.org/help/file-formats/
 
+# History folder
+.history/
+
 # Temporary files
 .~lock*
 .DS_Store
