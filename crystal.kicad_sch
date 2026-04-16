@@ -12,7 +12,7 @@
 		(comment 1 "Confidential")
 	)
 	(lib_symbols
-		(symbol "KL_C:C_10p_25V_C0G_0603_5"
+		(symbol "KL_C:C_10p_25V_5pct_C0G_0603"
 			(pin_numbers
 				(hide yes)
 			)
@@ -57,7 +57,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://datasheets.kyocera-avx.com/U-Series.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -79,7 +79,7 @@
 					)
 				)
 			)
-			(property "Tolerance" "5"
+			(property "Voltage_in_V" "25"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -90,7 +90,40 @@
 					)
 				)
 			)
-			(property "Voltage" "25V"
+			(property "Tolerance_in_pct" "5"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Dielectric" "C0G"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Package_in_inch" "0603"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "06033U100JAT2A"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -156,7 +189,7 @@
 					)
 				)
 			)
-			(symbol "C_10p_25V_C0G_0603_5_0_1"
+			(symbol "C_10p_25V_5pct_C0G_0603_0_1"
 				(polyline
 					(pts
 						(xy -2.032 0.762) (xy 2.032 0.762)
@@ -182,7 +215,7 @@
 					)
 				)
 			)
-			(symbol "C_10p_25V_C0G_0603_5_1_1"
+			(symbol "C_10p_25V_5pct_C0G_0603_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
@@ -222,7 +255,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "KL_Passive_ICs:Crystal_25MHz_32p"
+		(symbol "KL_Crystal:Crystal_25M_10ppm_32pF_3.2x2.5"
 			(pin_names
 				(hide yes)
 			)
@@ -241,7 +274,7 @@
 					)
 				)
 			)
-			(property "Value" "25000000"
+			(property "Value" "25M"
 				(at -33.528 17.526 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -275,7 +308,7 @@
 					)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "Crystal"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -286,8 +319,52 @@
 					)
 				)
 			)
-			(property "Digikey" "150-VXM7-9032-25M0000000CT-ND"
-				(at -33.02 21.59 0)
+			(property "Frequency_Tolerance_in_ppm" "10"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Load_Capacitance_in_pF" "32"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Package_LxW_in_mm" "3.2x2.5"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "VXM7-9032-25M0000000"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Mouser" "579-M7903225M0000000"
+				(at -32.766 23.368 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -298,8 +375,8 @@
 					(justify left)
 				)
 			)
-			(property "Mouser" "579-M7903225M0000000"
-				(at -32.766 23.368 0)
+			(property "Digikey" "150-VXM7-9032-25M0000000CT-ND"
+				(at -33.02 21.59 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -322,7 +399,7 @@
 					(justify left)
 				)
 			)
-			(symbol "Crystal_25MHz_32p_0_1"
+			(symbol "Crystal_25M_10ppm_32pF_3.2x2.5_0_1"
 				(polyline
 					(pts
 						(xy -2.54 2.286) (xy -2.54 3.556) (xy 2.54 3.556) (xy 2.54 2.286)
@@ -431,7 +508,7 @@
 					)
 				)
 			)
-			(symbol "Crystal_25MHz_32p_1_1"
+			(symbol "Crystal_25M_10ppm_32pF_3.2x2.5_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 1.27)
@@ -507,7 +584,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "KL_SYM_LOCAL:GND"
+		(symbol "power:GND"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -754,7 +831,7 @@
 		(uuid "97e4b4c8-433a-453a-95a5-8e57703819b4")
 	)
 	(symbol
-		(lib_id "KL_SYM_LOCAL:GND")
+		(lib_id "power:GND")
 		(at 132.08 95.25 0)
 		(unit 1)
 		(body_style 1)
@@ -836,7 +913,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_C:C_10p_25V_C0G_0603_5")
+		(lib_id "KL_C:C_10p_25V_5pct_C0G_0603")
 		(at 138.43 102.87 270)
 		(unit 1)
 		(body_style 1)
@@ -878,7 +955,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/U-Series.pdf"
 			(at 138.43 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -890,28 +967,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 138.43 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "5"
-			(at 138.43 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "25V"
 			(at 138.43 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -955,6 +1010,61 @@
 				)
 			)
 		)
+		(property "Voltage_in_V" "25"
+			(at 138.43 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance_in_pct" "5"
+			(at 138.43 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "C0G"
+			(at 138.43 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
+			(at 138.43 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "06033U100JAT2A"
+			(at 138.43 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "206328d5-cec8-4e56-a983-5f37330b47c0")
 		)
@@ -975,7 +1085,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_SYM_LOCAL:GND")
+		(lib_id "power:GND")
 		(at 149.86 95.25 0)
 		(unit 1)
 		(body_style 1)
@@ -1057,7 +1167,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_C:C_10p_25V_C0G_0603_5")
+		(lib_id "KL_C:C_10p_25V_5pct_C0G_0603")
 		(at 138.43 88.9 270)
 		(unit 1)
 		(body_style 1)
@@ -1099,7 +1209,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/U-Series.pdf"
 			(at 138.43 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -1111,28 +1221,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 138.43 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "5"
-			(at 138.43 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "25V"
 			(at 138.43 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -1176,6 +1264,61 @@
 				)
 			)
 		)
+		(property "Voltage_in_V" "25"
+			(at 138.43 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance_in_pct" "5"
+			(at 138.43 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "C0G"
+			(at 138.43 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
+			(at 138.43 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "06033U100JAT2A"
+			(at 138.43 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "673c5d75-217e-469f-af71-0647280dab02")
 		)
@@ -1196,7 +1339,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_Passive_ICs:Crystal_25MHz_32p")
+		(lib_id "KL_Crystal:Crystal_25M_10ppm_32pF_3.2x2.5")
 		(at 142.24 95.25 270)
 		(unit 1)
 		(body_style 1)
@@ -1217,7 +1360,7 @@
 				)
 			)
 		)
-		(property "Value" "25000000"
+		(property "Value" "25M"
 			(at 159.766 61.722 0)
 			(hide yes)
 			(show_name no)
@@ -1251,7 +1394,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Crystal"
 			(at 142.24 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -1296,6 +1439,50 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "Frequency_Tolerance_in_ppm" "10"
+			(at 142.24 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Load_Capacitance_in_pF" "32"
+			(at 142.24 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_LxW_in_mm" "3.2x2.5"
+			(at 142.24 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "VXM7-9032-25M0000000"
+			(at 142.24 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "4"
