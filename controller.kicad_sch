@@ -12,7 +12,7 @@
 		(comment 1 "Confidential")
 	)
 	(lib_symbols
-		(symbol "KL_C:C_100n_10V_X7R_0603_10"
+		(symbol "KL_C:C_100n_10V_10pct_X7R_0603"
 			(pin_numbers
 				(hide yes)
 			)
@@ -57,7 +57,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X7R_6_3V-TO-250V"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -79,7 +79,7 @@
 					)
 				)
 			)
-			(property "Tolerance" "10"
+			(property "Voltage_in_V" "10"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -90,7 +90,40 @@
 					)
 				)
 			)
-			(property "Voltage" "50"
+			(property "Tolerance_in_pct" "10"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Dielectric" "X7R"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Package_in_inch" "0603"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "CC0603KRX7R6BB104"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -156,7 +189,7 @@
 					)
 				)
 			)
-			(symbol "C_100n_10V_X7R_0603_10_0_1"
+			(symbol "C_100n_10V_10pct_X7R_0603_0_1"
 				(polyline
 					(pts
 						(xy -2.032 0.762) (xy 2.032 0.762)
@@ -182,7 +215,7 @@
 					)
 				)
 			)
-			(symbol "C_100n_10V_X7R_0603_10_1_1"
+			(symbol "C_100n_10V_10pct_X7R_0603_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
@@ -222,7 +255,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "KL_C:C_2u2_10V_Y5V_0603_20"
+		(symbol "KL_C:C_2u2_10V_20pct_Y5V_0603"
 			(pin_numbers
 				(hide yes)
 			)
@@ -267,7 +300,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "file:///home/alex/Downloads/MLASE168SB5225KTNA01_SS.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -289,7 +322,7 @@
 					)
 				)
 			)
-			(property "Tolerance" "10"
+			(property "Voltage_in_V" "10"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -300,7 +333,40 @@
 					)
 				)
 			)
-			(property "Voltage" "16"
+			(property "Tolerance_in_pct" "20"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Dielectric" "Y5V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Package_in_inch" "0603"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "EMK107BJ225KA-T"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -366,7 +432,7 @@
 					)
 				)
 			)
-			(symbol "C_2u2_10V_Y5V_0603_20_0_1"
+			(symbol "C_2u2_10V_20pct_Y5V_0603_0_1"
 				(polyline
 					(pts
 						(xy -2.032 0.762) (xy 2.032 0.762)
@@ -392,7 +458,7 @@
 					)
 				)
 			)
-			(symbol "C_2u2_10V_Y5V_0603_20_1_1"
+			(symbol "C_2u2_10V_20pct_Y5V_0603_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
@@ -432,7 +498,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "KL_C:C_4u7_10V_X5R_0603_10"
+		(symbol "KL_C:C_4u7_10V_10pct_X5R_0603"
 			(pin_numbers
 				(hide yes)
 			)
@@ -477,7 +543,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1006_X5R_SMD"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -499,7 +565,7 @@
 					)
 				)
 			)
-			(property "Tolerance" "10"
+			(property "Voltage_in_V" "10"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -510,7 +576,40 @@
 					)
 				)
 			)
-			(property "Voltage" "10"
+			(property "Tolerance_in_pct" "10"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Dielectric" "X5R"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Package_in_inch" "0603"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "C0603C475K8PAC7411"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -576,7 +675,7 @@
 					)
 				)
 			)
-			(symbol "C_4u7_10V_X5R_0603_10_0_1"
+			(symbol "C_4u7_10V_10pct_X5R_0603_0_1"
 				(polyline
 					(pts
 						(xy -2.032 0.762) (xy 2.032 0.762)
@@ -602,7 +701,7 @@
 					)
 				)
 			)
-			(symbol "C_4u7_10V_X5R_0603_10_1_1"
+			(symbol "C_4u7_10V_10pct_X5R_0603_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
@@ -757,7 +856,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "KL_Headers:03x01_2.54mm_Header"
+		(symbol "KL_Header:Header_03x01_2.54mm_0mm_Straight"
 			(pin_names
 				(hide yes)
 			)
@@ -776,7 +875,7 @@
 					)
 				)
 			)
-			(property "Value" "03x01_2.54mm_Header"
+			(property "Value" "Header_03x01_2.54mm_0mm_Straight"
 				(at 0 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -798,7 +897,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=87224&DocType=Customer+Drawing&DocLang=English"
 				(at 0 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -809,8 +908,74 @@
 					)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "Pin Header"
 				(at 0 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "No_of_pins" "3"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "No_of_rows" "1"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Pitch_pin_in_mm" "2.54"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Pitch_row_in_mm" "0"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Orientation" "Straight"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "87224-3"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -853,7 +1018,7 @@
 					)
 				)
 			)
-			(symbol "03x01_2.54mm_Header_1_1"
+			(symbol "Header_03x01_2.54mm_0mm_Straight_1_1"
 				(rectangle
 					(start -1.27 3.81)
 					(end 1.27 -3.81)
@@ -955,7 +1120,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "KL_Headers:07x01_2.54mm_Header"
+		(symbol "KL_Header:Header_07x01_2.54mm_0mm_Straight"
 			(pin_names
 				(hide yes)
 			)
@@ -974,7 +1139,7 @@
 					)
 				)
 			)
-			(property "Value" "07x01_2.54mm_Header"
+			(property "Value" "Header_07x01_2.54mm_0mm_Straight"
 				(at 0 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -996,7 +1161,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/tlw_th.pdf"
 				(at 0 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1007,8 +1172,19 @@
 					)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "Pin Header"
 				(at 0 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "TLW-107-06-G-S"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1051,7 +1227,62 @@
 					)
 				)
 			)
-			(symbol "07x01_2.54mm_Header_1_1"
+			(property "No_of_pins" "7"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "No_of_rows" "1"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Pitch_pin_in_mm" "2.54"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Pitch_row_in_mm" "0"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Orientation" "Straight"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Header_07x01_2.54mm_0mm_Straight_1_1"
 				(rectangle
 					(start 0 1.27)
 					(end 2.54 -15.875)
@@ -1269,7 +1500,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "KL_LED:LED_green_2V1_0.03A"
+		(symbol "KL_LED:LED_Green_2.1V_0.03A_0603"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1425,6 +1656,28 @@
 					)
 				)
 			)
+			(property "Package_in_inch" "0603"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "LTST-C190GKT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "ki_keywords" "LED diode"
 				(at 0 0 0)
 				(show_name no)
@@ -1447,7 +1700,7 @@
 					)
 				)
 			)
-			(symbol "LED_green_2V1_0.03A_0_1"
+			(symbol "LED_Green_2.1V_0.03A_0603_0_1"
 				(polyline
 					(pts
 						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
@@ -1509,7 +1762,7 @@
 					)
 				)
 			)
-			(symbol "LED_green_2V1_0.03A_1_1"
+			(symbol "LED_Green_2.1V_0.03A_0603_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -1549,7 +1802,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "KL_LED:LED_orange_2V_0.03A"
+		(symbol "KL_LED:LED_Orange_2V_0.03A_0603"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1705,6 +1958,28 @@
 					)
 				)
 			)
+			(property "Package_in_inch" "0603"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "LTST-C190KFKT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "ki_keywords" "LED diode"
 				(at 0 0 0)
 				(show_name no)
@@ -1727,7 +2002,7 @@
 					)
 				)
 			)
-			(symbol "LED_orange_2V_0.03A_0_1"
+			(symbol "LED_Orange_2V_0.03A_0603_0_1"
 				(polyline
 					(pts
 						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
@@ -1789,7 +2064,7 @@
 					)
 				)
 			)
-			(symbol "LED_orange_2V_0.03A_1_1"
+			(symbol "LED_Orange_2V_0.03A_0603_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -1829,7 +2104,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "KL_LED:LED_red_2V_0.03A"
+		(symbol "KL_LED:LED_Red_2V_0.03A_0603"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1985,6 +2260,28 @@
 					)
 				)
 			)
+			(property "Package_in_inch" "0603"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "LTST-C194KRKT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "ki_keywords" "LED diode"
 				(at 0 0 0)
 				(show_name no)
@@ -2007,7 +2304,7 @@
 					)
 				)
 			)
-			(symbol "LED_red_2V_0.03A_0_1"
+			(symbol "LED_Red_2V_0.03A_0603_0_1"
 				(polyline
 					(pts
 						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
@@ -2069,7 +2366,7 @@
 					)
 				)
 			)
-			(symbol "LED_red_2V_0.03A_1_1"
+			(symbol "LED_Red_2V_0.03A_0603_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -2115,8 +2412,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U4"
-				(at 4.6833 -68.58 0)
+			(property "Reference" "U"
+				(at 10.414 73.406 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -2127,7 +2424,7 @@
 				)
 			)
 			(property "Value" "STM32H742VGT6"
-				(at 4.6833 -71.12 0)
+				(at 10.414 70.866 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -2171,6 +2468,39 @@
 					)
 				)
 			)
+			(property "I_DD_max_A" "0.544"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "V_DD_max_V" "4"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "STM32H742VGT6"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "Mouser" "511-STM32H742VGT6"
 				(at 0 0 0)
 				(show_name no)
@@ -2194,17 +2524,6 @@
 				)
 			)
 			(property "LCSC" "C730175"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "I_DD_max_A" "0.544"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4826,7 +5145,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "KL_R:R_0R_2W_5_2512"
+		(symbol "KL_R:R_0R_2W_5pct_2512"
 			(pin_numbers
 				(hide yes)
 			)
@@ -4869,7 +5188,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/CRF-J.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4891,7 +5210,7 @@
 					)
 				)
 			)
-			(property "Power" "2"
+			(property "Power_in_W" "2"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4902,7 +5221,7 @@
 					)
 				)
 			)
-			(property "Tolerance" "5"
+			(property "Tolerance_in_pct" "5"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4913,7 +5232,18 @@
 					)
 				)
 			)
-			(property "Mouser" "652-CRF2512-J-000ELF "
+			(property "MPN" "CRF2512-J/-000ELF"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Mouser" "652-CRF2512-J-000ELF"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4946,18 +5276,7 @@
 					)
 				)
 			)
-			(property "Farnell" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Package (in)" "2512"
+			(property "Package_in_inch" "2512"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4990,7 +5309,7 @@
 					)
 				)
 			)
-			(symbol "R_0R_2W_5_2512_0_1"
+			(symbol "R_0R_2W_5pct_2512_0_1"
 				(rectangle
 					(start -1.016 -2.54)
 					(end 1.016 2.54)
@@ -5003,7 +5322,7 @@
 					)
 				)
 			)
-			(symbol "R_0R_2W_5_2512_1_1"
+			(symbol "R_0R_2W_5pct_2512_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -5043,7 +5362,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "KL_R:R_10K_100mW_5_0603"
+		(symbol "KL_R:R_10K_0.1W_5pct_0603"
 			(pin_numbers
 				(hide yes)
 			)
@@ -5086,7 +5405,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5108,7 +5427,7 @@
 					)
 				)
 			)
-			(property "Power" "100mW"
+			(property "Power_in_W" "0.1"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5119,7 +5438,18 @@
 					)
 				)
 			)
-			(property "Tolerance" "5%"
+			(property "Tolerance_in_pct" "5"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "CRCW060310K0JNEC"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5163,18 +5493,7 @@
 					)
 				)
 			)
-			(property "Package (in)" "0603"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Farnell" ""
+			(property "Package_in_inch" "0603"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5207,7 +5526,7 @@
 					)
 				)
 			)
-			(symbol "R_10K_100mW_5_0603_0_1"
+			(symbol "R_10K_0.1W_5pct_0603_0_1"
 				(rectangle
 					(start -1.016 -2.54)
 					(end 1.016 2.54)
@@ -5220,7 +5539,7 @@
 					)
 				)
 			)
-			(symbol "R_10K_100mW_5_0603_1_1"
+			(symbol "R_10K_0.1W_5pct_0603_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -5260,7 +5579,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "KL_R:R_1K5_100mW_5_0603"
+		(symbol "KL_R:R_1K5_0.1W_5pct_0603"
 			(pin_numbers
 				(hide yes)
 			)
@@ -5325,7 +5644,7 @@
 					)
 				)
 			)
-			(property "Power" "0.1"
+			(property "Power_in_W" "0.1"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5336,7 +5655,18 @@
 					)
 				)
 			)
-			(property "Tolerance" "5"
+			(property "Tolerance_in_pct" "5"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "AC0603JR-071K5L"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5380,18 +5710,7 @@
 					)
 				)
 			)
-			(property "Farnell" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Package (in)" "0603"
+			(property "Package_in_inch" "0603"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5424,7 +5743,7 @@
 					)
 				)
 			)
-			(symbol "R_1K5_100mW_5_0603_0_1"
+			(symbol "R_1K5_0.1W_5pct_0603_0_1"
 				(rectangle
 					(start -1.016 -2.54)
 					(end 1.016 2.54)
@@ -5437,7 +5756,7 @@
 					)
 				)
 			)
-			(symbol "R_1K5_100mW_5_0603_1_1"
+			(symbol "R_1K5_0.1W_5pct_0603_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -5477,7 +5796,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "KL_R:R_22_100mW_1pct_0603"
+		(symbol "KL_R:R_22R_0.1W_1pct_0603"
 			(pin_numbers
 				(hide yes)
 			)
@@ -5499,7 +5818,7 @@
 					)
 				)
 			)
-			(property "Value" "22"
+			(property "Value" "22R"
 				(at 0 0 90)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5542,7 +5861,7 @@
 					)
 				)
 			)
-			(property "Power" "0.1"
+			(property "Power_in_W" "0.1"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5553,7 +5872,18 @@
 					)
 				)
 			)
-			(property "Tolerance" "1"
+			(property "Tolerance_in_pct" "1"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "RC0603FR-1022RL"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5597,18 +5927,7 @@
 					)
 				)
 			)
-			(property "Farnell" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Package (in)" "0603"
+			(property "Package_in_inch" "0603"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5641,7 +5960,7 @@
 					)
 				)
 			)
-			(symbol "R_22_100mW_1pct_0603_0_1"
+			(symbol "R_22R_0.1W_1pct_0603_0_1"
 				(rectangle
 					(start -1.016 -2.54)
 					(end 1.016 2.54)
@@ -5654,7 +5973,7 @@
 					)
 				)
 			)
-			(symbol "R_22_100mW_1pct_0603_1_1"
+			(symbol "R_22R_0.1W_1pct_0603_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -5694,122 +6013,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "KL_SYM_LOCAL:GND"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GND_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "KL_TP:TestPoint"
+		(symbol "KL_TestPoint:TestPoint"
 			(pin_numbers
 				(hide yes)
 			)
@@ -5843,7 +6047,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(property "Footprint" "KL_Footprints:TestPoint"
 				(at 5.08 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -9987,7 +10191,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_TP:TestPoint")
+		(lib_id "KL_TestPoint:TestPoint")
 		(at 41.91 113.03 0)
 		(unit 1)
 		(body_style 1)
@@ -10019,7 +10223,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+		(property "Footprint" "KL_Footprints:TestPoint"
 			(at 46.99 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -10065,7 +10269,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_C:C_2u2_10V_Y5V_0603_20")
+		(lib_id "KL_C:C_2u2_10V_20pct_Y5V_0603")
 		(at 29.21 173.99 90)
 		(unit 1)
 		(body_style 1)
@@ -10107,7 +10311,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "file:///home/alex/Downloads/MLASE168SB5225KTNA01_SS.pdf"
 			(at 29.21 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -10119,28 +10323,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 29.21 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "10"
-			(at 29.21 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "16"
 			(at 29.21 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -10184,6 +10366,61 @@
 				)
 			)
 		)
+		(property "Voltage_in_V" "10"
+			(at 29.21 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance_in_pct" "20"
+			(at 29.21 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "Y5V"
+			(at 29.21 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
+			(at 29.21 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "EMK107BJ225KA-T"
+			(at 29.21 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ca460ecf-7359-4d18-bc6d-d3edaf237cde")
 		)
@@ -10200,7 +10437,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_SYM_LOCAL:GND")
+		(lib_id "power:GND")
 		(at 185.42 73.66 0)
 		(unit 1)
 		(body_style 1)
@@ -10278,7 +10515,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_C:C_100n_10V_X7R_0603_10")
+		(lib_id "KL_C:C_100n_10V_10pct_X7R_0603")
 		(at 228.6 20.32 0)
 		(unit 1)
 		(body_style 1)
@@ -10322,7 +10559,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X7R_6_3V-TO-250V"
 			(at 228.6 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -10334,28 +10571,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 228.6 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "10"
-			(at 228.6 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "50"
 			(at 228.6 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -10389,6 +10604,61 @@
 			)
 		)
 		(property "LCSC" "C519438"
+			(at 228.6 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage_in_V" "10"
+			(at 228.6 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance_in_pct" "10"
+			(at 228.6 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 228.6 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
+			(at 228.6 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CC0603KRX7R6BB104"
 			(at 228.6 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -10494,7 +10764,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_C:C_2u2_10V_Y5V_0603_20")
+		(lib_id "KL_C:C_2u2_10V_20pct_Y5V_0603")
 		(at 29.21 162.56 90)
 		(unit 1)
 		(body_style 1)
@@ -10536,7 +10806,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "file:///home/alex/Downloads/MLASE168SB5225KTNA01_SS.pdf"
 			(at 29.21 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -10548,28 +10818,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 29.21 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "10"
-			(at 29.21 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "16"
 			(at 29.21 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -10603,6 +10851,61 @@
 			)
 		)
 		(property "LCSC" "C76612"
+			(at 29.21 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage_in_V" "10"
+			(at 29.21 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance_in_pct" "20"
+			(at 29.21 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "Y5V"
+			(at 29.21 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
+			(at 29.21 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "EMK107BJ225KA-T"
 			(at 29.21 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -10708,7 +11011,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_Headers:03x01_2.54mm_Header")
+		(lib_id "KL_Header:Header_03x01_2.54mm_0mm_Straight")
 		(at 190.5 69.85 0)
 		(mirror x)
 		(unit 1)
@@ -10730,7 +11033,7 @@
 				)
 			)
 		)
-		(property "Value" "03x01_2.54mm_Header"
+		(property "Value" "Header_03x01_2.54mm_0mm_Straight"
 			(at 190.5 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -10752,7 +11055,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=87224&DocType=Customer+Drawing&DocLang=English"
 			(at 190.5 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -10763,7 +11066,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Pin Header"
 			(at 190.5 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -10807,6 +11110,72 @@
 				)
 			)
 		)
+		(property "No_of_pins" "3"
+			(at 190.5 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "No_of_rows" "1"
+			(at 190.5 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch_pin_in_mm" "2.54"
+			(at 190.5 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch_row_in_mm" "0"
+			(at 190.5 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Orientation" "Straight"
+			(at 190.5 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "87224-3"
+			(at 190.5 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "67432aa0-7b8a-4295-9c2a-26e2cfa291d6")
 		)
@@ -10826,7 +11195,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_R:R_22_100mW_1pct_0603")
+		(lib_id "KL_R:R_22R_0.1W_1pct_0603")
 		(at 139.7 116.84 90)
 		(unit 1)
 		(body_style 1)
@@ -10846,7 +11215,7 @@
 				)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "22R"
 			(at 139.7 116.84 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10879,28 +11248,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 139.7 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" "0.1"
-			(at 139.7 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "1"
 			(at 139.7 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -10944,7 +11291,7 @@
 				)
 			)
 		)
-		(property "Farnell" ""
+		(property "Power_in_W" "0.1"
 			(at 139.7 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -10955,7 +11302,29 @@
 				)
 			)
 		)
-		(property "Package (in)" "0603"
+		(property "Tolerance_in_pct" "1"
+			(at 139.7 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0603FR-1022RL"
+			(at 139.7 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
 			(at 139.7 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -10982,7 +11351,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_R:R_1K5_100mW_5_0603")
+		(lib_id "KL_R:R_1K5_0.1W_5pct_0603")
 		(at 69.85 133.35 90)
 		(unit 1)
 		(body_style 1)
@@ -11045,28 +11414,6 @@
 				)
 			)
 		)
-		(property "Power" "0.1"
-			(at 69.85 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "5"
-			(at 69.85 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Mouser" "603-AC0603JR-071K5L"
 			(at 69.85 133.35 0)
 			(hide yes)
@@ -11100,7 +11447,7 @@
 				)
 			)
 		)
-		(property "Package (in)" "0603"
+		(property "Power_in_W" "0.1"
 			(at 69.85 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -11111,7 +11458,29 @@
 				)
 			)
 		)
-		(property "Farnell" ""
+		(property "Tolerance_in_pct" "5"
+			(at 69.85 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "AC0603JR-071K5L"
+			(at 69.85 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
 			(at 69.85 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -11138,7 +11507,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_SYM_LOCAL:GND")
+		(lib_id "power:GND")
 		(at 48.26 46.99 0)
 		(unit 1)
 		(body_style 1)
@@ -11216,7 +11585,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_C:C_100n_10V_X7R_0603_10")
+		(lib_id "KL_C:C_100n_10V_10pct_X7R_0603")
 		(at 177.8 20.32 0)
 		(unit 1)
 		(body_style 1)
@@ -11260,7 +11629,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X7R_6_3V-TO-250V"
 			(at 177.8 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -11272,28 +11641,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 177.8 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "10"
-			(at 177.8 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "50"
 			(at 177.8 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -11337,6 +11684,61 @@
 				)
 			)
 		)
+		(property "Voltage_in_V" "10"
+			(at 177.8 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance_in_pct" "10"
+			(at 177.8 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 177.8 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
+			(at 177.8 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CC0603KRX7R6BB104"
+			(at 177.8 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6ca0f314-2eb8-4fbe-a5fd-26fa153061df")
 		)
@@ -11353,7 +11755,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_Headers:07x01_2.54mm_Header")
+		(lib_id "KL_Header:Header_07x01_2.54mm_0mm_Straight")
 		(at 215.9 85.09 180)
 		(unit 1)
 		(body_style 1)
@@ -11375,7 +11777,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "07x01_2.54mm_Header"
+		(property "Value" "Header_07x01_2.54mm_0mm_Straight"
 			(at 215.9 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -11397,7 +11799,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/tlw_th.pdf"
 			(at 215.9 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -11408,7 +11810,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Pin Header"
 			(at 215.9 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -11452,6 +11854,72 @@
 				)
 			)
 		)
+		(property "MPN" "TLW-107-06-G-S"
+			(at 215.9 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "No_of_pins" "7"
+			(at 215.9 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "No_of_rows" "1"
+			(at 215.9 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch_pin_in_mm" "2.54"
+			(at 215.9 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch_row_in_mm" "0"
+			(at 215.9 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Orientation" "Straight"
+			(at 215.9 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "6"
 			(uuid "3d46aa36-f67f-4f91-bc45-4d072dd155ea")
 		)
@@ -11483,7 +11951,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_R:R_1K5_100mW_5_0603")
+		(lib_id "KL_R:R_1K5_0.1W_5pct_0603")
 		(at 69.85 148.59 90)
 		(unit 1)
 		(body_style 1)
@@ -11546,28 +12014,6 @@
 				)
 			)
 		)
-		(property "Power" "0.1"
-			(at 69.85 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "5"
-			(at 69.85 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Mouser" "603-AC0603JR-071K5L"
 			(at 69.85 148.59 0)
 			(hide yes)
@@ -11601,7 +12047,7 @@
 				)
 			)
 		)
-		(property "Package (in)" "0603"
+		(property "Power_in_W" "0.1"
 			(at 69.85 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -11612,7 +12058,29 @@
 				)
 			)
 		)
-		(property "Farnell" ""
+		(property "Tolerance_in_pct" "5"
+			(at 69.85 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "AC0603JR-071K5L"
+			(at 69.85 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
 			(at 69.85 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -11639,7 +12107,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_C:C_100n_10V_X7R_0603_10")
+		(lib_id "KL_C:C_100n_10V_10pct_X7R_0603")
 		(at 252.73 20.32 0)
 		(unit 1)
 		(body_style 1)
@@ -11683,7 +12151,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X7R_6_3V-TO-250V"
 			(at 252.73 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -11695,28 +12163,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 252.73 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "10"
-			(at 252.73 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "50"
 			(at 252.73 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -11760,6 +12206,61 @@
 				)
 			)
 		)
+		(property "Voltage_in_V" "10"
+			(at 252.73 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance_in_pct" "10"
+			(at 252.73 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 252.73 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
+			(at 252.73 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CC0603KRX7R6BB104"
+			(at 252.73 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a8cf0296-2444-460e-88a6-f298a9865819")
 		)
@@ -11776,7 +12277,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_C:C_100n_10V_X7R_0603_10")
+		(lib_id "KL_C:C_100n_10V_10pct_X7R_0603")
 		(at 215.9 20.32 0)
 		(unit 1)
 		(body_style 1)
@@ -11820,7 +12321,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X7R_6_3V-TO-250V"
 			(at 215.9 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -11832,28 +12333,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 215.9 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "10"
-			(at 215.9 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "50"
 			(at 215.9 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -11897,6 +12376,61 @@
 				)
 			)
 		)
+		(property "Voltage_in_V" "10"
+			(at 215.9 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance_in_pct" "10"
+			(at 215.9 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 215.9 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
+			(at 215.9 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CC0603KRX7R6BB104"
+			(at 215.9 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9e498dab-2cf6-47ce-8084-49ebecc21086")
 		)
@@ -11913,7 +12447,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_TP:TestPoint")
+		(lib_id "KL_TestPoint:TestPoint")
 		(at 41.91 128.27 0)
 		(unit 1)
 		(body_style 1)
@@ -11945,7 +12479,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+		(property "Footprint" "KL_Footprints:TestPoint"
 			(at 46.99 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -11991,7 +12525,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_R:R_22_100mW_1pct_0603")
+		(lib_id "KL_R:R_22R_0.1W_1pct_0603")
 		(at 133.35 113.03 90)
 		(unit 1)
 		(body_style 1)
@@ -12011,7 +12545,7 @@
 				)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "22R"
 			(at 133.35 113.03 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12044,28 +12578,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 133.35 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" "0.1"
-			(at 133.35 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "1"
 			(at 133.35 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -12109,7 +12621,7 @@
 				)
 			)
 		)
-		(property "Farnell" ""
+		(property "Power_in_W" "0.1"
 			(at 133.35 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -12120,7 +12632,29 @@
 				)
 			)
 		)
-		(property "Package (in)" "0603"
+		(property "Tolerance_in_pct" "1"
+			(at 133.35 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0603FR-1022RL"
+			(at 133.35 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
 			(at 133.35 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -12147,7 +12681,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_C:C_100n_10V_X7R_0603_10")
+		(lib_id "KL_C:C_100n_10V_10pct_X7R_0603")
 		(at 190.5 20.32 0)
 		(unit 1)
 		(body_style 1)
@@ -12191,7 +12725,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X7R_6_3V-TO-250V"
 			(at 190.5 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -12203,28 +12737,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 190.5 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "10"
-			(at 190.5 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "50"
 			(at 190.5 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -12268,6 +12780,61 @@
 				)
 			)
 		)
+		(property "Voltage_in_V" "10"
+			(at 190.5 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance_in_pct" "10"
+			(at 190.5 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 190.5 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
+			(at 190.5 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CC0603KRX7R6BB104"
+			(at 190.5 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "15c0833f-7226-4df4-b73e-8870d6037812")
 		)
@@ -12284,7 +12851,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_C:C_4u7_10V_X5R_0603_10")
+		(lib_id "KL_C:C_4u7_10V_10pct_X5R_0603")
 		(at 264.16 20.32 0)
 		(unit 1)
 		(body_style 1)
@@ -12328,7 +12895,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1006_X5R_SMD"
 			(at 264.16 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -12340,28 +12907,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 264.16 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "10"
-			(at 264.16 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "10"
 			(at 264.16 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -12405,6 +12950,61 @@
 				)
 			)
 		)
+		(property "Voltage_in_V" "10"
+			(at 264.16 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance_in_pct" "10"
+			(at 264.16 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 264.16 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
+			(at 264.16 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "C0603C475K8PAC7411"
+			(at 264.16 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e04adf65-4179-408c-8dee-7eb1116ff956")
 		)
@@ -12421,7 +13021,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_R:R_0R_2W_5_2512")
+		(lib_id "KL_R:R_0R_2W_5pct_2512")
 		(at 80.01 31.75 90)
 		(unit 1)
 		(body_style 1)
@@ -12462,7 +13062,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/CRF-J.pdf"
 			(at 80.01 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -12484,29 +13084,7 @@
 				)
 			)
 		)
-		(property "Power" "2"
-			(at 80.01 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "5"
-			(at 80.01 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" "652-CRF2512-J-000ELF "
+		(property "Mouser" "652-CRF2512-J-000ELF"
 			(at 80.01 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -12539,7 +13117,7 @@
 				)
 			)
 		)
-		(property "Farnell" ""
+		(property "Power_in_W" "2"
 			(at 80.01 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -12550,7 +13128,29 @@
 				)
 			)
 		)
-		(property "Package (in)" "2512"
+		(property "Tolerance_in_pct" "5"
+			(at 80.01 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CRF2512-J/-000ELF"
+			(at 80.01 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "2512"
 			(at 80.01 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -12577,7 +13177,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_R:R_22_100mW_1pct_0603")
+		(lib_id "KL_R:R_22R_0.1W_1pct_0603")
 		(at 147.32 120.65 90)
 		(unit 1)
 		(body_style 1)
@@ -12597,7 +13197,7 @@
 				)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "22R"
 			(at 147.32 120.65 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12630,28 +13230,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 147.32 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" "0.1"
-			(at 147.32 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "1"
 			(at 147.32 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -12695,7 +13273,7 @@
 				)
 			)
 		)
-		(property "Farnell" ""
+		(property "Power_in_W" "0.1"
 			(at 147.32 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -12706,7 +13284,29 @@
 				)
 			)
 		)
-		(property "Package (in)" "0603"
+		(property "Tolerance_in_pct" "1"
+			(at 147.32 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0603FR-1022RL"
+			(at 147.32 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
 			(at 147.32 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -12733,7 +13333,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_LED:LED_red_2V_0.03A")
+		(lib_id "KL_LED:LED_Red_2V_0.03A_0603")
 		(at 58.42 133.35 180)
 		(unit 1)
 		(body_style 1)
@@ -12886,6 +13486,28 @@
 				)
 			)
 		)
+		(property "Package_in_inch" "0603"
+			(at 58.42 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "LTST-C194KRKT"
+			(at 58.42 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c80be1be-04e7-4594-a674-8bacb55f3f9e")
 		)
@@ -12902,7 +13524,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_R:R_10K_100mW_5_0603")
+		(lib_id "KL_R:R_10K_0.1W_5pct_0603")
 		(at 48.26 35.56 0)
 		(unit 1)
 		(body_style 1)
@@ -12946,7 +13568,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 48.26 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -12958,28 +13580,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 48.26 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" "100mW"
-			(at 48.26 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "5%"
 			(at 48.26 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -13023,7 +13623,7 @@
 				)
 			)
 		)
-		(property "Package (in)" "0603"
+		(property "Power_in_W" "0.1"
 			(at 48.26 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -13034,7 +13634,29 @@
 				)
 			)
 		)
-		(property "Farnell" ""
+		(property "Tolerance_in_pct" "5"
+			(at 48.26 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CRCW060310K0JNEC"
+			(at 48.26 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
 			(at 48.26 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -13061,7 +13683,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_C:C_100n_10V_X7R_0603_10")
+		(lib_id "KL_C:C_100n_10V_10pct_X7R_0603")
 		(at 241.3 20.32 0)
 		(unit 1)
 		(body_style 1)
@@ -13105,7 +13727,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X7R_6_3V-TO-250V"
 			(at 241.3 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -13117,28 +13739,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 241.3 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "10"
-			(at 241.3 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "50"
 			(at 241.3 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -13182,6 +13782,61 @@
 				)
 			)
 		)
+		(property "Voltage_in_V" "10"
+			(at 241.3 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance_in_pct" "10"
+			(at 241.3 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 241.3 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
+			(at 241.3 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CC0603KRX7R6BB104"
+			(at 241.3 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "84e02e71-f365-41ba-8756-58ef13cf16a6")
 		)
@@ -13198,7 +13853,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_TP:TestPoint")
+		(lib_id "KL_TestPoint:TestPoint")
 		(at 77.47 44.45 0)
 		(unit 1)
 		(body_style 1)
@@ -13230,7 +13885,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+		(property "Footprint" "KL_Footprints:TestPoint"
 			(at 82.55 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -13276,7 +13931,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_LED:LED_green_2V1_0.03A")
+		(lib_id "KL_LED:LED_Green_2.1V_0.03A_0603")
 		(at 58.42 148.59 180)
 		(unit 1)
 		(body_style 1)
@@ -13429,6 +14084,28 @@
 				)
 			)
 		)
+		(property "Package_in_inch" "0603"
+			(at 58.42 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "LTST-C190GKT"
+			(at 58.42 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "72e8e975-6742-4e77-8034-cf9f6b2056a9")
 		)
@@ -13546,6 +14223,28 @@
 			)
 		)
 		(property "I_DD_max_A" "0.544"
+			(at 101.6 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "V_DD_max_V" "4"
+			(at 101.6 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "STM32H742VGT6"
 			(at 101.6 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -13866,7 +14565,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_Headers:03x01_2.54mm_Header")
+		(lib_id "KL_Header:Header_03x01_2.54mm_0mm_Straight")
 		(at 43.18 43.18 180)
 		(unit 1)
 		(body_style 1)
@@ -13887,7 +14586,7 @@
 				)
 			)
 		)
-		(property "Value" "03x01_2.54mm_Header"
+		(property "Value" "Header_03x01_2.54mm_0mm_Straight"
 			(at 43.18 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -13909,7 +14608,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=87224&DocType=Customer+Drawing&DocLang=English"
 			(at 43.18 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -13920,7 +14619,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Pin Header"
 			(at 43.18 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -13964,6 +14663,72 @@
 				)
 			)
 		)
+		(property "No_of_pins" "3"
+			(at 43.18 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "No_of_rows" "1"
+			(at 43.18 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch_pin_in_mm" "2.54"
+			(at 43.18 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch_row_in_mm" "0"
+			(at 43.18 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Orientation" "Straight"
+			(at 43.18 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "87224-3"
+			(at 43.18 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "a0a257fd-70d3-40b0-a854-3e4848ec5a49")
 		)
@@ -13983,7 +14748,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_TP:TestPoint")
+		(lib_id "KL_TestPoint:TestPoint")
 		(at 41.91 105.41 0)
 		(unit 1)
 		(body_style 1)
@@ -14015,7 +14780,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+		(property "Footprint" "KL_Footprints:TestPoint"
 			(at 46.99 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -14061,7 +14826,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_Headers:07x01_2.54mm_Header")
+		(lib_id "KL_Header:Header_07x01_2.54mm_0mm_Straight")
 		(at 215.9 66.04 180)
 		(unit 1)
 		(body_style 1)
@@ -14083,7 +14848,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "07x01_2.54mm_Header"
+		(property "Value" "Header_07x01_2.54mm_0mm_Straight"
 			(at 215.9 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -14105,7 +14870,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/tlw_th.pdf"
 			(at 215.9 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -14116,7 +14881,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Pin Header"
 			(at 215.9 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -14160,6 +14925,72 @@
 				)
 			)
 		)
+		(property "MPN" "TLW-107-06-G-S"
+			(at 215.9 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "No_of_pins" "7"
+			(at 215.9 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "No_of_rows" "1"
+			(at 215.9 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch_pin_in_mm" "2.54"
+			(at 215.9 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch_row_in_mm" "0"
+			(at 215.9 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Orientation" "Straight"
+			(at 215.9 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "6"
 			(uuid "cc2706ef-791e-4f62-9f14-117555e8f68c")
 		)
@@ -14191,7 +15022,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_C:C_100n_10V_X7R_0603_10")
+		(lib_id "KL_C:C_100n_10V_10pct_X7R_0603")
 		(at 203.2 20.32 0)
 		(unit 1)
 		(body_style 1)
@@ -14235,7 +15066,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X7R_6_3V-TO-250V"
 			(at 203.2 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -14247,28 +15078,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 203.2 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "10"
-			(at 203.2 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "50"
 			(at 203.2 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -14312,6 +15121,61 @@
 				)
 			)
 		)
+		(property "Voltage_in_V" "10"
+			(at 203.2 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance_in_pct" "10"
+			(at 203.2 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 203.2 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
+			(at 203.2 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CC0603KRX7R6BB104"
+			(at 203.2 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3a3ade3c-34fa-410c-b60d-fecefdf1a59b")
 		)
@@ -14328,7 +15192,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_C:C_2u2_10V_Y5V_0603_20")
+		(lib_id "KL_C:C_2u2_10V_20pct_Y5V_0603")
 		(at 29.21 139.7 90)
 		(unit 1)
 		(body_style 1)
@@ -14370,7 +15234,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "file:///home/alex/Downloads/MLASE168SB5225KTNA01_SS.pdf"
 			(at 29.21 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -14382,28 +15246,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 29.21 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "10"
-			(at 29.21 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "16"
 			(at 29.21 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -14437,6 +15279,61 @@
 			)
 		)
 		(property "LCSC" "C76612"
+			(at 29.21 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage_in_V" "10"
+			(at 29.21 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance_in_pct" "20"
+			(at 29.21 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "Y5V"
+			(at 29.21 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
+			(at 29.21 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "EMK107BJ225KA-T"
 			(at 29.21 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -14541,7 +15438,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_LED:LED_orange_2V_0.03A")
+		(lib_id "KL_LED:LED_Orange_2V_0.03A_0603")
 		(at 58.42 140.97 180)
 		(unit 1)
 		(body_style 1)
@@ -14694,6 +15591,28 @@
 				)
 			)
 		)
+		(property "Package_in_inch" "0603"
+			(at 58.42 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "LTST-C190KFKT"
+			(at 58.42 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "92951401-265d-4984-954f-b9f433f49d7f")
 		)
@@ -14788,7 +15707,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_C:C_2u2_10V_Y5V_0603_20")
+		(lib_id "KL_C:C_2u2_10V_20pct_Y5V_0603")
 		(at 29.21 151.13 90)
 		(unit 1)
 		(body_style 1)
@@ -14830,7 +15749,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "file:///home/alex/Downloads/MLASE168SB5225KTNA01_SS.pdf"
 			(at 29.21 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -14842,28 +15761,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 29.21 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "10"
-			(at 29.21 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "16"
 			(at 29.21 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -14907,6 +15804,61 @@
 				)
 			)
 		)
+		(property "Voltage_in_V" "10"
+			(at 29.21 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance_in_pct" "20"
+			(at 29.21 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "Y5V"
+			(at 29.21 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
+			(at 29.21 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "EMK107BJ225KA-T"
+			(at 29.21 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "629b2664-2064-4db7-9080-f3f5e03f193d")
 		)
@@ -14923,7 +15875,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_R:R_1K5_100mW_5_0603")
+		(lib_id "KL_R:R_1K5_0.1W_5pct_0603")
 		(at 69.85 140.97 90)
 		(unit 1)
 		(body_style 1)
@@ -14986,28 +15938,6 @@
 				)
 			)
 		)
-		(property "Power" "0.1"
-			(at 69.85 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "5"
-			(at 69.85 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Mouser" "603-AC0603JR-071K5L"
 			(at 69.85 140.97 0)
 			(hide yes)
@@ -15041,7 +15971,7 @@
 				)
 			)
 		)
-		(property "Package (in)" "0603"
+		(property "Power_in_W" "0.1"
 			(at 69.85 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -15052,7 +15982,29 @@
 				)
 			)
 		)
-		(property "Farnell" ""
+		(property "Tolerance_in_pct" "5"
+			(at 69.85 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "AC0603JR-071K5L"
+			(at 69.85 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
 			(at 69.85 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -15235,7 +16187,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_TP:TestPoint")
+		(lib_id "KL_TestPoint:TestPoint")
 		(at 41.91 120.65 0)
 		(unit 1)
 		(body_style 1)
@@ -15267,7 +16219,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+		(property "Footprint" "KL_Footprints:TestPoint"
 			(at 46.99 120.65 0)
 			(hide yes)
 			(show_name no)
