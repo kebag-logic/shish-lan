@@ -12,7 +12,7 @@
 		(comment 1 "Confidential")
 	)
 	(lib_symbols
-		(symbol "KL_Connector:DC_2mm5_5mm5_5A_30V"
+		(symbol "KL_Conn_Power:Con_DC_Barrel_5.5mmx2.5mm"
 			(pin_names
 				(hide yes)
 			)
@@ -75,7 +75,7 @@
 					)
 				)
 			)
-			(property "inner_diameter_mm" "2.5"
+			(property "Outer_Diameter_in_mm" "5.5"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -86,7 +86,7 @@
 					)
 				)
 			)
-			(property "outer_diameter_mm" "5.5"
+			(property "Inner_Diameter_in_mm" "2.5"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -119,6 +119,17 @@
 					)
 				)
 			)
+			(property "MPN" "694108301002"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "Mouser" "710-694108301002"
 				(at 0 0 0)
 				(show_name no)
@@ -141,7 +152,7 @@
 					)
 				)
 			)
-			(property "LCSC" ""
+			(property "LCSC" "~"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -174,7 +185,7 @@
 					)
 				)
 			)
-			(symbol "DC_2mm5_5mm5_5A_30V_0_1"
+			(symbol "Con_DC_Barrel_5.5mmx2.5mm_0_1"
 				(rectangle
 					(start -5.08 3.81)
 					(end 5.08 -3.81)
@@ -270,7 +281,7 @@
 					)
 				)
 			)
-			(symbol "DC_2mm5_5mm5_5A_30V_1_1"
+			(symbol "Con_DC_Barrel_5.5mmx2.5mm_1_1"
 				(pin passive line
 					(at 7.62 2.54 180)
 					(length 2.54)
@@ -443,7 +454,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "KL_Headers:02x01_2.54mm_Header"
+		(symbol "KL_Header:Header_02x01_2.54mm_0mm_Straight"
 			(pin_names
 				(hide yes)
 			)
@@ -462,7 +473,7 @@
 					)
 				)
 			)
-			(property "Value" "02x01_2.54mm_Header"
+			(property "Value" "Header_02x01_2.54mm_0mm_Straight"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -484,7 +495,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=87224&DocType=Customer+Drawing&DocLang=English"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -495,7 +506,73 @@
 					)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "Pin Header"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "No_of_pins" "2"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "No_of_rows" "1"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Pitch_pin_in_mm" "2.54"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Pitch_row_in_mm" "0"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Orientation" "Straight"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "87224-2"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -539,7 +616,7 @@
 					)
 				)
 			)
-			(symbol "02x01_2.54mm_Header_1_1"
+			(symbol "Header_02x01_2.54mm_0mm_Straight_1_1"
 				(rectangle
 					(start -1.27 2.54)
 					(end 1.27 -2.54)
@@ -612,7 +689,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "KL_Headers:03x01_2.54mm_Header"
+		(symbol "KL_Header:Header_03x01_2.54mm_0mm_Straight"
 			(pin_names
 				(hide yes)
 			)
@@ -631,7 +708,7 @@
 					)
 				)
 			)
-			(property "Value" "03x01_2.54mm_Header"
+			(property "Value" "Header_03x01_2.54mm_0mm_Straight"
 				(at 0 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -653,7 +730,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=87224&DocType=Customer+Drawing&DocLang=English"
 				(at 0 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -664,8 +741,74 @@
 					)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "Pin Header"
 				(at 0 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "No_of_pins" "3"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "No_of_rows" "1"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Pitch_pin_in_mm" "2.54"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Pitch_row_in_mm" "0"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Orientation" "Straight"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "87224-3"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -708,7 +851,7 @@
 					)
 				)
 			)
-			(symbol "03x01_2.54mm_Header_1_1"
+			(symbol "Header_03x01_2.54mm_0mm_Straight_1_1"
 				(rectangle
 					(start -1.27 3.81)
 					(end 1.27 -3.81)
@@ -910,7 +1053,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "KL_R:R_10K_100mW_5_0603"
+		(symbol "KL_R:R_10K_0.1W_5pct_0603"
 			(pin_numbers
 				(hide yes)
 			)
@@ -953,7 +1096,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -975,7 +1118,7 @@
 					)
 				)
 			)
-			(property "Power" "100mW"
+			(property "Power_in_W" "0.1"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -986,7 +1129,18 @@
 					)
 				)
 			)
-			(property "Tolerance" "5%"
+			(property "Tolerance_in_pct" "5"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "CRCW060310K0JNEC"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1030,18 +1184,7 @@
 					)
 				)
 			)
-			(property "Package (in)" "0603"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Farnell" ""
+			(property "Package_in_inch" "0603"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1074,7 +1217,7 @@
 					)
 				)
 			)
-			(symbol "R_10K_100mW_5_0603_0_1"
+			(symbol "R_10K_0.1W_5pct_0603_0_1"
 				(rectangle
 					(start -1.016 -2.54)
 					(end 1.016 2.54)
@@ -1087,7 +1230,7 @@
 					)
 				)
 			)
-			(symbol "R_10K_100mW_5_0603_1_1"
+			(symbol "R_10K_0.1W_5pct_0603_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -1127,122 +1270,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "KL_SYM_LOCAL:GND"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GND_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "KL_TP:TestPoint"
+		(symbol "KL_TestPoint:TestPoint"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1276,7 +1304,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(property "Footprint" "KL_Footprints:TestPoint"
 				(at 5.08 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1486,6 +1514,121 @@
 			(symbol "+3V3_1_1"
 				(pin power_in line
 					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
 					(length 0)
 					(name ""
 						(effects
@@ -8812,7 +8955,7 @@
 		(uuid "cd5f9e28-d32e-4dd1-83c2-4f3733b722fc")
 	)
 	(symbol
-		(lib_id "KL_SYM_LOCAL:GND")
+		(lib_id "power:GND")
 		(at 35.56 189.23 0)
 		(unit 1)
 		(body_style 1)
@@ -8968,7 +9111,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_SYM_LOCAL:GND")
+		(lib_id "power:GND")
 		(at 20.32 189.23 0)
 		(unit 1)
 		(body_style 1)
@@ -9046,7 +9189,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_R:R_10K_100mW_5_0603")
+		(lib_id "KL_R:R_10K_0.1W_5pct_0603")
 		(at 148.59 34.29 0)
 		(unit 1)
 		(body_style 1)
@@ -9090,7 +9233,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 148.59 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -9205,7 +9348,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_TP:TestPoint")
+		(lib_id "KL_TestPoint:TestPoint")
 		(at 25.4 187.96 0)
 		(unit 1)
 		(body_style 1)
@@ -9237,7 +9380,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+		(property "Footprint" "KL_Footprints:TestPoint"
 			(at 30.48 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -9283,7 +9426,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_Headers:03x01_2.54mm_Header")
+		(lib_id "KL_Header:Header_03x01_2.54mm_0mm_Straight")
 		(at 142.24 15.24 90)
 		(unit 1)
 		(body_style 1)
@@ -9305,7 +9448,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "03x01_2.54mm_Header"
+		(property "Value" "Header_03x01_2.54mm_0mm_Straight"
 			(at 140.97 15.24 0)
 			(hide yes)
 			(show_name no)
@@ -9327,7 +9470,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=87224&DocType=Customer+Drawing&DocLang=English"
 			(at 140.97 15.24 0)
 			(hide yes)
 			(show_name no)
@@ -9338,7 +9481,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Pin Header"
 			(at 140.97 15.24 0)
 			(hide yes)
 			(show_name no)
@@ -9382,6 +9525,72 @@
 				)
 			)
 		)
+		(property "No_of_pins" "3"
+			(at 142.24 15.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "No_of_rows" "1"
+			(at 142.24 15.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch_pin_in_mm" "2.54"
+			(at 142.24 15.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch_row_in_mm" "0"
+			(at 142.24 15.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Orientation" "Straight"
+			(at 142.24 15.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "87224-3"
+			(at 142.24 15.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7baaaa01-a50d-449a-87bd-59810fd2e7f6")
 		)
@@ -9401,7 +9610,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_Headers:02x01_2.54mm_Header")
+		(lib_id "KL_Header:Header_02x01_2.54mm_0mm_Straight")
 		(at 63.5 128.27 180)
 		(unit 1)
 		(body_style 1)
@@ -9422,7 +9631,7 @@
 				)
 			)
 		)
-		(property "Value" "02x01_2.54mm_Header"
+		(property "Value" "Header_02x01_2.54mm_0mm_Straight"
 			(at 63.5 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -9444,7 +9653,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=87224&DocType=Customer+Drawing&DocLang=English"
 			(at 63.5 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -9455,7 +9664,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Pin Header"
 			(at 63.5 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -9499,6 +9708,72 @@
 				)
 			)
 		)
+		(property "No_of_pins" "2"
+			(at 63.5 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "No_of_rows" "1"
+			(at 63.5 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch_pin_in_mm" "2.54"
+			(at 63.5 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch_row_in_mm" "0"
+			(at 63.5 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Orientation" "Straight"
+			(at 63.5 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "87224-2"
+			(at 63.5 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "75c21e78-c536-407a-8b63-56f74ba67cb2")
 		)
@@ -9515,7 +9790,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_R:R_10K_100mW_5_0603")
+		(lib_id "KL_R:R_10K_0.1W_5pct_0603")
 		(at 130.81 34.29 0)
 		(unit 1)
 		(body_style 1)
@@ -9559,7 +9834,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 130.81 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -9571,28 +9846,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 130.81 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" "100mW"
-			(at 130.81 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "5%"
 			(at 130.81 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -9636,7 +9889,7 @@
 				)
 			)
 		)
-		(property "Package (in)" "0603"
+		(property "Power_in_W" "0.1"
 			(at 130.81 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -9647,7 +9900,29 @@
 				)
 			)
 		)
-		(property "Farnell" ""
+		(property "Tolerance_in_pct" "5"
+			(at 130.81 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CRCW060310K0JNEC"
+			(at 130.81 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
 			(at 130.81 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -9830,7 +10105,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_TP:TestPoint")
+		(lib_id "KL_TestPoint:TestPoint")
 		(at 20.32 187.96 0)
 		(unit 1)
 		(body_style 1)
@@ -9862,7 +10137,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+		(property "Footprint" "KL_Footprints:TestPoint"
 			(at 25.4 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -9920,13 +10195,14 @@
 		(fields_autoplaced yes)
 		(uuid "6bd5764a-b0cf-4be3-9b2c-328733e15e6a")
 		(property "Reference" "H2"
-			(at 59.69 186.69 0)
+			(at 62.23 190.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "MountingHole_M3"
@@ -9995,13 +10271,14 @@
 		(fields_autoplaced yes)
 		(uuid "74b9c097-b78b-466c-bceb-5b7f94e4b1fc")
 		(property "Reference" "H3"
-			(at 67.31 186.69 0)
+			(at 69.85 190.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "MountingHole_M3"
@@ -10136,7 +10413,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_SYM_LOCAL:GND")
+		(lib_id "power:GND")
 		(at 67.31 111.76 0)
 		(unit 1)
 		(body_style 1)
@@ -10226,13 +10503,14 @@
 		(fields_autoplaced yes)
 		(uuid "8b62d64a-38e7-4b1a-b0c2-6242c795a1cc")
 		(property "Reference" "H1"
-			(at 52.07 186.69 0)
+			(at 54.61 190.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "MountingHole_M3"
@@ -10289,7 +10567,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_TP:TestPoint")
+		(lib_id "KL_TestPoint:TestPoint")
 		(at 30.48 187.96 0)
 		(unit 1)
 		(body_style 1)
@@ -10321,7 +10599,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+		(property "Footprint" "KL_Footprints:TestPoint"
 			(at 35.56 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -10367,7 +10645,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_SYM_LOCAL:GND")
+		(lib_id "power:GND")
 		(at 25.4 189.23 0)
 		(unit 1)
 		(body_style 1)
@@ -10445,7 +10723,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_Connector:DC_2mm5_5mm5_5A_30V")
+		(lib_id "KL_Conn_Power:Con_DC_Barrel_5.5mmx2.5mm")
 		(at 59.69 107.95 0)
 		(unit 1)
 		(body_style 1)
@@ -10510,28 +10788,6 @@
 				)
 			)
 		)
-		(property "inner_diameter_mm" "2.5"
-			(at 59.69 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "outer_diameter_mm" "5.5"
-			(at 59.69 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "I_max_A" "5"
 			(at 59.69 107.95 0)
 			(hide yes)
@@ -10576,7 +10832,40 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "~"
+			(at 59.69 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Outer_Diameter_in_mm" "5.5"
+			(at 59.69 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Inner_Diameter_in_mm" "2.5"
+			(at 59.69 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "694108301002"
 			(at 59.69 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -10606,7 +10895,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_SYM_LOCAL:GND")
+		(lib_id "power:GND")
 		(at 30.48 189.23 0)
 		(unit 1)
 		(body_style 1)
@@ -10684,7 +10973,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_TP:TestPoint")
+		(lib_id "KL_TestPoint:TestPoint")
 		(at 35.56 187.96 0)
 		(unit 1)
 		(body_style 1)
@@ -10716,7 +11005,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+		(property "Footprint" "KL_Footprints:TestPoint"
 			(at 40.64 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -10930,13 +11219,14 @@
 		(fields_autoplaced yes)
 		(uuid "db0f67f7-e02b-476d-8aa3-65ba49aa0cf3")
 		(property "Reference" "H4"
-			(at 74.93 186.69 0)
+			(at 77.47 190.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "MountingHole_M3"
@@ -10993,7 +11283,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_SYM_LOCAL:GND")
+		(lib_id "power:GND")
 		(at 139.7 20.32 0)
 		(unit 1)
 		(body_style 1)
@@ -11071,7 +11361,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_SYM_LOCAL:GND")
+		(lib_id "power:GND")
 		(at 82.55 138.43 0)
 		(unit 1)
 		(body_style 1)
