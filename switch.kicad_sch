@@ -12,7 +12,7 @@
 		(comment 1 "Confidential")
 	)
 	(lib_symbols
-		(symbol "KL_Headers:02x01_2.54mm_Header"
+		(symbol "KL_Header:Header_02x01_2.54mm_0mm_Straight"
 			(pin_names
 				(hide yes)
 			)
@@ -31,7 +31,7 @@
 					)
 				)
 			)
-			(property "Value" "02x01_2.54mm_Header"
+			(property "Value" "Header_02x01_2.54mm_0mm_Straight"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -53,7 +53,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=87224&DocType=Customer+Drawing&DocLang=English"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -64,7 +64,73 @@
 					)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "Pin Header"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "No_of_pins" "2"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "No_of_rows" "1"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Pitch_pin_in_mm" "2.54"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Pitch_row_in_mm" "0"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Orientation" "Straight"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "87224-2"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -108,7 +174,7 @@
 					)
 				)
 			)
-			(symbol "02x01_2.54mm_Header_1_1"
+			(symbol "Header_02x01_2.54mm_0mm_Straight_1_1"
 				(rectangle
 					(start -1.27 2.54)
 					(end 1.27 -2.54)
@@ -181,7 +247,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "KL_IC_LAN9645xF:lan9645xF_128_TQFP"
+		(symbol "KL_Network_Switch:LAN96455F_TQFP-128"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -219,7 +285,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/NCS/ProductDocuments/DataSheets/LAN9645xF_Data_Sheet_DS00006065.pdf"
 				(at 0 -16.51 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -230,41 +296,8 @@
 					)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "Network Switch"
 				(at 0 -16.51 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Mouser" "579-LAN96455FI8MW"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Digikey" "150-LAN96455F-I/8MW-ND"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC" ""
-				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -362,6 +395,50 @@
 					)
 				)
 			)
+			(property "MPN" "LAN96455F-I/8MW "
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Mouser" "579-LAN96455FI8MW"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Digikey" "150-LAN96455F-I/8MW-ND"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "NA"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "ki_locked" ""
 				(at 0 0 0)
 				(show_name no)
@@ -372,7 +449,7 @@
 					)
 				)
 			)
-			(symbol "lan9645xF_128_TQFP_1_0"
+			(symbol "LAN96455F_TQFP-128_1_0"
 				(pin power_in line
 					(at 35.56 0 180)
 					(length 5.08)
@@ -518,7 +595,7 @@
 					)
 				)
 			)
-			(symbol "lan9645xF_128_TQFP_1_1"
+			(symbol "LAN96455F_TQFP-128_1_1"
 				(rectangle
 					(start 0 20.32)
 					(end 15.24 10.16)
@@ -1259,7 +1336,7 @@
 					)
 				)
 			)
-			(symbol "lan9645xF_128_TQFP_2_0"
+			(symbol "LAN96455F_TQFP-128_2_0"
 				(pin input line
 					(at -5.08 -7.62 0)
 					(length 5.08)
@@ -2035,7 +2112,7 @@
 					)
 				)
 			)
-			(symbol "lan9645xF_128_TQFP_2_1"
+			(symbol "LAN96455F_TQFP-128_2_1"
 				(rectangle
 					(start 0 0)
 					(end 100.33 -119.38)
@@ -2075,7 +2152,7 @@
 					)
 				)
 			)
-			(symbol "lan9645xF_128_TQFP_3_0"
+			(symbol "LAN96455F_TQFP-128_3_0"
 				(pin input line
 					(at -5.08 -59.69 0)
 					(length 5.08)
@@ -2815,7 +2892,7 @@
 					)
 				)
 			)
-			(symbol "lan9645xF_128_TQFP_3_1"
+			(symbol "LAN96455F_TQFP-128_3_1"
 				(rectangle
 					(start 0 0)
 					(end 16.51 -20.32)
@@ -2923,7 +3000,7 @@
 					)
 				)
 			)
-			(symbol "lan9645xF_128_TQFP_4_0"
+			(symbol "LAN96455F_TQFP-128_4_0"
 				(pin input line
 					(at -5.08 -33.02 0)
 					(length 5.08)
@@ -3105,7 +3182,7 @@
 					)
 				)
 			)
-			(symbol "lan9645xF_128_TQFP_4_1"
+			(symbol "LAN96455F_TQFP-128_4_1"
 				(rectangle
 					(start 0 0)
 					(end 29.21 -15.24)
@@ -3141,121 +3218,6 @@
 					(effects
 						(font
 							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "KL_SYM_LOCAL:GND"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GND_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
 						)
 					)
 				)
@@ -3382,6 +3344,121 @@
 			(symbol "+3V3_1_1"
 				(pin power_in line
 					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
 					(length 0)
 					(name ""
 						(effects
@@ -3872,6 +3949,16 @@
 		)
 		(uuid "0887a5c4-3d9e-4d69-b323-a093e4fadfca")
 	)
+	(label "nRST_STM_TO_SWITCH"
+		(at 96.52 21.59 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0b5a73be-b903-44d9-a2d7-5e2debd8fa30")
+	)
 	(label "1V15_BUCK-OUT"
 		(at 274.32 134.62 180)
 		(effects
@@ -3891,16 +3978,6 @@
 			(justify right bottom)
 		)
 		(uuid "28934c4b-e63c-486b-adaa-5c28769e519a")
-	)
-	(label "nRST_STM_TO_SWITCH"
-		(at 96.52 21.59 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2e6626d1-0dc9-4c3d-9d8a-429de76bddce")
 	)
 	(label "IRQ0_SWITCH_TO_STM"
 		(at 96.52 48.26 180)
@@ -4091,7 +4168,7 @@
 		(uuid "dab47663-ebce-4033-80bc-662c6e2dc120")
 	)
 	(symbol
-		(lib_id "KL_Headers:02x01_2.54mm_Header")
+		(lib_id "KL_Header:Header_02x01_2.54mm_0mm_Straight")
 		(at 172.72 156.21 0)
 		(mirror x)
 		(unit 1)
@@ -4112,7 +4189,7 @@
 				)
 			)
 		)
-		(property "Value" "02x01_2.54mm_Header"
+		(property "Value" "Header_02x01_2.54mm_0mm_Straight"
 			(at 172.72 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -4134,7 +4211,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=87224&DocType=Customer+Drawing&DocLang=English"
 			(at 172.72 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -4145,7 +4222,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Pin Header"
 			(at 172.72 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -4211,7 +4288,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_Headers:02x01_2.54mm_Header")
+		(lib_id "KL_Header:Header_02x01_2.54mm_0mm_Straight")
 		(at 160.02 158.75 0)
 		(mirror x)
 		(unit 1)
@@ -4232,7 +4309,7 @@
 				)
 			)
 		)
-		(property "Value" "02x01_2.54mm_Header"
+		(property "Value" "Header_02x01_2.54mm_0mm_Straight"
 			(at 160.02 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -4254,7 +4331,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=87224&DocType=Customer+Drawing&DocLang=English"
 			(at 160.02 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -4265,7 +4342,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Pin Header"
 			(at 160.02 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -4299,6 +4376,72 @@
 			)
 		)
 		(property "LCSC" "C5383111"
+			(at 160.02 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "No_of_pins" "2"
+			(at 160.02 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "No_of_rows" "1"
+			(at 160.02 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch_pin_in_mm" "2.54"
+			(at 160.02 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch_row_in_mm" "0"
+			(at 160.02 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Orientation" "Straight"
+			(at 160.02 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "87224-2"
 			(at 160.02 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -4565,7 +4708,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_SYM_LOCAL:GND")
+		(lib_id "power:GND")
 		(at 167.64 161.29 0)
 		(unit 1)
 		(body_style 1)
@@ -4643,7 +4786,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_IC_LAN9645xF:lan9645xF_128_TQFP")
+		(lib_id "KL_Network_Switch:LAN96455F_TQFP-128")
 		(at 138.43 21.59 0)
 		(unit 4)
 		(body_style 1)
@@ -4686,7 +4829,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/NCS/ProductDocuments/DataSheets/LAN9645xF_Data_Sheet_DS00006065.pdf"
 			(at 138.43 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -4697,7 +4840,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Network Switch"
 			(at 138.43 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -4730,7 +4873,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "NA"
 			(at 138.43 21.59 0)
 			(hide yes)
 			(show_name no)
@@ -4819,6 +4962,17 @@
 			)
 		)
 		(property "I_DD_IOD" "0.005"
+			(at 138.43 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "LAN96455F-I/8MW "
 			(at 138.43 21.59 0)
 			(hide yes)
 			(show_name no)
@@ -5232,7 +5386,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_SYM_LOCAL:GND")
+		(lib_id "power:GND")
 		(at 154.94 161.29 0)
 		(unit 1)
 		(body_style 1)
