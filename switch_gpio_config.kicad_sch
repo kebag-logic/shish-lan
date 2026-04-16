@@ -12,7 +12,7 @@
 		(comment 1 "Confidential")
 	)
 	(lib_symbols
-		(symbol "KL_R:R_10K_100mW_5_0603"
+		(symbol "KL_R:R_10K_0.1W_5pct_0603"
 			(pin_numbers
 				(hide yes)
 			)
@@ -55,7 +55,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -77,7 +77,7 @@
 					)
 				)
 			)
-			(property "Power" "100mW"
+			(property "Power_in_W" "0.1"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -88,7 +88,18 @@
 					)
 				)
 			)
-			(property "Tolerance" "5%"
+			(property "Tolerance_in_pct" "5"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "CRCW060310K0JNEC"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -132,18 +143,7 @@
 					)
 				)
 			)
-			(property "Package (in)" "0603"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Farnell" ""
+			(property "Package_in_inch" "0603"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -176,7 +176,7 @@
 					)
 				)
 			)
-			(symbol "R_10K_100mW_5_0603_0_1"
+			(symbol "R_10K_0.1W_5pct_0603_0_1"
 				(rectangle
 					(start -1.016 -2.54)
 					(end 1.016 2.54)
@@ -189,7 +189,7 @@
 					)
 				)
 			)
-			(symbol "R_10K_100mW_5_0603_1_1"
+			(symbol "R_10K_0.1W_5pct_0603_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -229,7 +229,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "KL_SYM_LOCAL:GND"
+		(symbol "power:GND"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -2650,7 +2650,7 @@
 		(uuid "dbd6d611-8b6f-4b23-963c-acd08bf768c5")
 	)
 	(symbol
-		(lib_id "KL_R:R_10K_100mW_5_0603")
+		(lib_id "KL_R:R_10K_0.1W_5pct_0603")
 		(at 187.96 90.17 0)
 		(unit 1)
 		(body_style 1)
@@ -2694,7 +2694,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 187.96 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -2706,28 +2706,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 187.96 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" "100mW"
-			(at 187.96 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "5%"
 			(at 187.96 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -2771,7 +2749,7 @@
 				)
 			)
 		)
-		(property "Package (in)" "0603"
+		(property "Power_in_W" "0.1"
 			(at 187.96 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -2782,7 +2760,29 @@
 				)
 			)
 		)
-		(property "Farnell" ""
+		(property "Tolerance_in_pct" "5"
+			(at 187.96 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CRCW060310K0JNEC"
+			(at 187.96 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
 			(at 187.96 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -2815,7 +2815,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_SYM_LOCAL:GND")
+		(lib_id "power:GND")
 		(at 207.01 133.35 0)
 		(unit 1)
 		(body_style 1)
@@ -2899,7 +2899,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_SYM_LOCAL:GND")
+		(lib_id "power:GND")
 		(at 187.96 95.25 0)
 		(unit 1)
 		(body_style 1)
@@ -2983,7 +2983,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_R:R_10K_100mW_5_0603")
+		(lib_id "KL_R:R_10K_0.1W_5pct_0603")
 		(at 53.34 100.33 0)
 		(unit 1)
 		(body_style 1)
@@ -3027,7 +3027,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 53.34 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -3039,28 +3039,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 53.34 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" "100mW"
-			(at 53.34 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "5%"
 			(at 53.34 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -3104,7 +3082,7 @@
 				)
 			)
 		)
-		(property "Package (in)" "0603"
+		(property "Power_in_W" "0.1"
 			(at 53.34 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -3115,7 +3093,29 @@
 				)
 			)
 		)
-		(property "Farnell" ""
+		(property "Tolerance_in_pct" "5"
+			(at 53.34 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CRCW060310K0JNEC"
+			(at 53.34 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
 			(at 53.34 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -3148,7 +3148,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_R:R_10K_100mW_5_0603")
+		(lib_id "KL_R:R_10K_0.1W_5pct_0603")
 		(at 152.4 121.92 0)
 		(unit 1)
 		(body_style 1)
@@ -3192,7 +3192,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 152.4 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -3204,28 +3204,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 152.4 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" "100mW"
-			(at 152.4 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "5%"
 			(at 152.4 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -3269,7 +3247,7 @@
 				)
 			)
 		)
-		(property "Package (in)" "0603"
+		(property "Power_in_W" "0.1"
 			(at 152.4 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -3280,7 +3258,29 @@
 				)
 			)
 		)
-		(property "Farnell" ""
+		(property "Tolerance_in_pct" "5"
+			(at 152.4 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CRCW060310K0JNEC"
+			(at 152.4 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
 			(at 152.4 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -3313,7 +3313,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_R:R_10K_100mW_5_0603")
+		(lib_id "KL_R:R_10K_0.1W_5pct_0603")
 		(at 210.82 82.55 0)
 		(unit 1)
 		(body_style 1)
@@ -3357,7 +3357,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 210.82 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -3369,28 +3369,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 210.82 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" "100mW"
-			(at 210.82 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "5%"
 			(at 210.82 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -3434,7 +3412,7 @@
 				)
 			)
 		)
-		(property "Package (in)" "0603"
+		(property "Power_in_W" "0.1"
 			(at 210.82 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -3445,7 +3423,29 @@
 				)
 			)
 		)
-		(property "Farnell" ""
+		(property "Tolerance_in_pct" "5"
+			(at 210.82 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CRCW060310K0JNEC"
+			(at 210.82 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
 			(at 210.82 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -3478,7 +3478,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_R:R_10K_100mW_5_0603")
+		(lib_id "KL_R:R_10K_0.1W_5pct_0603")
 		(at 187.96 82.55 0)
 		(unit 1)
 		(body_style 1)
@@ -3522,7 +3522,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 187.96 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -3534,28 +3534,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 187.96 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" "100mW"
-			(at 187.96 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "5%"
 			(at 187.96 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -3599,7 +3577,7 @@
 				)
 			)
 		)
-		(property "Package (in)" "0603"
+		(property "Power_in_W" "0.1"
 			(at 187.96 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -3610,7 +3588,29 @@
 				)
 			)
 		)
-		(property "Farnell" ""
+		(property "Tolerance_in_pct" "5"
+			(at 187.96 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CRCW060310K0JNEC"
+			(at 187.96 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
 			(at 187.96 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -3643,7 +3643,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_R:R_10K_100mW_5_0603")
+		(lib_id "KL_R:R_10K_0.1W_5pct_0603")
 		(at 187.96 128.27 0)
 		(unit 1)
 		(body_style 1)
@@ -3687,7 +3687,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 187.96 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -3699,28 +3699,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 187.96 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" "100mW"
-			(at 187.96 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "5%"
 			(at 187.96 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -3764,7 +3742,7 @@
 				)
 			)
 		)
-		(property "Package (in)" "0603"
+		(property "Power_in_W" "0.1"
 			(at 187.96 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -3775,7 +3753,29 @@
 				)
 			)
 		)
-		(property "Farnell" ""
+		(property "Tolerance_in_pct" "5"
+			(at 187.96 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CRCW060310K0JNEC"
+			(at 187.96 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
 			(at 187.96 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -3808,7 +3808,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_SYM_LOCAL:GND")
+		(lib_id "power:GND")
 		(at 147.32 95.25 0)
 		(unit 1)
 		(body_style 1)
@@ -3892,7 +3892,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_R:R_10K_100mW_5_0603")
+		(lib_id "KL_R:R_10K_0.1W_5pct_0603")
 		(at 29.21 69.85 0)
 		(unit 1)
 		(body_style 1)
@@ -3936,7 +3936,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 29.21 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -3948,28 +3948,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 29.21 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" "100mW"
-			(at 29.21 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "5%"
 			(at 29.21 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -4013,7 +3991,7 @@
 				)
 			)
 		)
-		(property "Package (in)" "0603"
+		(property "Power_in_W" "0.1"
 			(at 29.21 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -4024,7 +4002,29 @@
 				)
 			)
 		)
-		(property "Farnell" ""
+		(property "Tolerance_in_pct" "5"
+			(at 29.21 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CRCW060310K0JNEC"
+			(at 29.21 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
 			(at 29.21 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -4057,7 +4057,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_SYM_LOCAL:GND")
+		(lib_id "power:GND")
 		(at 97.79 153.67 0)
 		(unit 1)
 		(body_style 1)
@@ -4141,7 +4141,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_R:R_10K_100mW_5_0603")
+		(lib_id "KL_R:R_10K_0.1W_5pct_0603")
 		(at 53.34 107.95 0)
 		(unit 1)
 		(body_style 1)
@@ -4185,7 +4185,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 53.34 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -4197,28 +4197,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 53.34 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" "100mW"
-			(at 53.34 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "5%"
 			(at 53.34 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -4262,7 +4240,7 @@
 				)
 			)
 		)
-		(property "Package (in)" "0603"
+		(property "Power_in_W" "0.1"
 			(at 53.34 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -4273,7 +4251,29 @@
 				)
 			)
 		)
-		(property "Farnell" ""
+		(property "Tolerance_in_pct" "5"
+			(at 53.34 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CRCW060310K0JNEC"
+			(at 53.34 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
 			(at 53.34 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -4306,7 +4306,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_R:R_10K_100mW_5_0603")
+		(lib_id "KL_R:R_10K_0.1W_5pct_0603")
 		(at 210.82 90.17 0)
 		(unit 1)
 		(body_style 1)
@@ -4350,7 +4350,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 210.82 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -4362,28 +4362,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 210.82 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" "100mW"
-			(at 210.82 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "5%"
 			(at 210.82 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -4427,7 +4405,7 @@
 				)
 			)
 		)
-		(property "Package (in)" "0603"
+		(property "Power_in_W" "0.1"
 			(at 210.82 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -4438,7 +4416,29 @@
 				)
 			)
 		)
-		(property "Farnell" ""
+		(property "Tolerance_in_pct" "5"
+			(at 210.82 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CRCW060310K0JNEC"
+			(at 210.82 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
 			(at 210.82 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -4471,7 +4471,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_R:R_10K_100mW_5_0603")
+		(lib_id "KL_R:R_10K_0.1W_5pct_0603")
 		(at 187.96 120.65 0)
 		(unit 1)
 		(body_style 1)
@@ -4515,7 +4515,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 187.96 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -4527,28 +4527,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 187.96 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" "100mW"
-			(at 187.96 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "5%"
 			(at 187.96 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -4592,7 +4570,7 @@
 				)
 			)
 		)
-		(property "Package (in)" "0603"
+		(property "Power_in_W" "0.1"
 			(at 187.96 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -4603,7 +4581,29 @@
 				)
 			)
 		)
-		(property "Farnell" ""
+		(property "Tolerance_in_pct" "5"
+			(at 187.96 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CRCW060310K0JNEC"
+			(at 187.96 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
 			(at 187.96 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -4636,7 +4636,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_SYM_LOCAL:GND")
+		(lib_id "power:GND")
 		(at 99.06 123.19 0)
 		(unit 1)
 		(body_style 1)
@@ -4720,7 +4720,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_R:R_10K_100mW_5_0603")
+		(lib_id "KL_R:R_10K_0.1W_5pct_0603")
 		(at 25.4 148.59 0)
 		(unit 1)
 		(body_style 1)
@@ -4764,7 +4764,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 25.4 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -4776,28 +4776,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 25.4 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" "100mW"
-			(at 25.4 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "5%"
 			(at 25.4 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -4841,7 +4819,7 @@
 				)
 			)
 		)
-		(property "Package (in)" "0603"
+		(property "Power_in_W" "0.1"
 			(at 25.4 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -4852,7 +4830,29 @@
 				)
 			)
 		)
-		(property "Farnell" ""
+		(property "Tolerance_in_pct" "5"
+			(at 25.4 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CRCW060310K0JNEC"
+			(at 25.4 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
 			(at 25.4 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -4885,7 +4885,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_SYM_LOCAL:GND")
+		(lib_id "power:GND")
 		(at 72.39 74.93 0)
 		(unit 1)
 		(body_style 1)
@@ -4969,7 +4969,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_SYM_LOCAL:GND")
+		(lib_id "power:GND")
 		(at 186.69 58.42 0)
 		(unit 1)
 		(body_style 1)
@@ -5053,7 +5053,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_R:R_10K_100mW_5_0603")
+		(lib_id "KL_R:R_10K_0.1W_5pct_0603")
 		(at 186.69 45.72 0)
 		(unit 1)
 		(body_style 1)
@@ -5097,7 +5097,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 186.69 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -5109,28 +5109,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 186.69 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" "100mW"
-			(at 186.69 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "5%"
 			(at 186.69 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -5174,7 +5152,7 @@
 				)
 			)
 		)
-		(property "Package (in)" "0603"
+		(property "Power_in_W" "0.1"
 			(at 186.69 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -5185,7 +5163,29 @@
 				)
 			)
 		)
-		(property "Farnell" ""
+		(property "Tolerance_in_pct" "5"
+			(at 186.69 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CRCW060310K0JNEC"
+			(at 186.69 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
 			(at 186.69 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -5218,7 +5218,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_R:R_10K_100mW_5_0603")
+		(lib_id "KL_R:R_10K_0.1W_5pct_0603")
 		(at 97.79 148.59 0)
 		(unit 1)
 		(body_style 1)
@@ -5262,7 +5262,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 97.79 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -5274,28 +5274,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 97.79 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" "100mW"
-			(at 97.79 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "5%"
 			(at 97.79 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -5339,7 +5317,7 @@
 				)
 			)
 		)
-		(property "Package (in)" "0603"
+		(property "Power_in_W" "0.1"
 			(at 97.79 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -5350,7 +5328,29 @@
 				)
 			)
 		)
-		(property "Farnell" ""
+		(property "Tolerance_in_pct" "5"
+			(at 97.79 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CRCW060310K0JNEC"
+			(at 97.79 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
 			(at 97.79 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -5383,7 +5383,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_R:R_10K_100mW_5_0603")
+		(lib_id "KL_R:R_10K_0.1W_5pct_0603")
 		(at 207.01 128.27 0)
 		(unit 1)
 		(body_style 1)
@@ -5427,7 +5427,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 207.01 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -5439,28 +5439,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 207.01 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" "100mW"
-			(at 207.01 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "5%"
 			(at 207.01 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -5504,7 +5482,7 @@
 				)
 			)
 		)
-		(property "Package (in)" "0603"
+		(property "Power_in_W" "0.1"
 			(at 207.01 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -5515,7 +5493,29 @@
 				)
 			)
 		)
-		(property "Farnell" ""
+		(property "Tolerance_in_pct" "5"
+			(at 207.01 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CRCW060310K0JNEC"
+			(at 207.01 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
 			(at 207.01 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -5548,7 +5548,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_R:R_10K_100mW_5_0603")
+		(lib_id "KL_R:R_10K_0.1W_5pct_0603")
 		(at 152.4 50.8 0)
 		(unit 1)
 		(body_style 1)
@@ -5592,7 +5592,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 152.4 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -5604,28 +5604,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 152.4 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" "100mW"
-			(at 152.4 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "5%"
 			(at 152.4 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -5669,7 +5647,7 @@
 				)
 			)
 		)
-		(property "Package (in)" "0603"
+		(property "Power_in_W" "0.1"
 			(at 152.4 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -5680,7 +5658,29 @@
 				)
 			)
 		)
-		(property "Farnell" ""
+		(property "Tolerance_in_pct" "5"
+			(at 152.4 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CRCW060310K0JNEC"
+			(at 152.4 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
 			(at 152.4 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -5713,7 +5713,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_R:R_10K_100mW_5_0603")
+		(lib_id "KL_R:R_10K_0.1W_5pct_0603")
 		(at 72.39 62.23 0)
 		(unit 1)
 		(body_style 1)
@@ -5757,7 +5757,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 72.39 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -5769,28 +5769,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 72.39 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" "100mW"
-			(at 72.39 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "5%"
 			(at 72.39 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -5834,7 +5812,7 @@
 				)
 			)
 		)
-		(property "Package (in)" "0603"
+		(property "Power_in_W" "0.1"
 			(at 72.39 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -5845,7 +5823,29 @@
 				)
 			)
 		)
-		(property "Farnell" ""
+		(property "Tolerance_in_pct" "5"
+			(at 72.39 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CRCW060310K0JNEC"
+			(at 72.39 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
 			(at 72.39 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -5878,7 +5878,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_SYM_LOCAL:GND")
+		(lib_id "power:GND")
 		(at 30.48 113.03 0)
 		(unit 1)
 		(body_style 1)
@@ -5962,7 +5962,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_R:R_10K_100mW_5_0603")
+		(lib_id "KL_R:R_10K_0.1W_5pct_0603")
 		(at 99.06 110.49 0)
 		(unit 1)
 		(body_style 1)
@@ -6006,7 +6006,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 99.06 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -6018,28 +6018,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 99.06 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" "100mW"
-			(at 99.06 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "5%"
 			(at 99.06 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -6083,7 +6061,7 @@
 				)
 			)
 		)
-		(property "Package (in)" "0603"
+		(property "Power_in_W" "0.1"
 			(at 99.06 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -6094,7 +6072,29 @@
 				)
 			)
 		)
-		(property "Farnell" ""
+		(property "Tolerance_in_pct" "5"
+			(at 99.06 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CRCW060310K0JNEC"
+			(at 99.06 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
 			(at 99.06 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -6127,7 +6127,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_R:R_10K_100mW_5_0603")
+		(lib_id "KL_R:R_10K_0.1W_5pct_0603")
 		(at 49.53 62.23 0)
 		(unit 1)
 		(body_style 1)
@@ -6171,7 +6171,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 49.53 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -6183,28 +6183,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 49.53 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" "100mW"
-			(at 49.53 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "5%"
 			(at 49.53 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -6248,7 +6226,7 @@
 				)
 			)
 		)
-		(property "Package (in)" "0603"
+		(property "Power_in_W" "0.1"
 			(at 49.53 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -6259,7 +6237,29 @@
 				)
 			)
 		)
-		(property "Farnell" ""
+		(property "Tolerance_in_pct" "5"
+			(at 49.53 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CRCW060310K0JNEC"
+			(at 49.53 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
 			(at 49.53 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -6292,7 +6292,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_R:R_10K_100mW_5_0603")
+		(lib_id "KL_R:R_10K_0.1W_5pct_0603")
 		(at 72.39 69.85 0)
 		(unit 1)
 		(body_style 1)
@@ -6336,7 +6336,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 72.39 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -6348,28 +6348,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 72.39 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" "100mW"
-			(at 72.39 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "5%"
 			(at 72.39 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -6413,7 +6391,7 @@
 				)
 			)
 		)
-		(property "Package (in)" "0603"
+		(property "Power_in_W" "0.1"
 			(at 72.39 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -6424,7 +6402,29 @@
 				)
 			)
 		)
-		(property "Farnell" ""
+		(property "Tolerance_in_pct" "5"
+			(at 72.39 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CRCW060310K0JNEC"
+			(at 72.39 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
 			(at 72.39 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -6457,7 +6457,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_SYM_LOCAL:GND")
+		(lib_id "power:GND")
 		(at 99.06 58.42 0)
 		(unit 1)
 		(body_style 1)
@@ -6541,7 +6541,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_R:R_10K_100mW_5_0603")
+		(lib_id "KL_R:R_10K_0.1W_5pct_0603")
 		(at 152.4 114.3 0)
 		(unit 1)
 		(body_style 1)
@@ -6585,7 +6585,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 152.4 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -6597,28 +6597,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 152.4 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" "100mW"
-			(at 152.4 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "5%"
 			(at 152.4 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -6662,7 +6640,7 @@
 				)
 			)
 		)
-		(property "Package (in)" "0603"
+		(property "Power_in_W" "0.1"
 			(at 152.4 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -6673,7 +6651,29 @@
 				)
 			)
 		)
-		(property "Farnell" ""
+		(property "Tolerance_in_pct" "5"
+			(at 152.4 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CRCW060310K0JNEC"
+			(at 152.4 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
 			(at 152.4 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -6706,7 +6706,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_R:R_10K_100mW_5_0603")
+		(lib_id "KL_R:R_10K_0.1W_5pct_0603")
 		(at 99.06 176.53 0)
 		(unit 1)
 		(body_style 1)
@@ -6750,7 +6750,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 99.06 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -6762,28 +6762,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 99.06 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" "100mW"
-			(at 99.06 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "5%"
 			(at 99.06 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -6827,7 +6805,7 @@
 				)
 			)
 		)
-		(property "Package (in)" "0603"
+		(property "Power_in_W" "0.1"
 			(at 99.06 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -6838,7 +6816,29 @@
 				)
 			)
 		)
-		(property "Farnell" ""
+		(property "Tolerance_in_pct" "5"
+			(at 99.06 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CRCW060310K0JNEC"
+			(at 99.06 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
 			(at 99.06 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -6871,7 +6871,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_R:R_10K_100mW_5_0603")
+		(lib_id "KL_R:R_10K_0.1W_5pct_0603")
 		(at 49.53 69.85 0)
 		(unit 1)
 		(body_style 1)
@@ -6915,7 +6915,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 49.53 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -6927,28 +6927,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 49.53 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" "100mW"
-			(at 49.53 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "5%"
 			(at 49.53 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -6992,7 +6970,7 @@
 				)
 			)
 		)
-		(property "Package (in)" "0603"
+		(property "Power_in_W" "0.1"
 			(at 49.53 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -7003,7 +6981,29 @@
 				)
 			)
 		)
-		(property "Farnell" ""
+		(property "Tolerance_in_pct" "5"
+			(at 49.53 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CRCW060310K0JNEC"
+			(at 49.53 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
 			(at 49.53 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -7036,7 +7036,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_SYM_LOCAL:GND")
+		(lib_id "power:GND")
 		(at 187.96 133.35 0)
 		(unit 1)
 		(body_style 1)
@@ -7120,7 +7120,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_R:R_10K_100mW_5_0603")
+		(lib_id "KL_R:R_10K_0.1W_5pct_0603")
 		(at 29.21 62.23 0)
 		(unit 1)
 		(body_style 1)
@@ -7164,7 +7164,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 29.21 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -7176,28 +7176,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 29.21 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" "100mW"
-			(at 29.21 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "5%"
 			(at 29.21 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -7241,7 +7219,7 @@
 				)
 			)
 		)
-		(property "Package (in)" "0603"
+		(property "Power_in_W" "0.1"
 			(at 29.21 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -7252,7 +7230,29 @@
 				)
 			)
 		)
-		(property "Farnell" ""
+		(property "Tolerance_in_pct" "5"
+			(at 29.21 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CRCW060310K0JNEC"
+			(at 29.21 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
 			(at 29.21 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -7285,7 +7285,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_SYM_LOCAL:GND")
+		(lib_id "power:GND")
 		(at 152.4 63.5 0)
 		(unit 1)
 		(body_style 1)
@@ -7369,7 +7369,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_R:R_10K_100mW_5_0603")
+		(lib_id "KL_R:R_10K_0.1W_5pct_0603")
 		(at 99.06 118.11 0)
 		(unit 1)
 		(body_style 1)
@@ -7413,7 +7413,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 99.06 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -7425,28 +7425,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 99.06 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" "100mW"
-			(at 99.06 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "5%"
 			(at 99.06 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -7490,7 +7468,7 @@
 				)
 			)
 		)
-		(property "Package (in)" "0603"
+		(property "Power_in_W" "0.1"
 			(at 99.06 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -7501,7 +7479,29 @@
 				)
 			)
 		)
-		(property "Farnell" ""
+		(property "Tolerance_in_pct" "5"
+			(at 99.06 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CRCW060310K0JNEC"
+			(at 99.06 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
 			(at 99.06 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -7534,7 +7534,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_SYM_LOCAL:GND")
+		(lib_id "power:GND")
 		(at 49.53 74.93 0)
 		(unit 1)
 		(body_style 1)
@@ -7618,7 +7618,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_SYM_LOCAL:GND")
+		(lib_id "power:GND")
 		(at 203.2 58.42 0)
 		(unit 1)
 		(body_style 1)
@@ -7702,7 +7702,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_R:R_10K_100mW_5_0603")
+		(lib_id "KL_R:R_10K_0.1W_5pct_0603")
 		(at 99.06 184.15 0)
 		(unit 1)
 		(body_style 1)
@@ -7746,7 +7746,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 99.06 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -7758,28 +7758,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 99.06 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" "100mW"
-			(at 99.06 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "5%"
 			(at 99.06 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -7823,7 +7801,7 @@
 				)
 			)
 		)
-		(property "Package (in)" "0603"
+		(property "Power_in_W" "0.1"
 			(at 99.06 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -7834,7 +7812,29 @@
 				)
 			)
 		)
-		(property "Farnell" ""
+		(property "Tolerance_in_pct" "5"
+			(at 99.06 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CRCW060310K0JNEC"
+			(at 99.06 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
 			(at 99.06 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -7867,7 +7867,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_R:R_10K_100mW_5_0603")
+		(lib_id "KL_R:R_10K_0.1W_5pct_0603")
 		(at 26.67 182.88 0)
 		(unit 1)
 		(body_style 1)
@@ -7911,7 +7911,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 26.67 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -7923,28 +7923,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 26.67 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" "100mW"
-			(at 26.67 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "5%"
 			(at 26.67 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -7988,7 +7966,7 @@
 				)
 			)
 		)
-		(property "Package (in)" "0603"
+		(property "Power_in_W" "0.1"
 			(at 26.67 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -7999,7 +7977,29 @@
 				)
 			)
 		)
-		(property "Farnell" ""
+		(property "Tolerance_in_pct" "5"
+			(at 26.67 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CRCW060310K0JNEC"
+			(at 26.67 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
 			(at 26.67 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -8032,7 +8032,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_SYM_LOCAL:GND")
+		(lib_id "power:GND")
 		(at 26.67 187.96 0)
 		(unit 1)
 		(body_style 1)
@@ -8116,7 +8116,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_R:R_10K_100mW_5_0603")
+		(lib_id "KL_R:R_10K_0.1W_5pct_0603")
 		(at 97.79 140.97 0)
 		(unit 1)
 		(body_style 1)
@@ -8160,7 +8160,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 97.79 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -8172,28 +8172,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 97.79 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" "100mW"
-			(at 97.79 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "5%"
 			(at 97.79 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -8237,7 +8215,7 @@
 				)
 			)
 		)
-		(property "Package (in)" "0603"
+		(property "Power_in_W" "0.1"
 			(at 97.79 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -8248,7 +8226,29 @@
 				)
 			)
 		)
-		(property "Farnell" ""
+		(property "Tolerance_in_pct" "5"
+			(at 97.79 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CRCW060310K0JNEC"
+			(at 97.79 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
 			(at 97.79 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -8281,7 +8281,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_SYM_LOCAL:GND")
+		(lib_id "power:GND")
 		(at 210.82 95.25 0)
 		(unit 1)
 		(body_style 1)
@@ -8365,7 +8365,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_R:R_10K_100mW_5_0603")
+		(lib_id "KL_R:R_10K_0.1W_5pct_0603")
 		(at 30.48 107.95 0)
 		(unit 1)
 		(body_style 1)
@@ -8409,7 +8409,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 30.48 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -8421,28 +8421,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 30.48 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" "100mW"
-			(at 30.48 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "5%"
 			(at 30.48 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -8486,7 +8464,7 @@
 				)
 			)
 		)
-		(property "Package (in)" "0603"
+		(property "Power_in_W" "0.1"
 			(at 30.48 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -8497,7 +8475,29 @@
 				)
 			)
 		)
-		(property "Farnell" ""
+		(property "Tolerance_in_pct" "5"
+			(at 30.48 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CRCW060310K0JNEC"
+			(at 30.48 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
 			(at 30.48 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -8530,7 +8530,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_R:R_10K_100mW_5_0603")
+		(lib_id "KL_R:R_10K_0.1W_5pct_0603")
 		(at 207.01 120.65 0)
 		(unit 1)
 		(body_style 1)
@@ -8574,7 +8574,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 207.01 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -8586,28 +8586,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 207.01 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" "100mW"
-			(at 207.01 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "5%"
 			(at 207.01 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -8651,7 +8629,7 @@
 				)
 			)
 		)
-		(property "Package (in)" "0603"
+		(property "Power_in_W" "0.1"
 			(at 207.01 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -8662,7 +8640,29 @@
 				)
 			)
 		)
-		(property "Farnell" ""
+		(property "Tolerance_in_pct" "5"
+			(at 207.01 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CRCW060310K0JNEC"
+			(at 207.01 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
 			(at 207.01 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -8695,7 +8695,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_R:R_10K_100mW_5_0603")
+		(lib_id "KL_R:R_10K_0.1W_5pct_0603")
 		(at 152.4 58.42 0)
 		(unit 1)
 		(body_style 1)
@@ -8739,7 +8739,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 152.4 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -8751,28 +8751,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 152.4 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" "100mW"
-			(at 152.4 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "5%"
 			(at 152.4 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -8816,7 +8794,7 @@
 				)
 			)
 		)
-		(property "Package (in)" "0603"
+		(property "Power_in_W" "0.1"
 			(at 152.4 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -8827,7 +8805,29 @@
 				)
 			)
 		)
-		(property "Farnell" ""
+		(property "Tolerance_in_pct" "5"
+			(at 152.4 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CRCW060310K0JNEC"
+			(at 152.4 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
 			(at 152.4 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -8860,7 +8860,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_R:R_10K_100mW_5_0603")
+		(lib_id "KL_R:R_10K_0.1W_5pct_0603")
 		(at 104.14 85.09 0)
 		(unit 1)
 		(body_style 1)
@@ -8904,7 +8904,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 104.14 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -8916,28 +8916,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 104.14 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" "100mW"
-			(at 104.14 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "5%"
 			(at 104.14 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -8981,7 +8959,7 @@
 				)
 			)
 		)
-		(property "Package (in)" "0603"
+		(property "Power_in_W" "0.1"
 			(at 104.14 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -8992,7 +8970,29 @@
 				)
 			)
 		)
-		(property "Farnell" ""
+		(property "Tolerance_in_pct" "5"
+			(at 104.14 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CRCW060310K0JNEC"
+			(at 104.14 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
 			(at 104.14 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -9025,7 +9025,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_R:R_10K_100mW_5_0603")
+		(lib_id "KL_R:R_10K_0.1W_5pct_0603")
 		(at 30.48 100.33 0)
 		(unit 1)
 		(body_style 1)
@@ -9069,7 +9069,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 30.48 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -9081,28 +9081,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 30.48 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" "100mW"
-			(at 30.48 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "5%"
 			(at 30.48 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -9146,7 +9124,7 @@
 				)
 			)
 		)
-		(property "Package (in)" "0603"
+		(property "Power_in_W" "0.1"
 			(at 30.48 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -9157,7 +9135,29 @@
 				)
 			)
 		)
-		(property "Farnell" ""
+		(property "Tolerance_in_pct" "5"
+			(at 30.48 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CRCW060310K0JNEC"
+			(at 30.48 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
 			(at 30.48 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -9190,7 +9190,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_SYM_LOCAL:GND")
+		(lib_id "power:GND")
 		(at 53.34 113.03 0)
 		(unit 1)
 		(body_style 1)
@@ -9274,7 +9274,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_SYM_LOCAL:GND")
+		(lib_id "power:GND")
 		(at 151.13 161.29 0)
 		(unit 1)
 		(body_style 1)
@@ -9358,7 +9358,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_R:R_10K_100mW_5_0603")
+		(lib_id "KL_R:R_10K_0.1W_5pct_0603")
 		(at 186.69 53.34 0)
 		(unit 1)
 		(body_style 1)
@@ -9402,7 +9402,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 186.69 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -9414,28 +9414,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 186.69 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" "100mW"
-			(at 186.69 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "5%"
 			(at 186.69 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -9479,7 +9457,7 @@
 				)
 			)
 		)
-		(property "Package (in)" "0603"
+		(property "Power_in_W" "0.1"
 			(at 186.69 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -9490,7 +9468,29 @@
 				)
 			)
 		)
-		(property "Farnell" ""
+		(property "Tolerance_in_pct" "5"
+			(at 186.69 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CRCW060310K0JNEC"
+			(at 186.69 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
 			(at 186.69 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -9523,7 +9523,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_SYM_LOCAL:GND")
+		(lib_id "power:GND")
 		(at 152.4 127 0)
 		(unit 1)
 		(body_style 1)
@@ -9607,7 +9607,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_R:R_10K_100mW_5_0603")
+		(lib_id "KL_R:R_10K_0.1W_5pct_0603")
 		(at 203.2 45.72 0)
 		(unit 1)
 		(body_style 1)
@@ -9651,7 +9651,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 203.2 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -9663,28 +9663,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 203.2 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" "100mW"
-			(at 203.2 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "5%"
 			(at 203.2 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -9728,7 +9706,7 @@
 				)
 			)
 		)
-		(property "Package (in)" "0603"
+		(property "Power_in_W" "0.1"
 			(at 203.2 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -9739,7 +9717,29 @@
 				)
 			)
 		)
-		(property "Farnell" ""
+		(property "Tolerance_in_pct" "5"
+			(at 203.2 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CRCW060310K0JNEC"
+			(at 203.2 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
 			(at 203.2 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -9772,7 +9772,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_R:R_10K_100mW_5_0603")
+		(lib_id "KL_R:R_10K_0.1W_5pct_0603")
 		(at 104.14 77.47 0)
 		(unit 1)
 		(body_style 1)
@@ -9816,7 +9816,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 104.14 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -9828,28 +9828,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 104.14 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" "100mW"
-			(at 104.14 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "5%"
 			(at 104.14 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -9893,7 +9871,7 @@
 				)
 			)
 		)
-		(property "Package (in)" "0603"
+		(property "Power_in_W" "0.1"
 			(at 104.14 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -9904,7 +9882,29 @@
 				)
 			)
 		)
-		(property "Farnell" ""
+		(property "Tolerance_in_pct" "5"
+			(at 104.14 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CRCW060310K0JNEC"
+			(at 104.14 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
 			(at 104.14 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -9937,7 +9937,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_R:R_10K_100mW_5_0603")
+		(lib_id "KL_R:R_10K_0.1W_5pct_0603")
 		(at 25.4 140.97 0)
 		(unit 1)
 		(body_style 1)
@@ -9981,7 +9981,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 25.4 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -9993,28 +9993,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 25.4 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" "100mW"
-			(at 25.4 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "5%"
 			(at 25.4 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -10058,7 +10036,7 @@
 				)
 			)
 		)
-		(property "Package (in)" "0603"
+		(property "Power_in_W" "0.1"
 			(at 25.4 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -10069,7 +10047,29 @@
 				)
 			)
 		)
-		(property "Farnell" ""
+		(property "Tolerance_in_pct" "5"
+			(at 25.4 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CRCW060310K0JNEC"
+			(at 25.4 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
 			(at 25.4 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -10102,7 +10102,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_R:R_10K_100mW_5_0603")
+		(lib_id "KL_R:R_10K_0.1W_5pct_0603")
 		(at 99.06 53.34 0)
 		(unit 1)
 		(body_style 1)
@@ -10146,7 +10146,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 99.06 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -10158,28 +10158,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 99.06 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" "100mW"
-			(at 99.06 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "5%"
 			(at 99.06 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -10223,7 +10201,7 @@
 				)
 			)
 		)
-		(property "Package (in)" "0603"
+		(property "Power_in_W" "0.1"
 			(at 99.06 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -10234,7 +10212,29 @@
 				)
 			)
 		)
-		(property "Farnell" ""
+		(property "Tolerance_in_pct" "5"
+			(at 99.06 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CRCW060310K0JNEC"
+			(at 99.06 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
 			(at 99.06 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -10267,7 +10267,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_R:R_10K_100mW_5_0603")
+		(lib_id "KL_R:R_10K_0.1W_5pct_0603")
 		(at 147.32 90.17 0)
 		(unit 1)
 		(body_style 1)
@@ -10311,7 +10311,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 147.32 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -10323,28 +10323,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 147.32 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" "100mW"
-			(at 147.32 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "5%"
 			(at 147.32 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -10388,7 +10366,7 @@
 				)
 			)
 		)
-		(property "Package (in)" "0603"
+		(property "Power_in_W" "0.1"
 			(at 147.32 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -10399,7 +10377,29 @@
 				)
 			)
 		)
-		(property "Farnell" ""
+		(property "Tolerance_in_pct" "5"
+			(at 147.32 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CRCW060310K0JNEC"
+			(at 147.32 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
 			(at 147.32 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -10432,7 +10432,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_SYM_LOCAL:GND")
+		(lib_id "power:GND")
 		(at 29.21 74.93 0)
 		(unit 1)
 		(body_style 1)
@@ -10516,7 +10516,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_R:R_10K_100mW_5_0603")
+		(lib_id "KL_R:R_10K_0.1W_5pct_0603")
 		(at 26.67 175.26 0)
 		(unit 1)
 		(body_style 1)
@@ -10560,7 +10560,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 26.67 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -10572,28 +10572,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 26.67 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" "100mW"
-			(at 26.67 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "5%"
 			(at 26.67 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -10637,7 +10615,7 @@
 				)
 			)
 		)
-		(property "Package (in)" "0603"
+		(property "Power_in_W" "0.1"
 			(at 26.67 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -10648,7 +10626,29 @@
 				)
 			)
 		)
-		(property "Farnell" ""
+		(property "Tolerance_in_pct" "5"
+			(at 26.67 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CRCW060310K0JNEC"
+			(at 26.67 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
 			(at 26.67 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -10681,7 +10681,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_R:R_10K_100mW_5_0603")
+		(lib_id "KL_R:R_10K_0.1W_5pct_0603")
 		(at 147.32 82.55 0)
 		(unit 1)
 		(body_style 1)
@@ -10725,7 +10725,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 147.32 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -10737,28 +10737,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 147.32 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" "100mW"
-			(at 147.32 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "5%"
 			(at 147.32 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -10802,7 +10780,7 @@
 				)
 			)
 		)
-		(property "Package (in)" "0603"
+		(property "Power_in_W" "0.1"
 			(at 147.32 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -10813,7 +10791,29 @@
 				)
 			)
 		)
-		(property "Farnell" ""
+		(property "Tolerance_in_pct" "5"
+			(at 147.32 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CRCW060310K0JNEC"
+			(at 147.32 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
 			(at 147.32 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -10846,7 +10846,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_SYM_LOCAL:GND")
+		(lib_id "power:GND")
 		(at 99.06 189.23 0)
 		(unit 1)
 		(body_style 1)
@@ -10930,7 +10930,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_R:R_10K_100mW_5_0603")
+		(lib_id "KL_R:R_10K_0.1W_5pct_0603")
 		(at 151.13 148.59 0)
 		(unit 1)
 		(body_style 1)
@@ -10974,7 +10974,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 151.13 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -10986,28 +10986,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 151.13 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" "100mW"
-			(at 151.13 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "5%"
 			(at 151.13 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -11051,7 +11029,7 @@
 				)
 			)
 		)
-		(property "Package (in)" "0603"
+		(property "Power_in_W" "0.1"
 			(at 151.13 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -11062,7 +11040,29 @@
 				)
 			)
 		)
-		(property "Farnell" ""
+		(property "Tolerance_in_pct" "5"
+			(at 151.13 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CRCW060310K0JNEC"
+			(at 151.13 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
 			(at 151.13 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -11095,7 +11095,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_R:R_10K_100mW_5_0603")
+		(lib_id "KL_R:R_10K_0.1W_5pct_0603")
 		(at 203.2 53.34 0)
 		(unit 1)
 		(body_style 1)
@@ -11139,7 +11139,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 203.2 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -11151,28 +11151,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 203.2 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" "100mW"
-			(at 203.2 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "5%"
 			(at 203.2 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -11216,7 +11194,7 @@
 				)
 			)
 		)
-		(property "Package (in)" "0603"
+		(property "Power_in_W" "0.1"
 			(at 203.2 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -11227,7 +11205,29 @@
 				)
 			)
 		)
-		(property "Farnell" ""
+		(property "Tolerance_in_pct" "5"
+			(at 203.2 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CRCW060310K0JNEC"
+			(at 203.2 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
 			(at 203.2 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -11260,7 +11260,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_R:R_10K_100mW_5_0603")
+		(lib_id "KL_R:R_10K_0.1W_5pct_0603")
 		(at 151.13 156.21 0)
 		(unit 1)
 		(body_style 1)
@@ -11304,7 +11304,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 151.13 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -11316,28 +11316,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 151.13 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" "100mW"
-			(at 151.13 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "5%"
 			(at 151.13 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -11381,7 +11359,7 @@
 				)
 			)
 		)
-		(property "Package (in)" "0603"
+		(property "Power_in_W" "0.1"
 			(at 151.13 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -11392,7 +11370,29 @@
 				)
 			)
 		)
-		(property "Farnell" ""
+		(property "Tolerance_in_pct" "5"
+			(at 151.13 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CRCW060310K0JNEC"
+			(at 151.13 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
 			(at 151.13 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -11425,7 +11425,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_R:R_10K_100mW_5_0603")
+		(lib_id "KL_R:R_10K_0.1W_5pct_0603")
 		(at 99.06 45.72 0)
 		(unit 1)
 		(body_style 1)
@@ -11469,7 +11469,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 99.06 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -11481,28 +11481,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 99.06 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" "100mW"
-			(at 99.06 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "5%"
 			(at 99.06 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -11546,7 +11524,7 @@
 				)
 			)
 		)
-		(property "Package (in)" "0603"
+		(property "Power_in_W" "0.1"
 			(at 99.06 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -11557,7 +11535,29 @@
 				)
 			)
 		)
-		(property "Farnell" ""
+		(property "Tolerance_in_pct" "5"
+			(at 99.06 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CRCW060310K0JNEC"
+			(at 99.06 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
 			(at 99.06 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -11590,7 +11590,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_SYM_LOCAL:GND")
+		(lib_id "power:GND")
 		(at 104.14 90.17 0)
 		(unit 1)
 		(body_style 1)
@@ -11674,7 +11674,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_SYM_LOCAL:GND")
+		(lib_id "power:GND")
 		(at 25.4 153.67 0)
 		(unit 1)
 		(body_style 1)
