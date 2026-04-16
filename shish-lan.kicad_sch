@@ -9255,28 +9255,6 @@
 				)
 			)
 		)
-		(property "Power" "100mW"
-			(at 148.59 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "5%"
-			(at 148.59 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Mouser" "71-CRCW060310K0JNEC"
 			(at 148.59 34.29 0)
 			(hide yes)
@@ -9310,7 +9288,7 @@
 				)
 			)
 		)
-		(property "Package (in)" "0603"
+		(property "Power_in_W" "0.1"
 			(at 148.59 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -9321,7 +9299,29 @@
 				)
 			)
 		)
-		(property "Farnell" ""
+		(property "Tolerance_in_pct" "5"
+			(at 148.59 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CRCW060310K0JNEC"
+			(at 148.59 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
 			(at 148.59 34.29 0)
 			(hide yes)
 			(show_name no)
