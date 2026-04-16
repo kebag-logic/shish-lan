@@ -12,7 +12,7 @@
 		(comment 1 "Condidential")
 	)
 	(lib_symbols
-		(symbol "KL_IC_LAN9645xF:lan9645xF_128_TQFP"
+		(symbol "KL_Network_Switch:LAN96455F_TQFP-128"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -50,7 +50,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/NCS/ProductDocuments/DataSheets/LAN9645xF_Data_Sheet_DS00006065.pdf"
 				(at 0 -16.51 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -61,41 +61,8 @@
 					)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "Network Switch"
 				(at 0 -16.51 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Mouser" "579-LAN96455FI8MW"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Digikey" "150-LAN96455F-I/8MW-ND"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC" ""
-				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -193,6 +160,50 @@
 					)
 				)
 			)
+			(property "MPN" "LAN96455F-I/8MW "
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Mouser" "579-LAN96455FI8MW"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Digikey" "150-LAN96455F-I/8MW-ND"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "NA"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "ki_locked" ""
 				(at 0 0 0)
 				(show_name no)
@@ -203,7 +214,7 @@
 					)
 				)
 			)
-			(symbol "lan9645xF_128_TQFP_1_0"
+			(symbol "LAN96455F_TQFP-128_1_0"
 				(pin power_in line
 					(at 35.56 0 180)
 					(length 5.08)
@@ -349,7 +360,7 @@
 					)
 				)
 			)
-			(symbol "lan9645xF_128_TQFP_1_1"
+			(symbol "LAN96455F_TQFP-128_1_1"
 				(rectangle
 					(start 0 20.32)
 					(end 15.24 10.16)
@@ -1090,7 +1101,7 @@
 					)
 				)
 			)
-			(symbol "lan9645xF_128_TQFP_2_0"
+			(symbol "LAN96455F_TQFP-128_2_0"
 				(pin input line
 					(at -5.08 -7.62 0)
 					(length 5.08)
@@ -1866,7 +1877,7 @@
 					)
 				)
 			)
-			(symbol "lan9645xF_128_TQFP_2_1"
+			(symbol "LAN96455F_TQFP-128_2_1"
 				(rectangle
 					(start 0 0)
 					(end 100.33 -119.38)
@@ -1906,7 +1917,7 @@
 					)
 				)
 			)
-			(symbol "lan9645xF_128_TQFP_3_0"
+			(symbol "LAN96455F_TQFP-128_3_0"
 				(pin input line
 					(at -5.08 -59.69 0)
 					(length 5.08)
@@ -2646,7 +2657,7 @@
 					)
 				)
 			)
-			(symbol "lan9645xF_128_TQFP_3_1"
+			(symbol "LAN96455F_TQFP-128_3_1"
 				(rectangle
 					(start 0 0)
 					(end 16.51 -20.32)
@@ -2754,7 +2765,7 @@
 					)
 				)
 			)
-			(symbol "lan9645xF_128_TQFP_4_0"
+			(symbol "LAN96455F_TQFP-128_4_0"
 				(pin input line
 					(at -5.08 -33.02 0)
 					(length 5.08)
@@ -2936,7 +2947,7 @@
 					)
 				)
 			)
-			(symbol "lan9645xF_128_TQFP_4_1"
+			(symbol "LAN96455F_TQFP-128_4_1"
 				(rectangle
 					(start 0 0)
 					(end 29.21 -15.24)
@@ -2978,7 +2989,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "KL_R:R_6K04_100mw_001_0603"
+		(symbol "KL_R:R_6K04_0.1W_1pct_0603"
 			(pin_numbers
 				(hide yes)
 			)
@@ -3021,7 +3032,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3043,7 +3054,7 @@
 					)
 				)
 			)
-			(property "Power" "100mW"
+			(property "Power_in_W" "0.1"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3054,7 +3065,18 @@
 					)
 				)
 			)
-			(property "Tolerance" "1%"
+			(property "Tolerance_in_pct" "1"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "RMCF0603FT6K04"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3098,18 +3120,7 @@
 					)
 				)
 			)
-			(property "Farnell" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Package (in)" "0603"
+			(property "Package_in_inch" "0603"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3142,7 +3153,7 @@
 					)
 				)
 			)
-			(symbol "R_6K04_100mw_001_0603_0_1"
+			(symbol "R_6K04_0.1W_1pct_0603_0_1"
 				(rectangle
 					(start -1.016 -2.54)
 					(end 1.016 2.54)
@@ -3155,7 +3166,7 @@
 					)
 				)
 			)
-			(symbol "R_6K04_100mw_001_0603_1_1"
+			(symbol "R_6K04_0.1W_1pct_0603_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -3195,7 +3206,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "KL_SYM_LOCAL:GND"
+		(symbol "power:GND"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -4653,7 +4664,7 @@
 		(uuid "f679ca2e-5777-467c-8c1e-a2677cebdc69")
 	)
 	(symbol
-		(lib_id "KL_R:R_6K04_100mw_001_0603")
+		(lib_id "KL_R:R_6K04_0.1W_1pct_0603")
 		(at 17.78 67.31 0)
 		(unit 1)
 		(body_style 1)
@@ -4697,7 +4708,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 17.78 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -4709,28 +4720,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 17.78 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" "100mW"
-			(at 17.78 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "1%"
 			(at 17.78 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -4774,7 +4763,7 @@
 				)
 			)
 		)
-		(property "Farnell" ""
+		(property "Power_in_W" "0.1"
 			(at 17.78 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -4785,7 +4774,29 @@
 				)
 			)
 		)
-		(property "Package (in)" "0603"
+		(property "Tolerance_in_pct" "1"
+			(at 17.78 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RMCF0603FT6K04"
+			(at 17.78 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
 			(at 17.78 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -4818,7 +4829,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_IC_LAN9645xF:lan9645xF_128_TQFP")
+		(lib_id "KL_Network_Switch:LAN96455F_TQFP-128")
 		(at 55.88 160.02 180)
 		(unit 3)
 		(body_style 1)
@@ -4861,7 +4872,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/NCS/ProductDocuments/DataSheets/LAN9645xF_Data_Sheet_DS00006065.pdf"
 			(at 55.88 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -4872,7 +4883,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Network Switch"
 			(at 55.88 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -4905,7 +4916,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "NA"
 			(at 55.88 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -4994,6 +5005,17 @@
 			)
 		)
 		(property "I_DD_IOD" "0.005"
+			(at 55.88 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "LAN96455F-I/8MW "
 			(at 55.88 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -5399,15 +5421,7 @@
 				)
 			)
 			(project "shish-lan"
-				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09"
-					(reference "U1")
-					(unit 3)
-				)
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/cbb6064c-9387-4840-bb4d-7326af14ff9d"
-					(reference "U1")
-					(unit 3)
-				)
-				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/d7edf10b-e7e7-437a-ab6c-966f29ad8f7f"
 					(reference "U1")
 					(unit 3)
 				)
@@ -5415,7 +5429,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_SYM_LOCAL:GND")
+		(lib_id "power:GND")
 		(at 17.78 73.66 0)
 		(unit 1)
 		(body_style 1)
