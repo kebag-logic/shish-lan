@@ -12,7 +12,7 @@
 		(comment 1 "Confidential")
 	)
 	(lib_symbols
-		(symbol "KL_C:C_100n_50V_X7R_0603_10"
+		(symbol "KL_C:C_100n_50V_10pct_X7R_0603"
 			(pin_numbers
 				(hide yes)
 			)
@@ -57,7 +57,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL10B104KB8NNN"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -79,7 +79,7 @@
 					)
 				)
 			)
-			(property "Tolerance" "20"
+			(property "Voltage_in_V" "50"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -90,7 +90,40 @@
 					)
 				)
 			)
-			(property "Voltage" "10"
+			(property "Tolerance_in_pct" "10"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Dielectric" "X7R"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Package_in_inch" "0603"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "CL10B104KB8NNNC"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -156,7 +189,7 @@
 					)
 				)
 			)
-			(symbol "C_100n_50V_X7R_0603_10_0_1"
+			(symbol "C_100n_50V_10pct_X7R_0603_0_1"
 				(polyline
 					(pts
 						(xy -2.032 0.762) (xy 2.032 0.762)
@@ -182,7 +215,7 @@
 					)
 				)
 			)
-			(symbol "C_100n_50V_X7R_0603_10_1_1"
+			(symbol "C_100n_50V_10pct_X7R_0603_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
@@ -222,7 +255,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "KL_Connectors_RJ45:0826-1X4T-43-F"
+		(symbol "KL_Conn_Data:RJ45_0826-1X4T-43-F"
 			(pin_names
 				(offset 1.016)
 			)
@@ -242,7 +275,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "0826-1X4T-43-F"
+			(property "Value" "RJ45_0826-1X4T-43-F"
 				(at -7.62 -44.45 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -277,7 +310,7 @@
 					)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "RJ45 Connector"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -288,7 +321,7 @@
 					)
 				)
 			)
-			(property "PARTREV" "D"
+			(property "MPN" "0826-1X4T-43-F"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -297,43 +330,6 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
-				)
-			)
-			(property "STANDARD" "Manufacturer Recommendations"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "15.49mm"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MANUFACTURER" "Bel Fuse"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
 				)
 			)
 			(property "Mouser" "530-0826-1X4T-43-F"
@@ -369,7 +365,7 @@
 					)
 				)
 			)
-			(symbol "0826-1X4T-43-F_1_0"
+			(symbol "RJ45_0826-1X4T-43-F_1_0"
 				(rectangle
 					(start -7.62 33.02)
 					(end 7.62 -43.18)
@@ -1285,7 +1281,7 @@
 					)
 				)
 			)
-			(symbol "0826-1X4T-43-F_2_0"
+			(symbol "RJ45_0826-1X4T-43-F_2_0"
 				(rectangle
 					(start -7.62 -33.02)
 					(end 7.62 33.02)
@@ -2129,7 +2125,7 @@
 					)
 				)
 			)
-			(symbol "0826-1X4T-43-F_3_0"
+			(symbol "RJ45_0826-1X4T-43-F_3_0"
 				(rectangle
 					(start -7.62 -33.02)
 					(end 7.62 33.02)
@@ -2973,7 +2969,7 @@
 					)
 				)
 			)
-			(symbol "0826-1X4T-43-F_4_0"
+			(symbol "RJ45_0826-1X4T-43-F_4_0"
 				(rectangle
 					(start -7.62 -33.02)
 					(end 7.62 33.02)
@@ -3819,7 +3815,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "KL_R:R_1K_100mW_5_0603"
+		(symbol "KL_R:R_1K_0.1W_5pct_0603"
 			(pin_numbers
 				(hide yes)
 			)
@@ -3862,7 +3858,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=Data%20Sheet&DocLang=English&PartCntxt=1-2176340-9&DocFormat=pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3884,7 +3880,7 @@
 					)
 				)
 			)
-			(property "Power" "100mW"
+			(property "Power_in_W" "0.1"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3895,7 +3891,18 @@
 					)
 				)
 			)
-			(property "Tolerance" "5"
+			(property "Tolerance_in_pct" "5"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "CRGCQ0603J1K0"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3939,18 +3946,7 @@
 					)
 				)
 			)
-			(property "Farnell" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Package (in)" "0603"
+			(property "Package_in_inch" "0603"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3983,7 +3979,7 @@
 					)
 				)
 			)
-			(symbol "R_1K_100mW_5_0603_0_1"
+			(symbol "R_1K_0.1W_5pct_0603_0_1"
 				(rectangle
 					(start -1.016 -2.54)
 					(end 1.016 2.54)
@@ -3996,7 +3992,7 @@
 					)
 				)
 			)
-			(symbol "R_1K_100mW_5_0603_1_1"
+			(symbol "R_1K_0.1W_5pct_0603_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -4036,7 +4032,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "KL_SYM_LOCAL:GND"
+		(symbol "power:GND"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -4598,7 +4594,7 @@
 		(uuid "fbf4cb50-44bd-402b-89c8-11f8889a253d")
 	)
 	(symbol
-		(lib_id "KL_C:C_100n_50V_X7R_0603_10")
+		(lib_id "KL_C:C_100n_50V_10pct_X7R_0603")
 		(at 80.01 62.23 90)
 		(unit 1)
 		(body_style 1)
@@ -4640,7 +4636,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL10B104KB8NNN"
 			(at 80.01 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -4652,28 +4648,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 80.01 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "20"
-			(at 80.01 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "10"
 			(at 80.01 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -4717,6 +4691,61 @@
 				)
 			)
 		)
+		(property "Voltage_in_V" "50"
+			(at 80.01 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance_in_pct" "10"
+			(at 80.01 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 80.01 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
+			(at 80.01 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL10B104KB8NNNC"
+			(at 80.01 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "913e9135-e24a-4462-b50e-fe34aae7f765")
 		)
@@ -4733,7 +4762,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_SYM_LOCAL:GND")
+		(lib_id "power:GND")
 		(at 74.93 72.39 270)
 		(unit 1)
 		(body_style 1)
@@ -4812,7 +4841,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_C:C_100n_50V_X7R_0603_10")
+		(lib_id "KL_C:C_100n_50V_10pct_X7R_0603")
 		(at 80.01 41.91 270)
 		(unit 1)
 		(body_style 1)
@@ -4854,7 +4883,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL10B104KB8NNN"
 			(at 80.01 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -4866,28 +4895,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 80.01 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "20"
-			(at 80.01 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "10"
 			(at 80.01 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -4931,6 +4938,61 @@
 				)
 			)
 		)
+		(property "Voltage_in_V" "50"
+			(at 80.01 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance_in_pct" "10"
+			(at 80.01 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 80.01 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
+			(at 80.01 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL10B104KB8NNNC"
+			(at 80.01 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c9e2d659-29c9-40c5-b9d0-87aa05c5a411")
 		)
@@ -4947,7 +5009,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_R:R_1K_100mW_5_0603")
+		(lib_id "KL_R:R_1K_0.1W_5pct_0603")
 		(at 119.38 80.01 90)
 		(unit 1)
 		(body_style 1)
@@ -4988,7 +5050,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=Data%20Sheet&DocLang=English&PartCntxt=1-2176340-9&DocFormat=pdf"
 			(at 119.38 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -5000,28 +5062,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 119.38 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" "100mW"
-			(at 119.38 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "5"
 			(at 119.38 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -5065,7 +5105,7 @@
 				)
 			)
 		)
-		(property "Farnell" ""
+		(property "Power_in_W" "0.1"
 			(at 119.38 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -5076,7 +5116,29 @@
 				)
 			)
 		)
-		(property "Package (in)" "0603"
+		(property "Tolerance_in_pct" "5"
+			(at 119.38 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CRGCQ0603J1K0"
+			(at 119.38 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
 			(at 119.38 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -5103,7 +5165,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_R:R_1K_100mW_5_0603")
+		(lib_id "KL_R:R_1K_0.1W_5pct_0603")
 		(at 119.38 97.79 180)
 		(unit 1)
 		(body_style 1)
@@ -5147,7 +5209,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=Data%20Sheet&DocLang=English&PartCntxt=1-2176340-9&DocFormat=pdf"
 			(at 119.38 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -5159,28 +5221,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 119.38 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" "100mW"
-			(at 119.38 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "5"
 			(at 119.38 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -5224,7 +5264,7 @@
 				)
 			)
 		)
-		(property "Farnell" ""
+		(property "Power_in_W" "0.1"
 			(at 119.38 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -5235,7 +5275,29 @@
 				)
 			)
 		)
-		(property "Package (in)" "0603"
+		(property "Tolerance_in_pct" "5"
+			(at 119.38 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CRGCQ0603J1K0"
+			(at 119.38 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
 			(at 119.38 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -5262,7 +5324,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_SYM_LOCAL:GND")
+		(lib_id "power:GND")
 		(at 119.38 113.03 0)
 		(unit 1)
 		(body_style 1)
@@ -5340,7 +5402,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_C:C_100n_50V_X7R_0603_10")
+		(lib_id "KL_C:C_100n_50V_10pct_X7R_0603")
 		(at 80.01 52.07 90)
 		(unit 1)
 		(body_style 1)
@@ -5382,7 +5444,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL10B104KB8NNN"
 			(at 80.01 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -5394,28 +5456,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 80.01 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "20"
-			(at 80.01 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "10"
 			(at 80.01 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -5459,6 +5499,61 @@
 				)
 			)
 		)
+		(property "Voltage_in_V" "50"
+			(at 80.01 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance_in_pct" "10"
+			(at 80.01 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 80.01 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
+			(at 80.01 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL10B104KB8NNNC"
+			(at 80.01 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "785978ab-613f-4347-b8db-261669ed9742")
 		)
@@ -5475,7 +5570,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_Connectors_RJ45:0826-1X4T-43-F")
+		(lib_id "KL_Conn_Data:RJ45_0826-1X4T-43-F")
 		(at 139.7 69.85 0)
 		(unit 3)
 		(body_style 1)
@@ -5497,7 +5592,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0826-1X4T-43-F"
+		(property "Value" "RJ45_0826-1X4T-43-F"
 			(at 132.08 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -5532,7 +5627,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RJ45 Connector"
 			(at 139.7 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -5541,54 +5636,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "PARTREV" "D"
-			(at 139.7 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 139.7 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "15.49mm"
-			(at 139.7 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" "Bel Fuse"
-			(at 139.7 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
 			)
 		)
 		(property "Mouser" "530-0826-1X4T-43-F"
@@ -5614,6 +5661,17 @@
 			)
 		)
 		(property "LCSC" "C6776265"
+			(at 139.7 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0826-1X4T-43-F"
 			(at 139.7 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -5838,7 +5896,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_R:R_1K_100mW_5_0603")
+		(lib_id "KL_R:R_1K_0.1W_5pct_0603")
 		(at 119.38 107.95 180)
 		(unit 1)
 		(body_style 1)
@@ -5882,7 +5940,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=Data%20Sheet&DocLang=English&PartCntxt=1-2176340-9&DocFormat=pdf"
 			(at 119.38 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -5894,28 +5952,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 119.38 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" "100mW"
-			(at 119.38 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "5"
 			(at 119.38 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -5959,7 +5995,7 @@
 				)
 			)
 		)
-		(property "Farnell" ""
+		(property "Power_in_W" "0.1"
 			(at 119.38 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -5970,7 +6006,29 @@
 				)
 			)
 		)
-		(property "Package (in)" "0603"
+		(property "Tolerance_in_pct" "5"
+			(at 119.38 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CRGCQ0603J1K0"
+			(at 119.38 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
 			(at 119.38 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -5997,7 +6055,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_C:C_100n_50V_X7R_0603_10")
+		(lib_id "KL_C:C_100n_50V_10pct_X7R_0603")
 		(at 80.01 72.39 90)
 		(unit 1)
 		(body_style 1)
@@ -6039,7 +6097,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL10B104KB8NNN"
 			(at 80.01 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -6051,28 +6109,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 80.01 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "20"
-			(at 80.01 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "10"
 			(at 80.01 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -6106,6 +6142,61 @@
 			)
 		)
 		(property "LCSC" "C1591"
+			(at 80.01 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage_in_V" "50"
+			(at 80.01 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance_in_pct" "10"
+			(at 80.01 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 80.01 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
+			(at 80.01 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL10B104KB8NNNC"
 			(at 80.01 72.39 0)
 			(hide yes)
 			(show_name no)
