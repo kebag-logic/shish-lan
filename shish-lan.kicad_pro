@@ -224,7 +224,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "rev A"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -1445,7 +1445,7 @@
       {
         "filename": "shish-lan.kicad_sch",
         "name": "shish-lan",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "d4536448-b109-4159-96e2-3dc21baf2d6e"
       }
     ],
     "used_designators": "",
@@ -1454,7 +1454,7 @@
   "sheets": [
     [
       "d4536448-b109-4159-96e2-3dc21baf2d6e",
-      "Root"
+      "shish-lan"
     ],
     [
       "0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c",
