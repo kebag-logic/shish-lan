@@ -10,7 +10,7 @@
 		(company "Kebag-logic <contact@kebag-logic.com>")
 	)
 	(lib_symbols
-		(symbol "KL_Headers:02x10_2.54mm_Header_Odd_Even"
+		(symbol "KL_Header:Header_10x02_2.54mm_2.54mm_Straight"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -30,7 +30,7 @@
 					)
 				)
 			)
-			(property "Value" "02x10_2.54mm_Header_Odd_Even"
+			(property "Value" "Header_10x02_2.54mm_2.54mm_Straight"
 				(at 1.27 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -52,7 +52,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://app.adam-tech.com/products/download/data_sheet/203218/bhr-xx-vua-data-sheet.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -63,7 +63,7 @@
 					)
 				)
 			)
-			(property "Description" "Generic connector, double row, 02x10, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Pin header"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -74,7 +74,62 @@
 					)
 				)
 			)
-			(property "Manufacturer_No" ""
+			(property "No_of_pins" "10"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "No_of_rows" "2"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Pitch_pin_in_mm" "2.54"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Pitch_row_in_mm" "2.54"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Orientation" "Straight"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "BHR-20-VUA"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -140,7 +195,7 @@
 					)
 				)
 			)
-			(symbol "02x10_2.54mm_Header_Odd_Even_1_1"
+			(symbol "Header_10x02_2.54mm_2.54mm_Straight_1_1"
 				(rectangle
 					(start -1.27 11.43)
 					(end 3.81 -13.97)
@@ -1236,7 +1291,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_Headers:02x10_2.54mm_Header_Odd_Even")
+		(lib_id "KL_Header:Header_10x02_2.54mm_2.54mm_Straight")
 		(at 123.19 85.09 0)
 		(unit 1)
 		(body_style 1)
@@ -1257,7 +1312,7 @@
 				)
 			)
 		)
-		(property "Value" "02x10_2.54mm_Header_Odd_Even"
+		(property "Value" "Header_10x02_2.54mm_2.54mm_Straight"
 			(at 124.46 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -1279,7 +1334,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://app.adam-tech.com/products/download/data_sheet/203218/bhr-xx-vua-data-sheet.pdf"
 			(at 123.19 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -1290,18 +1345,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x10, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 123.19 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_No" ""
+		(property "Description" "Pin header"
 			(at 123.19 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -1335,6 +1379,72 @@
 			)
 		)
 		(property "LCSC" "C598987"
+			(at 123.19 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "No_of_pins" "10"
+			(at 123.19 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "No_of_rows" "2"
+			(at 123.19 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch_pin_in_mm" "2.54"
+			(at 123.19 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch_row_in_mm" "2.54"
+			(at 123.19 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Orientation" "Straight"
+			(at 123.19 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "BHR-20-VUA"
 			(at 123.19 85.09 0)
 			(hide yes)
 			(show_name no)
