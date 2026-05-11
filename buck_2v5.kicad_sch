@@ -544,7 +544,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://datasheets.kyocera-avx.com/U-Series.pdf"
+			(property "Datasheet" "https://yageogroup.com/download/specsheet/CC0603JRNPO8BN100"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -610,7 +610,7 @@
 					)
 				)
 			)
-			(property "MPN" "06033U100JAT2A"
+			(property "MPN" "CC0603JRNPO8BN100"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -621,7 +621,7 @@
 					)
 				)
 			)
-			(property "Mouser" "581-06033U100JAT2A"
+			(property "Mouser" "603-CC0603JRNP8BN100"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -632,7 +632,7 @@
 					)
 				)
 			)
-			(property "Digikey" "06033U100JAT2A-ND"
+			(property "Digikey" "13-CC0603JRNPO8BN100CT-ND"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -643,7 +643,7 @@
 					)
 				)
 			)
-			(property "LCSC" "C2229848"
+			(property "LCSC" "C1853175"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -7501,7 +7501,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://datasheets.kyocera-avx.com/U-Series.pdf"
+		(property "Datasheet" "https://yageogroup.com/download/specsheet/CC0603JRNPO8BN100"
 			(at 173.99 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -7523,7 +7523,7 @@
 				)
 			)
 		)
-		(property "Mouser" "581-06033U100JAT2A"
+		(property "Mouser" "603-CC0603JRNP8BN100"
 			(at 173.99 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -7534,7 +7534,7 @@
 				)
 			)
 		)
-		(property "Digikey" "06033U100JAT2A-ND"
+		(property "Digikey" "13-CC0603JRNPO8BN100CT-ND"
 			(at 173.99 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -7545,7 +7545,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2229848"
+		(property "LCSC" "C1853175"
 			(at 173.99 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -7600,7 +7600,7 @@
 				)
 			)
 		)
-		(property "MPN" "06033U100JAT2A"
+		(property "MPN" "CC0603JRNPO8BN100"
 			(at 173.99 83.82 0)
 			(hide yes)
 			(show_name no)
