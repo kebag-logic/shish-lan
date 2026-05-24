@@ -5078,6 +5078,12 @@
 		(uuid "1ae1c432-ba12-4523-bbff-ea4c6db973ca")
 	)
 	(junction
+		(at 60.96 20.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1fc2eb74-1072-4331-9109-1a16af6e4468")
+	)
+	(junction
 		(at 232.41 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5144,12 +5150,6 @@
 		(uuid "7ea69b08-857b-4f69-8593-2bd25de171bf")
 	)
 	(junction
-		(at 60.96 20.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "81ff70fd-3ff6-4da9-b8fa-bd875af36bdd")
-	)
-	(junction
 		(at 222.25 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5160,6 +5160,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8f8130c4-d4a5-4274-a891-8e8877c345c4")
+	)
+	(junction
+		(at 60.96 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "97afbfa5-5d96-447f-8783-37ced6116b40")
 	)
 	(junction
 		(at 134.62 128.27)
@@ -5214,12 +5220,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c8d8651d-af32-41b6-bf06-8cf7be5e9edb")
-	)
-	(junction
-		(at 60.96 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c9a304d7-619d-4e7f-bf45-24f83f004bb2")
 	)
 	(junction
 		(at 78.74 91.44)
@@ -5605,7 +5605,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 20.32) (xy 76.2 20.32)
+			(xy 60.96 20.32) (xy 88.9 20.32)
 		)
 		(stroke
 			(width 0)
@@ -5915,7 +5915,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 35.56) (xy 76.2 35.56)
+			(xy 27.94 35.56) (xy 88.9 35.56)
 		)
 		(stroke
 			(width 0)
@@ -6075,7 +6075,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 25.4) (xy 76.2 25.4)
+			(xy 45.72 25.4) (xy 88.9 25.4)
 		)
 		(stroke
 			(width 0)
@@ -6185,7 +6185,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 30.48) (xy 76.2 30.48)
+			(xy 60.96 30.48) (xy 88.9 30.48)
 		)
 		(stroke
 			(width 0)
@@ -6613,7 +6613,7 @@
 		)
 		(uuid "3581499f-3f59-4932-a92a-7ce32f536b9c")
 	)
-	(label "1V15_PWR"
+	(label "1V15_PWR_SWITCH"
 		(at 102.87 46.99 0)
 		(effects
 			(font
@@ -6623,7 +6623,7 @@
 		)
 		(uuid "37cc1557-1dd3-46e7-a236-0cebc92a0a88")
 	)
-	(label "1V15_PWR"
+	(label "1V15_PWR_SWITCH"
 		(at 88.9 173.99 0)
 		(effects
 			(font
@@ -6663,8 +6663,8 @@
 		)
 		(uuid "4e528a55-ce0c-4867-a387-b9dd682ba76b")
 	)
-	(label "1V15_PWR"
-		(at 76.2 30.48 180)
+	(label "1V15_PWR_SWITCH"
+		(at 88.9 30.48 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6673,7 +6673,7 @@
 		)
 		(uuid "6f793e2e-a266-4e1e-bf20-fe2f6c6873b2")
 	)
-	(label "2V5_PWR"
+	(label "2V5_PWR_SWITCH"
 		(at 19.05 115.57 0)
 		(effects
 			(font
@@ -6683,7 +6683,7 @@
 		)
 		(uuid "73c5d3f7-d218-4cad-9bf6-235a4457227f")
 	)
-	(label "1V15_PWR"
+	(label "1V15_PWR_SWITCH"
 		(at 261.62 83.82 180)
 		(effects
 			(font
@@ -6703,7 +6703,7 @@
 		)
 		(uuid "7c751828-2512-415a-a8c0-a3a7b7fcb011")
 	)
-	(label "2V5_PWR"
+	(label "2V5_PWR_SWITCH"
 		(at 19.05 144.78 0)
 		(effects
 			(font
@@ -6733,7 +6733,7 @@
 		)
 		(uuid "8cd2f577-e9f4-4879-a388-4ba251e0edd8")
 	)
-	(label "1V15_PWR"
+	(label "1V15_PWR_SWITCH"
 		(at 19.05 86.36 0)
 		(effects
 			(font
@@ -6743,8 +6743,8 @@
 		)
 		(uuid "a0f97542-b9eb-4fdb-a584-783f6a7ebf32")
 	)
-	(label "2V5_PWR"
-		(at 76.2 25.4 180)
+	(label "2V5_PWR_SWITCH"
+		(at 88.9 25.4 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6783,7 +6783,7 @@
 		)
 		(uuid "ba0e78b2-11bc-44fd-bbec-74f09a762bb8")
 	)
-	(label "1V15_PWR"
+	(label "1V15_PWR_SWITCH"
 		(at 19.05 57.15 0)
 		(effects
 			(font
@@ -6794,7 +6794,7 @@
 		(uuid "bc5fcba0-4750-4bf5-ac86-cab3b38317bc")
 	)
 	(label "VDDIO"
-		(at 76.2 20.32 180)
+		(at 88.9 20.32 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6854,7 +6854,7 @@
 		(uuid "f3c3510f-3306-44cc-b072-a9de92c0f307")
 	)
 	(label "nRST"
-		(at 76.2 35.56 180)
+		(at 88.9 35.56 180)
 		(effects
 			(font
 				(size 1.27 1.27)

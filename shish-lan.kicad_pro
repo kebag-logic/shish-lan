@@ -805,6 +805,9 @@
       "/switch/switch_gpios/RGMII1{TXD[0..3], TX_CLK, TX_CTLR, RXD[0..3], RX_CLK, RX_CTLR}": [
         "RGMII"
       ],
+      "/switch/switch_power/1V15_PWR_SWITCH": [
+        "PWR"
+      ],
       "/switch/switch_power/VDDIO": [
         "PWR"
       ],
@@ -1451,7 +1454,7 @@
         "uuid": "d4536448-b109-4159-96e2-3dc21baf2d6e"
       }
     ],
-    "used_designators": "C72,C98,C107,J15-17",
+    "used_designators": "#FLG6,J15-17,C72,C98,C107",
     "variants": []
   },
   "sheets": [
