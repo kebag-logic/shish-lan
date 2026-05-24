@@ -529,6 +529,9 @@
       "+3V3": [
         "PWR"
       ],
+      "/5-12V_INPUT": [
+        "PWR"
+      ],
       "/buck_1V1/1V1": [
         "1V1_BUCK"
       ],
@@ -1448,7 +1451,7 @@
         "uuid": "d4536448-b109-4159-96e2-3dc21baf2d6e"
       }
     ],
-    "used_designators": "C72,C98,C107",
+    "used_designators": "J15-17,C72,C98,C107",
     "variants": []
   },
   "sheets": [
