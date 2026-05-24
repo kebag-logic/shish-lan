@@ -12,249 +12,6 @@
 		(comment 1 "Confidential")
 	)
 	(lib_symbols
-		(symbol "KL_C:C_100n_16V_10pct_X7R_0603"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "100n"
-				(at 0.635 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "KL_Footprints:C_0603"
-				(at 0.9652 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://yageogroup.com/download/specsheet/CC0603KPX7R7BB104"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Voltage_in_V" "16"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Tolerance_in_pct" "10"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Dielectric" "X7R"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Package_in_inch" "0603"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "CC0603KPX7R7BB104"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Mouser" "603-C0603KPX7R7BB104"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Digikey" "311-1335-1-ND"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC" "C2649559"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "C_100n_16V_10pct_X7R_0603_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_100n_16V_10pct_X7R_0603_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "KL_C:C_100n_50V_10pct_X7R_0603"
 			(pin_numbers
 				(hide yes)
@@ -984,42 +741,22 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "KL_C:C_22u_10V_20pct_X5R_0603"
+		(symbol "KL_Flags:PWR_FLAG"
+			(power global)
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
-				(offset 0.254)
+				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "22u"
-				(at 0.635 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "KL_Footprints:C_0603"
-				(at 0.9652 -3.81 0)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1029,7 +766,17 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GRM187R61A226ME15-01A-EN_PDF_CERAMICCAPACITORSMD"
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1040,7 +787,7 @@
 					)
 				)
 			)
-			(property "Description" "Unpolarized capacitor"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1051,7 +798,7 @@
 					)
 				)
 			)
-			(property "Voltage_in_V" "10"
+			(property "Description" "Special symbol for telling ERC where power comes from"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1062,7 +809,7 @@
 					)
 				)
 			)
-			(property "Tolerance_in_pct" "20"
+			(property "ki_keywords" "flag power"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1073,124 +820,10 @@
 					)
 				)
 			)
-			(property "Dielectric" "X5R"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Package_in_inch" "0603"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "GRM187R61A226ME15D"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Mouser" "81-GRM187R61A226ME5D"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Digikey" "490-13243-1-ND"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC" "C361061"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "C_22u_10V_20pct_X5R_0603_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_22u_10V_20pct_X5R_0603_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
 					(name ""
 						(effects
 							(font
@@ -1206,22 +839,18 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
 					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
@@ -1979,6 +1608,223 @@
 					(at 3.81 0 180)
 					(length 2.54)
 					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "KL_R:R_0R_2W_5pct_2512"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "0R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "KL_Footprints:R_2512"
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/CRF-J.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Power_in_W" "2"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Tolerance_in_pct" "5"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "CRF2512-J/-000ELF"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Mouser" "652-CRF2512-J-000ELF"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Digikey" "118-CRF2512-J/-000ELFCT-ND"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C2778666"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Package_in_inch" "2512"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0R_2W_5pct_2512_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_0R_2W_5pct_2512_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3773,6 +3619,12 @@
 		(uuid "38f507c2-dc1b-4671-889d-ccc9c135e8e3")
 	)
 	(junction
+		(at 207.01 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3c2ee23e-fb97-450e-9040-d1b55a6f6b5a")
+	)
+	(junction
 		(at 153.67 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3789,6 +3641,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "68f8a0d3-cb7d-49c4-a0de-a73515a5080e")
+	)
+	(junction
+		(at 68.58 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "692173fa-6138-4aae-97f8-e5efd57696b0")
 	)
 	(junction
 		(at 96.52 95.25)
@@ -3833,12 +3691,6 @@
 		(uuid "9b1fd72d-43d9-4627-a1ab-2e6fe8692502")
 	)
 	(junction
-		(at 207.01 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a3a08eeb-d2fd-4264-8dd8-825df6289493")
-	)
-	(junction
 		(at 212.09 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3876,7 +3728,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 74.93) (xy 45.72 74.93)
+			(xy 29.21 74.93) (xy 35.56 74.93)
 		)
 		(stroke
 			(width 0)
@@ -3916,16 +3768,6 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 72.39) (xy 207.01 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12afc9be-a9de-4cbc-b1f8-75a806632eee")
-	)
-	(wire
-		(pts
 			(xy 180.34 95.25) (xy 180.34 99.06)
 		)
 		(stroke
@@ -3956,7 +3798,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 74.93) (xy 76.2 74.93)
+			(xy 76.2 74.93) (xy 68.58 74.93)
 		)
 		(stroke
 			(width 0)
@@ -4106,6 +3948,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 74.93) (xy 64.77 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54f8f459-fb6d-4e3f-a2e9-84eff6aa4366")
+	)
+	(wire
+		(pts
 			(xy 168.91 83.82) (xy 180.34 83.82)
 		)
 		(stroke
@@ -4193,6 +4045,16 @@
 			(type default)
 		)
 		(uuid "843cf1e5-1762-45c7-8675-52b1cdcbdb61")
+	)
+	(wire
+		(pts
+			(xy 180.34 72.39) (xy 193.04 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84594028-292a-4fd3-a77a-41d92e89a37b")
 	)
 	(wire
 		(pts
@@ -4316,6 +4178,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 74.93) (xy 45.72 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1ccd6bb-cd24-4b4f-9a40-c5e3361627af")
+	)
+	(wire
+		(pts
 			(xy 96.52 95.25) (xy 106.68 95.25)
 		)
 		(stroke
@@ -4363,6 +4235,16 @@
 			(type default)
 		)
 		(uuid "da6f7c95-25fe-4257-b505-015e6350ea86")
+	)
+	(wire
+		(pts
+			(xy 195.58 72.39) (xy 207.01 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dec4a320-248e-4b0e-8a8f-5320af998c23")
 	)
 	(wire
 		(pts
@@ -4424,16 +4306,6 @@
 		)
 		(uuid "f3101318-5be6-4a08-9a53-30e09d76b58d")
 	)
-	(wire
-		(pts
-			(xy 180.34 72.39) (xy 191.77 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f34987c1-b25a-4ebb-a6f5-7d6f0d084c95")
-	)
 	(label "+3V3_OUT"
 		(at 39.37 39.37 180)
 		(effects
@@ -4455,7 +4327,7 @@
 		(uuid "6e3e9d1c-c537-406f-91ad-39b973b4beb2")
 	)
 	(label "+3V3_OUT"
-		(at 198.12 72.39 0)
+		(at 200.66 72.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4568,7 +4440,7 @@
 	)
 	(symbol
 		(lib_id "KL_Header:Header_02x01_2.54mm_0mm_Straight")
-		(at 193.04 77.47 270)
+		(at 194.31 77.47 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4577,9 +4449,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0456fb43-8e74-46eb-9d2d-4fa432811731")
+		(uuid "00398f44-dcd7-4b02-8652-0a1fe4ec4a7b")
 		(property "Reference" "J15"
-			(at 196.85 77.4699 90)
+			(at 198.12 77.4699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4590,7 +4462,7 @@
 			)
 		)
 		(property "Value" "Header_02x01_2.54mm_0mm_Straight"
-			(at 193.04 77.47 0)
+			(at 194.31 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4601,7 +4473,7 @@
 			)
 		)
 		(property "Footprint" "KL_Footprints:02x01_2.54mm_Header"
-			(at 193.04 77.47 0)
+			(at 194.31 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4612,7 +4484,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=87224&DocType=Customer+Drawing&DocLang=English"
-			(at 193.04 77.47 0)
+			(at 194.31 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4623,7 +4495,7 @@
 			)
 		)
 		(property "Description" "Pin Header"
-			(at 193.04 77.47 0)
+			(at 194.31 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4634,7 +4506,7 @@
 			)
 		)
 		(property "No_of_pins" "2"
-			(at 193.04 77.47 0)
+			(at 194.31 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4645,7 +4517,7 @@
 			)
 		)
 		(property "No_of_rows" "1"
-			(at 193.04 77.47 0)
+			(at 194.31 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4656,7 +4528,7 @@
 			)
 		)
 		(property "Pitch_pin_in_mm" "2.54"
-			(at 193.04 77.47 0)
+			(at 194.31 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4667,7 +4539,7 @@
 			)
 		)
 		(property "Pitch_row_in_mm" "0"
-			(at 193.04 77.47 0)
+			(at 194.31 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4678,7 +4550,7 @@
 			)
 		)
 		(property "Orientation" "Straight"
-			(at 193.04 77.47 0)
+			(at 194.31 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4689,7 +4561,7 @@
 			)
 		)
 		(property "MPN" "87224-2"
-			(at 193.04 77.47 0)
+			(at 194.31 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4700,7 +4572,7 @@
 			)
 		)
 		(property "Mouser" "571-872242"
-			(at 193.04 77.47 0)
+			(at 194.31 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4711,7 +4583,7 @@
 			)
 		)
 		(property "Digikey" "A26543-ND"
-			(at 193.04 77.47 0)
+			(at 194.31 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4722,7 +4594,7 @@
 			)
 		)
 		(property "LCSC" "C5383111"
-			(at 193.04 77.47 0)
+			(at 194.31 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4732,11 +4604,11 @@
 				)
 			)
 		)
-		(pin "1"
-			(uuid "761fd899-1189-421c-9c2f-6825515acf2e")
-		)
 		(pin "2"
-			(uuid "108eec29-cccc-4212-a13f-45a494b0cced")
+			(uuid "fc824f36-e744-47e7-b99c-ab73ff7957e7")
+		)
+		(pin "1"
+			(uuid "5a2939a0-2517-4bd4-ab41-a9d3326bd658")
 		)
 		(instances
 			(project "shish-lan"
@@ -4912,6 +4784,84 @@
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/b46af5b7-dd4e-4356-ae8f-8ea1d81113b6"
 					(reference "C89")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KL_Flags:PWR_FLAG")
+		(at 68.58 74.93 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1181b642-bf02-47f5-bdc8-573b7bd4c138")
+		(property "Reference" "#FLG3"
+			(at 68.58 73.025 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 68.58 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 68.58 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c25de62c-6c62-4b24-b1fc-72cda2fe2fca")
+		)
+		(instances
+			(project "shish-lan"
+				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/b46af5b7-dd4e-4356-ae8f-8ea1d81113b6"
+					(reference "#FLG3")
 					(unit 1)
 				)
 			)
@@ -5336,7 +5286,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_C:C_100n_16V_10pct_X7R_0603")
+		(lib_id "KL_C:C_10u_25V_20pct_X5R_0603")
 		(at 76.2 82.55 0)
 		(unit 1)
 		(body_style 1)
@@ -5358,7 +5308,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "10u"
 			(at 80.01 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5380,7 +5330,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/download/specsheet/CC0603KPX7R7BB104"
+		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL10A106MA8NRN"
 			(at 76.2 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -5402,7 +5352,7 @@
 				)
 			)
 		)
-		(property "Mouser" "603-C0603KPX7R7BB104"
+		(property "Mouser" "187-CL10A106MA8NRNC"
 			(at 76.2 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -5413,7 +5363,7 @@
 				)
 			)
 		)
-		(property "Digikey" "311-1335-1-ND"
+		(property "Digikey" "1276-1869-1-ND"
 			(at 76.2 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -5424,7 +5374,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2649559"
+		(property "LCSC" "C96446"
 			(at 76.2 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -5435,7 +5385,7 @@
 				)
 			)
 		)
-		(property "Voltage_in_V" "16"
+		(property "Voltage_in_V" "25"
 			(at 76.2 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -5446,7 +5396,7 @@
 				)
 			)
 		)
-		(property "Tolerance_in_pct" "10"
+		(property "Tolerance_in_pct" "20"
 			(at 76.2 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -5457,7 +5407,7 @@
 				)
 			)
 		)
-		(property "Dielectric" "X7R"
+		(property "Dielectric" "X5R"
 			(at 76.2 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -5479,7 +5429,7 @@
 				)
 			)
 		)
-		(property "MPN" "CC0603KPX7R7BB104"
+		(property "MPN" "CL10A106MA8NRNC"
 			(at 76.2 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -7231,7 +7181,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_C:C_100n_50V_10pct_X7R_0603")
+		(lib_id "KL_C:C_10u_25V_20pct_X5R_0603")
 		(at 229.87 76.2 0)
 		(unit 1)
 		(body_style 1)
@@ -7253,7 +7203,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "10u"
 			(at 233.68 77.4699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7275,7 +7225,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL10B104KB8NNN"
+		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL10A106MA8NRN"
 			(at 229.87 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -7297,7 +7247,7 @@
 				)
 			)
 		)
-		(property "Mouser" "187-CL10B104KB8NNNC"
+		(property "Mouser" "187-CL10A106MA8NRNC"
 			(at 229.87 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -7308,7 +7258,7 @@
 				)
 			)
 		)
-		(property "Digikey" "1276-1000-1-ND"
+		(property "Digikey" "1276-1869-1-ND"
 			(at 229.87 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -7319,7 +7269,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1591"
+		(property "LCSC" "C96446"
 			(at 229.87 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -7330,7 +7280,7 @@
 				)
 			)
 		)
-		(property "Voltage_in_V" "50"
+		(property "Voltage_in_V" "25"
 			(at 229.87 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -7341,7 +7291,7 @@
 				)
 			)
 		)
-		(property "Tolerance_in_pct" "10"
+		(property "Tolerance_in_pct" "20"
 			(at 229.87 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -7352,7 +7302,7 @@
 				)
 			)
 		)
-		(property "Dielectric" "X7R"
+		(property "Dielectric" "X5R"
 			(at 229.87 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -7374,7 +7324,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL10B104KB8NNNC"
+		(property "MPN" "CL10A106MA8NRNC"
 			(at 229.87 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -7560,7 +7510,163 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_C:C_22u_10V_20pct_X5R_0603")
+		(lib_id "KL_R:R_0R_2W_5pct_2512")
+		(at 39.37 74.93 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c547d368-7530-409e-a650-9d9cc1bc19b2")
+		(property "Reference" "R23"
+			(at 39.37 72.898 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 39.37 74.93 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "KL_Footprints:R_2512"
+			(at 39.37 76.708 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/CRF-J.pdf"
+			(at 39.37 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 39.37 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" "652-CRF2512-J-000ELF"
+			(at 39.37 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "118-CRF2512-J/-000ELFCT-ND"
+			(at 39.37 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2778666"
+			(at 39.37 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power_in_W" "2"
+			(at 39.37 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance_in_pct" "5"
+			(at 39.37 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CRF2512-J/-000ELF"
+			(at 39.37 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "2512"
+			(at 39.37 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f7a0ea96-540e-4e3a-b8ec-cc15e2fdfa53")
+		)
+		(pin "1"
+			(uuid "8820acc5-f81d-40dd-9a64-64be30c56ac4")
+		)
+		(instances
+			(project "shish-lan"
+				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/b46af5b7-dd4e-4356-ae8f-8ea1d81113b6"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KL_C:C_10u_25V_20pct_X5R_0603")
 		(at 218.44 76.2 0)
 		(unit 1)
 		(body_style 1)
@@ -7582,7 +7688,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22u"
+		(property "Value" "10u"
 			(at 222.25 77.4699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7604,7 +7710,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GRM187R61A226ME15-01A-EN_PDF_CERAMICCAPACITORSMD"
+		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL10A106MA8NRN"
 			(at 218.44 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -7626,7 +7732,7 @@
 				)
 			)
 		)
-		(property "Mouser" "81-GRM187R61A226ME5D"
+		(property "Mouser" "187-CL10A106MA8NRNC"
 			(at 218.44 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -7637,7 +7743,7 @@
 				)
 			)
 		)
-		(property "Digikey" "490-13243-1-ND"
+		(property "Digikey" "1276-1869-1-ND"
 			(at 218.44 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -7648,7 +7754,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C361061"
+		(property "LCSC" "C96446"
 			(at 218.44 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -7659,7 +7765,7 @@
 				)
 			)
 		)
-		(property "Voltage_in_V" "10"
+		(property "Voltage_in_V" "25"
 			(at 218.44 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -7703,7 +7809,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM187R61A226ME15D"
+		(property "MPN" "CL10A106MA8NRNC"
 			(at 218.44 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -7730,7 +7836,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_C:C_22u_10V_20pct_X5R_0603")
+		(lib_id "KL_C:C_10u_25V_20pct_X5R_0603")
 		(at 207.01 76.2 0)
 		(unit 1)
 		(body_style 1)
@@ -7752,7 +7858,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22u"
+		(property "Value" "10u"
 			(at 210.82 77.4699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7774,7 +7880,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GRM187R61A226ME15-01A-EN_PDF_CERAMICCAPACITORSMD"
+		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL10A106MA8NRN"
 			(at 207.01 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -7796,7 +7902,7 @@
 				)
 			)
 		)
-		(property "Mouser" "81-GRM187R61A226ME5D"
+		(property "Mouser" "187-CL10A106MA8NRNC"
 			(at 207.01 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -7807,7 +7913,7 @@
 				)
 			)
 		)
-		(property "Digikey" "490-13243-1-ND"
+		(property "Digikey" "1276-1869-1-ND"
 			(at 207.01 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -7818,7 +7924,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C361061"
+		(property "LCSC" "C96446"
 			(at 207.01 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -7829,7 +7935,7 @@
 				)
 			)
 		)
-		(property "Voltage_in_V" "10"
+		(property "Voltage_in_V" "25"
 			(at 207.01 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -7873,7 +7979,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM187R61A226ME15D"
+		(property "MPN" "CL10A106MA8NRNC"
 			(at 207.01 76.2 0)
 			(hide yes)
 			(show_name no)

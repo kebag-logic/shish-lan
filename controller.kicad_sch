@@ -12,7 +12,7 @@
 		(comment 1 "Confidential")
 	)
 	(lib_symbols
-		(symbol "KL_C:C_100n_10V_10pct_X7R_0603"
+		(symbol "KL_C:C_10u_25V_20pct_X5R_0603"
 			(pin_numbers
 				(hide yes)
 			)
@@ -35,7 +35,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "100n"
+			(property "Value" "10u"
 				(at 0.635 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -57,7 +57,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X7R_6_3V-TO-250V"
+			(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL10A106MA8NRN"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -79,7 +79,7 @@
 					)
 				)
 			)
-			(property "Voltage_in_V" "10"
+			(property "Voltage_in_V" "25"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -90,7 +90,7 @@
 					)
 				)
 			)
-			(property "Tolerance_in_pct" "10"
+			(property "Tolerance_in_pct" "20"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -101,7 +101,7 @@
 					)
 				)
 			)
-			(property "Dielectric" "X7R"
+			(property "Dielectric" "X5R"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -123,7 +123,7 @@
 					)
 				)
 			)
-			(property "MPN" "CC0603KRX7R6BB104"
+			(property "MPN" "CL10A106MA8NRNC"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -134,7 +134,7 @@
 					)
 				)
 			)
-			(property "Mouser" "603-CC603KRX7R6BB104"
+			(property "Mouser" "187-CL10A106MA8NRNC"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -145,7 +145,7 @@
 					)
 				)
 			)
-			(property "Digikey" "311-4055-1-ND"
+			(property "Digikey" "1276-1869-1-ND"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -156,7 +156,7 @@
 					)
 				)
 			)
-			(property "LCSC" "C519438"
+			(property "LCSC" "C96446"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -189,7 +189,7 @@
 					)
 				)
 			)
-			(symbol "C_100n_10V_10pct_X7R_0603_0_1"
+			(symbol "C_10u_25V_20pct_X5R_0603_0_1"
 				(polyline
 					(pts
 						(xy -2.032 0.762) (xy 2.032 0.762)
@@ -215,7 +215,7 @@
 					)
 				)
 			)
-			(symbol "C_100n_10V_10pct_X7R_0603_1_1"
+			(symbol "C_10u_25V_20pct_X5R_0603_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
@@ -459,249 +459,6 @@
 				)
 			)
 			(symbol "C_2u2_35V_20pct_X5R_0603_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "KL_C:C_4u7_10V_10pct_X5R_0603"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "4u7"
-				(at 0.635 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "KL_Footprints:C_0603"
-				(at 0.9652 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1006_X5R_SMD"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Voltage_in_V" "10"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Tolerance_in_pct" "10"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Dielectric" "X5R"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Package_in_inch" "0603"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "C0603C475K8PAC7411"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Mouser" "80-C0603C475K8PACLR"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Digikey" "399-C0603C475K8PACTUCT-ND"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC" "C5177163"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "C_4u7_10V_10pct_X5R_0603_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_4u7_10V_10pct_X5R_0603_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
@@ -10515,7 +10272,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_C:C_100n_10V_10pct_X7R_0603")
+		(lib_id "KL_C:C_10u_25V_20pct_X5R_0603")
 		(at 228.6 20.32 0)
 		(unit 1)
 		(body_style 1)
@@ -10537,7 +10294,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "10u"
 			(at 232.41 21.5899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10559,7 +10316,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X7R_6_3V-TO-250V"
+		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL10A106MA8NRN"
 			(at 228.6 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -10581,7 +10338,7 @@
 				)
 			)
 		)
-		(property "Mouser" "603-CC603KRX7R6BB104"
+		(property "Mouser" "187-CL10A106MA8NRNC"
 			(at 228.6 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -10592,7 +10349,7 @@
 				)
 			)
 		)
-		(property "Digikey" "311-4055-1-ND"
+		(property "Digikey" "1276-1869-1-ND"
 			(at 228.6 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -10603,7 +10360,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C519438"
+		(property "LCSC" "C96446"
 			(at 228.6 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -10614,7 +10371,7 @@
 				)
 			)
 		)
-		(property "Voltage_in_V" "10"
+		(property "Voltage_in_V" "25"
 			(at 228.6 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -10625,7 +10382,7 @@
 				)
 			)
 		)
-		(property "Tolerance_in_pct" "10"
+		(property "Tolerance_in_pct" "20"
 			(at 228.6 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -10636,7 +10393,7 @@
 				)
 			)
 		)
-		(property "Dielectric" "X7R"
+		(property "Dielectric" "X5R"
 			(at 228.6 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -10658,7 +10415,7 @@
 				)
 			)
 		)
-		(property "MPN" "CC0603KRX7R6BB104"
+		(property "MPN" "CL10A106MA8NRNC"
 			(at 228.6 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -11585,7 +11342,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_C:C_100n_10V_10pct_X7R_0603")
+		(lib_id "KL_C:C_10u_25V_20pct_X5R_0603")
 		(at 177.8 20.32 0)
 		(unit 1)
 		(body_style 1)
@@ -11607,7 +11364,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "10u"
 			(at 181.61 21.5899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11629,7 +11386,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X7R_6_3V-TO-250V"
+		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL10A106MA8NRN"
 			(at 177.8 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -11651,7 +11408,7 @@
 				)
 			)
 		)
-		(property "Mouser" "603-CC603KRX7R6BB104"
+		(property "Mouser" "187-CL10A106MA8NRNC"
 			(at 177.8 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -11662,7 +11419,7 @@
 				)
 			)
 		)
-		(property "Digikey" "311-4055-1-ND"
+		(property "Digikey" "1276-1869-1-ND"
 			(at 177.8 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -11673,7 +11430,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C519438"
+		(property "LCSC" "C96446"
 			(at 177.8 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -11684,7 +11441,7 @@
 				)
 			)
 		)
-		(property "Voltage_in_V" "10"
+		(property "Voltage_in_V" "25"
 			(at 177.8 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -11695,7 +11452,7 @@
 				)
 			)
 		)
-		(property "Tolerance_in_pct" "10"
+		(property "Tolerance_in_pct" "20"
 			(at 177.8 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -11706,7 +11463,7 @@
 				)
 			)
 		)
-		(property "Dielectric" "X7R"
+		(property "Dielectric" "X5R"
 			(at 177.8 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -11728,7 +11485,7 @@
 				)
 			)
 		)
-		(property "MPN" "CC0603KRX7R6BB104"
+		(property "MPN" "CL10A106MA8NRNC"
 			(at 177.8 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -12107,7 +11864,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_C:C_100n_10V_10pct_X7R_0603")
+		(lib_id "KL_C:C_10u_25V_20pct_X5R_0603")
 		(at 252.73 20.32 0)
 		(unit 1)
 		(body_style 1)
@@ -12129,7 +11886,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "10u"
 			(at 256.54 21.5899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12151,7 +11908,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X7R_6_3V-TO-250V"
+		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL10A106MA8NRN"
 			(at 252.73 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -12173,7 +11930,7 @@
 				)
 			)
 		)
-		(property "Mouser" "603-CC603KRX7R6BB104"
+		(property "Mouser" "187-CL10A106MA8NRNC"
 			(at 252.73 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -12184,7 +11941,7 @@
 				)
 			)
 		)
-		(property "Digikey" "311-4055-1-ND"
+		(property "Digikey" "1276-1869-1-ND"
 			(at 252.73 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -12195,7 +11952,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C519438"
+		(property "LCSC" "C96446"
 			(at 252.73 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -12206,7 +11963,7 @@
 				)
 			)
 		)
-		(property "Voltage_in_V" "10"
+		(property "Voltage_in_V" "25"
 			(at 252.73 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -12217,7 +11974,7 @@
 				)
 			)
 		)
-		(property "Tolerance_in_pct" "10"
+		(property "Tolerance_in_pct" "20"
 			(at 252.73 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -12228,7 +11985,7 @@
 				)
 			)
 		)
-		(property "Dielectric" "X7R"
+		(property "Dielectric" "X5R"
 			(at 252.73 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -12250,7 +12007,7 @@
 				)
 			)
 		)
-		(property "MPN" "CC0603KRX7R6BB104"
+		(property "MPN" "CL10A106MA8NRNC"
 			(at 252.73 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -12277,7 +12034,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_C:C_100n_10V_10pct_X7R_0603")
+		(lib_id "KL_C:C_10u_25V_20pct_X5R_0603")
 		(at 215.9 20.32 0)
 		(unit 1)
 		(body_style 1)
@@ -12299,7 +12056,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "10u"
 			(at 219.71 21.5899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12321,7 +12078,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X7R_6_3V-TO-250V"
+		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL10A106MA8NRN"
 			(at 215.9 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -12343,7 +12100,7 @@
 				)
 			)
 		)
-		(property "Mouser" "603-CC603KRX7R6BB104"
+		(property "Mouser" "187-CL10A106MA8NRNC"
 			(at 215.9 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -12354,7 +12111,7 @@
 				)
 			)
 		)
-		(property "Digikey" "311-4055-1-ND"
+		(property "Digikey" "1276-1869-1-ND"
 			(at 215.9 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -12365,7 +12122,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C519438"
+		(property "LCSC" "C96446"
 			(at 215.9 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -12376,7 +12133,7 @@
 				)
 			)
 		)
-		(property "Voltage_in_V" "10"
+		(property "Voltage_in_V" "25"
 			(at 215.9 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -12387,7 +12144,7 @@
 				)
 			)
 		)
-		(property "Tolerance_in_pct" "10"
+		(property "Tolerance_in_pct" "20"
 			(at 215.9 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -12398,7 +12155,7 @@
 				)
 			)
 		)
-		(property "Dielectric" "X7R"
+		(property "Dielectric" "X5R"
 			(at 215.9 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -12420,7 +12177,7 @@
 				)
 			)
 		)
-		(property "MPN" "CC0603KRX7R6BB104"
+		(property "MPN" "CL10A106MA8NRNC"
 			(at 215.9 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -12681,7 +12438,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_C:C_100n_10V_10pct_X7R_0603")
+		(lib_id "KL_C:C_10u_25V_20pct_X5R_0603")
 		(at 190.5 20.32 0)
 		(unit 1)
 		(body_style 1)
@@ -12703,7 +12460,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "10u"
 			(at 194.31 21.5899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12725,7 +12482,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X7R_6_3V-TO-250V"
+		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL10A106MA8NRN"
 			(at 190.5 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -12747,7 +12504,7 @@
 				)
 			)
 		)
-		(property "Mouser" "603-CC603KRX7R6BB104"
+		(property "Mouser" "187-CL10A106MA8NRNC"
 			(at 190.5 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -12758,7 +12515,7 @@
 				)
 			)
 		)
-		(property "Digikey" "311-4055-1-ND"
+		(property "Digikey" "1276-1869-1-ND"
 			(at 190.5 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -12769,7 +12526,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C519438"
+		(property "LCSC" "C96446"
 			(at 190.5 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -12780,7 +12537,7 @@
 				)
 			)
 		)
-		(property "Voltage_in_V" "10"
+		(property "Voltage_in_V" "25"
 			(at 190.5 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -12791,7 +12548,7 @@
 				)
 			)
 		)
-		(property "Tolerance_in_pct" "10"
+		(property "Tolerance_in_pct" "20"
 			(at 190.5 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -12802,7 +12559,7 @@
 				)
 			)
 		)
-		(property "Dielectric" "X7R"
+		(property "Dielectric" "X5R"
 			(at 190.5 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -12824,7 +12581,7 @@
 				)
 			)
 		)
-		(property "MPN" "CC0603KRX7R6BB104"
+		(property "MPN" "CL10A106MA8NRNC"
 			(at 190.5 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -12851,7 +12608,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_C:C_4u7_10V_10pct_X5R_0603")
+		(lib_id "KL_C:C_10u_25V_20pct_X5R_0603")
 		(at 264.16 20.32 0)
 		(unit 1)
 		(body_style 1)
@@ -12873,7 +12630,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4u7"
+		(property "Value" "10u"
 			(at 267.97 21.5899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12895,7 +12652,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1006_X5R_SMD"
+		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL10A106MA8NRN"
 			(at 264.16 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -12917,7 +12674,7 @@
 				)
 			)
 		)
-		(property "Mouser" "80-C0603C475K8PACLR"
+		(property "Mouser" "187-CL10A106MA8NRNC"
 			(at 264.16 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -12928,7 +12685,7 @@
 				)
 			)
 		)
-		(property "Digikey" "399-C0603C475K8PACTUCT-ND"
+		(property "Digikey" "1276-1869-1-ND"
 			(at 264.16 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -12939,7 +12696,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C5177163"
+		(property "LCSC" "C96446"
 			(at 264.16 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -12950,7 +12707,7 @@
 				)
 			)
 		)
-		(property "Voltage_in_V" "10"
+		(property "Voltage_in_V" "25"
 			(at 264.16 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -12961,7 +12718,7 @@
 				)
 			)
 		)
-		(property "Tolerance_in_pct" "10"
+		(property "Tolerance_in_pct" "20"
 			(at 264.16 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -12994,7 +12751,7 @@
 				)
 			)
 		)
-		(property "MPN" "C0603C475K8PAC7411"
+		(property "MPN" "CL10A106MA8NRNC"
 			(at 264.16 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -13683,7 +13440,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_C:C_100n_10V_10pct_X7R_0603")
+		(lib_id "KL_C:C_10u_25V_20pct_X5R_0603")
 		(at 241.3 20.32 0)
 		(unit 1)
 		(body_style 1)
@@ -13705,7 +13462,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "10u"
 			(at 245.11 21.5899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13727,7 +13484,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X7R_6_3V-TO-250V"
+		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL10A106MA8NRN"
 			(at 241.3 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -13749,7 +13506,7 @@
 				)
 			)
 		)
-		(property "Mouser" "603-CC603KRX7R6BB104"
+		(property "Mouser" "187-CL10A106MA8NRNC"
 			(at 241.3 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -13760,7 +13517,7 @@
 				)
 			)
 		)
-		(property "Digikey" "311-4055-1-ND"
+		(property "Digikey" "1276-1869-1-ND"
 			(at 241.3 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -13771,7 +13528,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C519438"
+		(property "LCSC" "C96446"
 			(at 241.3 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -13782,7 +13539,7 @@
 				)
 			)
 		)
-		(property "Voltage_in_V" "10"
+		(property "Voltage_in_V" "25"
 			(at 241.3 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -13793,7 +13550,7 @@
 				)
 			)
 		)
-		(property "Tolerance_in_pct" "10"
+		(property "Tolerance_in_pct" "20"
 			(at 241.3 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -13804,7 +13561,7 @@
 				)
 			)
 		)
-		(property "Dielectric" "X7R"
+		(property "Dielectric" "X5R"
 			(at 241.3 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -13826,7 +13583,7 @@
 				)
 			)
 		)
-		(property "MPN" "CC0603KRX7R6BB104"
+		(property "MPN" "CL10A106MA8NRNC"
 			(at 241.3 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -15022,7 +14779,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KL_C:C_100n_10V_10pct_X7R_0603")
+		(lib_id "KL_C:C_10u_25V_20pct_X5R_0603")
 		(at 203.2 20.32 0)
 		(unit 1)
 		(body_style 1)
@@ -15044,7 +14801,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "10u"
 			(at 207.01 21.5899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15066,7 +14823,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X7R_6_3V-TO-250V"
+		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL10A106MA8NRN"
 			(at 203.2 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -15088,7 +14845,7 @@
 				)
 			)
 		)
-		(property "Mouser" "603-CC603KRX7R6BB104"
+		(property "Mouser" "187-CL10A106MA8NRNC"
 			(at 203.2 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -15099,7 +14856,7 @@
 				)
 			)
 		)
-		(property "Digikey" "311-4055-1-ND"
+		(property "Digikey" "1276-1869-1-ND"
 			(at 203.2 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -15110,7 +14867,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C519438"
+		(property "LCSC" "C96446"
 			(at 203.2 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -15121,7 +14878,7 @@
 				)
 			)
 		)
-		(property "Voltage_in_V" "10"
+		(property "Voltage_in_V" "25"
 			(at 203.2 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -15132,7 +14889,7 @@
 				)
 			)
 		)
-		(property "Tolerance_in_pct" "10"
+		(property "Tolerance_in_pct" "20"
 			(at 203.2 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -15143,7 +14900,7 @@
 				)
 			)
 		)
-		(property "Dielectric" "X7R"
+		(property "Dielectric" "X5R"
 			(at 203.2 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -15165,7 +14922,7 @@
 				)
 			)
 		)
-		(property "MPN" "CC0603KRX7R6BB104"
+		(property "MPN" "CL10A106MA8NRNC"
 			(at 203.2 20.32 0)
 			(hide yes)
 			(show_name no)
