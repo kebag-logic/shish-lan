@@ -3595,10 +3595,16 @@
 		(uuid "a9a033b4-e441-459c-87f8-aef5816b3ce3")
 	)
 	(junction
-		(at 215.9 72.39)
+		(at 232.41 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "08a6385b-1457-4bcf-b96a-f550bac86d47")
+	)
+	(junction
+		(at 195.58 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "15021f16-2806-4f05-b8d7-c16ffc8f63d7")
 	)
 	(junction
 		(at 180.34 72.39)
@@ -3619,7 +3625,7 @@
 		(uuid "38f507c2-dc1b-4671-889d-ccc9c135e8e3")
 	)
 	(junction
-		(at 207.01 72.39)
+		(at 223.52 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3c2ee23e-fb97-450e-9040-d1b55a6f6b5a")
@@ -3637,7 +3643,7 @@
 		(uuid "46795f7f-949a-48cf-9802-bce453a07475")
 	)
 	(junction
-		(at 224.79 72.39)
+		(at 241.3 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "68f8a0d3-cb7d-49c4-a0de-a73515a5080e")
@@ -3673,7 +3679,7 @@
 		(uuid "7d2947fb-08e8-494b-99e1-e152b1ecd79a")
 	)
 	(junction
-		(at 218.44 72.39)
+		(at 234.95 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "80476190-b3a0-4b00-8048-e3559ba2dcc8")
@@ -3691,7 +3697,7 @@
 		(uuid "9b1fd72d-43d9-4627-a1ab-2e6fe8692502")
 	)
 	(junction
-		(at 212.09 80.01)
+		(at 228.6 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b4470728-e29e-4ea8-bb15-c12c6c55c61e")
@@ -3721,7 +3727,7 @@
 		(uuid "eb29ffb3-23ff-46f1-89aa-c413bb89cce9")
 	)
 	(junction
-		(at 218.44 80.01)
+		(at 234.95 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ee8f8372-8965-46af-bd3b-23706e3827ca")
@@ -3758,7 +3764,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 72.39) (xy 215.9 72.39)
+			(xy 223.52 72.39) (xy 232.41 72.39)
 		)
 		(stroke
 			(width 0)
@@ -3835,6 +3841,16 @@
 			(type default)
 		)
 		(uuid "39188284-1b07-4663-b241-c880276f2aa2")
+	)
+	(wire
+		(pts
+			(xy 195.58 80.01) (xy 195.58 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b12bcc1-a031-47d5-8eb4-f0ad3011aa44")
 	)
 	(wire
 		(pts
@@ -3918,7 +3934,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 80.01) (xy 229.87 80.01)
+			(xy 234.95 80.01) (xy 246.38 80.01)
 		)
 		(stroke
 			(width 0)
@@ -3928,7 +3944,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 72.39) (xy 224.79 72.39)
+			(xy 234.95 72.39) (xy 241.3 72.39)
 		)
 		(stroke
 			(width 0)
@@ -3968,7 +3984,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 72.39) (xy 229.87 72.39)
+			(xy 241.3 72.39) (xy 246.38 72.39)
 		)
 		(stroke
 			(width 0)
@@ -4048,7 +4064,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 72.39) (xy 193.04 72.39)
+			(xy 180.34 72.39) (xy 195.58 72.39)
 		)
 		(stroke
 			(width 0)
@@ -4118,7 +4134,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 80.01) (xy 218.44 80.01)
+			(xy 228.6 80.01) (xy 234.95 80.01)
 		)
 		(stroke
 			(width 0)
@@ -4128,7 +4144,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 80.01) (xy 212.09 80.01)
+			(xy 223.52 80.01) (xy 228.6 80.01)
 		)
 		(stroke
 			(width 0)
@@ -4168,7 +4184,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 72.39) (xy 215.9 72.39)
+			(xy 234.95 72.39) (xy 232.41 72.39)
 		)
 		(stroke
 			(width 0)
@@ -4238,7 +4254,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 72.39) (xy 207.01 72.39)
+			(xy 212.09 72.39) (xy 223.52 72.39)
 		)
 		(stroke
 			(width 0)
@@ -4248,7 +4264,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 71.12) (xy 215.9 72.39)
+			(xy 232.41 71.12) (xy 232.41 72.39)
 		)
 		(stroke
 			(width 0)
@@ -4306,6 +4322,16 @@
 		)
 		(uuid "f3101318-5be6-4a08-9a53-30e09d76b58d")
 	)
+	(wire
+		(pts
+			(xy 195.58 72.39) (xy 209.55 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb6fef3c-06b7-4cbc-9ddc-80f298380e34")
+	)
 	(label "+3V3_OUT"
 		(at 39.37 39.37 180)
 		(effects
@@ -4327,7 +4353,7 @@
 		(uuid "6e3e9d1c-c537-406f-91ad-39b973b4beb2")
 	)
 	(label "+3V3_OUT"
-		(at 200.66 72.39 0)
+		(at 217.17 72.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4371,7 +4397,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 215.9 71.12 0)
+		(at 232.41 71.12 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4381,7 +4407,7 @@
 		)
 		(uuid "0d1f7355-9b17-469e-bed7-49b155ff6a1d")
 		(property "Net Class" "PWR"
-			(at 216.5985 68.58 0)
+			(at 233.1085 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4392,7 +4418,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at 40.64 10.16 0)
+			(at 57.15 10.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4440,7 +4466,7 @@
 	)
 	(symbol
 		(lib_id "KL_Header:Header_02x01_2.54mm_0mm_Straight")
-		(at 194.31 77.47 270)
+		(at 210.82 77.47 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4451,7 +4477,7 @@
 		(fields_autoplaced yes)
 		(uuid "00398f44-dcd7-4b02-8652-0a1fe4ec4a7b")
 		(property "Reference" "J15"
-			(at 198.12 77.4699 90)
+			(at 214.63 77.4699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4462,7 +4488,7 @@
 			)
 		)
 		(property "Value" "Header_02x01_2.54mm_0mm_Straight"
-			(at 194.31 77.47 0)
+			(at 210.82 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4473,7 +4499,7 @@
 			)
 		)
 		(property "Footprint" "KL_Footprints:02x01_2.54mm_Header"
-			(at 194.31 77.47 0)
+			(at 210.82 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4484,7 +4510,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=87224&DocType=Customer+Drawing&DocLang=English"
-			(at 194.31 77.47 0)
+			(at 210.82 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4495,7 +4521,7 @@
 			)
 		)
 		(property "Description" "Pin Header"
-			(at 194.31 77.47 0)
+			(at 210.82 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4506,7 +4532,7 @@
 			)
 		)
 		(property "No_of_pins" "2"
-			(at 194.31 77.47 0)
+			(at 210.82 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4517,7 +4543,7 @@
 			)
 		)
 		(property "No_of_rows" "1"
-			(at 194.31 77.47 0)
+			(at 210.82 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4528,7 +4554,7 @@
 			)
 		)
 		(property "Pitch_pin_in_mm" "2.54"
-			(at 194.31 77.47 0)
+			(at 210.82 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4539,7 +4565,7 @@
 			)
 		)
 		(property "Pitch_row_in_mm" "0"
-			(at 194.31 77.47 0)
+			(at 210.82 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4550,7 +4576,7 @@
 			)
 		)
 		(property "Orientation" "Straight"
-			(at 194.31 77.47 0)
+			(at 210.82 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4561,7 +4587,7 @@
 			)
 		)
 		(property "MPN" "87224-2"
-			(at 194.31 77.47 0)
+			(at 210.82 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4572,7 +4598,7 @@
 			)
 		)
 		(property "Mouser" "571-872242"
-			(at 194.31 77.47 0)
+			(at 210.82 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4583,7 +4609,7 @@
 			)
 		)
 		(property "Digikey" "A26543-ND"
-			(at 194.31 77.47 0)
+			(at 210.82 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4594,7 +4620,7 @@
 			)
 		)
 		(property "LCSC" "C5383111"
-			(at 194.31 77.47 0)
+			(at 210.82 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6293,7 +6319,7 @@
 	)
 	(symbol
 		(lib_id "KL_TestPoint:TestPoint")
-		(at 224.79 72.39 0)
+		(at 241.3 72.39 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6304,7 +6330,7 @@
 		(fields_autoplaced yes)
 		(uuid "857d7743-558b-46cd-9c76-0dd7532f6b98")
 		(property "Reference" "TP16"
-			(at 224.79 66.675 0)
+			(at 241.3 66.675 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -6314,7 +6340,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 224.79 67.31 0)
+			(at 241.3 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6325,7 +6351,7 @@
 			)
 		)
 		(property "Footprint" "KL_Footprints:TestPoint"
-			(at 229.87 72.39 0)
+			(at 246.38 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6336,7 +6362,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 229.87 72.39 0)
+			(at 246.38 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6347,7 +6373,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 224.79 72.39 0)
+			(at 241.3 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6787,6 +6813,176 @@
 		)
 	)
 	(symbol
+		(lib_id "KL_C:C_10u_25V_20pct_X5R_0603")
+		(at 195.58 76.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9492e9f4-d216-4266-a67f-cd210b263982")
+		(property "Reference" "C109"
+			(at 199.39 74.9299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 199.39 77.4699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "KL_Footprints:C_0603"
+			(at 196.5452 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL10A106MA8NRN"
+			(at 195.58 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 195.58 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" "187-CL10A106MA8NRNC"
+			(at 195.58 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "1276-1869-1-ND"
+			(at 195.58 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C96446"
+			(at 195.58 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage_in_V" "25"
+			(at 195.58 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance_in_pct" "20"
+			(at 195.58 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 195.58 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package_in_inch" "0603"
+			(at 195.58 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL10A106MA8NRNC"
+			(at 195.58 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8b1da52a-e79d-41d6-b978-8bb26a656356")
+		)
+		(pin "1"
+			(uuid "7043b8c1-8d5a-4acc-ace7-7e4c815e0683")
+		)
+		(instances
+			(project "shish-lan"
+				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/b46af5b7-dd4e-4356-ae8f-8ea1d81113b6"
+					(reference "C109")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 147.32 85.09 0)
 		(unit 1)
@@ -7182,7 +7378,7 @@
 	)
 	(symbol
 		(lib_id "KL_C:C_10u_25V_20pct_X5R_0603")
-		(at 229.87 76.2 0)
+		(at 246.38 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7193,7 +7389,7 @@
 		(fields_autoplaced yes)
 		(uuid "b450eaf6-e850-4b11-8a46-e8ad81fb714d")
 		(property "Reference" "C98"
-			(at 233.68 74.9299 0)
+			(at 250.19 74.9299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7204,7 +7400,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 233.68 77.4699 0)
+			(at 250.19 77.4699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7215,7 +7411,7 @@
 			)
 		)
 		(property "Footprint" "KL_Footprints:C_0603"
-			(at 230.8352 80.01 0)
+			(at 247.3452 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7226,7 +7422,7 @@
 			)
 		)
 		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL10A106MA8NRN"
-			(at 229.87 76.2 0)
+			(at 246.38 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7237,7 +7433,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 229.87 76.2 0)
+			(at 246.38 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7248,7 +7444,7 @@
 			)
 		)
 		(property "Mouser" "187-CL10A106MA8NRNC"
-			(at 229.87 76.2 0)
+			(at 246.38 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7259,7 +7455,7 @@
 			)
 		)
 		(property "Digikey" "1276-1869-1-ND"
-			(at 229.87 76.2 0)
+			(at 246.38 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7270,7 +7466,7 @@
 			)
 		)
 		(property "LCSC" "C96446"
-			(at 229.87 76.2 0)
+			(at 246.38 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7281,7 +7477,7 @@
 			)
 		)
 		(property "Voltage_in_V" "25"
-			(at 229.87 76.2 0)
+			(at 246.38 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7292,7 +7488,7 @@
 			)
 		)
 		(property "Tolerance_in_pct" "20"
-			(at 229.87 76.2 0)
+			(at 246.38 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7303,7 +7499,7 @@
 			)
 		)
 		(property "Dielectric" "X5R"
-			(at 229.87 76.2 0)
+			(at 246.38 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7314,7 +7510,7 @@
 			)
 		)
 		(property "Package_in_inch" "0603"
-			(at 229.87 76.2 0)
+			(at 246.38 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7325,7 +7521,7 @@
 			)
 		)
 		(property "MPN" "CL10A106MA8NRNC"
-			(at 229.87 76.2 0)
+			(at 246.38 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7667,7 +7863,7 @@
 	)
 	(symbol
 		(lib_id "KL_C:C_10u_25V_20pct_X5R_0603")
-		(at 218.44 76.2 0)
+		(at 234.95 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7678,7 +7874,7 @@
 		(fields_autoplaced yes)
 		(uuid "d3939a8c-bd40-4933-97f8-d0efbe23a561")
 		(property "Reference" "C73"
-			(at 222.25 74.9299 0)
+			(at 238.76 74.9299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7689,7 +7885,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 222.25 77.4699 0)
+			(at 238.76 77.4699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7700,7 +7896,7 @@
 			)
 		)
 		(property "Footprint" "KL_Footprints:C_0603"
-			(at 219.4052 80.01 0)
+			(at 235.9152 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7711,7 +7907,7 @@
 			)
 		)
 		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL10A106MA8NRN"
-			(at 218.44 76.2 0)
+			(at 234.95 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7722,7 +7918,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 218.44 76.2 0)
+			(at 234.95 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7733,7 +7929,7 @@
 			)
 		)
 		(property "Mouser" "187-CL10A106MA8NRNC"
-			(at 218.44 76.2 0)
+			(at 234.95 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7744,7 +7940,7 @@
 			)
 		)
 		(property "Digikey" "1276-1869-1-ND"
-			(at 218.44 76.2 0)
+			(at 234.95 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7755,7 +7951,7 @@
 			)
 		)
 		(property "LCSC" "C96446"
-			(at 218.44 76.2 0)
+			(at 234.95 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7766,7 +7962,7 @@
 			)
 		)
 		(property "Voltage_in_V" "25"
-			(at 218.44 76.2 0)
+			(at 234.95 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7777,7 +7973,7 @@
 			)
 		)
 		(property "Tolerance_in_pct" "20"
-			(at 218.44 76.2 0)
+			(at 234.95 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7788,7 +7984,7 @@
 			)
 		)
 		(property "Dielectric" "X5R"
-			(at 218.44 76.2 0)
+			(at 234.95 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7799,7 +7995,7 @@
 			)
 		)
 		(property "Package_in_inch" "0603"
-			(at 218.44 76.2 0)
+			(at 234.95 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7810,7 +8006,7 @@
 			)
 		)
 		(property "MPN" "CL10A106MA8NRNC"
-			(at 218.44 76.2 0)
+			(at 234.95 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7836,8 +8032,86 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 195.58 83.82 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d71c78ab-66f5-4664-b689-5255bcc91ee9")
+		(property "Reference" "#PWR084"
+			(at 195.58 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 195.58 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 195.58 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "96a2e891-bf8b-4e79-a1e7-ed790946b5cd")
+		)
+		(instances
+			(project "shish-lan"
+				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/b46af5b7-dd4e-4356-ae8f-8ea1d81113b6"
+					(reference "#PWR084")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "KL_C:C_10u_25V_20pct_X5R_0603")
-		(at 207.01 76.2 0)
+		(at 223.52 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7848,7 +8122,7 @@
 		(fields_autoplaced yes)
 		(uuid "e1c518c0-0d1e-4718-882f-8c3b8957f478")
 		(property "Reference" "C26"
-			(at 210.82 74.9299 0)
+			(at 227.33 74.9299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7859,7 +8133,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 210.82 77.4699 0)
+			(at 227.33 77.4699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7870,7 +8144,7 @@
 			)
 		)
 		(property "Footprint" "KL_Footprints:C_0603"
-			(at 207.9752 80.01 0)
+			(at 224.4852 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7881,7 +8155,7 @@
 			)
 		)
 		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL10A106MA8NRN"
-			(at 207.01 76.2 0)
+			(at 223.52 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7892,7 +8166,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 207.01 76.2 0)
+			(at 223.52 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7903,7 +8177,7 @@
 			)
 		)
 		(property "Mouser" "187-CL10A106MA8NRNC"
-			(at 207.01 76.2 0)
+			(at 223.52 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7914,7 +8188,7 @@
 			)
 		)
 		(property "Digikey" "1276-1869-1-ND"
-			(at 207.01 76.2 0)
+			(at 223.52 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7925,7 +8199,7 @@
 			)
 		)
 		(property "LCSC" "C96446"
-			(at 207.01 76.2 0)
+			(at 223.52 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7936,7 +8210,7 @@
 			)
 		)
 		(property "Voltage_in_V" "25"
-			(at 207.01 76.2 0)
+			(at 223.52 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7947,7 +8221,7 @@
 			)
 		)
 		(property "Tolerance_in_pct" "20"
-			(at 207.01 76.2 0)
+			(at 223.52 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7958,7 +8232,7 @@
 			)
 		)
 		(property "Dielectric" "X5R"
-			(at 207.01 76.2 0)
+			(at 223.52 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7969,7 +8243,7 @@
 			)
 		)
 		(property "Package_in_inch" "0603"
-			(at 207.01 76.2 0)
+			(at 223.52 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7980,7 +8254,7 @@
 			)
 		)
 		(property "MPN" "CL10A106MA8NRNC"
-			(at 207.01 76.2 0)
+			(at 223.52 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8085,7 +8359,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 212.09 80.01 0)
+		(at 228.6 80.01 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8096,7 +8370,7 @@
 		(fields_autoplaced yes)
 		(uuid "f726673f-1b8d-428f-84cf-6056b3d41853")
 		(property "Reference" "#PWR8"
-			(at 212.09 86.36 0)
+			(at 228.6 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8107,7 +8381,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 212.09 85.09 0)
+			(at 228.6 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8117,7 +8391,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 212.09 80.01 0)
+			(at 228.6 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8128,7 +8402,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 212.09 80.01 0)
+			(at 228.6 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8139,7 +8413,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 212.09 80.01 0)
+			(at 228.6 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
