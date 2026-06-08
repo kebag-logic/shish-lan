@@ -9197,7 +9197,7 @@
 		(uuid "5da59ab9-3dd6-4a85-bdcf-e5b2cd11c77a")
 	)
 	(label "RGMII0_SWITCH_STM.TXCTL-DX_DV"
-		(at 231.14 64.77 0)
+		(at 231.14 54.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9267,7 +9267,7 @@
 		(uuid "6c45635f-cc90-4923-9fc7-ced4bd8d601b")
 	)
 	(label "RGMII0_SWITCH_STM.TXD3"
-		(at 231.14 59.69 0)
+		(at 231.14 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9307,7 +9307,7 @@
 		(uuid "7c418cf3-d3ea-45d6-820d-5b3e10026767")
 	)
 	(label "RGMII0_SWITCH_STM.TXC-REFCLK"
-		(at 231.14 62.23 0)
+		(at 231.14 52.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9377,7 +9377,7 @@
 		(uuid "ab1b3f21-3355-47dd-96bc-c7984c4927d6")
 	)
 	(label "RGMII0_SWITCH_STM.TXD2"
-		(at 231.14 57.15 0)
+		(at 231.14 62.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9437,7 +9437,7 @@
 		(uuid "ce111ea9-b464-4629-9662-91422a4be9e0")
 	)
 	(label "RGMII0_SWITCH_STM.TXD1"
-		(at 231.14 54.61 0)
+		(at 231.14 59.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9547,7 +9547,7 @@
 		(uuid "f449e531-e87b-4876-b2fb-3a248982701c")
 	)
 	(label "RGMII0_SWITCH_STM.TXD0"
-		(at 231.14 52.07 0)
+		(at 231.14 57.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9684,6 +9684,76 @@
 			(justify right)
 		)
 		(uuid "becb7cca-e786-4c48-9a10-b69ef2e754c4")
+	)
+	(netclass_flag ""
+		(length 1.27)
+		(shape round)
+		(at 129.5404 116.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "76f74b3e-65be-474f-8617-bc49d0bfc31c")
+		(property "Net Class" "RGMII"
+			(at 130.2389 115.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -64.7696 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.27)
+		(shape round)
+		(at 129.54 120.65 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f63f9e1b-901c-461e-aa90-0600eecf31a3")
+		(property "Net Class" "RGMII"
+			(at 130.2385 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -64.77 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")

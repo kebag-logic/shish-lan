@@ -1,0 +1,106 @@
+(version 1)
+
+# Fab minimum profile for 4-layer PCB
+# KiCad 10 custom DRC rules
+#
+# Default via option selected:
+#   Via drill:    0.30 mm
+#   Via diameter: 0.40 mm
+#
+# Notes:
+# - Castellated SMD pads are exempted from the 0.40 mm board-edge clearance
+#   by tagging their footprint/component with component class: Castellated
+#
+
+# ---------------------------------------------------------------------------
+# Pad / hole fabrication minima
+# ---------------------------------------------------------------------------
+
+(rule "Minimum via drill 0.30mm"
+    (constraint hole_size (min 0.30mm))
+    (condition "A.Type == 'Via'"))
+
+(rule "Minimum PTH drill 0.15mm"
+    (constraint hole_size (min 0.15mm))
+    (condition "A.Type == 'Pad' && A.isPlated() && A.Hole_Size_X == A.Hole_Size_Y"))
+
+(rule "Minimum PTH annular ring 0.20mm"
+    (constraint annular_width (min 0.20mm))
+    (condition "A.Type == 'Pad' && A.isPlated()"))
+
+(rule "Minimum NPTH drill 0.50mm"
+    (constraint hole_size (min 0.50mm))
+    (condition "A.Type == 'Pad' && !A.isPlated() && A.Hole_Size_X == A.Hole_Size_Y"))
+
+(rule "Minimum NPTH annular ring 0.45mm"
+    (constraint annular_width (min 0.45mm))
+    (condition "A.Type == 'Pad' && !A.isPlated()"))
+
+(rule "Minimum plated slot width 0.35mm"
+    (constraint hole_size (min 0.35mm))
+    (condition "A.Type == 'Pad' && A.isPlated() && A.Hole_Size_X != A.Hole_Size_Y"))
+
+(rule "Minimum non-plated slot width 1.00mm"
+    (constraint hole_size (min 1.00mm))
+    (condition "A.Type == 'Pad' && !A.isPlated() && A.Hole_Size_X != A.Hole_Size_Y"))
+
+# ---------------------------------------------------------------------------
+# Specific copper clearance rules
+# ---------------------------------------------------------------------------
+
+(rule "Pad to track clearance 0.10mm"
+    (constraint clearance (min 0.10mm))
+    (condition "A.Type == 'Pad' && B.Type == 'Track'"))
+
+(rule "SMD pad to SMD pad clearance different nets 0.15mm"
+    (constraint clearance (min 0.15mm))
+    (condition "A.Type == 'Pad' && B.Type == 'Pad' && A.Pad_Type == 'SMD' && B.Pad_Type == 'SMD' && A.Net != B.Net"))
+
+(rule "Via hole to track clearance 0.20mm"
+    (constraint hole_clearance (min 0.20mm))
+    (condition "A.Type == 'Via' && B.Type == 'Track'"))
+
+(rule "PTH hole to track clearance 0.28mm"
+    (constraint hole_clearance (min 0.28mm))
+    (condition "A.Type == 'Pad' && A.isPlated() && B.Type == 'Track'"))
+
+(rule "NPTH hole to track clearance 0.20mm"
+    (constraint physical_hole_clearance (min 0.20mm))
+    (condition "A.Type == 'Pad' && !A.isPlated() && B.Type == 'Track'"))
+
+(rule "Inner layer via hole to copper clearance 0.20mm"
+    (layer inner)
+    (constraint hole_clearance (min 0.20mm))
+    (condition "A.Type == 'Via'"))
+
+(rule "Inner layer PTH hole to copper clearance 0.30mm"
+    (layer inner)
+    (constraint hole_clearance (min 0.30mm))
+    (condition "A.Type == 'Pad' && A.isPlated()"))
+
+# ---------------------------------------------------------------------------
+# Hole-to-hole spacing
+# ---------------------------------------------------------------------------
+
+(rule "Via hole to via hole spacing 0.20mm"
+    (constraint hole_to_hole (min 0.20mm))
+    (condition "A.Type == 'Via' && B.Type == 'Via'"))
+
+(rule "Pad hole to pad hole spacing 0.45mm"
+    (constraint hole_to_hole (min 0.45mm))
+    (condition "A.Type == 'Pad' && B.Type == 'Pad'"))
+
+# ---------------------------------------------------------------------------
+# Board edge clearance
+# ---------------------------------------------------------------------------
+
+(rule "Copper to board edge 0.40mm"
+    (constraint edge_clearance (min 0.40mm))
+    (condition "A.Type != 'Pad' || !A.hasComponentClass('Castellated')"))
+
+# This rule is intentionally after the general board-edge rule.
+# KiCad evaluates rules in order, so this overrides it.
+(rule "Allow castellated SMD pads at board edge"
+    (severity ignore)
+    (constraint edge_clearance)
+    (condition "A.Type == 'Pad' && A.Pad_Type == 'SMD' && A.hasComponentClass('Castellated')"))
