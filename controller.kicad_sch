@@ -6420,10 +6420,6 @@
 		(uuid "efb9b216-e389-4382-b600-8a8b75bbbba0")
 	)
 	(no_connect
-		(at 78.74 110.49)
-		(uuid "23f52dc1-a0d0-4d96-9e49-03aadb7e72e6")
-	)
-	(no_connect
 		(at 78.74 113.03)
 		(uuid "ce392b55-4b8c-4fb9-a143-e3f9fab6d03b")
 	)
@@ -8655,6 +8651,20 @@
 			(xy 78.74 31.75)
 		)
 		(uuid "df2ed64f-d039-487c-99b9-ce0ea4619fd5")
+	)
+	(wire
+		(pts
+			(xy 72.39 110.49)
+			(xy 78.74 110.49)
+		)
+		(uuid "d1544f4f-e902-4452-a12f-85a16527a794")
+	)
+	(wire
+		(pts
+			(xy 60.96 110.49)
+			(xy 64.77 110.49)
+		)
+		(uuid "15638f15-d6a2-4290-aeac-4454cd6551a7")
 	)
 	(label "RST_STM_JTAG"
 		(at 222.25 133.35 0)
@@ -15347,6 +15357,188 @@
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/06488c82-a47f-4277-b0ee-3bd211d8922a"
 					(reference "#PWR001")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KL_R:R_1K5_0.1W_5pct_0603")
+		(at 68.58 110.49 90)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8bc6b9d0-516a-4631-b053-a892fe5424bd")
+		(property "Reference" "R139"
+			(at 68.58 108.458 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K5"
+			(at 68.58 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "KL_Footprints:R_0603"
+			(at 68.58 110.49 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/Resource%20Library/Datasheet/PYU-AC_51_ROHS_L.pdf"
+			(at 68.58 110.49 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 68.58 110.49 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "shish-lan"
+				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/06488c82-a47f-4277-b0ee-3bd211d8922a"
+					(reference "R139")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KL_LED:LED_Green_2.1V_0.03A_0603")
+		(at 57.15 110.49 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0b6b208d-26a4-4889-8a13-98f3e7726bc5")
+		(property "Reference" "D8"
+			(at 57.15 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_{color}_{U_F}_{I_F}"
+			(at 51.562 106.426 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "KL_Footprints:LED_0603"
+			(at 57.15 110.49 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/Lite-On-LTST-C190GKT.pdf"
+			(at 57.15 110.49 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 57.15 110.49 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "shish-lan"
+				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/06488c82-a47f-4277-b0ee-3bd211d8922a"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 53.34 110.49 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8685a88a-2cc5-4dd7-9ba0-0ad28dd08cc4")
+		(property "Reference" "#PWR002"
+			(at 53.34 116.84 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 53.34 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 110.49 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 110.49 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 53.34 110.49 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "shish-lan"
+				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/06488c82-a47f-4277-b0ee-3bd211d8922a"
+					(reference "#PWR002")
 					(unit 1)
 				)
 			)
