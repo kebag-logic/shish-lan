@@ -11539,11 +11539,11 @@
 	(sheet
 		(at 185.42 44.45)
 		(size 95.25 36.83)
+		(fields_autoplaced)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -11576,85 +11576,63 @@
 		)
 		(pin "MIIM0_STM_SWITCH{SLV_MDIO,SLV_MDC}" bidirectional
 			(at 185.42 55.88 180)
-			(uuid "79063a79-97c0-43be-8cc1-20014ad8a1f2")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
+			(uuid "79063a79-97c0-43be-8cc1-20014ad8a1f2")
 		)
 		(pin "nRST_STM_TO_SWITCH" input
 			(at 185.42 67.31 180)
-			(uuid "1fdf64bb-5e9f-428e-a9ce-a3786f62d7f6")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
+			(uuid "1fdf64bb-5e9f-428e-a9ce-a3786f62d7f6")
 		)
 		(pin "SPI2_STM_SWITCH{MOSI,MISO,nCS,CLK}" bidirectional
 			(at 185.42 58.42 180)
-			(uuid "b6c7ac0e-28c6-4099-aa49-7effc0035edd")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
+			(uuid "b6c7ac0e-28c6-4099-aa49-7effc0035edd")
 		)
 		(pin "IRQ0_SWITCH_TO_STM" output
 			(at 185.42 63.5 180)
-			(uuid "e6f87d06-78fc-429f-b1ae-e0de94923aa4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
+			(uuid "e6f87d06-78fc-429f-b1ae-e0de94923aa4")
 		)
 		(pin "5-12V_INPUT" input
 			(at 185.42 46.99 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
 			(uuid "78bbc598-6abb-4b70-8baf-37f8d8b41e4a")
+		)
+		(pin "RGMII0_SWITCH_STM{TXD[0..3], TXC-REFCLK, TXCTL-DX_DV, RXD[0..3], RX_CLK, RXCTL-CRS_DV}" bidirectional
+			(at 185.42 53.34 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-		(pin "EN-1V15_STM_TO_BUCK" input
-			(at 185.42 71.12 180)
-			(uuid "b98ae88b-61ae-40f0-a8e5-09afd72634ae")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "EN-2V5_STM_TO_BUCK" input
-			(at 185.42 73.66 180)
-			(uuid "70df141f-4d6a-4add-890a-84916290b208")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "RGMII0_SWITCH_STM{TXD[0..3], TXC-REFCLK, TXCTL-DX_DV, RXD[0..3], RX_CLK, RXCTL-CRS_DV}"
-			bidirectional
-			(at 185.42 53.34 180
 			)
 			(uuid "d3fddf46-dd87-460e-b803-574260ac67d5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
 		)
 		(instances
 			(project "shish-lan"
