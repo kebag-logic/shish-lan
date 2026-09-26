@@ -124,8 +124,8 @@
 | 120 | P1.D_P | /switch/switch_phys/RJ45_Connector_Port1/TRD4+_1 |
 | 121 | P1.D_N | /switch/switch_phys/RJ45_Connector_Port1/TRD4-_1 |
 | 122 | VDD | /switch/1V15_BUCK-OUT |
-| 123 | XI | Net-(U1A-XI) |
-| 124 | XO | Net-(U1A-XO) |
+| 123 | XO | Net-(U1A-XO) |
+| 124 | XI | Net-(U1A-XI) |
 | 125 | RTN_PLL | Net-(U1A-RTN_PLL) |
 | 126 | VDD_PLL | Net-(U1A-VDD_PLL) |
 | 127 | ISET | Net-(U1C-ISET) |
