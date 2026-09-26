@@ -7204,6 +7204,16 @@
 		)
 		(uuid "0c717ac0-393a-4036-aeae-2f78a35c0319")
 	)
+	(label "VDDIO_SWITCH"
+		(at 148.59 29.21 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "86e592a6-8238-4a9c-ad79-cb016fdf255f")
+	)
 	(hierarchical_label "SYNCE_0"
 		(shape bidirectional)
 		(at 130.81 64.77 180)
@@ -13672,67 +13682,6 @@
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09"
 					(reference "R129")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 148.59 29.21 90)
-		(unit 1)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "543b018a-3538-4208-b73d-46a034f3bef2")
-		(property "Reference" "#PWR001"
-			(at 152.4 29.21 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 145.034 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 148.59 29.21 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 148.59 29.21 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 148.59 29.21 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "shish-lan"
-				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09"
-					(reference "#PWR001")
 					(unit 1)
 				)
 			)
