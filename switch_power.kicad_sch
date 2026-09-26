@@ -6919,7 +6919,7 @@
 			(justify left bottom)
 		)
 		(uuid "3ec4850d-081e-468a-98ab-4a878ce73700")
-		(property "Net Class" "PWR"
+		(property "Netclass" "PWR"
 			(at 221.8802 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6954,7 +6954,7 @@
 			(justify left bottom)
 		)
 		(uuid "529700cb-2b21-4705-8aed-5d07665bc54f")
-		(property "Net Class" "PWR"
+		(property "Netclass" "PWR"
 			(at 62.9285 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6989,7 +6989,7 @@
 			(justify left bottom)
 		)
 		(uuid "596db841-c6ff-4144-9b5c-e8db4b693b1b")
-		(property "Net Class" "PWR"
+		(property "Netclass" "PWR"
 			(at 62.9285 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7024,7 +7024,7 @@
 			(justify left bottom)
 		)
 		(uuid "6fa9e0bd-20b6-4feb-ad55-8c915295242c")
-		(property "Net Class" "PWR"
+		(property "Netclass" "PWR"
 			(at 216.5985 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7059,7 +7059,7 @@
 			(justify left bottom)
 		)
 		(uuid "8ec86d8b-9fea-4dcf-84db-7ea51c285ab7")
-		(property "Net Class" "PWR"
+		(property "Netclass" "PWR"
 			(at 62.9285 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7094,7 +7094,7 @@
 			(justify left bottom)
 		)
 		(uuid "d4d0e447-f4cb-4073-b71f-c6d8d3d93fae")
-		(property "Net Class" "PWR"
+		(property "Netclass" "PWR"
 			(at 62.9285 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7129,7 +7129,7 @@
 			(justify left bottom)
 		)
 		(uuid "f8da6563-8f80-4a2e-896e-02eaa4b2a50c")
-		(property "Net Class" "PWR"
+		(property "Netclass" "PWR"
 			(at 132.7785 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)

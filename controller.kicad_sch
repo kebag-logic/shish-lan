@@ -9697,7 +9697,7 @@
 			(justify left bottom)
 		)
 		(uuid "76f74b3e-65be-474f-8617-bc49d0bfc31c")
-		(property "Net Class" "RGMII"
+		(property "Netclass" "RGMII"
 			(at 130.2389 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9732,7 +9732,7 @@
 			(justify left bottom)
 		)
 		(uuid "f63f9e1b-901c-461e-aa90-0600eecf31a3")
-		(property "Net Class" "RGMII"
+		(property "Netclass" "RGMII"
 			(at 130.2385 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)

@@ -7298,7 +7298,7 @@
 			(justify left bottom)
 		)
 		(uuid "2fe77fbe-818f-4628-a446-9a076848fa68")
-		(property "Net Class" "RGMII"
+		(property "Netclass" "RGMII"
 			(at 156.9085 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7333,7 +7333,7 @@
 			(justify left bottom)
 		)
 		(uuid "384b2199-7086-452b-9f35-6c350d65236a")
-		(property "Net Class" "RGMII"
+		(property "Netclass" "RGMII"
 			(at 156.9085 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7368,7 +7368,7 @@
 			(justify left bottom)
 		)
 		(uuid "3afce211-deb3-4783-ba33-355263542db2")
-		(property "Net Class" "RGMII"
+		(property "Netclass" "RGMII"
 			(at 156.9081 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7403,7 +7403,7 @@
 			(justify left bottom)
 		)
 		(uuid "6e93887c-7b3c-4a3b-a9b7-0d5eae431e49")
-		(property "Net Class" "RGMII"
+		(property "Netclass" "RGMII"
 			(at 156.9085 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7438,7 +7438,7 @@
 			(justify left bottom)
 		)
 		(uuid "c8ccf447-2d51-444b-8ebd-8e35c4b5c349")
-		(property "Net Class" "RGMII"
+		(property "Netclass" "RGMII"
 			(at 156.9085 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7473,7 +7473,7 @@
 			(justify left bottom)
 		)
 		(uuid "d1e5f440-b38e-4877-a6eb-9b4302a5ce99")
-		(property "Net Class" "RGMII"
+		(property "Netclass" "RGMII"
 			(at 156.9081 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7508,7 +7508,7 @@
 			(justify left bottom)
 		)
 		(uuid "e2255217-35ae-4d9d-8fdb-f5d2821cdb10")
-		(property "Net Class" "RGMII"
+		(property "Netclass" "RGMII"
 			(at 156.9089 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)

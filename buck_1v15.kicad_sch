@@ -3548,7 +3548,7 @@
 			(justify left bottom)
 		)
 		(uuid "706f785b-0772-4d31-a51b-5fec007903f1")
-		(property "Net Class" "PWR"
+		(property "Netclass" "PWR"
 			(at 238.1885 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3583,7 +3583,7 @@
 			(justify left bottom)
 		)
 		(uuid "90501e2f-814c-4c14-b9c2-05f69600a463")
-		(property "Net Class" "PWR"
+		(property "Netclass" "PWR"
 			(at 74.3585 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
