@@ -717,7 +717,7 @@
 		)
 		(uuid "f7e284df-abcd-4c7d-b07f-819c617c6315")
 	)
-	(text "Boot Mode Selector\nNote: Unmanaged modes are  selected using\noptions 3, 4,  5, 6, or 7.\n0: [Managed] No boot --> Need management interface to work\n1: RESERVED\n2: RESERVED\n*3: [Unmanaged] ROM boot.\n4:  [Unmanaged] ROM + I2C table boot.\n5:  [Unmanaged] ROM + SPI table boot.\n6:  [Unmanaged] ROM + VRAP port 5 boot. \n7:  [Unmanaged] ROM + VRAP port 7 boot. "
+	(text "Boot Mode Selector\nNote: Unmanaged modes are  selected using\noptions 3, 4,  5, 6, or 7.\n*0: [Managed] No boot --> Need management interface to work\n1: RESERVED\n2: RESERVED\n3: [Unmanaged] ROM boot.\n4:  [Unmanaged] ROM + I2C table boot.\n5:  [Unmanaged] ROM + SPI table boot.\n6:  [Unmanaged] ROM + VRAP port 5 boot. \n7:  [Unmanaged] ROM + VRAP port 7 boot. "
 		(exclude_from_sim no)
 		(at 15.494 33.782 0)
 		(effects
