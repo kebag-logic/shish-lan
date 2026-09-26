@@ -3589,16 +3589,6 @@
 		)
 		(uuid "149d4e6e-5d59-4f7e-8cea-6636ccbfd815")
 	)
-	(wire
-		(pts
-			(xy 72.39 39.37) (xy 96.52 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b7bfaf0-fa59-4673-a3e7-3b30b9b21dba")
-	)
 	(bus
 		(pts
 			(xy 107.95 66.04) (xy 113.03 66.04)
@@ -3851,7 +3841,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 48.26) (xy 96.52 48.26)
+			(xy 72.39 39.37) (xy 96.52 39.37)
 		)
 		(stroke
 			(width 0)
@@ -3901,16 +3891,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 43.18) (xy 96.52 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f216d893-3e2e-44c8-a543-3df955fc67fa")
-	)
-	(wire
-		(pts
 			(xy 132.08 149.86) (xy 154.94 149.86)
 		)
 		(stroke
@@ -3928,16 +3908,6 @@
 			(type default)
 		)
 		(uuid "fc680ee0-3e35-43fc-85c7-262ef7b231d2")
-	)
-	(label "EN-1V15_STM_TO_BUCK"
-		(at 96.52 43.18 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "015e8173-eba7-4c0a-bca5-8ac3d94f6d99")
 	)
 	(label "5-12V_INPUT"
 		(at 200.66 59.69 0)
@@ -3980,7 +3950,7 @@
 		(uuid "28934c4b-e63c-486b-adaa-5c28769e519a")
 	)
 	(label "IRQ0_SWITCH_TO_STM"
-		(at 96.52 48.26 180)
+		(at 96.52 39.37 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3988,26 +3958,6 @@
 			(justify right bottom)
 		)
 		(uuid "4f567554-67f1-4c80-af97-77fa40e6ec55")
-	)
-	(label "EN-2V5_STM_TO_BUCK"
-		(at 200.66 63.5 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5379f5e5-cb13-4edd-a9eb-cfc04290a5e9")
-	)
-	(label "EN-1V15_STM_TO_BUCK"
-		(at 199.39 104.14 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "642a4088-68e4-41c5-a8b5-179a1d569290")
 	)
 	(label "5-12V_INPUT"
 		(at 96.52 31.75 180)
@@ -4028,16 +3978,6 @@
 			(justify left bottom)
 		)
 		(uuid "a065fa12-de83-4bb9-98d5-a9461972c504")
-	)
-	(label "EN-2V5_STM_TO_BUCK"
-		(at 96.52 39.37 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "aa6ff009-a9f5-426b-9c79-3fc288f9c591")
 	)
 	(label "2V5_BUCK-OUT"
 		(at 273.05 64.77 180)
@@ -4079,17 +4019,6 @@
 		)
 		(uuid "e819fe46-55a8-4d35-b927-57a0abb01059")
 	)
-	(hierarchical_label "EN-2V5_STM_TO_BUCK"
-		(shape input)
-		(at 72.39 39.37 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "031b5649-b9ff-4a15-83d0-803473f8d0a2")
-	)
 	(hierarchical_label "SPI2_STM_SWITCH{MOSI,MISO,nCS,CLK}"
 		(shape bidirectional)
 		(at 107.95 60.96 180)
@@ -4112,20 +4041,9 @@
 		)
 		(uuid "3a2dee12-54d8-432f-92b7-67731fae88e9")
 	)
-	(hierarchical_label "EN-1V15_STM_TO_BUCK"
-		(shape input)
-		(at 72.39 43.18 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6c44964c-753d-4725-bef1-2903a011e645")
-	)
 	(hierarchical_label "IRQ0_SWITCH_TO_STM"
 		(shape output)
-		(at 72.39 48.26 180)
+		(at 72.39 39.37 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4166,6 +4084,85 @@
 			(justify right)
 		)
 		(uuid "dab47663-ebce-4033-80bc-662c6e2dc120")
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 200.66 63.5 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0cc35225-c293-43ba-9fce-6320c7b8e256")
+		(property "Reference" "#PWR098"
+			(at 204.47 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 196.85 63.4999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 200.66 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a1b9ba11-b6f6-4711-9039-9556c6b83a41")
+		)
+		(instances
+			(project "shish-lan"
+				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c"
+					(reference "#PWR098")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "KL_Header:Header_02x01_2.54mm_0mm_Straight")
@@ -4600,6 +4597,85 @@
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c"
 					(reference "#PWR88")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 199.39 104.14 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "67e87390-3d49-40c4-928b-f90a0d089f27")
+		(property "Reference" "#PWR095"
+			(at 203.2 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 195.58 104.1399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 199.39 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "acbdfec0-3ebd-4c38-a7bf-c2d1655774ac")
+		)
+		(instances
+			(project "shish-lan"
+				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c"
+					(reference "#PWR095")
 					(unit 1)
 				)
 			)
