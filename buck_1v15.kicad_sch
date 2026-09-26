@@ -3676,21 +3676,9 @@
 			(uuid "36174df9-4f8e-4d33-842d-543cc314004f")
 		)
 		(instances
-			(project "switch"
-				(path "/cd936d40-9035-4ec8-bcf8-38758f995fb0/42c65065-b6e5-43b0-ae2c-34333f058269"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/42c65065-b6e5-43b0-ae2c-34333f058269"
 					(reference "#PWR11")
-					(unit 1)
-				)
-			)
-			(project "buck_1v15"
-				(path "/e29a671d-d09d-4dc6-82ea-58a457fe1432"
-					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -3766,21 +3754,9 @@
 			(uuid "a0efde75-6020-4666-a7de-2fa2e5441562")
 		)
 		(instances
-			(project "switch"
-				(path "/cd936d40-9035-4ec8-bcf8-38758f995fb0/42c65065-b6e5-43b0-ae2c-34333f058269"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/42c65065-b6e5-43b0-ae2c-34333f058269"
 					(reference "#PWR15")
-					(unit 1)
-				)
-			)
-			(project "buck_1v15"
-				(path "/e29a671d-d09d-4dc6-82ea-58a457fe1432"
-					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -3856,21 +3832,9 @@
 			(uuid "0a53487b-3b6f-46a0-9633-e356ec63c03e")
 		)
 		(instances
-			(project "switch"
-				(path "/cd936d40-9035-4ec8-bcf8-38758f995fb0/42c65065-b6e5-43b0-ae2c-34333f058269"
-					(reference "TP?")
-					(unit 1)
-				)
-			)
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/42c65065-b6e5-43b0-ae2c-34333f058269"
 					(reference "TP1")
-					(unit 1)
-				)
-			)
-			(project "buck_1v15"
-				(path "/e29a671d-d09d-4dc6-82ea-58a457fe1432"
-					(reference "TP?")
 					(unit 1)
 				)
 			)
@@ -4038,21 +4002,9 @@
 			(uuid "d4b06eec-1a3e-4f0a-9b5e-4c240a779f20")
 		)
 		(instances
-			(project "switch"
-				(path "/cd936d40-9035-4ec8-bcf8-38758f995fb0/42c65065-b6e5-43b0-ae2c-34333f058269"
-					(reference "C?")
-					(unit 1)
-				)
-			)
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/42c65065-b6e5-43b0-ae2c-34333f058269"
 					(reference "C80")
-					(unit 1)
-				)
-			)
-			(project "buck_1v15"
-				(path "/e29a671d-d09d-4dc6-82ea-58a457fe1432"
-					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -4212,12 +4164,6 @@
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/42c65065-b6e5-43b0-ae2c-34333f058269"
 					(reference "R82")
-					(unit 1)
-				)
-			)
-			(project "buck_1v15"
-				(path "/e29a671d-d09d-4dc6-82ea-58a457fe1432"
-					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -4474,21 +4420,9 @@
 			(uuid "d9cfba49-3877-4389-979d-2217c68a6bb8")
 		)
 		(instances
-			(project "switch"
-				(path "/cd936d40-9035-4ec8-bcf8-38758f995fb0/42c65065-b6e5-43b0-ae2c-34333f058269"
-					(reference "TP?")
-					(unit 1)
-				)
-			)
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/42c65065-b6e5-43b0-ae2c-34333f058269"
 					(reference "TP10")
-					(unit 1)
-				)
-			)
-			(project "buck_1v15"
-				(path "/e29a671d-d09d-4dc6-82ea-58a457fe1432"
-					(reference "TP?")
 					(unit 1)
 				)
 			)
@@ -4656,21 +4590,9 @@
 			(uuid "7c4828dd-813c-47bf-8bae-c719f213c09d")
 		)
 		(instances
-			(project "switch"
-				(path "/cd936d40-9035-4ec8-bcf8-38758f995fb0/42c65065-b6e5-43b0-ae2c-34333f058269"
-					(reference "C?")
-					(unit 1)
-				)
-			)
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/42c65065-b6e5-43b0-ae2c-34333f058269"
 					(reference "C76")
-					(unit 1)
-				)
-			)
-			(project "buck_1v15"
-				(path "/e29a671d-d09d-4dc6-82ea-58a457fe1432"
-					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -4828,12 +4750,6 @@
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/42c65065-b6e5-43b0-ae2c-34333f058269"
 					(reference "R15")
-					(unit 1)
-				)
-			)
-			(project "buck_1v15"
-				(path "/e29a671d-d09d-4dc6-82ea-58a457fe1432"
-					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -5001,21 +4917,9 @@
 			(uuid "4c88f257-e58a-4c2b-825a-f57c64b24df6")
 		)
 		(instances
-			(project "switch"
-				(path "/cd936d40-9035-4ec8-bcf8-38758f995fb0/42c65065-b6e5-43b0-ae2c-34333f058269"
-					(reference "C?")
-					(unit 1)
-				)
-			)
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/42c65065-b6e5-43b0-ae2c-34333f058269"
 					(reference "C75")
-					(unit 1)
-				)
-			)
-			(project "buck_1v15"
-				(path "/e29a671d-d09d-4dc6-82ea-58a457fe1432"
-					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -5097,12 +5001,6 @@
 					(unit 1)
 				)
 			)
-			(project "buck_1v15"
-				(path "/e29a671d-d09d-4dc6-82ea-58a457fe1432"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -5178,12 +5076,6 @@
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/42c65065-b6e5-43b0-ae2c-34333f058269"
 					(reference "#PWR101")
-					(unit 1)
-				)
-			)
-			(project "buck_1v15"
-				(path "/e29a671d-d09d-4dc6-82ea-58a457fe1432"
-					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -5346,12 +5238,6 @@
 					(unit 1)
 				)
 			)
-			(project "buck_1v15"
-				(path "/e29a671d-d09d-4dc6-82ea-58a457fe1432"
-					(reference "R?")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -5505,21 +5391,9 @@
 			(uuid "6976a335-65b5-4047-b585-d0ed0e6df06b")
 		)
 		(instances
-			(project "switch"
-				(path "/cd936d40-9035-4ec8-bcf8-38758f995fb0/42c65065-b6e5-43b0-ae2c-34333f058269"
-					(reference "R?")
-					(unit 1)
-				)
-			)
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/42c65065-b6e5-43b0-ae2c-34333f058269"
 					(reference "R84")
-					(unit 1)
-				)
-			)
-			(project "buck_1v15"
-				(path "/e29a671d-d09d-4dc6-82ea-58a457fe1432"
-					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -5687,21 +5561,9 @@
 			(uuid "ade73836-747c-4c3d-ae32-e39c16d213fa")
 		)
 		(instances
-			(project "switch"
-				(path "/cd936d40-9035-4ec8-bcf8-38758f995fb0/42c65065-b6e5-43b0-ae2c-34333f058269"
-					(reference "C?")
-					(unit 1)
-				)
-			)
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/42c65065-b6e5-43b0-ae2c-34333f058269"
 					(reference "C71")
-					(unit 1)
-				)
-			)
-			(project "buck_1v15"
-				(path "/e29a671d-d09d-4dc6-82ea-58a457fe1432"
-					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -5869,21 +5731,9 @@
 			(uuid "4641ad6e-78be-4101-bc4f-de985876cc47")
 		)
 		(instances
-			(project "switch"
-				(path "/cd936d40-9035-4ec8-bcf8-38758f995fb0/42c65065-b6e5-43b0-ae2c-34333f058269"
-					(reference "C?")
-					(unit 1)
-				)
-			)
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/42c65065-b6e5-43b0-ae2c-34333f058269"
 					(reference "C79")
-					(unit 1)
-				)
-			)
-			(project "buck_1v15"
-				(path "/e29a671d-d09d-4dc6-82ea-58a457fe1432"
-					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -6076,12 +5926,6 @@
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/42c65065-b6e5-43b0-ae2c-34333f058269"
 					(reference "D3")
-					(unit 1)
-				)
-			)
-			(project "buck_1v15"
-				(path "/e29a671d-d09d-4dc6-82ea-58a457fe1432"
-					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -6327,21 +6171,9 @@
 			(uuid "2885e13b-3eb7-40c9-8d38-399be98bd4ff")
 		)
 		(instances
-			(project "switch"
-				(path "/cd936d40-9035-4ec8-bcf8-38758f995fb0/42c65065-b6e5-43b0-ae2c-34333f058269"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/42c65065-b6e5-43b0-ae2c-34333f058269"
 					(reference "#PWR14")
-					(unit 1)
-				)
-			)
-			(project "buck_1v15"
-				(path "/e29a671d-d09d-4dc6-82ea-58a457fe1432"
-					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -6593,12 +6425,6 @@
 					(unit 1)
 				)
 			)
-			(project "buck_1v15"
-				(path "/e29a671d-d09d-4dc6-82ea-58a457fe1432"
-					(reference "#FLG?")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -6671,21 +6497,9 @@
 			(uuid "eeb2e389-aaff-4de5-9054-ea561c167d6e")
 		)
 		(instances
-			(project "switch"
-				(path "/cd936d40-9035-4ec8-bcf8-38758f995fb0/42c65065-b6e5-43b0-ae2c-34333f058269"
-					(reference "TP?")
-					(unit 1)
-				)
-			)
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/42c65065-b6e5-43b0-ae2c-34333f058269"
 					(reference "TP11")
-					(unit 1)
-				)
-			)
-			(project "buck_1v15"
-				(path "/e29a671d-d09d-4dc6-82ea-58a457fe1432"
-					(reference "TP?")
 					(unit 1)
 				)
 			)
@@ -6761,21 +6575,9 @@
 			(uuid "21eeb627-fc5a-48c7-a135-671adde1fefd")
 		)
 		(instances
-			(project "switch"
-				(path "/cd936d40-9035-4ec8-bcf8-38758f995fb0/42c65065-b6e5-43b0-ae2c-34333f058269"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/42c65065-b6e5-43b0-ae2c-34333f058269"
 					(reference "#PWR12")
-					(unit 1)
-				)
-			)
-			(project "buck_1v15"
-				(path "/e29a671d-d09d-4dc6-82ea-58a457fe1432"
-					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -6943,21 +6745,9 @@
 			(uuid "c5a115da-41cc-4174-a534-ddd94d1bd2e5")
 		)
 		(instances
-			(project "switch"
-				(path "/cd936d40-9035-4ec8-bcf8-38758f995fb0/42c65065-b6e5-43b0-ae2c-34333f058269"
-					(reference "C?")
-					(unit 1)
-				)
-			)
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/42c65065-b6e5-43b0-ae2c-34333f058269"
 					(reference "C70")
-					(unit 1)
-				)
-			)
-			(project "buck_1v15"
-				(path "/e29a671d-d09d-4dc6-82ea-58a457fe1432"
-					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -7033,21 +6823,9 @@
 			(uuid "f53cd865-d266-4271-b63c-7a11775f797f")
 		)
 		(instances
-			(project "switch"
-				(path "/cd936d40-9035-4ec8-bcf8-38758f995fb0/42c65065-b6e5-43b0-ae2c-34333f058269"
-					(reference "TP?")
-					(unit 1)
-				)
-			)
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/42c65065-b6e5-43b0-ae2c-34333f058269"
 					(reference "TP3")
-					(unit 1)
-				)
-			)
-			(project "buck_1v15"
-				(path "/e29a671d-d09d-4dc6-82ea-58a457fe1432"
-					(reference "TP?")
 					(unit 1)
 				)
 			)
@@ -7201,21 +6979,9 @@
 			(uuid "2a42d5c7-97ec-4ac9-8dfa-776e4da42133")
 		)
 		(instances
-			(project "switch"
-				(path "/cd936d40-9035-4ec8-bcf8-38758f995fb0/42c65065-b6e5-43b0-ae2c-34333f058269"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/42c65065-b6e5-43b0-ae2c-34333f058269"
 					(reference "#PWR13")
-					(unit 1)
-				)
-			)
-			(project "buck_1v15"
-				(path "/e29a671d-d09d-4dc6-82ea-58a457fe1432"
-					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -7373,12 +7139,6 @@
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/42c65065-b6e5-43b0-ae2c-34333f058269"
 					(reference "L2")
-					(unit 1)
-				)
-			)
-			(project "buck_1v15"
-				(path "/e29a671d-d09d-4dc6-82ea-58a457fe1432"
-					(reference "L?")
 					(unit 1)
 				)
 			)
@@ -7558,21 +7318,9 @@
 			(uuid "004360b2-f41f-4675-a320-381ee4502a43")
 		)
 		(instances
-			(project "switch"
-				(path "/cd936d40-9035-4ec8-bcf8-38758f995fb0/42c65065-b6e5-43b0-ae2c-34333f058269"
-					(reference "U?")
-					(unit 1)
-				)
-			)
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/42c65065-b6e5-43b0-ae2c-34333f058269"
 					(reference "U2")
-					(unit 1)
-				)
-			)
-			(project "buck_1v15"
-				(path "/e29a671d-d09d-4dc6-82ea-58a457fe1432"
-					(reference "U?")
 					(unit 1)
 				)
 			)

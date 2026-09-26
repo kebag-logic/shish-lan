@@ -7300,12 +7300,6 @@
 			(uuid "50c33b8a-97fd-48c5-89c6-a515dae6fbf8")
 		)
 		(instances
-			(project "switch"
-				(path "/cd936d40-9035-4ec8-bcf8-38758f995fb0/d7edf10b-e7e7-437a-ab6c-966f29ad8f7f"
-					(reference "R?")
-					(unit 1)
-				)
-			)
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/d7edf10b-e7e7-437a-ab6c-966f29ad8f7f"
 					(reference "R71")
@@ -7441,12 +7435,6 @@
 			(uuid "1489dac3-2dc7-4ee4-a1e2-b84ab8ee5bc0")
 		)
 		(instances
-			(project "switch"
-				(path "/cd936d40-9035-4ec8-bcf8-38758f995fb0/d7edf10b-e7e7-437a-ab6c-966f29ad8f7f"
-					(reference "FB?")
-					(unit 1)
-				)
-			)
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/d7edf10b-e7e7-437a-ab6c-966f29ad8f7f"
 					(reference "FB5")
@@ -7525,12 +7513,6 @@
 			(uuid "023e10a2-fc47-43df-9f6c-e6e2cd65b13d")
 		)
 		(instances
-			(project "switch"
-				(path "/cd936d40-9035-4ec8-bcf8-38758f995fb0/d7edf10b-e7e7-437a-ab6c-966f29ad8f7f"
-					(reference "TP?")
-					(unit 1)
-				)
-			)
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/d7edf10b-e7e7-437a-ab6c-966f29ad8f7f"
 					(reference "TP8")
@@ -7768,12 +7750,6 @@
 			(uuid "e09043ef-44a1-4f16-a048-bdeeee937904")
 		)
 		(instances
-			(project "switch"
-				(path "/cd936d40-9035-4ec8-bcf8-38758f995fb0/d7edf10b-e7e7-437a-ab6c-966f29ad8f7f"
-					(reference "R?")
-					(unit 1)
-				)
-			)
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/d7edf10b-e7e7-437a-ab6c-966f29ad8f7f"
 					(reference "R81")
@@ -8368,12 +8344,6 @@
 			(uuid "0dc2d96f-368b-46f8-83ae-d8ff22c86ece")
 		)
 		(instances
-			(project ""
-				(path "/cd936d40-9035-4ec8-bcf8-38758f995fb0/d7edf10b-e7e7-437a-ab6c-966f29ad8f7f"
-					(reference "U1")
-					(unit 1)
-				)
-			)
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/d7edf10b-e7e7-437a-ab6c-966f29ad8f7f"
 					(reference "U1")
@@ -8530,12 +8500,6 @@
 			(uuid "1fb8b511-8601-4e1b-84f0-b2d59e30e6f8")
 		)
 		(instances
-			(project "switch"
-				(path "/cd936d40-9035-4ec8-bcf8-38758f995fb0/d7edf10b-e7e7-437a-ab6c-966f29ad8f7f"
-					(reference "R?")
-					(unit 1)
-				)
-			)
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/d7edf10b-e7e7-437a-ab6c-966f29ad8f7f"
 					(reference "R73")
@@ -8692,12 +8656,6 @@
 			(uuid "8eb2454f-acbe-4f36-a8db-33bec2c383f1")
 		)
 		(instances
-			(project "switch"
-				(path "/cd936d40-9035-4ec8-bcf8-38758f995fb0/d7edf10b-e7e7-437a-ab6c-966f29ad8f7f"
-					(reference "R?")
-					(unit 1)
-				)
-			)
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/d7edf10b-e7e7-437a-ab6c-966f29ad8f7f"
 					(reference "R88")
@@ -9102,12 +9060,6 @@
 			(uuid "a15b9570-7d0f-4ec1-a77f-e2fcccd2ead5")
 		)
 		(instances
-			(project "switch"
-				(path "/cd936d40-9035-4ec8-bcf8-38758f995fb0/d7edf10b-e7e7-437a-ab6c-966f29ad8f7f"
-					(reference "TP?")
-					(unit 1)
-				)
-			)
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/d7edf10b-e7e7-437a-ab6c-966f29ad8f7f"
 					(reference "TP9")
@@ -9342,12 +9294,6 @@
 			(uuid "453f4e5d-627e-40c9-b1cf-d70c8816f5e2")
 		)
 		(instances
-			(project "switch"
-				(path "/cd936d40-9035-4ec8-bcf8-38758f995fb0/d7edf10b-e7e7-437a-ab6c-966f29ad8f7f"
-					(reference "TP?")
-					(unit 1)
-				)
-			)
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/d7edf10b-e7e7-437a-ab6c-966f29ad8f7f"
 					(reference "TP5")
@@ -9561,12 +9507,6 @@
 			(uuid "bc9c54ab-9404-4119-a825-552cf5f92501")
 		)
 		(instances
-			(project "switch"
-				(path "/cd936d40-9035-4ec8-bcf8-38758f995fb0/d7edf10b-e7e7-437a-ab6c-966f29ad8f7f"
-					(reference "FB?")
-					(unit 1)
-				)
-			)
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/d7edf10b-e7e7-437a-ab6c-966f29ad8f7f"
 					(reference "FB3")
@@ -10191,12 +10131,6 @@
 			(uuid "f8c96254-e2a3-47e3-8933-4c8c437b70e5")
 		)
 		(instances
-			(project "switch"
-				(path "/cd936d40-9035-4ec8-bcf8-38758f995fb0/d7edf10b-e7e7-437a-ab6c-966f29ad8f7f"
-					(reference "R?")
-					(unit 1)
-				)
-			)
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/d7edf10b-e7e7-437a-ab6c-966f29ad8f7f"
 					(reference "R72")
@@ -10275,12 +10209,6 @@
 			(uuid "846c3e85-8da7-4556-a44b-20dc308cfe57")
 		)
 		(instances
-			(project "switch"
-				(path "/cd936d40-9035-4ec8-bcf8-38758f995fb0/d7edf10b-e7e7-437a-ab6c-966f29ad8f7f"
-					(reference "TP?")
-					(unit 1)
-				)
-			)
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/d7edf10b-e7e7-437a-ab6c-966f29ad8f7f"
 					(reference "TP6")
@@ -10359,12 +10287,6 @@
 			(uuid "368b102b-3599-4c8f-938d-35391f40c817")
 		)
 		(instances
-			(project "switch"
-				(path "/cd936d40-9035-4ec8-bcf8-38758f995fb0/d7edf10b-e7e7-437a-ab6c-966f29ad8f7f"
-					(reference "TP?")
-					(unit 1)
-				)
-			)
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/d7edf10b-e7e7-437a-ab6c-966f29ad8f7f"
 					(reference "TP20")
@@ -10534,12 +10456,6 @@
 			(uuid "771c8259-ed6d-45e1-9370-c522d72e0a99")
 		)
 		(instances
-			(project "switch"
-				(path "/cd936d40-9035-4ec8-bcf8-38758f995fb0/d7edf10b-e7e7-437a-ab6c-966f29ad8f7f"
-					(reference "C?")
-					(unit 1)
-				)
-			)
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/d7edf10b-e7e7-437a-ab6c-966f29ad8f7f"
 					(reference "C18")
@@ -10696,12 +10612,6 @@
 			(uuid "8a2142e5-31e2-4e3f-bec8-a4fe17c07260")
 		)
 		(instances
-			(project "switch"
-				(path "/cd936d40-9035-4ec8-bcf8-38758f995fb0/d7edf10b-e7e7-437a-ab6c-966f29ad8f7f"
-					(reference "TP?")
-					(unit 1)
-				)
-			)
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/d7edf10b-e7e7-437a-ab6c-966f29ad8f7f"
 					(reference "TP7")
@@ -10871,12 +10781,6 @@
 			(uuid "3b916594-6f70-4736-9b13-eff95a5579fc")
 		)
 		(instances
-			(project "switch"
-				(path "/cd936d40-9035-4ec8-bcf8-38758f995fb0/d7edf10b-e7e7-437a-ab6c-966f29ad8f7f"
-					(reference "C?")
-					(unit 1)
-				)
-			)
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/d7edf10b-e7e7-437a-ab6c-966f29ad8f7f"
 					(reference "C19")
@@ -11011,12 +10915,6 @@
 			(uuid "8170a364-b11f-43ab-92c3-852bc22b7162")
 		)
 		(instances
-			(project "switch"
-				(path "/cd936d40-9035-4ec8-bcf8-38758f995fb0/d7edf10b-e7e7-437a-ab6c-966f29ad8f7f"
-					(reference "FB?")
-					(unit 1)
-				)
-			)
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/d7edf10b-e7e7-437a-ab6c-966f29ad8f7f"
 					(reference "FB1")
@@ -11464,12 +11362,6 @@
 			(uuid "09dddef5-8920-437a-b0e5-27cd8100dab9")
 		)
 		(instances
-			(project "switch"
-				(path "/cd936d40-9035-4ec8-bcf8-38758f995fb0/d7edf10b-e7e7-437a-ab6c-966f29ad8f7f"
-					(reference "FB?")
-					(unit 1)
-				)
-			)
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/d7edf10b-e7e7-437a-ab6c-966f29ad8f7f"
 					(reference "FB4")
@@ -11639,12 +11531,6 @@
 			(uuid "a5351e9b-ca58-4b72-90b8-ce41eee00e2d")
 		)
 		(instances
-			(project "switch"
-				(path "/cd936d40-9035-4ec8-bcf8-38758f995fb0/d7edf10b-e7e7-437a-ab6c-966f29ad8f7f"
-					(reference "C?")
-					(unit 1)
-				)
-			)
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/d7edf10b-e7e7-437a-ab6c-966f29ad8f7f"
 					(reference "C1")
@@ -11815,12 +11701,6 @@
 			(uuid "875ce865-aee7-4984-b8c5-e57085d2a222")
 		)
 		(instances
-			(project "switch"
-				(path "/cd936d40-9035-4ec8-bcf8-38758f995fb0/d7edf10b-e7e7-437a-ab6c-966f29ad8f7f"
-					(reference "C?")
-					(unit 1)
-				)
-			)
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/d7edf10b-e7e7-437a-ab6c-966f29ad8f7f"
 					(reference "C20")
@@ -11977,12 +11857,6 @@
 			(uuid "72c24126-d1d1-4999-abb8-aa8ba9c7b12b")
 		)
 		(instances
-			(project "switch"
-				(path "/cd936d40-9035-4ec8-bcf8-38758f995fb0/d7edf10b-e7e7-437a-ab6c-966f29ad8f7f"
-					(reference "TP?")
-					(unit 1)
-				)
-			)
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/d7edf10b-e7e7-437a-ab6c-966f29ad8f7f"
 					(reference "TP4")
@@ -12118,12 +11992,6 @@
 			(uuid "0f07a1e4-e546-42ef-9683-532747f3085c")
 		)
 		(instances
-			(project "switch"
-				(path "/cd936d40-9035-4ec8-bcf8-38758f995fb0/d7edf10b-e7e7-437a-ab6c-966f29ad8f7f"
-					(reference "FB?")
-					(unit 1)
-				)
-			)
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/d7edf10b-e7e7-437a-ab6c-966f29ad8f7f"
 					(reference "FB2")
@@ -12294,12 +12162,6 @@
 			(uuid "b175e8bb-6d47-4d40-b374-aa383246065e")
 		)
 		(instances
-			(project "switch"
-				(path "/cd936d40-9035-4ec8-bcf8-38758f995fb0/d7edf10b-e7e7-437a-ab6c-966f29ad8f7f"
-					(reference "C?")
-					(unit 1)
-				)
-			)
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/d7edf10b-e7e7-437a-ab6c-966f29ad8f7f"
 					(reference "C21")

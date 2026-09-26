@@ -2806,12 +2806,6 @@
 					(unit 1)
 				)
 			)
-			(project "switch_gpios"
-				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
-					(reference "R?")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -2890,12 +2884,6 @@
 					(unit 1)
 				)
 			)
-			(project "switch_gpios"
-				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -2971,12 +2959,6 @@
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
 					(reference "#PWR24")
-					(unit 1)
-				)
-			)
-			(project "switch_gpios"
-				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
-					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -3139,12 +3121,6 @@
 					(unit 1)
 				)
 			)
-			(project "switch_gpios"
-				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
-					(reference "R?")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -3301,12 +3277,6 @@
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
 					(reference "R42")
-					(unit 1)
-				)
-			)
-			(project "switch_gpios"
-				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
-					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -3469,12 +3439,6 @@
 					(unit 1)
 				)
 			)
-			(project "switch_gpios"
-				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
-					(reference "R?")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -3631,12 +3595,6 @@
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
 					(reference "R26")
-					(unit 1)
-				)
-			)
-			(project "switch_gpios"
-				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
-					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -3799,12 +3757,6 @@
 					(unit 1)
 				)
 			)
-			(project "switch_gpios"
-				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
-					(reference "R?")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -3880,12 +3832,6 @@
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
 					(reference "#PWR44")
-					(unit 1)
-				)
-			)
-			(project "switch_gpios"
-				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
-					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -4048,12 +3994,6 @@
 					(unit 1)
 				)
 			)
-			(project "switch_gpios"
-				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
-					(reference "R?")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -4129,12 +4069,6 @@
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
 					(reference "#PWR41")
-					(unit 1)
-				)
-			)
-			(project "switch_gpios"
-				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
-					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -4297,12 +4231,6 @@
 					(unit 1)
 				)
 			)
-			(project "switch_gpios"
-				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
-					(reference "R?")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -4459,12 +4387,6 @@
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
 					(reference "R32")
-					(unit 1)
-				)
-			)
-			(project "switch_gpios"
-				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
-					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -4627,12 +4549,6 @@
 					(unit 1)
 				)
 			)
-			(project "switch_gpios"
-				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
-					(reference "R?")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -4708,12 +4624,6 @@
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
 					(reference "#PWR40")
-					(unit 1)
-				)
-			)
-			(project "switch_gpios"
-				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
-					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -4876,12 +4786,6 @@
 					(unit 1)
 				)
 			)
-			(project "switch_gpios"
-				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
-					(reference "R?")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -4960,12 +4864,6 @@
 					(unit 1)
 				)
 			)
-			(project "switch_gpios"
-				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -5041,12 +4939,6 @@
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
 					(reference "#PWR26")
-					(unit 1)
-				)
-			)
-			(project "switch_gpios"
-				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
-					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -5209,12 +5101,6 @@
 					(unit 1)
 				)
 			)
-			(project "switch_gpios"
-				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
-					(reference "R?")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -5371,12 +5257,6 @@
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
 					(reference "R49")
-					(unit 1)
-				)
-			)
-			(project "switch_gpios"
-				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
-					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -5539,12 +5419,6 @@
 					(unit 1)
 				)
 			)
-			(project "switch_gpios"
-				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
-					(reference "R?")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -5701,12 +5575,6 @@
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
 					(reference "R40")
-					(unit 1)
-				)
-			)
-			(project "switch_gpios"
-				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
-					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -5869,12 +5737,6 @@
 					(unit 1)
 				)
 			)
-			(project "switch_gpios"
-				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
-					(reference "R?")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -5950,12 +5812,6 @@
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
 					(reference "#PWR35")
-					(unit 1)
-				)
-			)
-			(project "switch_gpios"
-				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
-					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -6118,12 +5974,6 @@
 					(unit 1)
 				)
 			)
-			(project "switch_gpios"
-				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
-					(reference "R?")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -6280,12 +6130,6 @@
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
 					(reference "R34")
-					(unit 1)
-				)
-			)
-			(project "switch_gpios"
-				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
-					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -6448,12 +6292,6 @@
 					(unit 1)
 				)
 			)
-			(project "switch_gpios"
-				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
-					(reference "R?")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -6529,12 +6367,6 @@
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
 					(reference "#PWR31")
-					(unit 1)
-				)
-			)
-			(project "switch_gpios"
-				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
-					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -6697,12 +6529,6 @@
 					(unit 1)
 				)
 			)
-			(project "switch_gpios"
-				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
-					(reference "R?")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -6859,12 +6685,6 @@
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
 					(reference "R48")
-					(unit 1)
-				)
-			)
-			(project "switch_gpios"
-				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
-					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -7027,12 +6847,6 @@
 					(unit 1)
 				)
 			)
-			(project "switch_gpios"
-				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
-					(reference "R?")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -7108,12 +6922,6 @@
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
 					(reference "#PWR28")
-					(unit 1)
-				)
-			)
-			(project "switch_gpios"
-				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
-					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -7276,12 +7084,6 @@
 					(unit 1)
 				)
 			)
-			(project "switch_gpios"
-				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
-					(reference "R?")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -7357,12 +7159,6 @@
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
 					(reference "#PWR43")
-					(unit 1)
-				)
-			)
-			(project "switch_gpios"
-				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
-					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -7525,12 +7321,6 @@
 					(unit 1)
 				)
 			)
-			(project "switch_gpios"
-				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
-					(reference "R?")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -7609,12 +7399,6 @@
 					(unit 1)
 				)
 			)
-			(project "switch_gpios"
-				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -7690,12 +7474,6 @@
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
 					(reference "#PWR27")
-					(unit 1)
-				)
-			)
-			(project "switch_gpios"
-				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
-					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -7858,12 +7636,6 @@
 					(unit 1)
 				)
 			)
-			(project "switch_gpios"
-				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
-					(reference "R?")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -8023,12 +7795,6 @@
 					(unit 1)
 				)
 			)
-			(project "switch_gpios"
-				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
-					(reference "R?")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -8104,12 +7870,6 @@
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
 					(reference "#PWR37")
-					(unit 1)
-				)
-			)
-			(project "switch_gpios"
-				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
-					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -8272,12 +8032,6 @@
 					(unit 1)
 				)
 			)
-			(project "switch_gpios"
-				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
-					(reference "R?")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -8353,12 +8107,6 @@
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
 					(reference "#PWR25")
-					(unit 1)
-				)
-			)
-			(project "switch_gpios"
-				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
-					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -8521,12 +8269,6 @@
 					(unit 1)
 				)
 			)
-			(project "switch_gpios"
-				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
-					(reference "R?")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -8683,12 +8425,6 @@
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
 					(reference "R57")
-					(unit 1)
-				)
-			)
-			(project "switch_gpios"
-				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
-					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -8851,12 +8587,6 @@
 					(unit 1)
 				)
 			)
-			(project "switch_gpios"
-				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
-					(reference "R?")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -9013,12 +8743,6 @@
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
 					(reference "R51")
-					(unit 1)
-				)
-			)
-			(project "switch_gpios"
-				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
-					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -9181,12 +8905,6 @@
 					(unit 1)
 				)
 			)
-			(project "switch_gpios"
-				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
-					(reference "R?")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -9265,12 +8983,6 @@
 					(unit 1)
 				)
 			)
-			(project "switch_gpios"
-				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -9346,12 +9058,6 @@
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
 					(reference "#PWR38")
-					(unit 1)
-				)
-			)
-			(project "switch_gpios"
-				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
-					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -9514,12 +9220,6 @@
 					(unit 1)
 				)
 			)
-			(project "switch_gpios"
-				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
-					(reference "R?")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -9595,12 +9295,6 @@
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
 					(reference "#PWR45")
-					(unit 1)
-				)
-			)
-			(project "switch_gpios"
-				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
-					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -9763,12 +9457,6 @@
 					(unit 1)
 				)
 			)
-			(project "switch_gpios"
-				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
-					(reference "R?")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -9925,12 +9613,6 @@
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
 					(reference "R47")
-					(unit 1)
-				)
-			)
-			(project "switch_gpios"
-				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
-					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -10093,12 +9775,6 @@
 					(unit 1)
 				)
 			)
-			(project "switch_gpios"
-				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
-					(reference "R?")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -10255,12 +9931,6 @@
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
 					(reference "R28")
-					(unit 1)
-				)
-			)
-			(project "switch_gpios"
-				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
-					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -10423,12 +10093,6 @@
 					(unit 1)
 				)
 			)
-			(project "switch_gpios"
-				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
-					(reference "R?")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -10504,12 +10168,6 @@
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
 					(reference "#PWR32")
-					(unit 1)
-				)
-			)
-			(project "switch_gpios"
-				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
-					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -10672,12 +10330,6 @@
 					(unit 1)
 				)
 			)
-			(project "switch_gpios"
-				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
-					(reference "R?")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -10837,12 +10489,6 @@
 					(unit 1)
 				)
 			)
-			(project "switch_gpios"
-				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
-					(reference "R?")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -10918,12 +10564,6 @@
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
 					(reference "#PWR42")
-					(unit 1)
-				)
-			)
-			(project "switch_gpios"
-				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
-					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -11086,12 +10726,6 @@
 					(unit 1)
 				)
 			)
-			(project "switch_gpios"
-				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
-					(reference "R?")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -11248,12 +10882,6 @@
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
 					(reference "R33")
-					(unit 1)
-				)
-			)
-			(project "switch_gpios"
-				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
-					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -11416,12 +11044,6 @@
 					(unit 1)
 				)
 			)
-			(project "switch_gpios"
-				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
-					(reference "R?")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -11581,12 +11203,6 @@
 					(unit 1)
 				)
 			)
-			(project "switch_gpios"
-				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
-					(reference "R?")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -11665,12 +11281,6 @@
 					(unit 1)
 				)
 			)
-			(project "switch_gpios"
-				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -11746,12 +11356,6 @@
 			(project "shish-lan"
 				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
 					(reference "#PWR30")
-					(unit 1)
-				)
-			)
-			(project "switch_gpios"
-				(path "/de568cdf-4188-4a30-8f0f-644d1ad4a6fb/e503b9a1-dc40-4261-99ac-d1a8c04f6765"
-					(reference "#PWR?")
 					(unit 1)
 				)
 			)
