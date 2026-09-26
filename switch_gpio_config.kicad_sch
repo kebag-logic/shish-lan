@@ -717,7 +717,7 @@
 		)
 		(uuid "f7e284df-abcd-4c7d-b07f-819c617c6315")
 	)
-	(text "Boot Mode Selector\nNote: Unmanaged modes are  selected using\noptions 3, 4,  5, 6, or 7.\n0: [Managed] No boot --> Need management interface to work\n1: RESERVED\n2: RESERVED\n*3: [Unmanaged] ROM boot.\n4:  [Unmanaged] ROM + I2C table boot.\n5:  [Unmanaged] ROM + SPI table boot.\n6:  [Unmanaged] ROM + VRAP port 5 boot. \n7:  [Unmanaged] ROM + VRAP port 7 boot. "
+	(text "Boot Mode Selector\nNote: Unmanaged modes are  selected using\noptions 3, 4,  5, 6, or 7.\n*0: [Managed] No boot --> Need management interface to work\n1: RESERVED\n2: RESERVED\n3: [Unmanaged] ROM boot.\n4:  [Unmanaged] ROM + I2C table boot.\n5:  [Unmanaged] ROM + SPI table boot.\n6:  [Unmanaged] ROM + VRAP port 5 boot. \n7:  [Unmanaged] ROM + VRAP port 7 boot. "
 		(exclude_from_sim no)
 		(at 15.494 33.782 0)
 		(effects
@@ -3132,7 +3132,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "10b2c52f-0d47-4361-9f1d-1d5799933010")
 		(property "Reference" "R42"
@@ -3450,7 +3450,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "155f8e40-69dc-4fdc-b20a-866d7455fe32")
 		(property "Reference" "R26"
@@ -3846,7 +3846,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "27a4bfbc-0236-499d-b114-3edb314b88c0")
 		(property "Reference" "R52"
@@ -4401,7 +4401,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "358a11a6-0ff7-4633-8c30-7657140b849f")
 		(property "Reference" "R59"
@@ -5112,7 +5112,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "6c157be1-2276-42a1-8b95-12c74dd587f6")
 		(property "Reference" "R49"
@@ -5985,7 +5985,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "8082c187-ff0b-46d1-b3cd-8cd9cf1c2c53")
 		(property "Reference" "R34"
@@ -6540,7 +6540,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "8822c4df-bd40-4992-88c5-e2032625dd4c")
 		(property "Reference" "R48"
@@ -6699,7 +6699,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a57bd4c-1280-45d7-be74-7a749f52962c")
 		(property "Reference" "R68"
@@ -6936,7 +6936,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "9eb15af1-6225-4518-8197-b1781ab7c62a")
 		(property "Reference" "R30"
@@ -7173,7 +7173,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "a430f6ad-42d2-431e-8c86-e2f078b04805")
 		(property "Reference" "R64"
@@ -8280,7 +8280,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "b5ccdfa5-07b9-4012-a8b6-f8d17e6008fd")
 		(property "Reference" "R57"
@@ -8439,7 +8439,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "b92c1d1f-a7e1-4054-99fa-63fc48d3efbf")
 		(property "Reference" "R60"
@@ -8598,7 +8598,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "c4c96dc2-1374-4ef0-9eaa-88da3670978e")
 		(property "Reference" "R51"
@@ -9072,7 +9072,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "cc824160-e1eb-41f0-9243-43d12d5c1103")
 		(property "Reference" "R31"
@@ -9786,7 +9786,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "db417e44-4fac-47ac-9248-0f4739d24222")
 		(property "Reference" "R28"
@@ -9945,7 +9945,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "dc6b37b7-1b70-4cf6-a616-fa6dcd38f6f6")
 		(property "Reference" "R46"
@@ -10737,7 +10737,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "efb9ee71-67be-4b11-aee8-3a0548fe324d")
 		(property "Reference" "R33"
