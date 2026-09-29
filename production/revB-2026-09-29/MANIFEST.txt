@@ -1,0 +1,15 @@
+shish-lan rev B - production files (JLCPCB, 6 layers)
+Generated: 2026-09-29 from branch 108-revb-assembly-prepare-pcb-from-schmetics
+Board: shish-lan.kicad_pcb committed with these files on the same branch  |  board sha256: 61287248bdc1484f...
+Checks: DRC 0 errors, 0 unconnected, schematic parity 0; 5 waived warnings (J1/J12 silk at board edge, logo courtyard)
+
+Upload to JLCPCB:
+  shish-lan-revB-gerbers.zip  PCB: F/In1/In2/In3/In4/B copper, masks, paste, silk, Edge.Cuts, PTH + NPTH drill
+  BOM-shish-lan.csv           assembly BOM, 33 lines / 202 parts, DNP excluded, J12 removed (hand solder)
+  CPL-shish-lan.csv           placement, 202 parts, top side, mm (test points, mounting holes, J12 removed)
+
+Open points before ordering:
+  - U1 LAN96455F-I/8MW: no LCSC part, order via JLC Global Sourcing (MPN in BOM)
+  - J12 DC jack (Wuerth 694108301002): hand solder, not in BOM/CPL
+  - THT parts (J1 RJ45, J4, J5, J7, J9, J10, J11): need JLC THT assembly option, else hand solder
+  - Check every rotation in JLCPCB "Component Placements" preview
