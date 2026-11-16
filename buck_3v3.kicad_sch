@@ -856,7 +856,10 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "KL_Header:Header_02x01_2.54mm_0mm_Straight"
+		(symbol "KL_L:L_3u3_8A_20pct_7.2x6.9"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(hide yes)
 			)
@@ -865,8 +868,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at -0.254 3.556 0)
+			(property "Reference" "L"
+				(at 4.064 1.778 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -875,7 +878,83 @@
 					)
 				)
 			)
-			(property "Value" "Header_02x01_2.54mm_0mm_Straight"
+			(property "Value" "3u3"
+				(at 3.81 -1.016 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "KL_Footprints:EXLA1V0603"
+				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C5378529.pdf"
+				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Inductor"
+				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "I_max_in_A" "8"
+				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Tolerance_in_pct" "20"
+				(at 6.604 5.334 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Package_LxW_in_mm" "6.6x6.4"
+				(at 0 5.588 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "FEXL0630A-3R3M"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -886,8 +965,8 @@
 					)
 				)
 			)
-			(property "Footprint" "KL_Footprints:02x01_2.54mm_Header"
-				(at 0 0 0)
+			(property "Mouser" "704-EXLA1V0603-3R3-R"
+				(at 0 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -897,8 +976,8 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=87224&DocType=Customer+Drawing&DocLang=English"
-				(at 0 0 0)
+			(property "Digikey" "283-EXLA1V0603-3R3-RCT-ND"
+				(at 0 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -908,8 +987,8 @@
 					)
 				)
 			)
-			(property "Description" "Pin Header"
-				(at 0 0 0)
+			(property "LCSC" "C5378529"
+				(at 0 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -919,143 +998,61 @@
 					)
 				)
 			)
-			(property "No_of_pins" "2"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "No_of_rows" "1"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Pitch_pin_in_mm" "2.54"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Pitch_row_in_mm" "0"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Orientation" "Straight"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "87224-2"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Mouser" "571-872242"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Digikey" "A26543-ND"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC" "C5383111"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Header_02x01_2.54mm_0mm_Straight_1_1"
-				(rectangle
-					(start -1.27 2.54)
-					(end 1.27 -2.54)
+			(symbol "L_3u3_8A_20pct_7.2x6.9_0_1"
+				(arc
+					(start 1.27 0)
+					(mid 1.905 0.6323)
+					(end 2.54 0)
 					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 1.397)
-					(end 0 1.143)
-					(stroke
-						(width 0.1524)
+						(width 0)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(rectangle
-					(start -1.27 -1.143)
-					(end 0 -1.397)
+				(arc
+					(start 2.54 0)
+					(mid 3.175 0.6323)
+					(end 3.81 0)
 					(stroke
-						(width 0.1524)
+						(width 0)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
+				(arc
+					(start 3.81 0)
+					(mid 4.445 0.6323)
+					(end 5.08 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 5.08 0)
+					(mid 5.715 0.6323)
+					(end 6.35 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "L_3u3_8A_20pct_7.2x6.9_1_1"
 				(pin passive line
-					(at -5.08 1.27 0)
-					(length 3.81)
-					(name "Pin_1"
+					(at 0 0 0)
+					(length 1.27)
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1071,9 +1068,9 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -1.27 0)
-					(length 3.81)
-					(name "Pin_2"
+					(at 7.62 0 180)
+					(length 1.27)
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1090,239 +1087,6 @@
 				)
 			)
 			(embedded_fonts no)
-		)
-		(symbol
-		  "KL_L:L_3u3_8A_20pct_7.2x6.9"
-		  (property "Reference" "L"
-		    (at 4.064 1.778 0)
-		    (show_name no)
-		    (do_not_autoplace no)
-		    (effects
-		      (font
-		        (size 1.27 1.27)
-		      )
-		    )
-		  )
-		  (property "Value" "3u3"
-		    (at 3.81 -1.016 0)
-		    (show_name no)
-		    (do_not_autoplace no)
-		    (effects
-		      (font
-		        (size 1.27 1.27)
-		      )
-		    )
-		  )
-		  (property "Footprint" "KL_Footprints:EXLA1V0603"
-		    (at 0 7.62 0)
-		    (show_name no)
-		    (do_not_autoplace no)
-		    (hide yes)
-		    (effects
-		      (font
-		        (size 1.27 1.27)
-		      )
-		    )
-		  )
-		  (property "Datasheet" "https://www.lcsc.com/datasheet/C5378529.pdf"
-		    (at 0 7.62 0)
-		    (show_name no)
-		    (do_not_autoplace no)
-		    (hide yes)
-		    (effects
-		      (font
-		        (size 1.27 1.27)
-		      )
-		    )
-		  )
-		  (property "Description" "Inductor"
-		    (at 0 7.62 0)
-		    (show_name no)
-		    (do_not_autoplace no)
-		    (hide yes)
-		    (effects
-		      (font
-		        (size 1.27 1.27)
-		      )
-		    )
-		  )
-		  (property "I_max_in_A" "8"
-		    (at 0 7.62 0)
-		    (show_name no)
-		    (do_not_autoplace no)
-		    (hide yes)
-		    (effects
-		      (font
-		        (size 1.27 1.27)
-		      )
-		    )
-		  )
-		  (property "Tolerance_in_pct" "20"
-		    (at 6.604 5.334 0)
-		    (show_name no)
-		    (do_not_autoplace no)
-		    (hide yes)
-		    (effects
-		      (font
-		        (size 1.27 1.27)
-		      )
-		    )
-		  )
-		  (property "Package_LxW_in_mm" "6.6x6.4"
-		    (at 0 5.588 0)
-		    (show_name no)
-		    (do_not_autoplace no)
-		    (hide yes)
-		    (effects
-		      (font
-		        (size 1.27 1.27)
-		      )
-		    )
-		  )
-		  (property "MPN" "FEXL0630A-3R3M"
-		    (at 0 0 0)
-		    (show_name no)
-		    (do_not_autoplace no)
-		    (hide yes)
-		    (effects
-		      (font
-		        (size 1.27 1.27)
-		      )
-		    )
-		  )
-		  (property "Mouser" "704-EXLA1V0603-3R3-R"
-		    (at 0 7.62 0)
-		    (show_name no)
-		    (do_not_autoplace no)
-		    (hide yes)
-		    (effects
-		      (font
-		        (size 1.27 1.27)
-		      )
-		    )
-		  )
-		  (property "Digikey" "283-EXLA1V0603-3R3-RCT-ND"
-		    (at 0 7.62 0)
-		    (show_name no)
-		    (do_not_autoplace no)
-		    (hide yes)
-		    (effects
-		      (font
-		        (size 1.27 1.27)
-		      )
-		    )
-		  )
-		  (property "LCSC" "C5378529"
-		    (at 0 7.62 0)
-		    (show_name no)
-		    (do_not_autoplace no)
-		    (hide yes)
-		    (effects
-		      (font
-		        (size 1.27 1.27)
-		      )
-		    )
-		  )
-		  (embedded_fonts no)
-		  (pin_numbers
-		    (hide yes)
-		  )
-		  (pin_names
-		    (hide yes)
-		  )
-		  (exclude_from_sim no)
-		  (in_bom yes)
-		  (on_board yes)
-		  (in_pos_files yes)
-		  (duplicate_pin_numbers_are_jumpers no)
-		  (symbol "L_3u3_8A_20pct_7.2x6.9_0_1"
-		    (arc
-		      (start 1.27 0)
-		      (mid 1.905 0.6323)
-		      (end 2.54 0)
-		      (stroke
-		        (width 0)
-		        (type default)
-		      )
-		      (fill
-		        (type none)
-		      )
-		    )
-		    (arc
-		      (start 2.54 0)
-		      (mid 3.175 0.6323)
-		      (end 3.81 0)
-		      (stroke
-		        (width 0)
-		        (type default)
-		      )
-		      (fill
-		        (type none)
-		      )
-		    )
-		    (arc
-		      (start 3.81 0)
-		      (mid 4.445 0.6323)
-		      (end 5.08 0)
-		      (stroke
-		        (width 0)
-		        (type default)
-		      )
-		      (fill
-		        (type none)
-		      )
-		    )
-		    (arc
-		      (start 5.08 0)
-		      (mid 5.715 0.6323)
-		      (end 6.35 0)
-		      (stroke
-		        (width 0)
-		        (type default)
-		      )
-		      (fill
-		        (type none)
-		      )
-		    )
-		  )
-		  (symbol "L_3u3_8A_20pct_7.2x6.9_1_1"
-		    (pin passive line
-		      (at 0 0 0)
-		      (length 1.27)
-		      (name "1"
-		        (effects
-		          (font
-		            (size 1.27 1.27)
-		          )
-		        )
-		      )
-		      (number "1"
-		        (effects
-		          (font
-		            (size 1.27 1.27)
-		          )
-		        )
-		      )
-		    )
-		    (pin passive line
-		      (at 7.62 0 180)
-		      (length 1.27)
-		      (name "2"
-		        (effects
-		          (font
-		            (size 1.27 1.27)
-		          )
-		        )
-		      )
-		      (number "2"
-		        (effects
-		          (font
-		            (size 1.27 1.27)
-		          )
-		        )
-		      )
-		    )
-		  )
 		)
 		(symbol "KL_LED:LED_Red_2V_0.03A_0603"
 			(pin_numbers
@@ -1626,223 +1390,222 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol
-		  "KL_R:R_0R_2W_5pct_2512"
-		  (property "Reference" "R"
-		    (at 2.032 0 90)
-		    (show_name no)
-		    (do_not_autoplace no)
-		    (effects
-		      (font
-		        (size 1.27 1.27)
-		      )
-		    )
-		  )
-		  (property "Value" "0R"
-		    (at 0 0 90)
-		    (show_name no)
-		    (do_not_autoplace no)
-		    (effects
-		      (font
-		        (size 1.27 1.27)
-		      )
-		    )
-		  )
-		  (property "Footprint" "KL_Footprints:R_2512"
-		    (at -1.778 0 90)
-		    (show_name no)
-		    (do_not_autoplace no)
-		    (hide yes)
-		    (effects
-		      (font
-		        (size 1.27 1.27)
-		      )
-		    )
-		  )
-		  (property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/CRF-J.pdf"
-		    (at 0 0 0)
-		    (show_name no)
-		    (do_not_autoplace no)
-		    (hide yes)
-		    (effects
-		      (font
-		        (size 1.27 1.27)
-		      )
-		    )
-		  )
-		  (property "Description" "Resistor"
-		    (at 0 0 0)
-		    (show_name no)
-		    (do_not_autoplace no)
-		    (hide yes)
-		    (effects
-		      (font
-		        (size 1.27 1.27)
-		      )
-		    )
-		  )
-		  (property "Power_in_W" "2"
-		    (at 0 0 0)
-		    (show_name no)
-		    (do_not_autoplace no)
-		    (hide yes)
-		    (effects
-		      (font
-		        (size 1.27 1.27)
-		      )
-		    )
-		  )
-		  (property "Tolerance_in_pct" "5"
-		    (at 0 0 0)
-		    (show_name no)
-		    (do_not_autoplace no)
-		    (hide yes)
-		    (effects
-		      (font
-		        (size 1.27 1.27)
-		      )
-		    )
-		  )
-		  (property "MPN" "CRF2512-J/-000ELF"
-		    (at 0 0 0)
-		    (show_name no)
-		    (do_not_autoplace no)
-		    (hide yes)
-		    (effects
-		      (font
-		        (size 1.27 1.27)
-		      )
-		    )
-		  )
-		  (property "Mouser" "652-CRF2512-J-000ELF"
-		    (at 0 0 0)
-		    (show_name no)
-		    (do_not_autoplace no)
-		    (hide yes)
-		    (effects
-		      (font
-		        (size 1.27 1.27)
-		      )
-		    )
-		  )
-		  (property "Digikey" "118-CRF2512-J/-000ELFCT-ND"
-		    (at 0 0 0)
-		    (show_name no)
-		    (do_not_autoplace no)
-		    (hide yes)
-		    (effects
-		      (font
-		        (size 1.27 1.27)
-		      )
-		    )
-		  )
-		  (property "LCSC" "C6538168"
-		    (at 0 0 0)
-		    (show_name no)
-		    (do_not_autoplace no)
-		    (hide yes)
-		    (effects
-		      (font
-		        (size 1.27 1.27)
-		      )
-		    )
-		  )
-		  (property "Package_in_inch" "2512"
-		    (at 0 0 0)
-		    (show_name no)
-		    (do_not_autoplace no)
-		    (hide yes)
-		    (effects
-		      (font
-		        (size 1.27 1.27)
-		      )
-		    )
-		  )
-		  (property "ki_keywords" "R res resistor"
-		    (at 0 0 0)
-		    (show_name no)
-		    (do_not_autoplace no)
-		    (hide yes)
-		    (effects
-		      (font
-		        (size 1.27 1.27)
-		      )
-		    )
-		  )
-		  (property "ki_fp_filters" "R_*"
-		    (at 0 0 0)
-		    (show_name no)
-		    (do_not_autoplace no)
-		    (hide yes)
-		    (effects
-		      (font
-		        (size 1.27 1.27)
-		      )
-		    )
-		  )
-		  (embedded_fonts no)
-		  (pin_numbers
-		    (hide yes)
-		  )
-		  (pin_names
-		    (offset 0)
-		  )
-		  (exclude_from_sim no)
-		  (in_bom yes)
-		  (on_board yes)
-		  (in_pos_files yes)
-		  (duplicate_pin_numbers_are_jumpers no)
-		  (symbol "R_0R_2W_5pct_2512_0_1"
-		    (rectangle
-		      (start -1.016 -2.54)
-		      (end 1.016 2.54)
-		      (stroke
-		        (width 0.254)
-		        (type default)
-		      )
-		      (fill
-		        (type none)
-		      )
-		    )
-		  )
-		  (symbol "R_0R_2W_5pct_2512_1_1"
-		    (pin passive line
-		      (at 0 3.81 270)
-		      (length 1.27)
-		      (name ""
-		        (effects
-		          (font
-		            (size 1.27 1.27)
-		          )
-		        )
-		      )
-		      (number "1"
-		        (effects
-		          (font
-		            (size 1.27 1.27)
-		          )
-		        )
-		      )
-		    )
-		    (pin passive line
-		      (at 0 -3.81 90)
-		      (length 1.27)
-		      (name ""
-		        (effects
-		          (font
-		            (size 1.27 1.27)
-		          )
-		        )
-		      )
-		      (number "2"
-		        (effects
-		          (font
-		            (size 1.27 1.27)
-		          )
-		        )
-		      )
-		    )
-		  )
+		(symbol "KL_R:R_0R_2W_5pct_2512"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "0R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "KL_Footprints:R_2512"
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/CRF-J.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Power_in_W" "2"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Tolerance_in_pct" "5"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "CRF2512-J/-000ELF"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Mouser" "652-CRF2512-J-000ELF"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Digikey" "118-CRF2512-J/-000ELFCT-ND"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C6538168"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Package_in_inch" "2512"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0R_2W_5pct_2512_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_0R_2W_5pct_2512_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
 		)
 		(symbol "KL_R:R_10K_0.1W_1pct_0603"
 			(pin_numbers
@@ -2278,223 +2041,222 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol
-		  "KL_R:R_20K_0.1W_1pct_0603"
-		  (property "Reference" "R"
-		    (at 2.032 0 90)
-		    (show_name no)
-		    (do_not_autoplace no)
-		    (effects
-		      (font
-		        (size 1.27 1.27)
-		      )
-		    )
-		  )
-		  (property "Value" "20K"
-		    (at 0 0 90)
-		    (show_name no)
-		    (do_not_autoplace no)
-		    (effects
-		      (font
-		        (size 1.27 1.27)
-		      )
-		    )
-		  )
-		  (property "Footprint" "KL_Footprints:R_0603"
-		    (at -1.778 0 90)
-		    (show_name no)
-		    (do_not_autoplace no)
-		    (hide yes)
-		    (effects
-		      (font
-		        (size 1.27 1.27)
-		      )
-		    )
-		  )
-		  (property "Datasheet" "https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-1320KL"
-		    (at 0 0 0)
-		    (show_name no)
-		    (do_not_autoplace no)
-		    (hide yes)
-		    (effects
-		      (font
-		        (size 1.27 1.27)
-		      )
-		    )
-		  )
-		  (property "Description" "Resistor"
-		    (at 0 0 0)
-		    (show_name no)
-		    (do_not_autoplace no)
-		    (hide yes)
-		    (effects
-		      (font
-		        (size 1.27 1.27)
-		      )
-		    )
-		  )
-		  (property "Power_in_W" "0.1"
-		    (at 0 0 0)
-		    (show_name no)
-		    (do_not_autoplace no)
-		    (hide yes)
-		    (effects
-		      (font
-		        (size 1.27 1.27)
-		      )
-		    )
-		  )
-		  (property "Tolerance_in_pct" "1"
-		    (at 0 0 0)
-		    (show_name no)
-		    (do_not_autoplace no)
-		    (hide yes)
-		    (effects
-		      (font
-		        (size 1.27 1.27)
-		      )
-		    )
-		  )
-		  (property "MPN" "0603WAF2002T5E"
-		    (at 0 0 0)
-		    (show_name no)
-		    (do_not_autoplace no)
-		    (hide yes)
-		    (effects
-		      (font
-		        (size 1.27 1.27)
-		      )
-		    )
-		  )
-		  (property "Mouser" "603-RC0603FR-1320KL"
-		    (at 0 0 0)
-		    (show_name no)
-		    (do_not_autoplace no)
-		    (hide yes)
-		    (effects
-		      (font
-		        (size 1.27 1.27)
-		      )
-		    )
-		  )
-		  (property "Digikey" "13-RC0603FR-1320KLCT-ND"
-		    (at 0 0 0)
-		    (show_name no)
-		    (do_not_autoplace no)
-		    (hide yes)
-		    (effects
-		      (font
-		        (size 1.27 1.27)
-		      )
-		    )
-		  )
-		  (property "LCSC" "C4184"
-		    (at 0 0 0)
-		    (show_name no)
-		    (do_not_autoplace no)
-		    (hide yes)
-		    (effects
-		      (font
-		        (size 1.27 1.27)
-		      )
-		    )
-		  )
-		  (property "Package_in_inch" "0603"
-		    (at 0 0 0)
-		    (show_name no)
-		    (do_not_autoplace no)
-		    (hide yes)
-		    (effects
-		      (font
-		        (size 1.27 1.27)
-		      )
-		    )
-		  )
-		  (property "ki_keywords" "R res resistor"
-		    (at 0 0 0)
-		    (show_name no)
-		    (do_not_autoplace no)
-		    (hide yes)
-		    (effects
-		      (font
-		        (size 1.27 1.27)
-		      )
-		    )
-		  )
-		  (property "ki_fp_filters" "R_*"
-		    (at 0 0 0)
-		    (show_name no)
-		    (do_not_autoplace no)
-		    (hide yes)
-		    (effects
-		      (font
-		        (size 1.27 1.27)
-		      )
-		    )
-		  )
-		  (embedded_fonts no)
-		  (pin_numbers
-		    (hide yes)
-		  )
-		  (pin_names
-		    (offset 0)
-		  )
-		  (exclude_from_sim no)
-		  (in_bom yes)
-		  (on_board yes)
-		  (in_pos_files yes)
-		  (duplicate_pin_numbers_are_jumpers no)
-		  (symbol "R_20K_0.1W_1pct_0603_0_1"
-		    (rectangle
-		      (start -1.016 -2.54)
-		      (end 1.016 2.54)
-		      (stroke
-		        (width 0.254)
-		        (type default)
-		      )
-		      (fill
-		        (type none)
-		      )
-		    )
-		  )
-		  (symbol "R_20K_0.1W_1pct_0603_1_1"
-		    (pin passive line
-		      (at 0 3.81 270)
-		      (length 1.27)
-		      (name ""
-		        (effects
-		          (font
-		            (size 1.27 1.27)
-		          )
-		        )
-		      )
-		      (number "1"
-		        (effects
-		          (font
-		            (size 1.27 1.27)
-		          )
-		        )
-		      )
-		    )
-		    (pin passive line
-		      (at 0 -3.81 90)
-		      (length 1.27)
-		      (name ""
-		        (effects
-		          (font
-		            (size 1.27 1.27)
-		          )
-		        )
-		      )
-		      (number "2"
-		        (effects
-		          (font
-		            (size 1.27 1.27)
-		          )
-		        )
-		      )
-		    )
-		  )
+		(symbol "KL_R:R_20K_0.1W_1pct_0603"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "20K"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "KL_Footprints:R_0603"
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-1320KL"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Power_in_W" "0.1"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Tolerance_in_pct" "1"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "0603WAF2002T5E"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Mouser" "603-RC0603FR-1320KL"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Digikey" "13-RC0603FR-1320KLCT-ND"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C4184"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Package_in_inch" "0603"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_20K_0.1W_1pct_0603_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_20K_0.1W_1pct_0603_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
 		)
 		(symbol "KL_R:R_45K3_0.1W_1pct_0603"
 			(pin_numbers
@@ -4257,16 +4019,6 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 72.39) (xy 223.52 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dec4a320-248e-4b0e-8a8f-5320af998c23")
-	)
-	(wire
-		(pts
 			(xy 232.41 71.12) (xy 232.41 72.39)
 		)
 		(stroke
@@ -4327,7 +4079,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 72.39) (xy 209.55 72.39)
+			(xy 195.58 72.39) (xy 223.52 72.39)
 		)
 		(stroke
 			(width 0)
@@ -4463,187 +4215,6 @@
 				(font
 					(size 1.27 1.27)
 					(italic yes)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "KL_Header:Header_02x01_2.54mm_0mm_Straight")
-		(at 210.82 77.47 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "00398f44-dcd7-4b02-8652-0a1fe4ec4a7b")
-		(property "Reference" "J15"
-			(at 214.63 77.4699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Header_02x01_2.54mm_0mm_Straight"
-			(at 210.82 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "KL_Footprints:02x01_2.54mm_Header"
-			(at 210.82 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=87224&DocType=Customer+Drawing&DocLang=English"
-			(at 210.82 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Pin Header"
-			(at 210.82 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "No_of_pins" "2"
-			(at 210.82 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "No_of_rows" "1"
-			(at 210.82 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Pitch_pin_in_mm" "2.54"
-			(at 210.82 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Pitch_row_in_mm" "0"
-			(at 210.82 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Orientation" "Straight"
-			(at 210.82 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "87224-2"
-			(at 210.82 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" "571-872242"
-			(at 210.82 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey" "A26543-ND"
-			(at 210.82 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C5383111"
-			(at 210.82 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "fc824f36-e744-47e7-b99c-ab73ff7957e7")
-		)
-		(pin "1"
-			(uuid "5a2939a0-2517-4bd4-ab41-a9d3326bd658")
-		)
-		(instances
-			(project "shish-lan"
-				(path "/d4536448-b109-4159-96e2-3dc21baf2d6e/b46af5b7-dd4e-4356-ae8f-8ea1d81113b6"
-					(reference "J15")
-					(unit 1)
 				)
 			)
 		)
