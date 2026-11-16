@@ -954,7 +954,7 @@
         "uuid": "d4536448-b109-4159-96e2-3dc21baf2d6e"
       }
     ],
-    "used_designators": "#PWR95,#PWR98",
+    "used_designators": "#PWR95,#PWR98,TP23,U6",
     "variants": []
   },
   "sheets": [
