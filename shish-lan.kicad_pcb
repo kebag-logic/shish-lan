@@ -323,6 +323,12 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/42c65065-b6e5-43b0-ae2c-34333f058269/54b63754-56e4-4216-9fa6-1f8fc1c95104")
 		(sheetname "/switch/switch_buck_1v15/")
 		(sheetfile "buck_1v15.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2820,6 +2826,12 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765/ac0777f7-df1d-4701-82d0-d7f7e72a517c")
 		(sheetname "/switch/switch_gpios/switch_gpio_config/")
 		(sheetfile "switch_gpio_config.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3427,6 +3439,12 @@
 		(path "/b46af5b7-dd4e-4356-ae8f-8ea1d81113b6/ac5689a2-4f85-4405-b94c-90e9c3ac1041")
 		(sheetname "/BUCK_3V3/")
 		(sheetfile "buck_3v3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4660,6 +4678,12 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765/d05c14fa-6634-4dc8-b279-185a8f4990ac")
 		(sheetname "/switch/switch_gpios/switch_gpio_config/")
 		(sheetfile "switch_gpio_config.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7791,6 +7815,12 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765/2e2613b0-b796-4353-8b86-46b9d014ca62")
 		(sheetname "/switch/switch_gpios/switch_gpio_config/")
 		(sheetfile "switch_gpio_config.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8927,6 +8957,12 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765/8082c187-ff0b-46d1-b3cd-8cd9cf1c2c53")
 		(sheetname "/switch/switch_gpios/switch_gpio_config/")
 		(sheetfile "switch_gpio_config.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9517,6 +9553,12 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/69a5d702-c665-4a72-a741-e338a5557eac")
 		(sheetname "/switch/switch_gpios/")
 		(sheetfile "switch_gpios.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10991,6 +11033,12 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765/c768cac3-ea3d-4aeb-a462-9b27e726f4d4")
 		(sheetname "/switch/switch_gpios/switch_gpio_config/")
 		(sheetfile "switch_gpio_config.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11285,6 +11333,12 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765/29147fa3-dab1-40a8-9d62-d94aabd29578")
 		(sheetname "/switch/switch_gpios/switch_gpio_config/")
 		(sheetfile "switch_gpio_config.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11579,6 +11633,12 @@
 		(path "/06488c82-a47f-4277-b0ee-3bd211d8922a/54dd0313-e11b-4c5a-bb43-942dea0cd180/5f99275c-78e1-474a-a911-ecc0af0121ff")
 		(sheetname "/controller/JTAG_Header_ARM/")
 		(sheetfile "jtag_header_arm.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11873,6 +11933,12 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765/00f31315-1f58-49ee-a70f-c8afc53a8be9")
 		(sheetname "/switch/switch_gpios/switch_gpio_config/")
 		(sheetfile "switch_gpio_config.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15874,6 +15940,12 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765/616c9fba-206b-44d5-a97e-a63a7a1b7381")
 		(sheetname "/switch/switch_gpios/switch_gpio_config/")
 		(sheetfile "switch_gpio_config.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -16709,6 +16781,12 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765/db417e44-4fac-47ac-9248-0f4739d24222")
 		(sheetname "/switch/switch_gpios/switch_gpio_config/")
 		(sheetfile "switch_gpio_config.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -17654,6 +17732,12 @@
 		(path "/b46af5b7-dd4e-4356-ae8f-8ea1d81113b6/c547d368-7530-409e-a650-9d9cc1bc19b2")
 		(sheetname "/BUCK_3V3/")
 		(sheetfile "buck_3v3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -20510,6 +20594,12 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765/fb400d69-ae4c-454e-9251-f0dba80b6d12")
 		(sheetname "/switch/switch_gpios/switch_gpio_config/")
 		(sheetfile "switch_gpio_config.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -21730,6 +21820,12 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765/b5ccdfa5-07b9-4012-a8b6-f8d17e6008fd")
 		(sheetname "/switch/switch_gpios/switch_gpio_config/")
 		(sheetfile "switch_gpio_config.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -22024,6 +22120,12 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/d7edf10b-e7e7-437a-ab6c-966f29ad8f7f/3839127b-e638-445b-ad53-109e94305bef")
 		(sheetname "/switch/switch_power/")
 		(sheetfile "switch_power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -23844,6 +23946,12 @@
 		(path "/06488c82-a47f-4277-b0ee-3bd211d8922a/b3aa7f90-9297-4785-aed6-c8608e3a0947")
 		(sheetname "/controller/")
 		(sheetfile "controller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -24934,6 +25042,12 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765/358a11a6-0ff7-4633-8c30-7657140b849f")
 		(sheetname "/switch/switch_gpios/switch_gpio_config/")
 		(sheetfile "switch_gpio_config.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -27589,6 +27703,12 @@
 		(path "/06488c82-a47f-4277-b0ee-3bd211d8922a/c084d012-a7de-45ef-9506-607833686122")
 		(sheetname "/controller/")
 		(sheetfile "controller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -28217,6 +28337,12 @@
 		(path "/441e1a33-86fb-4c7c-ab16-967bce7ba5a0")
 		(sheetname "/")
 		(sheetfile "shish-lan.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -28511,6 +28637,12 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765/10b2c52f-0d47-4361-9f1d-1d5799933010")
 		(sheetname "/switch/switch_gpios/switch_gpio_config/")
 		(sheetfile "switch_gpio_config.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -31554,6 +31686,12 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765/74612803-b37f-47b7-a536-f24fff61b383")
 		(sheetname "/switch/switch_gpios/switch_gpio_config/")
 		(sheetfile "switch_gpio_config.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -31848,6 +31986,12 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765/9eb15af1-6225-4518-8197-b1781ab7c62a")
 		(sheetname "/switch/switch_gpios/switch_gpio_config/")
 		(sheetfile "switch_gpio_config.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -32142,6 +32286,12 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765/6b95d966-c370-4513-9a6f-0f2ee7e69e3c")
 		(sheetname "/switch/switch_gpios/switch_gpio_config/")
 		(sheetfile "switch_gpio_config.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -33062,6 +33212,12 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/012287b6-c486-445f-bb89-28bfab0d2f2f")
 		(sheetname "/switch/switch_gpios/")
 		(sheetfile "switch_gpios.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -33669,6 +33825,12 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765/155f8e40-69dc-4fdc-b20a-866d7455fe32")
 		(sheetname "/switch/switch_gpios/switch_gpio_config/")
 		(sheetfile "switch_gpio_config.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -35770,6 +35932,12 @@
 		(path "/06488c82-a47f-4277-b0ee-3bd211d8922a/df97bb8a-d133-4087-a765-3ffc99bcb185")
 		(sheetname "/controller/")
 		(sheetfile "controller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -36052,6 +36220,12 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765/efb9ee71-67be-4b11-aee8-3a0548fe324d")
 		(sheetname "/switch/switch_gpios/switch_gpio_config/")
 		(sheetfile "switch_gpio_config.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -36346,6 +36520,12 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/d7edf10b-e7e7-437a-ab6c-966f29ad8f7f/3d247c2c-c22d-4504-b559-91d4cf8b2abe")
 		(sheetname "/switch/switch_power/")
 		(sheetfile "switch_power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -40957,6 +41137,12 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/42c65065-b6e5-43b0-ae2c-34333f058269/ecb364c5-7073-41b6-8aab-a566134cd673")
 		(sheetname "/switch/switch_buck_1v15/")
 		(sheetfile "buck_1v15.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -42525,6 +42711,12 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765/dc6b37b7-1b70-4cf6-a616-fa6dcd38f6f6")
 		(sheetname "/switch/switch_gpios/switch_gpio_config/")
 		(sheetfile "switch_gpio_config.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -43132,6 +43324,12 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765/15a307fe-a645-4a54-a95e-1169ddf4f37a")
 		(sheetname "/switch/switch_gpios/switch_gpio_config/")
 		(sheetfile "switch_gpio_config.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -44631,6 +44829,12 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765/b92c1d1f-a7e1-4054-99fa-63fc48d3efbf")
 		(sheetname "/switch/switch_gpios/switch_gpio_config/")
 		(sheetfile "switch_gpio_config.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -44925,6 +45129,12 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765/b5ac485d-faa0-4e25-a09c-7146fd31329c")
 		(sheetname "/switch/switch_gpios/switch_gpio_config/")
 		(sheetfile "switch_gpio_config.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -45219,6 +45429,12 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765/c4c96dc2-1374-4ef0-9eaa-88da3670978e")
 		(sheetname "/switch/switch_gpios/switch_gpio_config/")
 		(sheetfile "switch_gpio_config.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -45826,6 +46042,12 @@
 		(path "/06488c82-a47f-4277-b0ee-3bd211d8922a/54dd0313-e11b-4c5a-bb43-942dea0cd180/e1d27558-6e0e-4828-8a4a-18aaf61d3d57")
 		(sheetname "/controller/JTAG_Header_ARM/")
 		(sheetfile "jtag_header_arm.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -47789,6 +48011,12 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765/a7e829e8-24a2-41f7-9281-08f895498ee6")
 		(sheetname "/switch/switch_gpios/switch_gpio_config/")
 		(sheetfile "switch_gpio_config.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -48083,6 +48311,12 @@
 		(path "/06488c82-a47f-4277-b0ee-3bd211d8922a/54dd0313-e11b-4c5a-bb43-942dea0cd180/6918c7ce-ebda-464b-849d-49b39acfa302")
 		(sheetname "/controller/JTAG_Header_ARM/")
 		(sheetfile "jtag_header_arm.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -49077,6 +49311,12 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/d7edf10b-e7e7-437a-ab6c-966f29ad8f7f/0ec0e28c-372b-46f7-b282-8230bda27283")
 		(sheetname "/switch/switch_power/")
 		(sheetfile "switch_power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -49670,6 +49910,12 @@
 		(path "/06488c82-a47f-4277-b0ee-3bd211d8922a/02b6dd1a-9254-4459-981a-68eb4560f7dd")
 		(sheetname "/controller/")
 		(sheetfile "controller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -53349,6 +53595,245 @@
 			)
 		)
 	)
+	(footprint "KL_Footprints:TestPoint"
+		(layer "F.Cu")
+		(uuid "81ee370e-e94e-45a6-9652-f4628025fc4e")
+		(at 54.75 98)
+		(descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
+		(tags "Through hole pin header THT 1x01 2.54mm single row")
+		(property "Reference" "TP23"
+			(at 0 -2.38 0)
+			(layer "F.SilkS")
+			(uuid "85cf57a9-9fc8-473f-84e7-530d5c042e6a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 0 2.38 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "18017fbb-7a69-42fa-9c56-d91b6b8b2de4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d0dcf1b1-1450-4139-a5bf-217c389d347a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8c3e437d-25b5-454c-9c6c-f8032c6ccc56")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/9f430dd4-0223-46fa-9fcc-a6bf592ff58a")
+		(sheetname "/switch/switch_gpios/")
+		(sheetfile "switch_gpios.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
+		(attr through_hole exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -1.38 -1.38)
+			(end 0 -1.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "db2e12e3-1bad-4e23-9c2a-9bf53e7fda75")
+		)
+		(fp_line
+			(start -1.38 0)
+			(end -1.38 -1.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "91de7111-789f-4b2d-8e86-af3da9de5ce4")
+		)
+		(fp_line
+			(start -1.38 1.27)
+			(end -1.38 1.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "acd18024-817c-419b-ad41-af519ec1f5ac")
+		)
+		(fp_line
+			(start -1.38 1.27)
+			(end 1.38 1.27)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "346f3513-a307-46c6-b36c-c432d76f0f1e")
+		)
+		(fp_line
+			(start -1.38 1.38)
+			(end 1.38 1.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c9035d00-9c69-4a20-a7ee-15859e2b1f0a")
+		)
+		(fp_line
+			(start 1.38 1.27)
+			(end 1.38 1.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "1b65e1ee-54dc-4c63-b99e-da882a58ee0b")
+		)
+		(fp_line
+			(start -1.77 -1.77)
+			(end -1.77 1.77)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "73996c54-1f86-49bb-b78a-94351a5b63ed")
+		)
+		(fp_line
+			(start -1.77 1.77)
+			(end 1.77 1.77)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "a460bc15-887d-4a55-bd76-ad3bfe6f833e")
+		)
+		(fp_line
+			(start 1.77 -1.77)
+			(end -1.77 -1.77)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "aad65b4d-aef6-41dc-8fff-f6c8722b80b0")
+		)
+		(fp_line
+			(start 1.77 1.77)
+			(end 1.77 -1.77)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "5b2178d2-07c9-45f0-9c66-88671e0a5c38")
+		)
+		(fp_line
+			(start -1.27 -0.635)
+			(end -0.635 -1.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "0de52fda-727d-416b-80e7-72af36c018c5")
+		)
+		(fp_line
+			(start -1.27 1.27)
+			(end -1.27 -0.635)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b70ce7d2-f5d0-42fa-9dae-5ee019096e72")
+		)
+		(fp_line
+			(start -0.635 -1.27)
+			(end 1.27 -1.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "9d983dac-fe84-4c5a-b543-ad7371fb290f")
+		)
+		(fp_line
+			(start 1.27 -1.27)
+			(end 1.27 1.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d35b495f-3872-4952-a5a2-c1e2043dea6a")
+		)
+		(fp_line
+			(start 1.27 1.27)
+			(end -1.27 1.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b32da09d-6140-472f-bcf0-a2dfabb830f5")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -2.38 180)
+			(layer "F.Fab")
+			(uuid "d5cb8602-6bca-41b0-b888-39b2ba518c49")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/switch/switch_gpios/E2E_CLOCK_EN")
+			(pinfunction "1_1")
+			(pintype "passive")
+			(uuid "2766a6cd-d28e-4183-8617-3fd930bb9bad")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "KL_Footprints:C_0603"
 		(layer "F.Cu")
 		(uuid "82a57215-4ff3-4792-a2e8-b8f61dda2002")
@@ -56180,6 +56665,12 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/f109ec13-4d15-44c2-b8c5-716d3c5d2913")
 		(sheetname "/switch/switch_gpios/")
 		(sheetfile "switch_gpios.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -56474,6 +56965,12 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765/cc824160-e1eb-41f0-9243-43d12d5c1103")
 		(sheetname "/switch/switch_gpios/switch_gpio_config/")
 		(sheetfile "switch_gpio_config.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -57560,306 +58057,6 @@
 	)
 	(footprint "KL_Footprints:R_0603"
 		(layer "F.Cu")
-		(uuid "8cc972b8-74b7-460c-9865-2f596653db03")
-		(at 55.8 92.4)
-		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
-		(tags "resistor")
-		(property "Reference" "R98"
-			(at 2.466429 0 0)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(uuid "3cfdbe5f-4d9e-4737-bf68-1d791cfcc22f")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.1)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 0 1.43 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d1a01525-1b1e-4d85-9e65-10de37d1ebb7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "https://yageogroup.com/component-documentation/download/specsheet/RC0603JR-070RP"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c80bd5e4-b81c-481c-8a65-343fa6d78a94")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "dbbe5c09-116a-4522-adce-eb6d924fb029")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser" "603-RC0603JR-070RP"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "18696bcf-97d1-4881-b095-88e2a31a223a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Digikey" "YAG1307CT-ND"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7632a1de-24ba-46cc-b8d6-2f7d0be7b527")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C3017805"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1fe4b773-a8b8-4e64-8b35-42cf2419fd12")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Power_in_W" "0.1"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "559819ce-c19a-4865-a6d9-3337486f18ac")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Tolerance_in_pct" "5"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "646b1be5-5f3b-43c8-9dc8-bb8d2f9197fc")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MPN" "RC0603JR-070RP"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c229dcf5-0674-4075-a0bc-d73f12043afb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Package_in_inch" "0603"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "139c30a2-a4c7-42f4-8c88-0140fd305b89")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "R_*")
-		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/055e4bb5-393f-4f0a-aa8a-946791ded036")
-		(sheetname "/switch/switch_gpios/")
-		(sheetfile "switch_gpios.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
-		(attr smd dnp)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -0.237258 -0.5225)
-			(end 0.237258 -0.5225)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "c53b1bd6-24ab-48ce-8cb8-d17f6e310f06")
-		)
-		(fp_line
-			(start -0.237258 0.5225)
-			(end 0.237258 0.5225)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "c239877b-d4c0-415f-9d67-775e22732fe1")
-		)
-		(fp_line
-			(start -1.48 -0.73)
-			(end 1.48 -0.73)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "1a8aea4a-cb10-45a1-83b6-e42371695fe4")
-		)
-		(fp_line
-			(start -1.48 0.73)
-			(end -1.48 -0.73)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "a42277cf-2d9e-4fd4-8176-edb52bd2f420")
-		)
-		(fp_line
-			(start 1.48 -0.73)
-			(end 1.48 0.73)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "b1eb5c57-5e0f-4364-980c-78a74e015ce7")
-		)
-		(fp_line
-			(start 1.48 0.73)
-			(end -1.48 0.73)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "0ba55730-2e38-4839-b715-db8ef607371a")
-		)
-		(fp_line
-			(start -0.8 -0.4125)
-			(end 0.8 -0.4125)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "9736f9e5-42e6-4232-ab3a-8198c662efc7")
-		)
-		(fp_line
-			(start -0.8 0.4125)
-			(end -0.8 -0.4125)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "52804b7d-f720-4fdf-8034-ac37751a2c77")
-		)
-		(fp_line
-			(start 0.8 -0.4125)
-			(end 0.8 0.4125)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "4c24905e-da1d-44bf-8bbe-7dceb52469b1")
-		)
-		(fp_line
-			(start 0.8 0.4125)
-			(end -0.8 0.4125)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "ccd53997-0371-4896-a43a-edbee9dfde86")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 -1.43 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "d6bc2b81-0de2-440e-9321-a5312f07df35")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.1)
-				)
-			)
-		)
-		(pad "1" smd roundrect
-			(at -0.825 0)
-			(size 0.8 0.95)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "Net-(J13-In)")
-			(pintype "passive")
-			(uuid "5d0582fd-245d-4891-891b-1455dc9cdc41")
-		)
-		(pad "2" smd roundrect
-			(at 0.825 0)
-			(size 0.8 0.95)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "/switch/switch_gpios/EEE_EN")
-			(pintype "passive")
-			(uuid "89cf8951-cf90-4ef0-af54-e060e6d60092")
-		)
-		(embedded_fonts no)
-		(model "${KL_LIB}/3dmodels/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "KL_Footprints:R_0603"
-		(layer "F.Cu")
 		(uuid "8d491cd7-a46e-454d-8e21-fe6f0e364d10")
 		(at 88.2 64.375 -90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -58307,6 +58504,12 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765/872ef9b4-c201-4374-8eb4-d26aecc53cdd")
 		(sheetname "/switch/switch_gpios/switch_gpio_config/")
 		(sheetfile "switch_gpio_config.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -61044,6 +61247,12 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/66c0272f-26cc-40bb-9b4b-24d79dec1653")
 		(sheetname "/switch/switch_gpios/")
 		(sheetfile "switch_gpios.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -61338,6 +61547,12 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/c6e71b93-7134-487d-a04c-584c6081214b/a35ae40e-3ae9-4dc7-8e8f-fe41a4f270df")
 		(sheetname "/switch/switch_buck_2v5/")
 		(sheetfile "buck_2v5.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -61632,6 +61847,12 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765/702259fc-cb8e-4732-a65b-787cbce64983")
 		(sheetname "/switch/switch_gpios/switch_gpio_config/")
 		(sheetfile "switch_gpio_config.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -62239,6 +62460,12 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765/e2b56832-69db-4d0a-acf4-b5bfc16a2477")
 		(sheetname "/switch/switch_gpios/switch_gpio_config/")
 		(sheetfile "switch_gpio_config.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -63688,6 +63915,12 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765/a7cad408-e638-4522-ba11-6b40cf98ff9e")
 		(sheetname "/switch/switch_gpios/switch_gpio_config/")
 		(sheetfile "switch_gpio_config.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -65342,6 +65575,12 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/1d08c826-ae2b-407d-ae54-f3af759cece5")
 		(sheetname "/switch/switch_gpios/")
 		(sheetfile "switch_gpios.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -65878,6 +66117,12 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765/12271c40-1b44-416a-844a-482e5c78f194")
 		(sheetname "/switch/switch_gpios/switch_gpio_config/")
 		(sheetfile "switch_gpio_config.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -66472,6 +66717,12 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765/d90af001-6905-4dd8-92b8-105cf9f5a238")
 		(sheetname "/switch/switch_gpios/switch_gpio_config/")
 		(sheetfile "switch_gpio_config.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -67320,6 +67571,12 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765/27a4bfbc-0236-499d-b114-3edb314b88c0")
 		(sheetname "/switch/switch_gpios/switch_gpio_config/")
 		(sheetfile "switch_gpio_config.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -67927,6 +68184,12 @@
 		(path "/06488c82-a47f-4277-b0ee-3bd211d8922a/54dd0313-e11b-4c5a-bb43-942dea0cd180/8bb7c5bc-4c8d-463e-a63d-a1d6b8a3273f")
 		(sheetname "/controller/JTAG_Header_ARM/")
 		(sheetfile "jtag_header_arm.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -69883,6 +70146,12 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/42c65065-b6e5-43b0-ae2c-34333f058269/7c95469f-1477-41af-8e72-57a4dbd40cbf")
 		(sheetname "/switch/switch_buck_1v15/")
 		(sheetfile "buck_1v15.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -70177,6 +70446,12 @@
 		(path "/06488c82-a47f-4277-b0ee-3bd211d8922a/4d293927-84b9-4f4c-bc64-ec8e320477c6")
 		(sheetname "/controller/")
 		(sheetfile "controller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -70784,6 +71059,12 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/d7edf10b-e7e7-437a-ab6c-966f29ad8f7f/82218bf7-1053-4a5e-b82b-5ae761bda7c2")
 		(sheetname "/switch/switch_power/")
 		(sheetfile "switch_power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -71078,6 +71359,12 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/c6e71b93-7134-487d-a04c-584c6081214b/9998ca94-f7f9-48dd-92e9-6bba70d6cba6")
 		(sheetname "/switch/switch_buck_2v5/")
 		(sheetfile "buck_2v5.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -72283,6 +72570,12 @@
 		(path "/06488c82-a47f-4277-b0ee-3bd211d8922a/54dd0313-e11b-4c5a-bb43-942dea0cd180/6668e5df-9050-4b83-9e8c-0fd95bac923d")
 		(sheetname "/controller/JTAG_Header_ARM/")
 		(sheetfile "jtag_header_arm.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -73203,6 +73496,12 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765/e51537ff-52d4-4f5a-b19f-fa0e613f4eee")
 		(sheetname "/switch/switch_gpios/switch_gpio_config/")
 		(sheetfile "switch_gpio_config.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -74723,6 +75022,12 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765/6c157be1-2276-42a1-8b95-12c74dd587f6")
 		(sheetname "/switch/switch_gpios/switch_gpio_config/")
 		(sheetfile "switch_gpio_config.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -77310,6 +77615,12 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765/72c4664a-8f13-4eac-a8a5-32b14ba281eb")
 		(sheetname "/switch/switch_gpios/switch_gpio_config/")
 		(sheetfile "switch_gpio_config.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -78530,6 +78841,12 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765/f1a9f53e-c5af-45ac-b23e-6e03ad98d075")
 		(sheetname "/switch/switch_gpios/switch_gpio_config/")
 		(sheetfile "switch_gpio_config.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -78824,6 +79141,12 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765/821a4494-c77f-457a-95d2-4f965fd0c9e7")
 		(sheetname "/switch/switch_gpios/switch_gpio_config/")
 		(sheetfile "switch_gpio_config.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -79418,6 +79741,12 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765/8822c4df-bd40-4992-88c5-e2032625dd4c")
 		(sheetname "/switch/switch_gpios/switch_gpio_config/")
 		(sheetfile "switch_gpio_config.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -80025,6 +80354,12 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765/0b4e0777-b9f3-48f7-9d09-b2e4ff239034")
 		(sheetname "/switch/switch_gpios/switch_gpio_config/")
 		(sheetfile "switch_gpio_config.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -81571,6 +81906,12 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/c4e92a22-375f-428a-b187-70a4d786a6f2")
 		(sheetname "/switch/switch_gpios/")
 		(sheetfile "switch_gpios.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -82948,6 +83289,12 @@
 		(path "/06488c82-a47f-4277-b0ee-3bd211d8922a/a3924d81-0675-4d12-b0ee-62513a48b656")
 		(sheetname "/controller/")
 		(sheetfile "controller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -83242,6 +83589,12 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765/8a57bd4c-1280-45d7-be74-7a749f52962c")
 		(sheetname "/switch/switch_gpios/switch_gpio_config/")
 		(sheetfile "switch_gpio_config.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -84352,6 +84705,12 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765/a430f6ad-42d2-431e-8c86-e2f078b04805")
 		(sheetname "/switch/switch_gpios/switch_gpio_config/")
 		(sheetfile "switch_gpio_config.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -86169,6 +86528,12 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765/79b27104-7ea3-4903-b127-0cf3d154b16e")
 		(sheetname "/switch/switch_gpios/switch_gpio_config/")
 		(sheetfile "switch_gpio_config.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -86763,6 +87128,12 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765/ec7bf3e8-d7d3-447f-998e-b6cbed51f3f2")
 		(sheetname "/switch/switch_gpios/switch_gpio_config/")
 		(sheetfile "switch_gpio_config.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -87430,6 +87801,12 @@
 		(path "/b46af5b7-dd4e-4356-ae8f-8ea1d81113b6/885e5bb3-5ea4-48fc-ab0b-2b644f3b3c2f")
 		(sheetname "/BUCK_3V3/")
 		(sheetfile "buck_3v3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -88613,343 +88990,6 @@
 			)
 		)
 	)
-	(footprint "KL_Footprints:SMA_Right_Angle"
-		(layer "F.Cu")
-		(uuid "e740ed99-9bce-4216-a4dc-181959a1a048")
-		(at 54.66 97.84 -90)
-		(property "Reference" "J13"
-			(at 0 -5.415 90)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(uuid "b137718a-da72-4c40-a4b8-ee789cc336dd")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.1)
-				)
-			)
-		)
-		(property "Value" "SMA"
-			(at 0 -11.5 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "72478e01-741b-44f6-89d5-ffa6e8232b6b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "https://gct.co/pdfjs/web/viewer.html?file=/files/drawings/RFPC-SMA27-F.pdf"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "fae05f39-566e-4af8-b8bf-644afc8ee7b6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "small coaxial connector: SMA"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4dcaa17c-2a6b-4f8b-a36c-154c5550defa")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser" "640-RFPCSMA27F"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d5da5342-eb9a-424b-b6fc-fab730d40804")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Digikey" "2073-RFPC-SMA27-F-ND"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3340e07c-e4bc-4980-941f-b2759b48d378")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C49253491"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c045704c-720a-47c3-ae76-a9b8a692a8cc")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Shape" "SMA"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b137c6f8-bf34-47b5-aa9e-50565df19a5a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Gender" "Female"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "aa012e93-8806-4dad-b4b0-0b76e9676d07")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Orientation" "RightAngle"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4ff18ad7-a48a-4dc6-a61c-355ee64a8106")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Impedance_in_Ohm" "50"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6959c807-b3e7-4563-88e4-4a0d5f3bdf01")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Freq_Rating_in_GHz" "6"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8d2a6095-9f71-4a83-9501-435fb20182e2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MPN" "RFPC-SMA27-F"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0c4021b2-f7ff-4fc0-bbd5-85755479a4c2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*")
-		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/720915f4-61c2-4c98-9c1d-32de4559a374")
-		(sheetname "/switch/switch_gpios/")
-		(sheetfile "switch_gpios.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
-		(attr through_hole dnp)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -1 3.5)
-			(end 1 3.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "2c39cb79-17a4-401b-9523-bc1c9f9128da")
-		)
-		(fp_line
-			(start -3.5 1)
-			(end -3.5 -1)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "587c8f15-5453-4748-a572-ee63c679d8e5")
-		)
-		(fp_line
-			(start 3.5 1)
-			(end 3.5 -1)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "3683cb2a-b80b-424a-b28d-db90192a708e")
-		)
-		(fp_line
-			(start -1 -3.5)
-			(end 1 -3.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "ee3ab0a5-c283-487d-91e2-be69db1030b6")
-		)
-		(fp_rect
-			(start -4.5 -4.5)
-			(end 4.5 4)
-			(stroke
-				(width 0.05)
-				(type default)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "b1efcd2f-0c98-4140-b30c-12e152803717")
-		)
-		(fp_rect
-			(start -2.675 3.5)
-			(end 2.675 11.6)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.Fab")
-			(uuid "dd2ddf13-ba40-4b88-8c6a-8fada504a09d")
-		)
-		(fp_rect
-			(start -3.5 -3.5)
-			(end 3.5 3.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.Fab")
-			(uuid "092d3676-00bd-43aa-a457-b8a9e4f1d1fe")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 -5.5 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "8bd65d56-f278-4aa5-9250-7f8b36ea38eb")
-			(effects
-				(font
-					(size 0.6 0.6)
-					(thickness 0.1)
-				)
-			)
-		)
-		(pad "1" thru_hole rect
-			(at 0 0 270)
-			(size 2.5 2.5)
-			(drill 1.5)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "Net-(J13-In)")
-			(pinfunction "In_1")
-			(pintype "passive")
-			(uuid "bf72528a-6f9b-43e5-88dd-01761fe92e91")
-		)
-		(pad "2" thru_hole circle
-			(at -2.54 -2.54 270)
-			(size 2.5 2.5)
-			(drill 1.6)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "GND")
-			(pinfunction "Ext_2")
-			(pintype "passive")
-			(uuid "603f3e27-55ed-45c5-bfe9-3cf65157930e")
-		)
-		(pad "2" thru_hole circle
-			(at -2.54 2.54 270)
-			(size 2.5 2.5)
-			(drill 1.6)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "GND")
-			(pinfunction "Ext_2")
-			(pintype "passive")
-			(uuid "221aaa67-81d2-4aa2-9630-8a491021e4b3")
-		)
-		(pad "2" thru_hole circle
-			(at 2.54 -2.54 270)
-			(size 2.5 2.5)
-			(drill 1.6)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "GND")
-			(pinfunction "Ext_2")
-			(pintype "passive")
-			(uuid "9fefeb8c-ceea-41a5-8c61-302e5b81620d")
-		)
-		(pad "2" thru_hole circle
-			(at 2.54 2.54 270)
-			(size 2.5 2.5)
-			(drill 1.6)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "GND")
-			(pinfunction "Ext_2")
-			(pintype "passive")
-			(uuid "0e84793e-a9d7-4ad2-9d53-3262030b8215")
-		)
-		(embedded_fonts no)
-		(model "${KL_LIB}/3dmodels/Connector_RF.3dshapes/RFPC-SMA27-F_1.0.STEP"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 -0 -0)
-			)
-		)
-	)
 	(footprint "KL_Footprints:10x02_2.54mm_Header"
 		(layer "F.Cu")
 		(uuid "e78dca1b-1386-4bdd-a1f0-bdb1387ddd95")
@@ -90130,6 +90170,12 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/d7edf10b-e7e7-437a-ab6c-966f29ad8f7f/83a67588-3315-4430-97f7-69e07d08321c")
 		(sheetname "/switch/switch_power/")
 		(sheetfile "switch_power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -90424,6 +90470,12 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/a21dffec-d6b7-48cc-900a-af54de116624")
 		(sheetname "/switch/switch_gpios/")
 		(sheetfile "switch_gpios.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -91814,6 +91866,12 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/d7316675-42cb-463e-8ab8-68ea930528d4")
 		(sheetname "/switch/switch_gpios/")
 		(sheetfile "switch_gpios.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -94383,6 +94441,12 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765/da7eb62a-0f4b-4536-8849-ef951e53f295")
 		(sheetname "/switch/switch_gpios/switch_gpio_config/")
 		(sheetfile "switch_gpio_config.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -96203,6 +96267,12 @@
 		(path "/1fc18b85-32be-410a-b3bb-f317da15c601")
 		(sheetname "/")
 		(sheetfile "shish-lan.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -100536,14 +100606,6 @@
 		(uuid "fe2c96bf-836a-4a1d-a49a-23fa92b90a8c")
 	)
 	(segment
-		(start 75.231404 88)
-		(end 72.1 88)
-		(width 0.15)
-		(layer "F.Cu")
-		(net "/switch/switch_gpios/EEE_EN")
-		(uuid "0746d84c-c82c-4d37-b1eb-5a25833995dc")
-	)
-	(segment
 		(start 75.925 88.615025)
 		(end 75.925 87.015025)
 		(width 0.15)
@@ -100560,31 +100622,12 @@
 		(uuid "b9300dc0-4620-4baf-a1ff-eaf1edd24770")
 	)
 	(segment
-		(start 75.925 88.693596)
-		(end 75.231404 88)
-		(width 0.15)
-		(layer "F.Cu")
-		(net "/switch/switch_gpios/EEE_EN")
-		(uuid "c37ff68f-e138-4145-afb8-c0fa77a5b2da")
-	)
-	(segment
 		(start 96.006167 80.914137)
 		(end 95.108006 80.914137)
 		(width 0.15)
 		(layer "F.Cu")
 		(net "/switch/switch_gpios/EEE_EN")
 		(uuid "f794d057-3a4d-4414-90ff-c122674a73c8")
-	)
-	(via
-		(at 72.1 88)
-		(size 0.45)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(remove_unused_layers yes)
-		(keep_end_layers yes)
-		(zone_layer_connections)
-		(net "/switch/switch_gpios/EEE_EN")
-		(uuid "12efa930-ef8d-4268-a88f-8d2295c3427e")
 	)
 	(via
 		(at 75.925001 87.015026)
@@ -100607,17 +100650,6 @@
 		(zone_layer_connections)
 		(net "/switch/switch_gpios/EEE_EN")
 		(uuid "4602f812-3f76-497e-88d2-96bfbf8e9195")
-	)
-	(via
-		(at 56.625 92.4)
-		(size 0.45)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(remove_unused_layers yes)
-		(keep_end_layers yes)
-		(zone_layer_connections)
-		(net "/switch/switch_gpios/EEE_EN")
-		(uuid "ce0722ff-4652-4339-b053-9da71731e878")
 	)
 	(segment
 		(start 94.622143 81.4)
@@ -100660,14 +100692,6 @@
 		(uuid "47df2818-ff21-4b6f-a187-952836fbef1d")
 	)
 	(segment
-		(start 72.1 88)
-		(end 66.3 88)
-		(width 0.15)
-		(layer "B.Cu")
-		(net "/switch/switch_gpios/EEE_EN")
-		(uuid "51766384-f4c5-4f28-8f7d-6c81ea8965a1")
-	)
-	(segment
 		(start 91.460052 82.05)
 		(end 91.365077 82.05)
 		(width 0.15)
@@ -100692,14 +100716,6 @@
 		(uuid "837e3a97-2405-4b40-82c1-f9f42c2221e7")
 	)
 	(segment
-		(start 66.3 88)
-		(end 65.9 88.4)
-		(width 0.15)
-		(layer "B.Cu")
-		(net "/switch/switch_gpios/EEE_EN")
-		(uuid "9ecdd136-0574-4fd5-960c-25282f29fec4")
-	)
-	(segment
 		(start 93.002051 80.822475)
 		(end 92.709158 81.115368)
 		(width 0.15)
@@ -100708,44 +100724,12 @@
 		(uuid "b098a74e-f0af-472b-8ef4-6bf50e8ef67f")
 	)
 	(segment
-		(start 65.9 88.4)
-		(end 65.9 92.5)
-		(width 0.15)
-		(layer "B.Cu")
-		(net "/switch/switch_gpios/EEE_EN")
-		(uuid "b0bc02db-88d2-4a5f-944a-df35517ce9dd")
-	)
-	(segment
 		(start 93.99379 81.4)
 		(end 93.416265 80.822475)
 		(width 0.15)
 		(layer "B.Cu")
 		(net "/switch/switch_gpios/EEE_EN")
 		(uuid "dbbf8496-bda6-4dee-8d53-832e4bd35303")
-	)
-	(segment
-		(start 65.7 92.7)
-		(end 56.925 92.7)
-		(width 0.15)
-		(layer "B.Cu")
-		(net "/switch/switch_gpios/EEE_EN")
-		(uuid "e4741115-74ef-4adf-9683-191e99b8f873")
-	)
-	(segment
-		(start 56.925 92.7)
-		(end 56.625 92.4)
-		(width 0.15)
-		(layer "B.Cu")
-		(net "/switch/switch_gpios/EEE_EN")
-		(uuid "f189cd8b-3081-41b0-9bda-7b9416317adc")
-	)
-	(segment
-		(start 65.9 92.5)
-		(end 65.7 92.7)
-		(width 0.15)
-		(layer "B.Cu")
-		(net "/switch/switch_gpios/EEE_EN")
-		(uuid "f8492d51-fb98-4cd0-ae29-3bd935fbcb81")
 	)
 	(segment
 		(start 76.109975 87.2)
@@ -118090,6 +118074,22 @@
 		(uuid "cccad440-1fa2-4fea-b06a-0bd98cf8323b")
 	)
 	(segment
+		(start 80.25 84.6)
+		(end 74.4 84.6)
+		(width 0.15)
+		(layer "B.Cu")
+		(net "/switch/switch_gpios/E2E_CLOCK_EN")
+		(uuid "2108346d-0a62-4c97-996d-ee8987141b95")
+	)
+	(segment
+		(start 74.4 84.6)
+		(end 73.5 85.5)
+		(width 0.15)
+		(layer "B.Cu")
+		(net "/switch/switch_gpios/E2E_CLOCK_EN")
+		(uuid "25555f73-0c7a-4fa7-9dcc-58542ce87b96")
+	)
+	(segment
 		(start 83.6 85.6)
 		(end 82.6 84.6)
 		(width 0.15)
@@ -118098,12 +118098,28 @@
 		(uuid "36d6ad51-1858-4212-9cd4-a276a441030e")
 	)
 	(segment
+		(start 64.22604 91.25)
+		(end 57.47604 98)
+		(width 0.15)
+		(layer "B.Cu")
+		(net "/switch/switch_gpios/E2E_CLOCK_EN")
+		(uuid "6f07c6df-719a-4bad-a639-71aa3d68672e")
+	)
+	(segment
 		(start 77.9 84.6)
 		(end 75.925 82.625)
 		(width 0.15)
 		(layer "B.Cu")
 		(net "/switch/switch_gpios/E2E_CLOCK_EN")
 		(uuid "79a19841-d459-44a0-bb7e-05100416f988")
+	)
+	(segment
+		(start 73.5 89.124264)
+		(end 71.374264 91.25)
+		(width 0.15)
+		(layer "B.Cu")
+		(net "/switch/switch_gpios/E2E_CLOCK_EN")
+		(uuid "8ba5cb37-7138-4cd5-b4f3-0fc646604309")
 	)
 	(segment
 		(start 93.918347 80.122475)
@@ -118146,8 +118162,16 @@
 		(uuid "c2fca65e-0950-44cc-a488-73dc8bd735af")
 	)
 	(segment
+		(start 57.47604 98)
+		(end 54.75 98)
+		(width 0.15)
+		(layer "B.Cu")
+		(net "/switch/switch_gpios/E2E_CLOCK_EN")
+		(uuid "e5f4c571-c2bd-4f7b-b549-10fb9b8e0844")
+	)
+	(segment
 		(start 82.6 84.6)
-		(end 77.9 84.6)
+		(end 80.25 84.6)
 		(width 0.15)
 		(layer "B.Cu")
 		(net "/switch/switch_gpios/E2E_CLOCK_EN")
@@ -118160,6 +118184,30 @@
 		(layer "B.Cu")
 		(net "/switch/switch_gpios/E2E_CLOCK_EN")
 		(uuid "eba0b5aa-2c17-4af3-ac52-95556fac14ae")
+	)
+	(segment
+		(start 71.374264 91.25)
+		(end 64.22604 91.25)
+		(width 0.15)
+		(layer "B.Cu")
+		(net "/switch/switch_gpios/E2E_CLOCK_EN")
+		(uuid "f21dfe82-30f4-4e1a-8b48-a8da6a129ae0")
+	)
+	(segment
+		(start 73.5 85.5)
+		(end 73.5 89.124264)
+		(width 0.15)
+		(layer "B.Cu")
+		(net "/switch/switch_gpios/E2E_CLOCK_EN")
+		(uuid "fc64683d-8f71-478d-b846-6f929966386d")
+	)
+	(segment
+		(start 80.25 84.6)
+		(end 77.9 84.6)
+		(width 0.15)
+		(layer "B.Cu")
+		(net "/switch/switch_gpios/E2E_CLOCK_EN")
+		(uuid "fc69445a-9e27-488a-ad73-a6e4b1d97fe0")
 	)
 	(segment
 		(start 94.066707 80.270835)
@@ -118616,14 +118664,6 @@
 		(layer "F.Cu")
 		(net "Net-(D6-K)")
 		(uuid "4135a8f3-c2c1-439a-934e-ae759a4c8cf1")
-	)
-	(segment
-		(start 54.66 97.84)
-		(end 54.66 92.715)
-		(width 0.15)
-		(layer "F.Cu")
-		(net "Net-(J13-In)")
-		(uuid "8a961208-dfd6-4a5b-b1bd-d8ff4fd34008")
 	)
 	(segment
 		(start 56.675 55.575)
