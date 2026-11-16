@@ -3671,7 +3671,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 63.5) (xy 223.52 63.5)
+			(xy 196.85 63.5) (xy 223.52 63.5)
 		)
 		(stroke
 			(width 0)
@@ -3741,7 +3741,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 104.14) (xy 223.52 104.14)
+			(xy 196.85 104.14) (xy 223.52 104.14)
 		)
 		(stroke
 			(width 0)
@@ -4087,7 +4087,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 200.66 63.5 90)
+		(at 196.85 63.5 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4098,7 +4098,7 @@
 		(fields_autoplaced yes)
 		(uuid "0cc35225-c293-43ba-9fce-6320c7b8e256")
 		(property "Reference" "#PWR098"
-			(at 204.47 63.5 0)
+			(at 196.85 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4109,7 +4109,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 196.85 63.4999 90)
+			(at 199.39 62.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4120,7 +4120,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 200.66 63.5 0)
+			(at 196.85 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4131,7 +4131,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 63.5 0)
+			(at 196.85 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4142,7 +4142,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 200.66 63.5 0)
+			(at 196.85 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4604,7 +4604,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 199.39 104.14 90)
+		(at 196.85 104.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4615,7 +4615,7 @@
 		(fields_autoplaced yes)
 		(uuid "67e87390-3d49-40c4-928b-f90a0d089f27")
 		(property "Reference" "#PWR095"
-			(at 203.2 104.14 0)
+			(at 196.85 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4626,7 +4626,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 195.58 104.1399 90)
+			(at 199.39 102.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4637,7 +4637,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 199.39 104.14 0)
+			(at 196.85 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4648,7 +4648,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 199.39 104.14 0)
+			(at 196.85 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4659,7 +4659,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 199.39 104.14 0)
+			(at 196.85 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
