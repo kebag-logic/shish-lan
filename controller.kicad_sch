@@ -9745,7 +9745,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0603FR-1022RL"
+		(property "MPN" "0603WAF220JT5E"
 			(at 139.7 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -9778,7 +9778,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4168692"
+		(property "LCSC" "C23345"
 			(at 139.7 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -10906,7 +10906,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4168692"
+		(property "LCSC" "C23345"
 			(at 139.7 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -10939,7 +10939,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0603FR-1022RL"
+		(property "MPN" "0603WAF220JT5E"
 			(at 139.7 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -12498,7 +12498,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2778666"
+		(property "LCSC" "C6538168"
 			(at 166.37 16.51 0)
 			(hide yes)
 			(show_name no)
@@ -12731,7 +12731,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4168692"
+		(property "LCSC" "C23345"
 			(at 147.32 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -12764,7 +12764,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0603FR-1022RL"
+		(property "MPN" "0603WAF220JT5E"
 			(at 147.32 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -13439,7 +13439,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C125093"
+		(property "LCSC" "C125094"
 			(at 79.756 152.654 0)
 			(hide yes)
 			(show_name no)
@@ -13483,7 +13483,7 @@
 				)
 			)
 		)
-		(property "MPN" "LTST-C190GKT"
+		(property "MPN" "LTST-C190KGKT"
 			(at 58.42 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -14572,7 +14572,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 48.26 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -14605,7 +14605,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 48.26 46.99 0)
 			(hide yes)
 			(show_name no)

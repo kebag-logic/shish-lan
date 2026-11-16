@@ -254,7 +254,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -293,7 +293,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -323,12 +323,6 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/42c65065-b6e5-43b0-ae2c-34333f058269/54b63754-56e4-4216-9fa6-1f8fc1c95104")
 		(sheetname "/switch/switch_buck_1v15/")
 		(sheetfile "buck_1v15.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2757,7 +2751,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2796,7 +2790,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2826,12 +2820,6 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765/ac0777f7-df1d-4701-82d0-d7f7e72a517c")
 		(sheetname "/switch/switch_gpios/switch_gpio_config/")
 		(sheetfile "switch_gpio_config.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3370,7 +3358,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C308212"
+		(property "LCSC" "C4184"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3409,7 +3397,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0603FR-1320KL"
+		(property "MPN" "0603WAF2002T5E"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3439,12 +3427,6 @@
 		(path "/b46af5b7-dd4e-4356-ae8f-8ea1d81113b6/ac5689a2-4f85-4405-b94c-90e9c3ac1041")
 		(sheetname "/BUCK_3V3/")
 		(sheetfile "buck_3v3.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4609,7 +4591,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4648,7 +4630,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4678,12 +4660,6 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765/d05c14fa-6634-4dc8-b279-185a8f4990ac")
 		(sheetname "/switch/switch_gpios/switch_gpio_config/")
 		(sheetfile "switch_gpio_config.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7746,7 +7722,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7785,7 +7761,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7815,12 +7791,6 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765/2e2613b0-b796-4353-8b86-46b9d014ca62")
 		(sheetname "/switch/switch_gpios/switch_gpio_config/")
 		(sheetfile "switch_gpio_config.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8888,7 +8858,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8927,7 +8897,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8957,12 +8927,6 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765/8082c187-ff0b-46d1-b3cd-8cd9cf1c2c53")
 		(sheetname "/switch/switch_gpios/switch_gpio_config/")
 		(sheetfile "switch_gpio_config.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9484,7 +9448,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4168692"
+		(property "LCSC" "C23345"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9523,7 +9487,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0603FR-1022RL"
+		(property "MPN" "0603WAF220JT5E"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9553,12 +9517,6 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/69a5d702-c665-4a72-a741-e338a5557eac")
 		(sheetname "/switch/switch_gpios/")
 		(sheetfile "switch_gpios.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10964,7 +10922,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11003,7 +10961,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11033,12 +10991,6 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765/c768cac3-ea3d-4aeb-a462-9b27e726f4d4")
 		(sheetname "/switch/switch_gpios/switch_gpio_config/")
 		(sheetfile "switch_gpio_config.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11264,7 +11216,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11303,7 +11255,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11333,12 +11285,6 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765/29147fa3-dab1-40a8-9d62-d94aabd29578")
 		(sheetname "/switch/switch_gpios/switch_gpio_config/")
 		(sheetfile "switch_gpio_config.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11564,7 +11510,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11603,7 +11549,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11633,12 +11579,6 @@
 		(path "/06488c82-a47f-4277-b0ee-3bd211d8922a/54dd0313-e11b-4c5a-bb43-942dea0cd180/5f99275c-78e1-474a-a911-ecc0af0121ff")
 		(sheetname "/controller/JTAG_Header_ARM/")
 		(sheetfile "jtag_header_arm.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11864,7 +11804,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11903,7 +11843,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11933,12 +11873,6 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765/00f31315-1f58-49ee-a70f-c8afc53a8be9")
 		(sheetname "/switch/switch_gpios/switch_gpio_config/")
 		(sheetfile "switch_gpio_config.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15871,7 +15805,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15910,7 +15844,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15940,12 +15874,6 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765/616c9fba-206b-44d5-a97e-a63a7a1b7381")
 		(sheetname "/switch/switch_gpios/switch_gpio_config/")
 		(sheetfile "switch_gpio_config.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -16712,7 +16640,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16751,7 +16679,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16781,12 +16709,6 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765/db417e44-4fac-47ac-9248-0f4739d24222")
 		(sheetname "/switch/switch_gpios/switch_gpio_config/")
 		(sheetfile "switch_gpio_config.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -17663,7 +17585,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2778666"
+		(property "LCSC" "C6538168"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17732,12 +17654,6 @@
 		(path "/b46af5b7-dd4e-4356-ae8f-8ea1d81113b6/c547d368-7530-409e-a650-9d9cc1bc19b2")
 		(sheetname "/BUCK_3V3/")
 		(sheetfile "buck_3v3.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -20525,7 +20441,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20564,7 +20480,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20594,12 +20510,6 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765/fb400d69-ae4c-454e-9251-f0dba80b6d12")
 		(sheetname "/switch/switch_gpios/switch_gpio_config/")
 		(sheetfile "switch_gpio_config.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -21751,7 +21661,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21790,7 +21700,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21820,12 +21730,6 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765/b5ccdfa5-07b9-4012-a8b6-f8d17e6008fd")
 		(sheetname "/switch/switch_gpios/switch_gpio_config/")
 		(sheetfile "switch_gpio_config.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -22051,7 +21955,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22090,7 +21994,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22120,12 +22024,6 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/d7edf10b-e7e7-437a-ab6c-966f29ad8f7f/3839127b-e638-445b-ad53-109e94305bef")
 		(sheetname "/switch/switch_power/")
 		(sheetfile "switch_power.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -23877,7 +23775,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4168692"
+		(property "LCSC" "C23345"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23916,7 +23814,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0603FR-1022RL"
+		(property "MPN" "0603WAF220JT5E"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23946,12 +23844,6 @@
 		(path "/06488c82-a47f-4277-b0ee-3bd211d8922a/b3aa7f90-9297-4785-aed6-c8608e3a0947")
 		(sheetname "/controller/")
 		(sheetfile "controller.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -24973,7 +24865,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25012,7 +24904,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25042,12 +24934,6 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765/358a11a6-0ff7-4633-8c30-7657140b849f")
 		(sheetname "/switch/switch_gpios/switch_gpio_config/")
 		(sheetfile "switch_gpio_config.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -27634,7 +27520,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C125093"
+		(property "LCSC" "C125094"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27686,7 +27572,7 @@
 				)
 			)
 		)
-		(property "MPN" "LTST-C190GKT"
+		(property "MPN" "LTST-C190KGKT"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27703,12 +27589,6 @@
 		(path "/06488c82-a47f-4277-b0ee-3bd211d8922a/c084d012-a7de-45ef-9506-607833686122")
 		(sheetname "/controller/")
 		(sheetfile "controller.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -28268,7 +28148,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28307,7 +28187,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28337,12 +28217,6 @@
 		(path "/441e1a33-86fb-4c7c-ab16-967bce7ba5a0")
 		(sheetname "/")
 		(sheetfile "shish-lan.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -28568,7 +28442,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28607,7 +28481,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28637,12 +28511,6 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765/10b2c52f-0d47-4361-9f1d-1d5799933010")
 		(sheetname "/switch/switch_gpios/switch_gpio_config/")
 		(sheetfile "switch_gpio_config.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -31617,7 +31485,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -31656,7 +31524,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -31686,12 +31554,6 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765/74612803-b37f-47b7-a536-f24fff61b383")
 		(sheetname "/switch/switch_gpios/switch_gpio_config/")
 		(sheetfile "switch_gpio_config.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -31917,7 +31779,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -31956,7 +31818,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -31986,12 +31848,6 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765/9eb15af1-6225-4518-8197-b1781ab7c62a")
 		(sheetname "/switch/switch_gpios/switch_gpio_config/")
 		(sheetfile "switch_gpio_config.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -32217,7 +32073,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32256,7 +32112,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32286,12 +32142,6 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765/6b95d966-c370-4513-9a6f-0f2ee7e69e3c")
 		(sheetname "/switch/switch_gpios/switch_gpio_config/")
 		(sheetfile "switch_gpio_config.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -33143,7 +32993,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -33182,7 +33032,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -33212,12 +33062,6 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/012287b6-c486-445f-bb89-28bfab0d2f2f")
 		(sheetname "/switch/switch_gpios/")
 		(sheetfile "switch_gpios.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -33756,7 +33600,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -33795,7 +33639,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -33825,12 +33669,6 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765/155f8e40-69dc-4fdc-b20a-866d7455fe32")
 		(sheetname "/switch/switch_gpios/switch_gpio_config/")
 		(sheetfile "switch_gpio_config.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -35863,7 +35701,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -35902,7 +35740,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -35932,12 +35770,6 @@
 		(path "/06488c82-a47f-4277-b0ee-3bd211d8922a/df97bb8a-d133-4087-a765-3ffc99bcb185")
 		(sheetname "/controller/")
 		(sheetfile "controller.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -36151,7 +35983,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -36190,7 +36022,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -36220,12 +36052,6 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765/efb9ee71-67be-4b11-aee8-3a0548fe324d")
 		(sheetname "/switch/switch_gpios/switch_gpio_config/")
 		(sheetfile "switch_gpio_config.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -36451,7 +36277,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2778666"
+		(property "LCSC" "C6538168"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -36520,12 +36346,6 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/d7edf10b-e7e7-437a-ab6c-966f29ad8f7f/3d247c2c-c22d-4504-b559-91d4cf8b2abe")
 		(sheetname "/switch/switch_power/")
 		(sheetfile "switch_power.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -41017,7 +40837,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/SRP7050WA.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C76854.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -41069,7 +40889,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C19947700"
+		(property "LCSC" "C76854"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -41082,7 +40902,7 @@
 				)
 			)
 		)
-		(property "I_max_in_A" "19"
+		(property "I_max_in_A" "11"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -41108,7 +40928,7 @@
 				)
 			)
 		)
-		(property "Package_LxW_in_mm" "7.9x7.3"
+		(property "Package_LxW_in_mm" "7.1x6.5"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -41121,7 +40941,7 @@
 				)
 			)
 		)
-		(property "MPN" "SRP7050WA-1R5M"
+		(property "MPN" "SPM6530T-1R5M100"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -41137,12 +40957,6 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/42c65065-b6e5-43b0-ae2c-34333f058269/ecb364c5-7073-41b6-8aab-a566134cd673")
 		(sheetname "/switch/switch_buck_1v15/")
 		(sheetfile "buck_1v15.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -42642,7 +42456,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -42681,7 +42495,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -42711,12 +42525,6 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765/dc6b37b7-1b70-4cf6-a616-fa6dcd38f6f6")
 		(sheetname "/switch/switch_gpios/switch_gpio_config/")
 		(sheetfile "switch_gpio_config.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -43255,7 +43063,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -43294,7 +43102,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -43324,12 +43132,6 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765/15a307fe-a645-4a54-a95e-1169ddf4f37a")
 		(sheetname "/switch/switch_gpios/switch_gpio_config/")
 		(sheetfile "switch_gpio_config.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -44760,7 +44562,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -44799,7 +44601,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -44829,12 +44631,6 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765/b92c1d1f-a7e1-4054-99fa-63fc48d3efbf")
 		(sheetname "/switch/switch_gpios/switch_gpio_config/")
 		(sheetfile "switch_gpio_config.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -45060,7 +44856,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -45099,7 +44895,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -45129,12 +44925,6 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765/b5ac485d-faa0-4e25-a09c-7146fd31329c")
 		(sheetname "/switch/switch_gpios/switch_gpio_config/")
 		(sheetfile "switch_gpio_config.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -45360,7 +45150,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -45399,7 +45189,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -45429,12 +45219,6 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765/c4c96dc2-1374-4ef0-9eaa-88da3670978e")
 		(sheetname "/switch/switch_gpios/switch_gpio_config/")
 		(sheetfile "switch_gpio_config.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -45973,7 +45757,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -46012,7 +45796,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -46042,12 +45826,6 @@
 		(path "/06488c82-a47f-4277-b0ee-3bd211d8922a/54dd0313-e11b-4c5a-bb43-942dea0cd180/e1d27558-6e0e-4828-8a4a-18aaf61d3d57")
 		(sheetname "/controller/JTAG_Header_ARM/")
 		(sheetfile "jtag_header_arm.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -47942,7 +47720,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -47981,7 +47759,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -48011,12 +47789,6 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765/a7e829e8-24a2-41f7-9281-08f895498ee6")
 		(sheetname "/switch/switch_gpios/switch_gpio_config/")
 		(sheetfile "switch_gpio_config.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -48242,7 +48014,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -48281,7 +48053,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -48311,12 +48083,6 @@
 		(path "/06488c82-a47f-4277-b0ee-3bd211d8922a/54dd0313-e11b-4c5a-bb43-942dea0cd180/6918c7ce-ebda-464b-849d-49b39acfa302")
 		(sheetname "/controller/JTAG_Header_ARM/")
 		(sheetfile "jtag_header_arm.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -49242,7 +49008,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2492541"
+		(property "LCSC" "C861082"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -49281,7 +49047,7 @@
 				)
 			)
 		)
-		(property "MPN" "RNCE0603BTE10R0"
+		(property "MPN" "RT0603BRD0710RL"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -49311,12 +49077,6 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/d7edf10b-e7e7-437a-ab6c-966f29ad8f7f/0ec0e28c-372b-46f7-b282-8230bda27283")
 		(sheetname "/switch/switch_power/")
 		(sheetfile "switch_power.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -49841,7 +49601,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0603FR-1022RL"
+		(property "MPN" "0603WAF220JT5E"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -49880,7 +49640,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4168692"
+		(property "LCSC" "C23345"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -49910,12 +49670,6 @@
 		(path "/06488c82-a47f-4277-b0ee-3bd211d8922a/02b6dd1a-9254-4459-981a-68eb4560f7dd")
 		(sheetname "/controller/")
 		(sheetfile "controller.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -56357,7 +56111,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4168692"
+		(property "LCSC" "C23345"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -56396,7 +56150,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0603FR-1022RL"
+		(property "MPN" "0603WAF220JT5E"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -56426,12 +56180,6 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/f109ec13-4d15-44c2-b8c5-716d3c5d2913")
 		(sheetname "/switch/switch_gpios/")
 		(sheetfile "switch_gpios.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -56657,7 +56405,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -56696,7 +56444,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -56726,12 +56474,6 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765/cc824160-e1eb-41f0-9243-43d12d5c1103")
 		(sheetname "/switch/switch_gpios/switch_gpio_config/")
 		(sheetfile "switch_gpio_config.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -58496,7 +58238,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -58535,7 +58277,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -58565,12 +58307,6 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765/872ef9b4-c201-4374-8eb4-d26aecc53cdd")
 		(sheetname "/switch/switch_gpios/switch_gpio_config/")
 		(sheetfile "switch_gpio_config.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -61239,7 +60975,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4168692"
+		(property "LCSC" "C23345"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -61278,7 +61014,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0603FR-1022RL"
+		(property "MPN" "0603WAF220JT5E"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -61308,12 +61044,6 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/66c0272f-26cc-40bb-9b4b-24d79dec1653")
 		(sheetname "/switch/switch_gpios/")
 		(sheetfile "switch_gpios.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -61539,7 +61269,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -61578,7 +61308,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -61608,12 +61338,6 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/c6e71b93-7134-487d-a04c-584c6081214b/a35ae40e-3ae9-4dc7-8e8f-fe41a4f270df")
 		(sheetname "/switch/switch_buck_2v5/")
 		(sheetfile "buck_2v5.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -61839,7 +61563,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -61878,7 +61602,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -61908,12 +61632,6 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765/702259fc-cb8e-4732-a65b-787cbce64983")
 		(sheetname "/switch/switch_gpios/switch_gpio_config/")
 		(sheetfile "switch_gpio_config.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -62452,7 +62170,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -62491,7 +62209,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -62521,12 +62239,6 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765/e2b56832-69db-4d0a-acf4-b5bfc16a2477")
 		(sheetname "/switch/switch_gpios/switch_gpio_config/")
 		(sheetfile "switch_gpio_config.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -63907,7 +63619,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -63946,7 +63658,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -63976,12 +63688,6 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765/a7cad408-e638-4522-ba11-6b40cf98ff9e")
 		(sheetname "/switch/switch_gpios/switch_gpio_config/")
 		(sheetfile "switch_gpio_config.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -65567,7 +65273,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4168692"
+		(property "LCSC" "C23345"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -65606,7 +65312,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0603FR-1022RL"
+		(property "MPN" "0603WAF220JT5E"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -65636,12 +65342,6 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/1d08c826-ae2b-407d-ae54-f3af759cece5")
 		(sheetname "/switch/switch_gpios/")
 		(sheetfile "switch_gpios.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -66109,7 +65809,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -66148,7 +65848,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -66178,12 +65878,6 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765/12271c40-1b44-416a-844a-482e5c78f194")
 		(sheetname "/switch/switch_gpios/switch_gpio_config/")
 		(sheetfile "switch_gpio_config.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -66709,7 +66403,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -66748,7 +66442,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -66778,12 +66472,6 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765/d90af001-6905-4dd8-92b8-105cf9f5a238")
 		(sheetname "/switch/switch_gpios/switch_gpio_config/")
 		(sheetfile "switch_gpio_config.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -67563,7 +67251,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -67602,7 +67290,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -67632,12 +67320,6 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765/27a4bfbc-0236-499d-b114-3edb314b88c0")
 		(sheetname "/switch/switch_gpios/switch_gpio_config/")
 		(sheetfile "switch_gpio_config.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -68176,7 +67858,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -68215,7 +67897,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -68245,12 +67927,6 @@
 		(path "/06488c82-a47f-4277-b0ee-3bd211d8922a/54dd0313-e11b-4c5a-bb43-942dea0cd180/8bb7c5bc-4c8d-463e-a63d-a1d6b8a3273f")
 		(sheetname "/controller/JTAG_Header_ARM/")
 		(sheetfile "jtag_header_arm.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -70138,7 +69814,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -70177,7 +69853,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -70207,12 +69883,6 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/42c65065-b6e5-43b0-ae2c-34333f058269/7c95469f-1477-41af-8e72-57a4dbd40cbf")
 		(sheetname "/switch/switch_buck_1v15/")
 		(sheetfile "buck_1v15.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -70438,7 +70108,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4168692"
+		(property "LCSC" "C23345"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -70477,7 +70147,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0603FR-1022RL"
+		(property "MPN" "0603WAF220JT5E"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -70507,12 +70177,6 @@
 		(path "/06488c82-a47f-4277-b0ee-3bd211d8922a/4d293927-84b9-4f4c-bc64-ec8e320477c6")
 		(sheetname "/controller/")
 		(sheetfile "controller.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -71051,7 +70715,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2778666"
+		(property "LCSC" "C6538168"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -71120,12 +70784,6 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/d7edf10b-e7e7-437a-ab6c-966f29ad8f7f/82218bf7-1053-4a5e-b82b-5ae761bda7c2")
 		(sheetname "/switch/switch_power/")
 		(sheetfile "switch_power.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -71300,7 +70958,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-exla1v06-automotive-high-current-molded-inductor-data-sheet-elx1221-en.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5378529.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -71352,7 +71010,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C7189866"
+		(property "LCSC" "C5378529"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -71391,7 +71049,7 @@
 				)
 			)
 		)
-		(property "Package_LxW_in_mm" "7.2x6.9"
+		(property "Package_LxW_in_mm" "6.6x6.4"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -71404,7 +71062,7 @@
 				)
 			)
 		)
-		(property "MPN" "EXLA1V0603-3R3-R"
+		(property "MPN" "FEXL0630A-3R3M"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -71420,12 +71078,6 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/c6e71b93-7134-487d-a04c-584c6081214b/9998ca94-f7f9-48dd-92e9-6bba70d6cba6")
 		(sheetname "/switch/switch_buck_2v5/")
 		(sheetfile "buck_2v5.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -72562,7 +72214,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -72601,7 +72253,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -72631,12 +72283,6 @@
 		(path "/06488c82-a47f-4277-b0ee-3bd211d8922a/54dd0313-e11b-4c5a-bb43-942dea0cd180/6668e5df-9050-4b83-9e8c-0fd95bac923d")
 		(sheetname "/controller/JTAG_Header_ARM/")
 		(sheetfile "jtag_header_arm.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -73488,7 +73134,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -73527,7 +73173,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -73557,12 +73203,6 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765/e51537ff-52d4-4f5a-b19f-fa0e613f4eee")
 		(sheetname "/switch/switch_gpios/switch_gpio_config/")
 		(sheetfile "switch_gpio_config.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -75014,7 +74654,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -75053,7 +74693,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -75083,12 +74723,6 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765/6c157be1-2276-42a1-8b95-12c74dd587f6")
 		(sheetname "/switch/switch_gpios/switch_gpio_config/")
 		(sheetfile "switch_gpio_config.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -77607,7 +77241,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -77646,7 +77280,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -77676,12 +77310,6 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765/72c4664a-8f13-4eac-a8a5-32b14ba281eb")
 		(sheetname "/switch/switch_gpios/switch_gpio_config/")
 		(sheetfile "switch_gpio_config.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -78833,7 +78461,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -78872,7 +78500,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -78902,12 +78530,6 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765/f1a9f53e-c5af-45ac-b23e-6e03ad98d075")
 		(sheetname "/switch/switch_gpios/switch_gpio_config/")
 		(sheetfile "switch_gpio_config.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -79133,7 +78755,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -79172,7 +78794,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -79202,12 +78824,6 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765/821a4494-c77f-457a-95d2-4f965fd0c9e7")
 		(sheetname "/switch/switch_gpios/switch_gpio_config/")
 		(sheetfile "switch_gpio_config.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -79733,7 +79349,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -79772,7 +79388,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -79802,12 +79418,6 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765/8822c4df-bd40-4992-88c5-e2032625dd4c")
 		(sheetname "/switch/switch_gpios/switch_gpio_config/")
 		(sheetfile "switch_gpio_config.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -80346,7 +79956,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -80385,7 +79995,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -80415,12 +80025,6 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765/0b4e0777-b9f3-48f7-9d09-b2e4ff239034")
 		(sheetname "/switch/switch_gpios/switch_gpio_config/")
 		(sheetfile "switch_gpio_config.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -81898,7 +81502,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4168692"
+		(property "LCSC" "C23345"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -81937,7 +81541,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0603FR-1022RL"
+		(property "MPN" "0603WAF220JT5E"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -81967,12 +81571,6 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/c4e92a22-375f-428a-b187-70a4d786a6f2")
 		(sheetname "/switch/switch_gpios/")
 		(sheetfile "switch_gpios.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -83281,7 +82879,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2778666"
+		(property "LCSC" "C6538168"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -83350,12 +82948,6 @@
 		(path "/06488c82-a47f-4277-b0ee-3bd211d8922a/a3924d81-0675-4d12-b0ee-62513a48b656")
 		(sheetname "/controller/")
 		(sheetfile "controller.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -83581,7 +83173,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -83620,7 +83212,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -83650,12 +83242,6 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765/8a57bd4c-1280-45d7-be74-7a749f52962c")
 		(sheetname "/switch/switch_gpios/switch_gpio_config/")
 		(sheetfile "switch_gpio_config.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -84697,7 +84283,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -84736,7 +84322,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -84766,12 +84352,6 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765/a430f6ad-42d2-431e-8c86-e2f078b04805")
 		(sheetname "/switch/switch_gpios/switch_gpio_config/")
 		(sheetfile "switch_gpio_config.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -86520,7 +86100,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -86559,7 +86139,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -86589,12 +86169,6 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765/79b27104-7ea3-4903-b127-0cf3d154b16e")
 		(sheetname "/switch/switch_gpios/switch_gpio_config/")
 		(sheetfile "switch_gpio_config.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -87120,7 +86694,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -87159,7 +86733,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -87189,12 +86763,6 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765/ec7bf3e8-d7d3-447f-998e-b6cbed51f3f2")
 		(sheetname "/switch/switch_gpios/switch_gpio_config/")
 		(sheetfile "switch_gpio_config.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -87742,7 +87310,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-exla1v06-automotive-high-current-molded-inductor-data-sheet-elx1221-en.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5378529.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -87794,7 +87362,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C7189866"
+		(property "LCSC" "C5378529"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -87833,7 +87401,7 @@
 				)
 			)
 		)
-		(property "Package_LxW_in_mm" "7.2x6.9"
+		(property "Package_LxW_in_mm" "6.6x6.4"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -87846,7 +87414,7 @@
 				)
 			)
 		)
-		(property "MPN" "EXLA1V0603-3R3-R"
+		(property "MPN" "FEXL0630A-3R3M"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -87862,12 +87430,6 @@
 		(path "/b46af5b7-dd4e-4356-ae8f-8ea1d81113b6/885e5bb3-5ea4-48fc-ab0b-2b644f3b3c2f")
 		(sheetname "/BUCK_3V3/")
 		(sheetfile "buck_3v3.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -90499,7 +90061,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2778666"
+		(property "LCSC" "C6538168"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -90568,12 +90130,6 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/d7edf10b-e7e7-437a-ab6c-966f29ad8f7f/83a67588-3315-4430-97f7-69e07d08321c")
 		(sheetname "/switch/switch_power/")
 		(sheetfile "switch_power.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -90799,7 +90355,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4168692"
+		(property "LCSC" "C23345"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -90838,7 +90394,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0603FR-1022RL"
+		(property "MPN" "0603WAF220JT5E"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -90868,12 +90424,6 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/a21dffec-d6b7-48cc-900a-af54de116624")
 		(sheetname "/switch/switch_gpios/")
 		(sheetfile "switch_gpios.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -92195,7 +91745,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -92234,7 +91784,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -92264,12 +91814,6 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/d7316675-42cb-463e-8ab8-68ea930528d4")
 		(sheetname "/switch/switch_gpios/")
 		(sheetfile "switch_gpios.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -94770,7 +94314,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -94809,7 +94353,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -94839,12 +94383,6 @@
 		(path "/0b7d9af9-83c1-43fa-a7a0-a33d0a00ea9c/7f5fd65f-f670-4db7-8f09-63d4fb2faa09/e503b9a1-dc40-4261-99ac-d1a8c04f6765/da7eb62a-0f4b-4536-8849-ef951e53f295")
 		(sheetname "/switch/switch_gpios/switch_gpio_config/")
 		(sheetfile "switch_gpio_config.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -96596,7 +96134,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -96635,7 +96173,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -96665,12 +96203,6 @@
 		(path "/1fc18b85-32be-410a-b3bb-f317da15c601")
 		(sheetname "/")
 		(sheetfile "shish-lan.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line

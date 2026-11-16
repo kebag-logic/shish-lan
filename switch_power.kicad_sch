@@ -7238,7 +7238,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2492541"
+		(property "LCSC" "C861082"
 			(at 140.97 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -7271,7 +7271,7 @@
 				)
 			)
 		)
-		(property "MPN" "RNCE0603BTE10R0"
+		(property "MPN" "RT0603BRD0710RL"
 			(at 140.97 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -7688,7 +7688,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 246.38 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -7721,7 +7721,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 246.38 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -8594,7 +8594,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2778666"
+		(property "LCSC" "C6538168"
 			(at 35.56 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -9601,7 +9601,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2778666"
+		(property "LCSC" "C6538168"
 			(at 41.91 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -9757,7 +9757,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2778666"
+		(property "LCSC" "C6538168"
 			(at 50.8 30.48 0)
 			(hide yes)
 			(show_name no)

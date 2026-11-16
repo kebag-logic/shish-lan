@@ -6438,7 +6438,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-exla1v06-automotive-high-current-molded-inductor-data-sheet-elx1221-en.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5378529.pdf"
 			(at 158.75 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -6482,7 +6482,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C7189866"
+		(property "LCSC" "C5378529"
 			(at 158.75 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -6515,7 +6515,7 @@
 				)
 			)
 		)
-		(property "Package_LxW_in_mm" "7.2x6.9"
+		(property "Package_LxW_in_mm" "6.6x6.4"
 			(at 158.75 66.802 0)
 			(hide yes)
 			(show_name no)
@@ -6526,7 +6526,7 @@
 				)
 			)
 		)
-		(property "MPN" "EXLA1V0603-3R3-R"
+		(property "MPN" "FEXL0630A-3R3M"
 			(at 158.75 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -7149,7 +7149,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C308212"
+		(property "LCSC" "C4184"
 			(at 96.52 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -7182,7 +7182,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0603FR-1320KL"
+		(property "MPN" "0603WAF2002T5E"
 			(at 96.52 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -7791,7 +7791,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2778666"
+		(property "LCSC" "C6538168"
 			(at 39.37 74.93 0)
 			(hide yes)
 			(show_name no)
