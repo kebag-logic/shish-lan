@@ -12,222 +12,223 @@
 		(comment 1 "Confidential")
 	)
 	(lib_symbols
-		(symbol "KL_R:R_10K_0.1W_5pct_0603"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "10K"
-				(at 0 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "KL_Footprints:R_0603"
-				(at -1.778 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Power_in_W" "0.1"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Tolerance_in_pct" "5"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "CRCW060310K0JNEC"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Mouser" "71-CRCW060310K0JNEC"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Digikey" "541-CRCW060310K0JNECCT-ND"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC" "C4195694"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Package_in_inch" "0603"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "R_10K_0.1W_5pct_0603_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_10K_0.1W_5pct_0603_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
+		(symbol
+		  "KL_R:R_10K_0.1W_5pct_0603"
+		  (property "Reference" "R"
+		    (at 2.032 0 90)
+		    (show_name no)
+		    (do_not_autoplace no)
+		    (effects
+		      (font
+		        (size 1.27 1.27)
+		      )
+		    )
+		  )
+		  (property "Value" "10K"
+		    (at 0 0 90)
+		    (show_name no)
+		    (do_not_autoplace no)
+		    (effects
+		      (font
+		        (size 1.27 1.27)
+		      )
+		    )
+		  )
+		  (property "Footprint" "KL_Footprints:R_0603"
+		    (at -1.778 0 90)
+		    (show_name no)
+		    (do_not_autoplace no)
+		    (hide yes)
+		    (effects
+		      (font
+		        (size 1.27 1.27)
+		      )
+		    )
+		  )
+		  (property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+		    (at 0 0 0)
+		    (show_name no)
+		    (do_not_autoplace no)
+		    (hide yes)
+		    (effects
+		      (font
+		        (size 1.27 1.27)
+		      )
+		    )
+		  )
+		  (property "Description" "Resistor"
+		    (at 0 0 0)
+		    (show_name no)
+		    (do_not_autoplace no)
+		    (hide yes)
+		    (effects
+		      (font
+		        (size 1.27 1.27)
+		      )
+		    )
+		  )
+		  (property "Power_in_W" "0.1"
+		    (at 0 0 0)
+		    (show_name no)
+		    (do_not_autoplace no)
+		    (hide yes)
+		    (effects
+		      (font
+		        (size 1.27 1.27)
+		      )
+		    )
+		  )
+		  (property "Tolerance_in_pct" "5"
+		    (at 0 0 0)
+		    (show_name no)
+		    (do_not_autoplace no)
+		    (hide yes)
+		    (effects
+		      (font
+		        (size 1.27 1.27)
+		      )
+		    )
+		  )
+		  (property "MPN" "0603WAF1002T5E"
+		    (at 0 0 0)
+		    (show_name no)
+		    (do_not_autoplace no)
+		    (hide yes)
+		    (effects
+		      (font
+		        (size 1.27 1.27)
+		      )
+		    )
+		  )
+		  (property "Mouser" "71-CRCW060310K0JNEC"
+		    (at 0 0 0)
+		    (show_name no)
+		    (do_not_autoplace no)
+		    (hide yes)
+		    (effects
+		      (font
+		        (size 1.27 1.27)
+		      )
+		    )
+		  )
+		  (property "Digikey" "541-CRCW060310K0JNECCT-ND"
+		    (at 0 0 0)
+		    (show_name no)
+		    (do_not_autoplace no)
+		    (hide yes)
+		    (effects
+		      (font
+		        (size 1.27 1.27)
+		      )
+		    )
+		  )
+		  (property "LCSC" "C25804"
+		    (at 0 0 0)
+		    (show_name no)
+		    (do_not_autoplace no)
+		    (hide yes)
+		    (effects
+		      (font
+		        (size 1.27 1.27)
+		      )
+		    )
+		  )
+		  (property "Package_in_inch" "0603"
+		    (at 0 0 0)
+		    (show_name no)
+		    (do_not_autoplace no)
+		    (hide yes)
+		    (effects
+		      (font
+		        (size 1.27 1.27)
+		      )
+		    )
+		  )
+		  (property "ki_keywords" "R res resistor"
+		    (at 0 0 0)
+		    (show_name no)
+		    (do_not_autoplace no)
+		    (hide yes)
+		    (effects
+		      (font
+		        (size 1.27 1.27)
+		      )
+		    )
+		  )
+		  (property "ki_fp_filters" "R_*"
+		    (at 0 0 0)
+		    (show_name no)
+		    (do_not_autoplace no)
+		    (hide yes)
+		    (effects
+		      (font
+		        (size 1.27 1.27)
+		      )
+		    )
+		  )
+		  (embedded_fonts no)
+		  (pin_numbers
+		    (hide yes)
+		  )
+		  (pin_names
+		    (offset 0)
+		  )
+		  (exclude_from_sim no)
+		  (in_bom yes)
+		  (on_board yes)
+		  (in_pos_files yes)
+		  (duplicate_pin_numbers_are_jumpers no)
+		  (symbol "R_10K_0.1W_5pct_0603_0_1"
+		    (rectangle
+		      (start -1.016 -2.54)
+		      (end 1.016 2.54)
+		      (stroke
+		        (width 0.254)
+		        (type default)
+		      )
+		      (fill
+		        (type none)
+		      )
+		    )
+		  )
+		  (symbol "R_10K_0.1W_5pct_0603_1_1"
+		    (pin passive line
+		      (at 0 3.81 270)
+		      (length 1.27)
+		      (name ""
+		        (effects
+		          (font
+		            (size 1.27 1.27)
+		          )
+		        )
+		      )
+		      (number "1"
+		        (effects
+		          (font
+		            (size 1.27 1.27)
+		          )
+		        )
+		      )
+		    )
+		    (pin passive line
+		      (at 0 -3.81 90)
+		      (length 1.27)
+		      (name ""
+		        (effects
+		          (font
+		            (size 1.27 1.27)
+		          )
+		        )
+		      )
+		      (number "2"
+		        (effects
+		          (font
+		            (size 1.27 1.27)
+		          )
+		        )
+		      )
+		    )
+		  )
 		)
 		(symbol "power:GND"
 			(power global)
@@ -2738,7 +2739,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 187.96 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -2771,7 +2772,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 187.96 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -3053,7 +3054,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 53.34 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -3086,7 +3087,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 53.34 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -3212,7 +3213,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 152.4 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -3245,7 +3246,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 152.4 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -3371,7 +3372,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 210.82 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -3404,7 +3405,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 210.82 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -3530,7 +3531,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 187.96 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -3563,7 +3564,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 187.96 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -3689,7 +3690,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 187.96 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -3722,7 +3723,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 187.96 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -3926,7 +3927,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 29.21 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -3959,7 +3960,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 29.21 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -4163,7 +4164,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 53.34 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -4196,7 +4197,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 53.34 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -4322,7 +4323,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 210.82 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -4355,7 +4356,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 210.82 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -4481,7 +4482,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 187.96 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -4514,7 +4515,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 187.96 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -4718,7 +4719,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 25.4 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -4751,7 +4752,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 25.4 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -5033,7 +5034,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 186.69 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -5066,7 +5067,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 186.69 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -5192,7 +5193,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 97.79 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -5225,7 +5226,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 97.79 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -5351,7 +5352,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 207.01 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -5384,7 +5385,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 207.01 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -5510,7 +5511,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 152.4 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -5543,7 +5544,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 152.4 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -5669,7 +5670,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 72.39 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -5702,7 +5703,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 72.39 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -5906,7 +5907,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 99.06 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -5939,7 +5940,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 99.06 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -6065,7 +6066,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 49.53 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -6098,7 +6099,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 49.53 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -6224,7 +6225,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 72.39 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -6257,7 +6258,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 72.39 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -6461,7 +6462,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 152.4 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -6494,7 +6495,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 152.4 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -6620,7 +6621,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 99.06 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -6653,7 +6654,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 99.06 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -6779,7 +6780,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 49.53 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -6812,7 +6813,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 49.53 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -7016,7 +7017,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 29.21 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -7049,7 +7050,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 29.21 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -7253,7 +7254,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 99.06 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -7286,7 +7287,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 99.06 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -7568,7 +7569,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 99.06 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -7601,7 +7602,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 99.06 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -7727,7 +7728,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 26.67 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -7760,7 +7761,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 26.67 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -7964,7 +7965,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 97.79 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -7997,7 +7998,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 97.79 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -8201,7 +8202,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 30.48 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -8234,7 +8235,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 30.48 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -8360,7 +8361,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 207.01 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -8393,7 +8394,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 207.01 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -8519,7 +8520,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 152.4 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -8552,7 +8553,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 152.4 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -8678,7 +8679,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 104.14 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -8711,7 +8712,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 104.14 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -8837,7 +8838,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 30.48 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -8870,7 +8871,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 30.48 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -9152,7 +9153,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 186.69 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -9185,7 +9186,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 186.69 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -9389,7 +9390,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 203.2 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -9422,7 +9423,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 203.2 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -9548,7 +9549,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 104.14 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -9581,7 +9582,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 104.14 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -9707,7 +9708,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 25.4 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -9740,7 +9741,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 25.4 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -9866,7 +9867,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 99.06 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -9899,7 +9900,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 99.06 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -10025,7 +10026,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 147.32 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -10058,7 +10059,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 147.32 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -10262,7 +10263,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 26.67 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -10295,7 +10296,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 26.67 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -10421,7 +10422,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 147.32 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -10454,7 +10455,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 147.32 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -10658,7 +10659,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 151.13 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -10691,7 +10692,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 151.13 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -10817,7 +10818,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 203.2 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -10850,7 +10851,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 203.2 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -10976,7 +10977,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 151.13 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -11009,7 +11010,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 151.13 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -11135,7 +11136,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4195694"
+		(property "LCSC" "C25804"
 			(at 99.06 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -11168,7 +11169,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNEC"
+		(property "MPN" "0603WAF1002T5E"
 			(at 99.06 45.72 0)
 			(hide yes)
 			(show_name no)

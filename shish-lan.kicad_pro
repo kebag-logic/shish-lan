@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.0,
-          "height": 1.7,
-          "width": 1.7
+          "drill": 0.0,
+          "height": 1.5,
+          "width": 0.2
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -178,6 +178,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -189,6 +190,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -200,6 +202,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -497,6 +500,7 @@
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
+      "same_local_global_power": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
@@ -565,217 +569,19 @@
     "meta": {
       "version": 5
     },
-    "net_colors": null,
+    "net_colors": {},
     "netclass_assignments": {
-      "+1V1": [
-        "PWR"
-      ],
-      "+1V15": [
-        "PWR"
-      ],
-      "+2V5": [
-        "PWR"
-      ],
       "+3V3": [
         "PWR"
       ],
       "/5-12V_INPUT": [
         "PWR"
       ],
-      "/buck_1V1/1V1": [
-        "1V1_BUCK"
-      ],
-      "/buck_1V1/5-12V": [
-        "5-12V_IN"
-      ],
-      "/buck_1V1/GND": [
-        "GND_BUCK"
-      ],
-      "/buck_2V5/2V5": [
-        "2V5_BUCK"
-      ],
-      "/buck_2V5/5-12V": [
-        "5-12V_IN"
-      ],
-      "/buck_2V5/GND": [
-        "GND_BUCK"
-      ],
-      "/buck_3V3/3V3": [
-        "3V3_BUCK"
-      ],
-      "/buck_3V3/5-12V": [
-        "5-12V_IN"
-      ],
-      "/buck_3V3/GND": [
-        "GND_BUCK"
-      ],
-      "/controller/RGMII.RXCTL-CRS_DV": [
-        "RGMII"
-      ],
-      "/controller/RGMII.RXD0": [
-        "RGMII"
-      ],
-      "/controller/RGMII.RXD1": [
-        "RGMII"
-      ],
-      "/controller/RGMII.TXCLK": [
-        "RGMII"
-      ],
-      "/controller/RGMII.TXCTL-TX_DV": [
-        "RGMII"
-      ],
-      "/controller/RGMII.TXD0": [
-        "RGMII"
-      ],
-      "/controller/RGMII.TXD1": [
-        "RGMII"
-      ],
-      "/controller/RGMII1_STM_SWITCH.RXD0": [
-        "RGMII"
-      ],
-      "/controller/RGMII1_STM_SWITCH.RXD1": [
-        "RGMII"
-      ],
-      "/controller/RGMII1_STM_SWITCH.RXD2": [
-        "RGMII"
-      ],
-      "/controller/RGMII1_STM_SWITCH.RXD3": [
-        "RGMII"
-      ],
-      "/controller/RGMII1_STM_SWITCH.RX_CLK": [
-        "RGMII"
-      ],
-      "/controller/RGMII1_STM_SWITCH.RX_CTLR": [
-        "RGMII"
-      ],
-      "/controller/RGMII1_STM_SWITCH.TXD0": [
-        "RGMII"
-      ],
-      "/controller/RGMII1_STM_SWITCH.TXD1": [
-        "RGMII"
-      ],
-      "/controller/RGMII1_STM_SWITCH.TXD2": [
-        "RGMII"
-      ],
-      "/controller/RGMII1_STM_SWITCH.TXD3": [
-        "RGMII"
-      ],
-      "/controller/RGMII1_STM_SWITCH.TX_CLK": [
-        "RGMII"
-      ],
-      "/controller/RGMII1_STM_SWITCH.TX_CTLR": [
-        "RGMII"
-      ],
-      "/controller/RGMII1_STM_SWITCH{TXD[0..3], TX_CLK, TX_CTLR, RXD[0..3], RX_CLK, RX_CTLR}": [
-        "RGMII"
-      ],
-      "/controller/RGMII1_SWITCH_STM.RXCTL-CRS_DV": [
-        "RGMII"
-      ],
-      "/controller/RGMII1_SWITCH_STM.RXD0": [
-        "RGMII"
-      ],
-      "/controller/RGMII1_SWITCH_STM.RXD1": [
-        "RGMII"
-      ],
-      "/controller/RGMII1_SWITCH_STM.RXD2": [
-        "RGMII"
-      ],
-      "/controller/RGMII1_SWITCH_STM.RXD3": [
-        "RGMII"
-      ],
-      "/controller/RGMII1_SWITCH_STM.RX_CLK": [
-        "RGMII"
-      ],
-      "/controller/RGMII1_SWITCH_STM.RX_CTLR": [
-        "RGMII"
-      ],
-      "/controller/RGMII1_SWITCH_STM.TXC-REFCLK": [
-        "RGMII"
-      ],
-      "/controller/RGMII1_SWITCH_STM.TXCTL-DX_DV": [
-        "RGMII"
-      ],
-      "/controller/RGMII1_SWITCH_STM.TXD0": [
-        "RGMII"
-      ],
-      "/controller/RGMII1_SWITCH_STM.TXD1": [
-        "RGMII"
-      ],
-      "/controller/RGMII1_SWITCH_STM.TXD2": [
-        "RGMII"
-      ],
-      "/controller/RGMII1_SWITCH_STM.TXD3": [
-        "RGMII"
-      ],
-      "/controller/RGMII1_SWITCH_STM.TX_CLK": [
-        "RGMII"
-      ],
-      "/controller/RGMII1_SWITCH_STM.TX_CTLR": [
-        "RGMII"
-      ],
-      "/controller/RGMII1_SWITCH_STM{TXD[0..3], TXC-REFCLK, TXCTL-DX_DV, RXD[0..3], RX_CLK, RXCTL-CRS_DV}": [
-        "RGMII"
-      ],
-      "/controller/RGMII1_SWITCH_STM{TXD[0..3], TX_CLK, TX_CTLR, RXD[0..3], RX_CLK, RX_CTLR}": [
-        "RGMII"
-      ],
-      "/controller/RGMII{TXCLK RXCTL-CRS_DV TXCTL-TX_DV TXD[0..1] RXD[0..1]}": [
-        "RGMII"
-      ],
       "/switch/1V15_BUCK-OUT": [
-        "PWR"
-      ],
-      "/switch/2V5": [
         "PWR"
       ],
       "/switch/2V5_BUCK-OUT": [
         "PWR"
-      ],
-      "/switch/3V3": [
-        "PWR"
-      ],
-      "/switch/5-12V_INPUT": [
-        "PWR"
-      ],
-      "/switch/RGMII.RXD0": [
-        "RGMII"
-      ],
-      "/switch/RGMII.RXD1": [
-        "RGMII"
-      ],
-      "/switch/RGMII.RXD2": [
-        "RGMII"
-      ],
-      "/switch/RGMII.RXD3": [
-        "RGMII"
-      ],
-      "/switch/RGMII.RX_CLK": [
-        "RGMII"
-      ],
-      "/switch/RGMII.RX_CTLR": [
-        "RGMII"
-      ],
-      "/switch/RGMII.TXD0": [
-        "RGMII"
-      ],
-      "/switch/RGMII.TXD1": [
-        "RGMII"
-      ],
-      "/switch/RGMII.TXD2": [
-        "RGMII"
-      ],
-      "/switch/RGMII.TXD3": [
-        "RGMII"
-      ],
-      "/switch/RGMII.TX_CLK": [
-        "RGMII"
-      ],
-      "/switch/RGMII.TX_CTLR": [
-        "RGMII"
-      ],
-      "/switch/RGMII{TXD[0..3], TX_CLK, TX_CTLR, RXD[0..3], RX_CLK, RX_CTLR}": [
-        "RGMII"
       ],
       "/switch/switch_gpios/BOOT_MODE0": [
         "RGMII"
@@ -790,84 +596,6 @@
         "RGMII"
       ],
       "/switch/switch_gpios/MGMT_MODE1": [
-        "RGMII"
-      ],
-      "/switch/switch_gpios/RGMII0.RXD0": [
-        "RGMII"
-      ],
-      "/switch/switch_gpios/RGMII0.RXD1": [
-        "RGMII"
-      ],
-      "/switch/switch_gpios/RGMII0.RXD2": [
-        "RGMII"
-      ],
-      "/switch/switch_gpios/RGMII0.RXD3": [
-        "RGMII"
-      ],
-      "/switch/switch_gpios/RGMII0.RX_CLK": [
-        "RGMII"
-      ],
-      "/switch/switch_gpios/RGMII0.RX_CTLR": [
-        "RGMII"
-      ],
-      "/switch/switch_gpios/RGMII0.TXD0": [
-        "RGMII"
-      ],
-      "/switch/switch_gpios/RGMII0.TXD1": [
-        "RGMII"
-      ],
-      "/switch/switch_gpios/RGMII0.TXD2": [
-        "RGMII"
-      ],
-      "/switch/switch_gpios/RGMII0.TXD3": [
-        "RGMII"
-      ],
-      "/switch/switch_gpios/RGMII0.TX_CLK": [
-        "RGMII"
-      ],
-      "/switch/switch_gpios/RGMII0.TX_CTLR": [
-        "RGMII"
-      ],
-      "/switch/switch_gpios/RGMII0{TXD[0..3], TX_CLK, TX_CTLR, RXD[0..3], RX_CLK, RX_CTLR}": [
-        "RGMII"
-      ],
-      "/switch/switch_gpios/RGMII1.RXD0": [
-        "RGMII"
-      ],
-      "/switch/switch_gpios/RGMII1.RXD1": [
-        "RGMII"
-      ],
-      "/switch/switch_gpios/RGMII1.RXD2": [
-        "RGMII"
-      ],
-      "/switch/switch_gpios/RGMII1.RXD3": [
-        "RGMII"
-      ],
-      "/switch/switch_gpios/RGMII1.RX_CLK": [
-        "RGMII"
-      ],
-      "/switch/switch_gpios/RGMII1.RX_CTLR": [
-        "RGMII"
-      ],
-      "/switch/switch_gpios/RGMII1.TXD0": [
-        "RGMII"
-      ],
-      "/switch/switch_gpios/RGMII1.TXD1": [
-        "RGMII"
-      ],
-      "/switch/switch_gpios/RGMII1.TXD2": [
-        "RGMII"
-      ],
-      "/switch/switch_gpios/RGMII1.TXD3": [
-        "RGMII"
-      ],
-      "/switch/switch_gpios/RGMII1.TX_CLK": [
-        "RGMII"
-      ],
-      "/switch/switch_gpios/RGMII1.TX_CTLR": [
-        "RGMII"
-      ],
-      "/switch/switch_gpios/RGMII1{TXD[0..3], TX_CLK, TX_CTLR, RXD[0..3], RX_CLK, RX_CTLR}": [
         "RGMII"
       ],
       "/switch/switch_gpios/SD_125M": [
@@ -894,279 +622,7 @@
       "/switch/switch_power/VDD_SERDES": [
         "PWR"
       ],
-      "/switch_lan96455F/1V1": [
-        "1V1_BUCK",
-        "PWR"
-      ],
-      "/switch_lan96455F/1V15": [
-        "PWR"
-      ],
-      "/switch_lan96455F/1V1_EN": [
-        "BUCK_ENABLE"
-      ],
-      "/switch_lan96455F/2V5": [
-        "PWR"
-      ],
-      "/switch_lan96455F/2V5_EN": [
-        "BUCK_ENABLE"
-      ],
-      "/switch_lan96455F/3V3": [
-        "PWR"
-      ],
-      "/switch_lan96455F/3V3_EN": [
-        "BUCK_ENABLE"
-      ],
-      "/switch_lan96455F/5-12V_INPUT": [
-        "PWR"
-      ],
-      "/switch_lan96455F/GND": [
-        "GND"
-      ],
-      "/switch_lan96455F/RGMII.RXD0": [
-        "RGMII"
-      ],
-      "/switch_lan96455F/RGMII.RXD1": [
-        "RGMII"
-      ],
-      "/switch_lan96455F/RGMII.RXD2": [
-        "RGMII"
-      ],
-      "/switch_lan96455F/RGMII.RXD3": [
-        "RGMII"
-      ],
-      "/switch_lan96455F/RGMII.RX_CLK": [
-        "RGMII"
-      ],
-      "/switch_lan96455F/RGMII.RX_CTLR": [
-        "RGMII"
-      ],
-      "/switch_lan96455F/RGMII.TXD0": [
-        "RGMII"
-      ],
-      "/switch_lan96455F/RGMII.TXD1": [
-        "RGMII"
-      ],
-      "/switch_lan96455F/RGMII.TXD2": [
-        "RGMII"
-      ],
-      "/switch_lan96455F/RGMII.TXD3": [
-        "RGMII"
-      ],
-      "/switch_lan96455F/RGMII.TX_CLK": [
-        "RGMII"
-      ],
-      "/switch_lan96455F/RGMII.TX_CTLR": [
-        "RGMII"
-      ],
-      "/switch_lan96455F/RGMII{TXD[0..3], TX_CLK, TX_CTLR, RXD[0..3], RX_CLK, RX_CTLR}": [
-        "RGMII"
-      ],
-      "/switch_lan96455F/switch_buck_1v1/1V1": [
-        "1V1_BUCK"
-      ],
-      "/switch_lan96455F/switch_buck_1v1/5-12V": [
-        "5-12V_IN"
-      ],
-      "/switch_lan96455F/switch_buck_1v1/EN": [
-        "BUCK_ENABLE"
-      ],
-      "/switch_lan96455F/switch_buck_1v1/GND": [
-        "GND",
-        "GND_BUCK"
-      ],
-      "/switch_lan96455F/switch_buck_2v5/2V5": [
-        "2V5_BUCK"
-      ],
-      "/switch_lan96455F/switch_buck_2v5/5-12V": [
-        "5-12V_IN"
-      ],
-      "/switch_lan96455F/switch_buck_2v5/EN": [
-        "BUCK_ENABLE"
-      ],
-      "/switch_lan96455F/switch_buck_2v5/GND": [
-        "GND_BUCK"
-      ],
-      "/switch_lan96455F/switch_buck_3v3/3V3": [
-        "3V3_BUCK"
-      ],
-      "/switch_lan96455F/switch_buck_3v3/5-12V": [
-        "5-12V_IN"
-      ],
-      "/switch_lan96455F/switch_buck_3v3/EN": [
-        "BUCK_ENABLE"
-      ],
-      "/switch_lan96455F/switch_buck_3v3/GND": [
-        "GND_BUCK"
-      ],
-      "/switch_lan96455F/switch_decoupling/GND": [
-        "GND"
-      ],
-      "/switch_lan96455F/switch_gpios/RGMII0.RXD0": [
-        "RGMII"
-      ],
-      "/switch_lan96455F/switch_gpios/RGMII0.RXD1": [
-        "RGMII"
-      ],
-      "/switch_lan96455F/switch_gpios/RGMII0.RXD2": [
-        "RGMII"
-      ],
-      "/switch_lan96455F/switch_gpios/RGMII0.RXD3": [
-        "RGMII"
-      ],
-      "/switch_lan96455F/switch_gpios/RGMII0.RX_CLK": [
-        "RGMII"
-      ],
-      "/switch_lan96455F/switch_gpios/RGMII0.RX_CTLR": [
-        "RGMII"
-      ],
-      "/switch_lan96455F/switch_gpios/RGMII0.TXD0": [
-        "RGMII"
-      ],
-      "/switch_lan96455F/switch_gpios/RGMII0.TXD1": [
-        "RGMII"
-      ],
-      "/switch_lan96455F/switch_gpios/RGMII0.TXD2": [
-        "RGMII"
-      ],
-      "/switch_lan96455F/switch_gpios/RGMII0.TXD3": [
-        "RGMII"
-      ],
-      "/switch_lan96455F/switch_gpios/RGMII0.TX_CLK": [
-        "RGMII"
-      ],
-      "/switch_lan96455F/switch_gpios/RGMII0.TX_CTLR": [
-        "RGMII"
-      ],
-      "/switch_lan96455F/switch_gpios/RGMII0{TXD[0..3], TX_CLK, TX_CTLR, RXD[0..3], RX_CLK, RX_CTLR}": [
-        "RGMII"
-      ],
-      "/switch_lan96455F/switch_gpios/RGMII1.RXD0": [
-        "RGMII"
-      ],
-      "/switch_lan96455F/switch_gpios/RGMII1.RXD1": [
-        "RGMII"
-      ],
-      "/switch_lan96455F/switch_gpios/RGMII1.RXD2": [
-        "RGMII"
-      ],
-      "/switch_lan96455F/switch_gpios/RGMII1.RXD3": [
-        "RGMII"
-      ],
-      "/switch_lan96455F/switch_gpios/RGMII1.RX_CLK": [
-        "RGMII"
-      ],
-      "/switch_lan96455F/switch_gpios/RGMII1.RX_CTLR": [
-        "RGMII"
-      ],
-      "/switch_lan96455F/switch_gpios/RGMII1.TXD0": [
-        "RGMII"
-      ],
-      "/switch_lan96455F/switch_gpios/RGMII1.TXD1": [
-        "RGMII"
-      ],
-      "/switch_lan96455F/switch_gpios/RGMII1.TXD2": [
-        "RGMII"
-      ],
-      "/switch_lan96455F/switch_gpios/RGMII1.TXD3": [
-        "RGMII"
-      ],
-      "/switch_lan96455F/switch_gpios/RGMII1.TX_CLK": [
-        "RGMII"
-      ],
-      "/switch_lan96455F/switch_gpios/RGMII1.TX_CTLR": [
-        "RGMII"
-      ],
-      "/switch_lan96455F/switch_gpios/RGMII1{TXD[0..3], TX_CLK, TX_CTLR, RXD[0..3], RX_CLK, RX_CTLR}": [
-        "RGMII"
-      ],
-      "/switch_lan96455F/switch_power/VDDIO_PHY_AH": [
-        "PWR"
-      ],
-      "/switch_lan96455F/switch_power/VDDIO_PHY_AHS": [
-        "PWR"
-      ],
-      "/switch_lan96455F/switch_power/VDD_PHYS": [
-        "PWR"
-      ],
-      "/switch_lan96455F/switch_power/VDD_SERDES": [
-        "PWR"
-      ],
-      "Net-(C100-Pad2)": [
-        "GND"
-      ],
-      "Net-(C101-Pad2)": [
-        "GND"
-      ],
-      "Net-(C102-Pad2)": [
-        "GND"
-      ],
-      "Net-(C19-Pad2)": [
-        "GND_BUCK"
-      ],
-      "Net-(C22-Pad1)": [
-        "1V1_BUCK"
-      ],
-      "Net-(C22-Pad2)": [
-        "GND_BUCK"
-      ],
-      "Net-(C25-Pad2)": [
-        "GND_BUCK"
-      ],
-      "Net-(C26-Pad1)": [
-        "3V3_BUCK"
-      ],
-      "Net-(C28-Pad1)": [
-        "2V5_BUCK"
-      ],
-      "Net-(C28-Pad2)": [
-        "GND_BUCK_OUT"
-      ],
-      "Net-(C67-Pad2)": [
-        "GND_BUCK"
-      ],
-      "Net-(C68-Pad2)": [
-        "GND_BUCK"
-      ],
-      "Net-(C70-Pad2)": [
-        "GND_BUCK"
-      ],
-      "Net-(C76-Pad1)": [
-        "1V1_BUCK"
-      ],
-      "Net-(C76-Pad2)": [
-        "GND_BUCK"
-      ],
-      "Net-(C79-Pad2)": [
-        "GND_BUCK"
-      ],
-      "Net-(C81-Pad1)": [
-        "2V5_BUCK"
-      ],
-      "Net-(C82-Pad2)": [
-        "GND_BUCK_OUT"
-      ],
-      "Net-(C86-Pad2)": [
-        "GND_BUCK"
-      ],
-      "Net-(C88-Pad1)": [
-        "3V3_BUCK"
-      ],
-      "Net-(C89-Pad2)": [
-        "GND_BUCK"
-      ],
       "Net-(FB1-Pad2)": [
-        "PWR"
-      ],
-      "Net-(R89-Pad1)": [
-        "PWR"
-      ],
-      "Net-(U1-VIN)": [
-        "5-12V_IN"
-      ],
-      "Net-(U2-VIN)": [
-        "PWR"
-      ],
-      "Net-(U3-VIN)": [
         "PWR"
       ],
       "Net-(U4-PB12)": [
@@ -1175,62 +631,8 @@
       "Net-(U4-PB13)": [
         "RGMII"
       ],
-      "Net-(U4-VIN)": [
-        "5-12V_IN"
-      ],
       "Net-(U5-VIN)": [
         "PWR"
-      ],
-      "Net-(U6-VIN)": [
-        "PWR"
-      ],
-      "unconnected-(R10-Pad2)": [
-        "GND_BUCK"
-      ],
-      "unconnected-(R12-Pad2)": [
-        "GND_BUCK"
-      ],
-      "unconnected-(R16-Pad2)": [
-        "GND_BUCK"
-      ],
-      "unconnected-(R2-Pad2)": [
-        "GND_BUCK"
-      ],
-      "unconnected-(R20-Pad2)": [
-        "GND_BUCK"
-      ],
-      "unconnected-(R24-Pad2)": [
-        "GND_BUCK"
-      ],
-      "unconnected-(R4-Pad2)": [
-        "GND_BUCK"
-      ],
-      "unconnected-(R6-Pad2)": [
-        "GND_BUCK"
-      ],
-      "unconnected-(R8-Pad2)": [
-        "GND_BUCK"
-      ],
-      "unconnected-(U2-GND-Pad3)": [
-        "GND_BUCK"
-      ],
-      "unconnected-(U3-GND-Pad3)": [
-        "GND_BUCK"
-      ],
-      "unconnected-(U4-EN-Pad5)": [
-        "BUCK_ENABLE"
-      ],
-      "unconnected-(U5-EN-Pad5)": [
-        "BUCK_ENABLE"
-      ],
-      "unconnected-(U5-GND-Pad3)": [
-        "GND_BUCK"
-      ],
-      "unconnected-(U6-EN-Pad5)": [
-        "BUCK_ENABLE"
-      ],
-      "unconnected-(U6-GND-Pad3)": [
-        "GND_BUCK"
       ]
     },
     "netclass_patterns": [

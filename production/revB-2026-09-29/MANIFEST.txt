@@ -1,0 +1,24 @@
+shish-lan rev B - production files (JLCPCB, 6 layers)
+Generated: 2026-09-29 from branch 108-revb-assembly-prepare-pcb-from-schmetics
+Board: shish-lan.kicad_pcb committed with these files on the same branch  |  board sha256: 61287248bdc1484f...
+BOM updated 2026-11-16 (JLCPCB part numbers only; Gerbers and CPL unchanged, re-export compared equal):
+  10K C4195694 -> C25804 (0603WAF1002T5E)      22R C4168692 -> C23345 (0603WAF220JT5E)
+  20K R125 C308212 -> C4184 (0603WAF2002T5E)   10R R71 C2492541 -> C861082 (RT0603BRD0710RL, 0.1%)
+  0R 2512 R23/R108 C2778666 -> C6538168 (same part)   D4 C125093 -> C125094 (LTST-C190KGKT)
+  L1/L3 Eaton EXLA1V0603-3R3-R -> cjiang FEXL0630A-3R3M C5378529 (same land pattern and ratings)
+  L2 Bourns SRP7050WA-1R5M -> TDK SPM6530T-1R5M100 C76854 (lands fit inside the existing pads)
+  Board file now sha256 b7dec7aa55df0924... (footprint part-number fields only)
+Checks: DRC 0 errors, 0 unconnected, schematic parity 0; 5 waived warnings (J1/J12 silk at board edge, logo courtyard)
+
+Upload to JLCPCB:
+  shish-lan-revB-gerbers.zip  PCB: F/In1/In2/In3/In4/B copper, masks, paste, silk, Edge.Cuts, PTH + NPTH drill
+  BOM-shish-lan.csv           assembly BOM, 33 lines / 202 parts, DNP excluded, J12 removed (hand solder)
+  CPL-shish-lan.csv           placement, 202 parts, top side, mm (test points, mounting holes, J12 removed)
+
+Open points before ordering:
+  - U1 LAN96455F-I/8MW: no LCSC part, order via JLC Global Sourcing (MPN in BOM)
+  - J1 RJ45 Bel 0826-1X4T-43-F (C6776265): not in the JLCPCB catalogue, Global Sourcing or hand solder
+  - U4 STM32H742VGT6 (C730175): low stock, check on the order day
+  - J12 DC jack (Wuerth 694108301002): hand solder, not in BOM/CPL
+  - THT parts (J1 RJ45, J4, J5, J7, J9, J10, J11): need JLC THT assembly option, else hand solder
+  - Check every rotation in JLCPCB "Component Placements" preview
